@@ -1,0 +1,43 @@
+name: close-signal-collector
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 */6 * * *"
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run collector
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+
+          CLOSE_SIGNAL_SOURCE_KEY: ${{ secrets.CLOSE_SIGNAL_SOURCE_KEY }}
+          CLOSE_SIGNAL_SOURCE_DATA_URL: ${{ secrets.CLOSE_SIGNAL_SOURCE_DATA_URL }}
+          CLOSE_SIGNAL_SOURCE_FORMAT: ${{ secrets.CLOSE_SIGNAL_SOURCE_FORMAT }}
+
+          CLOSE_SIGNAL_SERVICE_KEY: ${{ secrets.CLOSE_SIGNAL_SERVICE_KEY }}
+          CLOSE_SIGNAL_DATE_KEY: ${{ secrets.CLOSE_SIGNAL_DATE_KEY }}
+          CLOSE_SIGNAL_PAGE_NO: ${{ secrets.CLOSE_SIGNAL_PAGE_NO }}
+          CLOSE_SIGNAL_NUM_OF_ROWS: ${{ secrets.CLOSE_SIGNAL_NUM_OF_ROWS }}
+
+          CLOSE_SIGNAL_SOURCE_AUTH_HEADER: ${{ secrets.CLOSE_SIGNAL_SOURCE_AUTH_HEADER }}
+          CLOSE_SIGNAL_SOURCE_AUTH_TOKEN: ${{ secrets.CLOSE_SIGNAL_SOURCE_AUTH_TOKEN }}
+
+          CLOSE_SIGNAL_REQUEST_TIMEOUT_MS: "60000"
+          CLOSE_SIGNAL_BATCH_SIZE: "500"
+        run: npx tsx collector/close-signal-collector.ts
