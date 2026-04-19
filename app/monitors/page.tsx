@@ -1,4 +1,5 @@
 import Link from "next/link";
+import type { ReactNode } from "react";
 import { createClient } from "@/lib/supabase/server";
 
 type AnyRow = Record<string, unknown>;
@@ -38,8 +39,8 @@ function formatDate(value: unknown) {
     value instanceof Date
       ? value
       : typeof value === "string" && value.trim()
-      ? new Date(value)
-      : null;
+        ? new Date(value)
+        : null;
 
   if (!date || Number.isNaN(date.getTime())) return "-";
 
@@ -55,8 +56,8 @@ function formatRelativeDays(value: unknown) {
     value instanceof Date
       ? value
       : typeof value === "string" && value.trim()
-      ? new Date(value)
-      : null;
+        ? new Date(value)
+        : null;
 
   if (!date || Number.isNaN(date.getTime())) return "갱신 기록 없음";
 
@@ -340,15 +341,38 @@ function summaryLineOf(input: {
 async function getMonitorRows() {
   const supabase = (await createClient()) as any;
 
-  for (const tableName of ["monitors", "business_monitors", "monitor_targets"]) {
+  for (const tableName of [
+    "external_intel_targets",
+    "monitors",
+    "business_monitors",
+    "monitor_targets",
+  ]) {
     try {
-      const { data, error } = await supabase.from(tableName).select("*").limit(FETCH_LIMIT);
-      if (!error && Array.isArray(data)) {
+      const { data, error } = await supabase
+        .from(tableName)
+        .select("*")
+        .limit(FETCH_LIMIT);
+
+      if (!error && Array.isArray(data) && data.length > 0) {
         return [...data].sort((a: AnyRow, b: AnyRow) => {
           const ta =
-            asDateValue(a.updated_at, a.last_refreshed_at, a.created_at)?.getTime() ?? 0;
+            asDateValue(
+              a.updated_at,
+              a.last_refreshed_at,
+              a.created_at,
+            )?.getTime() ??
+            asNumber(a.id) ??
+            0;
+
           const tb =
-            asDateValue(b.updated_at, b.last_refreshed_at, b.created_at)?.getTime() ?? 0;
+            asDateValue(
+              b.updated_at,
+              b.last_refreshed_at,
+              b.created_at,
+            )?.getTime() ??
+            asNumber(b.id) ??
+            0;
+
           return tb - ta;
         }) as AnyRow[];
       }
@@ -403,7 +427,7 @@ function SmallChip({
   children,
   tone = "border-slate-200 bg-white text-slate-600",
 }: {
-  children: React.ReactNode;
+  children: ReactNode;
   tone?: string;
 }) {
   return (
@@ -549,15 +573,17 @@ export default async function MonitorsPage() {
     const title = monitorNameOf(monitorRow);
     const regionName = regionNameOf(monitorRow) ?? regionNameOf(cardRow ?? {}) ?? regionCode;
     const categoryName =
-      categoryNameOf(monitorRow) ?? categoryNameOf(cardRow ?? {}) ?? (categoryId ? String(categoryId) : null);
+      categoryNameOf(monitorRow) ??
+      categoryNameOf(cardRow ?? {}) ??
+      (categoryId ? String(categoryId) : null);
     const address = addressOf(monitorRow) ?? addressOf(cardRow ?? {}) ?? null;
 
     const detailHref =
       regionCode && categoryId
         ? `/regions/${encodeURIComponent(regionCode)}/${categoryId}`
         : monitorId !== null
-        ? `/monitors/${monitorId}`
-        : "#";
+          ? `/monitors/${monitorId}`
+          : "#";
 
     return {
       monitorId,
@@ -681,8 +707,8 @@ export default async function MonitorsPage() {
           <section className="rounded-[28px] border border-dashed border-sky-200 bg-white px-6 py-14 text-center shadow-sm">
             <div className="text-xl font-semibold text-slate-950">표시할 모니터가 없습니다.</div>
             <p className="mt-2 text-sm leading-6 text-slate-500">
-              현재 DB에 저장된 monitor row가 없거나, 로컬 페이지가 아직 실제 테이블에 연결되지
-              않았습니다.
+              현재 DB에 저장된 monitor row가 없거나, 실제 테이블에 연결된 모니터 대상 데이터가
+              아직 없습니다.
             </p>
           </section>
         ) : (
