@@ -231,9 +231,16 @@ function normalizePeriod(raw: unknown, cycle: 'M' | 'Q' | 'A', fallback: string)
     if (q1) {
       return `${q1[1]}-Q${q1[2]}`
     }
+
     const q2 = text.match(/^(\d{4})년?\s*([1-4])분기$/)
     if (q2) {
       return `${q2[1]}-Q${q2[2]}`
+    }
+
+    // KOSIS quarterly PRD_DE like 202501, 202502, 202503, 202504
+    const q3 = text.match(/^(\d{4})(0[1-4])$/)
+    if (q3) {
+      return `${q3[1]}-Q${Number(q3[2])}`
     }
   }
 
@@ -330,7 +337,57 @@ function replaceTemplates(value: Json, context: Record<string, string | null>): 
   return value
 }
 
-function buildUrl(job: CollectJob) {
+function toStringValue(value: unknown, fallback = '') {
+  if (typeof value === 'string') return value
+  if (typeof value === 'number' && Number.isFinite(value)) return String(value)
+  return fallback
+}
+
+function toNullableString(value: unknown) {
+  const text = toStringValue(value, '').trim()
+  return text ? text : null
+}
+
+function toBooleanValue(value: unknown, fallback = false) {
+  if (typeof value === 'boolean') return value
+  if (typeof value === 'string') {
+    if (value.toLowerCase() === 'true') return true
+    if (value.toLowerCase() === 'false') return false
+  }
+  return fallback
+}
+
+function toNumberValue(value: unknown, fallback = 0) {
+  if (typeof value === 'number' && Number.isFinite(value)) return value
+  if (typeof value === 'string') {
+    const parsed = Number(value)
+    if (Number.isFinite(parsed)) return parsed
+  }
+  return fallback
+}
+
+function toCycleValue(value: unknown): 'M' | 'Q' | 'A' {
+  const text = toStringValue(value, 'M')
+  if (text === 'Q' || text === 'A') return text
+  return 'M'
+}
+
+function toLevelValue(value: unknown): 'sido' | 'sigungu' | 'emd' {
+  const text = toStringValue(value, 'sido')
+  if (text === 'sigungu' || text === 'emd') return text
+  return 'sido'
+}
+
+function toTextArray(value: unknown): string[] {
+  if (!Array.isArray(value)) return []
+  return value.map((item) => String(item))
+}
+
+function toJsonRecord(value: unknown): Record<string, Json> {
+  return isRecord(value) ? value : {}
+}
+
+function resolveRequestParamsForJob(job: CollectJob) {
   const context = {
     REGION_CODE: job.region.kosis_region_code,
     CATEGORY_CODE: job.kosis_class_code,
@@ -340,7 +397,12 @@ function buildUrl(job: CollectJob) {
     API_KEY: KOSIS_API_KEY,
   }
 
-  const requestParams = replaceTemplates(job.catalog.request_params as Json, context)
+  const replaced = replaceTemplates(job.catalog.request_params as Json, context)
+  return isRecord(replaced) ? replaced : {}
+}
+
+function buildUrl(job: CollectJob) {
+  const requestParams = resolveRequestParamsForJob(job)
   const url = new URL(job.catalog.endpoint_path, KOSIS_BASE_URL)
 
   const mergedParams: Record<string, Json> = {
@@ -349,7 +411,7 @@ function buildUrl(job: CollectJob) {
     format: 'json',
     jsonVD: 'Y',
     tblId: job.catalog.table_id,
-    ...(isRecord(requestParams) ? requestParams : {}),
+    ...requestParams,
   }
 
   for (const [key, value] of Object.entries(mergedParams)) {
@@ -451,7 +513,32 @@ async function loadCatalog(args: ParsedArgs) {
     throw new Error(`failed to load kosis_indicator_catalog: ${error.message}`)
   }
 
-  return (data ?? []) as CatalogRow[]
+  return (data ?? []).map((row) => {
+    const r = row as unknown as Record<string, unknown>
+
+    return {
+      indicator_key: toStringValue(r.indicator_key),
+      stage: toNumberValue(r.stage, 1),
+      title: toStringValue(r.title),
+      description: toNullableString(r.description),
+      source_group: toStringValue(r.source_group, 'kosis'),
+      endpoint_path: toStringValue(
+        r.endpoint_path,
+        '/openapi/Param/statisticsParameterData.do',
+      ),
+      table_id: toStringValue(r.table_id),
+      cycle: toCycleValue(r.cycle),
+      value_unit: toNullableString(r.value_unit),
+      region_required: toBooleanValue(r.region_required, true),
+      category_required: toBooleanValue(r.category_required, false),
+      request_params: toJsonRecord(r.request_params),
+      response_data_path: toTextArray(r.response_data_path),
+      period_field: toStringValue(r.period_field, 'PRD_DE'),
+      value_field: toStringValue(r.value_field, 'DT'),
+      label_field: toStringValue(r.label_field, 'C1_NM'),
+      is_active: toBooleanValue(r.is_active, false),
+    }
+  })
 }
 
 async function loadRegionMaps(args: ParsedArgs) {
@@ -470,7 +557,17 @@ async function loadRegionMaps(args: ParsedArgs) {
     throw new Error(`failed to load region_kosis_map: ${error.message}`)
   }
 
-  return (data ?? []) as RegionMapRow[]
+  return (data ?? []).map((row) => {
+    const r = row as unknown as Record<string, unknown>
+
+    return {
+      region_code: toStringValue(r.region_code),
+      region_name: toNullableString(r.region_name),
+      kosis_region_code: toStringValue(r.kosis_region_code),
+      level: toLevelValue(r.level),
+      fallback_region_code: toNullableString(r.fallback_region_code),
+    }
+  })
 }
 
 async function loadCategoryMaps(catalog: CatalogRow[], args: ParsedArgs) {
@@ -499,7 +596,17 @@ async function loadCategoryMaps(catalog: CatalogRow[], args: ParsedArgs) {
     throw new Error(`failed to load category_kosis_map: ${error.message}`)
   }
 
-  return (data ?? []) as CategoryMapRow[]
+  return (data ?? []).map((row) => {
+    const r = row as unknown as Record<string, unknown>
+
+    return {
+      category_id: toStringValue(r.category_id),
+      indicator_key: toStringValue(r.indicator_key),
+      kosis_class_code: toStringValue(r.kosis_class_code),
+      label: toNullableString(r.label),
+      weight: toNumberValue(r.weight, 1),
+    }
+  })
 }
 
 function buildJobs(
@@ -559,15 +666,50 @@ function toSourceValue(item: unknown) {
   }
 }
 
+function matchesRequestedRow(
+  record: Record<string, Json>,
+  requestParams: Record<string, Json>,
+) {
+  const itmId = String(requestParams.itmId ?? '').trim()
+  if (itmId && String(record.ITM_ID ?? '').trim() !== itmId) {
+    return false
+  }
+
+  const prdSe = String(requestParams.prdSe ?? '').trim()
+  if (prdSe && String(record.PRD_SE ?? '').trim() !== prdSe) {
+    return false
+  }
+
+  for (let i = 1; i <= 8; i += 1) {
+    const requestKey = `objL${i}`
+    const responseKey = `C${i}`
+
+    const requested = String(requestParams[requestKey] ?? '').trim()
+    if (!requested) continue
+
+    const actual = String(record[responseKey] ?? '').trim()
+    if (actual !== requested) {
+      return false
+    }
+  }
+
+  return true
+}
+
 function extractRawRows(job: CollectJob, payload: unknown) {
   const items = resolveDataArray(payload, job.catalog.response_data_path)
   const fallbackPeriod = job.endPeriod
   const collectedAt = new Date().toISOString()
+  const requestParams = resolveRequestParamsForJob(job)
 
-  const rows: RawUpsertRow[] = []
+  const deduped = new Map<string, RawUpsertRow>()
 
   for (const item of items) {
     const record = isRecord(item) ? item : { value: item as Json }
+
+    if (!matchesRequestedRow(record, requestParams)) {
+      continue
+    }
 
     const periodRaw = record[job.catalog.period_field]
     const valueRaw = record[job.catalog.value_field]
@@ -580,7 +722,7 @@ function extractRawRows(job: CollectJob, payload: unknown) {
     const label =
       labelRaw === null || labelRaw === undefined ? null : String(labelRaw)
 
-    rows.push({
+    const row: RawUpsertRow = {
       indicator_key: job.catalog.indicator_key,
       region_code: job.region.region_code,
       category_id: job.category_id,
@@ -594,10 +736,19 @@ function extractRawRows(job: CollectJob, payload: unknown) {
       source_region_code: job.region.kosis_region_code,
       source_class_code: job.kosis_class_code,
       collected_at: collectedAt,
-    })
+    }
+
+    const dedupeKey = [
+      row.indicator_key,
+      row.region_code,
+      row.category_id,
+      row.base_period,
+    ].join('|')
+
+    deduped.set(dedupeKey, row)
   }
 
-  return rows
+  return [...deduped.values()]
 }
 
 async function upsertRawRows(rows: RawUpsertRow[]) {
