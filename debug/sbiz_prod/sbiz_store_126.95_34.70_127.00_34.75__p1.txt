@@ -1,0 +1,344 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA010120220810178389"
+				,"bizesNm" : "숲속애농원"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G205"
+				,"indsMclsNm" : "식료품 소매"
+				,"indsSclsCd" : "G20509"
+				,"indsSclsNm" : "반찬/식료품 소매업"
+				,"ksicCd" : "G47219"
+				,"ksicNm" : "기타 식료품 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46800"
+				,"signguNm" : "장흥군"
+				,"adongCd" : "46800330"
+				,"adongNm" : "장동면"
+				,"ldongCd" : "4680033028"
+				,"ldongNm" : "장동면"
+				,"lnoCd" : "4680033028104270000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 427
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 장흥군 장동면 용곡리 427"
+				,"rdnmCd" : "468004676377"
+				,"rdnm" : "전라남도 장흥군 장동면 월곡길"
+				,"bldMnno" : 122
+				,"bldSlno" : 11
+				,"bldMngNo" : "4680033028104270000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 장흥군 장동면 월곡길 122-11"
+				,"oldZipcd" : "529831"
+				,"newZipcd" : "59308"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.952595737465
+				,"lat" : 34.7226388155782
+				}
+				,{
+				"bizesId" : "MA010120220810251740"
+				,"bizesNm" : "건강품은전라도흑염소"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G205"
+				,"indsMclsNm" : "식료품 소매"
+				,"indsSclsCd" : "G20503"
+				,"indsSclsNm" : "정육점"
+				,"ksicCd" : "G47212"
+				,"ksicNm" : "육류 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46800"
+				,"signguNm" : "장흥군"
+				,"adongCd" : "46800330"
+				,"adongNm" : "장동면"
+				,"ldongCd" : "4680033026"
+				,"ldongNm" : "장동면"
+				,"lnoCd" : "4680033026102610029"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 261
+				,"lnoSlno" : 29
+				,"lnoAdr" : "전라남도 장흥군 장동면 만년리 261-29"
+				,"rdnmCd" : "468004676142"
+				,"rdnm" : "전라남도 장흥군 장동면 두용산길"
+				,"bldMnno" : 35
+				,"bldSlno" : 41
+				,"bldMngNo" : "4680033026102610011000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 장흥군 장동면 두용산길 35-41"
+				,"oldZipcd" : "529831"
+				,"newZipcd" : "59308"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.952773185189
+				,"lat" : 34.7369715179963
+				}
+				,{
+				"bizesId" : "MA010120220803350477"
+				,"bizesNm" : "사구실농원"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G219"
+				,"indsMclsNm" : "식물 소매"
+				,"indsSclsCd" : "G21901"
+				,"indsSclsNm" : "꽃집"
+				,"ksicCd" : "G47851"
+				,"ksicNm" : "화초 및 식물 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46800"
+				,"signguNm" : "장흥군"
+				,"adongCd" : "46800330"
+				,"adongNm" : "장동면"
+				,"ldongCd" : "4680033028"
+				,"ldongNm" : "장동면"
+				,"lnoCd" : "4680033028102340000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 234
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 장흥군 장동면 용곡리 234"
+				,"rdnmCd" : "468004676007"
+				,"rdnm" : "전라남도 장흥군 장동면 거개길"
+				,"bldMnno" : 131
+				,"bldSlno" : 2
+				,"bldMngNo" : "4680033028102330000020416"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 장흥군 장동면 거개길 131-2"
+				,"oldZipcd" : "529831"
+				,"newZipcd" : "59308"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.958914258198
+				,"lat" : 34.7282479686083
+				}
+				,{
+				"bizesId" : "MA010120220802785454"
+				,"bizesNm" : "제암장의사"
+				,"brchNm" : ""
+				,"indsLclsCd" : "S2"
+				,"indsLclsNm" : "수리·개인"
+				,"indsMclsCd" : "S210"
+				,"indsMclsNm" : "장례식장 "
+				,"indsSclsCd" : "S21001"
+				,"indsSclsNm" : "장례식장"
+				,"ksicCd" : "S96921"
+				,"ksicNm" : "장례식장 및 장의관련 서비스업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46800"
+				,"signguNm" : "장흥군"
+				,"adongCd" : "46800330"
+				,"adongNm" : "장동면"
+				,"ldongCd" : "4680033026"
+				,"ldongNm" : "장동면"
+				,"lnoCd" : "4680033026100630000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 63
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 장흥군 장동면 만년리 63"
+				,"rdnmCd" : "468004676375"
+				,"rdnm" : "전라남도 장흥군 장동면 원만년2길"
+				,"bldMnno" : 55
+				,"bldSlno" : ""
+				,"bldMngNo" : "4680033026100630000019545"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 장흥군 장동면 원만년2길 55"
+				,"oldZipcd" : "529831"
+				,"newZipcd" : "59308"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.960371305492
+				,"lat" : 34.7408413281057
+				}
+				,{
+				"bizesId" : "MA010120220807796548"
+				,"bizesNm" : "감나무재"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46800"
+				,"signguNm" : "장흥군"
+				,"adongCd" : "46800330"
+				,"adongNm" : "장동면"
+				,"ldongCd" : "4680033027"
+				,"ldongNm" : "장동면"
+				,"lnoCd" : "4680033027100150000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 15
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 장흥군 장동면 하산리 15"
+				,"rdnmCd" : "468003017031"
+				,"rdnm" : "전라남도 장흥군 장동면 흥성로"
+				,"bldMnno" : 1310
+				,"bldSlno" : 24
+				,"bldMngNo" : "4680033027100150000019605"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 장흥군 장동면 흥성로 1310-24"
+				,"oldZipcd" : "529831"
+				,"newZipcd" : "59308"
+				,"dongNo" : ""
+				,"flrNo" : "1"
+				,"hoNo" : ""
+				,"lon" : 126.979515234446
+				,"lat" : 34.7361316137184
+				}
+				,{
+				"bizesId" : "MA010120220807864144"
+				,"bizesNm" : "들풀"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46780"
+				,"signguNm" : "보성군"
+				,"adongCd" : "46780400"
+				,"adongNm" : "웅치면"
+				,"ldongCd" : "4678040023"
+				,"ldongNm" : "웅치면"
+				,"lnoCd" : "4678040023104990000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 499
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 보성군 웅치면 대산리 499"
+				,"rdnmCd" : "467804670079"
+				,"rdnm" : "전라남도 보성군 웅치면 대산길"
+				,"bldMnno" : 265
+				,"bldSlno" : 4
+				,"bldMngNo" : "4678040023104990000061079"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 보성군 웅치면 대산길 265-4"
+				,"oldZipcd" : "546882"
+				,"newZipcd" : "59450"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.993691332503
+				,"lat" : 34.7001032024297
+				}
+				,{
+				"bizesId" : "MA010120220807815001"
+				,"bizesNm" : "장흥가스"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G214"
+				,"indsMclsNm" : "연료 소매"
+				,"indsSclsCd" : "G21403"
+				,"indsSclsNm" : "가정용 연료 소매업"
+				,"ksicCd" : "G47723"
+				,"ksicNm" : "가정용 가스 연료 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46800"
+				,"signguNm" : "장흥군"
+				,"adongCd" : "46800330"
+				,"adongNm" : "장동면"
+				,"ldongCd" : "4680033025"
+				,"ldongNm" : "장동면"
+				,"lnoCd" : "4680033025100090067"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 9
+				,"lnoSlno" : 67
+				,"lnoAdr" : "전라남도 장흥군 장동면 북교리 9-67"
+				,"rdnmCd" : "468004676268"
+				,"rdnm" : "전라남도 장흥군 장동면 신북1길"
+				,"bldMnno" : 25
+				,"bldSlno" : 1
+				,"bldMngNo" : "4680033025100090067019822"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 장흥군 장동면 신북1길 25-1"
+				,"oldZipcd" : "529832"
+				,"newZipcd" : "59307"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.994757878235
+				,"lat" : 34.7490686248237
+				}
+				,{
+				"bizesId" : "MA0106202210A2421661"
+				,"bizesNm" : "용두농업협동조합장동지점"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G214"
+				,"indsMclsNm" : "연료 소매"
+				,"indsSclsCd" : "G21401"
+				,"indsSclsNm" : "주유소"
+				,"ksicCd" : "G47711"
+				,"ksicNm" : "운송장비용 주유소 운영업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46800"
+				,"signguNm" : "장흥군"
+				,"adongCd" : "46800330"
+				,"adongNm" : "장동면"
+				,"ldongCd" : "4680033025"
+				,"ldongNm" : "장동면"
+				,"lnoCd" : "4680033025100070002"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 7
+				,"lnoSlno" : 2
+				,"lnoAdr" : "전라남도 장흥군 장동면 북교리 7-2"
+				,"rdnmCd" : "468004676268"
+				,"rdnm" : "전라남도 장흥군 장동면 신북1길"
+				,"bldMnno" : 30
+				,"bldSlno" : ""
+				,"bldMngNo" : "4680033025100070002019843"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 장흥군 장동면 신북1길 30"
+				,"oldZipcd" : "529832"
+				,"newZipcd" : "59307"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.99522748653
+				,"lat" : 34.7490416015096
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 1,
+		"totalCount" : 8	}
+}

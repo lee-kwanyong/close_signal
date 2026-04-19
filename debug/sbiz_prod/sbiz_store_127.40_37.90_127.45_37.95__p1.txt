@@ -1,0 +1,508 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA010120220805398679"
+				,"bizesNm" : "가평전원별장펜션"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55109"
+				,"ksicNm" : "기타 일반 및 생활 숙박시설 운영업"
+				,"ctprvnCd" : "41"
+				,"ctprvnNm" : "경기도"
+				,"signguCd" : "41820"
+				,"signguNm" : "가평군"
+				,"adongCd" : "41820350"
+				,"adongNm" : "북면"
+				,"ldongCd" : "4182035026"
+				,"ldongNm" : "북면"
+				,"lnoCd" : "4182035026107090005"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 709
+				,"lnoSlno" : 5
+				,"lnoAdr" : "경기도 가평군 북면 백둔리 709-5"
+				,"rdnmCd" : "418204448086"
+				,"rdnm" : "경기도 가평군 북면 백둔로650번길"
+				,"bldMnno" : 62
+				,"bldSlno" : ""
+				,"bldMngNo" : "4182035026107090005001676"
+				,"bldNm" : ""
+				,"rdnmAdr" : "경기도 가평군 북면 백둔로650번길 62"
+				,"oldZipcd" : "477842"
+				,"newZipcd" : "12406"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.439104990241
+				,"lat" : 37.9154568800866
+				}
+				,{
+				"bizesId" : "MA0101202406A0123215"
+				,"bizesNm" : "오르다탐스트레져"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G204"
+				,"indsMclsNm" : "종합 소매"
+				,"indsSclsCd" : "G20404"
+				,"indsSclsNm" : "슈퍼마켓"
+				,"ksicCd" : "G47129"
+				,"ksicNm" : "기타 음ㆍ식료품 위주 종합 소매업"
+				,"ctprvnCd" : "41"
+				,"ctprvnNm" : "경기도"
+				,"signguCd" : "41820"
+				,"signguNm" : "가평군"
+				,"adongCd" : "41820350"
+				,"adongNm" : "북면"
+				,"ldongCd" : "4182035026"
+				,"ldongNm" : "북면"
+				,"lnoCd" : "4182035026107620001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 762
+				,"lnoSlno" : 1
+				,"lnoAdr" : "경기도 가평군 북면 백둔리 762-1"
+				,"rdnmCd" : "418203216015"
+				,"rdnm" : "경기도 가평군 북면 백둔로"
+				,"bldMnno" : 647
+				,"bldSlno" : 1
+				,"bldMngNo" : "4182035026107620001011298"
+				,"bldNm" : "외"
+				,"rdnmAdr" : "경기도 가평군 북면 백둔로 647-1"
+				,"oldZipcd" : "477842"
+				,"newZipcd" : "12406"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.440982237756
+				,"lat" : 37.9098820747575
+				}
+				,{
+				"bizesId" : "MA0101202503A0067770"
+				,"bizesNm" : "크루지아나"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55104"
+				,"ksicNm" : "민박업"
+				,"ctprvnCd" : "41"
+				,"ctprvnNm" : "경기도"
+				,"signguCd" : "41820"
+				,"signguNm" : "가평군"
+				,"adongCd" : "41820350"
+				,"adongNm" : "북면"
+				,"ldongCd" : "4182035026"
+				,"ldongNm" : "북면"
+				,"lnoCd" : "4182035026106370000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 637
+				,"lnoSlno" : ""
+				,"lnoAdr" : "경기도 가평군 북면 백둔리 637"
+				,"rdnmCd" : "418204448085"
+				,"rdnm" : "경기도 가평군 북면 백둔로616번길"
+				,"bldMnno" : 20
+				,"bldSlno" : 20
+				,"bldMngNo" : "4182035026200350000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "경기도 가평군 북면 백둔로616번길 20-20"
+				,"oldZipcd" : "477842"
+				,"newZipcd" : "12406"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.44532935287
+				,"lat" : 37.9104242875209
+				}
+				,{
+				"bizesId" : "MA010120220804965257"
+				,"bizesNm" : "호호펜션"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55109"
+				,"ksicNm" : "기타 일반 및 생활 숙박시설 운영업"
+				,"ctprvnCd" : "41"
+				,"ctprvnNm" : "경기도"
+				,"signguCd" : "41820"
+				,"signguNm" : "가평군"
+				,"adongCd" : "41820350"
+				,"adongNm" : "북면"
+				,"ldongCd" : "4182035026"
+				,"ldongNm" : "북면"
+				,"lnoCd" : "4182035026106380005"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 638
+				,"lnoSlno" : 5
+				,"lnoAdr" : "경기도 가평군 북면 백둔리 638-5"
+				,"rdnmCd" : "418204448085"
+				,"rdnm" : "경기도 가평군 북면 백둔로616번길"
+				,"bldMnno" : 50
+				,"bldSlno" : 32
+				,"bldMngNo" : "4182035026106380005012385"
+				,"bldNm" : ""
+				,"rdnmAdr" : "경기도 가평군 북면 백둔로616번길 50-32"
+				,"oldZipcd" : "477842"
+				,"newZipcd" : "12406"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.445693163507
+				,"lat" : 37.9122968580315
+				}
+				,{
+				"bizesId" : "MA010120220813006197"
+				,"bizesNm" : "가평코코"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55109"
+				,"ksicNm" : "기타 일반 및 생활 숙박시설 운영업"
+				,"ctprvnCd" : "41"
+				,"ctprvnNm" : "경기도"
+				,"signguCd" : "41820"
+				,"signguNm" : "가평군"
+				,"adongCd" : "41820350"
+				,"adongNm" : "북면"
+				,"ldongCd" : "4182035026"
+				,"ldongNm" : "북면"
+				,"lnoCd" : "4182035026106380005"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 638
+				,"lnoSlno" : 5
+				,"lnoAdr" : "경기도 가평군 북면 백둔리 638-5"
+				,"rdnmCd" : "418204448085"
+				,"rdnm" : "경기도 가평군 북면 백둔로616번길"
+				,"bldMnno" : 50
+				,"bldSlno" : 32
+				,"bldMngNo" : "4182035026106380005012385"
+				,"bldNm" : ""
+				,"rdnmAdr" : "경기도 가평군 북면 백둔로616번길 50-32"
+				,"oldZipcd" : "477842"
+				,"newZipcd" : "12406"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.445693163507
+				,"lat" : 37.9122968580315
+				}
+				,{
+				"bizesId" : "MA010120220800178709"
+				,"bizesNm" : "가평코지키즈가족풀빌라펜션"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55109"
+				,"ksicNm" : "기타 일반 및 생활 숙박시설 운영업"
+				,"ctprvnCd" : "41"
+				,"ctprvnNm" : "경기도"
+				,"signguCd" : "41820"
+				,"signguNm" : "가평군"
+				,"adongCd" : "41820350"
+				,"adongNm" : "북면"
+				,"ldongCd" : "4182035026"
+				,"ldongNm" : "북면"
+				,"lnoCd" : "4182035026106040000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 604
+				,"lnoSlno" : ""
+				,"lnoAdr" : "경기도 가평군 북면 백둔리 604"
+				,"rdnmCd" : "418203216015"
+				,"rdnm" : "경기도 가평군 북면 백둔로"
+				,"bldMnno" : 567
+				,"bldSlno" : 10
+				,"bldMngNo" : "4182035026106040003000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "경기도 가평군 북면 백둔로 567-10"
+				,"oldZipcd" : "477842"
+				,"newZipcd" : "12406"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.446525048419
+				,"lat" : 37.906942141438
+				}
+				,{
+				"bizesId" : "MA010120220800760482"
+				,"bizesNm" : "더설레임"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55104"
+				,"ksicNm" : "민박업"
+				,"ctprvnCd" : "41"
+				,"ctprvnNm" : "경기도"
+				,"signguCd" : "41820"
+				,"signguNm" : "가평군"
+				,"adongCd" : "41820350"
+				,"adongNm" : "북면"
+				,"ldongCd" : "4182035026"
+				,"ldongNm" : "북면"
+				,"lnoCd" : "4182035026106030000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 603
+				,"lnoSlno" : ""
+				,"lnoAdr" : "경기도 가평군 북면 백둔리 603"
+				,"rdnmCd" : "418203216015"
+				,"rdnm" : "경기도 가평군 북면 백둔로"
+				,"bldMnno" : 567
+				,"bldSlno" : 40
+				,"bldMngNo" : "4182035026106030000011279"
+				,"bldNm" : ""
+				,"rdnmAdr" : "경기도 가평군 북면 백둔로 567-40"
+				,"oldZipcd" : "477842"
+				,"newZipcd" : "12406"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.447078992203
+				,"lat" : 37.9064084857527
+				}
+				,{
+				"bizesId" : "MA010120220802215005"
+				,"bizesNm" : "더설레임"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I55109"
+				,"ksicNm" : "기타 일반 및 생활 숙박시설 운영업"
+				,"ctprvnCd" : "41"
+				,"ctprvnNm" : "경기도"
+				,"signguCd" : "41820"
+				,"signguNm" : "가평군"
+				,"adongCd" : "41820350"
+				,"adongNm" : "북면"
+				,"ldongCd" : "4182035026"
+				,"ldongNm" : "북면"
+				,"lnoCd" : "4182035026106030000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 603
+				,"lnoSlno" : ""
+				,"lnoAdr" : "경기도 가평군 북면 백둔리 603"
+				,"rdnmCd" : "418203216015"
+				,"rdnm" : "경기도 가평군 북면 백둔로"
+				,"bldMnno" : 567
+				,"bldSlno" : 40
+				,"bldMngNo" : "4182035026106030000011279"
+				,"bldNm" : ""
+				,"rdnmAdr" : "경기도 가평군 북면 백둔로 567-40"
+				,"oldZipcd" : "477842"
+				,"newZipcd" : "12406"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.447078992203
+				,"lat" : 37.9064084857527
+				}
+				,{
+				"bizesId" : "MA0101202410A0780274"
+				,"bizesNm" : "입시·교과학원"
+				,"brchNm" : ""
+				,"indsLclsCd" : "P1"
+				,"indsLclsNm" : "교육"
+				,"indsMclsCd" : "P105"
+				,"indsMclsNm" : "일반 교육"
+				,"indsSclsCd" : "P10501"
+				,"indsSclsNm" : "입시·교과학원"
+				,"ksicCd" : "P85501"
+				,"ksicNm" : "일반 교과학원"
+				,"ctprvnCd" : "41"
+				,"ctprvnNm" : "경기도"
+				,"signguCd" : "41820"
+				,"signguNm" : "가평군"
+				,"adongCd" : "41820350"
+				,"adongNm" : "북면"
+				,"ldongCd" : "4182035026"
+				,"ldongNm" : "북면"
+				,"lnoCd" : "4182035026106170000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 617
+				,"lnoSlno" : ""
+				,"lnoAdr" : "경기도 가평군 북면 백둔리 617"
+				,"rdnmCd" : "418203216015"
+				,"rdnm" : "경기도 가평군 북면 백둔로"
+				,"bldMnno" : 572
+				,"bldSlno" : 27
+				,"bldMngNo" : "4182035026106170000011280"
+				,"bldNm" : ""
+				,"rdnmAdr" : "경기도 가평군 북면 백둔로 572-27"
+				,"oldZipcd" : "477842"
+				,"newZipcd" : "12406"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.448125949584
+				,"lat" : 37.9084226029088
+				}
+				,{
+				"bizesId" : "MA0101202310A0001253"
+				,"bizesNm" : "뭉클하우스펜션"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55104"
+				,"ksicNm" : "민박업"
+				,"ctprvnCd" : "41"
+				,"ctprvnNm" : "경기도"
+				,"signguCd" : "41820"
+				,"signguNm" : "가평군"
+				,"adongCd" : "41820350"
+				,"adongNm" : "북면"
+				,"ldongCd" : "4182035026"
+				,"ldongNm" : "북면"
+				,"lnoCd" : "4182035026105810006"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 581
+				,"lnoSlno" : 6
+				,"lnoAdr" : "경기도 가평군 북면 백둔리 581-6"
+				,"rdnmCd" : "418203216015"
+				,"rdnm" : "경기도 가평군 북면 백둔로"
+				,"bldMnno" : 549
+				,"bldSlno" : 33
+				,"bldMngNo" : "4182035026105810006000791"
+				,"bldNm" : ""
+				,"rdnmAdr" : "경기도 가평군 북면 백둔로 549-33"
+				,"oldZipcd" : "477842"
+				,"newZipcd" : "12406"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.448935329269
+				,"lat" : 37.9050139767329
+				}
+				,{
+				"bizesId" : "MA0101202307A0084574"
+				,"bizesNm" : "텔루스아레나일차"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G204"
+				,"indsMclsNm" : "종합 소매"
+				,"indsSclsCd" : "G20404"
+				,"indsSclsNm" : "슈퍼마켓"
+				,"ksicCd" : "G47129"
+				,"ksicNm" : "기타 음ㆍ식료품 위주 종합 소매업"
+				,"ctprvnCd" : "41"
+				,"ctprvnNm" : "경기도"
+				,"signguCd" : "41820"
+				,"signguNm" : "가평군"
+				,"adongCd" : "41820350"
+				,"adongNm" : "북면"
+				,"ldongCd" : "4182035026"
+				,"ldongNm" : "북면"
+				,"lnoCd" : "4182035026105810017"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 581
+				,"lnoSlno" : 17
+				,"lnoAdr" : "경기도 가평군 북면 백둔리 581-17"
+				,"rdnmCd" : "418203216015"
+				,"rdnm" : "경기도 가평군 북면 백둔로"
+				,"bldMnno" : 549
+				,"bldSlno" : 41
+				,"bldMngNo" : "4182035026105810017000001"
+				,"bldNm" : "리베하임펜션&리조트"
+				,"rdnmAdr" : "경기도 가평군 북면 백둔로 549-41"
+				,"oldZipcd" : "477842"
+				,"newZipcd" : "12406"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.449162023593
+				,"lat" : 37.9048959900217
+				}
+				,{
+				"bizesId" : "MA010120220802217912"
+				,"bizesNm" : "솔랑구"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55109"
+				,"ksicNm" : "기타 일반 및 생활 숙박시설 운영업"
+				,"ctprvnCd" : "41"
+				,"ctprvnNm" : "경기도"
+				,"signguCd" : "41820"
+				,"signguNm" : "가평군"
+				,"adongCd" : "41820350"
+				,"adongNm" : "북면"
+				,"ldongCd" : "4182035026"
+				,"ldongNm" : "북면"
+				,"lnoCd" : "4182035026105950000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 595
+				,"lnoSlno" : ""
+				,"lnoAdr" : "경기도 가평군 북면 백둔리 595"
+				,"rdnmCd" : "418204448084"
+				,"rdnm" : "경기도 가평군 북면 백둔로560번길"
+				,"bldMnno" : 17
+				,"bldSlno" : ""
+				,"bldMngNo" : "4182035026105950000012278"
+				,"bldNm" : ""
+				,"rdnmAdr" : "경기도 가평군 북면 백둔로560번길 17"
+				,"oldZipcd" : "477842"
+				,"newZipcd" : "12406"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.449372796392
+				,"lat" : 37.9077691745829
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 1,
+		"totalCount" : 12	}
+}

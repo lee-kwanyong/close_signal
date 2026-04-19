@@ -1,0 +1,385 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA0101202408A0056399"
+				,"bizesNm" : "강진수산물"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G205"
+				,"indsMclsNm" : "식료품 소매"
+				,"indsSclsCd" : "G20504"
+				,"indsSclsNm" : "건어물/젓갈 소매업"
+				,"ksicCd" : "G47213"
+				,"ksicNm" : "건어물 및 젓갈류 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46810"
+				,"signguNm" : "강진군"
+				,"adongCd" : "46810400"
+				,"adongNm" : "마량면"
+				,"ldongCd" : "4681040022"
+				,"ldongNm" : "마량면"
+				,"lnoCd" : "4681040022104350009"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 435
+				,"lnoSlno" : 9
+				,"lnoAdr" : "전라남도 강진군 마량면 상흥리 435-9"
+				,"rdnmCd" : "468103017036"
+				,"rdnm" : "전라남도 강진군 마량면 청자로"
+				,"bldMnno" : 2822
+				,"bldSlno" : 10
+				,"bldMngNo" : "4681040022104350009040227"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 강진군 마량면 청자로 2822-10"
+				,"oldZipcd" : "527912"
+				,"newZipcd" : "59268"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.850147237495
+				,"lat" : 34.4603080830488
+				}
+				,{
+				"bizesId" : "MA0101202409A0129089"
+				,"bizesNm" : "풍년식당"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46800"
+				,"signguNm" : "장흥군"
+				,"adongCd" : "46800256"
+				,"adongNm" : "대덕읍"
+				,"ldongCd" : "4680025626"
+				,"ldongNm" : "대덕읍"
+				,"lnoCd" : "4680025626108930001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 893
+				,"lnoSlno" : 1
+				,"lnoAdr" : "전라남도 장흥군 대덕읍 신리 893-1"
+				,"rdnmCd" : "468002017001"
+				,"rdnm" : "전라남도 장흥군 대덕읍 장흥대로"
+				,"bldMnno" : 65
+				,"bldSlno" : ""
+				,"bldMngNo" : "4680025626108930001035818"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 장흥군 대덕읍 장흥대로 65"
+				,"oldZipcd" : "529903"
+				,"newZipcd" : "59366"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.858354550089
+				,"lat" : 34.4595516248885
+				}
+				,{
+				"bizesId" : "MA0101202408A0016595"
+				,"bizesNm" : "대덕농산"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G205"
+				,"indsMclsNm" : "식료품 소매"
+				,"indsSclsCd" : "G20506"
+				,"indsSclsNm" : "채소/과일 소매업"
+				,"ksicCd" : "G47215"
+				,"ksicNm" : "채소, 과실 및 뿌리작물 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46800"
+				,"signguNm" : "장흥군"
+				,"adongCd" : "46800256"
+				,"adongNm" : "대덕읍"
+				,"ldongCd" : "4680025623"
+				,"ldongNm" : "대덕읍"
+				,"lnoCd" : "4680025623105600000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 560
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 장흥군 대덕읍 신월리 560"
+				,"rdnmCd" : "468004676474"
+				,"rdnm" : "전라남도 장흥군 대덕읍 축내1길"
+				,"bldMnno" : 20
+				,"bldSlno" : ""
+				,"bldMngNo" : "4680025623105600000037248"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 장흥군 대덕읍 축내1길 20"
+				,"oldZipcd" : "529902"
+				,"newZipcd" : "59365"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.880558225721
+				,"lat" : 34.4964360407265
+				}
+				,{
+				"bizesId" : "MA0101202406A0422488"
+				,"bizesNm" : "지에스25장흥"
+				,"brchNm" : "대덕점"
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G204"
+				,"indsMclsNm" : "종합 소매"
+				,"indsSclsCd" : "G20405"
+				,"indsSclsNm" : "편의점"
+				,"ksicCd" : "G47122"
+				,"ksicNm" : "체인화 편의점"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46800"
+				,"signguNm" : "장흥군"
+				,"adongCd" : "46800256"
+				,"adongNm" : "대덕읍"
+				,"ldongCd" : "4680025623"
+				,"ldongNm" : "대덕읍"
+				,"lnoCd" : "4680025623101930009"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 193
+				,"lnoSlno" : 9
+				,"lnoAdr" : "전라남도 장흥군 대덕읍 신월리 193-9"
+				,"rdnmCd" : "468003017034"
+				,"rdnm" : "전라남도 장흥군 대덕읍 대대로"
+				,"bldMnno" : 914
+				,"bldSlno" : ""
+				,"bldMngNo" : "4680025623101930009038901"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 장흥군 대덕읍 대대로 914"
+				,"oldZipcd" : "529902"
+				,"newZipcd" : "59365"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.886369553517
+				,"lat" : 34.4985600078996
+				}
+				,{
+				"bizesId" : "MA0106202406A2143290"
+				,"bizesNm" : "GS25장흥"
+				,"brchNm" : "대덕점"
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G204"
+				,"indsMclsNm" : "종합 소매"
+				,"indsSclsCd" : "G20405"
+				,"indsSclsNm" : "편의점"
+				,"ksicCd" : "G47121"
+				,"ksicNm" : "슈퍼마켓"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46800"
+				,"signguNm" : "장흥군"
+				,"adongCd" : "46800256"
+				,"adongNm" : "대덕읍"
+				,"ldongCd" : "4680025623"
+				,"ldongNm" : "대덕읍"
+				,"lnoCd" : "4680025623101930009"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 193
+				,"lnoSlno" : 9
+				,"lnoAdr" : "전라남도 장흥군 대덕읍 신월리 193-9"
+				,"rdnmCd" : "468003017034"
+				,"rdnm" : "전라남도 장흥군 대덕읍 대대로"
+				,"bldMnno" : 914
+				,"bldSlno" : ""
+				,"bldMngNo" : "4680025623101930009038901"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 장흥군 대덕읍 대대로 914"
+				,"oldZipcd" : "529902"
+				,"newZipcd" : "59365"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.886369553517
+				,"lat" : 34.4985600078996
+				}
+				,{
+				"bizesId" : "MA0101202409A0213934"
+				,"bizesNm" : "모퉁이카페"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I212"
+				,"indsMclsNm" : "비알코올 "
+				,"indsSclsCd" : "I21201"
+				,"indsSclsNm" : "카페"
+				,"ksicCd" : "I56221"
+				,"ksicNm" : "커피 전문점"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46800"
+				,"signguNm" : "장흥군"
+				,"adongCd" : "46800256"
+				,"adongNm" : "대덕읍"
+				,"ldongCd" : "4680025623"
+				,"ldongNm" : "대덕읍"
+				,"lnoCd" : "4680025623101050029"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 105
+				,"lnoSlno" : 29
+				,"lnoAdr" : "전라남도 장흥군 대덕읍 신월리 105-29"
+				,"rdnmCd" : "468003017034"
+				,"rdnm" : "전라남도 장흥군 대덕읍 대대로"
+				,"bldMnno" : 915
+				,"bldSlno" : ""
+				,"bldMngNo" : "4680025623101050029039033"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 장흥군 대덕읍 대대로 915"
+				,"oldZipcd" : "529902"
+				,"newZipcd" : "59363"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.886663183721
+				,"lat" : 34.498821703195
+				}
+				,{
+				"bizesId" : "MA0101202406A0472707"
+				,"bizesNm" : "노랑통닭장흥"
+				,"brchNm" : "대덕점"
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I210"
+				,"indsMclsNm" : "기타 간이"
+				,"indsSclsCd" : "I21006"
+				,"indsSclsNm" : "치킨"
+				,"ksicCd" : "I56193"
+				,"ksicNm" : "치킨 전문점"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46800"
+				,"signguNm" : "장흥군"
+				,"adongCd" : "46800256"
+				,"adongNm" : "대덕읍"
+				,"ldongCd" : "4680025623"
+				,"ldongNm" : "대덕읍"
+				,"lnoCd" : "4680025623101050006"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 105
+				,"lnoSlno" : 6
+				,"lnoAdr" : "전라남도 장흥군 대덕읍 신월리 105-6"
+				,"rdnmCd" : "468003017034"
+				,"rdnm" : "전라남도 장흥군 대덕읍 대대로"
+				,"bldMnno" : 918
+				,"bldSlno" : ""
+				,"bldMngNo" : "4680025623101050006039088"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 장흥군 대덕읍 대대로 918"
+				,"oldZipcd" : "529902"
+				,"newZipcd" : "59365"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.886870719518
+				,"lat" : 34.4983351086385
+				}
+				,{
+				"bizesId" : "MA0106202510A1077974"
+				,"bizesNm" : "만원돈까스"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I204"
+				,"indsMclsNm" : "서양식"
+				,"indsSclsCd" : "I20401"
+				,"indsSclsNm" : "경양식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46800"
+				,"signguNm" : "장흥군"
+				,"adongCd" : "46800256"
+				,"adongNm" : "대덕읍"
+				,"ldongCd" : "4680025623"
+				,"ldongNm" : "대덕읍"
+				,"lnoCd" : "4680025623101140009"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 114
+				,"lnoSlno" : 9
+				,"lnoAdr" : "전라남도 장흥군 대덕읍 신월리 114-9"
+				,"rdnmCd" : "468004676010"
+				,"rdnm" : "전라남도 장흥군 대덕읍 거정2길"
+				,"bldMnno" : 14
+				,"bldSlno" : 22
+				,"bldMngNo" : "4680025623101140009039451"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 장흥군 대덕읍 거정2길 14-22"
+				,"oldZipcd" : "529902"
+				,"newZipcd" : "59363"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.887871450384
+				,"lat" : 34.4990752259763
+				}
+				,{
+				"bizesId" : "MA0101202502A0034407"
+				,"bizesNm" : "먹을래싸갈래"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I210"
+				,"indsMclsNm" : "기타 간이"
+				,"indsSclsCd" : "I21007"
+				,"indsSclsNm" : "김밥/만두/분식"
+				,"ksicCd" : "I56194"
+				,"ksicNm" : "김밥 및 기타 간이 음식점업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46800"
+				,"signguNm" : "장흥군"
+				,"adongCd" : "46800256"
+				,"adongNm" : "대덕읍"
+				,"ldongCd" : "4680025622"
+				,"ldongNm" : "대덕읍"
+				,"lnoCd" : "4680025622112820022"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 1282
+				,"lnoSlno" : 22
+				,"lnoAdr" : "전라남도 장흥군 대덕읍 연정리 1282-22"
+				,"rdnmCd" : "468003017034"
+				,"rdnm" : "전라남도 장흥군 대덕읍 대대로"
+				,"bldMnno" : 942
+				,"bldSlno" : ""
+				,"bldMngNo" : "4680025622112820022039718"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 장흥군 대덕읍 대대로 942"
+				,"oldZipcd" : "529901"
+				,"newZipcd" : "59365"
+				,"dongNo" : ""
+				,"flrNo" : "1"
+				,"hoNo" : ""
+				,"lon" : 126.889526850208
+				,"lat" : 34.4987972821764
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 2,
+		"totalCount" : 109	}
+}

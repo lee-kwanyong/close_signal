@@ -1,0 +1,262 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA0106202511A1659733"
+				,"bizesNm" : "오성뒷고기막창"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20107"
+				,"indsSclsNm" : "돼지고기 구이/찜"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44250"
+				,"signguNm" : "계룡시"
+				,"adongCd" : "44250315"
+				,"adongNm" : "엄사면"
+				,"ldongCd" : "4425031521"
+				,"ldongNm" : "엄사면"
+				,"lnoCd" : "4425031521102260041"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 226
+				,"lnoSlno" : 41
+				,"lnoAdr" : "충청남도 계룡시 엄사면 엄사리 226-41"
+				,"rdnmCd" : "442504568023"
+				,"rdnm" : "충청남도 계룡시 엄사면 번영3길"
+				,"bldMnno" : 73
+				,"bldSlno" : 17
+				,"bldMngNo" : "4425031521102260041001612"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청남도 계룡시 엄사면 번영3길 73-17"
+				,"oldZipcd" : "321931"
+				,"newZipcd" : "32820"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.238854370263
+				,"lat" : 36.2822766974307
+				}
+				,{
+				"bizesId" : "MA0106202511A1560446"
+				,"bizesNm" : "처음본명품민물장어계룡엄사점"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20112"
+				,"indsSclsNm" : "해산물 구이/찜"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44250"
+				,"signguNm" : "계룡시"
+				,"adongCd" : "44250315"
+				,"adongNm" : "엄사면"
+				,"ldongCd" : "4425031521"
+				,"ldongNm" : "엄사면"
+				,"lnoCd" : "4425031521101850003"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 185
+				,"lnoSlno" : 3
+				,"lnoAdr" : "충청남도 계룡시 엄사면 엄사리 185-3"
+				,"rdnmCd" : "442504568022"
+				,"rdnm" : "충청남도 계룡시 엄사면 번영2길"
+				,"bldMnno" : 4
+				,"bldSlno" : 65
+				,"bldMngNo" : "4425031521101850003000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청남도 계룡시 엄사면 번영2길 4-65"
+				,"oldZipcd" : "321931"
+				,"newZipcd" : "32805"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.241447450847
+				,"lat" : 36.2893818653926
+				}
+				,{
+				"bizesId" : "MA0106202511A2431270"
+				,"bizesNm" : "허니"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I211"
+				,"indsMclsNm" : "주점"
+				,"indsSclsCd" : "I21101"
+				,"indsSclsNm" : "일반 유흥 주점"
+				,"ksicCd" : "I56211"
+				,"ksicNm" : "일반 유흥 주점업"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44250"
+				,"signguNm" : "계룡시"
+				,"adongCd" : "44250315"
+				,"adongNm" : "엄사면"
+				,"ldongCd" : "4425031521"
+				,"ldongNm" : "엄사면"
+				,"lnoCd" : "4425031521102830003"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 283
+				,"lnoSlno" : 3
+				,"lnoAdr" : "충청남도 계룡시 엄사면 엄사리 283-3"
+				,"rdnmCd" : "442503256013"
+				,"rdnm" : "충청남도 계룡시 엄사면 번영로"
+				,"bldMnno" : 12
+				,"bldSlno" : ""
+				,"bldMngNo" : "4425031521102830003003959"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청남도 계룡시 엄사면 번영로 12"
+				,"oldZipcd" : "321931"
+				,"newZipcd" : "32804"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.243770545933
+				,"lat" : 36.2882777029865
+				}
+				,{
+				"bizesId" : "MA0106202511A2176238"
+				,"bizesNm" : "어게인"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I212"
+				,"indsMclsNm" : "비알코올 "
+				,"indsSclsCd" : "I21201"
+				,"indsSclsNm" : "카페"
+				,"ksicCd" : "I56221"
+				,"ksicNm" : "커피 전문점"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44250"
+				,"signguNm" : "계룡시"
+				,"adongCd" : "44250510"
+				,"adongNm" : "금암동"
+				,"ldongCd" : "4425010100"
+				,"ldongNm" : "금암동"
+				,"lnoCd" : "4425010100101670001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 167
+				,"lnoSlno" : 1
+				,"lnoAdr" : "충청남도 계룡시 금암동 167-1"
+				,"rdnmCd" : "442503256007"
+				,"rdnm" : "충청남도 계룡시 장안로"
+				,"bldMnno" : 75
+				,"bldSlno" : ""
+				,"bldMngNo" : "4425010100101670001000200"
+				,"bldNm" : "우림루미아트"
+				,"rdnmAdr" : "충청남도 계룡시 장안로 75"
+				,"oldZipcd" : "321763"
+				,"newZipcd" : "32825"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.246437814126
+				,"lat" : 36.2692030717121
+				}
+				,{
+				"bizesId" : "MA0106202511A2070815"
+				,"bizesNm" : "케이케이계룡중앙주유소"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G214"
+				,"indsMclsNm" : "연료 소매"
+				,"indsSclsCd" : "G21401"
+				,"indsSclsNm" : "주유소"
+				,"ksicCd" : "G47711"
+				,"ksicNm" : "운송장비용 주유소 운영업"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44250"
+				,"signguNm" : "계룡시"
+				,"adongCd" : "44250315"
+				,"adongNm" : "엄사면"
+				,"ldongCd" : "4425031521"
+				,"ldongNm" : "엄사면"
+				,"lnoCd" : "4425031521100280002"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 28
+				,"lnoSlno" : 2
+				,"lnoAdr" : "충청남도 계룡시 엄사면 엄사리 28-2"
+				,"rdnmCd" : "442503015015"
+				,"rdnm" : "충청남도 계룡시 엄사면 계룡대로"
+				,"bldMnno" : 465
+				,"bldSlno" : ""
+				,"bldMngNo" : "4425031521100280002003695"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청남도 계룡시 엄사면 계룡대로 465"
+				,"oldZipcd" : "321931"
+				,"newZipcd" : "32814"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.246732384212
+				,"lat" : 36.2850093276506
+				}
+				,{
+				"bizesId" : "MA0106202511A1799245"
+				,"bizesNm" : "화담&땡초우동화로구이"
+				,"brchNm" : "본점"
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I211"
+				,"indsMclsNm" : "주점"
+				,"indsSclsCd" : "I21104"
+				,"indsSclsNm" : "요리 주점"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44250"
+				,"signguNm" : "계룡시"
+				,"adongCd" : "44250510"
+				,"adongNm" : "금암동"
+				,"ldongCd" : "4425010100"
+				,"ldongNm" : "금암동"
+				,"lnoCd" : "4425010100101680006"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 168
+				,"lnoSlno" : 6
+				,"lnoAdr" : "충청남도 계룡시 금암동 168-6"
+				,"rdnmCd" : "442503256007"
+				,"rdnm" : "충청남도 계룡시 장안로"
+				,"bldMnno" : 68
+				,"bldSlno" : ""
+				,"bldMngNo" : "4425010100101680006000983"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청남도 계룡시 장안로 68"
+				,"oldZipcd" : "321900"
+				,"newZipcd" : "32824"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.249373996492
+				,"lat" : 36.2721258544936
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 13,
+		"totalCount" : 1206	}
+}

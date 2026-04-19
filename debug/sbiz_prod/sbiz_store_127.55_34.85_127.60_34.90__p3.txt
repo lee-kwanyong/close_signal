@@ -1,0 +1,344 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA0101202502A0104471"
+				,"bizesNm" : "율촌꼬막수산"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G205"
+				,"indsMclsNm" : "식료품 소매"
+				,"indsSclsCd" : "G20504"
+				,"indsSclsNm" : "건어물/젓갈 소매업"
+				,"ksicCd" : "G47213"
+				,"ksicNm" : "건어물 및 젓갈류 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46130"
+				,"signguNm" : "여수시"
+				,"adongCd" : "46130320"
+				,"adongNm" : "율촌면"
+				,"ldongCd" : "4613032023"
+				,"ldongNm" : "율촌면"
+				,"lnoCd" : "4613032023101320001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 132
+				,"lnoSlno" : 1
+				,"lnoAdr" : "전라남도 여수시 율촌면 산수리 132-1"
+				,"rdnmCd" : "461303282039"
+				,"rdnm" : "전라남도 여수시 율촌면 서부로"
+				,"bldMnno" : 1773
+				,"bldSlno" : ""
+				,"bldMngNo" : "4613032023101320001000002"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 여수시 율촌면 서부로 1773"
+				,"oldZipcd" : "556892"
+				,"newZipcd" : "59600"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.559885151477
+				,"lat" : 34.8746442855257
+				}
+				,{
+				"bizesId" : "MA0101202503A0064605"
+				,"bizesNm" : "호두리카페"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I212"
+				,"indsMclsNm" : "비알코올 "
+				,"indsSclsCd" : "I21201"
+				,"indsSclsNm" : "카페"
+				,"ksicCd" : "I56221"
+				,"ksicNm" : "커피 전문점"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46150"
+				,"signguNm" : "순천시"
+				,"adongCd" : "46150310"
+				,"adongNm" : "해룡면"
+				,"ldongCd" : "4615031030"
+				,"ldongNm" : "해룡면"
+				,"lnoCd" : "4615031030104570009"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 457
+				,"lnoSlno" : 9
+				,"lnoAdr" : "전라남도 순천시 해룡면 호두리 457-9"
+				,"rdnmCd" : "461503282091"
+				,"rdnm" : "전라남도 순천시 해룡면 율촌로"
+				,"bldMnno" : 223
+				,"bldSlno" : ""
+				,"bldMngNo" : "4615031030104570001035704"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 순천시 해룡면 율촌로 223"
+				,"oldZipcd" : "540856"
+				,"newZipcd" : "58024"
+				,"dongNo" : ""
+				,"flrNo" : "1"
+				,"hoNo" : ""
+				,"lon" : 127.568503797175
+				,"lat" : 34.8889273091178
+				}
+				,{
+				"bizesId" : "MA0101202502A0117201"
+				,"bizesNm" : "더행복한부동산공인중개사사무소"
+				,"brchNm" : ""
+				,"indsLclsCd" : "L1"
+				,"indsLclsNm" : "부동산"
+				,"indsMclsCd" : "L102"
+				,"indsMclsNm" : "부동산 서비스"
+				,"indsSclsCd" : "L10203"
+				,"indsSclsNm" : "부동산 중개/대리업"
+				,"ksicCd" : "L68221"
+				,"ksicNm" : "부동산 중개 및 대리업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46130"
+				,"signguNm" : "여수시"
+				,"adongCd" : "46130320"
+				,"adongNm" : "율촌면"
+				,"ldongCd" : "4613032022"
+				,"ldongNm" : "율촌면"
+				,"lnoCd" : "4613032022115050009"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 1505
+				,"lnoSlno" : 9
+				,"lnoAdr" : "전라남도 여수시 율촌면 월산리 1505-9"
+				,"rdnmCd" : "461303282087"
+				,"rdnm" : "전라남도 여수시 율촌면 여순로"
+				,"bldMnno" : 1022
+				,"bldSlno" : 106
+				,"bldMngNo" : "4613032022115050009000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 여수시 율촌면 여순로 1022-106"
+				,"oldZipcd" : "556892"
+				,"newZipcd" : "59602"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.57155110637
+				,"lat" : 34.8819182733853
+				}
+				,{
+				"bizesId" : "MA0101202504A0052270"
+				,"bizesNm" : "정'S김밥"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I210"
+				,"indsMclsNm" : "기타 간이"
+				,"indsSclsCd" : "I21007"
+				,"indsSclsNm" : "김밥/만두/분식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46130"
+				,"signguNm" : "여수시"
+				,"adongCd" : "46130320"
+				,"adongNm" : "율촌면"
+				,"ldongCd" : "4613032022"
+				,"ldongNm" : "율촌면"
+				,"lnoCd" : "4613032022115040014"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 1504
+				,"lnoSlno" : 14
+				,"lnoAdr" : "전라남도 여수시 율촌면 월산리 1504-14"
+				,"rdnmCd" : "461303282087"
+				,"rdnm" : "전라남도 여수시 율촌면 여순로"
+				,"bldMnno" : 1022
+				,"bldSlno" : 84
+				,"bldMngNo" : "4613032022115040014000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 여수시 율촌면 여순로 1022-84"
+				,"oldZipcd" : "556892"
+				,"newZipcd" : "59602"
+				,"dongNo" : ""
+				,"flrNo" : "1"
+				,"hoNo" : ""
+				,"lon" : 127.572451154293
+				,"lat" : 34.8823647313604
+				}
+				,{
+				"bizesId" : "MA0101202503A0063059"
+				,"bizesNm" : "복자네콩나물국밥"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20102"
+				,"indsSclsNm" : "국/탕/찌개류"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46130"
+				,"signguNm" : "여수시"
+				,"adongCd" : "46130320"
+				,"adongNm" : "율촌면"
+				,"ldongCd" : "4613032021"
+				,"ldongNm" : "율촌면"
+				,"lnoCd" : "4613032021102130004"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 213
+				,"lnoSlno" : 4
+				,"lnoAdr" : "전라남도 여수시 율촌면 조화리 213-4"
+				,"rdnmCd" : "461304646292"
+				,"rdnm" : "전라남도 여수시 율촌면 동산개길"
+				,"bldMnno" : 10
+				,"bldSlno" : ""
+				,"bldMngNo" : "4613032021102130004073901"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 여수시 율촌면 동산개길 10"
+				,"oldZipcd" : "556892"
+				,"newZipcd" : "59602"
+				,"dongNo" : ""
+				,"flrNo" : "1"
+				,"hoNo" : ""
+				,"lon" : 127.57864770663
+				,"lat" : 34.8815692186908
+				}
+				,{
+				"bizesId" : "MA0101202502A0101054"
+				,"bizesNm" : "신성회관"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46130"
+				,"signguNm" : "여수시"
+				,"adongCd" : "46130320"
+				,"adongNm" : "율촌면"
+				,"ldongCd" : "4613032021"
+				,"ldongNm" : "율촌면"
+				,"lnoCd" : "4613032021102100014"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 210
+				,"lnoSlno" : 14
+				,"lnoAdr" : "전라남도 여수시 율촌면 조화리 210-14"
+				,"rdnmCd" : "461304646292"
+				,"rdnm" : "전라남도 여수시 율촌면 동산개길"
+				,"bldMnno" : 3
+				,"bldSlno" : ""
+				,"bldMngNo" : "4613032021102100014009636"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 여수시 율촌면 동산개길 3"
+				,"oldZipcd" : "556892"
+				,"newZipcd" : "59602"
+				,"dongNo" : ""
+				,"flrNo" : "1"
+				,"hoNo" : ""
+				,"lon" : 127.579196062289
+				,"lat" : 34.8817739260519
+				}
+				,{
+				"bizesId" : "MA0101202503A0010287"
+				,"bizesNm" : "현토탈공예"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G209"
+				,"indsMclsNm" : "섬유·의복·신발 소매"
+				,"indsSclsCd" : "G20906"
+				,"indsSclsNm" : "침구류/커튼 소매업"
+				,"ksicCd" : "G47421"
+				,"ksicNm" : "가정용 직물제품 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46150"
+				,"signguNm" : "순천시"
+				,"adongCd" : "46150310"
+				,"adongNm" : "해룡면"
+				,"ldongCd" : "4615031030"
+				,"ldongNm" : "해룡면"
+				,"lnoCd" : "4615031030111800000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 1180
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 순천시 해룡면 호두리 1180"
+				,"rdnmCd" : "461503017052"
+				,"rdnm" : "전라남도 순천시 해룡면 율촌산단5로"
+				,"bldMnno" : 13
+				,"bldSlno" : 36
+				,"bldMngNo" : "4615031030111800000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 순천시 해룡면 율촌산단5로 13-36"
+				,"oldZipcd" : "540856"
+				,"newZipcd" : "58034"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.58557009854
+				,"lat" : 34.8921363482101
+				}
+				,{
+				"bizesId" : "MA0106202304A1994790"
+				,"bizesNm" : "현대그린푸드현대아이에프씨"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I207"
+				,"indsMclsNm" : "구내식당·뷔페"
+				,"indsSclsCd" : "I20701"
+				,"indsSclsNm" : "구내식당"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46150"
+				,"signguNm" : "순천시"
+				,"adongCd" : "46150310"
+				,"adongNm" : "해룡면"
+				,"ldongCd" : "4615031030"
+				,"ldongNm" : "해룡면"
+				,"lnoCd" : "4615031030111730000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 1173
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 순천시 해룡면 호두리 1173"
+				,"rdnmCd" : "461503017052"
+				,"rdnm" : "전라남도 순천시 해룡면 율촌산단5로"
+				,"bldMnno" : 46
+				,"bldSlno" : ""
+				,"bldMngNo" : "4615031030111730000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 순천시 해룡면 율촌산단5로 46"
+				,"oldZipcd" : "540856"
+				,"newZipcd" : "58034"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.588186755552
+				,"lat" : 34.8908888203552
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 3,
+		"totalCount" : 208	}
+}

@@ -1,0 +1,139 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA0106202307A2001084"
+				,"bizesNm" : "현대그린푸드gs칼텍스여수식당"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G221"
+				,"indsMclsNm" : "기타 상품 소매"
+				,"indsSclsCd" : "G22199"
+				,"indsSclsNm" : "그 외 기타 상품 전문 소매업"
+				,"ksicCd" : "G47859"
+				,"ksicNm" : "그 외 기타 분류 안된 상품 전문 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46130"
+				,"signguNm" : "여수시"
+				,"adongCd" : "46130820"
+				,"adongNm" : "삼일동"
+				,"ldongCd" : "4613014400"
+				,"ldongNm" : "중흥동"
+				,"lnoCd" : "4613014400117210000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 1721
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 여수시 중흥동 1721"
+				,"rdnmCd" : "461303282035"
+				,"rdnm" : "전라남도 여수시 산단중앙로"
+				,"bldMnno" : 669
+				,"bldSlno" : ""
+				,"bldMngNo" : "4613014400117210000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 여수시 산단중앙로 669"
+				,"oldZipcd" : "555200"
+				,"newZipcd" : "59614"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.692157975875
+				,"lat" : 34.8558274600529
+				}
+				,{
+				"bizesId" : "MA010120220807923071"
+				,"bizesNm" : "광양포새마을"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G204"
+				,"indsMclsNm" : "종합 소매"
+				,"indsSclsCd" : "G20404"
+				,"indsSclsNm" : "슈퍼마켓"
+				,"ksicCd" : "G47129"
+				,"ksicNm" : "기타 음ㆍ식료품 위주 종합 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46130"
+				,"signguNm" : "여수시"
+				,"adongCd" : "46130830"
+				,"adongNm" : "묘도동"
+				,"ldongCd" : "4613014700"
+				,"ldongNm" : "묘도동"
+				,"lnoCd" : "4613014700104290005"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 429
+				,"lnoSlno" : 5
+				,"lnoAdr" : "전라남도 여수시 묘도동 429-5"
+				,"rdnmCd" : "461304646343"
+				,"rdnm" : "전라남도 여수시 묘도7길"
+				,"bldMnno" : 212
+				,"bldSlno" : ""
+				,"bldMngNo" : "4613014700104290003074931"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 여수시 묘도7길 212"
+				,"oldZipcd" : "555300"
+				,"newZipcd" : "59617"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.698042619336
+				,"lat" : 34.8896676492563
+				}
+				,{
+				"bizesId" : "MA010120220807922480"
+				,"bizesNm" : "광성3호"
+				,"brchNm" : ""
+				,"indsLclsCd" : "N1"
+				,"indsLclsNm" : "시설관리·임대"
+				,"indsMclsCd" : "N109"
+				,"indsMclsNm" : "운송장비 대여"
+				,"indsSclsCd" : "N10999"
+				,"indsSclsNm" : "기타 운송장비 대여업"
+				,"ksicCd" : "N76190"
+				,"ksicNm" : "기타 운송장비 임대업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46130"
+				,"signguNm" : "여수시"
+				,"adongCd" : "46130830"
+				,"adongNm" : "묘도동"
+				,"ldongCd" : "4613014700"
+				,"ldongNm" : "묘도동"
+				,"lnoCd" : "4613014700104560002"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 456
+				,"lnoSlno" : 2
+				,"lnoAdr" : "전라남도 여수시 묘도동 456-2"
+				,"rdnmCd" : "461304646343"
+				,"rdnm" : "전라남도 여수시 묘도7길"
+				,"bldMnno" : 184
+				,"bldSlno" : ""
+				,"bldMngNo" : "4613014700104560002000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 여수시 묘도7길 184"
+				,"oldZipcd" : "555300"
+				,"newZipcd" : "59617"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.699396531655
+				,"lat" : 34.8880734443124
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 1,
+		"totalCount" : 3	}
+}

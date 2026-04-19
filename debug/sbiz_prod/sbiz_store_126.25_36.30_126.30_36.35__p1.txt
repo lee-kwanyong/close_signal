@@ -1,0 +1,139 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA010120220806152836"
+				,"bizesNm" : "바다슈퍼"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G204"
+				,"indsMclsNm" : "종합 소매"
+				,"indsSclsCd" : "G20404"
+				,"indsSclsNm" : "슈퍼마켓"
+				,"ksicCd" : "G47121"
+				,"ksicNm" : "슈퍼마켓"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44180"
+				,"signguNm" : "보령시"
+				,"adongCd" : "44180320"
+				,"adongNm" : "오천면"
+				,"ldongCd" : "4418032029"
+				,"ldongNm" : "오천면"
+				,"lnoCd" : "4418032029105100000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 510
+				,"lnoSlno" : ""
+				,"lnoAdr" : "충청남도 보령시 오천면 녹도리 510"
+				,"rdnmCd" : "441804556673"
+				,"rdnm" : "충청남도 보령시 오천면 호도길"
+				,"bldMnno" : 16
+				,"bldSlno" : ""
+				,"bldMngNo" : "4418032029105100000000760"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청남도 보령시 오천면 호도길 16"
+				,"oldZipcd" : "355842"
+				,"newZipcd" : "33411"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.264691229114
+				,"lat" : 36.3019997419602
+				}
+				,{
+				"bizesId" : "MA010120220812934408"
+				,"bizesNm" : "바다슈퍼"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G204"
+				,"indsMclsNm" : "종합 소매"
+				,"indsSclsCd" : "G20404"
+				,"indsSclsNm" : "슈퍼마켓"
+				,"ksicCd" : "G47129"
+				,"ksicNm" : "기타 음ㆍ식료품 위주 종합 소매업"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44180"
+				,"signguNm" : "보령시"
+				,"adongCd" : "44180320"
+				,"adongNm" : "오천면"
+				,"ldongCd" : "4418032029"
+				,"ldongNm" : "오천면"
+				,"lnoCd" : "4418032029105090004"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 509
+				,"lnoSlno" : 4
+				,"lnoAdr" : "충청남도 보령시 오천면 녹도리 509-4"
+				,"rdnmCd" : "441804556673"
+				,"rdnm" : "충청남도 보령시 오천면 호도길"
+				,"bldMnno" : 15
+				,"bldSlno" : ""
+				,"bldMngNo" : "4418032029105090000000770"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청남도 보령시 오천면 호도길 15"
+				,"oldZipcd" : "355842"
+				,"newZipcd" : "33411"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.265003703583
+				,"lat" : 36.3019205584755
+				}
+				,{
+				"bizesId" : "MA010120220812667983"
+				,"bizesNm" : "등나무매점"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G204"
+				,"indsMclsNm" : "종합 소매"
+				,"indsSclsCd" : "G20404"
+				,"indsSclsNm" : "슈퍼마켓"
+				,"ksicCd" : "G47129"
+				,"ksicNm" : "기타 음ㆍ식료품 위주 종합 소매업"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44180"
+				,"signguNm" : "보령시"
+				,"adongCd" : "44180320"
+				,"adongNm" : "오천면"
+				,"ldongCd" : "4418032029"
+				,"ldongNm" : "오천면"
+				,"lnoCd" : "4418032029103950000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 395
+				,"lnoSlno" : ""
+				,"lnoAdr" : "충청남도 보령시 오천면 녹도리 395"
+				,"rdnmCd" : "441804556673"
+				,"rdnm" : "충청남도 보령시 오천면 호도길"
+				,"bldMnno" : 64
+				,"bldSlno" : 10
+				,"bldMngNo" : "4418032029103950000000750"
+				,"bldNm" : "호도섬민박"
+				,"rdnmAdr" : "충청남도 보령시 오천면 호도길 64-10"
+				,"oldZipcd" : "355842"
+				,"newZipcd" : "33411"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.265570303868
+				,"lat" : 36.3008606646222
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 1,
+		"totalCount" : 3	}
+}

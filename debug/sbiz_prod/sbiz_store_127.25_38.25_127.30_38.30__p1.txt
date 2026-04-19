@@ -1,0 +1,385 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA010120220802166063"
+				,"bizesNm" : "DMZ썬쌰인팜디엠지"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G205"
+				,"indsMclsNm" : "식료품 소매"
+				,"indsSclsCd" : "G20506"
+				,"indsSclsNm" : "채소/과일 소매업"
+				,"ksicCd" : "G47215"
+				,"ksicNm" : "채소, 과실 및 뿌리작물 소매업"
+				,"ctprvnCd" : "51"
+				,"ctprvnNm" : "강원특별자치도"
+				,"signguCd" : "51780"
+				,"signguNm" : "철원군"
+				,"adongCd" : "51780259"
+				,"adongNm" : "동송읍"
+				,"ldongCd" : "5178025926"
+				,"ldongNm" : "동송읍"
+				,"lnoCd" : "5178025926107470000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 747
+				,"lnoSlno" : ""
+				,"lnoAdr" : "강원특별자치도 철원군 동송읍 대위리 747"
+				,"rdnmCd" : "517802230001"
+				,"rdnm" : "강원특별자치도 철원군 동송읍 오대로"
+				,"bldMnno" : 559
+				,"bldSlno" : ""
+				,"bldMngNo" : "4278025926107470000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "강원특별자치도 철원군 동송읍 오대로 559"
+				,"oldZipcd" : "269813"
+				,"newZipcd" : "24009"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.252498319425
+				,"lat" : 38.2502174600668
+				}
+				,{
+				"bizesId" : "MA010120220808221328"
+				,"bizesNm" : "철새마을"
+				,"brchNm" : ""
+				,"indsLclsCd" : "R1"
+				,"indsLclsNm" : "예술·스포츠"
+				,"indsMclsCd" : "R104"
+				,"indsMclsNm" : "유원지·오락"
+				,"indsSclsCd" : "R10499"
+				,"indsSclsNm" : "기타 오락관련 서비스업"
+				,"ksicCd" : "I55109"
+				,"ksicNm" : "기타 일반 및 생활 숙박시설 운영업"
+				,"ctprvnCd" : "51"
+				,"ctprvnNm" : "강원특별자치도"
+				,"signguCd" : "51780"
+				,"signguNm" : "철원군"
+				,"adongCd" : "51780259"
+				,"adongNm" : "동송읍"
+				,"ldongCd" : "5178025928"
+				,"ldongNm" : "동송읍"
+				,"lnoCd" : "5178025928104430029"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 443
+				,"lnoSlno" : 29
+				,"lnoAdr" : "강원특별자치도 철원군 동송읍 양지리 443-29"
+				,"rdnmCd" : "517804490196"
+				,"rdnm" : "강원특별자치도 철원군 동송읍 양지2길"
+				,"bldMnno" : 44
+				,"bldSlno" : ""
+				,"bldMngNo" : "4278025928104430028000708"
+				,"bldNm" : ""
+				,"rdnmAdr" : "강원특별자치도 철원군 동송읍 양지2길 44"
+				,"oldZipcd" : "269813"
+				,"newZipcd" : "24009"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.281248672601
+				,"lat" : 38.2698274531735
+				}
+				,{
+				"bizesId" : "MA0106202201A0254037"
+				,"bizesNm" : "철원군청"
+				,"brchNm" : ""
+				,"indsLclsCd" : "P1"
+				,"indsLclsNm" : "교육"
+				,"indsMclsCd" : "P106"
+				,"indsMclsNm" : "기타 교육"
+				,"indsSclsCd" : "P10607"
+				,"indsSclsNm" : "청소년 수련시설"
+				,"ksicCd" : "P85614"
+				,"ksicNm" : "청소년 수련시설 운영업"
+				,"ctprvnCd" : "51"
+				,"ctprvnNm" : "강원특별자치도"
+				,"signguCd" : "51780"
+				,"signguNm" : "철원군"
+				,"adongCd" : "51780259"
+				,"adongNm" : "동송읍"
+				,"ldongCd" : "5178025928"
+				,"ldongNm" : "동송읍"
+				,"lnoCd" : "5178025928104510000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 451
+				,"lnoSlno" : ""
+				,"lnoAdr" : "강원특별자치도 철원군 동송읍 양지리 451"
+				,"rdnmCd" : "517804490196"
+				,"rdnm" : "강원특별자치도 철원군 동송읍 양지2길"
+				,"bldMnno" : 15
+				,"bldSlno" : 21
+				,"bldMngNo" : "4278025928104450000011411"
+				,"bldNm" : ""
+				,"rdnmAdr" : "강원특별자치도 철원군 동송읍 양지2길 15-21"
+				,"oldZipcd" : "269813"
+				,"newZipcd" : "24009"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.281591471167
+				,"lat" : 38.2668627171613
+				}
+				,{
+				"bizesId" : "MA0101202409A0044668"
+				,"bizesNm" : "양지다방"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I212"
+				,"indsMclsNm" : "비알코올 "
+				,"indsSclsCd" : "I21201"
+				,"indsSclsNm" : "카페"
+				,"ksicCd" : "I56221"
+				,"ksicNm" : "커피 전문점"
+				,"ctprvnCd" : "51"
+				,"ctprvnNm" : "강원특별자치도"
+				,"signguCd" : "51780"
+				,"signguNm" : "철원군"
+				,"adongCd" : "51780259"
+				,"adongNm" : "동송읍"
+				,"ldongCd" : "5178025928"
+				,"ldongNm" : "동송읍"
+				,"lnoCd" : "5178025928104510000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 451
+				,"lnoSlno" : ""
+				,"lnoAdr" : "강원특별자치도 철원군 동송읍 양지리 451"
+				,"rdnmCd" : "517804490196"
+				,"rdnm" : "강원특별자치도 철원군 동송읍 양지2길"
+				,"bldMnno" : 15
+				,"bldSlno" : 21
+				,"bldMngNo" : "4278025928104450000011411"
+				,"bldNm" : "국제두루미센터"
+				,"rdnmAdr" : "강원특별자치도 철원군 동송읍 양지2길 15-21"
+				,"oldZipcd" : "269813"
+				,"newZipcd" : "24009"
+				,"dongNo" : ""
+				,"flrNo" : "3"
+				,"hoNo" : ""
+				,"lon" : 127.281591471167
+				,"lat" : 38.2668627171613
+				}
+				,{
+				"bizesId" : "MA010120220801716875"
+				,"bizesNm" : "양지수리센타"
+				,"brchNm" : ""
+				,"indsLclsCd" : "S2"
+				,"indsLclsNm" : "수리·개인"
+				,"indsMclsCd" : "S206"
+				,"indsMclsNm" : "기타 가정용품 수리"
+				,"indsSclsCd" : "S20699"
+				,"indsSclsNm" : "그 외 기타 개인/가정용품 수리업"
+				,"ksicCd" : "S95399"
+				,"ksicNm" : "그 외 기타 개인 및 가정용품 수리업"
+				,"ctprvnCd" : "51"
+				,"ctprvnNm" : "강원특별자치도"
+				,"signguCd" : "51780"
+				,"signguNm" : "철원군"
+				,"adongCd" : "51780259"
+				,"adongNm" : "동송읍"
+				,"ldongCd" : "5178025928"
+				,"ldongNm" : "동송읍"
+				,"lnoCd" : "5178025928104370011"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 437
+				,"lnoSlno" : 11
+				,"lnoAdr" : "강원특별자치도 철원군 동송읍 양지리 437-11"
+				,"rdnmCd" : "517804490196"
+				,"rdnm" : "강원특별자치도 철원군 동송읍 양지2길"
+				,"bldMnno" : 30
+				,"bldSlno" : 31
+				,"bldMngNo" : "4278025928104370011011357"
+				,"bldNm" : ""
+				,"rdnmAdr" : "강원특별자치도 철원군 동송읍 양지2길 30-31"
+				,"oldZipcd" : "269813"
+				,"newZipcd" : "24009"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.282628951261
+				,"lat" : 38.2692025257224
+				}
+				,{
+				"bizesId" : "MA010120220801737626"
+				,"bizesNm" : "뚜루뚜루"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G218"
+				,"indsMclsNm" : "장식품 소매"
+				,"indsSclsCd" : "G21802"
+				,"indsSclsNm" : "기념품점"
+				,"ksicCd" : "G47842"
+				,"ksicNm" : "기념품, 관광 민예품 및 장식용품 소매업"
+				,"ctprvnCd" : "51"
+				,"ctprvnNm" : "강원특별자치도"
+				,"signguCd" : "51780"
+				,"signguNm" : "철원군"
+				,"adongCd" : "51780259"
+				,"adongNm" : "동송읍"
+				,"ldongCd" : "5178025928"
+				,"ldongNm" : "동송읍"
+				,"lnoCd" : "5178025928104420033"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 442
+				,"lnoSlno" : 33
+				,"lnoAdr" : "강원특별자치도 철원군 동송읍 양지리 442-33"
+				,"rdnmCd" : "517804490197"
+				,"rdnm" : "강원특별자치도 철원군 동송읍 양지3길"
+				,"bldMnno" : 3
+				,"bldSlno" : 33
+				,"bldMngNo" : "4278025928104430020011536"
+				,"bldNm" : ""
+				,"rdnmAdr" : "강원특별자치도 철원군 동송읍 양지3길 3-33"
+				,"oldZipcd" : "269813"
+				,"newZipcd" : "24009"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.283094279018
+				,"lat" : 38.2683815981238
+				}
+				,{
+				"bizesId" : "MA010120220803576797"
+				,"bizesNm" : "업소명없음"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G205"
+				,"indsMclsNm" : "식료품 소매"
+				,"indsSclsCd" : "G20506"
+				,"indsSclsNm" : "채소/과일 소매업"
+				,"ksicCd" : "G47215"
+				,"ksicNm" : "채소, 과실 및 뿌리작물 소매업"
+				,"ctprvnCd" : "51"
+				,"ctprvnNm" : "강원특별자치도"
+				,"signguCd" : "51780"
+				,"signguNm" : "철원군"
+				,"adongCd" : "51780259"
+				,"adongNm" : "동송읍"
+				,"ldongCd" : "5178025928"
+				,"ldongNm" : "동송읍"
+				,"lnoCd" : "5178025928104420016"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 442
+				,"lnoSlno" : 16
+				,"lnoAdr" : "강원특별자치도 철원군 동송읍 양지리 442-16"
+				,"rdnmCd" : "517804490197"
+				,"rdnm" : "강원특별자치도 철원군 동송읍 양지3길"
+				,"bldMnno" : 3
+				,"bldSlno" : 25
+				,"bldMngNo" : "4278025928104420016000684"
+				,"bldNm" : ""
+				,"rdnmAdr" : "강원특별자치도 철원군 동송읍 양지3길 3-25"
+				,"oldZipcd" : "269813"
+				,"newZipcd" : "24009"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.283265298277
+				,"lat" : 38.2682820879814
+				}
+				,{
+				"bizesId" : "MA010120220801645443"
+				,"bizesNm" : "D.M.Z.생태학교둥지"
+				,"brchNm" : ""
+				,"indsLclsCd" : "N1"
+				,"indsLclsNm" : "시설관리·임대"
+				,"indsMclsCd" : "N108"
+				,"indsMclsNm" : "기타 사업 서비스"
+				,"indsSclsCd" : "N10802"
+				,"indsSclsNm" : "전시/컨벤션/행사 대행 서비스업"
+				,"ksicCd" : "N75992"
+				,"ksicNm" : "전시, 컨벤션 및 행사 대행업"
+				,"ctprvnCd" : "51"
+				,"ctprvnNm" : "강원특별자치도"
+				,"signguCd" : "51780"
+				,"signguNm" : "철원군"
+				,"adongCd" : "51780259"
+				,"adongNm" : "동송읍"
+				,"ldongCd" : "5178025928"
+				,"ldongNm" : "동송읍"
+				,"lnoCd" : "5178025928104410009"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 441
+				,"lnoSlno" : 9
+				,"lnoAdr" : "강원특별자치도 철원군 동송읍 양지리 441-9"
+				,"rdnmCd" : "517804490197"
+				,"rdnm" : "강원특별자치도 철원군 동송읍 양지3길"
+				,"bldMnno" : 13
+				,"bldSlno" : 15
+				,"bldMngNo" : "4278025928104410009011479"
+				,"bldNm" : ""
+				,"rdnmAdr" : "강원특별자치도 철원군 동송읍 양지3길 13-15"
+				,"oldZipcd" : "269813"
+				,"newZipcd" : "24009"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.284156177361
+				,"lat" : 38.268171827713
+				}
+				,{
+				"bizesId" : "MA010120220801702387"
+				,"bizesNm" : "철새보는집"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55104"
+				,"ksicNm" : "민박업"
+				,"ctprvnCd" : "51"
+				,"ctprvnNm" : "강원특별자치도"
+				,"signguCd" : "51780"
+				,"signguNm" : "철원군"
+				,"adongCd" : "51780259"
+				,"adongNm" : "동송읍"
+				,"ldongCd" : "5178025928"
+				,"ldongNm" : "동송읍"
+				,"lnoCd" : "5178025928200040000"
+				,"plotSctCd" : "2"
+				,"plotSctNm" : "산"
+				,"lnoMnno" : 4
+				,"lnoSlno" : ""
+				,"lnoAdr" : "강원특별자치도 철원군 동송읍 양지리 산 4"
+				,"rdnmCd" : "517804490198"
+				,"rdnm" : "강원특별자치도 철원군 동송읍 양지길"
+				,"bldMnno" : 117
+				,"bldSlno" : ""
+				,"bldMngNo" : "4278025928102620001011371"
+				,"bldNm" : ""
+				,"rdnmAdr" : "강원특별자치도 철원군 동송읍 양지길 117"
+				,"oldZipcd" : "269813"
+				,"newZipcd" : "24009"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.289343859762
+				,"lat" : 38.2710059481158
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 1,
+		"totalCount" : 9	}
+}

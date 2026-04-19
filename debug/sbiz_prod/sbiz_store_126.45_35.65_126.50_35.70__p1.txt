@@ -1,0 +1,98 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA010120220807354775"
+				,"bizesNm" : "하섬휴게소"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G204"
+				,"indsMclsNm" : "종합 소매"
+				,"indsSclsCd" : "G20404"
+				,"indsSclsNm" : "슈퍼마켓"
+				,"ksicCd" : "G47129"
+				,"ksicNm" : "기타 음ㆍ식료품 위주 종합 소매업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52800"
+				,"signguNm" : "부안군"
+				,"adongCd" : "52800360"
+				,"adongNm" : "변산면"
+				,"ldongCd" : "5280036024"
+				,"ldongNm" : "변산면"
+				,"lnoCd" : "5280036024103590009"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 359
+				,"lnoSlno" : 9
+				,"lnoAdr" : "전북특별자치도 부안군 변산면 운산리 359-9"
+				,"rdnmCd" : "528004640345"
+				,"rdnm" : "전북특별자치도 부안군 변산면 성천길"
+				,"bldMnno" : 7
+				,"bldSlno" : 18
+				,"bldMngNo" : "4580036024103590009018197"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 부안군 변산면 성천길 7-18"
+				,"oldZipcd" : "579854"
+				,"newZipcd" : "56339"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.499458405605
+				,"lat" : 35.6543122569802
+				}
+				,{
+				"bizesId" : "MA010120220807356968"
+				,"bizesNm" : "해조음"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55104"
+				,"ksicNm" : "민박업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52800"
+				,"signguNm" : "부안군"
+				,"adongCd" : "52800360"
+				,"adongNm" : "변산면"
+				,"ldongCd" : "5280036024"
+				,"ldongNm" : "변산면"
+				,"lnoCd" : "5280036024103590017"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 359
+				,"lnoSlno" : 17
+				,"lnoAdr" : "전북특별자치도 부안군 변산면 운산리 359-17"
+				,"rdnmCd" : "528004640345"
+				,"rdnm" : "전북특별자치도 부안군 변산면 성천길"
+				,"bldMnno" : 13
+				,"bldSlno" : ""
+				,"bldMngNo" : "4580036024103590017018245"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 부안군 변산면 성천길 13"
+				,"oldZipcd" : "579854"
+				,"newZipcd" : "56339"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.500009071412
+				,"lat" : 35.6545488757926
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 1,
+		"totalCount" : 2	}
+}

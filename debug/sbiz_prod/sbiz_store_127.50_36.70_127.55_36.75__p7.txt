@@ -1,0 +1,262 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA0106202511A1633681"
+				,"bizesNm" : "씨유내수삼일점"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G204"
+				,"indsMclsNm" : "종합 소매"
+				,"indsSclsCd" : "G20405"
+				,"indsSclsNm" : "편의점"
+				,"ksicCd" : "G47121"
+				,"ksicNm" : "슈퍼마켓"
+				,"ctprvnCd" : "43"
+				,"ctprvnNm" : "충청북도"
+				,"signguCd" : "43114"
+				,"signguNm" : "청주시 청원구"
+				,"adongCd" : "43114250"
+				,"adongNm" : "내수읍"
+				,"ldongCd" : "4311425021"
+				,"ldongNm" : "내수읍"
+				,"lnoCd" : "4311425021102310000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 231
+				,"lnoSlno" : ""
+				,"lnoAdr" : "충청북도 청주시 청원구 내수읍 내수리 231"
+				,"rdnmCd" : "431143014017"
+				,"rdnm" : "충청북도 청주시 청원구 내수읍 내수로"
+				,"bldMnno" : 635
+				,"bldSlno" : ""
+				,"bldMngNo" : "4371025021002310000049497"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청북도 청주시 청원구 내수읍 내수로 635"
+				,"oldZipcd" : "363932"
+				,"newZipcd" : "28143"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.529892973759
+				,"lat" : 36.7203889503759
+				}
+				,{
+				"bizesId" : "MA0106202511A2409094"
+				,"bizesNm" : "더덕솥뚜껑삼겹살내수점"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20107"
+				,"indsSclsNm" : "돼지고기 구이/찜"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "43"
+				,"ctprvnNm" : "충청북도"
+				,"signguCd" : "43114"
+				,"signguNm" : "청주시 청원구"
+				,"adongCd" : "43114250"
+				,"adongNm" : "내수읍"
+				,"ldongCd" : "4311425021"
+				,"ldongNm" : "내수읍"
+				,"lnoCd" : "4311425021100100017"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 10
+				,"lnoSlno" : 17
+				,"lnoAdr" : "충청북도 청주시 청원구 내수읍 내수리 10-17"
+				,"rdnmCd" : "431143014017"
+				,"rdnm" : "충청북도 청주시 청원구 내수읍 내수로"
+				,"bldMnno" : 707
+				,"bldSlno" : 9
+				,"bldMngNo" : "4311425021100100017000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청북도 청주시 청원구 내수읍 내수로 707-9"
+				,"oldZipcd" : "363932"
+				,"newZipcd" : "28144"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.533905894566
+				,"lat" : 36.7260570426299
+				}
+				,{
+				"bizesId" : "MA0106202511A1274802"
+				,"bizesNm" : "내수꽃삼겹"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "43"
+				,"ctprvnNm" : "충청북도"
+				,"signguCd" : "43114"
+				,"signguNm" : "청주시 청원구"
+				,"adongCd" : "43114250"
+				,"adongNm" : "내수읍"
+				,"ldongCd" : "4311425022"
+				,"ldongNm" : "내수읍"
+				,"lnoCd" : "4311425022101970119"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 197
+				,"lnoSlno" : 119
+				,"lnoAdr" : "충청북도 청주시 청원구 내수읍 마산리 197-119"
+				,"rdnmCd" : "431144520225"
+				,"rdnm" : "충청북도 청주시 청원구 내수읍 마산5길"
+				,"bldMnno" : 11
+				,"bldSlno" : 12
+				,"bldMngNo" : "4311425022101970119000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청북도 청주시 청원구 내수읍 마산5길 11-12"
+				,"oldZipcd" : "363934"
+				,"newZipcd" : "28145"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.535523012537
+				,"lat" : 36.7251847094739
+				}
+				,{
+				"bizesId" : "MA0106202511A2431387"
+				,"bizesNm" : "로렌드치킨"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I210"
+				,"indsMclsNm" : "기타 간이"
+				,"indsSclsCd" : "I21006"
+				,"indsSclsNm" : "치킨"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "43"
+				,"ctprvnNm" : "충청북도"
+				,"signguCd" : "43114"
+				,"signguNm" : "청주시 청원구"
+				,"adongCd" : "43114250"
+				,"adongNm" : "내수읍"
+				,"ldongCd" : "4311425022"
+				,"ldongNm" : "내수읍"
+				,"lnoCd" : "4311425022101230000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 123
+				,"lnoSlno" : ""
+				,"lnoAdr" : "충청북도 청주시 청원구 내수읍 마산리 123"
+				,"rdnmCd" : "431144520226"
+				,"rdnm" : "충청북도 청주시 청원구 내수읍 마산길"
+				,"bldMnno" : 72
+				,"bldSlno" : ""
+				,"bldMngNo" : "4371025022001230000050289"
+				,"bldNm" : "내수진흥1차"
+				,"rdnmAdr" : "충청북도 청주시 청원구 내수읍 마산길 72"
+				,"oldZipcd" : "363934"
+				,"newZipcd" : "28145"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.535646317486
+				,"lat" : 36.7219852032149
+				}
+				,{
+				"bizesId" : "MA0106202511A0955442"
+				,"bizesNm" : "충북라디에이터"
+				,"brchNm" : ""
+				,"indsLclsCd" : "S2"
+				,"indsLclsNm" : "수리·개인"
+				,"indsMclsCd" : "S203"
+				,"indsMclsNm" : "자동차 수리·세차"
+				,"indsSclsCd" : "S20302"
+				,"indsSclsNm" : "자동차 세차장"
+				,"ksicCd" : "S95213"
+				,"ksicNm" : "자동차 세차업"
+				,"ctprvnCd" : "43"
+				,"ctprvnNm" : "충청북도"
+				,"signguCd" : "43114"
+				,"signguNm" : "청주시 청원구"
+				,"adongCd" : "43114250"
+				,"adongNm" : "내수읍"
+				,"ldongCd" : "4311425022"
+				,"ldongNm" : "내수읍"
+				,"lnoCd" : "4311425022100610004"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 61
+				,"lnoSlno" : 4
+				,"lnoAdr" : "충청북도 청주시 청원구 내수읍 마산리 61-4"
+				,"rdnmCd" : "431144520530"
+				,"rdnm" : "충청북도 청주시 청원구 내수읍 원마산길"
+				,"bldMnno" : 10
+				,"bldSlno" : ""
+				,"bldMngNo" : "4371025022100610004000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청북도 청주시 청원구 내수읍 원마산길 10"
+				,"oldZipcd" : "363934"
+				,"newZipcd" : "28150"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.536931134422
+				,"lat" : 36.7168070220738
+				}
+				,{
+				"bizesId" : "MA0106202511A2372817"
+				,"bizesNm" : "내수송어"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "43"
+				,"ctprvnNm" : "충청북도"
+				,"signguCd" : "43114"
+				,"signguNm" : "청주시 청원구"
+				,"adongCd" : "43114250"
+				,"adongNm" : "내수읍"
+				,"ldongCd" : "4311425025"
+				,"ldongNm" : "내수읍"
+				,"lnoCd" : "4311425025100930000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 93
+				,"lnoSlno" : ""
+				,"lnoAdr" : "충청북도 청주시 청원구 내수읍 도원리 93"
+				,"rdnmCd" : "431143240027"
+				,"rdnm" : "충청북도 청주시 청원구 내수읍 도원세교로"
+				,"bldMnno" : 33
+				,"bldSlno" : ""
+				,"bldMngNo" : "4371025025000930000049992"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청북도 청주시 청원구 내수읍 도원세교로 33"
+				,"oldZipcd" : "363933"
+				,"newZipcd" : "28150"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.539096176593
+				,"lat" : 36.7126881555307
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 7,
+		"totalCount" : 606	}
+}

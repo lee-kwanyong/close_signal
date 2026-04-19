@@ -1,0 +1,139 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA0101202504A0030006"
+				,"bizesNm" : "이런민박"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55104"
+				,"ksicNm" : "민박업"
+				,"ctprvnCd" : "48"
+				,"ctprvnNm" : "경상남도"
+				,"signguCd" : "48850"
+				,"signguNm" : "하동군"
+				,"adongCd" : "48850320"
+				,"adongNm" : "악양면"
+				,"ldongCd" : "4885032031"
+				,"ldongNm" : "악양면"
+				,"lnoCd" : "4885032031102070002"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 207
+				,"lnoSlno" : 2
+				,"lnoAdr" : "경상남도 하동군 악양면 정서리 207-2"
+				,"rdnmCd" : "488504832401"
+				,"rdnm" : "경상남도 하동군 악양면 정서길"
+				,"bldMnno" : 19
+				,"bldSlno" : 3
+				,"bldMngNo" : "4885032031102070002011615"
+				,"bldNm" : ""
+				,"rdnmAdr" : "경상남도 하동군 악양면 정서길 19-3"
+				,"oldZipcd" : "667813"
+				,"newZipcd" : "52305"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.707635717595
+				,"lat" : 35.1642192420322
+				}
+				,{
+				"bizesId" : "MA0106202201A1920591"
+				,"bizesNm" : "화개악양농협악주유소"
+				,"brchNm" : "양지점"
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G214"
+				,"indsMclsNm" : "연료 소매"
+				,"indsSclsCd" : "G21401"
+				,"indsSclsNm" : "주유소"
+				,"ksicCd" : "G47711"
+				,"ksicNm" : "운송장비용 주유소 운영업"
+				,"ctprvnCd" : "48"
+				,"ctprvnNm" : "경상남도"
+				,"signguCd" : "48850"
+				,"signguNm" : "하동군"
+				,"adongCd" : "48850320"
+				,"adongNm" : "악양면"
+				,"ldongCd" : "4885032031"
+				,"ldongNm" : "악양면"
+				,"lnoCd" : "4885032031102880005"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 288
+				,"lnoSlno" : 5
+				,"lnoAdr" : "경상남도 하동군 악양면 정서리 288-5"
+				,"rdnmCd" : "488503344011"
+				,"rdnm" : "경상남도 하동군 악양면 악양서로"
+				,"bldMnno" : 347
+				,"bldSlno" : ""
+				,"bldMngNo" : "4885032031102880005012696"
+				,"bldNm" : ""
+				,"rdnmAdr" : "경상남도 하동군 악양면 악양서로 347"
+				,"oldZipcd" : "667813"
+				,"newZipcd" : "52305"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.708905637847
+				,"lat" : 35.1613095160319
+				}
+				,{
+				"bizesId" : "MA0101202502A0109128"
+				,"bizesNm" : "숲속의향기"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G205"
+				,"indsMclsNm" : "식료품 소매"
+				,"indsSclsCd" : "G20506"
+				,"indsSclsNm" : "채소/과일 소매업"
+				,"ksicCd" : "G47215"
+				,"ksicNm" : "채소, 과실 및 뿌리작물 소매업"
+				,"ctprvnCd" : "48"
+				,"ctprvnNm" : "경상남도"
+				,"signguCd" : "48850"
+				,"signguNm" : "하동군"
+				,"adongCd" : "48850400"
+				,"adongNm" : "청암면"
+				,"ldongCd" : "4885040024"
+				,"ldongNm" : "청암면"
+				,"lnoCd" : "4885040024115560002"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 1556
+				,"lnoSlno" : 2
+				,"lnoAdr" : "경상남도 하동군 청암면 상이리 1556-2"
+				,"rdnmCd" : "488504832065"
+				,"rdnm" : "경상남도 하동군 청암면 금남길"
+				,"bldMnno" : 454
+				,"bldSlno" : ""
+				,"bldMngNo" : "4885040024115560002045659"
+				,"bldNm" : ""
+				,"rdnmAdr" : "경상남도 하동군 청암면 금남길 454"
+				,"oldZipcd" : "667884"
+				,"newZipcd" : "52310"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.74829334137
+				,"lat" : 35.1872563083942
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 2,
+		"totalCount" : 103	}
+}

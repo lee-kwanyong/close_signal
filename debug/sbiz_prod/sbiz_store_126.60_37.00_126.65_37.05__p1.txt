@@ -1,0 +1,98 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA0101202306A0029337"
+				,"bizesNm" : "브라보골프당진그늘집"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I212"
+				,"indsMclsNm" : "비알코올 "
+				,"indsSclsCd" : "I21201"
+				,"indsSclsNm" : "카페"
+				,"ksicCd" : "I56221"
+				,"ksicNm" : "커피 전문점"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44270"
+				,"signguNm" : "당진시"
+				,"adongCd" : "44270320"
+				,"adongNm" : "석문면"
+				,"ldongCd" : "4427032021"
+				,"ldongNm" : "석문면"
+				,"lnoCd" : "4427032021115830000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 1583
+				,"lnoSlno" : ""
+				,"lnoAdr" : "충청남도 당진시 석문면 통정리 1583"
+				,"rdnmCd" : "442703265162"
+				,"rdnm" : "충청남도 당진시 석문면 산단8로"
+				,"bldMnno" : 91
+				,"bldSlno" : ""
+				,"bldMngNo" : "4427032021115830000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청남도 당진시 석문면 산단8로 91"
+				,"oldZipcd" : "343856"
+				,"newZipcd" : "31702"
+				,"dongNo" : ""
+				,"flrNo" : "2"
+				,"hoNo" : ""
+				,"lon" : 126.600011945174
+				,"lat" : 37.0057601461874
+				}
+				,{
+				"bizesId" : "MA0101202308A0029108"
+				,"bizesNm" : "도원한식뷔페"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I207"
+				,"indsMclsNm" : "구내식당·뷔페"
+				,"indsSclsCd" : "I20702"
+				,"indsSclsNm" : "뷔페"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44270"
+				,"signguNm" : "당진시"
+				,"adongCd" : "44270320"
+				,"adongNm" : "석문면"
+				,"ldongCd" : "4427032021"
+				,"ldongNm" : "석문면"
+				,"lnoCd" : "4427032021115830000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 1583
+				,"lnoSlno" : ""
+				,"lnoAdr" : "충청남도 당진시 석문면 통정리 1583"
+				,"rdnmCd" : "442703265162"
+				,"rdnm" : "충청남도 당진시 석문면 산단8로"
+				,"bldMnno" : 91
+				,"bldSlno" : ""
+				,"bldMngNo" : "4427032021115830000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청남도 당진시 석문면 산단8로 91"
+				,"oldZipcd" : "343856"
+				,"newZipcd" : "31702"
+				,"dongNo" : ""
+				,"flrNo" : "1"
+				,"hoNo" : ""
+				,"lon" : 126.600011945174
+				,"lat" : 37.0057601461874
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 1,
+		"totalCount" : 2	}
+}

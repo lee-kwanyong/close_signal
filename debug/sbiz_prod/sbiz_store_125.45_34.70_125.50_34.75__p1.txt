@@ -1,0 +1,344 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA010120220810044184"
+				,"bizesNm" : "대둔도민박"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55104"
+				,"ksicNm" : "민박업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46910"
+				,"signguNm" : "신안군"
+				,"adongCd" : "46910360"
+				,"adongNm" : "흑산면"
+				,"ldongCd" : "4691036028"
+				,"ldongNm" : "흑산면"
+				,"lnoCd" : "4691036028102450000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 245
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 신안군 흑산면 오리 245"
+				,"rdnmCd" : "469104706068"
+				,"rdnm" : "전라남도 신안군 흑산면 도목리길"
+				,"bldMnno" : 20
+				,"bldSlno" : 15
+				,"bldMngNo" : "4691036028102450000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 신안군 흑산면 도목리길 20-15"
+				,"oldZipcd" : "535913"
+				,"newZipcd" : "58863"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 125.454522719624
+				,"lat" : 34.7245617335718
+				}
+				,{
+				"bizesId" : "MA0101202211A0062853"
+				,"bizesNm" : "형제"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G205"
+				,"indsMclsNm" : "식료품 소매"
+				,"indsSclsCd" : "G20505"
+				,"indsSclsNm" : "수산물 소매업"
+				,"ksicCd" : "G47214"
+				,"ksicNm" : "신선, 냉동 및 기타 수산물 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46910"
+				,"signguNm" : "신안군"
+				,"adongCd" : "46910360"
+				,"adongNm" : "흑산면"
+				,"ldongCd" : "4691036028"
+				,"ldongNm" : "흑산면"
+				,"lnoCd" : "4691036028100920000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 92
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 신안군 흑산면 오리 92"
+				,"rdnmCd" : "469104706225"
+				,"rdnm" : "전라남도 신안군 흑산면 오리길"
+				,"bldMnno" : 26
+				,"bldSlno" : 20
+				,"bldMngNo" : "4691036028100920000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 신안군 흑산면 오리길 26-20"
+				,"oldZipcd" : "535913"
+				,"newZipcd" : "58863"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 125.458516671007
+				,"lat" : 34.7217011195255
+				}
+				,{
+				"bizesId" : "MA010120220801139601"
+				,"bizesNm" : "업소명없음"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G205"
+				,"indsMclsNm" : "식료품 소매"
+				,"indsSclsCd" : "G20505"
+				,"indsSclsNm" : "수산물 소매업"
+				,"ksicCd" : "G47214"
+				,"ksicNm" : "신선, 냉동 및 기타 수산물 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46910"
+				,"signguNm" : "신안군"
+				,"adongCd" : "46910360"
+				,"adongNm" : "흑산면"
+				,"ldongCd" : "4691036028"
+				,"ldongNm" : "흑산면"
+				,"lnoCd" : "4691036028100230000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 23
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 신안군 흑산면 오리 23"
+				,"rdnmCd" : "469104706225"
+				,"rdnm" : "전라남도 신안군 흑산면 오리길"
+				,"bldMnno" : 15
+				,"bldSlno" : 4
+				,"bldMngNo" : "4691036028100230000000002"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 신안군 흑산면 오리길 15-4"
+				,"oldZipcd" : "535913"
+				,"newZipcd" : "58863"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 125.461029012482
+				,"lat" : 34.7222015704691
+				}
+				,{
+				"bizesId" : "MA010120220806822803"
+				,"bizesNm" : "민들레"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G204"
+				,"indsMclsNm" : "종합 소매"
+				,"indsSclsCd" : "G20404"
+				,"indsSclsNm" : "슈퍼마켓"
+				,"ksicCd" : "G47129"
+				,"ksicNm" : "기타 음ㆍ식료품 위주 종합 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46910"
+				,"signguNm" : "신안군"
+				,"adongCd" : "46910360"
+				,"adongNm" : "흑산면"
+				,"ldongCd" : "4691036028"
+				,"ldongNm" : "흑산면"
+				,"lnoCd" : "4691036028100240003"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 24
+				,"lnoSlno" : 3
+				,"lnoAdr" : "전라남도 신안군 흑산면 오리 24-3"
+				,"rdnmCd" : "469104706225"
+				,"rdnm" : "전라남도 신안군 흑산면 오리길"
+				,"bldMnno" : 15
+				,"bldSlno" : 1
+				,"bldMngNo" : "4691036028100240003000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 신안군 흑산면 오리길 15-1"
+				,"oldZipcd" : "535913"
+				,"newZipcd" : "58863"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 125.461079405301
+				,"lat" : 34.7224275345851
+				}
+				,{
+				"bizesId" : "MA010120220807687656"
+				,"bizesNm" : "중앙상회"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G204"
+				,"indsMclsNm" : "종합 소매"
+				,"indsSclsCd" : "G20404"
+				,"indsSclsNm" : "슈퍼마켓"
+				,"ksicCd" : "G47129"
+				,"ksicNm" : "기타 음ㆍ식료품 위주 종합 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46910"
+				,"signguNm" : "신안군"
+				,"adongCd" : "46910360"
+				,"adongNm" : "흑산면"
+				,"ldongCd" : "4691036031"
+				,"ldongNm" : "흑산면"
+				,"lnoCd" : "4691036031101210003"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 121
+				,"lnoSlno" : 3
+				,"lnoAdr" : "전라남도 신안군 흑산면 수리 121-3"
+				,"rdnmCd" : "469104858036"
+				,"rdnm" : "전라남도 신안군 흑산면 수리길"
+				,"bldMnno" : 24
+				,"bldSlno" : 2
+				,"bldMngNo" : "4691036031101210003000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 신안군 흑산면 수리길 24-2"
+				,"oldZipcd" : "535913"
+				,"newZipcd" : "58863"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 125.463892031502
+				,"lat" : 34.7308902824312
+				}
+				,{
+				"bizesId" : "MA010120220811387311"
+				,"bizesNm" : "아토수산"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G205"
+				,"indsMclsNm" : "식료품 소매"
+				,"indsSclsCd" : "G20505"
+				,"indsSclsNm" : "수산물 소매업"
+				,"ksicCd" : "G47214"
+				,"ksicNm" : "신선, 냉동 및 기타 수산물 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46910"
+				,"signguNm" : "신안군"
+				,"adongCd" : "46910360"
+				,"adongNm" : "흑산면"
+				,"ldongCd" : "4691036031"
+				,"ldongNm" : "흑산면"
+				,"lnoCd" : "4691036031101210006"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 121
+				,"lnoSlno" : 6
+				,"lnoAdr" : "전라남도 신안군 흑산면 수리 121-6"
+				,"rdnmCd" : "469104858036"
+				,"rdnm" : "전라남도 신안군 흑산면 수리길"
+				,"bldMnno" : 26
+				,"bldSlno" : 1
+				,"bldMngNo" : "4691036031101210006000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 신안군 흑산면 수리길 26-1"
+				,"oldZipcd" : "535913"
+				,"newZipcd" : "58863"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 125.464053752036
+				,"lat" : 34.7310004792011
+				}
+				,{
+				"bizesId" : "MA010120220807682875"
+				,"bizesNm" : "동양상회"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G204"
+				,"indsMclsNm" : "종합 소매"
+				,"indsSclsCd" : "G20404"
+				,"indsSclsNm" : "슈퍼마켓"
+				,"ksicCd" : "G47129"
+				,"ksicNm" : "기타 음ㆍ식료품 위주 종합 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46910"
+				,"signguNm" : "신안군"
+				,"adongCd" : "46910360"
+				,"adongNm" : "흑산면"
+				,"ldongCd" : "4691036031"
+				,"ldongNm" : "흑산면"
+				,"lnoCd" : "4691036031101620000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 162
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 신안군 흑산면 수리 162"
+				,"rdnmCd" : "469104858036"
+				,"rdnm" : "전라남도 신안군 흑산면 수리길"
+				,"bldMnno" : 35
+				,"bldSlno" : 3
+				,"bldMngNo" : "4691036031101620000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 신안군 흑산면 수리길 35-3"
+				,"oldZipcd" : "535913"
+				,"newZipcd" : "58863"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 125.464755297701
+				,"lat" : 34.7308470893944
+				}
+				,{
+				"bizesId" : "MA010120220810287791"
+				,"bizesNm" : "고래수산"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G205"
+				,"indsMclsNm" : "식료품 소매"
+				,"indsSclsCd" : "G20505"
+				,"indsSclsNm" : "수산물 소매업"
+				,"ksicCd" : "G47214"
+				,"ksicNm" : "신선, 냉동 및 기타 수산물 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46910"
+				,"signguNm" : "신안군"
+				,"adongCd" : "46910360"
+				,"adongNm" : "흑산면"
+				,"ldongCd" : "4691036031"
+				,"ldongNm" : "흑산면"
+				,"lnoCd" : "4691036031101720001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 172
+				,"lnoSlno" : 1
+				,"lnoAdr" : "전라남도 신안군 흑산면 수리 172-1"
+				,"rdnmCd" : "469104858036"
+				,"rdnm" : "전라남도 신안군 흑산면 수리길"
+				,"bldMnno" : 35
+				,"bldSlno" : 20
+				,"bldMngNo" : "4691036031101720001000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 신안군 흑산면 수리길 35-20"
+				,"oldZipcd" : "535913"
+				,"newZipcd" : "58863"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 125.465585652396
+				,"lat" : 34.7308124886552
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 1,
+		"totalCount" : 8	}
+}

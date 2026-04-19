@@ -1,0 +1,139 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA0106202511A2167976"
+				,"bizesNm" : "냥츠개릿"
+				,"brchNm" : "봉담점"
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G220"
+				,"indsMclsNm" : "애완동물·용품 소매"
+				,"indsSclsCd" : "G22001"
+				,"indsSclsNm" : "애완동물/애완용품 소매업"
+				,"ksicCd" : "G47852"
+				,"ksicNm" : "애완용 동물 및 관련용품 소매업"
+				,"ctprvnCd" : "41"
+				,"ctprvnNm" : "경기도"
+				,"signguCd" : "41590"
+				,"signguNm" : "화성시"
+				,"adongCd" : "41590253"
+				,"adongNm" : "봉담읍"
+				,"ldongCd" : "4159025321"
+				,"ldongNm" : "봉담읍"
+				,"lnoCd" : "4159025321106310005"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 631
+				,"lnoSlno" : 5
+				,"lnoAdr" : "경기도 화성시 봉담읍 상리 631-5"
+				,"rdnmCd" : "415904855205"
+				,"rdnm" : "경기도 화성시 봉담읍 장등2길"
+				,"bldMnno" : 5
+				,"bldSlno" : 7
+				,"bldMngNo" : "4159025321106310005000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "경기도 화성시 봉담읍 장등2길 5-7"
+				,"oldZipcd" : "445891"
+				,"newZipcd" : "18314"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.945534608768
+				,"lat" : 37.2208210296907
+				}
+				,{
+				"bizesId" : "MA0106202511A2106577"
+				,"bizesNm" : "시크리테라피"
+				,"brchNm" : ""
+				,"indsLclsCd" : "S2"
+				,"indsLclsNm" : "수리·개인"
+				,"indsMclsCd" : "S208"
+				,"indsMclsNm" : "욕탕·신체관리"
+				,"indsSclsCd" : "S20803"
+				,"indsSclsNm" : "체형/비만 관리"
+				,"ksicCd" : "S96129"
+				,"ksicNm" : "체형 등 기타 신체 관리 서비스업"
+				,"ctprvnCd" : "41"
+				,"ctprvnNm" : "경기도"
+				,"signguCd" : "41590"
+				,"signguNm" : "화성시"
+				,"adongCd" : "41590253"
+				,"adongNm" : "봉담읍"
+				,"ldongCd" : "4159025321"
+				,"ldongNm" : "봉담읍"
+				,"lnoCd" : "4159025321106880002"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 688
+				,"lnoSlno" : 2
+				,"lnoAdr" : "경기도 화성시 봉담읍 상리 688-2"
+				,"rdnmCd" : "415904855206"
+				,"rdnm" : "경기도 화성시 봉담읍 상리중심상가길"
+				,"bldMnno" : 28
+				,"bldSlno" : 8
+				,"bldMngNo" : "4159025321106880002000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "경기도 화성시 봉담읍 상리중심상가길 28-8"
+				,"oldZipcd" : "445891"
+				,"newZipcd" : "18309"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.946105367106
+				,"lat" : 37.2262546116372
+				}
+				,{
+				"bizesId" : "MA0106202511A2392591"
+				,"bizesNm" : "지에스GS25봉담스토리점"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G204"
+				,"indsMclsNm" : "종합 소매"
+				,"indsSclsCd" : "G20405"
+				,"indsSclsNm" : "편의점"
+				,"ksicCd" : "G47121"
+				,"ksicNm" : "슈퍼마켓"
+				,"ctprvnCd" : "41"
+				,"ctprvnNm" : "경기도"
+				,"signguCd" : "41590"
+				,"signguNm" : "화성시"
+				,"adongCd" : "41590253"
+				,"adongNm" : "봉담읍"
+				,"ldongCd" : "4159025321"
+				,"ldongNm" : "봉담읍"
+				,"lnoCd" : "4159025321106300007"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 630
+				,"lnoSlno" : 7
+				,"lnoAdr" : "경기도 화성시 봉담읍 상리 630-7"
+				,"rdnmCd" : "415904855205"
+				,"rdnm" : "경기도 화성시 봉담읍 장등2길"
+				,"bldMnno" : 5
+				,"bldSlno" : 56
+				,"bldMngNo" : "4159025321100400005000002"
+				,"bldNm" : ""
+				,"rdnmAdr" : "경기도 화성시 봉담읍 장등2길 5-56"
+				,"oldZipcd" : "445891"
+				,"newZipcd" : "18314"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.946153718767
+				,"lat" : 37.2216412669799
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 13,
+		"totalCount" : 1203	}
+}

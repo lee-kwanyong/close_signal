@@ -1,0 +1,344 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA0106202511A2405417"
+				,"bizesNm" : "다담한식뷔페"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I207"
+				,"indsMclsNm" : "구내식당·뷔페"
+				,"indsSclsCd" : "I20702"
+				,"indsSclsNm" : "뷔페"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "41"
+				,"ctprvnNm" : "경기도"
+				,"signguCd" : "41590"
+				,"signguNm" : "화성시"
+				,"adongCd" : "41590259"
+				,"adongNm" : "향남읍"
+				,"ldongCd" : "4159025929"
+				,"ldongNm" : "향남읍"
+				,"lnoCd" : "4159025929102380004"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 238
+				,"lnoSlno" : 4
+				,"lnoAdr" : "경기도 화성시 향남읍 백토리 238-4"
+				,"rdnmCd" : "415904430734"
+				,"rdnm" : "경기도 화성시 향남읍 솔태상두길"
+				,"bldMnno" : 304
+				,"bldSlno" : ""
+				,"bldMngNo" : "4159025929102380004009966"
+				,"bldNm" : ""
+				,"rdnmAdr" : "경기도 화성시 향남읍 솔태상두길 304"
+				,"oldZipcd" : "445924"
+				,"newZipcd" : "18589"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.950110181338
+				,"lat" : 37.116363550528
+				}
+				,{
+				"bizesId" : "MA0106202511A2357959"
+				,"bizesNm" : "대도보링"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G202"
+				,"indsMclsNm" : "자동차 부품 소매"
+				,"indsSclsCd" : "G20202"
+				,"indsSclsNm" : "자동차 부품 소매업"
+				,"ksicCd" : "G45219"
+				,"ksicNm" : "기타 자동차 신품 부품 및 내장품 판매업"
+				,"ctprvnCd" : "41"
+				,"ctprvnNm" : "경기도"
+				,"signguCd" : "41590"
+				,"signguNm" : "화성시"
+				,"adongCd" : "41590259"
+				,"adongNm" : "향남읍"
+				,"ldongCd" : "4159025936"
+				,"ldongNm" : "향남읍"
+				,"lnoCd" : "4159025936104820002"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 482
+				,"lnoSlno" : 2
+				,"lnoAdr" : "경기도 화성시 향남읍 동오리 482-2"
+				,"rdnmCd" : "415904430313"
+				,"rdnm" : "경기도 화성시 향남읍 동오1길"
+				,"bldMnno" : 38
+				,"bldSlno" : ""
+				,"bldMngNo" : "4159025936104820002000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "경기도 화성시 향남읍 동오1길 38"
+				,"oldZipcd" : "445929"
+				,"newZipcd" : "18589"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.950661418779
+				,"lat" : 37.1338444083882
+				}
+				,{
+				"bizesId" : "MA0106202511A0801844"
+				,"bizesNm" : "두리콤"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G212"
+				,"indsMclsNm" : "기타 생활용품 소매"
+				,"indsSclsCd" : "G21201"
+				,"indsSclsNm" : "전기용품/조명장치 소매업"
+				,"ksicCd" : "G47591"
+				,"ksicNm" : "전기용품 및 조명장치 소매업"
+				,"ctprvnCd" : "41"
+				,"ctprvnNm" : "경기도"
+				,"signguCd" : "41590"
+				,"signguNm" : "화성시"
+				,"adongCd" : "41590259"
+				,"adongNm" : "향남읍"
+				,"ldongCd" : "4159025929"
+				,"ldongNm" : "향남읍"
+				,"lnoCd" : "4159025929101910000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 191
+				,"lnoSlno" : ""
+				,"lnoAdr" : "경기도 화성시 향남읍 백토리 191"
+				,"rdnmCd" : "415903210110"
+				,"rdnm" : "경기도 화성시 향남읍 토성로"
+				,"bldMnno" : 296
+				,"bldSlno" : 5
+				,"bldMngNo" : "4159025929101910000007508"
+				,"bldNm" : ""
+				,"rdnmAdr" : "경기도 화성시 향남읍 토성로 296-5"
+				,"oldZipcd" : "445924"
+				,"newZipcd" : "18589"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.955589270451
+				,"lat" : 37.1171586662456
+				}
+				,{
+				"bizesId" : "MA0106202511A1645095"
+				,"bizesNm" : "손맛한식뷔페"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I207"
+				,"indsMclsNm" : "구내식당·뷔페"
+				,"indsSclsCd" : "I20702"
+				,"indsSclsNm" : "뷔페"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "41"
+				,"ctprvnNm" : "경기도"
+				,"signguCd" : "41590"
+				,"signguNm" : "화성시"
+				,"adongCd" : "41590259"
+				,"adongNm" : "향남읍"
+				,"ldongCd" : "4159025936"
+				,"ldongNm" : "향남읍"
+				,"lnoCd" : "4159025936101180014"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 118
+				,"lnoSlno" : 14
+				,"lnoAdr" : "경기도 화성시 향남읍 동오리 118-14"
+				,"rdnmCd" : "415903210137"
+				,"rdnm" : "경기도 화성시 향남읍 발안로"
+				,"bldMnno" : 499
+				,"bldSlno" : 45
+				,"bldMngNo" : "4159025936101180014000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "경기도 화성시 향남읍 발안로 499-45"
+				,"oldZipcd" : "445929"
+				,"newZipcd" : "18624"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.960440767909
+				,"lat" : 37.13496539196
+				}
+				,{
+				"bizesId" : "MA0106202510A2449296"
+				,"bizesNm" : "파인"
+				,"brchNm" : ""
+				,"indsLclsCd" : "P1"
+				,"indsLclsNm" : "교육"
+				,"indsMclsCd" : "P105"
+				,"indsMclsNm" : "일반 교육"
+				,"indsSclsCd" : "P10501"
+				,"indsSclsNm" : "입시·교과학원"
+				,"ksicCd" : "P85501"
+				,"ksicNm" : "일반 교과학원"
+				,"ctprvnCd" : "41"
+				,"ctprvnNm" : "경기도"
+				,"signguCd" : "41590"
+				,"signguNm" : "화성시"
+				,"adongCd" : "41590259"
+				,"adongNm" : "향남읍"
+				,"ldongCd" : "4159025931"
+				,"ldongNm" : "향남읍"
+				,"lnoCd" : "4159025931100910002"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 91
+				,"lnoSlno" : 2
+				,"lnoAdr" : "경기도 화성시 향남읍 요리 91-2"
+				,"rdnmCd" : "415903210110"
+				,"rdnm" : "경기도 화성시 향남읍 토성로"
+				,"bldMnno" : 383
+				,"bldSlno" : 43
+				,"bldMngNo" : "4159025931100910002000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "경기도 화성시 향남읍 토성로 383-43"
+				,"oldZipcd" : "445924"
+				,"newZipcd" : "18624"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.964612922678
+				,"lat" : 37.1177293735116
+				}
+				,{
+				"bizesId" : "MA0106202511A2444042"
+				,"bizesNm" : "미소한식뷔페"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I207"
+				,"indsMclsNm" : "구내식당·뷔페"
+				,"indsSclsCd" : "I20702"
+				,"indsSclsNm" : "뷔페"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "41"
+				,"ctprvnNm" : "경기도"
+				,"signguCd" : "41590"
+				,"signguNm" : "화성시"
+				,"adongCd" : "41590259"
+				,"adongNm" : "향남읍"
+				,"ldongCd" : "4159025934"
+				,"ldongNm" : "향남읍"
+				,"lnoCd" : "4159025934101960000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 196
+				,"lnoSlno" : ""
+				,"lnoAdr" : "경기도 화성시 향남읍 증거리 196"
+				,"rdnmCd" : "415903210033"
+				,"rdnm" : "경기도 화성시 향남읍 만년로"
+				,"bldMnno" : 174
+				,"bldSlno" : ""
+				,"bldMngNo" : "4159025934101960000009321"
+				,"bldNm" : ""
+				,"rdnmAdr" : "경기도 화성시 향남읍 만년로 174"
+				,"oldZipcd" : "445921"
+				,"newZipcd" : "18625"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.977512508641
+				,"lat" : 37.1389885941381
+				}
+				,{
+				"bizesId" : "MA0106202511A1055145"
+				,"bizesNm" : "이마트24R양감"
+				,"brchNm" : "대박점"
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G204"
+				,"indsMclsNm" : "종합 소매"
+				,"indsSclsCd" : "G20405"
+				,"indsSclsNm" : "편의점"
+				,"ksicCd" : "G47121"
+				,"ksicNm" : "슈퍼마켓"
+				,"ctprvnCd" : "41"
+				,"ctprvnNm" : "경기도"
+				,"signguCd" : "41590"
+				,"signguNm" : "화성시"
+				,"adongCd" : "41590400"
+				,"adongNm" : "양감면"
+				,"ldongCd" : "4159040024"
+				,"ldongNm" : "양감면"
+				,"lnoCd" : "4159040024103070033"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 307
+				,"lnoSlno" : 33
+				,"lnoAdr" : "경기도 화성시 양감면 송산리 307-33"
+				,"rdnmCd" : "415903210106"
+				,"rdnm" : "경기도 화성시 양감면 초록로"
+				,"bldMnno" : 720
+				,"bldSlno" : 3
+				,"bldMngNo" : "4159040024103070033000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "경기도 화성시 양감면 초록로 720-3"
+				,"oldZipcd" : "445933"
+				,"newZipcd" : "18628"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.979432408751
+				,"lat" : 37.114786388989
+				}
+				,{
+				"bizesId" : "MA0106202511A1651774"
+				,"bizesNm" : "수커피"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I212"
+				,"indsMclsNm" : "비알코올 "
+				,"indsSclsCd" : "I21201"
+				,"indsSclsNm" : "카페"
+				,"ksicCd" : "I56221"
+				,"ksicNm" : "커피 전문점"
+				,"ctprvnCd" : "41"
+				,"ctprvnNm" : "경기도"
+				,"signguCd" : "41590"
+				,"signguNm" : "화성시"
+				,"adongCd" : "41590259"
+				,"adongNm" : "향남읍"
+				,"ldongCd" : "4159025932"
+				,"ldongNm" : "향남읍"
+				,"lnoCd" : "4159025932102700000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 270
+				,"lnoSlno" : ""
+				,"lnoAdr" : "경기도 화성시 향남읍 수직리 270"
+				,"rdnmCd" : "415903210033"
+				,"rdnm" : "경기도 화성시 향남읍 만년로"
+				,"bldMnno" : 24
+				,"bldSlno" : ""
+				,"bldMngNo" : "4159025932102700005037314"
+				,"bldNm" : ""
+				,"rdnmAdr" : "경기도 화성시 향남읍 만년로 24"
+				,"oldZipcd" : "445921"
+				,"newZipcd" : "18625"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.985629533146
+				,"lat" : 37.1275193355651
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 6,
+		"totalCount" : 508	}
+}

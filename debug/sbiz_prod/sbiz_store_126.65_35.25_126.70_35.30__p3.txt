@@ -1,0 +1,221 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA0106202511A2338798"
+				,"bizesNm" : "감성커피"
+				,"brchNm" : "삼계점"
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I212"
+				,"indsMclsNm" : "비알코올 "
+				,"indsSclsCd" : "I21201"
+				,"indsSclsNm" : "카페"
+				,"ksicCd" : "I56221"
+				,"ksicNm" : "커피 전문점"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46880"
+				,"signguNm" : "장성군"
+				,"adongCd" : "46880350"
+				,"adongNm" : "삼계면"
+				,"ldongCd" : "4688035021"
+				,"ldongNm" : "삼계면"
+				,"lnoCd" : "4688035021103310003"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 331
+				,"lnoSlno" : 3
+				,"lnoAdr" : "전라남도 장성군 삼계면 사창리 331-3"
+				,"rdnmCd" : "468803299025"
+				,"rdnm" : "전라남도 장성군 삼계면 사창로"
+				,"bldMnno" : 26
+				,"bldSlno" : 1
+				,"bldMngNo" : "4688035021103310003026306"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 장성군 삼계면 사창로 26-1"
+				,"oldZipcd" : "515873"
+				,"newZipcd" : "57238"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.668423887163
+				,"lat" : 35.2572378163052
+				}
+				,{
+				"bizesId" : "MA0106202511A0499560"
+				,"bizesNm" : "상무헬스장"
+				,"brchNm" : ""
+				,"indsLclsCd" : "R1"
+				,"indsLclsNm" : "예술·스포츠"
+				,"indsMclsCd" : "R103"
+				,"indsMclsNm" : "스포츠 서비스"
+				,"indsSclsCd" : "R10307"
+				,"indsSclsNm" : "헬스장"
+				,"ksicCd" : "R91132"
+				,"ksicNm" : "체력 단련시설 운영업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46880"
+				,"signguNm" : "장성군"
+				,"adongCd" : "46880350"
+				,"adongNm" : "삼계면"
+				,"ldongCd" : "4688035023"
+				,"ldongNm" : "삼계면"
+				,"lnoCd" : "4688035023107150000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 715
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 장성군 삼계면 주산리 715"
+				,"rdnmCd" : "468803299006"
+				,"rdnm" : "전라남도 장성군 삼계면 능성로"
+				,"bldMnno" : 548
+				,"bldSlno" : 5
+				,"bldMngNo" : "4688035023107150000027640"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 장성군 삼계면 능성로 548-5"
+				,"oldZipcd" : "515873"
+				,"newZipcd" : "57238"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.669978948408
+				,"lat" : 35.2558449900303
+				}
+				,{
+				"bizesId" : "MA0106202509A1528249"
+				,"bizesNm" : "상무학원"
+				,"brchNm" : ""
+				,"indsLclsCd" : "P1"
+				,"indsLclsNm" : "교육"
+				,"indsMclsCd" : "P105"
+				,"indsMclsNm" : "일반 교육"
+				,"indsSclsCd" : "P10501"
+				,"indsSclsNm" : "입시·교과학원"
+				,"ksicCd" : "P85501"
+				,"ksicNm" : "일반 교과학원"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46880"
+				,"signguNm" : "장성군"
+				,"adongCd" : "46880350"
+				,"adongNm" : "삼계면"
+				,"ldongCd" : "4688035023"
+				,"ldongNm" : "삼계면"
+				,"lnoCd" : "4688035023107160000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 716
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 장성군 삼계면 주산리 716"
+				,"rdnmCd" : "468803299006"
+				,"rdnm" : "전라남도 장성군 삼계면 능성로"
+				,"bldMnno" : 552
+				,"bldSlno" : ""
+				,"bldMngNo" : "4688035023107160000027637"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 장성군 삼계면 능성로 552"
+				,"oldZipcd" : "515873"
+				,"newZipcd" : "57238"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.670286734569
+				,"lat" : 35.2558187888276
+				}
+				,{
+				"bizesId" : "MA0106202509A2238950"
+				,"bizesNm" : "서진학원"
+				,"brchNm" : ""
+				,"indsLclsCd" : "P1"
+				,"indsLclsNm" : "교육"
+				,"indsMclsCd" : "P105"
+				,"indsMclsNm" : "일반 교육"
+				,"indsSclsCd" : "P10501"
+				,"indsSclsNm" : "입시·교과학원"
+				,"ksicCd" : "P85501"
+				,"ksicNm" : "일반 교과학원"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46880"
+				,"signguNm" : "장성군"
+				,"adongCd" : "46880350"
+				,"adongNm" : "삼계면"
+				,"ldongCd" : "4688035023"
+				,"ldongNm" : "삼계면"
+				,"lnoCd" : "4688035023107390001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 739
+				,"lnoSlno" : 1
+				,"lnoAdr" : "전라남도 장성군 삼계면 주산리 739-1"
+				,"rdnmCd" : "468804697351"
+				,"rdnm" : "전라남도 장성군 삼계면 주산1길"
+				,"bldMnno" : 72
+				,"bldSlno" : ""
+				,"bldMngNo" : "4688035023107390001027604"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 장성군 삼계면 주산1길 72"
+				,"oldZipcd" : "515873"
+				,"newZipcd" : "57238"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.671178218641
+				,"lat" : 35.2554696917951
+				}
+				,{
+				"bizesId" : "MA0106202507A1572200"
+				,"bizesNm" : "어스coffee"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I212"
+				,"indsMclsNm" : "비알코올 "
+				,"indsSclsCd" : "I21201"
+				,"indsSclsNm" : "카페"
+				,"ksicCd" : "I56221"
+				,"ksicNm" : "커피 전문점"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46880"
+				,"signguNm" : "장성군"
+				,"adongCd" : "46880350"
+				,"adongNm" : "삼계면"
+				,"ldongCd" : "4688035021"
+				,"ldongNm" : "삼계면"
+				,"lnoCd" : "4688035021101030000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 103
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 장성군 삼계면 사창리 103"
+				,"rdnmCd" : "468804697038"
+				,"rdnm" : "전라남도 장성군 삼계면 금성길"
+				,"bldMnno" : 15
+				,"bldSlno" : 3
+				,"bldMngNo" : "4688035021101030000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 장성군 삼계면 금성길 15-3"
+				,"oldZipcd" : "515873"
+				,"newZipcd" : "57238"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.67260925462
+				,"lat" : 35.2575736947523
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 3,
+		"totalCount" : 205	}
+}

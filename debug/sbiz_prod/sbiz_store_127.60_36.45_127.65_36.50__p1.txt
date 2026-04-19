@@ -1,0 +1,385 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA010120220802148021"
+				,"bizesNm" : "밤소가든"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "43"
+				,"ctprvnNm" : "충청북도"
+				,"signguCd" : "43720"
+				,"signguNm" : "보은군"
+				,"adongCd" : "43720385"
+				,"adongNm" : "회인면"
+				,"ldongCd" : "4372038532"
+				,"ldongNm" : "회인면"
+				,"lnoCd" : "4372038532102420000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 242
+				,"lnoSlno" : ""
+				,"lnoAdr" : "충청북도 보은군 회인면 눌곡리 242"
+				,"rdnmCd" : "437202014002"
+				,"rdnm" : "충청북도 보은군 회인면 보청대로"
+				,"bldMnno" : 3400
+				,"bldSlno" : ""
+				,"bldMngNo" : "4372038532102420000103157"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청북도 보은군 회인면 보청대로 3400"
+				,"oldZipcd" : "376893"
+				,"newZipcd" : "28929"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.603047675571
+				,"lat" : 36.4856033049068
+				}
+				,{
+				"bizesId" : "MA010120220807347041"
+				,"bizesNm" : "원일"
+				,"brchNm" : ""
+				,"indsLclsCd" : "S2"
+				,"indsLclsNm" : "수리·개인"
+				,"indsMclsCd" : "S210"
+				,"indsMclsNm" : "장례식장 "
+				,"indsSclsCd" : "S21001"
+				,"indsSclsNm" : "장례식장"
+				,"ksicCd" : "S96921"
+				,"ksicNm" : "장례식장 및 장의관련 서비스업"
+				,"ctprvnCd" : "43"
+				,"ctprvnNm" : "충청북도"
+				,"signguCd" : "43720"
+				,"signguNm" : "보은군"
+				,"adongCd" : "43720385"
+				,"adongNm" : "회인면"
+				,"ldongCd" : "4372038528"
+				,"ldongNm" : "회인면"
+				,"lnoCd" : "4372038528102510011"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 251
+				,"lnoSlno" : 11
+				,"lnoAdr" : "충청북도 보은군 회인면 송평리 251-11"
+				,"rdnmCd" : "437204523272"
+				,"rdnm" : "충청북도 보은군 회인면 송평길"
+				,"bldMnno" : 30
+				,"bldSlno" : 2
+				,"bldMngNo" : "4372038528102510011102849"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청북도 보은군 회인면 송평길 30-2"
+				,"oldZipcd" : "376891"
+				,"newZipcd" : "28928"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.605699318757
+				,"lat" : 36.475010415643
+				}
+				,{
+				"bizesId" : "MA0101202410A0639185"
+				,"bizesNm" : "하늘블루베리농원"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G205"
+				,"indsMclsNm" : "식료품 소매"
+				,"indsSclsCd" : "G20506"
+				,"indsSclsNm" : "채소/과일 소매업"
+				,"ksicCd" : "G47215"
+				,"ksicNm" : "채소, 과실 및 뿌리작물 소매업"
+				,"ctprvnCd" : "43"
+				,"ctprvnNm" : "충청북도"
+				,"signguCd" : "43720"
+				,"signguNm" : "보은군"
+				,"adongCd" : "43720385"
+				,"adongNm" : "회인면"
+				,"ldongCd" : "4372038528"
+				,"ldongNm" : "회인면"
+				,"lnoCd" : "4372038528102500005"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 250
+				,"lnoSlno" : 5
+				,"lnoAdr" : "충청북도 보은군 회인면 송평리 250-5"
+				,"rdnmCd" : "437204523271"
+				,"rdnm" : "충청북도 보은군 회인면 송평2길"
+				,"bldMnno" : 8
+				,"bldSlno" : 3
+				,"bldMngNo" : "4372038528102500005102821"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청북도 보은군 회인면 송평2길 8-3"
+				,"oldZipcd" : "376891"
+				,"newZipcd" : "28928"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.606523226623
+				,"lat" : 36.4747809441647
+				}
+				,{
+				"bizesId" : "MA0101202310A0068400"
+				,"bizesNm" : "미진"
+				,"brchNm" : ""
+				,"indsLclsCd" : "R1"
+				,"indsLclsNm" : "예술·스포츠"
+				,"indsMclsCd" : "R104"
+				,"indsMclsNm" : "유원지·오락"
+				,"indsSclsCd" : "R10499"
+				,"indsSclsNm" : "기타 오락관련 서비스업"
+				,"ksicCd" : "R91299"
+				,"ksicNm" : "그 외 기타 분류 안된 오락관련 서비스업"
+				,"ctprvnCd" : "43"
+				,"ctprvnNm" : "충청북도"
+				,"signguCd" : "43720"
+				,"signguNm" : "보은군"
+				,"adongCd" : "43720385"
+				,"adongNm" : "회인면"
+				,"ldongCd" : "4372038527"
+				,"ldongNm" : "회인면"
+				,"lnoCd" : "4372038527100350003"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 35
+				,"lnoSlno" : 3
+				,"lnoAdr" : "충청북도 보은군 회인면 부수리 35-3"
+				,"rdnmCd" : "437204523170"
+				,"rdnm" : "충청북도 보은군 회인면 부수2길"
+				,"bldMnno" : 25
+				,"bldSlno" : ""
+				,"bldMngNo" : "4372038527100350000104395"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청북도 보은군 회인면 부수2길 25"
+				,"oldZipcd" : "376891"
+				,"newZipcd" : "28929"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.609445350536
+				,"lat" : 36.4945642241469
+				}
+				,{
+				"bizesId" : "MA010120220805630067"
+				,"bizesNm" : "건천농산물직판장"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G205"
+				,"indsMclsNm" : "식료품 소매"
+				,"indsSclsCd" : "G20506"
+				,"indsSclsNm" : "채소/과일 소매업"
+				,"ksicCd" : "G47215"
+				,"ksicNm" : "채소, 과실 및 뿌리작물 소매업"
+				,"ctprvnCd" : "43"
+				,"ctprvnNm" : "충청북도"
+				,"signguCd" : "43720"
+				,"signguNm" : "보은군"
+				,"adongCd" : "43720385"
+				,"adongNm" : "회인면"
+				,"ldongCd" : "4372038526"
+				,"ldongNm" : "회인면"
+				,"lnoCd" : "4372038526101980015"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 198
+				,"lnoSlno" : 15
+				,"lnoAdr" : "충청북도 보은군 회인면 건천리 198-15"
+				,"rdnmCd" : "437202014002"
+				,"rdnm" : "충청북도 보은군 회인면 보청대로"
+				,"bldMnno" : 3143
+				,"bldSlno" : ""
+				,"bldMngNo" : "4372038526101980001104369"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청북도 보은군 회인면 보청대로 3143"
+				,"oldZipcd" : "376891"
+				,"newZipcd" : "28928"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.619721147014
+				,"lat" : 36.4787322477784
+				}
+				,{
+				"bizesId" : "MA0101202411A0124142"
+				,"bizesNm" : "보은가마솥순대국"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20102"
+				,"indsSclsNm" : "국/탕/찌개류"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "43"
+				,"ctprvnNm" : "충청북도"
+				,"signguCd" : "43720"
+				,"signguNm" : "보은군"
+				,"adongCd" : "43720385"
+				,"adongNm" : "회인면"
+				,"ldongCd" : "4372038526"
+				,"ldongNm" : "회인면"
+				,"lnoCd" : "4372038526101810009"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 181
+				,"lnoSlno" : 9
+				,"lnoAdr" : "충청북도 보은군 회인면 건천리 181-9"
+				,"rdnmCd" : "437202014002"
+				,"rdnm" : "충청북도 보은군 회인면 보청대로"
+				,"bldMnno" : 3118
+				,"bldSlno" : ""
+				,"bldMngNo" : "4372038526101810005000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청북도 보은군 회인면 보청대로 3118"
+				,"oldZipcd" : "376891"
+				,"newZipcd" : "28928"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.622624779672
+				,"lat" : 36.4790325339137
+				}
+				,{
+				"bizesId" : "MA010120220806183424"
+				,"bizesNm" : "성진주유소"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G214"
+				,"indsMclsNm" : "연료 소매"
+				,"indsSclsCd" : "G21401"
+				,"indsSclsNm" : "주유소"
+				,"ksicCd" : "G47711"
+				,"ksicNm" : "운송장비용 주유소 운영업"
+				,"ctprvnCd" : "43"
+				,"ctprvnNm" : "충청북도"
+				,"signguCd" : "43720"
+				,"signguNm" : "보은군"
+				,"adongCd" : "43720385"
+				,"adongNm" : "회인면"
+				,"ldongCd" : "4372038526"
+				,"ldongNm" : "회인면"
+				,"lnoCd" : "4372038526101780001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 178
+				,"lnoSlno" : 1
+				,"lnoAdr" : "충청북도 보은군 회인면 건천리 178-1"
+				,"rdnmCd" : "437202014002"
+				,"rdnm" : "충청북도 보은군 회인면 보청대로"
+				,"bldMnno" : 3102
+				,"bldSlno" : ""
+				,"bldMngNo" : "4372038526101780001101011"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청북도 보은군 회인면 보청대로 3102"
+				,"oldZipcd" : "376891"
+				,"newZipcd" : "28928"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.624338725388
+				,"lat" : 36.4784738799027
+				}
+				,{
+				"bizesId" : "MA010120220805633670"
+				,"bizesNm" : "밀레니엄농원"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G205"
+				,"indsMclsNm" : "식료품 소매"
+				,"indsSclsCd" : "G20505"
+				,"indsSclsNm" : "수산물 소매업"
+				,"ksicCd" : "G47214"
+				,"ksicNm" : "신선, 냉동 및 기타 수산물 소매업"
+				,"ctprvnCd" : "43"
+				,"ctprvnNm" : "충청북도"
+				,"signguCd" : "43720"
+				,"signguNm" : "보은군"
+				,"adongCd" : "43720385"
+				,"adongNm" : "회인면"
+				,"ldongCd" : "4372038526"
+				,"ldongNm" : "회인면"
+				,"lnoCd" : "4372038526100510002"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 51
+				,"lnoSlno" : 2
+				,"lnoAdr" : "충청북도 보은군 회인면 건천리 51-2"
+				,"rdnmCd" : "437202014002"
+				,"rdnm" : "충청북도 보은군 회인면 보청대로"
+				,"bldMnno" : 2958
+				,"bldSlno" : 41
+				,"bldMngNo" : "4372038526100510002100112"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청북도 보은군 회인면 보청대로 2958-41"
+				,"oldZipcd" : "376891"
+				,"newZipcd" : "28928"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.634207570528
+				,"lat" : 36.4694644475931
+				}
+				,{
+				"bizesId" : "MA0101202410A0430790"
+				,"bizesNm" : "보은방역공사"
+				,"brchNm" : ""
+				,"indsLclsCd" : "N1"
+				,"indsLclsNm" : "시설관리·임대"
+				,"indsMclsCd" : "N102"
+				,"indsMclsNm" : "청소·방제"
+				,"indsSclsCd" : "N10203"
+				,"indsSclsNm" : "소독, 구충 및 방제 서비스업"
+				,"ksicCd" : "N74220"
+				,"ksicNm" : "소독, 구충 및 방제 서비스업"
+				,"ctprvnCd" : "43"
+				,"ctprvnNm" : "충청북도"
+				,"signguCd" : "43720"
+				,"signguNm" : "보은군"
+				,"adongCd" : "43720360"
+				,"adongNm" : "수한면"
+				,"ldongCd" : "4372036028"
+				,"ldongNm" : "수한면"
+				,"lnoCd" : "4372036028100810001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 81
+				,"lnoSlno" : 1
+				,"lnoAdr" : "충청북도 보은군 수한면 차정리 81-1"
+				,"rdnmCd" : "437204523224"
+				,"rdnm" : "충청북도 보은군 수한면 상차정길"
+				,"bldMnno" : 38
+				,"bldSlno" : ""
+				,"bldMngNo" : "4372036028100810001101344"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청북도 보은군 수한면 상차정길 38"
+				,"oldZipcd" : "376882"
+				,"newZipcd" : "28919"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.648499818444
+				,"lat" : 36.4627461911054
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 1,
+		"totalCount" : 9	}
+}

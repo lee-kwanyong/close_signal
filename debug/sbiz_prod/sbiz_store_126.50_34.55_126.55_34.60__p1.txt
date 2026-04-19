@@ -1,0 +1,262 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA010120220812633244"
+				,"bizesNm" : "호교마을남도광역추모공원식당"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46820"
+				,"signguNm" : "해남군"
+				,"adongCd" : "46820400"
+				,"adongNm" : "황산면"
+				,"ldongCd" : "4682040022"
+				,"ldongNm" : "황산면"
+				,"lnoCd" : "4682040022100050005"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 5
+				,"lnoSlno" : 5
+				,"lnoAdr" : "전라남도 해남군 황산면 원호리 5-5"
+				,"rdnmCd" : "468204682628"
+				,"rdnm" : "전라남도 해남군 황산면 호교길"
+				,"bldMnno" : 241
+				,"bldSlno" : 250
+				,"bldMngNo" : "4682040022100050005000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 해남군 황산면 호교길 241-250"
+				,"oldZipcd" : "536865"
+				,"newZipcd" : "59008"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.519437885297
+				,"lat" : 34.5625716185515
+				}
+				,{
+				"bizesId" : "MA010120220801631263"
+				,"bizesNm" : "황산면4개마을주민협의체"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G221"
+				,"indsMclsNm" : "기타 상품 소매"
+				,"indsSclsCd" : "G22199"
+				,"indsSclsNm" : "그 외 기타 상품 전문 소매업"
+				,"ksicCd" : "G47859"
+				,"ksicNm" : "그 외 기타 분류 안된 상품 전문 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46820"
+				,"signguNm" : "해남군"
+				,"adongCd" : "46820400"
+				,"adongNm" : "황산면"
+				,"ldongCd" : "4682040022"
+				,"ldongNm" : "황산면"
+				,"lnoCd" : "4682040022100050005"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 5
+				,"lnoSlno" : 5
+				,"lnoAdr" : "전라남도 해남군 황산면 원호리 5-5"
+				,"rdnmCd" : "468204682628"
+				,"rdnm" : "전라남도 해남군 황산면 호교길"
+				,"bldMnno" : 241
+				,"bldSlno" : 250
+				,"bldMngNo" : "4682040022100050005000001"
+				,"bldNm" : "한울원내매점"
+				,"rdnmAdr" : "전라남도 해남군 황산면 호교길 241-250"
+				,"oldZipcd" : "536865"
+				,"newZipcd" : "59008"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.519437885297
+				,"lat" : 34.5625716185515
+				}
+				,{
+				"bizesId" : "MA0101202408A0005803"
+				,"bizesNm" : "하람유통"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G205"
+				,"indsMclsNm" : "식료품 소매"
+				,"indsSclsCd" : "G20506"
+				,"indsSclsNm" : "채소/과일 소매업"
+				,"ksicCd" : "G47215"
+				,"ksicNm" : "채소, 과실 및 뿌리작물 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46820"
+				,"signguNm" : "해남군"
+				,"adongCd" : "46820390"
+				,"adongNm" : "마산면"
+				,"ldongCd" : "4682039029"
+				,"ldongNm" : "마산면"
+				,"lnoCd" : "4682039029100640000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 64
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 해남군 마산면 학의리 64"
+				,"rdnmCd" : "468204682064"
+				,"rdnm" : "전라남도 해남군 마산면 금자길"
+				,"bldMnno" : 71
+				,"bldSlno" : 49
+				,"bldMngNo" : "4682039029100640000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 해남군 마산면 금자길 71-49"
+				,"oldZipcd" : "536841"
+				,"newZipcd" : "59016"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.53266365784
+				,"lat" : 34.5980854163288
+				}
+				,{
+				"bizesId" : "MA0101202408A0013750"
+				,"bizesNm" : "호교농원"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G219"
+				,"indsMclsNm" : "식물 소매"
+				,"indsSclsCd" : "G21901"
+				,"indsSclsNm" : "꽃집"
+				,"ksicCd" : "G47851"
+				,"ksicNm" : "화초 및 식물 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46820"
+				,"signguNm" : "해남군"
+				,"adongCd" : "46820390"
+				,"adongNm" : "마산면"
+				,"ldongCd" : "4682039031"
+				,"ldongNm" : "마산면"
+				,"lnoCd" : "4682039031110290038"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 1029
+				,"lnoSlno" : 38
+				,"lnoAdr" : "전라남도 해남군 마산면 상등리 1029-38"
+				,"rdnmCd" : "468203294006"
+				,"rdnm" : "전라남도 해남군 마산면 명량로"
+				,"bldMnno" : 2523
+				,"bldSlno" : 12
+				,"bldMngNo" : "4682039031110290038203522"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 해남군 마산면 명량로 2523-12"
+				,"oldZipcd" : "536843"
+				,"newZipcd" : "59016"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.533404461985
+				,"lat" : 34.5903719850527
+				}
+				,{
+				"bizesId" : "MA0101202302A0083110"
+				,"bizesNm" : "호교마을"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G219"
+				,"indsMclsNm" : "식물 소매"
+				,"indsSclsCd" : "G21901"
+				,"indsSclsNm" : "꽃집"
+				,"ksicCd" : "G47851"
+				,"ksicNm" : "화초 및 식물 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46820"
+				,"signguNm" : "해남군"
+				,"adongCd" : "46820390"
+				,"adongNm" : "마산면"
+				,"ldongCd" : "4682039031"
+				,"ldongNm" : "마산면"
+				,"lnoCd" : "4682039031108950004"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 895
+				,"lnoSlno" : 4
+				,"lnoAdr" : "전라남도 해남군 마산면 상등리 895-4"
+				,"rdnmCd" : "468203294006"
+				,"rdnm" : "전라남도 해남군 마산면 명량로"
+				,"bldMnno" : 2613
+				,"bldSlno" : ""
+				,"bldMngNo" : "4682039031108950004203527"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 해남군 마산면 명량로 2613"
+				,"oldZipcd" : "536843"
+				,"newZipcd" : "59016"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.542789792963
+				,"lat" : 34.590317364807
+				}
+				,{
+				"bizesId" : "MA010120220807811465"
+				,"bizesNm" : "신일가스"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G214"
+				,"indsMclsNm" : "연료 소매"
+				,"indsSclsCd" : "G21403"
+				,"indsSclsNm" : "가정용 연료 소매업"
+				,"ksicCd" : "G47723"
+				,"ksicNm" : "가정용 가스 연료 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46820"
+				,"signguNm" : "해남군"
+				,"adongCd" : "46820250"
+				,"adongNm" : "해남읍"
+				,"ldongCd" : "4682025037"
+				,"ldongNm" : "해남읍"
+				,"lnoCd" : "4682025037105410000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 541
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 해남군 해남읍 복평리 541"
+				,"rdnmCd" : "468204682496"
+				,"rdnm" : "전라남도 해남군 해남읍 응달길"
+				,"bldMnno" : 370
+				,"bldSlno" : 2
+				,"bldMngNo" : "4682025037105410000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 해남군 해남읍 응달길 370-2"
+				,"oldZipcd" : "536802"
+				,"newZipcd" : "59045"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.548282220814
+				,"lat" : 34.5683878562163
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 1,
+		"totalCount" : 6	}
+}

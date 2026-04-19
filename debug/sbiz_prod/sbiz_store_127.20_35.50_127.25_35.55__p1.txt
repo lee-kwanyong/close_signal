@@ -1,0 +1,139 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA0101202505A0063376"
+				,"bizesNm" : "붉은시월"
+				,"brchNm" : ""
+				,"indsLclsCd" : "M1"
+				,"indsLclsNm" : "과학·기술"
+				,"indsMclsCd" : "M109"
+				,"indsMclsNm" : "기술 서비스"
+				,"indsSclsCd" : "M10903"
+				,"indsSclsNm" : "건물 및 토목 엔지니어링 서비스업"
+				,"ksicCd" : "M72121"
+				,"ksicNm" : "건물 및 토목 엔지니어링 서비스업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52750"
+				,"signguNm" : "임실군"
+				,"adongCd" : "52750310"
+				,"adongNm" : "청웅면"
+				,"ldongCd" : "5275031028"
+				,"ldongNm" : "청웅면"
+				,"lnoCd" : "5275031028109400004"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 940
+				,"lnoSlno" : 4
+				,"lnoAdr" : "전북특별자치도 임실군 청웅면 옥석리 940-4"
+				,"rdnmCd" : "527504631248"
+				,"rdnm" : "전북특별자치도 임실군 청웅면 옥석1길"
+				,"bldMnno" : 21
+				,"bldSlno" : ""
+				,"bldMngNo" : "4575031028201440004000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 임실군 청웅면 옥석1길 21"
+				,"oldZipcd" : "566852"
+				,"newZipcd" : "55936"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.211831947303
+				,"lat" : 35.5352401357705
+				}
+				,{
+				"bizesId" : "MA010120220803315353"
+				,"bizesNm" : "북당골굿당"
+				,"brchNm" : ""
+				,"indsLclsCd" : "N1"
+				,"indsLclsNm" : "시설관리·임대"
+				,"indsMclsCd" : "N110"
+				,"indsMclsNm" : "가정용품 대여"
+				,"indsSclsCd" : "N11099"
+				,"indsSclsNm" : "기타 개인/가정용품 대여업"
+				,"ksicCd" : "N76299"
+				,"ksicNm" : "그 외 기타 개인 및 가정용품 임대업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52750"
+				,"signguNm" : "임실군"
+				,"adongCd" : "52750310"
+				,"adongNm" : "청웅면"
+				,"ldongCd" : "5275031028"
+				,"ldongNm" : "청웅면"
+				,"lnoCd" : "5275031028109890000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 989
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전북특별자치도 임실군 청웅면 옥석리 989"
+				,"rdnmCd" : "527504631248"
+				,"rdnm" : "전북특별자치도 임실군 청웅면 옥석1길"
+				,"bldMnno" : 70
+				,"bldSlno" : 25
+				,"bldMngNo" : "4575031028109890000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 임실군 청웅면 옥석1길 70-25"
+				,"oldZipcd" : "566852"
+				,"newZipcd" : "55936"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.212105114927
+				,"lat" : 35.5301022346245
+				}
+				,{
+				"bizesId" : "MA010120220810159649"
+				,"bizesNm" : "물골산장"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52750"
+				,"signguNm" : "임실군"
+				,"adongCd" : "52750370"
+				,"adongNm" : "삼계면"
+				,"ldongCd" : "5275037025"
+				,"ldongNm" : "삼계면"
+				,"lnoCd" : "5275037025105630000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 563
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전북특별자치도 임실군 삼계면 죽계리 563"
+				,"rdnmCd" : "527503277029"
+				,"rdnm" : "전북특별자치도 임실군 삼계면 임삼로"
+				,"bldMnno" : 487
+				,"bldSlno" : ""
+				,"bldMngNo" : "4575037025105630000112305"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 임실군 삼계면 임삼로 487"
+				,"oldZipcd" : "566913"
+				,"newZipcd" : "55947"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.24008650375
+				,"lat" : 35.5145293450979
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 1,
+		"totalCount" : 3	}
+}

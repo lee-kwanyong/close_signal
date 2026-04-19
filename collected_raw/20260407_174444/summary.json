@@ -1,0 +1,9 @@
+﻿{
+    "results_file":  ".\\collected_raw\\20260407_174444\\results.csv",
+    "failure_count":  2,
+    "run_at":  "2026-04-07T17:44:44",
+    "success_count":  0,
+    "run_dir":  ".\\collected_raw\\20260407_174444",
+    "failures_file":  ".\\collected_raw\\20260407_174444\\failures.csv",
+    "raw_jsonl_file":  ".\\collected_raw\\20260407_174444\\raw_records.jsonl"
+}

@@ -1,0 +1,303 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA0101202503A0031562"
+				,"bizesNm" : "남촌식당"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52210"
+				,"signguNm" : "김제시"
+				,"adongCd" : "52210250"
+				,"adongNm" : "만경읍"
+				,"ldongCd" : "5221025021"
+				,"ldongNm" : "만경읍"
+				,"lnoCd" : "5221025021104780002"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 478
+				,"lnoSlno" : 2
+				,"lnoAdr" : "전북특별자치도 김제시 만경읍 만경리 478-2"
+				,"rdnmCd" : "522103016004"
+				,"rdnm" : "전북특별자치도 김제시 만경읍 만경로"
+				,"bldMnno" : 812
+				,"bldSlno" : ""
+				,"bldMngNo" : "4521025021104780002014845"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 김제시 만경읍 만경로 812"
+				,"oldZipcd" : "576862"
+				,"newZipcd" : "54307"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.816807777861
+				,"lat" : 35.8524919369197
+				}
+				,{
+				"bizesId" : "MA0106202509A2103951"
+				,"bizesNm" : "하늘농장"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G205"
+				,"indsMclsNm" : "식료품 소매"
+				,"indsSclsCd" : "G20502"
+				,"indsSclsNm" : "가축 사료 소매업"
+				,"ksicCd" : "G47211"
+				,"ksicNm" : "곡물, 곡분 및 가축 사료 소매업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52210"
+				,"signguNm" : "김제시"
+				,"adongCd" : "52210250"
+				,"adongNm" : "만경읍"
+				,"ldongCd" : "5221025027"
+				,"ldongNm" : "만경읍"
+				,"lnoCd" : "5221025027100120007"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 12
+				,"lnoSlno" : 7
+				,"lnoAdr" : "전북특별자치도 김제시 만경읍 몽산리 12-7"
+				,"rdnmCd" : "522103016004"
+				,"rdnm" : "전북특별자치도 김제시 만경읍 만경로"
+				,"bldMnno" : 953
+				,"bldSlno" : 57
+				,"bldMngNo" : "4521025027100120007000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 김제시 만경읍 만경로 953-57"
+				,"oldZipcd" : "576863"
+				,"newZipcd" : "54306"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.817815496607
+				,"lat" : 35.8668684615891
+				}
+				,{
+				"bizesId" : "MA0106202509A2073119"
+				,"bizesNm" : "카페the은솔"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52210"
+				,"signguNm" : "김제시"
+				,"adongCd" : "52210250"
+				,"adongNm" : "만경읍"
+				,"ldongCd" : "5221025027"
+				,"ldongNm" : "만경읍"
+				,"lnoCd" : "5221025027100430004"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 43
+				,"lnoSlno" : 4
+				,"lnoAdr" : "전북특별자치도 김제시 만경읍 몽산리 43-4"
+				,"rdnmCd" : "522103016004"
+				,"rdnm" : "전북특별자치도 김제시 만경읍 만경로"
+				,"bldMnno" : 931
+				,"bldSlno" : ""
+				,"bldMngNo" : "4521025027100430004017255"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 김제시 만경읍 만경로 931"
+				,"oldZipcd" : "576863"
+				,"newZipcd" : "54306"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.818189281153
+				,"lat" : 35.8631919169978
+				}
+				,{
+				"bizesId" : "MA0106202508A0446461"
+				,"bizesNm" : "한일떡방앗간"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I210"
+				,"indsMclsNm" : "기타 간이"
+				,"indsSclsCd" : "I21002"
+				,"indsSclsNm" : "떡/한과"
+				,"ksicCd" : "G47129"
+				,"ksicNm" : "기타 음ㆍ식료품 위주 종합 소매업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52210"
+				,"signguNm" : "김제시"
+				,"adongCd" : "52210250"
+				,"adongNm" : "만경읍"
+				,"ldongCd" : "5221025021"
+				,"ldongNm" : "만경읍"
+				,"lnoCd" : "5221025021102610000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 261
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전북특별자치도 김제시 만경읍 만경리 261"
+				,"rdnmCd" : "522103272018"
+				,"rdnm" : "전북특별자치도 김제시 만경읍 두내산로"
+				,"bldMnno" : 21
+				,"bldSlno" : 3
+				,"bldMngNo" : "4521025021102610000014459"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 김제시 만경읍 두내산로 21-3"
+				,"oldZipcd" : "576862"
+				,"newZipcd" : "54307"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.819378357342
+				,"lat" : 35.8514954358166
+				}
+				,{
+				"bizesId" : "MA0106202509A2167072"
+				,"bizesNm" : "온누리주유소"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G214"
+				,"indsMclsNm" : "연료 소매"
+				,"indsSclsCd" : "G21401"
+				,"indsSclsNm" : "주유소"
+				,"ksicCd" : "G47711"
+				,"ksicNm" : "운송장비용 주유소 운영업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52210"
+				,"signguNm" : "김제시"
+				,"adongCd" : "52210250"
+				,"adongNm" : "만경읍"
+				,"ldongCd" : "5221025025"
+				,"ldongNm" : "만경읍"
+				,"lnoCd" : "5221025025103930000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 393
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전북특별자치도 김제시 만경읍 소토리 393"
+				,"rdnmCd" : "522103016004"
+				,"rdnm" : "전북특별자치도 김제시 만경읍 만경로"
+				,"bldMnno" : 1187
+				,"bldSlno" : ""
+				,"bldMngNo" : "4521025025103930000025474"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 김제시 만경읍 만경로 1187"
+				,"oldZipcd" : "576864"
+				,"newZipcd" : "54308"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.827200828682
+				,"lat" : 35.8840151130829
+				}
+				,{
+				"bizesId" : "MA0106202511A2318373"
+				,"bizesNm" : "밸류하우스"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G221"
+				,"indsMclsNm" : "기타 상품 소매"
+				,"indsSclsCd" : "G22199"
+				,"indsSclsNm" : "그 외 기타 상품 전문 소매업"
+				,"ksicCd" : "G47859"
+				,"ksicNm" : "그 외 기타 분류 안된 상품 전문 소매업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52210"
+				,"signguNm" : "김제시"
+				,"adongCd" : "52210250"
+				,"adongNm" : "만경읍"
+				,"ldongCd" : "5221025022"
+				,"ldongNm" : "만경읍"
+				,"lnoCd" : "5221025022105630000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 563
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전북특별자치도 김제시 만경읍 장산리 563"
+				,"rdnmCd" : "522103272011"
+				,"rdnm" : "전북특별자치도 김제시 만경읍 능제로"
+				,"bldMnno" : 221
+				,"bldSlno" : ""
+				,"bldMngNo" : "4521025022105630000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 김제시 만경읍 능제로 221"
+				,"oldZipcd" : "576861"
+				,"newZipcd" : "54313"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.835435125773
+				,"lat" : 35.8544475767719
+				}
+				,{
+				"bizesId" : "MA0101202503A0005320"
+				,"bizesNm" : "도담디자인"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G211"
+				,"indsMclsNm" : "가구 소매"
+				,"indsSclsCd" : "G21101"
+				,"indsSclsNm" : "가구 소매업"
+				,"ksicCd" : "G47520"
+				,"ksicNm" : "가구 소매업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52210"
+				,"signguNm" : "김제시"
+				,"adongCd" : "52210390"
+				,"adongNm" : "청하면"
+				,"ldongCd" : "5221039022"
+				,"ldongNm" : "청하면"
+				,"lnoCd" : "5221039022106240003"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 624
+				,"lnoSlno" : 3
+				,"lnoAdr" : "전북특별자치도 김제시 청하면 장산리 624-3"
+				,"rdnmCd" : "522104616972"
+				,"rdnm" : "전북특별자치도 김제시 청하면 청하7길"
+				,"bldMnno" : 176
+				,"bldSlno" : 8
+				,"bldMngNo" : "4521039022106260025069644"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 김제시 청하면 청하7길 176-8"
+				,"oldZipcd" : "576891"
+				,"newZipcd" : "54310"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.836729527425
+				,"lat" : 35.8818564299883
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 2,
+		"totalCount" : 107	}
+}

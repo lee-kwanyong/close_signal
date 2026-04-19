@@ -1,0 +1,344 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA010120220807501214"
+				,"bizesNm" : "봉하마을회영농법인"
+				,"brchNm" : ""
+				,"indsLclsCd" : "R1"
+				,"indsLclsNm" : "예술·스포츠"
+				,"indsMclsCd" : "R104"
+				,"indsMclsNm" : "유원지·오락"
+				,"indsSclsCd" : "R10499"
+				,"indsSclsNm" : "기타 오락관련 서비스업"
+				,"ksicCd" : "R91299"
+				,"ksicNm" : "그 외 기타 분류 안된 오락관련 서비스업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46790"
+				,"signguNm" : "화순군"
+				,"adongCd" : "46790370"
+				,"adongNm" : "도암면"
+				,"ldongCd" : "4679037033"
+				,"ldongNm" : "도암면"
+				,"lnoCd" : "4679037033100530001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 53
+				,"lnoSlno" : 1
+				,"lnoAdr" : "전라남도 화순군 도암면 봉하리 53-1"
+				,"rdnmCd" : "467904673189"
+				,"rdnm" : "전라남도 화순군 도암면 봉수길"
+				,"bldMnno" : 25
+				,"bldSlno" : ""
+				,"bldMngNo" : "4679037033100520000032827"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 화순군 도암면 봉수길 25"
+				,"oldZipcd" : "519842"
+				,"newZipcd" : "58160"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.870058743139
+				,"lat" : 34.8896914113993
+				}
+				,{
+				"bizesId" : "MA010120220807449470"
+				,"bizesNm" : "늘푸른농원"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10102"
+				,"indsSclsNm" : "여관/모텔"
+				,"ksicCd" : "I55102"
+				,"ksicNm" : "여관업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46790"
+				,"signguNm" : "화순군"
+				,"adongCd" : "46790370"
+				,"adongNm" : "도암면"
+				,"ldongCd" : "4679037033"
+				,"ldongNm" : "도암면"
+				,"lnoCd" : "4679037033100330005"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 33
+				,"lnoSlno" : 5
+				,"lnoAdr" : "전라남도 화순군 도암면 봉하리 33-5"
+				,"rdnmCd" : "467904673189"
+				,"rdnm" : "전라남도 화순군 도암면 봉수길"
+				,"bldMnno" : 77
+				,"bldSlno" : ""
+				,"bldMngNo" : "4679037033100330005032924"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 화순군 도암면 봉수길 77"
+				,"oldZipcd" : "519842"
+				,"newZipcd" : "58160"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.873782987992
+				,"lat" : 34.8865764934556
+				}
+				,{
+				"bizesId" : "MA0101202305A0178390"
+				,"bizesNm" : "다와종합교육센터"
+				,"brchNm" : ""
+				,"indsLclsCd" : "P1"
+				,"indsLclsNm" : "교육"
+				,"indsMclsCd" : "P106"
+				,"indsMclsNm" : "기타 교육"
+				,"indsSclsCd" : "P10629"
+				,"indsSclsNm" : "그 외 기타 교육기관"
+				,"ksicCd" : "P85699"
+				,"ksicNm" : "그 외 기타 분류 안된 교육기관"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46800"
+				,"signguNm" : "장흥군"
+				,"adongCd" : "46800350"
+				,"adongNm" : "유치면"
+				,"ldongCd" : "4680035033"
+				,"ldongNm" : "유치면"
+				,"lnoCd" : "4680035033100570001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 57
+				,"lnoSlno" : 1
+				,"lnoAdr" : "전라남도 장흥군 유치면 대천리 57-1"
+				,"rdnmCd" : "468004676104"
+				,"rdnm" : "전라남도 장흥군 유치면 대천운월길"
+				,"bldMnno" : 165
+				,"bldSlno" : 40
+				,"bldMngNo" : "4680035033100570000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 장흥군 유치면 대천운월길 165-40"
+				,"oldZipcd" : "529823"
+				,"newZipcd" : "59300"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.891439457542
+				,"lat" : 34.8695300209375
+				}
+				,{
+				"bizesId" : "MA010120220813118037"
+				,"bizesNm" : "다와힐링체험"
+				,"brchNm" : ""
+				,"indsLclsCd" : "P1"
+				,"indsLclsNm" : "교육"
+				,"indsMclsCd" : "P106"
+				,"indsMclsNm" : "기타 교육"
+				,"indsSclsCd" : "P10607"
+				,"indsSclsNm" : "청소년 수련시설"
+				,"ksicCd" : "P85614"
+				,"ksicNm" : "청소년 수련시설 운영업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46800"
+				,"signguNm" : "장흥군"
+				,"adongCd" : "46800350"
+				,"adongNm" : "유치면"
+				,"ldongCd" : "4680035033"
+				,"ldongNm" : "유치면"
+				,"lnoCd" : "4680035033100570001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 57
+				,"lnoSlno" : 1
+				,"lnoAdr" : "전라남도 장흥군 유치면 대천리 57-1"
+				,"rdnmCd" : "468004676104"
+				,"rdnm" : "전라남도 장흥군 유치면 대천운월길"
+				,"bldMnno" : 165
+				,"bldSlno" : 40
+				,"bldMngNo" : "4680035033100570000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 장흥군 유치면 대천운월길 165-40"
+				,"oldZipcd" : "529823"
+				,"newZipcd" : "59300"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.891439457542
+				,"lat" : 34.8695300209375
+				}
+				,{
+				"bizesId" : "MA0101202411A0090496"
+				,"bizesNm" : "취실산골"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55104"
+				,"ksicNm" : "민박업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46800"
+				,"signguNm" : "장흥군"
+				,"adongCd" : "46800350"
+				,"adongNm" : "유치면"
+				,"ldongCd" : "4680035033"
+				,"ldongNm" : "유치면"
+				,"lnoCd" : "4680035033100570001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 57
+				,"lnoSlno" : 1
+				,"lnoAdr" : "전라남도 장흥군 유치면 대천리 57-1"
+				,"rdnmCd" : "468004676104"
+				,"rdnm" : "전라남도 장흥군 유치면 대천운월길"
+				,"bldMnno" : 165
+				,"bldSlno" : 40
+				,"bldMngNo" : "4680035033100570000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 장흥군 유치면 대천운월길 165-40"
+				,"oldZipcd" : "529823"
+				,"newZipcd" : "59300"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.891439457542
+				,"lat" : 34.8695300209375
+				}
+				,{
+				"bizesId" : "MA0101202502A0018093"
+				,"bizesNm" : "다와관광농원"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55104"
+				,"ksicNm" : "민박업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46800"
+				,"signguNm" : "장흥군"
+				,"adongCd" : "46800350"
+				,"adongNm" : "유치면"
+				,"ldongCd" : "4680035033"
+				,"ldongNm" : "유치면"
+				,"lnoCd" : "4680035033100870003"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 87
+				,"lnoSlno" : 3
+				,"lnoAdr" : "전라남도 장흥군 유치면 대천리 87-3"
+				,"rdnmCd" : "468004676104"
+				,"rdnm" : "전라남도 장흥군 유치면 대천운월길"
+				,"bldMnno" : 165
+				,"bldSlno" : 42
+				,"bldMngNo" : "4680035033200100000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 장흥군 유치면 대천운월길 165-42"
+				,"oldZipcd" : "529823"
+				,"newZipcd" : "59300"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.891745751789
+				,"lat" : 34.8694852238911
+				}
+				,{
+				"bizesId" : "MA010120220807974375"
+				,"bizesNm" : "신우기계건설"
+				,"brchNm" : ""
+				,"indsLclsCd" : "N1"
+				,"indsLclsNm" : "시설관리·임대"
+				,"indsMclsCd" : "N101"
+				,"indsMclsNm" : "시설관리"
+				,"indsSclsCd" : "N10101"
+				,"indsSclsNm" : "사업시설 유지·관리 서비스업"
+				,"ksicCd" : "N74100"
+				,"ksicNm" : "사업시설 유지ㆍ관리 서비스업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46790"
+				,"signguNm" : "화순군"
+				,"adongCd" : "46790370"
+				,"adongNm" : "도암면"
+				,"ldongCd" : "4679037032"
+				,"ldongNm" : "도암면"
+				,"lnoCd" : "4679037032102930001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 293
+				,"lnoSlno" : 1
+				,"lnoAdr" : "전라남도 화순군 도암면 우치리 293-1"
+				,"rdnmCd" : "467904673349"
+				,"rdnm" : "전라남도 화순군 도암면 우치길"
+				,"bldMnno" : 96
+				,"bldSlno" : 46
+				,"bldMngNo" : "4679037032102930001000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 화순군 도암면 우치길 96-46"
+				,"oldZipcd" : "519842"
+				,"newZipcd" : "58160"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.896479762982
+				,"lat" : 34.8795670162453
+				}
+				,{
+				"bizesId" : "MA0101202502A0010260"
+				,"bizesNm" : "지유명차"
+				,"brchNm" : "화순점"
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G205"
+				,"indsMclsNm" : "식료품 소매"
+				,"indsSclsCd" : "G20509"
+				,"indsSclsNm" : "반찬/식료품 소매업"
+				,"ksicCd" : "G47219"
+				,"ksicNm" : "기타 식료품 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46790"
+				,"signguNm" : "화순군"
+				,"adongCd" : "46790370"
+				,"adongNm" : "도암면"
+				,"ldongCd" : "4679037032"
+				,"ldongNm" : "도암면"
+				,"lnoCd" : "4679037032104510000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 451
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 화순군 도암면 우치리 451"
+				,"rdnmCd" : "467904673349"
+				,"rdnm" : "전라남도 화순군 도암면 우치길"
+				,"bldMnno" : 124
+				,"bldSlno" : 8
+				,"bldMngNo" : "4679037032104510000034379"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 화순군 도암면 우치길 124-8"
+				,"oldZipcd" : "519842"
+				,"newZipcd" : "58160"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.8994440539
+				,"lat" : 34.8795604900239
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 1,
+		"totalCount" : 8	}
+}

@@ -1,0 +1,262 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA0101202212A0075078"
+				,"bizesNm" : "섬사랑호,섬사랑2호"
+				,"brchNm" : ""
+				,"indsLclsCd" : "R1"
+				,"indsLclsNm" : "예술·스포츠"
+				,"indsMclsCd" : "R104"
+				,"indsMclsNm" : "유원지·오락"
+				,"indsSclsCd" : "R10408"
+				,"indsSclsNm" : "낚시터 운영업"
+				,"ksicCd" : "R91231"
+				,"ksicNm" : "낚시장 운영업"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44270"
+				,"signguNm" : "당진시"
+				,"adongCd" : "44270320"
+				,"adongNm" : "석문면"
+				,"ldongCd" : "4427032026"
+				,"ldongNm" : "석문면"
+				,"lnoCd" : "4427032026101170001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 117
+				,"lnoSlno" : 1
+				,"lnoAdr" : "충청남도 당진시 석문면 난지도리 117-1"
+				,"rdnmCd" : "442704595100"
+				,"rdnm" : "충청남도 당진시 석문면 난지1길"
+				,"bldMnno" : 195
+				,"bldSlno" : ""
+				,"bldMngNo" : "4483032026101170001080080"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청남도 당진시 석문면 난지1길 195"
+				,"oldZipcd" : "343852"
+				,"newZipcd" : "31708"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.434775415672
+				,"lat" : 37.0512859277338
+				}
+				,{
+				"bizesId" : "MA010120220806012604"
+				,"bizesNm" : "바다향기"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G204"
+				,"indsMclsNm" : "종합 소매"
+				,"indsSclsCd" : "G20404"
+				,"indsSclsNm" : "슈퍼마켓"
+				,"ksicCd" : "I55109"
+				,"ksicNm" : "기타 일반 및 생활 숙박시설 운영업"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44270"
+				,"signguNm" : "당진시"
+				,"adongCd" : "44270320"
+				,"adongNm" : "석문면"
+				,"ldongCd" : "4427032026"
+				,"ldongNm" : "석문면"
+				,"lnoCd" : "4427032026100730000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 73
+				,"lnoSlno" : ""
+				,"lnoAdr" : "충청남도 당진시 석문면 난지도리 73"
+				,"rdnmCd" : "442704595100"
+				,"rdnm" : "충청남도 당진시 석문면 난지1길"
+				,"bldMnno" : 214
+				,"bldSlno" : ""
+				,"bldMngNo" : "4483032026100730000080142"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청남도 당진시 석문면 난지1길 214"
+				,"oldZipcd" : "343852"
+				,"newZipcd" : "31708"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.434779507255
+				,"lat" : 37.0522500839851
+				}
+				,{
+				"bizesId" : "MA0101202212A0029379"
+				,"bizesNm" : "서영호"
+				,"brchNm" : ""
+				,"indsLclsCd" : "R1"
+				,"indsLclsNm" : "예술·스포츠"
+				,"indsMclsCd" : "R104"
+				,"indsMclsNm" : "유원지·오락"
+				,"indsSclsCd" : "R10409"
+				,"indsSclsNm" : "수상/해양 레저업"
+				,"ksicCd" : "R91239"
+				,"ksicNm" : "기타 수상오락 서비스업"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44270"
+				,"signguNm" : "당진시"
+				,"adongCd" : "44270320"
+				,"adongNm" : "석문면"
+				,"ldongCd" : "4427032026"
+				,"ldongNm" : "석문면"
+				,"lnoCd" : "4427032026100500013"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 50
+				,"lnoSlno" : 13
+				,"lnoAdr" : "충청남도 당진시 석문면 난지도리 50-13"
+				,"rdnmCd" : "442704595100"
+				,"rdnm" : "충청남도 당진시 석문면 난지1길"
+				,"bldMnno" : 257
+				,"bldSlno" : 55
+				,"bldMngNo" : "4483032026100500013080275"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청남도 당진시 석문면 난지1길 257-55"
+				,"oldZipcd" : "343852"
+				,"newZipcd" : "31708"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.436208990519
+				,"lat" : 37.0565729732261
+				}
+				,{
+				"bizesId" : "MA010120220810300234"
+				,"bizesNm" : "터미널슈퍼"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G204"
+				,"indsMclsNm" : "종합 소매"
+				,"indsSclsCd" : "G20404"
+				,"indsSclsNm" : "슈퍼마켓"
+				,"ksicCd" : "G47129"
+				,"ksicNm" : "기타 음ㆍ식료품 위주 종합 소매업"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44270"
+				,"signguNm" : "당진시"
+				,"adongCd" : "44270320"
+				,"adongNm" : "석문면"
+				,"ldongCd" : "4427032026"
+				,"ldongNm" : "석문면"
+				,"lnoCd" : "4427032026100040008"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 4
+				,"lnoSlno" : 8
+				,"lnoAdr" : "충청남도 당진시 석문면 난지도리 4-8"
+				,"rdnmCd" : "442704595100"
+				,"rdnm" : "충청남도 당진시 석문면 난지1길"
+				,"bldMnno" : 355
+				,"bldSlno" : ""
+				,"bldMngNo" : "4483032026100040008080249"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청남도 당진시 석문면 난지1길 355"
+				,"oldZipcd" : "343852"
+				,"newZipcd" : "31708"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.448731923869
+				,"lat" : 37.0536583218828
+				}
+				,{
+				"bizesId" : "MA010120220806007871"
+				,"bizesNm" : "만월식당·편의점"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44270"
+				,"signguNm" : "당진시"
+				,"adongCd" : "44270320"
+				,"adongNm" : "석문면"
+				,"ldongCd" : "4427032026"
+				,"ldongNm" : "석문면"
+				,"lnoCd" : "4427032026100040015"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 4
+				,"lnoSlno" : 15
+				,"lnoAdr" : "충청남도 당진시 석문면 난지도리 4-15"
+				,"rdnmCd" : "442704595100"
+				,"rdnm" : "충청남도 당진시 석문면 난지1길"
+				,"bldMnno" : 353
+				,"bldSlno" : 1
+				,"bldMngNo" : "4427032026100040015000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청남도 당진시 석문면 난지1길 353-1"
+				,"oldZipcd" : "343852"
+				,"newZipcd" : "31708"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.448744469241
+				,"lat" : 37.0534781676364
+				}
+				,{
+				"bizesId" : "MA0101202410A0464272"
+				,"bizesNm" : "만월수산"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G205"
+				,"indsMclsNm" : "식료품 소매"
+				,"indsSclsCd" : "G20505"
+				,"indsSclsNm" : "수산물 소매업"
+				,"ksicCd" : "G47214"
+				,"ksicNm" : "신선, 냉동 및 기타 수산물 소매업"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44270"
+				,"signguNm" : "당진시"
+				,"adongCd" : "44270320"
+				,"adongNm" : "석문면"
+				,"ldongCd" : "4427032026"
+				,"ldongNm" : "석문면"
+				,"lnoCd" : "4427032026100040003"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 4
+				,"lnoSlno" : 3
+				,"lnoAdr" : "충청남도 당진시 석문면 난지도리 4-3"
+				,"rdnmCd" : "442704595100"
+				,"rdnm" : "충청남도 당진시 석문면 난지1길"
+				,"bldMnno" : 357
+				,"bldSlno" : ""
+				,"bldMngNo" : "4483032026100040003080246"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청남도 당진시 석문면 난지1길 357"
+				,"oldZipcd" : "343852"
+				,"newZipcd" : "31708"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.449069440375
+				,"lat" : 37.0536238472804
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 1,
+		"totalCount" : 6	}
+}

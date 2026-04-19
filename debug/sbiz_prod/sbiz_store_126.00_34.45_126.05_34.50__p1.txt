@@ -1,0 +1,180 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA010120220807819364"
+				,"bizesNm" : "우리원"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46900"
+				,"signguNm" : "진도군"
+				,"adongCd" : "46900360"
+				,"adongNm" : "조도면"
+				,"ldongCd" : "4690036043"
+				,"ldongNm" : "조도면"
+				,"lnoCd" : "4690036043109100010"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 910
+				,"lnoSlno" : 10
+				,"lnoAdr" : "전라남도 진도군 조도면 가사도리 910-10"
+				,"rdnmCd" : "469004703006"
+				,"rdnm" : "전라남도 진도군 조도면 가사도돌목길"
+				,"bldMnno" : 179
+				,"bldSlno" : ""
+				,"bldMngNo" : ""
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 진도군 조도면 가사도돌목길 179"
+				,"oldZipcd" : "539911"
+				,"newZipcd" : "58953"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.045235557368
+				,"lat" : 34.4704000929161
+				}
+				,{
+				"bizesId" : "MA010120220811803999"
+				,"bizesNm" : "새롬민박"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55104"
+				,"ksicNm" : "민박업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46900"
+				,"signguNm" : "진도군"
+				,"adongCd" : "46900360"
+				,"adongNm" : "조도면"
+				,"ldongCd" : "4690036043"
+				,"ldongNm" : "조도면"
+				,"lnoCd" : "4690036043109030003"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 903
+				,"lnoSlno" : 3
+				,"lnoAdr" : "전라남도 진도군 조도면 가사도리 903-3"
+				,"rdnmCd" : "469004703006"
+				,"rdnm" : "전라남도 진도군 조도면 가사도돌목길"
+				,"bldMnno" : 145
+				,"bldSlno" : ""
+				,"bldMngNo" : "4690036043109030003000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 진도군 조도면 가사도돌목길 145"
+				,"oldZipcd" : "539911"
+				,"newZipcd" : "58953"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.046503656979
+				,"lat" : 34.4708697149393
+				}
+				,{
+				"bizesId" : "MA010120220802834024"
+				,"bizesNm" : "우리원민박"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55104"
+				,"ksicNm" : "민박업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46900"
+				,"signguNm" : "진도군"
+				,"adongCd" : "46900360"
+				,"adongNm" : "조도면"
+				,"ldongCd" : "4690036043"
+				,"ldongNm" : "조도면"
+				,"lnoCd" : "4690036043108980001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 898
+				,"lnoSlno" : 1
+				,"lnoAdr" : "전라남도 진도군 조도면 가사도리 898-1"
+				,"rdnmCd" : "469004703006"
+				,"rdnm" : "전라남도 진도군 조도면 가사도돌목길"
+				,"bldMnno" : 140
+				,"bldSlno" : ""
+				,"bldMngNo" : "4690036043202600001000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 진도군 조도면 가사도돌목길 140"
+				,"oldZipcd" : "539911"
+				,"newZipcd" : "58953"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.046995655586
+				,"lat" : 34.4706752405513
+				}
+				,{
+				"bizesId" : "MA010120220808562361"
+				,"bizesNm" : "가사도에너지주민협동조합"
+				,"brchNm" : ""
+				,"indsLclsCd" : "M1"
+				,"indsLclsNm" : "과학·기술"
+				,"indsMclsCd" : "M107"
+				,"indsMclsNm" : "본사·경영 컨설팅"
+				,"indsSclsCd" : "M10703"
+				,"indsSclsNm" : "경영 컨설팅업"
+				,"ksicCd" : "M71531"
+				,"ksicNm" : "경영 컨설팅업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46900"
+				,"signguNm" : "진도군"
+				,"adongCd" : "46900360"
+				,"adongNm" : "조도면"
+				,"ldongCd" : "4690036043"
+				,"ldongNm" : "조도면"
+				,"lnoCd" : "4690036043105470000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 547
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 진도군 조도면 가사도리 547"
+				,"rdnmCd" : "469004703005"
+				,"rdnm" : "전라남도 진도군 조도면 가사도길"
+				,"bldMnno" : 69
+				,"bldSlno" : ""
+				,"bldMngNo" : "4690036043105470000034129"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 진도군 조도면 가사도길 69"
+				,"oldZipcd" : "539911"
+				,"newZipcd" : "58953"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.049941659618
+				,"lat" : 34.480595727418
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 1,
+		"totalCount" : 4	}
+}

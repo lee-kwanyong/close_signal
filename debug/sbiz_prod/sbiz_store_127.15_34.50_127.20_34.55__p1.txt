@@ -1,0 +1,344 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA010120220807769828"
+				,"bizesNm" : "비봉가스"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G214"
+				,"indsMclsNm" : "연료 소매"
+				,"indsSclsCd" : "G21403"
+				,"indsSclsNm" : "가정용 연료 소매업"
+				,"ksicCd" : "G47723"
+				,"ksicNm" : "가정용 가스 연료 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46770"
+				,"signguNm" : "고흥군"
+				,"adongCd" : "46770320"
+				,"adongNm" : "도덕면"
+				,"ldongCd" : "4677032021"
+				,"ldongNm" : "도덕면"
+				,"lnoCd" : "4677032021119990001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 1999
+				,"lnoSlno" : 1
+				,"lnoAdr" : "전라남도 고흥군 도덕면 도덕리 1999-1"
+				,"rdnmCd" : "467704667637"
+				,"rdnm" : "전라남도 고흥군 도덕면 차경구렁목길"
+				,"bldMnno" : 177
+				,"bldSlno" : 70
+				,"bldMngNo" : "4677032021119990001002397"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 고흥군 도덕면 차경구렁목길 177-70"
+				,"oldZipcd" : "548922"
+				,"newZipcd" : "59552"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.151188438558
+				,"lat" : 34.5430961788667
+				}
+				,{
+				"bizesId" : "MA010120220807769856"
+				,"bizesNm" : "진이가든"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20107"
+				,"indsSclsNm" : "돼지고기 구이/찜"
+				,"ksicCd" : "I56113"
+				,"ksicNm" : "한식 육류 요리 전문점"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46770"
+				,"signguNm" : "고흥군"
+				,"adongCd" : "46770253"
+				,"adongNm" : "도양읍"
+				,"ldongCd" : "4677025324"
+				,"ldongNm" : "도양읍"
+				,"lnoCd" : "4677025324108680000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 868
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 고흥군 도양읍 봉암리 868"
+				,"rdnmCd" : "467703289026"
+				,"rdnm" : "전라남도 고흥군 도양읍 천마로"
+				,"bldMnno" : 329
+				,"bldSlno" : ""
+				,"bldMngNo" : "4677025324108680000001294"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 고흥군 도양읍 천마로 329"
+				,"oldZipcd" : "548903"
+				,"newZipcd" : "59553"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.159640898188
+				,"lat" : 34.5309699216028
+				}
+				,{
+				"bizesId" : "MA010120220814389916"
+				,"bizesNm" : "미로파운다"
+				,"brchNm" : ""
+				,"indsLclsCd" : "M1"
+				,"indsLclsNm" : "과학·기술"
+				,"indsMclsCd" : "M109"
+				,"indsMclsNm" : "기술 서비스"
+				,"indsSclsCd" : "M10999"
+				,"indsSclsNm" : "기타 엔지니어링 서비스업"
+				,"ksicCd" : "M72129"
+				,"ksicNm" : "기타 엔지니어링 서비스업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46770"
+				,"signguNm" : "고흥군"
+				,"adongCd" : "46770253"
+				,"adongNm" : "도양읍"
+				,"ldongCd" : "4677025324"
+				,"ldongNm" : "도양읍"
+				,"lnoCd" : "4677025324102370000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 237
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 고흥군 도양읍 봉암리 237"
+				,"rdnmCd" : "467704667621"
+				,"rdnm" : "전라남도 고흥군 도양읍 중동길"
+				,"bldMnno" : 107
+				,"bldSlno" : ""
+				,"bldMngNo" : "4677025324102370000000013"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 고흥군 도양읍 중동길 107"
+				,"oldZipcd" : "548903"
+				,"newZipcd" : "59553"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.169092330994
+				,"lat" : 34.5239619333705
+				}
+				,{
+				"bizesId" : "MA0101202406A0456497"
+				,"bizesNm" : "삼호가든"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46770"
+				,"signguNm" : "고흥군"
+				,"adongCd" : "46770253"
+				,"adongNm" : "도양읍"
+				,"ldongCd" : "4677025324"
+				,"ldongNm" : "도양읍"
+				,"lnoCd" : "4677025324100020007"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 2
+				,"lnoSlno" : 7
+				,"lnoAdr" : "전라남도 고흥군 도양읍 봉암리 2-7"
+				,"rdnmCd" : "467703289026"
+				,"rdnm" : "전라남도 고흥군 도양읍 천마로"
+				,"bldMnno" : 520
+				,"bldSlno" : 28
+				,"bldMngNo" : "4677025324100020007061590"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 고흥군 도양읍 천마로 520-28"
+				,"oldZipcd" : "548906"
+				,"newZipcd" : "59553"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.176522328768
+				,"lat" : 34.5300362232508
+				}
+				,{
+				"bizesId" : "MA0101202306A0025205"
+				,"bizesNm" : "고흥동백스튜디오"
+				,"brchNm" : ""
+				,"indsLclsCd" : "M1"
+				,"indsLclsNm" : "과학·기술"
+				,"indsMclsCd" : "M113"
+				,"indsMclsNm" : "사진 촬영"
+				,"indsSclsCd" : "M11301"
+				,"indsSclsNm" : "사진촬영업"
+				,"ksicCd" : "M73301"
+				,"ksicNm" : "인물 사진 및 행사용 영상 촬영업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46770"
+				,"signguNm" : "고흥군"
+				,"adongCd" : "46770320"
+				,"adongNm" : "도덕면"
+				,"ldongCd" : "4677032024"
+				,"ldongNm" : "도덕면"
+				,"lnoCd" : "4677032024115610011"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 1561
+				,"lnoSlno" : 11
+				,"lnoAdr" : "전라남도 고흥군 도덕면 봉덕리 1561-11"
+				,"rdnmCd" : "467704667130"
+				,"rdnm" : "전라남도 고흥군 도덕면 달맞이길"
+				,"bldMnno" : 269
+				,"bldSlno" : 12
+				,"bldMngNo" : "4677032024115610011000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 고흥군 도덕면 달맞이길 269-12"
+				,"oldZipcd" : "548923"
+				,"newZipcd" : "59547"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.177975397004
+				,"lat" : 34.5474501347565
+				}
+				,{
+				"bizesId" : "MA010120220807777381"
+				,"bizesNm" : "종구구매"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G204"
+				,"indsMclsNm" : "종합 소매"
+				,"indsSclsCd" : "G20404"
+				,"indsSclsNm" : "슈퍼마켓"
+				,"ksicCd" : "G47129"
+				,"ksicNm" : "기타 음ㆍ식료품 위주 종합 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46770"
+				,"signguNm" : "고흥군"
+				,"adongCd" : "46770320"
+				,"adongNm" : "도덕면"
+				,"ldongCd" : "4677032025"
+				,"ldongNm" : "도덕면"
+				,"lnoCd" : "4677032025104140000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 414
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 고흥군 도덕면 오마리 414"
+				,"rdnmCd" : "467704667493"
+				,"rdnm" : "전라남도 고흥군 도덕면 오마신흥길"
+				,"bldMnno" : 48
+				,"bldSlno" : 2
+				,"bldMngNo" : "4677032025104140000002532"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 고흥군 도덕면 오마신흥길 48-2"
+				,"oldZipcd" : "548923"
+				,"newZipcd" : "59547"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.189604617673
+				,"lat" : 34.5398784852031
+				}
+				,{
+				"bizesId" : "MA010120220807852578"
+				,"bizesNm" : "코믹스"
+				,"brchNm" : ""
+				,"indsLclsCd" : "M1"
+				,"indsLclsNm" : "과학·기술"
+				,"indsMclsCd" : "M105"
+				,"indsMclsNm" : "광고"
+				,"indsSclsCd" : "M10501"
+				,"indsSclsNm" : "광고 대행업"
+				,"ksicCd" : "M71310"
+				,"ksicNm" : "광고 대행업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46770"
+				,"signguNm" : "고흥군"
+				,"adongCd" : "46770320"
+				,"adongNm" : "도덕면"
+				,"ldongCd" : "4677032025"
+				,"ldongNm" : "도덕면"
+				,"lnoCd" : "4677032025101350002"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 135
+				,"lnoSlno" : 2
+				,"lnoAdr" : "전라남도 고흥군 도덕면 오마리 135-2"
+				,"rdnmCd" : "467704667494"
+				,"rdnm" : "전라남도 고흥군 도덕면 오마안길"
+				,"bldMnno" : 45
+				,"bldSlno" : 17
+				,"bldMngNo" : "4677032025101350005005711"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 고흥군 도덕면 오마안길 45-17"
+				,"oldZipcd" : "548923"
+				,"newZipcd" : "59547"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.198978411853
+				,"lat" : 34.5329224044304
+				}
+				,{
+				"bizesId" : "MA0101202305A0138063"
+				,"bizesNm" : "업소명없음"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10104"
+				,"indsSclsNm" : "캠핑/글램핑"
+				,"ksicCd" : "I55109"
+				,"ksicNm" : "기타 일반 및 생활 숙박시설 운영업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46770"
+				,"signguNm" : "고흥군"
+				,"adongCd" : "46770320"
+				,"adongNm" : "도덕면"
+				,"ldongCd" : "4677032025"
+				,"ldongNm" : "도덕면"
+				,"lnoCd" : "4677032025112770000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 1277
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 고흥군 도덕면 오마리 1277"
+				,"rdnmCd" : "467703289026"
+				,"rdnm" : "전라남도 고흥군 도덕면 천마로"
+				,"bldMnno" : 735
+				,"bldSlno" : ""
+				,"bldMngNo" : ""
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 고흥군 도덕면 천마로 735"
+				,"oldZipcd" : "548923"
+				,"newZipcd" : "59547"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.199054570575
+				,"lat" : 34.5283068505337
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 1,
+		"totalCount" : 8	}
+}

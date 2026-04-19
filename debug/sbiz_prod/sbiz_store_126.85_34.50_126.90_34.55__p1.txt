@@ -1,0 +1,180 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA010120220807818105"
+				,"bizesNm" : "테후의뜰"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46800"
+				,"signguNm" : "장흥군"
+				,"adongCd" : "46800256"
+				,"adongNm" : "대덕읍"
+				,"ldongCd" : "4680025622"
+				,"ldongNm" : "대덕읍"
+				,"lnoCd" : "4680025622105530001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 553
+				,"lnoSlno" : 1
+				,"lnoAdr" : "전라남도 장흥군 대덕읍 연정리 553-1"
+				,"rdnmCd" : "468004676309"
+				,"rdnm" : "전라남도 장흥군 대덕읍 연정평촌길"
+				,"bldMnno" : 77
+				,"bldSlno" : ""
+				,"bldMngNo" : "4680025622105290002037111"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 장흥군 대덕읍 연정평촌길 77"
+				,"oldZipcd" : "529901"
+				,"newZipcd" : "59362"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.879917518151
+				,"lat" : 34.5028537862758
+				}
+				,{
+				"bizesId" : "MA0101202301A0020667"
+				,"bizesNm" : "천관산조경수도매석재"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G219"
+				,"indsMclsNm" : "식물 소매"
+				,"indsSclsCd" : "G21901"
+				,"indsSclsNm" : "꽃집"
+				,"ksicCd" : "G47851"
+				,"ksicNm" : "화초 및 식물 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46800"
+				,"signguNm" : "장흥군"
+				,"adongCd" : "46800256"
+				,"adongNm" : "대덕읍"
+				,"ldongCd" : "4680025621"
+				,"ldongNm" : "대덕읍"
+				,"lnoCd" : "4680025621113030001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 1303
+				,"lnoSlno" : 1
+				,"lnoAdr" : "전라남도 장흥군 대덕읍 연지리 1303-1"
+				,"rdnmCd" : "468004676466"
+				,"rdnm" : "전라남도 장흥군 대덕읍 청다리길"
+				,"bldMnno" : 219
+				,"bldSlno" : ""
+				,"bldMngNo" : "4680025621201100017000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 장흥군 대덕읍 청다리길 219"
+				,"oldZipcd" : "529901"
+				,"newZipcd" : "59352"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.883917916934
+				,"lat" : 34.5312444525146
+				}
+				,{
+				"bizesId" : "MA010120220807812805"
+				,"bizesNm" : "연지관광농원"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20107"
+				,"indsSclsNm" : "돼지고기 구이/찜"
+				,"ksicCd" : "I56113"
+				,"ksicNm" : "한식 육류 요리 전문점"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46800"
+				,"signguNm" : "장흥군"
+				,"adongCd" : "46800256"
+				,"adongNm" : "대덕읍"
+				,"ldongCd" : "4680025621"
+				,"ldongNm" : "대덕읍"
+				,"lnoCd" : "4680025621112980000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 1298
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 장흥군 대덕읍 연지리 1298"
+				,"rdnmCd" : "468004676466"
+				,"rdnm" : "전라남도 장흥군 대덕읍 청다리길"
+				,"bldMnno" : 249
+				,"bldSlno" : 1
+				,"bldMngNo" : "4680025621112980000039208"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 장흥군 대덕읍 청다리길 249-1"
+				,"oldZipcd" : "529901"
+				,"newZipcd" : "59352"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.887477488203
+				,"lat" : 34.5329515285759
+				}
+				,{
+				"bizesId" : "MA010120220807815511"
+				,"bizesNm" : "빅토리세탁소"
+				,"brchNm" : ""
+				,"indsLclsCd" : "S2"
+				,"indsLclsNm" : "수리·개인"
+				,"indsMclsCd" : "S209"
+				,"indsMclsNm" : "세탁"
+				,"indsSclsCd" : "S20901"
+				,"indsSclsNm" : "세탁소"
+				,"ksicCd" : "S96912"
+				,"ksicNm" : "가정용 세탁업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46800"
+				,"signguNm" : "장흥군"
+				,"adongCd" : "46800256"
+				,"adongNm" : "대덕읍"
+				,"ldongCd" : "4680025623"
+				,"ldongNm" : "대덕읍"
+				,"lnoCd" : "4680025623101230000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 123
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 장흥군 대덕읍 신월리 123"
+				,"rdnmCd" : "468004676010"
+				,"rdnm" : "전라남도 장흥군 대덕읍 거정2길"
+				,"bldMnno" : 22
+				,"bldSlno" : ""
+				,"bldMngNo" : "4680025623101220007039397"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 장흥군 대덕읍 거정2길 22"
+				,"oldZipcd" : "529902"
+				,"newZipcd" : "59363"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.887706505281
+				,"lat" : 34.5002830269312
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 1,
+		"totalCount" : 4	}
+}

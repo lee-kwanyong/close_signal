@@ -1,42 +1,88 @@
 import Link from "next/link";
-import { mutateWatchlistAction } from "./actions";
-import { createClient } from "@/lib/supabase/server";
-import { getInternalUserId } from "@/lib/auth/get-internal-user";
+import { supabaseServer } from "@/lib/supabase/server";
+import { removeWatchlistAction } from "./actions";
 
-type SearchParams = Promise<{
-  region?: string;
-  categoryId?: string;
-}>;
+export const dynamic = "force-dynamic";
 
 type WatchlistRow = {
-  id: number;
-  region_code: string;
-  region_name: string | null;
-  category_id: number;
-  category_name: string | null;
-  created_at: string | null;
-};
-
-type RankingRow = {
+  id?: number | string;
   region_code?: string | null;
   region_name?: string | null;
   category_id?: number | string | null;
   category_name?: string | null;
   risk_score?: number | null;
   risk_grade?: string | null;
-  business_count?: number | null;
-  closed_count?: number | null;
-  closure_rate?: number | null;
+  signal_count?: number | null;
+  created_at?: string | null;
 };
 
-function formatNumber(value?: number | null) {
-  if (value === null || value === undefined || Number.isNaN(value)) return "-";
-  return new Intl.NumberFormat("ko-KR").format(value);
+type RiskScoreRow = {
+  score_date?: string | null;
+  region_code?: string | null;
+  region_name?: string | null;
+  category_id?: number | null;
+  category_code?: string | null;
+  category_name?: string | null;
+  business_count?: number | null;
+  risk_score?: number | null;
+  risk_grade?: string | null;
+
+  sales_change_7d?: number | null;
+  sales_change_30d?: number | null;
+  sales_trend_status?:
+    | "sharp_drop"
+    | "drop"
+    | "flat"
+    | "rise"
+    | "sharp_rise"
+    | "rebound"
+    | null;
+
+  top_cause_1?: string | null;
+  top_cause_2?: string | null;
+  top_cause_3?: string | null;
+  cause_summary?: string | null;
+
+  recommended_action_now?: string | null;
+  recommended_action_week?: string | null;
+  recommended_action_watch?: string | null;
+
+  personal_priority_score?: number | null;
+  personal_priority_label?: "now" | "soon" | "watch" | null;
+};
+
+type SignalRow = {
+  region_code?: string | null;
+  category_id?: number | null;
+  category_code?: string | null;
+  category_name?: string | null;
+  signal_type?: string | null;
+  signal_title?: string | null;
+  signal_summary?: string | null;
+  risk_score?: number | null;
+  created_at?: string | null;
+};
+
+function num(value: unknown) {
+  const parsed = Number(value ?? 0);
+  return Number.isFinite(parsed) ? parsed : 0;
 }
 
-function formatPercent(value?: number | null) {
-  if (value === null || value === undefined || Number.isNaN(value)) return "-";
-  return `${Number(value).toFixed(1)}%`;
+function text(...values: unknown[]) {
+  for (const value of values) {
+    if (typeof value === "string") {
+      const trimmed = value.trim();
+      if (trimmed) return trimmed;
+    }
+    if (typeof value === "number" && Number.isFinite(value)) {
+      return String(value);
+    }
+  }
+  return "";
+}
+
+function formatNumber(value: number | null | undefined) {
+  return new Intl.NumberFormat("ko-KR").format(num(value));
 }
 
 function formatDate(value?: string | null) {
@@ -50,313 +96,564 @@ function formatDate(value?: string | null) {
   }).format(date);
 }
 
-function gradeTone(grade?: string | null) {
-  const value = String(grade || "").toLowerCase();
+function formatScore(value?: number | null) {
+  return num(value).toFixed(1);
+}
 
-  if (value === "critical") {
-    return "border-red-200 bg-red-50 text-red-700";
-  }
+function formatSignedPercent(value?: number | null) {
+  const n = num(value);
+  if (n > 0) return `+${n.toFixed(1)}%`;
+  if (n < 0) return `${n.toFixed(1)}%`;
+  return "0.0%";
+}
 
-  if (value === "high") {
-    return "border-orange-200 bg-orange-50 text-orange-700";
-  }
+function watchlistKey(regionCode?: string | null, categoryId?: string | number | null) {
+  return `${String(regionCode || "")}::${String(categoryId || "")}`;
+}
 
-  if (value === "medium") {
-    return "border-amber-200 bg-amber-50 text-amber-700";
-  }
+function gradeLabel(value?: string | null) {
+  const grade = String(value || "").toLowerCase();
+  if (grade === "high") return "고위험";
+  if (grade === "medium") return "주의";
+  return "관찰";
+}
 
+function gradeTone(value?: string | null) {
+  const grade = String(value || "").toLowerCase();
+  if (grade === "high") return "border-rose-200 bg-rose-50 text-rose-700";
+  if (grade === "medium") return "border-amber-200 bg-amber-50 text-amber-700";
+  return "border-emerald-200 bg-emerald-50 text-emerald-700";
+}
+
+function priorityLabel(value?: string | null) {
+  if (value === "now") return "즉시";
+  if (value === "soon") return "곧";
+  return "관찰";
+}
+
+function priorityTone(value?: string | null) {
+  if (value === "now") return "border-rose-200 bg-rose-50 text-rose-700";
+  if (value === "soon") return "border-amber-200 bg-amber-50 text-amber-700";
+  return "border-emerald-200 bg-emerald-50 text-emerald-700";
+}
+
+function trendLabel(value?: string | null) {
+  if (value === "sharp_drop") return "급락";
+  if (value === "drop") return "하락";
+  if (value === "flat") return "보합";
+  if (value === "rise") return "상승";
+  if (value === "sharp_rise") return "급상승";
+  if (value === "rebound") return "반등";
+  return "-";
+}
+
+function trendTone(value?: string | null) {
+  if (value === "sharp_drop") return "border-rose-200 bg-rose-50 text-rose-700";
+  if (value === "drop") return "border-amber-200 bg-amber-50 text-amber-700";
+  if (value === "flat") return "border-slate-200 bg-slate-50 text-slate-700";
+  if (value === "rise") return "border-emerald-200 bg-emerald-50 text-emerald-700";
+  if (value === "sharp_rise") return "border-violet-200 bg-violet-50 text-violet-700";
+  if (value === "rebound") return "border-sky-200 bg-sky-50 text-sky-700";
   return "border-slate-200 bg-slate-50 text-slate-700";
 }
 
-export default async function WatchlistPage({
-  searchParams,
+function signalTypeLabel(value?: string | null) {
+  const raw = String(value || "").toLowerCase();
+
+  if (raw === "growth_overheat_alert") return "급증 과열";
+  if (raw === "monthly_decline_alert") return "전월 감소";
+  if (raw === "rapid_drop_alert") return "급감";
+  if (raw === "yoy_decline_alert") return "전년동월 감소";
+  if (raw === "sales_drop_alert") return "매출 하락";
+  if (raw === "sales_growth_alert") return "매출 상승";
+  if (raw === "sales_rebound_alert") return "반등 조짐";
+  if (raw === "sales_overheat_alert") return "매출 과열";
+  if (raw === "high_risk_alert") return "고위험";
+
+  return value || "기타";
+}
+
+function scoreTone(score: number) {
+  if (score >= 80) return "border-rose-200 bg-rose-50 text-rose-700";
+  if (score >= 60) return "border-amber-200 bg-amber-50 text-amber-700";
+  if (score >= 40) return "border-sky-200 bg-sky-50 text-sky-700";
+  return "border-emerald-200 bg-emerald-50 text-emerald-700";
+}
+
+function riskSummary(score: number) {
+  if (score >= 80) return "즉시 개입 우선";
+  if (score >= 60) return "집중 관찰 및 행동 연결";
+  if (score >= 40) return "추세 확인 필요";
+  return "정기 관찰";
+}
+
+function KpiCard({
+  label,
+  value,
+  description,
+  tone = "default",
 }: {
-  searchParams: SearchParams;
+  label: string;
+  value: string;
+  description: string;
+  tone?: "default" | "danger" | "warning" | "info";
 }) {
-  await searchParams;
-
-  const supabase = await createClient();
-  const userId = await getInternalUserId();
-
-  const [{ data: watchlistData, error: watchlistError }, { data: rankingData }] =
-    await Promise.all([
-      userId
-        ? supabase.rpc("get_my_watchlists", { p_user_id: userId })
-        : Promise.resolve({ data: [], error: null }),
-      supabase.rpc("get_risk_rankings", {
-        p_limit: 12,
-        p_offset: 0,
-        p_region_code: null,
-        p_category_id: null,
-      }),
-    ]);
-
-  const watchlists: WatchlistRow[] = Array.isArray(watchlistData)
-    ? watchlistData.map((row: any) => ({
-        id: Number(row.id),
-        region_code: String(row.region_code),
-        region_name: row.region_name ? String(row.region_name) : null,
-        category_id: Number(row.category_id),
-        category_name: row.category_name ? String(row.category_name) : null,
-        created_at: row.created_at ? String(row.created_at) : null,
-      }))
-    : [];
-
-  const rankings: RankingRow[] = Array.isArray(rankingData) ? rankingData : [];
-
-  const existingKeys = new Set(
-    watchlists.map((item) => `${item.region_code}:${item.category_id}`)
-  );
-
-  const suggestions = rankings
-    .filter((row) => {
-      const regionCode = String(row.region_code || "");
-      const categoryId = Number(row.category_id || 0);
-      if (!regionCode || !categoryId) return false;
-      return !existingKeys.has(`${regionCode}:${categoryId}`);
-    })
-    .slice(0, 8);
+  const toneClass =
+    tone === "danger"
+      ? "border-rose-200 bg-rose-50"
+      : tone === "warning"
+        ? "border-amber-200 bg-amber-50"
+        : tone === "info"
+          ? "border-sky-200 bg-sky-50"
+          : "border-slate-200 bg-white";
 
   return (
-    <main className="page-shell py-8">
-      <section className="rounded-[28px] border border-slate-200 bg-gradient-to-br from-slate-950 via-slate-900 to-slate-800 px-6 py-7 text-white shadow-[0_20px_60px_rgba(15,23,42,0.18)] sm:px-8 sm:py-8">
-        <div className="flex flex-col gap-6 lg:flex-row lg:items-end lg:justify-between">
-          <div className="max-w-3xl">
-            <div className="inline-flex items-center rounded-full border border-white/15 bg-white/10 px-3 py-1 text-[11px] font-semibold uppercase tracking-[0.2em] text-slate-200">
-              Watchlist
+    <div className={`rounded-[26px] border p-5 ${toneClass}`}>
+      <div className="text-sm font-semibold text-slate-700">{label}</div>
+      <div className="mt-3 text-3xl font-black tracking-[-0.05em] text-slate-950">{value}</div>
+      <div className="mt-2 text-xs leading-6 text-slate-600">{description}</div>
+    </div>
+  );
+}
+
+function InfoBox({
+  label,
+  value,
+}: {
+  label: string;
+  value: string;
+}) {
+  return (
+    <div className="rounded-[18px] border border-slate-200 bg-white px-3 py-3">
+      <div className="text-[10px] uppercase tracking-[0.14em] text-slate-400">{label}</div>
+      <div className="mt-1 text-sm font-bold text-slate-900">{value}</div>
+    </div>
+  );
+}
+
+export default async function WatchlistPage() {
+  const supabase = await supabaseServer();
+
+  const { data } = await supabase
+    .from("v_watchlist_status")
+    .select("*")
+    .order("created_at", { ascending: false })
+    .limit(50);
+
+  const rows = (data ?? []) as WatchlistRow[];
+
+  const latestScoreDateRes = await supabase
+    .from("risk_scores")
+    .select("score_date")
+    .order("score_date", { ascending: false })
+    .limit(1)
+    .maybeSingle();
+
+  const latestScoreDate = latestScoreDateRes.data?.score_date ?? null;
+
+  const regionCodes = Array.from(
+    new Set(rows.map((row) => String(row.region_code || "").trim()).filter(Boolean)),
+  );
+
+  const [latestScoresRes, latestSignalsRes] = await Promise.all([
+    latestScoreDate && regionCodes.length > 0
+      ? supabase
+          .from("risk_scores")
+          .select("*")
+          .eq("score_date", latestScoreDate)
+          .in("region_code", regionCodes)
+          .limit(10000)
+      : Promise.resolve({ data: [] as RiskScoreRow[] }),
+    latestScoreDate && regionCodes.length > 0
+      ? supabase
+          .from("risk_signals")
+          .select("*")
+          .eq("score_date", latestScoreDate)
+          .in("region_code", regionCodes)
+          .limit(5000)
+      : Promise.resolve({ data: [] as SignalRow[] }),
+  ]);
+
+  const latestScores = (latestScoresRes.data ?? []) as RiskScoreRow[];
+  const latestSignals = (latestSignalsRes.data ?? []) as SignalRow[];
+
+  const scoreMap = new Map<string, RiskScoreRow>();
+  for (const row of latestScores) {
+    scoreMap.set(watchlistKey(row.region_code, row.category_id), row);
+  }
+
+  const signalMap = new Map<string, SignalRow[]>();
+  for (const row of latestSignals) {
+    const key = watchlistKey(row.region_code, row.category_id);
+    const current = signalMap.get(key) ?? [];
+    current.push(row);
+    signalMap.set(key, current);
+  }
+
+  const urgentCount = rows.filter((row) => {
+    const enriched = scoreMap.get(watchlistKey(row.region_code, row.category_id));
+    const score = num(enriched?.risk_score ?? row.risk_score);
+    return score >= 80;
+  }).length;
+
+  const actionCount = rows.filter((row) => {
+    const enriched = scoreMap.get(watchlistKey(row.region_code, row.category_id));
+    const score = num(enriched?.risk_score ?? row.risk_score);
+    return score >= 60 && score < 80;
+  }).length;
+
+  const avgScore =
+    rows.length > 0
+      ? rows.reduce((sum, row) => {
+          const enriched = scoreMap.get(watchlistKey(row.region_code, row.category_id));
+          return sum + num(enriched?.risk_score ?? row.risk_score);
+        }, 0) / rows.length
+      : 0;
+
+  return (
+    <main className="mx-auto max-w-7xl px-4 pb-14 pt-6 sm:px-6">
+      <div className="space-y-6">
+        <section className="overflow-hidden rounded-[34px] border border-slate-200 bg-white shadow-[0_18px_54px_rgba(15,23,42,0.06)]">
+          <div className="bg-[linear-gradient(135deg,#eef5ff_0%,#f8fbff_46%,#ffffff_100%)] px-6 py-6 sm:px-8">
+            <div className="grid gap-8 xl:grid-cols-[1.08fr_0.92fr]">
+              <div className="min-w-0">
+                <div className="inline-flex items-center rounded-full border border-sky-200 bg-sky-50 px-4 py-1.5 text-[11px] font-black uppercase tracking-[0.18em] text-[#0B5CAB]">
+                  Watchlist Queue
+                </div>
+
+                <h1 className="mt-5 text-[32px] font-black tracking-[-0.05em] text-slate-950 sm:text-[46px]">
+                  관심 조합 관리
+                </h1>
+
+                <p className="mt-4 max-w-3xl text-sm leading-8 text-slate-600 sm:text-base">
+                  저장한 지역·업종 조합을 단순 목록이 아니라 운영 대기열처럼 정리했습니다.
+                  위험도, 최근 매출 변화, 상위 원인, 즉시 행동 기준을 함께 보고 바로 상세
+                  화면으로 들어갈 수 있습니다.
+                </p>
+
+                <div className="mt-6 flex flex-wrap gap-3">
+                  <Link
+                    href="/rankings"
+                    className="inline-flex h-12 items-center justify-center rounded-2xl border border-[#0B5CAB] bg-[#0B5CAB] px-5 text-sm font-semibold text-white transition hover:border-[#084298] hover:bg-[#084298]"
+                  >
+                    위험 랭킹 보기
+                  </Link>
+                  <Link
+                    href="/signals"
+                    className="inline-flex h-12 items-center justify-center rounded-2xl border border-slate-200 bg-white px-5 text-sm font-semibold text-slate-700 transition hover:bg-slate-50"
+                  >
+                    최근 시그널 보기
+                  </Link>
+                </div>
+              </div>
+
+              <div className="rounded-[30px] border border-slate-200 bg-white p-6 shadow-[0_14px_36px_rgba(15,23,42,0.05)]">
+                <div className="text-[11px] font-black uppercase tracking-[0.18em] text-[#0B5CAB]">
+                  Watchlist Snapshot
+                </div>
+
+                <div className="mt-5 grid grid-cols-2 gap-3">
+                  <KpiCard
+                    label="전체 조합"
+                    value={formatNumber(rows.length)}
+                    description="저장된 관심 지역·업종 수"
+                    tone="info"
+                  />
+                  <KpiCard
+                    label="즉시 개입"
+                    value={formatNumber(urgentCount)}
+                    description="80점 이상 관심 조합"
+                    tone={urgentCount > 0 ? "danger" : "default"}
+                  />
+                  <KpiCard
+                    label="집중 관찰"
+                    value={formatNumber(actionCount)}
+                    description="60점 이상 80점 미만"
+                    tone={actionCount > 0 ? "warning" : "default"}
+                  />
+                  <KpiCard
+                    label="평균 위험"
+                    value={avgScore ? avgScore.toFixed(1) : "0.0"}
+                    description="관심 조합 평균 위험 점수"
+                  />
+                </div>
+              </div>
             </div>
-
-            <h1 className="mt-4 text-3xl font-semibold tracking-tight sm:text-4xl">
-              관심목록
-            </h1>
-
-            <p className="mt-3 max-w-2xl text-sm leading-6 text-slate-300 sm:text-base">
-              계속 추적할 지역·업종 조합을 저장하고, 위험 신호 변화가 있는지 빠르게 확인합니다.
-            </p>
-          </div>
-
-          <div className="grid gap-3 sm:grid-cols-2">
-            <div className="rounded-2xl border border-white/10 bg-white/10 px-4 py-4 backdrop-blur">
-              <div className="text-xs uppercase tracking-[0.18em] text-slate-300">
-                저장 항목
-              </div>
-              <div className="mt-2 text-lg font-semibold">
-                {formatNumber(watchlists.length)}
-              </div>
-            </div>
-
-            <div className="rounded-2xl border border-white/10 bg-white/10 px-4 py-4 backdrop-blur">
-              <div className="text-xs uppercase tracking-[0.18em] text-slate-300">
-                추천 후보
-              </div>
-              <div className="mt-2 text-lg font-semibold">
-                {formatNumber(suggestions.length)}
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {!userId ? (
-        <section className="mt-6 rounded-[28px] border border-slate-200 bg-white px-6 py-14 text-center shadow-sm">
-          <h2 className="text-xl font-semibold text-slate-950">
-            로그인 후 관심목록을 사용할 수 있습니다.
-          </h2>
-          <p className="mt-2 text-sm leading-6 text-slate-500">
-            저장한 지역·업종 조합을 계속 추적하려면 먼저 로그인하세요.
-          </p>
-          <div className="mt-6">
-            <Link
-              href="/auth/login"
-              className="inline-flex h-12 items-center justify-center rounded-xl bg-slate-950 px-5 text-sm font-semibold text-white transition hover:bg-slate-800"
-            >
-              로그인
-            </Link>
           </div>
         </section>
-      ) : (
-        <>
-          <section className="mt-6">
-            <div className="mb-4 flex items-center justify-between">
-              <div>
-                <h2 className="text-xl font-semibold text-slate-950">저장된 관심목록</h2>
-                <p className="mt-1 text-sm text-slate-500">
-                  추적 중인 지역·업종 조합입니다.
-                </p>
-              </div>
-            </div>
 
-            {watchlistError ? (
-              <div className="rounded-[24px] border border-red-200 bg-red-50 px-5 py-4 text-sm text-red-700 shadow-sm">
-                관심목록을 불러오지 못했습니다.
-              </div>
-            ) : watchlists.length === 0 ? (
-              <div className="rounded-[28px] border border-slate-200 bg-white px-6 py-14 text-center shadow-sm">
-                <div className="mx-auto flex h-14 w-14 items-center justify-center rounded-full bg-slate-100 text-lg font-semibold text-slate-500">
-                  0
-                </div>
-                <h3 className="mt-5 text-xl font-semibold text-slate-950">
-                  아직 저장한 관심목록이 없습니다.
-                </h3>
-                <p className="mt-2 text-sm leading-6 text-slate-500">
-                  랭킹이나 시그널 페이지에서 지역·업종 조합을 저장해보세요.
-                </p>
-              </div>
-            ) : (
-              <div className="grid gap-4">
-                {watchlists.map((item) => (
-                  <article
-                    key={item.id}
-                    className="rounded-[24px] border border-slate-200 bg-white p-5 shadow-sm"
-                  >
-                    <div className="flex flex-col gap-4 lg:flex-row lg:items-center lg:justify-between">
-                      <div className="min-w-0">
-                        <div className="flex flex-wrap items-center gap-2">
-                          <span className="inline-flex items-center rounded-full border border-slate-200 bg-slate-50 px-3 py-1 text-xs font-medium text-slate-700">
-                            관심목록
-                          </span>
-                          <span className="inline-flex items-center rounded-full border border-slate-200 bg-slate-50 px-3 py-1 text-xs text-slate-500">
-                            저장일 {formatDate(item.created_at)}
-                          </span>
+        {rows.length === 0 ? (
+          <section className="rounded-[32px] border border-dashed border-slate-300 bg-slate-50 px-6 py-16 text-center">
+            <div className="text-xl font-black tracking-[-0.03em] text-slate-950">
+              아직 관심목록이 없습니다
+            </div>
+            <p className="mt-3 text-sm leading-7 text-slate-600">
+              먼저 랭킹이나 지역·업종 상세에서 관심 있는 조합을 저장해 보세요.
+            </p>
+            <div className="mt-6">
+              <Link
+                href="/rankings"
+                className="inline-flex h-11 items-center justify-center rounded-2xl border border-[#0B5CAB] bg-[#0B5CAB] px-5 text-sm font-semibold text-white transition hover:border-[#084298] hover:bg-[#084298]"
+              >
+                위험 랭킹으로 이동
+              </Link>
+            </div>
+          </section>
+        ) : (
+          <section className="space-y-4">
+            {rows.map((row, index) => {
+              const key = watchlistKey(row.region_code, row.category_id);
+              const enriched = scoreMap.get(key);
+              const relatedSignals = (signalMap.get(key) ?? []).sort((a, b) => {
+                return (
+                  new Date(b.created_at || "").getTime() -
+                  new Date(a.created_at || "").getTime()
+                );
+              });
+
+              const riskScore = num(enriched?.risk_score ?? row.risk_score);
+              const riskGrade = text(enriched?.risk_grade ?? row.risk_grade) || "low";
+              const sales30d = enriched?.sales_change_30d ?? 0;
+              const sales7d = enriched?.sales_change_7d ?? 0;
+              const trend = enriched?.sales_trend_status ?? "flat";
+              const priority = enriched?.personal_priority_label ?? "watch";
+              const causeSummary = text(enriched?.cause_summary) || "요약 원인이 없습니다.";
+              const causes = [
+                text(enriched?.top_cause_1),
+                text(enriched?.top_cause_2),
+                text(enriched?.top_cause_3),
+              ].filter(Boolean);
+
+              const actionNow = text(enriched?.recommended_action_now) || "즉시 액션 없음";
+              const actionWeek =
+                text(enriched?.recommended_action_week) || "이번 주 액션 없음";
+              const watchAction =
+                text(enriched?.recommended_action_watch) || "관찰 액션 없음";
+              const latestSignal = relatedSignals[0] ?? null;
+
+              const regionName = text(row.region_name, enriched?.region_name, row.region_code) || "-";
+              const categoryName =
+                text(row.category_name, enriched?.category_name, row.category_id) || "-";
+              const detailHref = `/regions/${encodeURIComponent(
+                String(row.region_code || ""),
+              )}/${encodeURIComponent(String(row.category_id || ""))}`;
+
+              return (
+                <article
+                  key={`${row.id ?? index}`}
+                  className="overflow-hidden rounded-[32px] border border-slate-200 bg-white shadow-[0_16px_40px_rgba(15,23,42,0.05)]"
+                >
+                  <div className="border-b border-slate-200 bg-[linear-gradient(180deg,#fcfdff_0%,#f7fbff_100%)] px-6 py-4">
+                    <div className="flex flex-wrap items-center gap-2">
+                      <span className="inline-flex rounded-full border border-slate-200 bg-white px-3 py-1 text-xs font-medium text-slate-600">
+                        #{index + 1}
+                      </span>
+                      <span
+                        className={`inline-flex rounded-full border px-3 py-1 text-xs font-semibold ${gradeTone(
+                          riskGrade,
+                        )}`}
+                      >
+                        {gradeLabel(riskGrade)}
+                      </span>
+                      <span
+                        className={`inline-flex rounded-full border px-3 py-1 text-xs font-semibold ${priorityTone(
+                          priority,
+                        )}`}
+                      >
+                        {priorityLabel(priority)}
+                      </span>
+                      <span
+                        className={`inline-flex rounded-full border px-3 py-1 text-xs font-semibold ${trendTone(
+                          trend,
+                        )}`}
+                      >
+                        {trendLabel(trend)}
+                      </span>
+                      {latestSignal?.signal_type ? (
+                        <span className="inline-flex rounded-full border border-slate-200 bg-white px-3 py-1 text-xs font-medium text-slate-600">
+                          최근 {signalTypeLabel(latestSignal.signal_type)}
+                        </span>
+                      ) : null}
+                    </div>
+                  </div>
+
+                  <div className="grid gap-6 px-6 py-6 xl:grid-cols-[minmax(0,1.15fr)_340px]">
+                    <div className="min-w-0">
+                      <div className="flex flex-col gap-4 sm:flex-row sm:items-start sm:justify-between">
+                        <div className="min-w-0">
+                          <div className="text-[28px] font-black tracking-[-0.04em] text-slate-950">
+                            {regionName}
+                          </div>
+                          <div className="mt-1 text-sm text-slate-600">
+                            {categoryName} · 저장일 {formatDate(row.created_at)}
+                          </div>
                         </div>
 
-                        <h3 className="mt-4 text-xl font-semibold tracking-tight text-slate-950">
-                          {item.region_name || item.region_code} ·{" "}
-                          {item.category_name || item.category_id}
-                        </h3>
-
-                        <p className="mt-2 text-sm text-slate-500">
-                          지역 코드 {item.region_code} / 업종 ID {item.category_id}
-                        </p>
+                        <div
+                          className={`rounded-[22px] border px-4 py-4 text-center ${scoreTone(
+                            riskScore,
+                          )}`}
+                        >
+                          <div className="text-[10px] uppercase tracking-[0.14em] opacity-80">
+                            risk score
+                          </div>
+                          <div className="mt-1 text-[34px] font-black tracking-[-0.05em]">
+                            {formatScore(riskScore)}
+                          </div>
+                          <div className="mt-0.5 text-[11px] opacity-90">
+                            {riskSummary(riskScore)}
+                          </div>
+                        </div>
                       </div>
 
-                      <div className="flex flex-wrap gap-2">
+                      <div className="mt-5 grid grid-cols-2 gap-3 md:grid-cols-4">
+                        <InfoBox label="시그널 수" value={formatNumber(row.signal_count ?? relatedSignals.length)} />
+                        <InfoBox label="최근 30일 매출" value={formatSignedPercent(sales30d)} />
+                        <InfoBox label="최근 7일 매출" value={formatSignedPercent(sales7d)} />
+                        <InfoBox
+                          label="우선순위"
+                          value={`${priorityLabel(priority)} / ${trendLabel(trend)}`}
+                        />
+                      </div>
+
+                      <div className="mt-5 rounded-[24px] border border-slate-200 bg-slate-50 p-5">
+                        <div className="text-xs font-semibold uppercase tracking-[0.14em] text-slate-500">
+                          상위 원인
+                        </div>
+
+                        {causes.length > 0 ? (
+                          <div className="mt-3 flex flex-wrap gap-2">
+                            {causes.map((cause) => (
+                              <span
+                                key={cause}
+                                className="rounded-full border border-slate-200 bg-white px-3 py-1 text-sm font-semibold text-slate-700"
+                              >
+                                {cause}
+                              </span>
+                            ))}
+                          </div>
+                        ) : null}
+
+                        <p className="mt-3 text-sm leading-7 text-slate-600">{causeSummary}</p>
+                      </div>
+
+                      <div className="mt-5 grid gap-3 lg:grid-cols-3">
+                        <ActionPanel
+                          title="지금 바로"
+                          tone="danger"
+                          body={actionNow}
+                        />
+                        <ActionPanel
+                          title="이번 주"
+                          tone="warning"
+                          body={actionWeek}
+                        />
+                        <ActionPanel
+                          title="관찰"
+                          tone="info"
+                          body={watchAction}
+                        />
+                      </div>
+                    </div>
+
+                    <div className="space-y-4">
+                      <div className="rounded-[26px] border border-slate-200 bg-slate-50 p-5">
+                        <div className="text-sm font-semibold text-slate-900">최근 시그널</div>
+
+                        {latestSignal ? (
+                          <>
+                            <div className="mt-3 inline-flex rounded-full border border-slate-200 bg-white px-3 py-1 text-xs font-semibold text-slate-700">
+                              {signalTypeLabel(latestSignal.signal_type)}
+                            </div>
+
+                            <div className="mt-3 text-base font-black tracking-[-0.02em] text-slate-950">
+                              {text(latestSignal.signal_title) || "최근 신호"}
+                            </div>
+
+                            <p className="mt-2 text-sm leading-7 text-slate-600">
+                              {text(latestSignal.signal_summary) || "설명 없음"}
+                            </p>
+
+                            <div className="mt-3 text-xs text-slate-500">
+                              {formatDate(latestSignal.created_at)}
+                            </div>
+                          </>
+                        ) : (
+                          <p className="mt-3 text-sm leading-7 text-slate-500">
+                            최근 연결 시그널이 없습니다.
+                          </p>
+                        )}
+                      </div>
+
+                      <div className="flex flex-col gap-2">
                         <Link
-                          href={`/regions/${item.region_code}/${item.category_id}`}
-                          className="inline-flex h-11 items-center justify-center rounded-xl bg-slate-950 px-4 text-sm font-semibold text-white transition hover:bg-slate-800"
+                          href={detailHref}
+                          className="inline-flex h-11 items-center justify-center rounded-2xl border border-[#0B5CAB] bg-[#0B5CAB] px-4 text-sm font-semibold text-white transition hover:border-[#084298] hover:bg-[#084298]"
                         >
                           상세 보기
                         </Link>
 
-                        <form action={mutateWatchlistAction}>
-                          <input type="hidden" name="intent" value="remove" />
-                          <input type="hidden" name="watchlist_id" value={item.id} />
+                        <Link
+                          href="/signals"
+                          className="inline-flex h-11 items-center justify-center rounded-2xl border border-sky-200 bg-sky-50 px-4 text-sm font-semibold text-[#0B5CAB] transition hover:border-sky-300 hover:bg-sky-100"
+                        >
+                          시그널 더 보기
+                        </Link>
+
+                        <form action={removeWatchlistAction}>
+                          <input type="hidden" name="watchlist_id" value={String(row.id ?? "")} />
+                          <input type="hidden" name="return_to" value="/watchlist" />
+                          <input type="hidden" name="region_code" value={String(row.region_code ?? "")} />
+                          <input type="hidden" name="category_id" value={String(row.category_id ?? "")} />
                           <button
                             type="submit"
-                            className="inline-flex h-11 items-center justify-center rounded-xl border border-slate-300 px-4 text-sm font-semibold text-slate-700 transition hover:bg-slate-50"
+                            className="inline-flex h-11 w-full items-center justify-center rounded-2xl border border-slate-200 bg-white px-4 text-sm font-semibold text-slate-700 transition hover:bg-slate-50"
                           >
-                            제거
+                            관심 해제
                           </button>
                         </form>
                       </div>
                     </div>
-                  </article>
-                ))}
-              </div>
-            )}
+                  </div>
+                </article>
+              );
+            })}
           </section>
-
-          <section className="mt-8">
-            <div className="mb-4 flex items-center justify-between">
-              <div>
-                <h2 className="text-xl font-semibold text-slate-950">추천 추가 대상</h2>
-                <p className="mt-1 text-sm text-slate-500">
-                  현재 랭킹 기준으로 우선 검토할 만한 조합입니다.
-                </p>
-              </div>
-
-              <Link
-                href="/rankings"
-                className="inline-flex h-11 items-center justify-center rounded-xl border border-slate-300 px-4 text-sm font-semibold text-slate-700 transition hover:bg-slate-50"
-              >
-                랭킹 보기
-              </Link>
-            </div>
-
-            {suggestions.length === 0 ? (
-              <div className="rounded-[24px] border border-slate-200 bg-white px-6 py-12 text-center shadow-sm">
-                <p className="text-sm text-slate-500">추가로 추천할 항목이 없습니다.</p>
-              </div>
-            ) : (
-              <div className="grid gap-4 xl:grid-cols-2">
-                {suggestions.map((row, index) => {
-                  const regionCode = String(row.region_code || "");
-                  const categoryId = Number(row.category_id || 0);
-
-                  return (
-                    <article
-                      key={`${regionCode}-${categoryId}-${index}`}
-                      className="rounded-[24px] border border-slate-200 bg-white p-5 shadow-sm"
-                    >
-                      <div className="flex flex-wrap items-center gap-2">
-                        <span
-                          className={`inline-flex items-center rounded-full border px-3 py-1 text-xs font-semibold ${gradeTone(
-                            row.risk_grade
-                          )}`}
-                        >
-                          {String(row.risk_grade || "unknown").toUpperCase()}
-                        </span>
-                        <span className="inline-flex items-center rounded-full border border-slate-200 bg-slate-50 px-3 py-1 text-xs text-slate-500">
-                          위험 점수 {formatNumber(row.risk_score)}
-                        </span>
-                      </div>
-
-                      <h3 className="mt-4 text-lg font-semibold text-slate-950">
-                        {row.region_name || row.region_code || "-"} ·{" "}
-                        {row.category_name || row.category_id || "-"}
-                      </h3>
-
-                      <div className="mt-4 grid grid-cols-3 gap-3">
-                        <div className="rounded-2xl border border-slate-200 bg-slate-50/70 p-3">
-                          <div className="text-xs text-slate-400">사업장 수</div>
-                          <div className="mt-1 text-base font-semibold text-slate-950">
-                            {formatNumber(row.business_count)}
-                          </div>
-                        </div>
-
-                        <div className="rounded-2xl border border-slate-200 bg-slate-50/70 p-3">
-                          <div className="text-xs text-slate-400">폐업 수</div>
-                          <div className="mt-1 text-base font-semibold text-slate-950">
-                            {formatNumber(row.closed_count)}
-                          </div>
-                        </div>
-
-                        <div className="rounded-2xl border border-slate-200 bg-slate-50/70 p-3">
-                          <div className="text-xs text-slate-400">폐업률</div>
-                          <div className="mt-1 text-base font-semibold text-slate-950">
-                            {formatPercent(row.closure_rate)}
-                          </div>
-                        </div>
-                      </div>
-
-                      <div className="mt-4 flex flex-wrap gap-2">
-                        <Link
-                          href={`/regions/${regionCode}/${categoryId}`}
-                          className="inline-flex h-11 items-center justify-center rounded-xl bg-slate-950 px-4 text-sm font-semibold text-white transition hover:bg-slate-800"
-                        >
-                          상세 보기
-                        </Link>
-
-                        <form action={mutateWatchlistAction}>
-                          <input type="hidden" name="intent" value="add" />
-                          <input type="hidden" name="region_code" value={regionCode} />
-                          <input type="hidden" name="category_id" value={categoryId} />
-                          <button
-                            type="submit"
-                            className="inline-flex h-11 items-center justify-center rounded-xl border border-slate-300 px-4 text-sm font-semibold text-slate-700 transition hover:bg-slate-50"
-                          >
-                            관심목록 추가
-                          </button>
-                        </form>
-                      </div>
-                    </article>
-                  );
-                })}
-              </div>
-            )}
-          </section>
-        </>
-      )}
+        )}
+      </div>
     </main>
+  );
+}
+
+function ActionPanel({
+  title,
+  body,
+  tone,
+}: {
+  title: string;
+  body: string;
+  tone: "danger" | "warning" | "info";
+}) {
+  const toneClass =
+    tone === "danger"
+      ? "border-rose-200 bg-rose-50 text-rose-900"
+      : tone === "warning"
+        ? "border-amber-200 bg-amber-50 text-amber-900"
+        : "border-sky-200 bg-sky-50 text-sky-900";
+
+  const titleClass =
+    tone === "danger"
+      ? "text-rose-700"
+      : tone === "warning"
+        ? "text-amber-700"
+        : "text-sky-700";
+
+  return (
+    <div className={`rounded-[24px] border p-4 ${toneClass}`}>
+      <div className={`text-xs font-semibold uppercase tracking-[0.14em] ${titleClass}`}>
+        {title}
+      </div>
+      <div className="mt-2 text-sm leading-7">{body}</div>
+    </div>
   );
 }

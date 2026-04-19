@@ -1,0 +1,221 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA0101202305A0191005"
+				,"bizesNm" : "어울림"
+				,"brchNm" : ""
+				,"indsLclsCd" : "P1"
+				,"indsLclsNm" : "교육"
+				,"indsMclsCd" : "P106"
+				,"indsMclsNm" : "기타 교육"
+				,"indsSclsCd" : "P10625"
+				,"indsSclsNm" : "기타 기술/직업 훈련학원"
+				,"ksicCd" : "P85669"
+				,"ksicNm" : "기타 기술 및 직업 훈련학원"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46150"
+				,"signguNm" : "순천시"
+				,"adongCd" : "46150350"
+				,"adongNm" : "주암면"
+				,"ldongCd" : "4615035037"
+				,"ldongNm" : "주암면"
+				,"lnoCd" : "4615035037105420000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 542
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 순천시 주암면 백록리 542"
+				,"rdnmCd" : "461504649351"
+				,"rdnm" : "전라남도 순천시 주암면 백록길"
+				,"bldMnno" : 100
+				,"bldSlno" : ""
+				,"bldMngNo" : "4615035037105420000080731"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 순천시 주암면 백록길 100"
+				,"oldZipcd" : "540843"
+				,"newZipcd" : "57910"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.221734804715
+				,"lat" : 35.1045561708644
+				}
+				,{
+				"bizesId" : "MA0101202211A0081926"
+				,"bizesNm" : "주암리본협동조합"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G222"
+				,"indsMclsNm" : "중고 상품 소매"
+				,"indsSclsCd" : "G22201"
+				,"indsSclsNm" : "중고 상품 소매업"
+				,"ksicCd" : "G47862"
+				,"ksicNm" : "중고 가전제품 및 통신장비 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46150"
+				,"signguNm" : "순천시"
+				,"adongCd" : "46150350"
+				,"adongNm" : "주암면"
+				,"ldongCd" : "4615035038"
+				,"ldongNm" : "주암면"
+				,"lnoCd" : "4615035038105040002"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 504
+				,"lnoSlno" : 2
+				,"lnoAdr" : "전라남도 순천시 주암면 대구리 504-2"
+				,"rdnmCd" : "461504650131"
+				,"rdnm" : "전라남도 순천시 주암면 한동길"
+				,"bldMnno" : 200
+				,"bldSlno" : ""
+				,"bldMngNo" : "4615035038105040002000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 순천시 주암면 한동길 200"
+				,"oldZipcd" : "540843"
+				,"newZipcd" : "57910"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.235333598884
+				,"lat" : 35.1000958179793
+				}
+				,{
+				"bizesId" : "MA0101202502A0073408"
+				,"bizesNm" : "전대균스마트팜"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G205"
+				,"indsMclsNm" : "식료품 소매"
+				,"indsSclsCd" : "G20506"
+				,"indsSclsNm" : "채소/과일 소매업"
+				,"ksicCd" : "G47215"
+				,"ksicNm" : "채소, 과실 및 뿌리작물 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46720"
+				,"signguNm" : "곡성군"
+				,"adongCd" : "46720330"
+				,"adongNm" : "석곡면"
+				,"ldongCd" : "4672033032"
+				,"ldongNm" : "석곡면"
+				,"lnoCd" : "4672033032100500000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 50
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 곡성군 석곡면 봉전리 50"
+				,"rdnmCd" : "467204661075"
+				,"rdnm" : "전라남도 곡성군 석곡면 두지길"
+				,"bldMnno" : 24
+				,"bldSlno" : 1
+				,"bldMngNo" : "4672033032100500000017414"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 곡성군 석곡면 두지길 24-1"
+				,"oldZipcd" : "516851"
+				,"newZipcd" : "57561"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.243385877748
+				,"lat" : 35.11184273335
+				}
+				,{
+				"bizesId" : "MA010120220807502259"
+				,"bizesNm" : "법인석곡"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G205"
+				,"indsMclsNm" : "식료품 소매"
+				,"indsSclsCd" : "G20506"
+				,"indsSclsNm" : "채소/과일 소매업"
+				,"ksicCd" : "G47215"
+				,"ksicNm" : "채소, 과실 및 뿌리작물 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46720"
+				,"signguNm" : "곡성군"
+				,"adongCd" : "46720330"
+				,"adongNm" : "석곡면"
+				,"ldongCd" : "4672033032"
+				,"ldongNm" : "석곡면"
+				,"lnoCd" : "4672033032100210000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 21
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 곡성군 석곡면 봉전리 21"
+				,"rdnmCd" : "467203017007"
+				,"rdnm" : "전라남도 곡성군 석곡면 주석로"
+				,"bldMnno" : 468
+				,"bldSlno" : ""
+				,"bldMngNo" : "4672033032100210000016490"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 곡성군 석곡면 주석로 468"
+				,"oldZipcd" : "516851"
+				,"newZipcd" : "57561"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.246074792799
+				,"lat" : 35.1159745642583
+				}
+				,{
+				"bizesId" : "MA010120220807846368"
+				,"bizesNm" : "기러기"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G204"
+				,"indsMclsNm" : "종합 소매"
+				,"indsSclsCd" : "G20404"
+				,"indsSclsNm" : "슈퍼마켓"
+				,"ksicCd" : "G47129"
+				,"ksicNm" : "기타 음ㆍ식료품 위주 종합 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46150"
+				,"signguNm" : "순천시"
+				,"adongCd" : "46150350"
+				,"adongNm" : "주암면"
+				,"ldongCd" : "4615035039"
+				,"ldongNm" : "주암면"
+				,"lnoCd" : "4615035039104610001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 461
+				,"lnoSlno" : 1
+				,"lnoAdr" : "전라남도 순천시 주암면 궁각리 461-1"
+				,"rdnmCd" : "461503017007"
+				,"rdnm" : "전라남도 순천시 주암면 주석로"
+				,"bldMnno" : 300
+				,"bldSlno" : ""
+				,"bldMngNo" : "4615035039104610001029942"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 순천시 주암면 주석로 300"
+				,"oldZipcd" : "540843"
+				,"newZipcd" : "57910"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.246401883113
+				,"lat" : 35.1007318262631
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 1,
+		"totalCount" : 5	}
+}

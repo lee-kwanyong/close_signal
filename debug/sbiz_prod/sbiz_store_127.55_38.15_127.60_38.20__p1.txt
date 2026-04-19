@@ -1,0 +1,426 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA010120220808794812"
+				,"bizesNm" : "봉오리통나무집펜션"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55109"
+				,"ksicNm" : "기타 일반 및 생활 숙박시설 운영업"
+				,"ctprvnCd" : "51"
+				,"ctprvnNm" : "강원특별자치도"
+				,"signguCd" : "51790"
+				,"signguNm" : "화천군"
+				,"adongCd" : "51790330"
+				,"adongNm" : "상서면"
+				,"ldongCd" : "5179033029"
+				,"ldongNm" : "상서면"
+				,"lnoCd" : "5179033029104100009"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 410
+				,"lnoSlno" : 9
+				,"lnoAdr" : "강원특별자치도 화천군 상서면 봉오리 410-9"
+				,"rdnmCd" : "517903231004"
+				,"rdnm" : "강원특별자치도 화천군 상서면 다파로"
+				,"bldMnno" : 599
+				,"bldSlno" : 2
+				,"bldMngNo" : "4279033029104100009000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "강원특별자치도 화천군 상서면 다파로 599-2"
+				,"oldZipcd" : "209814"
+				,"newZipcd" : "24103"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.58334428004
+				,"lat" : 38.1904277340383
+				}
+				,{
+				"bizesId" : "MA010120220804527876"
+				,"bizesNm" : "치킨매니아봉오점"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I210"
+				,"indsMclsNm" : "기타 간이"
+				,"indsSclsCd" : "I21006"
+				,"indsSclsNm" : "치킨"
+				,"ksicCd" : "I56193"
+				,"ksicNm" : "치킨 전문점"
+				,"ctprvnCd" : "51"
+				,"ctprvnNm" : "강원특별자치도"
+				,"signguCd" : "51790"
+				,"signguNm" : "화천군"
+				,"adongCd" : "51790330"
+				,"adongNm" : "상서면"
+				,"ldongCd" : "5179033029"
+				,"ldongNm" : "상서면"
+				,"lnoCd" : "5179033029104920025"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 492
+				,"lnoSlno" : 25
+				,"lnoAdr" : "강원특별자치도 화천군 상서면 봉오리 492-25"
+				,"rdnmCd" : "517903231014"
+				,"rdnm" : "강원특별자치도 화천군 상서면 신월동로"
+				,"bldMnno" : 7
+				,"bldSlno" : ""
+				,"bldMngNo" : "4279033029000000000000964"
+				,"bldNm" : ""
+				,"rdnmAdr" : "강원특별자치도 화천군 상서면 신월동로 7"
+				,"oldZipcd" : "209814"
+				,"newZipcd" : "24103"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.598353476205
+				,"lat" : 38.1916765108971
+				}
+				,{
+				"bizesId" : "MA010120220807437121"
+				,"bizesNm" : "봉오식당"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "51"
+				,"ctprvnNm" : "강원특별자치도"
+				,"signguCd" : "51790"
+				,"signguNm" : "화천군"
+				,"adongCd" : "51790330"
+				,"adongNm" : "상서면"
+				,"ldongCd" : "5179033029"
+				,"ldongNm" : "상서면"
+				,"lnoCd" : "5179033029104920025"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 492
+				,"lnoSlno" : 25
+				,"lnoAdr" : "강원특별자치도 화천군 상서면 봉오리 492-25"
+				,"rdnmCd" : "517903231014"
+				,"rdnm" : "강원특별자치도 화천군 상서면 신월동로"
+				,"bldMnno" : 7
+				,"bldSlno" : ""
+				,"bldMngNo" : "4279033029000000000000964"
+				,"bldNm" : ""
+				,"rdnmAdr" : "강원특별자치도 화천군 상서면 신월동로 7"
+				,"oldZipcd" : "209814"
+				,"newZipcd" : "24103"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.598353476205
+				,"lat" : 38.1916765108971
+				}
+				,{
+				"bizesId" : "MA010120220808537752"
+				,"bizesNm" : "씨유화천봉"
+				,"brchNm" : "오리점"
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G204"
+				,"indsMclsNm" : "종합 소매"
+				,"indsSclsCd" : "G20405"
+				,"indsSclsNm" : "편의점"
+				,"ksicCd" : "G47122"
+				,"ksicNm" : "체인화 편의점"
+				,"ctprvnCd" : "51"
+				,"ctprvnNm" : "강원특별자치도"
+				,"signguCd" : "51790"
+				,"signguNm" : "화천군"
+				,"adongCd" : "51790330"
+				,"adongNm" : "상서면"
+				,"ldongCd" : "5179033029"
+				,"ldongNm" : "상서면"
+				,"lnoCd" : "5179033029104920036"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 492
+				,"lnoSlno" : 36
+				,"lnoAdr" : "강원특별자치도 화천군 상서면 봉오리 492-36"
+				,"rdnmCd" : "517903231014"
+				,"rdnm" : "강원특별자치도 화천군 상서면 신월동로"
+				,"bldMnno" : 12
+				,"bldSlno" : 1
+				,"bldMngNo" : "4279033029004920009000963"
+				,"bldNm" : ""
+				,"rdnmAdr" : "강원특별자치도 화천군 상서면 신월동로 12-1"
+				,"oldZipcd" : "209814"
+				,"newZipcd" : "24103"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.598357235245
+				,"lat" : 38.1921359447772
+				}
+				,{
+				"bizesId" : "MA010120220804517791"
+				,"bizesNm" : "BHC화천봉오점"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I210"
+				,"indsMclsNm" : "기타 간이"
+				,"indsSclsCd" : "I21006"
+				,"indsSclsNm" : "치킨"
+				,"ksicCd" : "I56193"
+				,"ksicNm" : "치킨 전문점"
+				,"ctprvnCd" : "51"
+				,"ctprvnNm" : "강원특별자치도"
+				,"signguCd" : "51790"
+				,"signguNm" : "화천군"
+				,"adongCd" : "51790330"
+				,"adongNm" : "상서면"
+				,"ldongCd" : "5179033029"
+				,"ldongNm" : "상서면"
+				,"lnoCd" : "5179033029104920009"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 492
+				,"lnoSlno" : 9
+				,"lnoAdr" : "강원특별자치도 화천군 상서면 봉오리 492-9"
+				,"rdnmCd" : "517903231014"
+				,"rdnm" : "강원특별자치도 화천군 상서면 신월동로"
+				,"bldMnno" : 12
+				,"bldSlno" : ""
+				,"bldMngNo" : "4279033029004320009000970"
+				,"bldNm" : ""
+				,"rdnmAdr" : "강원특별자치도 화천군 상서면 신월동로 12"
+				,"oldZipcd" : "209814"
+				,"newZipcd" : "24103"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.59849376732
+				,"lat" : 38.1920811956042
+				}
+				,{
+				"bizesId" : "MA0101202307A0024363"
+				,"bizesNm" : "만리장성"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I202"
+				,"indsMclsNm" : "중식"
+				,"indsSclsCd" : "I20201"
+				,"indsSclsNm" : "중국집"
+				,"ksicCd" : "I56121"
+				,"ksicNm" : "중식 음식점업"
+				,"ctprvnCd" : "51"
+				,"ctprvnNm" : "강원특별자치도"
+				,"signguCd" : "51790"
+				,"signguNm" : "화천군"
+				,"adongCd" : "51790330"
+				,"adongNm" : "상서면"
+				,"ldongCd" : "5179033029"
+				,"ldongNm" : "상서면"
+				,"lnoCd" : "5179033029103700006"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 370
+				,"lnoSlno" : 6
+				,"lnoAdr" : "강원특별자치도 화천군 상서면 봉오리 370-6"
+				,"rdnmCd" : "517903231014"
+				,"rdnm" : "강원특별자치도 화천군 상서면 신월동로"
+				,"bldMnno" : 5
+				,"bldSlno" : ""
+				,"bldMngNo" : "4279033029003700006000967"
+				,"bldNm" : ""
+				,"rdnmAdr" : "강원특별자치도 화천군 상서면 신월동로 5"
+				,"oldZipcd" : "209814"
+				,"newZipcd" : "24103"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.598522997445
+				,"lat" : 38.1914684425452
+				}
+				,{
+				"bizesId" : "MA010120220804513894"
+				,"bizesNm" : "GS25화천만능점"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G204"
+				,"indsMclsNm" : "종합 소매"
+				,"indsSclsCd" : "G20405"
+				,"indsSclsNm" : "편의점"
+				,"ksicCd" : "G47122"
+				,"ksicNm" : "체인화 편의점"
+				,"ctprvnCd" : "51"
+				,"ctprvnNm" : "강원특별자치도"
+				,"signguCd" : "51790"
+				,"signguNm" : "화천군"
+				,"adongCd" : "51790330"
+				,"adongNm" : "상서면"
+				,"ldongCd" : "5179033029"
+				,"ldongNm" : "상서면"
+				,"lnoCd" : "5179033029104920013"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 492
+				,"lnoSlno" : 13
+				,"lnoAdr" : "강원특별자치도 화천군 상서면 봉오리 492-13"
+				,"rdnmCd" : "517903231014"
+				,"rdnm" : "강원특별자치도 화천군 상서면 신월동로"
+				,"bldMnno" : 8
+				,"bldSlno" : ""
+				,"bldMngNo" : "4279033029004920013000973"
+				,"bldNm" : ""
+				,"rdnmAdr" : "강원특별자치도 화천군 상서면 신월동로 8"
+				,"oldZipcd" : "209814"
+				,"newZipcd" : "24103"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.598605626714
+				,"lat" : 38.1918013499905
+				}
+				,{
+				"bizesId" : "MA010120220804543238"
+				,"bizesNm" : "일번지숯불갈비"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20107"
+				,"indsSclsNm" : "돼지고기 구이/찜"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "51"
+				,"ctprvnNm" : "강원특별자치도"
+				,"signguCd" : "51790"
+				,"signguNm" : "화천군"
+				,"adongCd" : "51790330"
+				,"adongNm" : "상서면"
+				,"ldongCd" : "5179033029"
+				,"ldongNm" : "상서면"
+				,"lnoCd" : "5179033029104920015"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 492
+				,"lnoSlno" : 15
+				,"lnoAdr" : "강원특별자치도 화천군 상서면 봉오리 492-15"
+				,"rdnmCd" : "517903231014"
+				,"rdnm" : "강원특별자치도 화천군 상서면 신월동로"
+				,"bldMnno" : 8
+				,"bldSlno" : 1
+				,"bldMngNo" : "4279033029004920015000976"
+				,"bldNm" : ""
+				,"rdnmAdr" : "강원특별자치도 화천군 상서면 신월동로 8-1"
+				,"oldZipcd" : "209814"
+				,"newZipcd" : "24103"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.59877721274
+				,"lat" : 38.1918455194799
+				}
+				,{
+				"bizesId" : "MA010120220806961114"
+				,"bizesNm" : "만능사"
+				,"brchNm" : ""
+				,"indsLclsCd" : "S2"
+				,"indsLclsNm" : "수리·개인"
+				,"indsMclsCd" : "S206"
+				,"indsMclsNm" : "기타 가정용품 수리"
+				,"indsSclsCd" : "S20601"
+				,"indsSclsNm" : "의류/이불 수선업"
+				,"ksicCd" : "S95391"
+				,"ksicNm" : "의복 및 기타 가정용 직물제품 수리업"
+				,"ctprvnCd" : "51"
+				,"ctprvnNm" : "강원특별자치도"
+				,"signguCd" : "51790"
+				,"signguNm" : "화천군"
+				,"adongCd" : "51790330"
+				,"adongNm" : "상서면"
+				,"ldongCd" : "5179033029"
+				,"ldongNm" : "상서면"
+				,"lnoCd" : "5179033029103660009"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 366
+				,"lnoSlno" : 9
+				,"lnoAdr" : "강원특별자치도 화천군 상서면 봉오리 366-9"
+				,"rdnmCd" : "517903231004"
+				,"rdnm" : "강원특별자치도 화천군 상서면 다파로"
+				,"bldMnno" : 757
+				,"bldSlno" : 16
+				,"bldMngNo" : "4279033029003660009000985"
+				,"bldNm" : ""
+				,"rdnmAdr" : "강원특별자치도 화천군 상서면 다파로 757-16"
+				,"oldZipcd" : "209814"
+				,"newZipcd" : "24103"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.599051381845
+				,"lat" : 38.1918711476054
+				}
+				,{
+				"bizesId" : "MA0101202306A0039968"
+				,"bizesNm" : "진순대국"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20102"
+				,"indsSclsNm" : "국/탕/찌개류"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "51"
+				,"ctprvnNm" : "강원특별자치도"
+				,"signguCd" : "51790"
+				,"signguNm" : "화천군"
+				,"adongCd" : "51790330"
+				,"adongNm" : "상서면"
+				,"ldongCd" : "5179033029"
+				,"ldongNm" : "상서면"
+				,"lnoCd" : "5179033029103610005"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 361
+				,"lnoSlno" : 5
+				,"lnoAdr" : "강원특별자치도 화천군 상서면 봉오리 361-5"
+				,"rdnmCd" : "517903231004"
+				,"rdnm" : "강원특별자치도 화천군 상서면 다파로"
+				,"bldMnno" : 764
+				,"bldSlno" : 1
+				,"bldMngNo" : "4279033029103630019016012"
+				,"bldNm" : ""
+				,"rdnmAdr" : "강원특별자치도 화천군 상서면 다파로 764-1"
+				,"oldZipcd" : "209814"
+				,"newZipcd" : "24103"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.599625986964
+				,"lat" : 38.1909493083949
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 1,
+		"totalCount" : 10	}
+}

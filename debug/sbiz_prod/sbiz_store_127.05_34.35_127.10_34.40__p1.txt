@@ -1,0 +1,221 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA0106202509A2354211"
+				,"bizesNm" : "둘레길"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G221"
+				,"indsMclsNm" : "기타 상품 소매"
+				,"indsSclsCd" : "G22199"
+				,"indsSclsNm" : "그 외 기타 상품 전문 소매업"
+				,"ksicCd" : "G47859"
+				,"ksicNm" : "그 외 기타 분류 안된 상품 전문 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46890"
+				,"signguNm" : "완도군"
+				,"adongCd" : "46890253"
+				,"adongNm" : "금일읍"
+				,"ldongCd" : "4689025325"
+				,"ldongNm" : "금일읍"
+				,"lnoCd" : "4689025325107270001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 727
+				,"lnoSlno" : 1
+				,"lnoAdr" : "전라남도 완도군 금일읍 충동리 727-1"
+				,"rdnmCd" : "468904860121"
+				,"rdnm" : "전라남도 완도군 금일읍 동송2길"
+				,"bldMnno" : 95
+				,"bldSlno" : 1
+				,"bldMngNo" : "4689025325107270001000002"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 완도군 금일읍 동송2길 95-1"
+				,"oldZipcd" : "548993"
+				,"newZipcd" : "59142"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.055117832214
+				,"lat" : 34.351165229318
+				}
+				,{
+				"bizesId" : "MA010120220813401528"
+				,"bizesNm" : "대원마트"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G204"
+				,"indsMclsNm" : "종합 소매"
+				,"indsSclsCd" : "G20404"
+				,"indsSclsNm" : "슈퍼마켓"
+				,"ksicCd" : "G47129"
+				,"ksicNm" : "기타 음ㆍ식료품 위주 종합 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46890"
+				,"signguNm" : "완도군"
+				,"adongCd" : "46890253"
+				,"adongNm" : "금일읍"
+				,"ldongCd" : "4689025325"
+				,"ldongNm" : "금일읍"
+				,"lnoCd" : "4689025325106140001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 614
+				,"lnoSlno" : 1
+				,"lnoAdr" : "전라남도 완도군 금일읍 충동리 614-1"
+				,"rdnmCd" : "468904854372"
+				,"rdnm" : "전라남도 완도군 금일읍 동송길"
+				,"bldMnno" : 8
+				,"bldSlno" : 1
+				,"bldMngNo" : "4689025325106140001026991"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 완도군 금일읍 동송길 8-1"
+				,"oldZipcd" : "548993"
+				,"newZipcd" : "59142"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.058520135682
+				,"lat" : 34.3515062124852
+				}
+				,{
+				"bizesId" : "MA010120220809588291"
+				,"bizesNm" : "영웅수산"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G205"
+				,"indsMclsNm" : "식료품 소매"
+				,"indsSclsCd" : "G20505"
+				,"indsSclsNm" : "수산물 소매업"
+				,"ksicCd" : "G47214"
+				,"ksicNm" : "신선, 냉동 및 기타 수산물 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46890"
+				,"signguNm" : "완도군"
+				,"adongCd" : "46890253"
+				,"adongNm" : "금일읍"
+				,"ldongCd" : "4689025325"
+				,"ldongNm" : "금일읍"
+				,"lnoCd" : "4689025325107980000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 798
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 완도군 금일읍 충동리 798"
+				,"rdnmCd" : "468904860121"
+				,"rdnm" : "전라남도 완도군 금일읍 동송2길"
+				,"bldMnno" : 60
+				,"bldSlno" : 21
+				,"bldMngNo" : "4689025325107980000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 완도군 금일읍 동송2길 60-21"
+				,"oldZipcd" : "548993"
+				,"newZipcd" : "59142"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.059803067116
+				,"lat" : 34.3520104209515
+				}
+				,{
+				"bizesId" : "MA010120220807816400"
+				,"bizesNm" : "충도슈퍼"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G204"
+				,"indsMclsNm" : "종합 소매"
+				,"indsSclsCd" : "G20404"
+				,"indsSclsNm" : "슈퍼마켓"
+				,"ksicCd" : "G47129"
+				,"ksicNm" : "기타 음ㆍ식료품 위주 종합 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46890"
+				,"signguNm" : "완도군"
+				,"adongCd" : "46890253"
+				,"adongNm" : "금일읍"
+				,"ldongCd" : "4689025325"
+				,"ldongNm" : "금일읍"
+				,"lnoCd" : "4689025325114560000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 1456
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 완도군 금일읍 충동리 1456"
+				,"rdnmCd" : "468904700098"
+				,"rdnm" : "전라남도 완도군 금일읍 금일충도길"
+				,"bldMnno" : 33
+				,"bldSlno" : 3
+				,"bldMngNo" : "4689025325114560000028193"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 완도군 금일읍 금일충도길 33-3"
+				,"oldZipcd" : "548993"
+				,"newZipcd" : "59142"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.076523211825
+				,"lat" : 34.3793519288431
+				}
+				,{
+				"bizesId" : "MA010120220805369535"
+				,"bizesNm" : "몽돌민박"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55104"
+				,"ksicNm" : "민박업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46890"
+				,"signguNm" : "완도군"
+				,"adongCd" : "46890253"
+				,"adongNm" : "금일읍"
+				,"ldongCd" : "4689025325"
+				,"ldongNm" : "금일읍"
+				,"lnoCd" : "4689025325101340000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 134
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 완도군 금일읍 충동리 134"
+				,"rdnmCd" : "468904854370"
+				,"rdnm" : "전라남도 완도군 금일읍 용항길"
+				,"bldMnno" : 243
+				,"bldSlno" : ""
+				,"bldMngNo" : "4689025325101340000028320"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 완도군 금일읍 용항길 243"
+				,"oldZipcd" : "548993"
+				,"newZipcd" : "59142"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.079891921793
+				,"lat" : 34.3544690121886
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 1,
+		"totalCount" : 5	}
+}

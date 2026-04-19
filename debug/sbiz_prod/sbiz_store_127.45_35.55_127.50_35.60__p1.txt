@@ -1,0 +1,262 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA010120220804439961"
+				,"bizesNm" : "도원농원"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G205"
+				,"indsMclsNm" : "식료품 소매"
+				,"indsSclsCd" : "G20506"
+				,"indsSclsNm" : "채소/과일 소매업"
+				,"ksicCd" : "G47215"
+				,"ksicNm" : "채소, 과실 및 뿌리작물 소매업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52740"
+				,"signguNm" : "장수군"
+				,"adongCd" : "52740250"
+				,"adongNm" : "장수읍"
+				,"ldongCd" : "5274025032"
+				,"ldongNm" : "장수읍"
+				,"lnoCd" : "5274025032102070013"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 207
+				,"lnoSlno" : 13
+				,"lnoAdr" : "전북특별자치도 장수군 장수읍 대성리 207-13"
+				,"rdnmCd" : "527404628029"
+				,"rdnm" : "전북특별자치도 장수군 장수읍 구평길"
+				,"bldMnno" : 78
+				,"bldSlno" : 44
+				,"bldMngNo" : "4574025032102070013030168"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 장수군 장수읍 구평길 78-44"
+				,"oldZipcd" : "597804"
+				,"newZipcd" : "55645"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.454872862687
+				,"lat" : 35.5810118850589
+				}
+				,{
+				"bizesId" : "MA010120220806728989"
+				,"bizesNm" : "오동슈퍼"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G204"
+				,"indsMclsNm" : "종합 소매"
+				,"indsSclsCd" : "G20404"
+				,"indsSclsNm" : "슈퍼마켓"
+				,"ksicCd" : "G47129"
+				,"ksicNm" : "기타 음ㆍ식료품 위주 종합 소매업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52740"
+				,"signguNm" : "장수군"
+				,"adongCd" : "52740250"
+				,"adongNm" : "장수읍"
+				,"ldongCd" : "5274025032"
+				,"ldongNm" : "장수읍"
+				,"lnoCd" : "5274025032105320004"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 532
+				,"lnoSlno" : 4
+				,"lnoAdr" : "전북특별자치도 장수군 장수읍 대성리 532-4"
+				,"rdnmCd" : "527403276015"
+				,"rdnm" : "전북특별자치도 장수군 장수읍 비행로"
+				,"bldMnno" : 994
+				,"bldSlno" : ""
+				,"bldMngNo" : "4574025032105320004011290"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 장수군 장수읍 비행로 994"
+				,"oldZipcd" : "597804"
+				,"newZipcd" : "55645"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.461046123857
+				,"lat" : 35.5974459129867
+				}
+				,{
+				"bizesId" : "MA0101202308A0085343"
+				,"bizesNm" : "장수뷔페"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I207"
+				,"indsMclsNm" : "구내식당·뷔페"
+				,"indsSclsCd" : "I20702"
+				,"indsSclsNm" : "뷔페"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52740"
+				,"signguNm" : "장수군"
+				,"adongCd" : "52740250"
+				,"adongNm" : "장수읍"
+				,"ldongCd" : "5274025032"
+				,"ldongNm" : "장수읍"
+				,"lnoCd" : "5274025032105320014"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 532
+				,"lnoSlno" : 14
+				,"lnoAdr" : "전북특별자치도 장수군 장수읍 대성리 532-14"
+				,"rdnmCd" : "527403276015"
+				,"rdnm" : "전북특별자치도 장수군 장수읍 비행로"
+				,"bldMnno" : 996
+				,"bldSlno" : ""
+				,"bldMngNo" : "4574025032105320014009892"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 장수군 장수읍 비행로 996"
+				,"oldZipcd" : "597804"
+				,"newZipcd" : "55645"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.461167247844
+				,"lat" : 35.5974003853068
+				}
+				,{
+				"bizesId" : "MA010120220807425406"
+				,"bizesNm" : "영화정육식당"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20108"
+				,"indsSclsNm" : "소고기 구이/찜"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52740"
+				,"signguNm" : "장수군"
+				,"adongCd" : "52740250"
+				,"adongNm" : "장수읍"
+				,"ldongCd" : "5274025032"
+				,"ldongNm" : "장수읍"
+				,"lnoCd" : "5274025032105700004"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 570
+				,"lnoSlno" : 4
+				,"lnoAdr" : "전북특별자치도 장수군 장수읍 대성리 570-4"
+				,"rdnmCd" : "527403276015"
+				,"rdnm" : "전북특별자치도 장수군 장수읍 비행로"
+				,"bldMnno" : 1005
+				,"bldSlno" : 28
+				,"bldMngNo" : "4574025032105700004011346"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 장수군 장수읍 비행로 1005-28"
+				,"oldZipcd" : "597804"
+				,"newZipcd" : "55645"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.463994065009
+				,"lat" : 35.599633733197
+				}
+				,{
+				"bizesId" : "MA0106202510A1181414"
+				,"bizesNm" : "에덴농장"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G205"
+				,"indsMclsNm" : "식료품 소매"
+				,"indsSclsCd" : "G20502"
+				,"indsSclsNm" : "가축 사료 소매업"
+				,"ksicCd" : "G47211"
+				,"ksicNm" : "곡물, 곡분 및 가축 사료 소매업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52740"
+				,"signguNm" : "장수군"
+				,"adongCd" : "52740250"
+				,"adongNm" : "장수읍"
+				,"ldongCd" : "5274025033"
+				,"ldongNm" : "장수읍"
+				,"lnoCd" : "5274025033102240002"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 224
+				,"lnoSlno" : 2
+				,"lnoAdr" : "전북특별자치도 장수군 장수읍 식천리 224-2"
+				,"rdnmCd" : "527404628172"
+				,"rdnm" : "전북특별자치도 장수군 장수읍 식천길"
+				,"bldMnno" : 190
+				,"bldSlno" : ""
+				,"bldMngNo" : "4574025033102240002012699"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 장수군 장수읍 식천길 190"
+				,"oldZipcd" : "597804"
+				,"newZipcd" : "55644"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.47419262581
+				,"lat" : 35.584993218079
+				}
+				,{
+				"bizesId" : "MA0101202406A0191967"
+				,"bizesNm" : "로드피플"
+				,"brchNm" : ""
+				,"indsLclsCd" : "S2"
+				,"indsLclsNm" : "수리·개인"
+				,"indsMclsCd" : "S206"
+				,"indsMclsNm" : "기타 가정용품 수리"
+				,"indsSclsCd" : "S20602"
+				,"indsSclsNm" : "가죽/가방/신발 수선업"
+				,"ksicCd" : "S95392"
+				,"ksicNm" : "가죽, 가방 및 신발 수리업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52740"
+				,"signguNm" : "장수군"
+				,"adongCd" : "52740320"
+				,"adongNm" : "번암면"
+				,"ldongCd" : "5274032021"
+				,"ldongNm" : "번암면"
+				,"lnoCd" : "5274032021111950000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 1195
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전북특별자치도 장수군 번암면 교동리 1195"
+				,"rdnmCd" : "527404628033"
+				,"rdnm" : "전북특별자치도 장수군 번암면 금천2길"
+				,"bldMnno" : 29
+				,"bldSlno" : ""
+				,"bldMngNo" : "4574032021111950000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 장수군 번암면 금천2길 29"
+				,"oldZipcd" : "597811"
+				,"newZipcd" : "55656"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.490422511369
+				,"lat" : 35.5596381534401
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 1,
+		"totalCount" : 6	}
+}

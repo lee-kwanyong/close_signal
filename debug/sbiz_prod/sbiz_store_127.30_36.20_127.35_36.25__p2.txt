@@ -1,0 +1,139 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA0101202505A0089057"
+				,"bizesNm" : "1987태산짬뽕"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I202"
+				,"indsMclsNm" : "중식"
+				,"indsSclsCd" : "I20201"
+				,"indsSclsNm" : "중국집"
+				,"ksicCd" : "I56121"
+				,"ksicNm" : "중식 음식점업"
+				,"ctprvnCd" : "30"
+				,"ctprvnNm" : "대전광역시"
+				,"signguCd" : "30170"
+				,"signguNm" : "서구"
+				,"adongCd" : "30170600"
+				,"adongNm" : "기성동"
+				,"ldongCd" : "3017012000"
+				,"ldongNm" : "장안동"
+				,"lnoCd" : "3017012000102940002"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 294
+				,"lnoSlno" : 2
+				,"lnoAdr" : "대전광역시 서구 장안동 294-2"
+				,"rdnmCd" : "301703166047"
+				,"rdnm" : "대전광역시 서구 장안로"
+				,"bldMnno" : 479
+				,"bldSlno" : ""
+				,"bldMngNo" : "3017012000102940002003675"
+				,"bldNm" : ""
+				,"rdnmAdr" : "대전광역시 서구 장안로 479"
+				,"oldZipcd" : "302040"
+				,"newZipcd" : "35428"
+				,"dongNo" : ""
+				,"flrNo" : "1"
+				,"hoNo" : ""
+				,"lon" : 127.339327950282
+				,"lat" : 36.2197705110492
+				}
+				,{
+				"bizesId" : "MA0106202507A0952959"
+				,"bizesNm" : "장태산휴양림매점"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G221"
+				,"indsMclsNm" : "기타 상품 소매"
+				,"indsSclsCd" : "G22199"
+				,"indsSclsNm" : "그 외 기타 상품 전문 소매업"
+				,"ksicCd" : "G47859"
+				,"ksicNm" : "그 외 기타 분류 안된 상품 전문 소매업"
+				,"ctprvnCd" : "30"
+				,"ctprvnNm" : "대전광역시"
+				,"signguCd" : "30170"
+				,"signguNm" : "서구"
+				,"adongCd" : "30170600"
+				,"adongNm" : "기성동"
+				,"ldongCd" : "3017012000"
+				,"ldongNm" : "장안동"
+				,"lnoCd" : "3017012000102590000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 259
+				,"lnoSlno" : ""
+				,"lnoAdr" : "대전광역시 서구 장안동 259"
+				,"rdnmCd" : "301703166047"
+				,"rdnm" : "대전광역시 서구 장안로"
+				,"bldMnno" : 461
+				,"bldSlno" : ""
+				,"bldMngNo" : "3017012000102590000003539"
+				,"bldNm" : ""
+				,"rdnmAdr" : "대전광역시 서구 장안로 461"
+				,"oldZipcd" : "302040"
+				,"newZipcd" : "35428"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.341280009211
+				,"lat" : 36.2159709243798
+				}
+				,{
+				"bizesId" : "MA0106202511A1105924"
+				,"bizesNm" : "바베큐팩토리앤카페장태산점"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G221"
+				,"indsMclsNm" : "기타 상품 소매"
+				,"indsSclsCd" : "G22199"
+				,"indsSclsNm" : "그 외 기타 상품 전문 소매업"
+				,"ksicCd" : "G47859"
+				,"ksicNm" : "그 외 기타 분류 안된 상품 전문 소매업"
+				,"ctprvnCd" : "30"
+				,"ctprvnNm" : "대전광역시"
+				,"signguCd" : "30170"
+				,"signguNm" : "서구"
+				,"adongCd" : "30170600"
+				,"adongNm" : "기성동"
+				,"ldongCd" : "3017011900"
+				,"ldongNm" : "산직동"
+				,"lnoCd" : "3017011900101620000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 162
+				,"lnoSlno" : ""
+				,"lnoAdr" : "대전광역시 서구 산직동 162"
+				,"rdnmCd" : "301704298439"
+				,"rdnm" : "대전광역시 서구 비선말길"
+				,"bldMnno" : 135
+				,"bldSlno" : ""
+				,"bldMngNo" : "3017011900101620000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "대전광역시 서구 비선말길 135"
+				,"oldZipcd" : "302050"
+				,"newZipcd" : "35426"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.346997688146
+				,"lat" : 36.2389349409015
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 2,
+		"totalCount" : 103	}
+}

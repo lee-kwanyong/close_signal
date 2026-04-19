@@ -1,0 +1,98 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA0101202406A0245193"
+				,"bizesNm" : "대보식당"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "41"
+				,"ctprvnNm" : "경기도"
+				,"signguCd" : "41590"
+				,"signguNm" : "화성시"
+				,"adongCd" : "41590340"
+				,"adongNm" : "송산면"
+				,"ldongCd" : "4159034025"
+				,"ldongNm" : "송산면"
+				,"lnoCd" : "415903402510000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : ""
+				,"lnoSlno" : ""
+				,"lnoAdr" : "경기도 화성시 송산면 고정리"
+				,"rdnmCd" : "415903210005"
+				,"rdnm" : "경기도 화성시 송산면 공룡로"
+				,"bldMnno" : 883
+				,"bldSlno" : ""
+				,"bldMngNo" : "4159034025100000000000001"
+				,"bldNm" : "건설공사"
+				,"rdnmAdr" : "경기도 화성시 송산면 공룡로 883"
+				,"oldZipcd" : "445871"
+				,"newZipcd" : "18221"
+				,"dongNo" : ""
+				,"flrNo" : "1"
+				,"hoNo" : ""
+				,"lon" : 126.731774943489
+				,"lat" : 37.277944224913
+				}
+				,{
+				"bizesId" : "MA0101202409A0176595"
+				,"bizesNm" : "유스틸식당"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I207"
+				,"indsMclsNm" : "구내식당·뷔페"
+				,"indsSclsCd" : "I20701"
+				,"indsSclsNm" : "구내식당"
+				,"ksicCd" : "I56130"
+				,"ksicNm" : "기관 구내식당업"
+				,"ctprvnCd" : "41"
+				,"ctprvnNm" : "경기도"
+				,"signguCd" : "41273"
+				,"signguNm" : "안산시 단원구"
+				,"adongCd" : "41273570"
+				,"adongNm" : "초지동"
+				,"ldongCd" : "4127310400"
+				,"ldongNm" : "성곡동"
+				,"lnoCd" : "4127310400107980006"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 798
+				,"lnoSlno" : 6
+				,"lnoAdr" : "경기도 안산시 단원구 성곡동 798-6"
+				,"rdnmCd" : "412733199090"
+				,"rdnm" : "경기도 안산시 단원구 엠티브이8로"
+				,"bldMnno" : 6
+				,"bldSlno" : ""
+				,"bldMngNo" : "4127310400100000000000017"
+				,"bldNm" : "유스틸"
+				,"rdnmAdr" : "경기도 안산시 단원구 엠티브이8로 6"
+				,"oldZipcd" : "425080"
+				,"newZipcd" : "15657"
+				,"dongNo" : ""
+				,"flrNo" : "1"
+				,"hoNo" : ""
+				,"lon" : 126.74884190239
+				,"lat" : 37.2996065309186
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 1,
+		"totalCount" : 2	}
+}

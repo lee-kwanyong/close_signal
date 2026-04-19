@@ -1,0 +1,221 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA010120220807342685"
+				,"bizesNm" : "국제마음훈련원"
+				,"brchNm" : ""
+				,"indsLclsCd" : "P1"
+				,"indsLclsNm" : "교육"
+				,"indsMclsCd" : "P106"
+				,"indsMclsNm" : "기타 교육"
+				,"indsSclsCd" : "P10603"
+				,"indsSclsNm" : "요가/필라테스 학원"
+				,"ksicCd" : "P85612"
+				,"ksicNm" : "기타 스포츠 교육기관"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46870"
+				,"signguNm" : "영광군"
+				,"adongCd" : "46870253"
+				,"adongNm" : "백수읍"
+				,"ldongCd" : "4687025337"
+				,"ldongNm" : "백수읍"
+				,"lnoCd" : "4687025337105530001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 553
+				,"lnoSlno" : 1
+				,"lnoAdr" : "전라남도 영광군 백수읍 구수리 553-1"
+				,"rdnmCd" : "468703298054"
+				,"rdnm" : "전라남도 영광군 백수읍 해안로"
+				,"bldMnno" : 1840
+				,"bldSlno" : ""
+				,"bldMngNo" : "4687025337200990001000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 영광군 백수읍 해안로 1840"
+				,"oldZipcd" : "513901"
+				,"newZipcd" : "57025"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.428413572952
+				,"lat" : 35.3362715717411
+				}
+				,{
+				"bizesId" : "MA0101202409A0009659"
+				,"bizesNm" : "한시랑스테이"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55104"
+				,"ksicNm" : "민박업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46870"
+				,"signguNm" : "영광군"
+				,"adongCd" : "46870253"
+				,"adongNm" : "백수읍"
+				,"ldongCd" : "4687025337"
+				,"ldongNm" : "백수읍"
+				,"lnoCd" : "4687025337101200001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 120
+				,"lnoSlno" : 1
+				,"lnoAdr" : "전라남도 영광군 백수읍 구수리 120-1"
+				,"rdnmCd" : "468703298054"
+				,"rdnm" : "전라남도 영광군 백수읍 해안로"
+				,"bldMnno" : 1698
+				,"bldSlno" : 18
+				,"bldMngNo" : "4687025337101200001018599"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 영광군 백수읍 해안로 1698-18"
+				,"oldZipcd" : "513901"
+				,"newZipcd" : "57025"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.429897049289
+				,"lat" : 35.347436888802
+				}
+				,{
+				"bizesId" : "MA010120220807551584"
+				,"bizesNm" : "캠핑아이"
+				,"brchNm" : ""
+				,"indsLclsCd" : "P1"
+				,"indsLclsNm" : "교육"
+				,"indsMclsCd" : "P106"
+				,"indsMclsNm" : "기타 교육"
+				,"indsSclsCd" : "P10607"
+				,"indsSclsNm" : "청소년 수련시설"
+				,"ksicCd" : "I55109"
+				,"ksicNm" : "기타 일반 및 생활 숙박시설 운영업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46870"
+				,"signguNm" : "영광군"
+				,"adongCd" : "46870253"
+				,"adongNm" : "백수읍"
+				,"ldongCd" : "4687025322"
+				,"ldongNm" : "백수읍"
+				,"lnoCd" : "4687025322108060001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 806
+				,"lnoSlno" : 1
+				,"lnoAdr" : "전라남도 영광군 백수읍 길용리 806-1"
+				,"rdnmCd" : "468703298020"
+				,"rdnm" : "전라남도 영광군 백수읍 법백로"
+				,"bldMnno" : 39
+				,"bldSlno" : ""
+				,"bldMngNo" : "4687025322108060001018386"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 영광군 백수읍 법백로 39"
+				,"oldZipcd" : "513902"
+				,"newZipcd" : "57026"
+				,"dongNo" : ""
+				,"flrNo" : "1"
+				,"hoNo" : ""
+				,"lon" : 126.432698509062
+				,"lat" : 35.3369587314947
+				}
+				,{
+				"bizesId" : "MA010120220807597468"
+				,"bizesNm" : "푸른매점"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G204"
+				,"indsMclsNm" : "종합 소매"
+				,"indsSclsCd" : "G20404"
+				,"indsSclsNm" : "슈퍼마켓"
+				,"ksicCd" : "G47129"
+				,"ksicNm" : "기타 음ㆍ식료품 위주 종합 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46870"
+				,"signguNm" : "영광군"
+				,"adongCd" : "46870253"
+				,"adongNm" : "백수읍"
+				,"ldongCd" : "4687025322"
+				,"ldongNm" : "백수읍"
+				,"lnoCd" : "4687025322104470001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 447
+				,"lnoSlno" : 1
+				,"lnoAdr" : "전라남도 영광군 백수읍 길용리 447-1"
+				,"rdnmCd" : "468703298047"
+				,"rdnm" : "전라남도 영광군 백수읍 성지로"
+				,"bldMnno" : 1159
+				,"bldSlno" : ""
+				,"bldMngNo" : "4687025322104320000019967"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 영광군 백수읍 성지로 1159"
+				,"oldZipcd" : "513902"
+				,"newZipcd" : "57026"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.435294414811
+				,"lat" : 35.3163937469452
+				}
+				,{
+				"bizesId" : "MA010120220807635360"
+				,"bizesNm" : "노루목쉼터"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G204"
+				,"indsMclsNm" : "종합 소매"
+				,"indsSclsCd" : "G20404"
+				,"indsSclsNm" : "슈퍼마켓"
+				,"ksicCd" : "G47129"
+				,"ksicNm" : "기타 음ㆍ식료품 위주 종합 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46870"
+				,"signguNm" : "영광군"
+				,"adongCd" : "46870253"
+				,"adongNm" : "백수읍"
+				,"ldongCd" : "4687025322"
+				,"ldongNm" : "백수읍"
+				,"lnoCd" : "4687025322100260000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 26
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 영광군 백수읍 길용리 26"
+				,"rdnmCd" : "468703298047"
+				,"rdnm" : "전라남도 영광군 백수읍 성지로"
+				,"bldMnno" : 1357
+				,"bldSlno" : ""
+				,"bldMngNo" : ""
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 영광군 백수읍 성지로 1357"
+				,"oldZipcd" : "513902"
+				,"newZipcd" : "57026"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.441510978675
+				,"lat" : 35.3270852489697
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 1,
+		"totalCount" : 5	}
+}

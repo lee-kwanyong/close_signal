@@ -1,0 +1,221 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA010120220805464735"
+				,"bizesNm" : "쌍둥이네인테리어"
+				,"brchNm" : ""
+				,"indsLclsCd" : "M1"
+				,"indsLclsNm" : "과학·기술"
+				,"indsMclsCd" : "M112"
+				,"indsMclsNm" : "전문 디자인"
+				,"indsSclsCd" : "M11201"
+				,"indsSclsNm" : "인테리어 디자인업"
+				,"ksicCd" : "F42412"
+				,"ksicNm" : "도배, 실내 장식 및 내장 목공사업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46810"
+				,"signguNm" : "강진군"
+				,"adongCd" : "46810360"
+				,"adongNm" : "성전면"
+				,"ldongCd" : "4681036022"
+				,"ldongNm" : "성전면"
+				,"lnoCd" : "4681036022110110002"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 1011
+				,"lnoSlno" : 2
+				,"lnoAdr" : "전라남도 강진군 성전면 월하리 1011-2"
+				,"rdnmCd" : "468104679062"
+				,"rdnm" : "전라남도 강진군 성전면 녹향월촌길"
+				,"bldMnno" : 281
+				,"bldSlno" : ""
+				,"bldMngNo" : "4681036022200210025000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 강진군 성전면 녹향월촌길 281"
+				,"oldZipcd" : "527813"
+				,"newZipcd" : "59201"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.689910466267
+				,"lat" : 34.7218838190452
+				}
+				,{
+				"bizesId" : "MA010120220812871296"
+				,"bizesNm" : "월출산약초농산"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G205"
+				,"indsMclsNm" : "식료품 소매"
+				,"indsSclsCd" : "G20506"
+				,"indsSclsNm" : "채소/과일 소매업"
+				,"ksicCd" : "G47215"
+				,"ksicNm" : "채소, 과실 및 뿌리작물 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46810"
+				,"signguNm" : "강진군"
+				,"adongCd" : "46810360"
+				,"adongNm" : "성전면"
+				,"ldongCd" : "4681036022"
+				,"ldongNm" : "성전면"
+				,"lnoCd" : "4681036022108560001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 856
+				,"lnoSlno" : 1
+				,"lnoAdr" : "전라남도 강진군 성전면 월하리 856-1"
+				,"rdnmCd" : "468103293017"
+				,"rdnm" : "전라남도 강진군 성전면 무위사로"
+				,"bldMnno" : 236
+				,"bldSlno" : 12
+				,"bldMngNo" : ""
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 강진군 성전면 무위사로 236-12"
+				,"oldZipcd" : "527813"
+				,"newZipcd" : "59201"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.692108384717
+				,"lat" : 34.7327154401319
+				}
+				,{
+				"bizesId" : "MA010120220803528527"
+				,"bizesNm" : "월출산방"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55104"
+				,"ksicNm" : "민박업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46810"
+				,"signguNm" : "강진군"
+				,"adongCd" : "46810360"
+				,"adongNm" : "성전면"
+				,"ldongCd" : "4681036022"
+				,"ldongNm" : "성전면"
+				,"lnoCd" : "4681036022106510001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 651
+				,"lnoSlno" : 1
+				,"lnoAdr" : "전라남도 강진군 성전면 월하리 651-1"
+				,"rdnmCd" : "468104679327"
+				,"rdnm" : "전라남도 강진군 성전면 월하안운길"
+				,"bldMnno" : 67
+				,"bldSlno" : ""
+				,"bldMngNo" : "4681036022106530000064648"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 강진군 성전면 월하안운길 67"
+				,"oldZipcd" : "527813"
+				,"newZipcd" : "59201"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.694769665092
+				,"lat" : 34.7364810523312
+				}
+				,{
+				"bizesId" : "MA010120220807013458"
+				,"bizesNm" : "풀뿌리게스트하우스"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55104"
+				,"ksicNm" : "민박업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46810"
+				,"signguNm" : "강진군"
+				,"adongCd" : "46810360"
+				,"adongNm" : "성전면"
+				,"ldongCd" : "4681036022"
+				,"ldongNm" : "성전면"
+				,"lnoCd" : "4681036022105720003"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 572
+				,"lnoSlno" : 3
+				,"lnoAdr" : "전라남도 강진군 성전면 월하리 572-3"
+				,"rdnmCd" : "468104679327"
+				,"rdnm" : "전라남도 강진군 성전면 월하안운길"
+				,"bldMnno" : 110
+				,"bldSlno" : 9
+				,"bldMngNo" : "4681036022105720003000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 강진군 성전면 월하안운길 110-9"
+				,"oldZipcd" : "527813"
+				,"newZipcd" : "59201"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.694993824391
+				,"lat" : 34.7408534900193
+				}
+				,{
+				"bizesId" : "MA010120220807832845"
+				,"bizesNm" : "녹향월촌산들"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G205"
+				,"indsMclsNm" : "식료품 소매"
+				,"indsSclsCd" : "G20506"
+				,"indsSclsNm" : "채소/과일 소매업"
+				,"ksicCd" : "G47215"
+				,"ksicNm" : "채소, 과실 및 뿌리작물 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46810"
+				,"signguNm" : "강진군"
+				,"adongCd" : "46810360"
+				,"adongNm" : "성전면"
+				,"ldongCd" : "4681036023"
+				,"ldongNm" : "성전면"
+				,"lnoCd" : "4681036023109400003"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 940
+				,"lnoSlno" : 3
+				,"lnoAdr" : "전라남도 강진군 성전면 송월리 940-3"
+				,"rdnmCd" : "468104679067"
+				,"rdnm" : "전라남도 강진군 성전면 달마지길"
+				,"bldMnno" : 6
+				,"bldSlno" : ""
+				,"bldMngNo" : "4681036023109400002064497"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 강진군 성전면 달마지길 6"
+				,"oldZipcd" : "527813"
+				,"newZipcd" : "59202"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.699062522407
+				,"lat" : 34.7059245660086
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 1,
+		"totalCount" : 5	}
+}

@@ -1,0 +1,3 @@
+﻿"source_name","source_url","type","status","item_count","collected_at"
+"sample-json","https://jsonplaceholder.typicode.com/posts","json","success","100","2026-04-08T23:54:37"
+"sample-html","https://example.com","html","success","1","2026-04-08T23:54:41"

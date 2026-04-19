@@ -1,0 +1,426 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA010120220805868631"
+				,"bizesNm" : "시전이용원"
+				,"brchNm" : ""
+				,"indsLclsCd" : "S2"
+				,"indsLclsNm" : "수리·개인"
+				,"indsMclsCd" : "S207"
+				,"indsMclsNm" : "이용·미용"
+				,"indsSclsCd" : "S20701"
+				,"indsSclsNm" : "미용실"
+				,"ksicCd" : "S96111"
+				,"ksicNm" : "이용업"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44790"
+				,"signguNm" : "청양군"
+				,"adongCd" : "44790320"
+				,"adongNm" : "대치면"
+				,"ldongCd" : "4479032033"
+				,"ldongNm" : "대치면"
+				,"lnoCd" : "4479032033105630001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 563
+				,"lnoSlno" : 1
+				,"lnoAdr" : "충청남도 청양군 대치면 시전리 563-1"
+				,"rdnmCd" : "447903261017"
+				,"rdnm" : "충청남도 청양군 대치면 청산로"
+				,"bldMnno" : 671
+				,"bldSlno" : 39
+				,"bldMngNo" : "4479032033105630001011330"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청남도 청양군 대치면 청산로 671-39"
+				,"oldZipcd" : "345893"
+				,"newZipcd" : "33342"
+				,"dongNo" : ""
+				,"flrNo" : "1"
+				,"hoNo" : ""
+				,"lon" : 126.851538353462
+				,"lat" : 36.4698587018848
+				}
+				,{
+				"bizesId" : "MA0101202302A0033986"
+				,"bizesNm" : "나부리버츄얼"
+				,"brchNm" : ""
+				,"indsLclsCd" : "M1"
+				,"indsLclsNm" : "과학·기술"
+				,"indsMclsCd" : "M112"
+				,"indsMclsNm" : "전문 디자인"
+				,"indsSclsCd" : "M11203"
+				,"indsSclsNm" : "시각 디자인업"
+				,"ksicCd" : "M73203"
+				,"ksicNm" : "시각 디자인업"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44790"
+				,"signguNm" : "청양군"
+				,"adongCd" : "44790320"
+				,"adongNm" : "대치면"
+				,"ldongCd" : "4479032033"
+				,"ldongNm" : "대치면"
+				,"lnoCd" : "4479032033105650002"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 565
+				,"lnoSlno" : 2
+				,"lnoAdr" : "충청남도 청양군 대치면 시전리 565-2"
+				,"rdnmCd" : "447903261017"
+				,"rdnm" : "충청남도 청양군 대치면 청산로"
+				,"bldMnno" : 689
+				,"bldSlno" : 44
+				,"bldMngNo" : "4479032033105650002000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청남도 청양군 대치면 청산로 689-44"
+				,"oldZipcd" : "345893"
+				,"newZipcd" : "33342"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.851782891199
+				,"lat" : 36.4703456332694
+				}
+				,{
+				"bizesId" : "MA0106202201A0055932"
+				,"bizesNm" : "모두휴청소년야영장"
+				,"brchNm" : ""
+				,"indsLclsCd" : "P1"
+				,"indsLclsNm" : "교육"
+				,"indsMclsCd" : "P106"
+				,"indsMclsNm" : "기타 교육"
+				,"indsSclsCd" : "P10607"
+				,"indsSclsNm" : "청소년 수련시설"
+				,"ksicCd" : "P85614"
+				,"ksicNm" : "청소년 수련시설 운영업"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44790"
+				,"signguNm" : "청양군"
+				,"adongCd" : "44790320"
+				,"adongNm" : "대치면"
+				,"ldongCd" : "4479032033"
+				,"ldongNm" : "대치면"
+				,"lnoCd" : "4479032033102760000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 276
+				,"lnoSlno" : ""
+				,"lnoAdr" : "충청남도 청양군 대치면 시전리 276"
+				,"rdnmCd" : "447903261017"
+				,"rdnm" : "충청남도 청양군 대치면 청산로"
+				,"bldMnno" : 690
+				,"bldSlno" : 13
+				,"bldMngNo" : "4479032033102760000002103"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청남도 청양군 대치면 청산로 690-13"
+				,"oldZipcd" : "345893"
+				,"newZipcd" : "33342"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.853339509088
+				,"lat" : 36.4673106399178
+				}
+				,{
+				"bizesId" : "MA0101202408A0038768"
+				,"bizesNm" : "청양유통"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G205"
+				,"indsMclsNm" : "식료품 소매"
+				,"indsSclsCd" : "G20504"
+				,"indsSclsNm" : "건어물/젓갈 소매업"
+				,"ksicCd" : "G47213"
+				,"ksicNm" : "건어물 및 젓갈류 소매업"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44790"
+				,"signguNm" : "청양군"
+				,"adongCd" : "44790320"
+				,"adongNm" : "대치면"
+				,"ldongCd" : "4479032035"
+				,"ldongNm" : "대치면"
+				,"lnoCd" : "4479032035101470000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 147
+				,"lnoSlno" : ""
+				,"lnoAdr" : "충청남도 청양군 대치면 농소리 147"
+				,"rdnmCd" : "447903261001"
+				,"rdnm" : "충청남도 청양군 대치면 가파로"
+				,"bldMnno" : 112
+				,"bldSlno" : 61
+				,"bldMngNo" : "4479032035101470000011543"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청남도 청양군 대치면 가파로 112-61"
+				,"oldZipcd" : "345893"
+				,"newZipcd" : "33341"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.855687086859
+				,"lat" : 36.4828945790158
+				}
+				,{
+				"bizesId" : "MA010120220803281262"
+				,"bizesNm" : "청양하나구기자농장"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G205"
+				,"indsMclsNm" : "식료품 소매"
+				,"indsSclsCd" : "G20506"
+				,"indsSclsNm" : "채소/과일 소매업"
+				,"ksicCd" : "G47215"
+				,"ksicNm" : "채소, 과실 및 뿌리작물 소매업"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44790"
+				,"signguNm" : "청양군"
+				,"adongCd" : "44790320"
+				,"adongNm" : "대치면"
+				,"ldongCd" : "4479032035"
+				,"ldongNm" : "대치면"
+				,"lnoCd" : "4479032035100920001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 92
+				,"lnoSlno" : 1
+				,"lnoAdr" : "충청남도 청양군 대치면 농소리 92-1"
+				,"rdnmCd" : "447903261001"
+				,"rdnm" : "충청남도 청양군 대치면 가파로"
+				,"bldMnno" : 243
+				,"bldSlno" : ""
+				,"bldMngNo" : "4479032035100920001011565"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청남도 청양군 대치면 가파로 243"
+				,"oldZipcd" : "345893"
+				,"newZipcd" : "33341"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.859185475442
+				,"lat" : 36.4860167716194
+				}
+				,{
+				"bizesId" : "MA010120220803707748"
+				,"bizesNm" : "평화숲"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10104"
+				,"indsSclsNm" : "캠핑/글램핑"
+				,"ksicCd" : "I55109"
+				,"ksicNm" : "기타 일반 및 생활 숙박시설 운영업"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44790"
+				,"signguNm" : "청양군"
+				,"adongCd" : "44790320"
+				,"adongNm" : "대치면"
+				,"ldongCd" : "4479032033"
+				,"ldongNm" : "대치면"
+				,"lnoCd" : "4479032033101890000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 189
+				,"lnoSlno" : ""
+				,"lnoAdr" : "충청남도 청양군 대치면 시전리 189"
+				,"rdnmCd" : "447904583123"
+				,"rdnm" : "충청남도 청양군 대치면 비끼내길"
+				,"bldMnno" : 171
+				,"bldSlno" : 6
+				,"bldMngNo" : "4479032033101890000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청남도 청양군 대치면 비끼내길 171-6"
+				,"oldZipcd" : "345893"
+				,"newZipcd" : "33342"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.866953991219
+				,"lat" : 36.4787352999412
+				}
+				,{
+				"bizesId" : "MA010120220805998277"
+				,"bizesNm" : "가파마을"
+				,"brchNm" : ""
+				,"indsLclsCd" : "R1"
+				,"indsLclsNm" : "예술·스포츠"
+				,"indsMclsCd" : "R104"
+				,"indsMclsNm" : "유원지·오락"
+				,"indsSclsCd" : "R10499"
+				,"indsSclsNm" : "기타 오락관련 서비스업"
+				,"ksicCd" : "R91299"
+				,"ksicNm" : "그 외 기타 분류 안된 오락관련 서비스업"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44790"
+				,"signguNm" : "청양군"
+				,"adongCd" : "44790320"
+				,"adongNm" : "대치면"
+				,"ldongCd" : "4479032034"
+				,"ldongNm" : "대치면"
+				,"lnoCd" : "4479032034102340001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 234
+				,"lnoSlno" : 1
+				,"lnoAdr" : "충청남도 청양군 대치면 상갑리 234-1"
+				,"rdnmCd" : "447903261001"
+				,"rdnm" : "충청남도 청양군 대치면 가파로"
+				,"bldMnno" : 506
+				,"bldSlno" : 8
+				,"bldMngNo" : "4479032034102340001011597"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청남도 청양군 대치면 가파로 506-8"
+				,"oldZipcd" : "345893"
+				,"newZipcd" : "33341"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.880036216649
+				,"lat" : 36.4977546218002
+				}
+				,{
+				"bizesId" : "MA010120220801463124"
+				,"bizesNm" : "이화장묘"
+				,"brchNm" : ""
+				,"indsLclsCd" : "S2"
+				,"indsLclsNm" : "수리·개인"
+				,"indsMclsCd" : "S210"
+				,"indsMclsNm" : "장례식장 "
+				,"indsSclsCd" : "S21002"
+				,"indsSclsNm" : "화장터/묘지/납골당"
+				,"ksicCd" : "S96922"
+				,"ksicNm" : "화장터 운영, 묘지 분양 및 관리업"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44790"
+				,"signguNm" : "청양군"
+				,"adongCd" : "44790320"
+				,"adongNm" : "대치면"
+				,"ldongCd" : "4479032032"
+				,"ldongNm" : "대치면"
+				,"lnoCd" : "4479032032101020000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 102
+				,"lnoSlno" : ""
+				,"lnoAdr" : "충청남도 청양군 대치면 이화리 102"
+				,"rdnmCd" : "447904583027"
+				,"rdnm" : "충청남도 청양군 대치면 광승길"
+				,"bldMnno" : 109
+				,"bldSlno" : ""
+				,"bldMngNo" : "4479032032101020000004363"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청남도 청양군 대치면 광승길 109"
+				,"oldZipcd" : "345893"
+				,"newZipcd" : "33343"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.886548010249
+				,"lat" : 36.4716093258011
+				}
+				,{
+				"bizesId" : "MA0101202410A0830868"
+				,"bizesNm" : "자연농원"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44790"
+				,"signguNm" : "청양군"
+				,"adongCd" : "44790320"
+				,"adongNm" : "대치면"
+				,"ldongCd" : "4479032031"
+				,"ldongNm" : "대치면"
+				,"lnoCd" : "4479032031104570000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 457
+				,"lnoSlno" : ""
+				,"lnoAdr" : "충청남도 청양군 대치면 형산리 457"
+				,"rdnmCd" : "447903261017"
+				,"rdnm" : "충청남도 청양군 대치면 청산로"
+				,"bldMnno" : 1067
+				,"bldSlno" : 40
+				,"bldMngNo" : "4479032031104570000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청남도 청양군 대치면 청산로 1067-40"
+				,"oldZipcd" : "345893"
+				,"newZipcd" : "33343"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.893440729718
+				,"lat" : 36.4654787619616
+				}
+				,{
+				"bizesId" : "MA010120220801250150"
+				,"bizesNm" : "자연속산약초"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G221"
+				,"indsMclsNm" : "기타 상품 소매"
+				,"indsSclsCd" : "G22199"
+				,"indsSclsNm" : "그 외 기타 상품 전문 소매업"
+				,"ksicCd" : "G47859"
+				,"ksicNm" : "그 외 기타 분류 안된 상품 전문 소매업"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44790"
+				,"signguNm" : "청양군"
+				,"adongCd" : "44790320"
+				,"adongNm" : "대치면"
+				,"ldongCd" : "4479032031"
+				,"ldongNm" : "대치면"
+				,"lnoCd" : "4479032031101220001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 122
+				,"lnoSlno" : 1
+				,"lnoAdr" : "충청남도 청양군 대치면 형산리 122-1"
+				,"rdnmCd" : "447903261017"
+				,"rdnm" : "충청남도 청양군 대치면 청산로"
+				,"bldMnno" : 1091
+				,"bldSlno" : ""
+				,"bldMngNo" : "4479032031101220001000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청남도 청양군 대치면 청산로 1091"
+				,"oldZipcd" : "345893"
+				,"newZipcd" : "33343"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.895172019483
+				,"lat" : 36.4640113991501
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 1,
+		"totalCount" : 10	}
+}

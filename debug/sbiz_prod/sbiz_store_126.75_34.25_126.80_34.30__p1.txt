@@ -1,0 +1,221 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA0106202510A1042227"
+				,"bizesNm" : "금전복수산"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G205"
+				,"indsMclsNm" : "식료품 소매"
+				,"indsSclsCd" : "G20502"
+				,"indsSclsNm" : "가축 사료 소매업"
+				,"ksicCd" : "G47211"
+				,"ksicNm" : "곡물, 곡분 및 가축 사료 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46890"
+				,"signguNm" : "완도군"
+				,"adongCd" : "46890250"
+				,"adongNm" : "완도읍"
+				,"ldongCd" : "4689025026"
+				,"ldongNm" : "완도읍"
+				,"lnoCd" : "4689025026104130001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 413
+				,"lnoSlno" : 1
+				,"lnoAdr" : "전라남도 완도군 완도읍 망석리 413-1"
+				,"rdnmCd" : "468903300027"
+				,"rdnm" : "전라남도 완도군 완도읍 청해진서로"
+				,"bldMnno" : 189
+				,"bldSlno" : 438
+				,"bldMngNo" : "4689025026104130001008463"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 완도군 완도읍 청해진서로 189-438"
+				,"oldZipcd" : "537805"
+				,"newZipcd" : "59111"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.752016898154
+				,"lat" : 34.2927539300572
+				}
+				,{
+				"bizesId" : "MA0101202501A0072977"
+				,"bizesNm" : "명품전복직판장"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G205"
+				,"indsMclsNm" : "식료품 소매"
+				,"indsSclsCd" : "G20504"
+				,"indsSclsNm" : "건어물/젓갈 소매업"
+				,"ksicCd" : "G47213"
+				,"ksicNm" : "건어물 및 젓갈류 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46890"
+				,"signguNm" : "완도군"
+				,"adongCd" : "46890250"
+				,"adongNm" : "완도읍"
+				,"ldongCd" : "4689025021"
+				,"ldongNm" : "완도읍"
+				,"lnoCd" : "4689025021100970003"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 97
+				,"lnoSlno" : 3
+				,"lnoAdr" : "전라남도 완도군 완도읍 군내리 97-3"
+				,"rdnmCd" : "468904700065"
+				,"rdnm" : "전라남도 완도군 완도읍 군내길"
+				,"bldMnno" : 176
+				,"bldSlno" : 2
+				,"bldMngNo" : "4689025021100970003010052"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 완도군 완도읍 군내길 176-2"
+				,"oldZipcd" : "537800"
+				,"newZipcd" : "59111"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.760990260542
+				,"lat" : 34.299848418692
+				}
+				,{
+				"bizesId" : "MA0101202311A0047111"
+				,"bizesNm" : "사회혁신교육원사회적협동조합"
+				,"brchNm" : ""
+				,"indsLclsCd" : "P1"
+				,"indsLclsNm" : "교육"
+				,"indsMclsCd" : "P106"
+				,"indsMclsNm" : "기타 교육"
+				,"indsSclsCd" : "P10629"
+				,"indsSclsNm" : "그 외 기타 교육기관"
+				,"ksicCd" : "P85699"
+				,"ksicNm" : "그 외 기타 분류 안된 교육기관"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46890"
+				,"signguNm" : "완도군"
+				,"adongCd" : "46890250"
+				,"adongNm" : "완도읍"
+				,"ldongCd" : "4689025021"
+				,"ldongNm" : "완도읍"
+				,"lnoCd" : "4689025021100590008"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 59
+				,"lnoSlno" : 8
+				,"lnoAdr" : "전라남도 완도군 완도읍 군내리 59-8"
+				,"rdnmCd" : "468904700065"
+				,"rdnm" : "전라남도 완도군 완도읍 군내길"
+				,"bldMnno" : 209
+				,"bldSlno" : 1
+				,"bldMngNo" : "4689025021100590008000001"
+				,"bldNm" : "전남지점"
+				,"rdnmAdr" : "전라남도 완도군 완도읍 군내길 209-1"
+				,"oldZipcd" : "537800"
+				,"newZipcd" : "59111"
+				,"dongNo" : ""
+				,"flrNo" : "2"
+				,"hoNo" : ""
+				,"lon" : 126.764265771122
+				,"lat" : 34.2977452913182
+				}
+				,{
+				"bizesId" : "MA0101202505A0073872"
+				,"bizesNm" : "전복생산자"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G205"
+				,"indsMclsNm" : "식료품 소매"
+				,"indsSclsCd" : "G20505"
+				,"indsSclsNm" : "수산물 소매업"
+				,"ksicCd" : "G47214"
+				,"ksicNm" : "신선, 냉동 및 기타 수산물 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46890"
+				,"signguNm" : "완도군"
+				,"adongCd" : "46890250"
+				,"adongNm" : "완도읍"
+				,"ldongCd" : "4689025021"
+				,"ldongNm" : "완도읍"
+				,"lnoCd" : "4689025021100030001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 3
+				,"lnoSlno" : 1
+				,"lnoAdr" : "전라남도 완도군 완도읍 군내리 3-1"
+				,"rdnmCd" : "468904700065"
+				,"rdnm" : "전라남도 완도군 완도읍 군내길"
+				,"bldMnno" : 245
+				,"bldSlno" : 4
+				,"bldMngNo" : "4689025021100030001010457"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 완도군 완도읍 군내길 245-4"
+				,"oldZipcd" : "537800"
+				,"newZipcd" : "59111"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.767605942971
+				,"lat" : 34.2957684058568
+				}
+				,{
+				"bizesId" : "MA010120220807810256"
+				,"bizesNm" : "완도포장기계"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G218"
+				,"indsMclsNm" : "장식품 소매"
+				,"indsSclsCd" : "G21802"
+				,"indsSclsNm" : "기념품점"
+				,"ksicCd" : "G47842"
+				,"ksicNm" : "기념품, 관광 민예품 및 장식용품 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46890"
+				,"signguNm" : "완도군"
+				,"adongCd" : "46890250"
+				,"adongNm" : "완도읍"
+				,"ldongCd" : "4689025021"
+				,"ldongNm" : "완도읍"
+				,"lnoCd" : "4689025021100030002"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 3
+				,"lnoSlno" : 2
+				,"lnoAdr" : "전라남도 완도군 완도읍 군내리 3-2"
+				,"rdnmCd" : "468904700065"
+				,"rdnm" : "전라남도 완도군 완도읍 군내길"
+				,"bldMnno" : 260
+				,"bldSlno" : ""
+				,"bldMngNo" : "4689025021100030004010461"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 완도군 완도읍 군내길 260"
+				,"oldZipcd" : "537800"
+				,"newZipcd" : "59111"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.767617549662
+				,"lat" : 34.295497982355
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 1,
+		"totalCount" : 5	}
+}

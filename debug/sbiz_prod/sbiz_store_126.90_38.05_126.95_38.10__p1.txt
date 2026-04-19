@@ -1,0 +1,221 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA010120220812426372"
+				,"bizesNm" : "라메종블랑쉬"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55104"
+				,"ksicNm" : "민박업"
+				,"ctprvnCd" : "41"
+				,"ctprvnNm" : "경기도"
+				,"signguCd" : "41800"
+				,"signguNm" : "연천군"
+				,"adongCd" : "41800330"
+				,"adongNm" : "백학면"
+				,"ldongCd" : "4180033046"
+				,"ldongNm" : "백학면"
+				,"lnoCd" : "4180033046108750026"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 875
+				,"lnoSlno" : 26
+				,"lnoAdr" : "경기도 연천군 백학면 석장리 875-26"
+				,"rdnmCd" : "418004445119"
+				,"rdnm" : "경기도 연천군 백학면 백왕로225번길"
+				,"bldMnno" : 238
+				,"bldSlno" : ""
+				,"bldMngNo" : "4180033046200510006000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "경기도 연천군 백학면 백왕로225번길 238"
+				,"oldZipcd" : "486881"
+				,"newZipcd" : "11048"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.918044710725
+				,"lat" : 38.0545494862408
+				}
+				,{
+				"bizesId" : "MA010120220805040196"
+				,"bizesNm" : "조각가박시동미술관관광농원"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10104"
+				,"indsSclsNm" : "캠핑/글램핑"
+				,"ksicCd" : "I55109"
+				,"ksicNm" : "기타 일반 및 생활 숙박시설 운영업"
+				,"ctprvnCd" : "41"
+				,"ctprvnNm" : "경기도"
+				,"signguCd" : "41800"
+				,"signguNm" : "연천군"
+				,"adongCd" : "41800330"
+				,"adongNm" : "백학면"
+				,"ldongCd" : "4180033046"
+				,"ldongNm" : "백학면"
+				,"lnoCd" : "4180033046108750016"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 875
+				,"lnoSlno" : 16
+				,"lnoAdr" : "경기도 연천군 백학면 석장리 875-16"
+				,"rdnmCd" : "418004445119"
+				,"rdnm" : "경기도 연천군 백학면 백왕로225번길"
+				,"bldMnno" : 240
+				,"bldSlno" : 1
+				,"bldMngNo" : "4180033046108750001000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "경기도 연천군 백학면 백왕로225번길 240-1"
+				,"oldZipcd" : "486881"
+				,"newZipcd" : "11048"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.918067789466
+				,"lat" : 38.0542882352634
+				}
+				,{
+				"bizesId" : "MA010120220813867158"
+				,"bizesNm" : "키움랜드"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G220"
+				,"indsMclsNm" : "애완동물·용품 소매"
+				,"indsSclsCd" : "G22001"
+				,"indsSclsNm" : "애완동물/애완용품 소매업"
+				,"ksicCd" : "G47852"
+				,"ksicNm" : "애완용 동물 및 관련용품 소매업"
+				,"ctprvnCd" : "41"
+				,"ctprvnNm" : "경기도"
+				,"signguCd" : "41800"
+				,"signguNm" : "연천군"
+				,"adongCd" : "41800330"
+				,"adongNm" : "백학면"
+				,"ldongCd" : "4180033046"
+				,"ldongNm" : "백학면"
+				,"lnoCd" : "4180033046105750000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 575
+				,"lnoSlno" : ""
+				,"lnoAdr" : "경기도 연천군 백학면 석장리 575"
+				,"rdnmCd" : "418004445123"
+				,"rdnm" : "경기도 연천군 백학면 백왕로257번길"
+				,"bldMnno" : 154
+				,"bldSlno" : ""
+				,"bldMngNo" : "4180033046105750000005640"
+				,"bldNm" : ""
+				,"rdnmAdr" : "경기도 연천군 백학면 백왕로257번길 154"
+				,"oldZipcd" : "486881"
+				,"newZipcd" : "11048"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.923351951085
+				,"lat" : 38.0567062671464
+				}
+				,{
+				"bizesId" : "MA010120220813561427"
+				,"bizesNm" : "우정동산캠핑농원"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10104"
+				,"indsSclsNm" : "캠핑/글램핑"
+				,"ksicCd" : "I55109"
+				,"ksicNm" : "기타 일반 및 생활 숙박시설 운영업"
+				,"ctprvnCd" : "41"
+				,"ctprvnNm" : "경기도"
+				,"signguCd" : "41800"
+				,"signguNm" : "연천군"
+				,"adongCd" : "41800340"
+				,"adongNm" : "미산면"
+				,"ldongCd" : "4180034025"
+				,"ldongNm" : "미산면"
+				,"lnoCd" : "4180034025102120000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 212
+				,"lnoSlno" : ""
+				,"lnoAdr" : "경기도 연천군 미산면 광동리 212"
+				,"rdnmCd" : "418004862804"
+				,"rdnm" : "경기도 연천군 미산면 청정로771번가길"
+				,"bldMnno" : 211
+				,"bldSlno" : 46
+				,"bldMngNo" : "4180034025102120000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "경기도 연천군 미산면 청정로771번가길 211-46"
+				,"oldZipcd" : "486861"
+				,"newZipcd" : "11046"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.943101254804
+				,"lat" : 38.0523840555
+				}
+				,{
+				"bizesId" : "MA010120220801705019"
+				,"bizesNm" : "삼우엔지니어링경기지사"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G210"
+				,"indsMclsNm" : "철물·건설자재 소매"
+				,"indsSclsCd" : "G21001"
+				,"indsSclsNm" : "철물/공구 소매업"
+				,"ksicCd" : "G47512"
+				,"ksicNm" : "공구 소매업"
+				,"ctprvnCd" : "41"
+				,"ctprvnNm" : "경기도"
+				,"signguCd" : "41800"
+				,"signguNm" : "연천군"
+				,"adongCd" : "41800350"
+				,"adongNm" : "왕징면"
+				,"ldongCd" : "4180035026"
+				,"ldongNm" : "왕징면"
+				,"lnoCd" : "4180035026106360000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 636
+				,"lnoSlno" : ""
+				,"lnoAdr" : "경기도 연천군 왕징면 동중리 636"
+				,"rdnmCd" : "418003215018"
+				,"rdnm" : "경기도 연천군 왕징면 백왕로"
+				,"bldMnno" : 564
+				,"bldSlno" : ""
+				,"bldMngNo" : "4180035026106360000005853"
+				,"bldNm" : ""
+				,"rdnmAdr" : "경기도 연천군 왕징면 백왕로 564"
+				,"oldZipcd" : "486871"
+				,"newZipcd" : "11043"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.947601510983
+				,"lat" : 38.0685666728464
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 1,
+		"totalCount" : 5	}
+}

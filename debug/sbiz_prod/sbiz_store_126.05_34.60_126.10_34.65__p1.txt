@@ -1,0 +1,221 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA010120220814182563"
+				,"bizesNm" : "신의포장"
+				,"brchNm" : ""
+				,"indsLclsCd" : "N1"
+				,"indsLclsNm" : "시설관리·임대"
+				,"indsMclsCd" : "N108"
+				,"indsMclsNm" : "기타 사업 서비스"
+				,"indsSclsCd" : "N10805"
+				,"indsSclsNm" : "포장/충전업"
+				,"ksicCd" : "N75994"
+				,"ksicNm" : "포장 및 충전업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46910"
+				,"signguNm" : "신안군"
+				,"adongCd" : "46910380"
+				,"adongNm" : "신의면"
+				,"ldongCd" : "4691038021"
+				,"ldongNm" : "신의면"
+				,"lnoCd" : "4691038021105500000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 550
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 신안군 신의면 상태서리 550"
+				,"rdnmCd" : "469104706150"
+				,"rdnm" : "전라남도 신안군 신의면 상서길"
+				,"bldMnno" : 628
+				,"bldSlno" : ""
+				,"bldMngNo" : "4691038021105480000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 신안군 신의면 상서길 628"
+				,"oldZipcd" : "535926"
+				,"newZipcd" : "58857"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.058435751725
+				,"lat" : 34.6166566850172
+				}
+				,{
+				"bizesId" : "MA010120220805386802"
+				,"bizesNm" : "민혁이네국밥"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20102"
+				,"indsSclsNm" : "국/탕/찌개류"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46910"
+				,"signguNm" : "신안군"
+				,"adongCd" : "46910380"
+				,"adongNm" : "신의면"
+				,"ldongCd" : "4691038021"
+				,"ldongNm" : "신의면"
+				,"lnoCd" : "4691038021106170001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 617
+				,"lnoSlno" : 1
+				,"lnoAdr" : "전라남도 신안군 신의면 상태서리 617-1"
+				,"rdnmCd" : "469104706150"
+				,"rdnm" : "전라남도 신안군 신의면 상서길"
+				,"bldMnno" : 468
+				,"bldSlno" : 2
+				,"bldMngNo" : "4691038021106170001000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 신안군 신의면 상서길 468-2"
+				,"oldZipcd" : "535926"
+				,"newZipcd" : "58857"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.071267017314
+				,"lat" : 34.6119235549738
+				}
+				,{
+				"bizesId" : "MA010120220807693261"
+				,"bizesNm" : "신의가스"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G214"
+				,"indsMclsNm" : "연료 소매"
+				,"indsSclsCd" : "G21403"
+				,"indsSclsNm" : "가정용 연료 소매업"
+				,"ksicCd" : "G47723"
+				,"ksicNm" : "가정용 가스 연료 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46910"
+				,"signguNm" : "신안군"
+				,"adongCd" : "46910380"
+				,"adongNm" : "신의면"
+				,"ldongCd" : "4691038021"
+				,"ldongNm" : "신의면"
+				,"lnoCd" : "4691038021103160000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 316
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 신안군 신의면 상태서리 316"
+				,"rdnmCd" : "469104706203"
+				,"rdnm" : "전라남도 신안군 신의면 안산길"
+				,"bldMnno" : 79
+				,"bldSlno" : ""
+				,"bldMngNo" : "4691038021103110000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 신안군 신의면 안산길 79"
+				,"oldZipcd" : "535926"
+				,"newZipcd" : "58857"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.075021370514
+				,"lat" : 34.6076433901049
+				}
+				,{
+				"bizesId" : "MA0101202501A0024209"
+				,"bizesNm" : "동면상회"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G205"
+				,"indsMclsNm" : "식료품 소매"
+				,"indsSclsCd" : "G20509"
+				,"indsSclsNm" : "반찬/식료품 소매업"
+				,"ksicCd" : "G47219"
+				,"ksicNm" : "기타 식료품 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46910"
+				,"signguNm" : "신안군"
+				,"adongCd" : "46910380"
+				,"adongNm" : "신의면"
+				,"ldongCd" : "4691038021"
+				,"ldongNm" : "신의면"
+				,"lnoCd" : "4691038021104790000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 479
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 신안군 신의면 상태서리 479"
+				,"rdnmCd" : "469104706083"
+				,"rdnm" : "전라남도 신안군 신의면 동면길"
+				,"bldMnno" : 28
+				,"bldSlno" : 4
+				,"bldMngNo" : "4691038021104790000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 신안군 신의면 동면길 28-4"
+				,"oldZipcd" : "535926"
+				,"newZipcd" : "58857"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.082100113844
+				,"lat" : 34.6122939938356
+				}
+				,{
+				"bizesId" : "MA010120220806560025"
+				,"bizesNm" : "대광포장"
+				,"brchNm" : ""
+				,"indsLclsCd" : "N1"
+				,"indsLclsNm" : "시설관리·임대"
+				,"indsMclsCd" : "N108"
+				,"indsMclsNm" : "기타 사업 서비스"
+				,"indsSclsCd" : "N10805"
+				,"indsSclsNm" : "포장/충전업"
+				,"ksicCd" : "N75994"
+				,"ksicNm" : "포장 및 충전업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46910"
+				,"signguNm" : "신안군"
+				,"adongCd" : "46910380"
+				,"adongNm" : "신의면"
+				,"ldongCd" : "4691038021"
+				,"ldongNm" : "신의면"
+				,"lnoCd" : "4691038021104710000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 471
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 신안군 신의면 상태서리 471"
+				,"rdnmCd" : "469104706083"
+				,"rdnm" : "전라남도 신안군 신의면 동면길"
+				,"bldMnno" : 27
+				,"bldSlno" : ""
+				,"bldMngNo" : "4691038021104710000000005"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 신안군 신의면 동면길 27"
+				,"oldZipcd" : "535926"
+				,"newZipcd" : "58857"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.082653425544
+				,"lat" : 34.6125415337089
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 1,
+		"totalCount" : 5	}
+}

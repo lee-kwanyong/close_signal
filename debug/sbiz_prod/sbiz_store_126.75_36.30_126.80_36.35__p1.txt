@@ -1,0 +1,262 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA010120220805873033"
+				,"bizesNm" : "한울이엔지"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G208"
+				,"indsMclsNm" : "가전·통신 소매"
+				,"indsSclsCd" : "G20803"
+				,"indsSclsNm" : "가전제품 소매업"
+				,"ksicCd" : "G47320"
+				,"ksicNm" : "가전제품 소매업"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44760"
+				,"signguNm" : "부여군"
+				,"adongCd" : "44760330"
+				,"adongNm" : "외산면"
+				,"ldongCd" : "4476033032"
+				,"ldongNm" : "외산면"
+				,"lnoCd" : "4476033032104530000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 453
+				,"lnoSlno" : ""
+				,"lnoAdr" : "충청남도 부여군 외산면 화성리 453"
+				,"rdnmCd" : "447604860594"
+				,"rdnm" : "충청남도 부여군 외산면 마동길"
+				,"bldMnno" : 79
+				,"bldSlno" : ""
+				,"bldMngNo" : "4476033032104530000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청남도 부여군 외산면 마동길 79"
+				,"oldZipcd" : "323891"
+				,"newZipcd" : "33101"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.750016407446
+				,"lat" : 36.3306475837919
+				}
+				,{
+				"bizesId" : "MA0101202410A0803283"
+				,"bizesNm" : "정버섯농장"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G205"
+				,"indsMclsNm" : "식료품 소매"
+				,"indsSclsCd" : "G20506"
+				,"indsSclsNm" : "채소/과일 소매업"
+				,"ksicCd" : "G47215"
+				,"ksicNm" : "채소, 과실 및 뿌리작물 소매업"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44760"
+				,"signguNm" : "부여군"
+				,"adongCd" : "44760340"
+				,"adongNm" : "내산면"
+				,"ldongCd" : "4476034027"
+				,"ldongNm" : "내산면"
+				,"lnoCd" : "4476034027101050001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 105
+				,"lnoSlno" : 1
+				,"lnoAdr" : "충청남도 부여군 내산면 마전리 105-1"
+				,"rdnmCd" : "447603259097"
+				,"rdnm" : "충청남도 부여군 내산면 삼바실로"
+				,"bldMnno" : 167
+				,"bldSlno" : 17
+				,"bldMngNo" : "4476034027101050001008316"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청남도 부여군 내산면 삼바실로 167-17"
+				,"oldZipcd" : "323881"
+				,"newZipcd" : "33194"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.7658513247
+				,"lat" : 36.3092224804057
+				}
+				,{
+				"bizesId" : "MA0101202410A0219332"
+				,"bizesNm" : "다래랑다육"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G219"
+				,"indsMclsNm" : "식물 소매"
+				,"indsSclsCd" : "G21901"
+				,"indsSclsNm" : "꽃집"
+				,"ksicCd" : "G47851"
+				,"ksicNm" : "화초 및 식물 소매업"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44760"
+				,"signguNm" : "부여군"
+				,"adongCd" : "44760320"
+				,"adongNm" : "은산면"
+				,"ldongCd" : "4476032027"
+				,"ldongNm" : "은산면"
+				,"lnoCd" : "4476032027104620000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 462
+				,"lnoSlno" : ""
+				,"lnoAdr" : "충청남도 부여군 은산면 나령리 462"
+				,"rdnmCd" : "447604577706"
+				,"rdnm" : "충청남도 부여군 은산면 충절로나령2길"
+				,"bldMnno" : 80
+				,"bldSlno" : ""
+				,"bldMngNo" : "4476032027105330000001264"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청남도 부여군 은산면 충절로나령2길 80"
+				,"oldZipcd" : "323823"
+				,"newZipcd" : "33106"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.779772970289
+				,"lat" : 36.3436110266457
+				}
+				,{
+				"bizesId" : "MA0101202212A0088264"
+				,"bizesNm" : "나령식당"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44760"
+				,"signguNm" : "부여군"
+				,"adongCd" : "44760320"
+				,"adongNm" : "은산면"
+				,"ldongCd" : "4476032027"
+				,"ldongNm" : "은산면"
+				,"lnoCd" : "4476032027101780002"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 178
+				,"lnoSlno" : 2
+				,"lnoAdr" : "충청남도 부여군 은산면 나령리 178-2"
+				,"rdnmCd" : "447603259240"
+				,"rdnm" : "충청남도 부여군 은산면 충절로"
+				,"bldMnno" : 3535
+				,"bldSlno" : ""
+				,"bldMngNo" : "4476032027101780000002485"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청남도 부여군 은산면 충절로 3535"
+				,"oldZipcd" : "323823"
+				,"newZipcd" : "33106"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.789751225681
+				,"lat" : 36.3363204227843
+				}
+				,{
+				"bizesId" : "MA0101202406A0543453"
+				,"bizesNm" : "지오에프에스백제CC"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44760"
+				,"signguNm" : "부여군"
+				,"adongCd" : "44760320"
+				,"adongNm" : "은산면"
+				,"ldongCd" : "4476032027"
+				,"ldongNm" : "은산면"
+				,"lnoCd" : "4476032027102740001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 274
+				,"lnoSlno" : 1
+				,"lnoAdr" : "충청남도 부여군 은산면 나령리 274-1"
+				,"rdnmCd" : "447603259240"
+				,"rdnm" : "충청남도 부여군 은산면 충절로"
+				,"bldMnno" : 3734
+				,"bldSlno" : 82
+				,"bldMngNo" : "4476032027102740001001171"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청남도 부여군 은산면 충절로 3734-82"
+				,"oldZipcd" : "323823"
+				,"newZipcd" : "33106"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.790690313705
+				,"lat" : 36.3475147316432
+				}
+				,{
+				"bizesId" : "MA010120220812921407"
+				,"bizesNm" : "백제제이에스컴퍼니"
+				,"brchNm" : ""
+				,"indsLclsCd" : "P1"
+				,"indsLclsNm" : "교육"
+				,"indsMclsCd" : "P106"
+				,"indsMclsNm" : "기타 교육"
+				,"indsSclsCd" : "P10603"
+				,"indsSclsNm" : "요가/필라테스 학원"
+				,"ksicCd" : "P85612"
+				,"ksicNm" : "기타 스포츠 교육기관"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44760"
+				,"signguNm" : "부여군"
+				,"adongCd" : "44760320"
+				,"adongNm" : "은산면"
+				,"ldongCd" : "4476032027"
+				,"ldongNm" : "은산면"
+				,"lnoCd" : "4476032027102740001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 274
+				,"lnoSlno" : 1
+				,"lnoAdr" : "충청남도 부여군 은산면 나령리 274-1"
+				,"rdnmCd" : "447603259240"
+				,"rdnm" : "충청남도 부여군 은산면 충절로"
+				,"bldMnno" : 3734
+				,"bldSlno" : 82
+				,"bldMngNo" : "4476032027102740001001171"
+				,"bldNm" : "백제CC골프트레이닝센터"
+				,"rdnmAdr" : "충청남도 부여군 은산면 충절로 3734-82"
+				,"oldZipcd" : "323823"
+				,"newZipcd" : "33106"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.790690313705
+				,"lat" : 36.3475147316432
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 1,
+		"totalCount" : 6	}
+}

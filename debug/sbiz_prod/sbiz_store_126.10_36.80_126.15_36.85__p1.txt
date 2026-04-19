@@ -1,0 +1,426 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA010120220806293012"
+				,"bizesNm" : "갱개미매점"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G204"
+				,"indsMclsNm" : "종합 소매"
+				,"indsSclsCd" : "G20404"
+				,"indsSclsNm" : "슈퍼마켓"
+				,"ksicCd" : "G47129"
+				,"ksicNm" : "기타 음ㆍ식료품 위주 종합 소매업"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44825"
+				,"signguNm" : "태안군"
+				,"adongCd" : "44825340"
+				,"adongNm" : "소원면"
+				,"ldongCd" : "4482534026"
+				,"ldongNm" : "소원면"
+				,"lnoCd" : "4482534026109780090"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 978
+				,"lnoSlno" : 90
+				,"lnoAdr" : "충청남도 태안군 소원면 의항리 978-90"
+				,"rdnmCd" : "448254592259"
+				,"rdnm" : "충청남도 태안군 소원면 천리포2길"
+				,"bldMnno" : 61
+				,"bldSlno" : ""
+				,"bldMngNo" : "4482534026109780090007999"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청남도 태안군 소원면 천리포2길 61"
+				,"oldZipcd" : "357934"
+				,"newZipcd" : "32121"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.146934703001
+				,"lat" : 36.8040249891834
+				}
+				,{
+				"bizesId" : "MA010120220806292108"
+				,"bizesNm" : "천리포콘도"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10102"
+				,"indsSclsNm" : "여관/모텔"
+				,"ksicCd" : "I55109"
+				,"ksicNm" : "기타 일반 및 생활 숙박시설 운영업"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44825"
+				,"signguNm" : "태안군"
+				,"adongCd" : "44825340"
+				,"adongNm" : "소원면"
+				,"ldongCd" : "4482534026"
+				,"ldongNm" : "소원면"
+				,"lnoCd" : "4482534026109780069"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 978
+				,"lnoSlno" : 69
+				,"lnoAdr" : "충청남도 태안군 소원면 의항리 978-69"
+				,"rdnmCd" : "448254592259"
+				,"rdnm" : "충청남도 태안군 소원면 천리포2길"
+				,"bldMnno" : 44
+				,"bldSlno" : 1
+				,"bldMngNo" : "4482534026109780069005792"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청남도 태안군 소원면 천리포2길 44-1"
+				,"oldZipcd" : "357934"
+				,"newZipcd" : "32121"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.149509457255
+				,"lat" : 36.8042506798387
+				}
+				,{
+				"bizesId" : "MA010120220806291802"
+				,"bizesNm" : "천리포낚시슈퍼"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G204"
+				,"indsMclsNm" : "종합 소매"
+				,"indsSclsCd" : "G20404"
+				,"indsSclsNm" : "슈퍼마켓"
+				,"ksicCd" : "G47129"
+				,"ksicNm" : "기타 음ㆍ식료품 위주 종합 소매업"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44825"
+				,"signguNm" : "태안군"
+				,"adongCd" : "44825340"
+				,"adongNm" : "소원면"
+				,"ldongCd" : "4482534026"
+				,"ldongNm" : "소원면"
+				,"lnoCd" : "4482534026109780186"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 978
+				,"lnoSlno" : 186
+				,"lnoAdr" : "충청남도 태안군 소원면 의항리 978-186"
+				,"rdnmCd" : "448254592259"
+				,"rdnm" : "충청남도 태안군 소원면 천리포2길"
+				,"bldMnno" : 44
+				,"bldSlno" : ""
+				,"bldMngNo" : "4482534026201110002005790"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청남도 태안군 소원면 천리포2길 44"
+				,"oldZipcd" : "357934"
+				,"newZipcd" : "32121"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.149665922917
+				,"lat" : 36.8042878420655
+				}
+				,{
+				"bizesId" : "MA010120220812496305"
+				,"bizesNm" : "천리포연일콘도"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55109"
+				,"ksicNm" : "기타 일반 및 생활 숙박시설 운영업"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44825"
+				,"signguNm" : "태안군"
+				,"adongCd" : "44825340"
+				,"adongNm" : "소원면"
+				,"ldongCd" : "4482534026"
+				,"ldongNm" : "소원면"
+				,"lnoCd" : "4482534026109780059"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 978
+				,"lnoSlno" : 59
+				,"lnoAdr" : "충청남도 태안군 소원면 의항리 978-59"
+				,"rdnmCd" : "448254592259"
+				,"rdnm" : "충청남도 태안군 소원면 천리포2길"
+				,"bldMnno" : 42
+				,"bldSlno" : ""
+				,"bldMngNo" : "4482534026109780059005791"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청남도 태안군 소원면 천리포2길 42"
+				,"oldZipcd" : "357934"
+				,"newZipcd" : "32121"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.149810785693
+				,"lat" : 36.8043609644931
+				}
+				,{
+				"bizesId" : "MA0101202212A0063691"
+				,"bizesNm" : "천리포밥상"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44825"
+				,"signguNm" : "태안군"
+				,"adongCd" : "44825340"
+				,"adongNm" : "소원면"
+				,"ldongCd" : "4482534026"
+				,"ldongNm" : "소원면"
+				,"lnoCd" : "4482534026109780058"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 978
+				,"lnoSlno" : 58
+				,"lnoAdr" : "충청남도 태안군 소원면 의항리 978-58"
+				,"rdnmCd" : "448254592259"
+				,"rdnm" : "충청남도 태안군 소원면 천리포2길"
+				,"bldMnno" : 40
+				,"bldSlno" : 1
+				,"bldMngNo" : "4482534026109780058005788"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청남도 태안군 소원면 천리포2길 40-1"
+				,"oldZipcd" : "357934"
+				,"newZipcd" : "32121"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.149967351325
+				,"lat" : 36.8043891162005
+				}
+				,{
+				"bizesId" : "MA010120220800931988"
+				,"bizesNm" : "메타인지교육협회"
+				,"brchNm" : ""
+				,"indsLclsCd" : "P1"
+				,"indsLclsNm" : "교육"
+				,"indsMclsCd" : "P106"
+				,"indsMclsNm" : "기타 교육"
+				,"indsSclsCd" : "P10629"
+				,"indsSclsNm" : "그 외 기타 교육기관"
+				,"ksicCd" : "P85699"
+				,"ksicNm" : "그 외 기타 분류 안된 교육기관"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44825"
+				,"signguNm" : "태안군"
+				,"adongCd" : "44825340"
+				,"adongNm" : "소원면"
+				,"ldongCd" : "4482534026"
+				,"ldongNm" : "소원면"
+				,"lnoCd" : "4482534026109780014"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 978
+				,"lnoSlno" : 14
+				,"lnoAdr" : "충청남도 태안군 소원면 의항리 978-14"
+				,"rdnmCd" : "448254592258"
+				,"rdnm" : "충청남도 태안군 소원면 천리포1길"
+				,"bldMnno" : 251
+				,"bldSlno" : 1
+				,"bldMngNo" : "4482534026109780014006103"
+				,"bldNm" : "비치빌라"
+				,"rdnmAdr" : "충청남도 태안군 소원면 천리포1길 251-1"
+				,"oldZipcd" : "357934"
+				,"newZipcd" : "32121"
+				,"dongNo" : ""
+				,"flrNo" : "1"
+				,"hoNo" : ""
+				,"lon" : 126.15018744593
+				,"lat" : 36.8006962440779
+				}
+				,{
+				"bizesId" : "MA010120220808252845"
+				,"bizesNm" : "섬노을펜션"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "L68112"
+				,"ksicNm" : "비주거용 건물 임대업"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44825"
+				,"signguNm" : "태안군"
+				,"adongCd" : "44825340"
+				,"adongNm" : "소원면"
+				,"ldongCd" : "4482534026"
+				,"ldongNm" : "소원면"
+				,"lnoCd" : "4482534026109780036"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 978
+				,"lnoSlno" : 36
+				,"lnoAdr" : "충청남도 태안군 소원면 의항리 978-36"
+				,"rdnmCd" : "448254592259"
+				,"rdnm" : "충청남도 태안군 소원면 천리포2길"
+				,"bldMnno" : 2
+				,"bldSlno" : ""
+				,"bldMngNo" : "4482534026109780036000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청남도 태안군 소원면 천리포2길 2"
+				,"oldZipcd" : "357934"
+				,"newZipcd" : "32121"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.150495089201
+				,"lat" : 36.8012481034758
+				}
+				,{
+				"bizesId" : "MA010120220810070197"
+				,"bizesNm" : "섬노을"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55109"
+				,"ksicNm" : "기타 일반 및 생활 숙박시설 운영업"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44825"
+				,"signguNm" : "태안군"
+				,"adongCd" : "44825340"
+				,"adongNm" : "소원면"
+				,"ldongCd" : "4482534026"
+				,"ldongNm" : "소원면"
+				,"lnoCd" : "4482534026109780036"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 978
+				,"lnoSlno" : 36
+				,"lnoAdr" : "충청남도 태안군 소원면 의항리 978-36"
+				,"rdnmCd" : "448254592259"
+				,"rdnm" : "충청남도 태안군 소원면 천리포2길"
+				,"bldMnno" : 2
+				,"bldSlno" : ""
+				,"bldMngNo" : "4482534026109780036000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청남도 태안군 소원면 천리포2길 2"
+				,"oldZipcd" : "357934"
+				,"newZipcd" : "32121"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.150495089201
+				,"lat" : 36.8012481034758
+				}
+				,{
+				"bizesId" : "MA010120220802958971"
+				,"bizesNm" : "섬노을카페"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I212"
+				,"indsMclsNm" : "비알코올 "
+				,"indsSclsCd" : "I21201"
+				,"indsSclsNm" : "카페"
+				,"ksicCd" : "I56221"
+				,"ksicNm" : "커피 전문점"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44825"
+				,"signguNm" : "태안군"
+				,"adongCd" : "44825340"
+				,"adongNm" : "소원면"
+				,"ldongCd" : "4482534026"
+				,"ldongNm" : "소원면"
+				,"lnoCd" : "4482534026109780036"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 978
+				,"lnoSlno" : 36
+				,"lnoAdr" : "충청남도 태안군 소원면 의항리 978-36"
+				,"rdnmCd" : "448254592259"
+				,"rdnm" : "충청남도 태안군 소원면 천리포2길"
+				,"bldMnno" : 2
+				,"bldSlno" : ""
+				,"bldMngNo" : "4482534026109780036000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청남도 태안군 소원면 천리포2길 2"
+				,"oldZipcd" : "357934"
+				,"newZipcd" : "32121"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.150495089201
+				,"lat" : 36.8012481034758
+				}
+				,{
+				"bizesId" : "MA010120220807975884"
+				,"bizesNm" : "천리포은하수펜션"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55109"
+				,"ksicNm" : "기타 일반 및 생활 숙박시설 운영업"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44825"
+				,"signguNm" : "태안군"
+				,"adongCd" : "44825340"
+				,"adongNm" : "소원면"
+				,"ldongCd" : "4482534026"
+				,"ldongNm" : "소원면"
+				,"lnoCd" : "4482534026109780064"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 978
+				,"lnoSlno" : 64
+				,"lnoAdr" : "충청남도 태안군 소원면 의항리 978-64"
+				,"rdnmCd" : "448254592259"
+				,"rdnm" : "충청남도 태안군 소원면 천리포2길"
+				,"bldMnno" : 36
+				,"bldSlno" : ""
+				,"bldMngNo" : "4482534026109780064006093"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청남도 태안군 소원면 천리포2길 36"
+				,"oldZipcd" : "357934"
+				,"newZipcd" : "32121"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.150499043867
+				,"lat" : 36.8039333625899
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 1,
+		"totalCount" : 10	}
+}

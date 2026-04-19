@@ -1,0 +1,262 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA010120220803021325"
+				,"bizesNm" : "신아농장"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G205"
+				,"indsMclsNm" : "식료품 소매"
+				,"indsSclsCd" : "G20509"
+				,"indsSclsNm" : "반찬/식료품 소매업"
+				,"ksicCd" : "G47219"
+				,"ksicNm" : "기타 식료품 소매업"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44790"
+				,"signguNm" : "청양군"
+				,"adongCd" : "44790310"
+				,"adongNm" : "운곡면"
+				,"ldongCd" : "4479031025"
+				,"ldongNm" : "운곡면"
+				,"lnoCd" : "4479031025104080001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 408
+				,"lnoSlno" : 1
+				,"lnoAdr" : "충청남도 청양군 운곡면 신대리 408-1"
+				,"rdnmCd" : "447904583160"
+				,"rdnm" : "충청남도 청양군 운곡면 신대길"
+				,"bldMnno" : 42
+				,"bldSlno" : ""
+				,"bldMngNo" : "4479031025104080001000001"
+				,"bldNm" : "비즈니스룸"
+				,"rdnmAdr" : "충청남도 청양군 운곡면 신대길 42"
+				,"oldZipcd" : "345871"
+				,"newZipcd" : "33315"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.851170282055
+				,"lat" : 36.5281180788745
+				}
+				,{
+				"bizesId" : "MA010120220805980886"
+				,"bizesNm" : "산내음"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G205"
+				,"indsMclsNm" : "식료품 소매"
+				,"indsSclsCd" : "G20508"
+				,"indsSclsNm" : "건강보조식품 소매업"
+				,"ksicCd" : "G47217"
+				,"ksicNm" : "건강 보조식품 소매업"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44790"
+				,"signguNm" : "청양군"
+				,"adongCd" : "44790310"
+				,"adongNm" : "운곡면"
+				,"ldongCd" : "4479031025"
+				,"ldongNm" : "운곡면"
+				,"lnoCd" : "4479031025104080001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 408
+				,"lnoSlno" : 1
+				,"lnoAdr" : "충청남도 청양군 운곡면 신대리 408-1"
+				,"rdnmCd" : "447904583160"
+				,"rdnm" : "충청남도 청양군 운곡면 신대길"
+				,"bldMnno" : 42
+				,"bldSlno" : ""
+				,"bldMngNo" : "4479031025104080001000001"
+				,"bldNm" : "부자농촌지원센터"
+				,"rdnmAdr" : "충청남도 청양군 운곡면 신대길 42"
+				,"oldZipcd" : "345871"
+				,"newZipcd" : "33315"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.851170282055
+				,"lat" : 36.5281180788745
+				}
+				,{
+				"bizesId" : "MA010120220803511160"
+				,"bizesNm" : "담아유"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G205"
+				,"indsMclsNm" : "식료품 소매"
+				,"indsSclsCd" : "G20506"
+				,"indsSclsNm" : "채소/과일 소매업"
+				,"ksicCd" : "G47215"
+				,"ksicNm" : "채소, 과실 및 뿌리작물 소매업"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44790"
+				,"signguNm" : "청양군"
+				,"adongCd" : "44790310"
+				,"adongNm" : "운곡면"
+				,"ldongCd" : "4479031025"
+				,"ldongNm" : "운곡면"
+				,"lnoCd" : "4479031025104080001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 408
+				,"lnoSlno" : 1
+				,"lnoAdr" : "충청남도 청양군 운곡면 신대리 408-1"
+				,"rdnmCd" : "447904583160"
+				,"rdnm" : "충청남도 청양군 운곡면 신대길"
+				,"bldMnno" : 42
+				,"bldSlno" : ""
+				,"bldMngNo" : "4479031025104080001000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청남도 청양군 운곡면 신대길 42"
+				,"oldZipcd" : "345871"
+				,"newZipcd" : "33315"
+				,"dongNo" : ""
+				,"flrNo" : "2"
+				,"hoNo" : ""
+				,"lon" : 126.851170282055
+				,"lat" : 36.5281180788745
+				}
+				,{
+				"bizesId" : "MA010120220805806771"
+				,"bizesNm" : "옻나무가든"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20107"
+				,"indsSclsNm" : "돼지고기 구이/찜"
+				,"ksicCd" : "I56113"
+				,"ksicNm" : "한식 육류 요리 전문점"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44790"
+				,"signguNm" : "청양군"
+				,"adongCd" : "44790310"
+				,"adongNm" : "운곡면"
+				,"ldongCd" : "4479031025"
+				,"ldongNm" : "운곡면"
+				,"lnoCd" : "4479031025104650002"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 465
+				,"lnoSlno" : 2
+				,"lnoAdr" : "충청남도 청양군 운곡면 신대리 465-2"
+				,"rdnmCd" : "447903261024"
+				,"rdnm" : "충청남도 청양군 운곡면 청신로"
+				,"bldMnno" : 982
+				,"bldSlno" : 64
+				,"bldMngNo" : "4479031025104650002009365"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청남도 청양군 운곡면 청신로 982-64"
+				,"oldZipcd" : "345871"
+				,"newZipcd" : "33315"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.853462758519
+				,"lat" : 36.5321941283501
+				}
+				,{
+				"bizesId" : "MA010120220802362565"
+				,"bizesNm" : "세계한궁지도자교육원"
+				,"brchNm" : ""
+				,"indsLclsCd" : "P1"
+				,"indsLclsNm" : "교육"
+				,"indsMclsCd" : "P107"
+				,"indsMclsNm" : "교육 지원"
+				,"indsSclsCd" : "P10701"
+				,"indsSclsNm" : "교육컨설팅업"
+				,"ksicCd" : "P85701"
+				,"ksicNm" : "교육관련 자문 및 평가업"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44790"
+				,"signguNm" : "청양군"
+				,"adongCd" : "44790310"
+				,"adongNm" : "운곡면"
+				,"ldongCd" : "4479031025"
+				,"ldongNm" : "운곡면"
+				,"lnoCd" : "4479031025100120000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 12
+				,"lnoSlno" : ""
+				,"lnoAdr" : "충청남도 청양군 운곡면 신대리 12"
+				,"rdnmCd" : "447904583109"
+				,"rdnm" : "충청남도 청양군 운곡면 배미길"
+				,"bldMnno" : 142
+				,"bldSlno" : ""
+				,"bldMngNo" : "4479031025100120000000001"
+				,"bldNm" : "한궁산방"
+				,"rdnmAdr" : "충청남도 청양군 운곡면 배미길 142"
+				,"oldZipcd" : "345871"
+				,"newZipcd" : "33315"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.885069822038
+				,"lat" : 36.5281105040913
+				}
+				,{
+				"bizesId" : "MA010120220802287328"
+				,"bizesNm" : "벼꽃마을"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I210"
+				,"indsMclsNm" : "기타 간이"
+				,"indsSclsCd" : "I21001"
+				,"indsSclsNm" : "빵/도넛"
+				,"ksicCd" : "I56191"
+				,"ksicNm" : "제과점업"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44150"
+				,"signguNm" : "공주시"
+				,"adongCd" : "44150400"
+				,"adongNm" : "신풍면"
+				,"ldongCd" : "4415040024"
+				,"ldongNm" : "신풍면"
+				,"lnoCd" : "4415040024103830003"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 383
+				,"lnoSlno" : 3
+				,"lnoAdr" : "충청남도 공주시 신풍면 봉갑리 383-3"
+				,"rdnmCd" : "441504553886"
+				,"rdnm" : "충청남도 공주시 신풍면 용수봉갑길"
+				,"bldMnno" : 522
+				,"bldSlno" : ""
+				,"bldMngNo" : "4415040024103830003000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청남도 공주시 신풍면 용수봉갑길 522"
+				,"oldZipcd" : "314881"
+				,"newZipcd" : "32524"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.897132546514
+				,"lat" : 36.516956214023
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 1,
+		"totalCount" : 6	}
+}

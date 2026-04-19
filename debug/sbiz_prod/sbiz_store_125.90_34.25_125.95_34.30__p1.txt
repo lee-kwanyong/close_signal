@@ -1,0 +1,98 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA010120220811782071"
+				,"bizesNm" : "중앙슈퍼"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G204"
+				,"indsMclsNm" : "종합 소매"
+				,"indsSclsCd" : "G20404"
+				,"indsSclsNm" : "슈퍼마켓"
+				,"ksicCd" : "G47129"
+				,"ksicNm" : "기타 음ㆍ식료품 위주 종합 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46900"
+				,"signguNm" : "진도군"
+				,"adongCd" : "46900360"
+				,"adongNm" : "조도면"
+				,"ldongCd" : "4690036023"
+				,"ldongNm" : "조도면"
+				,"lnoCd" : "4690036023100380002"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 38
+				,"lnoSlno" : 2
+				,"lnoAdr" : "전라남도 진도군 조도면 서거차도리 38-2"
+				,"rdnmCd" : "469004703149"
+				,"rdnm" : "전라남도 진도군 조도면 서거차도1길"
+				,"bldMnno" : 90
+				,"bldSlno" : ""
+				,"bldMngNo" : "4690036023100380002030293"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 진도군 조도면 서거차도1길 90"
+				,"oldZipcd" : "539918"
+				,"newZipcd" : "58958"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 125.915670616017
+				,"lat" : 34.2545021366367
+				}
+				,{
+				"bizesId" : "MA010120220807806988"
+				,"bizesNm" : "우리슈퍼"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G204"
+				,"indsMclsNm" : "종합 소매"
+				,"indsSclsCd" : "G20404"
+				,"indsSclsNm" : "슈퍼마켓"
+				,"ksicCd" : "G47129"
+				,"ksicNm" : "기타 음ㆍ식료품 위주 종합 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46900"
+				,"signguNm" : "진도군"
+				,"adongCd" : "46900360"
+				,"adongNm" : "조도면"
+				,"ldongCd" : "4690036023"
+				,"ldongNm" : "조도면"
+				,"lnoCd" : "4690036023100370005"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 37
+				,"lnoSlno" : 5
+				,"lnoAdr" : "전라남도 진도군 조도면 서거차도리 37-5"
+				,"rdnmCd" : "469004703149"
+				,"rdnm" : "전라남도 진도군 조도면 서거차도1길"
+				,"bldMnno" : 84
+				,"bldSlno" : ""
+				,"bldMngNo" : "4690036023100370005030282"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 진도군 조도면 서거차도1길 84"
+				,"oldZipcd" : "539918"
+				,"newZipcd" : "58958"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 125.91611300528
+				,"lat" : 34.2547133792131
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 1,
+		"totalCount" : 2	}
+}

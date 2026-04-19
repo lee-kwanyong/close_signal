@@ -1,0 +1,426 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA0101202408A0012347"
+				,"bizesNm" : "펄퍼농장"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G205"
+				,"indsMclsNm" : "식료품 소매"
+				,"indsSclsCd" : "G20506"
+				,"indsSclsNm" : "채소/과일 소매업"
+				,"ksicCd" : "G47215"
+				,"ksicNm" : "채소, 과실 및 뿌리작물 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46910"
+				,"signguNm" : "신안군"
+				,"adongCd" : "46910253"
+				,"adongNm" : "압해읍"
+				,"ldongCd" : "4691025327"
+				,"ldongNm" : "압해읍"
+				,"lnoCd" : "4691025327104460001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 446
+				,"lnoSlno" : 1
+				,"lnoAdr" : "전라남도 신안군 압해읍 동서리 446-1"
+				,"rdnmCd" : "469104706084"
+				,"rdnm" : "전라남도 신안군 압해읍 동서길"
+				,"bldMnno" : 9
+				,"bldSlno" : 27
+				,"bldMngNo" : "4691025327104460001000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 신안군 압해읍 동서길 9-27"
+				,"oldZipcd" : "535815"
+				,"newZipcd" : "58824"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.30364683789
+				,"lat" : 34.8657547559333
+				}
+				,{
+				"bizesId" : "MA0101202406A0587068"
+				,"bizesNm" : "신안신재생에너지재단"
+				,"brchNm" : ""
+				,"indsLclsCd" : "M1"
+				,"indsLclsNm" : "과학·기술"
+				,"indsMclsCd" : "M107"
+				,"indsMclsNm" : "본사·경영 컨설팅"
+				,"indsSclsCd" : "M10703"
+				,"indsSclsNm" : "경영 컨설팅업"
+				,"ksicCd" : "M71531"
+				,"ksicNm" : "경영 컨설팅업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46910"
+				,"signguNm" : "신안군"
+				,"adongCd" : "46910253"
+				,"adongNm" : "압해읍"
+				,"ldongCd" : "4691025325"
+				,"ldongNm" : "압해읍"
+				,"lnoCd" : "4691025325100480000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 48
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 신안군 압해읍 신용리 48"
+				,"rdnmCd" : "469103302002"
+				,"rdnm" : "전라남도 신안군 압해읍 복룡로"
+				,"bldMnno" : 118
+				,"bldSlno" : 20
+				,"bldMngNo" : "4691025325100470002000001"
+				,"bldNm" : "공설운동장"
+				,"rdnmAdr" : "전라남도 신안군 압해읍 복룡로 118-20"
+				,"oldZipcd" : "535815"
+				,"newZipcd" : "58821"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.309758904547
+				,"lat" : 34.8724508030235
+				}
+				,{
+				"bizesId" : "MA0106202510A0385076"
+				,"bizesNm" : "1004스포츠클럽"
+				,"brchNm" : ""
+				,"indsLclsCd" : "R1"
+				,"indsLclsNm" : "예술·스포츠"
+				,"indsMclsCd" : "R103"
+				,"indsMclsNm" : "스포츠 서비스"
+				,"indsSclsCd" : "R10307"
+				,"indsSclsNm" : "헬스장"
+				,"ksicCd" : "R91132"
+				,"ksicNm" : "체력 단련시설 운영업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46910"
+				,"signguNm" : "신안군"
+				,"adongCd" : "46910253"
+				,"adongNm" : "압해읍"
+				,"ldongCd" : "4691025326"
+				,"ldongNm" : "압해읍"
+				,"lnoCd" : "4691025326102290000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 229
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 신안군 압해읍 학교리 229"
+				,"rdnmCd" : "469103302002"
+				,"rdnm" : "전라남도 신안군 압해읍 복룡로"
+				,"bldMnno" : 120
+				,"bldSlno" : ""
+				,"bldMngNo" : "4691025326102290000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 신안군 압해읍 복룡로 120"
+				,"oldZipcd" : "535815"
+				,"newZipcd" : "58821"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.312067023943
+				,"lat" : 34.8737168018157
+				}
+				,{
+				"bizesId" : "MA0101202504A0114028"
+				,"bizesNm" : "메밀향"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46910"
+				,"signguNm" : "신안군"
+				,"adongCd" : "46910253"
+				,"adongNm" : "압해읍"
+				,"ldongCd" : "4691025326"
+				,"ldongNm" : "압해읍"
+				,"lnoCd" : "4691025326106130003"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 613
+				,"lnoSlno" : 3
+				,"lnoAdr" : "전라남도 신안군 압해읍 학교리 613-3"
+				,"rdnmCd" : "469103302011"
+				,"rdnm" : "전라남도 신안군 압해읍 압해로"
+				,"bldMnno" : 876
+				,"bldSlno" : 5
+				,"bldMngNo" : "4691043026106130003000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 신안군 압해읍 압해로 876-5"
+				,"oldZipcd" : "535815"
+				,"newZipcd" : "58824"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.313326426544
+				,"lat" : 34.865629526556
+				}
+				,{
+				"bizesId" : "MA0101202411A0116249"
+				,"bizesNm" : "씨유신안압해점"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G204"
+				,"indsMclsNm" : "종합 소매"
+				,"indsSclsCd" : "G20405"
+				,"indsSclsNm" : "편의점"
+				,"ksicCd" : "G47122"
+				,"ksicNm" : "체인화 편의점"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46910"
+				,"signguNm" : "신안군"
+				,"adongCd" : "46910253"
+				,"adongNm" : "압해읍"
+				,"ldongCd" : "4691025326"
+				,"ldongNm" : "압해읍"
+				,"lnoCd" : "4691025326106200001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 620
+				,"lnoSlno" : 1
+				,"lnoAdr" : "전라남도 신안군 압해읍 학교리 620-1"
+				,"rdnmCd" : "469103302011"
+				,"rdnm" : "전라남도 신안군 압해읍 압해로"
+				,"bldMnno" : 866
+				,"bldSlno" : ""
+				,"bldMngNo" : "4691043026106200001000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 신안군 압해읍 압해로 866"
+				,"oldZipcd" : "535815"
+				,"newZipcd" : "58824"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.314349430518
+				,"lat" : 34.8649141944811
+				}
+				,{
+				"bizesId" : "MA0101202412A0013016"
+				,"bizesNm" : "밀가루공방&cafe"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I212"
+				,"indsMclsNm" : "비알코올 "
+				,"indsSclsCd" : "I21201"
+				,"indsSclsNm" : "카페"
+				,"ksicCd" : "I56221"
+				,"ksicNm" : "커피 전문점"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46910"
+				,"signguNm" : "신안군"
+				,"adongCd" : "46910253"
+				,"adongNm" : "압해읍"
+				,"ldongCd" : "4691025326"
+				,"ldongNm" : "압해읍"
+				,"lnoCd" : "4691025326106530005"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 653
+				,"lnoSlno" : 5
+				,"lnoAdr" : "전라남도 신안군 압해읍 학교리 653-5"
+				,"rdnmCd" : "469103302011"
+				,"rdnm" : "전라남도 신안군 압해읍 압해로"
+				,"bldMnno" : 859
+				,"bldSlno" : ""
+				,"bldMngNo" : "4691043026106530005000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 신안군 압해읍 압해로 859"
+				,"oldZipcd" : "535815"
+				,"newZipcd" : "58824"
+				,"dongNo" : ""
+				,"flrNo" : "1"
+				,"hoNo" : ""
+				,"lon" : 126.314769169959
+				,"lat" : 34.8644117871115
+				}
+				,{
+				"bizesId" : "MA0106202511A2409018"
+				,"bizesNm" : "선진농수산"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G205"
+				,"indsMclsNm" : "식료품 소매"
+				,"indsSclsCd" : "G20502"
+				,"indsSclsNm" : "가축 사료 소매업"
+				,"ksicCd" : "G47211"
+				,"ksicNm" : "곡물, 곡분 및 가축 사료 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46910"
+				,"signguNm" : "신안군"
+				,"adongCd" : "46910253"
+				,"adongNm" : "압해읍"
+				,"ldongCd" : "4691025326"
+				,"ldongNm" : "압해읍"
+				,"lnoCd" : "4691025326103360006"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 336
+				,"lnoSlno" : 6
+				,"lnoAdr" : "전라남도 신안군 압해읍 학교리 336-6"
+				,"rdnmCd" : "469104706344"
+				,"rdnm" : "전라남도 신안군 압해읍 학동길"
+				,"bldMnno" : 66
+				,"bldSlno" : 17
+				,"bldMngNo" : "4691025326103360006000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 신안군 압해읍 학동길 66-17"
+				,"oldZipcd" : "535815"
+				,"newZipcd" : "58824"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.316887393547
+				,"lat" : 34.8687863887306
+				}
+				,{
+				"bizesId" : "MA0101202409A0143938"
+				,"bizesNm" : "씨유신안천사점"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G204"
+				,"indsMclsNm" : "종합 소매"
+				,"indsSclsCd" : "G20405"
+				,"indsSclsNm" : "편의점"
+				,"ksicCd" : "G47122"
+				,"ksicNm" : "체인화 편의점"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46910"
+				,"signguNm" : "신안군"
+				,"adongCd" : "46910253"
+				,"adongNm" : "압해읍"
+				,"ldongCd" : "4691025326"
+				,"ldongNm" : "압해읍"
+				,"lnoCd" : "4691025326107030001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 703
+				,"lnoSlno" : 1
+				,"lnoAdr" : "전라남도 신안군 압해읍 학교리 703-1"
+				,"rdnmCd" : "469103302011"
+				,"rdnm" : "전라남도 신안군 압해읍 압해로"
+				,"bldMnno" : 820
+				,"bldSlno" : ""
+				,"bldMngNo" : "4691025326107030001000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 신안군 압해읍 압해로 820"
+				,"oldZipcd" : "535815"
+				,"newZipcd" : "58824"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.318730054322
+				,"lat" : 34.8628385974695
+				}
+				,{
+				"bizesId" : "MA0101202409A0129519"
+				,"bizesNm" : "신안3"
+				,"brchNm" : ""
+				,"indsLclsCd" : "P1"
+				,"indsLclsNm" : "교육"
+				,"indsMclsCd" : "P107"
+				,"indsMclsNm" : "교육 지원"
+				,"indsSclsCd" : "P10799"
+				,"indsSclsNm" : "기타 교육지원 서비스업"
+				,"ksicCd" : "P85709"
+				,"ksicNm" : "기타 교육지원 서비스업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46910"
+				,"signguNm" : "신안군"
+				,"adongCd" : "46910253"
+				,"adongNm" : "압해읍"
+				,"ldongCd" : "4691025326"
+				,"ldongNm" : "압해읍"
+				,"lnoCd" : "4691025326106940039"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 694
+				,"lnoSlno" : 39
+				,"lnoAdr" : "전라남도 신안군 압해읍 학교리 694-39"
+				,"rdnmCd" : "469103302011"
+				,"rdnm" : "전라남도 신안군 압해읍 압해로"
+				,"bldMnno" : 799
+				,"bldSlno" : ""
+				,"bldMngNo" : "4691025326106940039000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 신안군 압해읍 압해로 799"
+				,"oldZipcd" : "535815"
+				,"newZipcd" : "58824"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.320182863241
+				,"lat" : 34.8617109870363
+				}
+				,{
+				"bizesId" : "MA0101202406A0556136"
+				,"bizesNm" : "호남단빈퇴비"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G221"
+				,"indsMclsNm" : "기타 상품 소매"
+				,"indsSclsCd" : "G22199"
+				,"indsSclsNm" : "그 외 기타 상품 전문 소매업"
+				,"ksicCd" : "G47859"
+				,"ksicNm" : "그 외 기타 분류 안된 상품 전문 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46910"
+				,"signguNm" : "신안군"
+				,"adongCd" : "46910253"
+				,"adongNm" : "압해읍"
+				,"ldongCd" : "4691025330"
+				,"ldongNm" : "압해읍"
+				,"lnoCd" : "4691025330100100002"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 10
+				,"lnoSlno" : 2
+				,"lnoAdr" : "전라남도 신안군 압해읍 분매리 10-2"
+				,"rdnmCd" : "469104706093"
+				,"rdnm" : "전라남도 신안군 압해읍 두지숭의길"
+				,"bldMnno" : 109
+				,"bldSlno" : ""
+				,"bldMngNo" : "4691043030100100003000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 신안군 압해읍 두지숭의길 109"
+				,"oldZipcd" : "535817"
+				,"newZipcd" : "58825"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.348477418681
+				,"lat" : 34.8598287458193
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 2,
+		"totalCount" : 110	}
+}

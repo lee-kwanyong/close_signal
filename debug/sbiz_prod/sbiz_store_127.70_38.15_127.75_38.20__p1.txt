@@ -1,0 +1,344 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA010120220806465853"
+				,"bizesNm" : "에코로드"
+				,"brchNm" : ""
+				,"indsLclsCd" : "N1"
+				,"indsLclsNm" : "시설관리·임대"
+				,"indsMclsCd" : "N110"
+				,"indsMclsNm" : "가정용품 대여"
+				,"indsSclsCd" : "N11099"
+				,"indsSclsNm" : "기타 개인/가정용품 대여업"
+				,"ksicCd" : "N76299"
+				,"ksicNm" : "그 외 기타 개인 및 가정용품 임대업"
+				,"ctprvnCd" : "51"
+				,"ctprvnNm" : "강원특별자치도"
+				,"signguCd" : "51790"
+				,"signguNm" : "화천군"
+				,"adongCd" : "51790250"
+				,"adongNm" : "화천읍"
+				,"ldongCd" : "5179025025"
+				,"ldongNm" : "화천읍"
+				,"lnoCd" : "5179025025103530005"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 353
+				,"lnoSlno" : 5
+				,"lnoAdr" : "강원특별자치도 화천군 화천읍 신읍리 353-5"
+				,"rdnmCd" : "517903231015"
+				,"rdnm" : "강원특별자치도 화천군 화천읍 율대로"
+				,"bldMnno" : 455
+				,"bldSlno" : ""
+				,"bldMngNo" : "4279025025003530000003900"
+				,"bldNm" : ""
+				,"rdnmAdr" : "강원특별자치도 화천군 화천읍 율대로 455"
+				,"oldZipcd" : "209803"
+				,"newZipcd" : "24112"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.711052727819
+				,"lat" : 38.1623008202018
+				}
+				,{
+				"bizesId" : "MA0106202511A1613873"
+				,"bizesNm" : "성동마트"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "51"
+				,"ctprvnNm" : "강원특별자치도"
+				,"signguCd" : "51790"
+				,"signguNm" : "화천군"
+				,"adongCd" : "51790250"
+				,"adongNm" : "화천읍"
+				,"ldongCd" : "5179025026"
+				,"ldongNm" : "화천읍"
+				,"lnoCd" : "5179025026105450001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 545
+				,"lnoSlno" : 1
+				,"lnoAdr" : "강원특별자치도 화천군 화천읍 풍산리 545-1"
+				,"rdnmCd" : "517903231026"
+				,"rdnm" : "강원특별자치도 화천군 화천읍 평화로"
+				,"bldMnno" : 1348
+				,"bldSlno" : ""
+				,"bldMngNo" : "4279025026005450001006491"
+				,"bldNm" : ""
+				,"rdnmAdr" : "강원특별자치도 화천군 화천읍 평화로 1348"
+				,"oldZipcd" : "209805"
+				,"newZipcd" : "24109"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.742723303597
+				,"lat" : 38.1528707022072
+				}
+				,{
+				"bizesId" : "MA010120220812490170"
+				,"bizesNm" : "물소리펜션"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55109"
+				,"ksicNm" : "기타 일반 및 생활 숙박시설 운영업"
+				,"ctprvnCd" : "51"
+				,"ctprvnNm" : "강원특별자치도"
+				,"signguCd" : "51790"
+				,"signguNm" : "화천군"
+				,"adongCd" : "51790250"
+				,"adongNm" : "화천읍"
+				,"ldongCd" : "5179025026"
+				,"ldongNm" : "화천읍"
+				,"lnoCd" : "5179025026105430000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 543
+				,"lnoSlno" : ""
+				,"lnoAdr" : "강원특별자치도 화천군 화천읍 풍산리 543"
+				,"rdnmCd" : "517903231026"
+				,"rdnm" : "강원특별자치도 화천군 화천읍 평화로"
+				,"bldMnno" : 1350
+				,"bldSlno" : 20
+				,"bldMngNo" : "4279025026005430003006476"
+				,"bldNm" : ""
+				,"rdnmAdr" : "강원특별자치도 화천군 화천읍 평화로 1350-20"
+				,"oldZipcd" : "209805"
+				,"newZipcd" : "24109"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.743080684016
+				,"lat" : 38.1521116957872
+				}
+				,{
+				"bizesId" : "MA0101202408A0050584"
+				,"bizesNm" : "내가아는농부"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G205"
+				,"indsMclsNm" : "식료품 소매"
+				,"indsSclsCd" : "G20506"
+				,"indsSclsNm" : "채소/과일 소매업"
+				,"ksicCd" : "G47215"
+				,"ksicNm" : "채소, 과실 및 뿌리작물 소매업"
+				,"ctprvnCd" : "51"
+				,"ctprvnNm" : "강원특별자치도"
+				,"signguCd" : "51790"
+				,"signguNm" : "화천군"
+				,"adongCd" : "51790250"
+				,"adongNm" : "화천읍"
+				,"ldongCd" : "5179025026"
+				,"ldongNm" : "화천읍"
+				,"lnoCd" : "5179025026105830000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 583
+				,"lnoSlno" : ""
+				,"lnoAdr" : "강원특별자치도 화천군 화천읍 풍산리 583"
+				,"rdnmCd" : "517903231026"
+				,"rdnm" : "강원특별자치도 화천군 화천읍 평화로"
+				,"bldMnno" : 1376
+				,"bldSlno" : 19
+				,"bldMngNo" : "4279025026000000000006538"
+				,"bldNm" : ""
+				,"rdnmAdr" : "강원특별자치도 화천군 화천읍 평화로 1376-19"
+				,"oldZipcd" : "209805"
+				,"newZipcd" : "24109"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.744187487072
+				,"lat" : 38.1566181348535
+				}
+				,{
+				"bizesId" : "MA010120220804527577"
+				,"bizesNm" : "해산가든"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "51"
+				,"ctprvnNm" : "강원특별자치도"
+				,"signguCd" : "51790"
+				,"signguNm" : "화천군"
+				,"adongCd" : "51790250"
+				,"adongNm" : "화천읍"
+				,"ldongCd" : "5179025026"
+				,"ldongNm" : "화천읍"
+				,"lnoCd" : "5179025026104660005"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 466
+				,"lnoSlno" : 5
+				,"lnoAdr" : "강원특별자치도 화천군 화천읍 풍산리 466-5"
+				,"rdnmCd" : "517903231026"
+				,"rdnm" : "강원특별자치도 화천군 화천읍 평화로"
+				,"bldMnno" : 1456
+				,"bldSlno" : ""
+				,"bldMngNo" : "4279025026000000000003865"
+				,"bldNm" : ""
+				,"rdnmAdr" : "강원특별자치도 화천군 화천읍 평화로 1456"
+				,"oldZipcd" : "209805"
+				,"newZipcd" : "24109"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.74614053424
+				,"lat" : 38.1624164624681
+				}
+				,{
+				"bizesId" : "MA0101202503A0043455"
+				,"bizesNm" : "위대한"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G204"
+				,"indsMclsNm" : "종합 소매"
+				,"indsSclsCd" : "G20404"
+				,"indsSclsNm" : "슈퍼마켓"
+				,"ksicCd" : "G47129"
+				,"ksicNm" : "기타 음ㆍ식료품 위주 종합 소매업"
+				,"ctprvnCd" : "51"
+				,"ctprvnNm" : "강원특별자치도"
+				,"signguCd" : "51790"
+				,"signguNm" : "화천군"
+				,"adongCd" : "51790250"
+				,"adongNm" : "화천읍"
+				,"ldongCd" : "5179025026"
+				,"ldongNm" : "화천읍"
+				,"lnoCd" : "5179025026104660005"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 466
+				,"lnoSlno" : 5
+				,"lnoAdr" : "강원특별자치도 화천군 화천읍 풍산리 466-5"
+				,"rdnmCd" : "517903231026"
+				,"rdnm" : "강원특별자치도 화천군 화천읍 평화로"
+				,"bldMnno" : 1456
+				,"bldSlno" : ""
+				,"bldMngNo" : "4279025026000000000003865"
+				,"bldNm" : ""
+				,"rdnmAdr" : "강원특별자치도 화천군 화천읍 평화로 1456"
+				,"oldZipcd" : "209805"
+				,"newZipcd" : "24109"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.74614053424
+				,"lat" : 38.1624164624681
+				}
+				,{
+				"bizesId" : "MA010120220813536314"
+				,"bizesNm" : "에이치에스에프"
+				,"brchNm" : ""
+				,"indsLclsCd" : "M1"
+				,"indsLclsNm" : "과학·기술"
+				,"indsMclsCd" : "M107"
+				,"indsMclsNm" : "본사·경영 컨설팅"
+				,"indsSclsCd" : "M10703"
+				,"indsSclsNm" : "경영 컨설팅업"
+				,"ksicCd" : "M71531"
+				,"ksicNm" : "경영 컨설팅업"
+				,"ctprvnCd" : "51"
+				,"ctprvnNm" : "강원특별자치도"
+				,"signguCd" : "51790"
+				,"signguNm" : "화천군"
+				,"adongCd" : "51790250"
+				,"adongNm" : "화천읍"
+				,"ldongCd" : "5179025026"
+				,"ldongNm" : "화천읍"
+				,"lnoCd" : "5179025026103770000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 377
+				,"lnoSlno" : ""
+				,"lnoAdr" : "강원특별자치도 화천군 화천읍 풍산리 377"
+				,"rdnmCd" : "517903231018"
+				,"rdnm" : "강원특별자치도 화천군 화천읍 한묵령로"
+				,"bldMnno" : 70
+				,"bldSlno" : 7
+				,"bldMngNo" : "4279025026103770000000002"
+				,"bldNm" : ""
+				,"rdnmAdr" : "강원특별자치도 화천군 화천읍 한묵령로 70-7"
+				,"oldZipcd" : "209805"
+				,"newZipcd" : "24109"
+				,"dongNo" : ""
+				,"flrNo" : "1"
+				,"hoNo" : ""
+				,"lon" : 127.747919063002
+				,"lat" : 38.1689726059622
+				}
+				,{
+				"bizesId" : "MA010120220805109173"
+				,"bizesNm" : "콜펜션"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55109"
+				,"ksicNm" : "기타 일반 및 생활 숙박시설 운영업"
+				,"ctprvnCd" : "51"
+				,"ctprvnNm" : "강원특별자치도"
+				,"signguCd" : "51790"
+				,"signguNm" : "화천군"
+				,"adongCd" : "51790250"
+				,"adongNm" : "화천읍"
+				,"ldongCd" : "5179025026"
+				,"ldongNm" : "화천읍"
+				,"lnoCd" : "5179025026102190001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 219
+				,"lnoSlno" : 1
+				,"lnoAdr" : "강원특별자치도 화천군 화천읍 풍산리 219-1"
+				,"rdnmCd" : "517903231018"
+				,"rdnm" : "강원특별자치도 화천군 화천읍 한묵령로"
+				,"bldMnno" : 149
+				,"bldSlno" : ""
+				,"bldMngNo" : "4279025026102190001000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "강원특별자치도 화천군 화천읍 한묵령로 149"
+				,"oldZipcd" : "209805"
+				,"newZipcd" : "24109"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.749074985412
+				,"lat" : 38.175992138273
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 1,
+		"totalCount" : 8	}
+}

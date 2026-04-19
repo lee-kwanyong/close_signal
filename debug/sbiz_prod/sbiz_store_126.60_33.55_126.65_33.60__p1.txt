@@ -1,0 +1,303 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA010120220811339337"
+				,"bizesNm" : "로즈비치"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55104"
+				,"ksicNm" : "민박업"
+				,"ctprvnCd" : "50"
+				,"ctprvnNm" : "제주특별자치도"
+				,"signguCd" : "50110"
+				,"signguNm" : "제주시"
+				,"adongCd" : "50110259"
+				,"adongNm" : "조천읍"
+				,"ldongCd" : "5011025925"
+				,"ldongNm" : "조천읍"
+				,"lnoCd" : "5011025925108740000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 874
+				,"lnoSlno" : ""
+				,"lnoAdr" : "제주특별자치도 제주시 조천읍 신흥리 874"
+				,"rdnmCd" : "501103349182"
+				,"rdnm" : "제주특별자치도 제주시 조천읍 조함해안로"
+				,"bldMnno" : 162
+				,"bldSlno" : ""
+				,"bldMngNo" : "5011025925108740000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "제주특별자치도 제주시 조천읍 조함해안로 162"
+				,"oldZipcd" : "695969"
+				,"newZipcd" : "63332"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.641829525973
+				,"lat" : 33.5501295227033
+				}
+				,{
+				"bizesId" : "MA010120220806595881"
+				,"bizesNm" : "문개항아리조천"
+				,"brchNm" : "본점"
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I210"
+				,"indsMclsNm" : "기타 간이"
+				,"indsSclsCd" : "I21007"
+				,"indsSclsNm" : "김밥/만두/분식"
+				,"ksicCd" : "I56194"
+				,"ksicNm" : "김밥 및 기타 간이 음식점업"
+				,"ctprvnCd" : "50"
+				,"ctprvnNm" : "제주특별자치도"
+				,"signguCd" : "50110"
+				,"signguNm" : "제주시"
+				,"adongCd" : "50110259"
+				,"adongNm" : "조천읍"
+				,"ldongCd" : "5011025925"
+				,"ldongNm" : "조천읍"
+				,"lnoCd" : "5011025925107920001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 792
+				,"lnoSlno" : 1
+				,"lnoAdr" : "제주특별자치도 제주시 조천읍 신흥리 792-1"
+				,"rdnmCd" : "501103349182"
+				,"rdnm" : "제주특별자치도 제주시 조천읍 조함해안로"
+				,"bldMnno" : 217
+				,"bldSlno" : 1
+				,"bldMngNo" : "5011025925007890001066294"
+				,"bldNm" : ""
+				,"rdnmAdr" : "제주특별자치도 제주시 조천읍 조함해안로 217-1"
+				,"oldZipcd" : "695969"
+				,"newZipcd" : "63332"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.644001603893
+				,"lat" : 33.5534897019659
+				}
+				,{
+				"bizesId" : "MA0101202412A0054695"
+				,"bizesNm" : "전파사"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "50"
+				,"ctprvnNm" : "제주특별자치도"
+				,"signguCd" : "50110"
+				,"signguNm" : "제주시"
+				,"adongCd" : "50110259"
+				,"adongNm" : "조천읍"
+				,"ldongCd" : "5011025925"
+				,"ldongNm" : "조천읍"
+				,"lnoCd" : "5011025925107910000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 791
+				,"lnoSlno" : ""
+				,"lnoAdr" : "제주특별자치도 제주시 조천읍 신흥리 791"
+				,"rdnmCd" : "501103349182"
+				,"rdnm" : "제주특별자치도 제주시 조천읍 조함해안로"
+				,"bldMnno" : 221
+				,"bldSlno" : ""
+				,"bldMngNo" : "5011025925007910000066236"
+				,"bldNm" : ""
+				,"rdnmAdr" : "제주특별자치도 제주시 조천읍 조함해안로 221"
+				,"oldZipcd" : "695969"
+				,"newZipcd" : "63332"
+				,"dongNo" : ""
+				,"flrNo" : "1"
+				,"hoNo" : ""
+				,"lon" : 126.644703189316
+				,"lat" : 33.5530860018875
+				}
+				,{
+				"bizesId" : "MA010120220811956737"
+				,"bizesNm" : "신흥바다낚시공원"
+				,"brchNm" : ""
+				,"indsLclsCd" : "R1"
+				,"indsLclsNm" : "예술·스포츠"
+				,"indsMclsCd" : "R104"
+				,"indsMclsNm" : "유원지·오락"
+				,"indsSclsCd" : "R10408"
+				,"indsSclsNm" : "낚시터 운영업"
+				,"ksicCd" : "R91231"
+				,"ksicNm" : "낚시장 운영업"
+				,"ctprvnCd" : "50"
+				,"ctprvnNm" : "제주특별자치도"
+				,"signguCd" : "50110"
+				,"signguNm" : "제주시"
+				,"adongCd" : "50110259"
+				,"adongNm" : "조천읍"
+				,"ldongCd" : "5011025925"
+				,"ldongNm" : "조천읍"
+				,"lnoCd" : "5011025925107110001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 711
+				,"lnoSlno" : 1
+				,"lnoAdr" : "제주특별자치도 제주시 조천읍 신흥리 711-1"
+				,"rdnmCd" : "501103349182"
+				,"rdnm" : "제주특별자치도 제주시 조천읍 조함해안로"
+				,"bldMnno" : 247
+				,"bldSlno" : 2
+				,"bldMngNo" : "5011025925107110001000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "제주특별자치도 제주시 조천읍 조함해안로 247-2"
+				,"oldZipcd" : "695969"
+				,"newZipcd" : "63332"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.646939614754
+				,"lat" : 33.5512621717116
+				}
+				,{
+				"bizesId" : "MA0106202510A2052690"
+				,"bizesNm" : "어도유통"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G205"
+				,"indsMclsNm" : "식료품 소매"
+				,"indsSclsCd" : "G20502"
+				,"indsSclsNm" : "가축 사료 소매업"
+				,"ksicCd" : "G47211"
+				,"ksicNm" : "곡물, 곡분 및 가축 사료 소매업"
+				,"ctprvnCd" : "50"
+				,"ctprvnNm" : "제주특별자치도"
+				,"signguCd" : "50110"
+				,"signguNm" : "제주시"
+				,"adongCd" : "50110259"
+				,"adongNm" : "조천읍"
+				,"ldongCd" : "5011025925"
+				,"ldongNm" : "조천읍"
+				,"lnoCd" : "5011025925107110000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 711
+				,"lnoSlno" : ""
+				,"lnoAdr" : "제주특별자치도 제주시 조천읍 신흥리 711"
+				,"rdnmCd" : "501103349182"
+				,"rdnm" : "제주특별자치도 제주시 조천읍 조함해안로"
+				,"bldMnno" : 273
+				,"bldSlno" : 33
+				,"bldMngNo" : "5011025925007110000066233"
+				,"bldNm" : ""
+				,"rdnmAdr" : "제주특별자치도 제주시 조천읍 조함해안로 273-33"
+				,"oldZipcd" : "695969"
+				,"newZipcd" : "63332"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.648240801101
+				,"lat" : 33.551689622722
+				}
+				,{
+				"bizesId" : "MA010120220802915219"
+				,"bizesNm" : "제주한라산수산"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G205"
+				,"indsMclsNm" : "식료품 소매"
+				,"indsSclsCd" : "G20505"
+				,"indsSclsNm" : "수산물 소매업"
+				,"ksicCd" : "G47214"
+				,"ksicNm" : "신선, 냉동 및 기타 수산물 소매업"
+				,"ctprvnCd" : "50"
+				,"ctprvnNm" : "제주특별자치도"
+				,"signguCd" : "50110"
+				,"signguNm" : "제주시"
+				,"adongCd" : "50110259"
+				,"adongNm" : "조천읍"
+				,"ldongCd" : "5011025925"
+				,"ldongNm" : "조천읍"
+				,"lnoCd" : "5011025925107110000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 711
+				,"lnoSlno" : ""
+				,"lnoAdr" : "제주특별자치도 제주시 조천읍 신흥리 711"
+				,"rdnmCd" : "501103349182"
+				,"rdnm" : "제주특별자치도 제주시 조천읍 조함해안로"
+				,"bldMnno" : 273
+				,"bldSlno" : 33
+				,"bldMngNo" : "5011025925007110000066233"
+				,"bldNm" : ""
+				,"rdnmAdr" : "제주특별자치도 제주시 조천읍 조함해안로 273-33"
+				,"oldZipcd" : "695969"
+				,"newZipcd" : "63332"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.648240801101
+				,"lat" : 33.551689622722
+				}
+				,{
+				"bizesId" : "MA0106202510A0805080"
+				,"bizesNm" : "신흥휴게소쉼"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I211"
+				,"indsMclsNm" : "주점"
+				,"indsSclsCd" : "I21104"
+				,"indsSclsNm" : "요리 주점"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "50"
+				,"ctprvnNm" : "제주특별자치도"
+				,"signguCd" : "50110"
+				,"signguNm" : "제주시"
+				,"adongCd" : "50110259"
+				,"adongNm" : "조천읍"
+				,"ldongCd" : "5011025925"
+				,"ldongNm" : "조천읍"
+				,"lnoCd" : "5011025925107140000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 714
+				,"lnoSlno" : ""
+				,"lnoAdr" : "제주특별자치도 제주시 조천읍 신흥리 714"
+				,"rdnmCd" : "501103349182"
+				,"rdnm" : "제주특별자치도 제주시 조천읍 조함해안로"
+				,"bldMnno" : 273
+				,"bldSlno" : 100
+				,"bldMngNo" : "5011025925107140000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "제주특별자치도 제주시 조천읍 조함해안로 273-100"
+				,"oldZipcd" : "695969"
+				,"newZipcd" : "63332"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.648261569561
+				,"lat" : 33.551879015667
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 1,
+		"totalCount" : 7	}
+}

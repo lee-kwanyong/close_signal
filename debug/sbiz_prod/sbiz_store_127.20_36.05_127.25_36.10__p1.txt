@@ -1,0 +1,98 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA0101202504A0050621"
+				,"bizesNm" : "예플로우"
+				,"brchNm" : ""
+				,"indsLclsCd" : "P1"
+				,"indsLclsNm" : "교육"
+				,"indsMclsCd" : "P106"
+				,"indsMclsNm" : "기타 교육"
+				,"indsSclsCd" : "P10613"
+				,"indsSclsNm" : "기타 예술/스포츠 교육기관"
+				,"ksicCd" : "P85629"
+				,"ksicNm" : "기타 예술학원"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52710"
+				,"signguNm" : "완주군"
+				,"adongCd" : "52710390"
+				,"adongNm" : "화산면"
+				,"ldongCd" : "5271039029"
+				,"ldongNm" : "화산면"
+				,"lnoCd" : "5271039029102290004"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 229
+				,"lnoSlno" : 4
+				,"lnoAdr" : "전북특별자치도 완주군 화산면 승치리 229-4"
+				,"rdnmCd" : "527104619118"
+				,"rdnm" : "전북특별자치도 완주군 화산면 미남길"
+				,"bldMnno" : 9
+				,"bldSlno" : 15
+				,"bldMngNo" : "4571039029102290004018269"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 완주군 화산면 미남길 9-15"
+				,"oldZipcd" : "565881"
+				,"newZipcd" : "55303"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.227446044565
+				,"lat" : 36.0594036951615
+				}
+				,{
+				"bizesId" : "MA010120220813037751"
+				,"bizesNm" : "수청횟집"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20111"
+				,"indsSclsNm" : "횟집"
+				,"ksicCd" : "I56122"
+				,"ksicNm" : "일식 음식점업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52710"
+				,"signguNm" : "완주군"
+				,"adongCd" : "52710380"
+				,"adongNm" : "운주면"
+				,"ldongCd" : "5271038026"
+				,"ldongNm" : "운주면"
+				,"lnoCd" : "5271038026101830000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 183
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전북특별자치도 완주군 운주면 구제리 183"
+				,"rdnmCd" : "527104619267"
+				,"rdnm" : "전북특별자치도 완주군 운주면 원구제길"
+				,"bldMnno" : 19
+				,"bldSlno" : ""
+				,"bldMngNo" : "4571038026101840003033565"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 완주군 운주면 원구제길 19"
+				,"oldZipcd" : "565912"
+				,"newZipcd" : "55302"
+				,"dongNo" : ""
+				,"flrNo" : "1"
+				,"hoNo" : ""
+				,"lon" : 127.249173451409
+				,"lat" : 36.0684087669667
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 1,
+		"totalCount" : 2	}
+}

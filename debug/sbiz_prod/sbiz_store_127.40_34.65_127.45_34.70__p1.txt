@@ -1,0 +1,262 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA010120220813555165"
+				,"bizesNm" : "토이쿠키"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I210"
+				,"indsMclsNm" : "기타 간이"
+				,"indsSclsCd" : "I21001"
+				,"indsSclsNm" : "빵/도넛"
+				,"ksicCd" : "I56191"
+				,"ksicNm" : "제과점업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46770"
+				,"signguNm" : "고흥군"
+				,"adongCd" : "46770380"
+				,"adongNm" : "과역면"
+				,"ldongCd" : "4677038021"
+				,"ldongNm" : "과역면"
+				,"lnoCd" : "4677038021109460000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 946
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 고흥군 과역면 신곡리 946"
+				,"rdnmCd" : "467704667579"
+				,"rdnm" : "전라남도 고흥군 과역면 인학길"
+				,"bldMnno" : 13
+				,"bldSlno" : 8
+				,"bldMngNo" : "4677038021109460000042841"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 고흥군 과역면 인학길 13-8"
+				,"oldZipcd" : "548834"
+				,"newZipcd" : "59510"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.400794213104
+				,"lat" : 34.6748895455154
+				}
+				,{
+				"bizesId" : "MA0101202210A0013503"
+				,"bizesNm" : "둘루랄라"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I212"
+				,"indsMclsNm" : "비알코올 "
+				,"indsSclsCd" : "I21201"
+				,"indsSclsNm" : "카페"
+				,"ksicCd" : "I56221"
+				,"ksicNm" : "커피 전문점"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46770"
+				,"signguNm" : "고흥군"
+				,"adongCd" : "46770380"
+				,"adongNm" : "과역면"
+				,"ldongCd" : "4677038021"
+				,"ldongNm" : "과역면"
+				,"lnoCd" : "4677038021106460000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 646
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 고흥군 과역면 신곡리 646"
+				,"rdnmCd" : "467704667453"
+				,"rdnm" : "전라남도 고흥군 과역면 쌍정자길"
+				,"bldMnno" : 360
+				,"bldSlno" : 43
+				,"bldMngNo" : "4677038021106460000043425"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 고흥군 과역면 쌍정자길 360-43"
+				,"oldZipcd" : "548834"
+				,"newZipcd" : "59510"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.416372165397
+				,"lat" : 34.6655075942122
+				}
+				,{
+				"bizesId" : "MA010120220808372541"
+				,"bizesNm" : "드림캠핑"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10102"
+				,"indsSclsNm" : "여관/모텔"
+				,"ksicCd" : "I55109"
+				,"ksicNm" : "기타 일반 및 생활 숙박시설 운영업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46770"
+				,"signguNm" : "고흥군"
+				,"adongCd" : "46770370"
+				,"adongNm" : "점암면"
+				,"ldongCd" : "4677037025"
+				,"ldongNm" : "점암면"
+				,"lnoCd" : "4677037025107830002"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 783
+				,"lnoSlno" : 2
+				,"lnoAdr" : "전라남도 고흥군 점암면 화계리 783-2"
+				,"rdnmCd" : "467703289020"
+				,"rdnm" : "전라남도 고흥군 점암면 여도진로"
+				,"bldMnno" : 670
+				,"bldSlno" : ""
+				,"bldMngNo" : "4677037025107830002000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 고흥군 점암면 여도진로 670"
+				,"oldZipcd" : "548811"
+				,"newZipcd" : "59518"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.424076932787
+				,"lat" : 34.6616770253627
+				}
+				,{
+				"bizesId" : "MA010120220804400494"
+				,"bizesNm" : "팔영농수축산물"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G205"
+				,"indsMclsNm" : "식료품 소매"
+				,"indsSclsCd" : "G20504"
+				,"indsSclsNm" : "건어물/젓갈 소매업"
+				,"ksicCd" : "G47213"
+				,"ksicNm" : "건어물 및 젓갈류 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46770"
+				,"signguNm" : "고흥군"
+				,"adongCd" : "46770370"
+				,"adongNm" : "점암면"
+				,"ldongCd" : "4677037025"
+				,"ldongNm" : "점암면"
+				,"lnoCd" : "4677037025105800000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 580
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 고흥군 점암면 화계리 580"
+				,"rdnmCd" : "467703289020"
+				,"rdnm" : "전라남도 고흥군 점암면 여도진로"
+				,"bldMnno" : 690
+				,"bldSlno" : 7
+				,"bldMngNo" : "4677037025105800000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 고흥군 점암면 여도진로 690-7"
+				,"oldZipcd" : "548811"
+				,"newZipcd" : "59518"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.426406860768
+				,"lat" : 34.6607584599146
+				}
+				,{
+				"bizesId" : "MA010120220807897015"
+				,"bizesNm" : "임해주"
+				,"brchNm" : ""
+				,"indsLclsCd" : "N1"
+				,"indsLclsNm" : "시설관리·임대"
+				,"indsMclsCd" : "N105"
+				,"indsMclsNm" : "여행사·보조"
+				,"indsSclsCd" : "N10501"
+				,"indsSclsNm" : "여행사"
+				,"ksicCd" : "N75210"
+				,"ksicNm" : "여행사업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46770"
+				,"signguNm" : "고흥군"
+				,"adongCd" : "46770380"
+				,"adongNm" : "과역면"
+				,"ldongCd" : "4677038021"
+				,"ldongNm" : "과역면"
+				,"lnoCd" : "4677038021103890004"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 389
+				,"lnoSlno" : 4
+				,"lnoAdr" : "전라남도 고흥군 과역면 신곡리 389-4"
+				,"rdnmCd" : "467704667451"
+				,"rdnm" : "전라남도 고흥군 과역면 심포길"
+				,"bldMnno" : 18
+				,"bldSlno" : 22
+				,"bldMngNo" : "4677038021103890004000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 고흥군 과역면 심포길 18-22"
+				,"oldZipcd" : "548834"
+				,"newZipcd" : "59510"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.42856329595
+				,"lat" : 34.6685301906237
+				}
+				,{
+				"bizesId" : "MA010120220807776571"
+				,"bizesNm" : "화신기공"
+				,"brchNm" : ""
+				,"indsLclsCd" : "S2"
+				,"indsLclsNm" : "수리·개인"
+				,"indsMclsCd" : "S206"
+				,"indsMclsNm" : "기타 가정용품 수리"
+				,"indsSclsCd" : "S20699"
+				,"indsSclsNm" : "그 외 기타 개인/가정용품 수리업"
+				,"ksicCd" : "S95399"
+				,"ksicNm" : "그 외 기타 개인 및 가정용품 수리업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46770"
+				,"signguNm" : "고흥군"
+				,"adongCd" : "46770370"
+				,"adongNm" : "점암면"
+				,"ldongCd" : "4677037025"
+				,"ldongNm" : "점암면"
+				,"lnoCd" : "4677037025105640002"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 564
+				,"lnoSlno" : 2
+				,"lnoAdr" : "전라남도 고흥군 점암면 화계리 564-2"
+				,"rdnmCd" : "467703289020"
+				,"rdnm" : "전라남도 고흥군 점암면 여도진로"
+				,"bldMnno" : 708
+				,"bldSlno" : ""
+				,"bldMngNo" : "4677037025105640002000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 고흥군 점암면 여도진로 708"
+				,"oldZipcd" : "548811"
+				,"newZipcd" : "59518"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.428639158787
+				,"lat" : 34.6599573785116
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 1,
+		"totalCount" : 6	}
+}

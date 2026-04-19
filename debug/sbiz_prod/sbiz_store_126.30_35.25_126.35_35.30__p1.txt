@@ -1,0 +1,139 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA0101202211A0001811"
+				,"bizesNm" : "황금싹쓸이청소"
+				,"brchNm" : ""
+				,"indsLclsCd" : "N1"
+				,"indsLclsNm" : "시설관리·임대"
+				,"indsMclsCd" : "N102"
+				,"indsMclsNm" : "청소·방제"
+				,"indsSclsCd" : "N10201"
+				,"indsSclsNm" : "건축물 일반 청소업"
+				,"ksicCd" : "N74211"
+				,"ksicNm" : "건축물 일반 청소업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46870"
+				,"signguNm" : "영광군"
+				,"adongCd" : "46870253"
+				,"adongNm" : "백수읍"
+				,"ldongCd" : "4687025336"
+				,"ldongNm" : "백수읍"
+				,"lnoCd" : "4687025336110870000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 1087
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 영광군 백수읍 하사리 1087"
+				,"rdnmCd" : "468704694124"
+				,"rdnm" : "전라남도 영광군 백수읍 백수로1길"
+				,"bldMnno" : 21
+				,"bldSlno" : ""
+				,"bldMngNo" : "4687025336110660000006444"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 영광군 백수읍 백수로1길 21"
+				,"oldZipcd" : "513905"
+				,"newZipcd" : "57030"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.337434833629
+				,"lat" : 35.2584740030979
+				}
+				,{
+				"bizesId" : "MA010120220813308064"
+				,"bizesNm" : "비에스에너지"
+				,"brchNm" : ""
+				,"indsLclsCd" : "M1"
+				,"indsLclsNm" : "과학·기술"
+				,"indsMclsCd" : "M107"
+				,"indsMclsNm" : "본사·경영 컨설팅"
+				,"indsSclsCd" : "M10703"
+				,"indsSclsNm" : "경영 컨설팅업"
+				,"ksicCd" : "M71531"
+				,"ksicNm" : "경영 컨설팅업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46870"
+				,"signguNm" : "영광군"
+				,"adongCd" : "46870253"
+				,"adongNm" : "백수읍"
+				,"ldongCd" : "4687025336"
+				,"ldongNm" : "백수읍"
+				,"lnoCd" : "4687025336132650000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 3265
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 영광군 백수읍 하사리 3265"
+				,"rdnmCd" : "468704694125"
+				,"rdnm" : "전라남도 영광군 백수읍 백수로2길"
+				,"bldMnno" : 219
+				,"bldSlno" : ""
+				,"bldMngNo" : "4687025336110760000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 영광군 백수읍 백수로2길 219"
+				,"oldZipcd" : "513905"
+				,"newZipcd" : "57030"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.338315138789
+				,"lat" : 35.259677581897
+				}
+				,{
+				"bizesId" : "MA010120220812415094"
+				,"bizesNm" : "영광주민풍력발전"
+				,"brchNm" : ""
+				,"indsLclsCd" : "M1"
+				,"indsLclsNm" : "과학·기술"
+				,"indsMclsCd" : "M109"
+				,"indsMclsNm" : "기술 서비스"
+				,"indsSclsCd" : "M10999"
+				,"indsSclsNm" : "기타 엔지니어링 서비스업"
+				,"ksicCd" : "M71531"
+				,"ksicNm" : "경영 컨설팅업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46870"
+				,"signguNm" : "영광군"
+				,"adongCd" : "46870253"
+				,"adongNm" : "백수읍"
+				,"ldongCd" : "4687025336"
+				,"ldongNm" : "백수읍"
+				,"lnoCd" : "4687025336131680018"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 3168
+				,"lnoSlno" : 18
+				,"lnoAdr" : "전라남도 영광군 백수읍 하사리 3168-18"
+				,"rdnmCd" : "468704694126"
+				,"rdnm" : "전라남도 영광군 백수읍 백수로3길"
+				,"bldMnno" : 257
+				,"bldSlno" : 26
+				,"bldMngNo" : "4687025336131680018000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 영광군 백수읍 백수로3길 257-26"
+				,"oldZipcd" : "513905"
+				,"newZipcd" : "57030"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.338872259513
+				,"lat" : 35.2776710394443
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 1,
+		"totalCount" : 3	}
+}

@@ -14,7 +14,9 @@ export function getChangeTone(value: number): ChangeTone {
   return "neutral";
 }
 
-export function getSeverityTone(severity: string): Extract<RiskTone, "high" | "medium" | "neutral"> {
+export function getSeverityTone(
+  severity: string,
+): Extract<RiskTone, "high" | "medium" | "neutral"> {
   const normalized = severity.toLowerCase();
 
   if (normalized.includes("high") || normalized.includes("critical")) {
@@ -34,4 +36,14 @@ export function getSeverityLabel(severity: string) {
   if (normalized.includes("high") || normalized.includes("critical")) return "높음";
   if (normalized.includes("medium") || normalized.includes("warn")) return "중간";
   return "일반";
+}
+
+export function getRiskLabel(value?: string | null) {
+  const raw = String(value || "").toLowerCase();
+
+  if (raw.includes("critical")) return "치명적";
+  if (raw.includes("high")) return "고위험";
+  if (raw.includes("medium") || raw.includes("moderate")) return "주의";
+  if (raw.includes("low")) return "관찰";
+  return value || "-";
 }

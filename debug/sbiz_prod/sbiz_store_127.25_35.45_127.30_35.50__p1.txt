@@ -1,0 +1,426 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA010120220812131463"
+				,"bizesNm" : "더불어상회"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G221"
+				,"indsMclsNm" : "기타 상품 소매"
+				,"indsSclsCd" : "G22199"
+				,"indsSclsNm" : "그 외 기타 상품 전문 소매업"
+				,"ksicCd" : "G47859"
+				,"ksicNm" : "그 외 기타 분류 안된 상품 전문 소매업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52770"
+				,"signguNm" : "순창군"
+				,"adongCd" : "52770320"
+				,"adongNm" : "동계면"
+				,"ldongCd" : "5277032027"
+				,"ldongNm" : "동계면"
+				,"lnoCd" : "5277032027106100000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 610
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전북특별자치도 순창군 동계면 신흥리 610"
+				,"rdnmCd" : "527703276058"
+				,"rdnm" : "전북특별자치도 순창군 동계면 충효로"
+				,"bldMnno" : 576
+				,"bldSlno" : 20
+				,"bldMngNo" : "4577032027106100000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 순창군 동계면 충효로 576-20"
+				,"oldZipcd" : "595823"
+				,"newZipcd" : "56027"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.252089089515
+				,"lat" : 35.4538107559927
+				}
+				,{
+				"bizesId" : "MA010120220800555664"
+				,"bizesNm" : "오렌지Cap"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G209"
+				,"indsMclsNm" : "섬유·의복·신발 소매"
+				,"indsSclsCd" : "G20907"
+				,"indsSclsNm" : "액세서리/잡화 소매업"
+				,"ksicCd" : "G47422"
+				,"ksicNm" : "의복 액세서리 및 모조 장신구 소매업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52750"
+				,"signguNm" : "임실군"
+				,"adongCd" : "52750370"
+				,"adongNm" : "삼계면"
+				,"ldongCd" : "5275037022"
+				,"ldongNm" : "삼계면"
+				,"lnoCd" : "5275037022102720000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 272
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전북특별자치도 임실군 삼계면 봉현리 272"
+				,"rdnmCd" : "527504631117"
+				,"rdnm" : "전북특별자치도 임실군 삼계면 봉현1길"
+				,"bldMnno" : 56
+				,"bldSlno" : ""
+				,"bldMngNo" : "4575037022102720000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 임실군 삼계면 봉현1길 56"
+				,"oldZipcd" : "566913"
+				,"newZipcd" : "55947"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.256552515177
+				,"lat" : 35.4926478088852
+				}
+				,{
+				"bizesId" : "MA010120220807443847"
+				,"bizesNm" : "와이지"
+				,"brchNm" : ""
+				,"indsLclsCd" : "N1"
+				,"indsLclsNm" : "시설관리·임대"
+				,"indsMclsCd" : "N104"
+				,"indsMclsNm" : "고용 알선"
+				,"indsSclsCd" : "N10402"
+				,"indsSclsNm" : "임시/일용 인력 공급업"
+				,"ksicCd" : "N75121"
+				,"ksicNm" : "임시 및 일용 인력 공급업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52750"
+				,"signguNm" : "임실군"
+				,"adongCd" : "52750370"
+				,"adongNm" : "삼계면"
+				,"ldongCd" : "5275037021"
+				,"ldongNm" : "삼계면"
+				,"lnoCd" : "5275037021200700001"
+				,"plotSctCd" : "2"
+				,"plotSctNm" : "산"
+				,"lnoMnno" : 70
+				,"lnoSlno" : 1
+				,"lnoAdr" : "전북특별자치도 임실군 삼계면 후천리 산 70-1"
+				,"rdnmCd" : "527504631119"
+				,"rdnm" : "전북특별자치도 임실군 삼계면 봉현3길"
+				,"bldMnno" : 41
+				,"bldSlno" : 3
+				,"bldMngNo" : "4575037021200700001113897"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 임실군 삼계면 봉현3길 41-3"
+				,"oldZipcd" : "566911"
+				,"newZipcd" : "55947"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.25667986202
+				,"lat" : 35.4841752465213
+				}
+				,{
+				"bizesId" : "MA010120220807328750"
+				,"bizesNm" : "니나의밀밭"
+				,"brchNm" : ""
+				,"indsLclsCd" : "R1"
+				,"indsLclsNm" : "예술·스포츠"
+				,"indsMclsCd" : "R104"
+				,"indsMclsNm" : "유원지·오락"
+				,"indsSclsCd" : "R10499"
+				,"indsSclsNm" : "기타 오락관련 서비스업"
+				,"ksicCd" : "R91299"
+				,"ksicNm" : "그 외 기타 분류 안된 오락관련 서비스업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52770"
+				,"signguNm" : "순창군"
+				,"adongCd" : "52770320"
+				,"adongNm" : "동계면"
+				,"ldongCd" : "5277032029"
+				,"ldongNm" : "동계면"
+				,"lnoCd" : "5277032029104140004"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 414
+				,"lnoSlno" : 4
+				,"lnoAdr" : "전북특별자치도 순창군 동계면 이동리 414-4"
+				,"rdnmCd" : "527703276058"
+				,"rdnm" : "전북특별자치도 순창군 동계면 충효로"
+				,"bldMnno" : 853
+				,"bldSlno" : ""
+				,"bldMngNo" : "4577032029004140004000171"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 순창군 동계면 충효로 853"
+				,"oldZipcd" : "595823"
+				,"newZipcd" : "56027"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.258109082371
+				,"lat" : 35.4762406806538
+				}
+				,{
+				"bizesId" : "MA010120220814185446"
+				,"bizesNm" : "와이지농기계"
+				,"brchNm" : ""
+				,"indsLclsCd" : "S2"
+				,"indsLclsNm" : "수리·개인"
+				,"indsMclsCd" : "S206"
+				,"indsMclsNm" : "기타 가정용품 수리"
+				,"indsSclsCd" : "S20699"
+				,"indsSclsNm" : "그 외 기타 개인/가정용품 수리업"
+				,"ksicCd" : "S95399"
+				,"ksicNm" : "그 외 기타 개인 및 가정용품 수리업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52750"
+				,"signguNm" : "임실군"
+				,"adongCd" : "52750370"
+				,"adongNm" : "삼계면"
+				,"ldongCd" : "5275037021"
+				,"ldongNm" : "삼계면"
+				,"lnoCd" : "5275037021106860001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 686
+				,"lnoSlno" : 1
+				,"lnoAdr" : "전북특별자치도 임실군 삼계면 후천리 686-1"
+				,"rdnmCd" : "527504631119"
+				,"rdnm" : "전북특별자치도 임실군 삼계면 봉현3길"
+				,"bldMnno" : 31
+				,"bldSlno" : 16
+				,"bldMngNo" : ""
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 임실군 삼계면 봉현3길 31-16"
+				,"oldZipcd" : "566911"
+				,"newZipcd" : "55947"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.258711438482
+				,"lat" : 35.4854147134569
+				}
+				,{
+				"bizesId" : "MA010120220807434791"
+				,"bizesNm" : "영미석유약방"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G214"
+				,"indsMclsNm" : "연료 소매"
+				,"indsSclsCd" : "G21403"
+				,"indsSclsNm" : "가정용 연료 소매업"
+				,"ksicCd" : "G47722"
+				,"ksicNm" : "가정용 액체 연료 소매업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52750"
+				,"signguNm" : "임실군"
+				,"adongCd" : "52750370"
+				,"adongNm" : "삼계면"
+				,"ldongCd" : "5275037021"
+				,"ldongNm" : "삼계면"
+				,"lnoCd" : "5275037021105570001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 557
+				,"lnoSlno" : 1
+				,"lnoAdr" : "전북특별자치도 임실군 삼계면 후천리 557-1"
+				,"rdnmCd" : "527503276058"
+				,"rdnm" : "전북특별자치도 임실군 삼계면 충효로"
+				,"bldMnno" : 1008
+				,"bldSlno" : 4
+				,"bldMngNo" : "4575037021105570001115182"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 임실군 삼계면 충효로 1008-4"
+				,"oldZipcd" : "566911"
+				,"newZipcd" : "55947"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.265393956419
+				,"lat" : 35.4867972290695
+				}
+				,{
+				"bizesId" : "MA010120220807421662"
+				,"bizesNm" : "진설보가든"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52770"
+				,"signguNm" : "순창군"
+				,"adongCd" : "52770320"
+				,"adongNm" : "동계면"
+				,"ldongCd" : "5277032029"
+				,"ldongNm" : "동계면"
+				,"lnoCd" : "5277032029100230001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 23
+				,"lnoSlno" : 1
+				,"lnoAdr" : "전북특별자치도 순창군 동계면 이동리 23-1"
+				,"rdnmCd" : "527704634274"
+				,"rdnm" : "전북특별자치도 순창군 동계면 장항길"
+				,"bldMnno" : 114
+				,"bldSlno" : ""
+				,"bldMngNo" : "4577032029000230001000004"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 순창군 동계면 장항길 114"
+				,"oldZipcd" : "595823"
+				,"newZipcd" : "56027"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.272060615637
+				,"lat" : 35.4703244859817
+				}
+				,{
+				"bizesId" : "MA0106202510A0755580"
+				,"bizesNm" : "참다래와키위"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G205"
+				,"indsMclsNm" : "식료품 소매"
+				,"indsSclsCd" : "G20502"
+				,"indsSclsNm" : "가축 사료 소매업"
+				,"ksicCd" : "G47211"
+				,"ksicNm" : "곡물, 곡분 및 가축 사료 소매업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52750"
+				,"signguNm" : "임실군"
+				,"adongCd" : "52750370"
+				,"adongNm" : "삼계면"
+				,"ldongCd" : "5275037026"
+				,"ldongNm" : "삼계면"
+				,"lnoCd" : "5275037026103630001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 363
+				,"lnoSlno" : 1
+				,"lnoAdr" : "전북특별자치도 임실군 삼계면 홍곡리 363-1"
+				,"rdnmCd" : "527504631025"
+				,"rdnm" : "전북특별자치도 임실군 삼계면 괘평1길"
+				,"bldMnno" : 120
+				,"bldSlno" : ""
+				,"bldMngNo" : "4575037026103630001000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 임실군 삼계면 괘평1길 120"
+				,"oldZipcd" : "566911"
+				,"newZipcd" : "55946"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.272767602466
+				,"lat" : 35.4969655529478
+				}
+				,{
+				"bizesId" : "MA010120220807423418"
+				,"bizesNm" : "회인촌"
+				,"brchNm" : ""
+				,"indsLclsCd" : "R1"
+				,"indsLclsNm" : "예술·스포츠"
+				,"indsMclsCd" : "R104"
+				,"indsMclsNm" : "유원지·오락"
+				,"indsSclsCd" : "R10499"
+				,"indsSclsNm" : "기타 오락관련 서비스업"
+				,"ksicCd" : "R91299"
+				,"ksicNm" : "그 외 기타 분류 안된 오락관련 서비스업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52770"
+				,"signguNm" : "순창군"
+				,"adongCd" : "52770320"
+				,"adongNm" : "동계면"
+				,"ldongCd" : "5277032030"
+				,"ldongNm" : "동계면"
+				,"lnoCd" : "5277032030100910003"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 91
+				,"lnoSlno" : 3
+				,"lnoAdr" : "전북특별자치도 순창군 동계면 수정리 91-3"
+				,"rdnmCd" : "527704634170"
+				,"rdnm" : "전북특별자치도 순창군 동계면 수정길"
+				,"bldMnno" : 239
+				,"bldSlno" : 34
+				,"bldMngNo" : "4577032030100910003000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 순창군 동계면 수정길 239-34"
+				,"oldZipcd" : "595823"
+				,"newZipcd" : "56027"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.294939966786
+				,"lat" : 35.4600679150657
+				}
+				,{
+				"bizesId" : "MA010120220810017702"
+				,"bizesNm" : "법인회인촌"
+				,"brchNm" : ""
+				,"indsLclsCd" : "R1"
+				,"indsLclsNm" : "예술·스포츠"
+				,"indsMclsCd" : "R104"
+				,"indsMclsNm" : "유원지·오락"
+				,"indsSclsCd" : "R10499"
+				,"indsSclsNm" : "기타 오락관련 서비스업"
+				,"ksicCd" : "R91299"
+				,"ksicNm" : "그 외 기타 분류 안된 오락관련 서비스업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52770"
+				,"signguNm" : "순창군"
+				,"adongCd" : "52770320"
+				,"adongNm" : "동계면"
+				,"ldongCd" : "5277032030"
+				,"ldongNm" : "동계면"
+				,"lnoCd" : "5277032030100910003"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 91
+				,"lnoSlno" : 3
+				,"lnoAdr" : "전북특별자치도 순창군 동계면 수정리 91-3"
+				,"rdnmCd" : "527704634170"
+				,"rdnm" : "전북특별자치도 순창군 동계면 수정길"
+				,"bldMnno" : 239
+				,"bldSlno" : 34
+				,"bldMngNo" : "4577032030100910003000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 순창군 동계면 수정길 239-34"
+				,"oldZipcd" : "595823"
+				,"newZipcd" : "56027"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.294939966786
+				,"lat" : 35.4600679150657
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 1,
+		"totalCount" : 10	}
+}

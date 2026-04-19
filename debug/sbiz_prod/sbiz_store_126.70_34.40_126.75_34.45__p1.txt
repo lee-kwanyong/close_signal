@@ -1,0 +1,139 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA010120220805084360"
+				,"bizesNm" : "내뜰안"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55104"
+				,"ksicNm" : "민박업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46820"
+				,"signguNm" : "해남군"
+				,"adongCd" : "46820360"
+				,"adongNm" : "북일면"
+				,"ldongCd" : "4682036028"
+				,"ldongNm" : "북일면"
+				,"lnoCd" : "4682036028107970001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 797
+				,"lnoSlno" : 1
+				,"lnoAdr" : "전라남도 해남군 북일면 내동리 797-1"
+				,"rdnmCd" : "468204682092"
+				,"rdnm" : "전라남도 해남군 북일면 내동길"
+				,"bldMnno" : 13
+				,"bldSlno" : 15
+				,"bldMngNo" : "4682036028107330001000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 해남군 북일면 내동길 13-15"
+				,"oldZipcd" : "536942"
+				,"newZipcd" : "59052"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.710991947993
+				,"lat" : 34.4480147979187
+				}
+				,{
+				"bizesId" : "MA0101202310A0089271"
+				,"bizesNm" : "고마레저보트리들리스카이"
+				,"brchNm" : ""
+				,"indsLclsCd" : "R1"
+				,"indsLclsNm" : "예술·스포츠"
+				,"indsMclsCd" : "R104"
+				,"indsMclsNm" : "유원지·오락"
+				,"indsSclsCd" : "R10409"
+				,"indsSclsNm" : "수상/해양 레저업"
+				,"ksicCd" : "R91239"
+				,"ksicNm" : "기타 수상오락 서비스업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46890"
+				,"signguNm" : "완도군"
+				,"adongCd" : "46890310"
+				,"adongNm" : "군외면"
+				,"ldongCd" : "4689031022"
+				,"ldongNm" : "군외면"
+				,"lnoCd" : "4689031022108840000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 884
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 완도군 군외면 불목리 884"
+				,"rdnmCd" : "468904700047"
+				,"rdnm" : "전라남도 완도군 군외면 고마도길"
+				,"bldMnno" : 43
+				,"bldSlno" : 8
+				,"bldMngNo" : "4689031022108840000014610"
+				,"bldNm" : "창고"
+				,"rdnmAdr" : "전라남도 완도군 군외면 고마도길 43-8"
+				,"oldZipcd" : "537816"
+				,"newZipcd" : "59102"
+				,"dongNo" : ""
+				,"flrNo" : "1"
+				,"hoNo" : ""
+				,"lon" : 126.715633030184
+				,"lat" : 34.4142748771454
+				}
+				,{
+				"bizesId" : "MA010120220807810211"
+				,"bizesNm" : "어촌"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46820"
+				,"signguNm" : "해남군"
+				,"adongCd" : "46820360"
+				,"adongNm" : "북일면"
+				,"ldongCd" : "4682036028"
+				,"ldongNm" : "북일면"
+				,"lnoCd" : "4682036028100120001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 12
+				,"lnoSlno" : 1
+				,"lnoAdr" : "전라남도 해남군 북일면 내동리 12-1"
+				,"rdnmCd" : "468204682235"
+				,"rdnm" : "전라남도 해남군 북일면 사동길"
+				,"bldMnno" : 56
+				,"bldSlno" : 79
+				,"bldMngNo" : "4682036028100120001000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 해남군 북일면 사동길 56-79"
+				,"oldZipcd" : "536942"
+				,"newZipcd" : "59052"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.725008857126
+				,"lat" : 34.4443060599814
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 1,
+		"totalCount" : 3	}
+}

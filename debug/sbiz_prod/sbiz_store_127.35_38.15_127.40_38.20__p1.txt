@@ -1,0 +1,385 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA0101202210A0082765"
+				,"bizesNm" : "문혜리숲속바비큐"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20107"
+				,"indsSclsNm" : "돼지고기 구이/찜"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "51"
+				,"ctprvnNm" : "강원특별자치도"
+				,"signguCd" : "51780"
+				,"signguNm" : "철원군"
+				,"adongCd" : "51780256"
+				,"adongNm" : "갈말읍"
+				,"ldongCd" : "5178025625"
+				,"ldongNm" : "갈말읍"
+				,"lnoCd" : "5178025625101870002"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 187
+				,"lnoSlno" : 2
+				,"lnoAdr" : "강원특별자치도 철원군 갈말읍 문혜리 187-2"
+				,"rdnmCd" : "517804490347"
+				,"rdnm" : "강원특별자치도 철원군 갈말읍 숙소골길"
+				,"bldMnno" : 104
+				,"bldSlno" : 38
+				,"bldMngNo" : "4278025625101870000001480"
+				,"bldNm" : ""
+				,"rdnmAdr" : "강원특별자치도 철원군 갈말읍 숙소골길 104-38"
+				,"oldZipcd" : "269804"
+				,"newZipcd" : "24030"
+				,"dongNo" : ""
+				,"flrNo" : "1"
+				,"hoNo" : ""
+				,"lon" : 127.360107196013
+				,"lat" : 38.1746309881793
+				}
+				,{
+				"bizesId" : "MA0101202406A0581025"
+				,"bizesNm" : "거암탑발전소"
+				,"brchNm" : ""
+				,"indsLclsCd" : "M1"
+				,"indsLclsNm" : "과학·기술"
+				,"indsMclsCd" : "M107"
+				,"indsMclsNm" : "본사·경영 컨설팅"
+				,"indsSclsCd" : "M10703"
+				,"indsSclsNm" : "경영 컨설팅업"
+				,"ksicCd" : "M71531"
+				,"ksicNm" : "경영 컨설팅업"
+				,"ctprvnCd" : "51"
+				,"ctprvnNm" : "강원특별자치도"
+				,"signguCd" : "51780"
+				,"signguNm" : "철원군"
+				,"adongCd" : "51780256"
+				,"adongNm" : "갈말읍"
+				,"ldongCd" : "5178025625"
+				,"ldongNm" : "갈말읍"
+				,"lnoCd" : "5178025625102230003"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 223
+				,"lnoSlno" : 3
+				,"lnoAdr" : "강원특별자치도 철원군 갈말읍 문혜리 223-3"
+				,"rdnmCd" : "517803230034"
+				,"rdnm" : "강원특별자치도 철원군 갈말읍 태봉로"
+				,"bldMnno" : 1161
+				,"bldSlno" : 3
+				,"bldMngNo" : "4278025625102230001000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "강원특별자치도 철원군 갈말읍 태봉로 1161-3"
+				,"oldZipcd" : "269804"
+				,"newZipcd" : "24030"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.362782317419
+				,"lat" : 38.1824695737795
+				}
+				,{
+				"bizesId" : "MA0101202302A0112691"
+				,"bizesNm" : "거암해바라기협동조합"
+				,"brchNm" : ""
+				,"indsLclsCd" : "M1"
+				,"indsLclsNm" : "과학·기술"
+				,"indsMclsCd" : "M107"
+				,"indsMclsNm" : "본사·경영 컨설팅"
+				,"indsSclsCd" : "M10703"
+				,"indsSclsNm" : "경영 컨설팅업"
+				,"ksicCd" : "M71531"
+				,"ksicNm" : "경영 컨설팅업"
+				,"ctprvnCd" : "51"
+				,"ctprvnNm" : "강원특별자치도"
+				,"signguCd" : "51780"
+				,"signguNm" : "철원군"
+				,"adongCd" : "51780256"
+				,"adongNm" : "갈말읍"
+				,"ldongCd" : "5178025625"
+				,"ldongNm" : "갈말읍"
+				,"lnoCd" : "5178025625102230003"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 223
+				,"lnoSlno" : 3
+				,"lnoAdr" : "강원특별자치도 철원군 갈말읍 문혜리 223-3"
+				,"rdnmCd" : "517803230034"
+				,"rdnm" : "강원특별자치도 철원군 갈말읍 태봉로"
+				,"bldMnno" : 1161
+				,"bldSlno" : 3
+				,"bldMngNo" : "4278025625102230001000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "강원특별자치도 철원군 갈말읍 태봉로 1161-3"
+				,"oldZipcd" : "269804"
+				,"newZipcd" : "24030"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.362782317419
+				,"lat" : 38.1824695737795
+				}
+				,{
+				"bizesId" : "MA010120220801523798"
+				,"bizesNm" : "청산민박"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55109"
+				,"ksicNm" : "기타 일반 및 생활 숙박시설 운영업"
+				,"ctprvnCd" : "51"
+				,"ctprvnNm" : "강원특별자치도"
+				,"signguCd" : "51780"
+				,"signguNm" : "철원군"
+				,"adongCd" : "51780256"
+				,"adongNm" : "갈말읍"
+				,"ldongCd" : "5178025625"
+				,"ldongNm" : "갈말읍"
+				,"lnoCd" : "5178025625113570000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 1357
+				,"lnoSlno" : ""
+				,"lnoAdr" : "강원특별자치도 철원군 갈말읍 문혜리 1357"
+				,"rdnmCd" : "517803230034"
+				,"rdnm" : "강원특별자치도 철원군 갈말읍 태봉로"
+				,"bldMnno" : 1128
+				,"bldSlno" : ""
+				,"bldMngNo" : "4278025625113570000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "강원특별자치도 철원군 갈말읍 태봉로 1128"
+				,"oldZipcd" : "269804"
+				,"newZipcd" : "24030"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.364405955166
+				,"lat" : 38.1876356934512
+				}
+				,{
+				"bizesId" : "MA010120220814030036"
+				,"bizesNm" : "행복산촌텃골마을"
+				,"brchNm" : ""
+				,"indsLclsCd" : "R1"
+				,"indsLclsNm" : "예술·스포츠"
+				,"indsMclsCd" : "R104"
+				,"indsMclsNm" : "유원지·오락"
+				,"indsSclsCd" : "R10499"
+				,"indsSclsNm" : "기타 오락관련 서비스업"
+				,"ksicCd" : "R91299"
+				,"ksicNm" : "그 외 기타 분류 안된 오락관련 서비스업"
+				,"ctprvnCd" : "51"
+				,"ctprvnNm" : "강원특별자치도"
+				,"signguCd" : "51780"
+				,"signguNm" : "철원군"
+				,"adongCd" : "51780256"
+				,"adongNm" : "갈말읍"
+				,"ldongCd" : "5178025625"
+				,"ldongNm" : "갈말읍"
+				,"lnoCd" : "5178025625102720024"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 272
+				,"lnoSlno" : 24
+				,"lnoAdr" : "강원특별자치도 철원군 갈말읍 문혜리 272-24"
+				,"rdnmCd" : "517804490310"
+				,"rdnm" : "강원특별자치도 철원군 갈말읍 텃골1길"
+				,"bldMnno" : 51
+				,"bldSlno" : ""
+				,"bldMngNo" : "4278025625102720024002018"
+				,"bldNm" : ""
+				,"rdnmAdr" : "강원특별자치도 철원군 갈말읍 텃골1길 51"
+				,"oldZipcd" : "269804"
+				,"newZipcd" : "24030"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.371209303265
+				,"lat" : 38.1899567119492
+				}
+				,{
+				"bizesId" : "MA010120220804830547"
+				,"bizesNm" : "오름"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G205"
+				,"indsMclsNm" : "식료품 소매"
+				,"indsSclsCd" : "G20509"
+				,"indsSclsNm" : "반찬/식료품 소매업"
+				,"ksicCd" : "G47219"
+				,"ksicNm" : "기타 식료품 소매업"
+				,"ctprvnCd" : "51"
+				,"ctprvnNm" : "강원특별자치도"
+				,"signguCd" : "51780"
+				,"signguNm" : "철원군"
+				,"adongCd" : "51780256"
+				,"adongNm" : "갈말읍"
+				,"ldongCd" : "5178025625"
+				,"ldongNm" : "갈말읍"
+				,"lnoCd" : "5178025625100360005"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 36
+				,"lnoSlno" : 5
+				,"lnoAdr" : "강원특별자치도 철원군 갈말읍 문혜리 36-5"
+				,"rdnmCd" : "517803230034"
+				,"rdnm" : "강원특별자치도 철원군 갈말읍 태봉로"
+				,"bldMnno" : 1006
+				,"bldSlno" : ""
+				,"bldMngNo" : "4278025625100360005000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "강원특별자치도 철원군 갈말읍 태봉로 1006"
+				,"oldZipcd" : "269804"
+				,"newZipcd" : "24030"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.376722218486
+				,"lat" : 38.1920922938725
+				}
+				,{
+				"bizesId" : "MA010120220804530380"
+				,"bizesNm" : "대암홀스팜"
+				,"brchNm" : ""
+				,"indsLclsCd" : "R1"
+				,"indsLclsNm" : "예술·스포츠"
+				,"indsMclsCd" : "R103"
+				,"indsMclsNm" : "스포츠 서비스"
+				,"indsSclsCd" : "R10310"
+				,"indsSclsNm" : "당구장"
+				,"ksicCd" : "R91139"
+				,"ksicNm" : "그 외 기타 스포츠시설 운영업"
+				,"ctprvnCd" : "51"
+				,"ctprvnNm" : "강원특별자치도"
+				,"signguCd" : "51780"
+				,"signguNm" : "철원군"
+				,"adongCd" : "51780256"
+				,"adongNm" : "갈말읍"
+				,"ldongCd" : "5178025625"
+				,"ldongNm" : "갈말읍"
+				,"lnoCd" : "5178025625200500001"
+				,"plotSctCd" : "2"
+				,"plotSctNm" : "산"
+				,"lnoMnno" : 50
+				,"lnoSlno" : 1
+				,"lnoAdr" : "강원특별자치도 철원군 갈말읍 문혜리 산 50-1"
+				,"rdnmCd" : "517803230034"
+				,"rdnm" : "강원특별자치도 철원군 갈말읍 태봉로"
+				,"bldMnno" : 871
+				,"bldSlno" : ""
+				,"bldMngNo" : ""
+				,"bldNm" : ""
+				,"rdnmAdr" : "강원특별자치도 철원군 갈말읍 태봉로 871"
+				,"oldZipcd" : "269804"
+				,"newZipcd" : "24030"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.383018423424
+				,"lat" : 38.1824323374774
+				}
+				,{
+				"bizesId" : "MA010120220801732349"
+				,"bizesNm" : "목련공원묘원"
+				,"brchNm" : ""
+				,"indsLclsCd" : "S2"
+				,"indsLclsNm" : "수리·개인"
+				,"indsMclsCd" : "S210"
+				,"indsMclsNm" : "장례식장 "
+				,"indsSclsCd" : "S21002"
+				,"indsSclsNm" : "화장터/묘지/납골당"
+				,"ksicCd" : "S96922"
+				,"ksicNm" : "화장터 운영, 묘지 분양 및 관리업"
+				,"ctprvnCd" : "51"
+				,"ctprvnNm" : "강원특별자치도"
+				,"signguCd" : "51780"
+				,"signguNm" : "철원군"
+				,"adongCd" : "51780310"
+				,"adongNm" : "서면"
+				,"ldongCd" : "5178031021"
+				,"ldongNm" : "서면"
+				,"lnoCd" : "5178031021110550000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 1055
+				,"lnoSlno" : ""
+				,"lnoAdr" : "강원특별자치도 철원군 서면 자등리 1055"
+				,"rdnmCd" : "517804490183"
+				,"rdnm" : "강원특별자치도 철원군 서면 싸리골길"
+				,"bldMnno" : 133
+				,"bldSlno" : ""
+				,"bldMngNo" : "4278031021110470002013768"
+				,"bldNm" : ""
+				,"rdnmAdr" : "강원특별자치도 철원군 서면 싸리골길 133"
+				,"oldZipcd" : "269843"
+				,"newZipcd" : "24062"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.38316809438
+				,"lat" : 38.1630625392114
+				}
+				,{
+				"bizesId" : "MA010120220805290506"
+				,"bizesNm" : "대암홀스랜드"
+				,"brchNm" : ""
+				,"indsLclsCd" : "R1"
+				,"indsLclsNm" : "예술·스포츠"
+				,"indsMclsCd" : "R103"
+				,"indsMclsNm" : "스포츠 서비스"
+				,"indsSclsCd" : "R10314"
+				,"indsSclsNm" : "기타 스포츠시설 운영업"
+				,"ksicCd" : "R91139"
+				,"ksicNm" : "그 외 기타 스포츠시설 운영업"
+				,"ctprvnCd" : "51"
+				,"ctprvnNm" : "강원특별자치도"
+				,"signguCd" : "51780"
+				,"signguNm" : "철원군"
+				,"adongCd" : "51780256"
+				,"adongNm" : "갈말읍"
+				,"ldongCd" : "5178025625"
+				,"ldongNm" : "갈말읍"
+				,"lnoCd" : "5178025625200900002"
+				,"plotSctCd" : "2"
+				,"plotSctNm" : "산"
+				,"lnoMnno" : 90
+				,"lnoSlno" : 2
+				,"lnoAdr" : "강원특별자치도 철원군 갈말읍 문혜리 산 90-2"
+				,"rdnmCd" : "517803230034"
+				,"rdnm" : "강원특별자치도 철원군 갈말읍 태봉로"
+				,"bldMnno" : 871
+				,"bldSlno" : ""
+				,"bldMngNo" : "4278025625200890000002131"
+				,"bldNm" : ""
+				,"rdnmAdr" : "강원특별자치도 철원군 갈말읍 태봉로 871"
+				,"oldZipcd" : "269804"
+				,"newZipcd" : "24030"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.38438807734
+				,"lat" : 38.1824368708644
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 1,
+		"totalCount" : 9	}
+}

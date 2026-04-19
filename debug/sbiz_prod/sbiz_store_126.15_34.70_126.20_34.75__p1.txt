@@ -1,0 +1,344 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA010120220813877091"
+				,"bizesNm" : "안좌"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55104"
+				,"ksicNm" : "민박업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46910"
+				,"signguNm" : "신안군"
+				,"adongCd" : "46910400"
+				,"adongNm" : "안좌면"
+				,"ldongCd" : "4691040029"
+				,"ldongNm" : "안좌면"
+				,"lnoCd" : "4691040029106200002"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 620
+				,"lnoSlno" : 2
+				,"lnoAdr" : "전라남도 신안군 안좌면 여흘리 620-2"
+				,"rdnmCd" : "469104706214"
+				,"rdnm" : "전라남도 신안군 안좌면 여흘길"
+				,"bldMnno" : 41
+				,"bldSlno" : 129
+				,"bldMngNo" : "4691040029106200002000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 신안군 안좌면 여흘길 41-129"
+				,"oldZipcd" : "535843"
+				,"newZipcd" : "58841"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.149895027586
+				,"lat" : 34.7370247278548
+				}
+				,{
+				"bizesId" : "MA010120220811485823"
+				,"bizesNm" : "안좌수산"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G205"
+				,"indsMclsNm" : "식료품 소매"
+				,"indsSclsCd" : "G20505"
+				,"indsSclsNm" : "수산물 소매업"
+				,"ksicCd" : "G47214"
+				,"ksicNm" : "신선, 냉동 및 기타 수산물 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46910"
+				,"signguNm" : "신안군"
+				,"adongCd" : "46910400"
+				,"adongNm" : "안좌면"
+				,"ldongCd" : "4691040029"
+				,"ldongNm" : "안좌면"
+				,"lnoCd" : "4691040029102040000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 204
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 신안군 안좌면 여흘리 204"
+				,"rdnmCd" : "469104706214"
+				,"rdnm" : "전라남도 신안군 안좌면 여흘길"
+				,"bldMnno" : 19
+				,"bldSlno" : 1
+				,"bldMngNo" : "4691040029102040000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 신안군 안좌면 여흘길 19-1"
+				,"oldZipcd" : "535843"
+				,"newZipcd" : "58841"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.151924329467
+				,"lat" : 34.7254289917379
+				}
+				,{
+				"bizesId" : "MA0101202308A0061805"
+				,"bizesNm" : "신안설비"
+				,"brchNm" : ""
+				,"indsLclsCd" : "S2"
+				,"indsLclsNm" : "수리·개인"
+				,"indsMclsCd" : "S206"
+				,"indsMclsNm" : "기타 가정용품 수리"
+				,"indsSclsCd" : "S20699"
+				,"indsSclsNm" : "그 외 기타 개인/가정용품 수리업"
+				,"ksicCd" : "S95399"
+				,"ksicNm" : "그 외 기타 개인 및 가정용품 수리업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46910"
+				,"signguNm" : "신안군"
+				,"adongCd" : "46910400"
+				,"adongNm" : "안좌면"
+				,"ldongCd" : "4691040022"
+				,"ldongNm" : "안좌면"
+				,"lnoCd" : "4691040022102460000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 246
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 신안군 안좌면 탄동리 246"
+				,"rdnmCd" : "469104706208"
+				,"rdnm" : "전라남도 신안군 안좌면 안좌탄동길"
+				,"bldMnno" : 24
+				,"bldSlno" : ""
+				,"bldMngNo" : "4691040022102460000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 신안군 안좌면 안좌탄동길 24"
+				,"oldZipcd" : "535842"
+				,"newZipcd" : "58841"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.161872325284
+				,"lat" : 34.7392800828111
+				}
+				,{
+				"bizesId" : "MA010120220811755135"
+				,"bizesNm" : "금호식당"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46910"
+				,"signguNm" : "신안군"
+				,"adongCd" : "46910400"
+				,"adongNm" : "안좌면"
+				,"ldongCd" : "4691040024"
+				,"ldongNm" : "안좌면"
+				,"lnoCd" : "4691040024108170000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 817
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 신안군 안좌면 대리 817"
+				,"rdnmCd" : "469104706054"
+				,"rdnm" : "전라남도 신안군 안좌면 대리길"
+				,"bldMnno" : 82
+				,"bldSlno" : ""
+				,"bldMngNo" : "4691040024108170000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 신안군 안좌면 대리길 82"
+				,"oldZipcd" : "535842"
+				,"newZipcd" : "58841"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.167052254945
+				,"lat" : 34.7149239977936
+				}
+				,{
+				"bizesId" : "MA010120220807687117"
+				,"bizesNm" : "복호"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G204"
+				,"indsMclsNm" : "종합 소매"
+				,"indsSclsCd" : "G20404"
+				,"indsSclsNm" : "슈퍼마켓"
+				,"ksicCd" : "G47129"
+				,"ksicNm" : "기타 음ㆍ식료품 위주 종합 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46910"
+				,"signguNm" : "신안군"
+				,"adongCd" : "46910400"
+				,"adongNm" : "안좌면"
+				,"ldongCd" : "4691040025"
+				,"ldongNm" : "안좌면"
+				,"lnoCd" : "4691040025100730004"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 73
+				,"lnoSlno" : 4
+				,"lnoAdr" : "전라남도 신안군 안좌면 복호리 73-4"
+				,"rdnmCd" : "469104706007"
+				,"rdnm" : "전라남도 신안군 안좌면 감바위길"
+				,"bldMnno" : 2
+				,"bldSlno" : 1
+				,"bldMngNo" : "4691040025100730004000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 신안군 안좌면 감바위길 2-1"
+				,"oldZipcd" : "535842"
+				,"newZipcd" : "58841"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.167417695464
+				,"lat" : 34.7002428014328
+				}
+				,{
+				"bizesId" : "MA010120220808837762"
+				,"bizesNm" : "감바위민박"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55104"
+				,"ksicNm" : "민박업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46910"
+				,"signguNm" : "신안군"
+				,"adongCd" : "46910400"
+				,"adongNm" : "안좌면"
+				,"ldongCd" : "4691040025"
+				,"ldongNm" : "안좌면"
+				,"lnoCd" : "4691040025100530000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 53
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 신안군 안좌면 복호리 53"
+				,"rdnmCd" : "469103302007"
+				,"rdnm" : "전라남도 신안군 안좌면 중부로"
+				,"bldMnno" : 10
+				,"bldSlno" : 9
+				,"bldMngNo" : "4691040025100520000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 신안군 안좌면 중부로 10-9"
+				,"oldZipcd" : "535842"
+				,"newZipcd" : "58841"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.169072584985
+				,"lat" : 34.7006507108408
+				}
+				,{
+				"bizesId" : "MA010120220807680193"
+				,"bizesNm" : "복호상회"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G204"
+				,"indsMclsNm" : "종합 소매"
+				,"indsSclsCd" : "G20404"
+				,"indsSclsNm" : "슈퍼마켓"
+				,"ksicCd" : "G47129"
+				,"ksicNm" : "기타 음ㆍ식료품 위주 종합 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46910"
+				,"signguNm" : "신안군"
+				,"adongCd" : "46910400"
+				,"adongNm" : "안좌면"
+				,"ldongCd" : "4691040025"
+				,"ldongNm" : "안좌면"
+				,"lnoCd" : "4691040025100520000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 52
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 신안군 안좌면 복호리 52"
+				,"rdnmCd" : "469103302007"
+				,"rdnm" : "전라남도 신안군 안좌면 중부로"
+				,"bldMnno" : 10
+				,"bldSlno" : 11
+				,"bldMngNo" : "4691040025100520000000002"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 신안군 안좌면 중부로 10-11"
+				,"oldZipcd" : "535842"
+				,"newZipcd" : "58841"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.169258385953
+				,"lat" : 34.7006249358515
+				}
+				,{
+				"bizesId" : "MA0101202311A0022453"
+				,"bizesNm" : "산두농기계"
+				,"brchNm" : ""
+				,"indsLclsCd" : "S2"
+				,"indsLclsNm" : "수리·개인"
+				,"indsMclsCd" : "S206"
+				,"indsMclsNm" : "기타 가정용품 수리"
+				,"indsSclsCd" : "S20699"
+				,"indsSclsNm" : "그 외 기타 개인/가정용품 수리업"
+				,"ksicCd" : "S95399"
+				,"ksicNm" : "그 외 기타 개인 및 가정용품 수리업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46910"
+				,"signguNm" : "신안군"
+				,"adongCd" : "46910400"
+				,"adongNm" : "안좌면"
+				,"ldongCd" : "4691040023"
+				,"ldongNm" : "안좌면"
+				,"lnoCd" : "4691040023102250000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 225
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 신안군 안좌면 산두리 225"
+				,"rdnmCd" : "469104706143"
+				,"rdnm" : "전라남도 신안군 안좌면 산두리길"
+				,"bldMnno" : 366
+				,"bldSlno" : 5
+				,"bldMngNo" : "4691040023102250000000002"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 신안군 안좌면 산두리길 366-5"
+				,"oldZipcd" : "535842"
+				,"newZipcd" : "58841"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.174381750107
+				,"lat" : 34.7254300338689
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 1,
+		"totalCount" : 8	}
+}

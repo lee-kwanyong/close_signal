@@ -1,644 +1,203 @@
-import { createClient } from "@supabase/supabase-js";
 import Link from "next/link";
+import { createClient } from "@/lib/supabase/server";
 
-type DashboardSummary = {
-  latest_score_date: string | null;
-  region_count: number | null;
-  category_count: number | null;
-  ranking_count: number | null;
-  signal_count: number | null;
-  avg_base_score: number | null;
-  avg_adjusted_score: number | null;
-};
-
-type TopRankingRow = {
+type IntegratedRow = {
+  snapshot_date: string | null;
   region_code: string;
+  region_name: string | null;
   category_id: number;
   category_name: string | null;
-  score_date: string;
-  base_score: number | null;
-  adjusted_score: number | null;
-  risk_grade: string | null;
-  signal_count: number | null;
-  open_prev_30d: number | null;
-  close_prev_30d: number | null;
-  net_prev_30d: number | null;
-  churn_prev_30d: number | null;
-  survival_prev_12m: number | null;
-  national_survival_avg_12m: number | null;
-  national_churn_avg_30d: number | null;
+  smallbiz_risk_score: number | null;
+  kosis_pressure_score: number | null;
+  kosis_pressure_grade: string | null;
+  nts_business_score: number | null;
+  integrated_market_score: number | null;
+  integrated_final_score: number | null;
+  summary_text: string | null;
+  reason_codes: string[] | null;
 };
 
 type SignalRow = {
-  id: number;
-  signal_date: string;
-  region_code: string;
-  category_id: number;
-  category_name: string | null;
-  signal_type: string | null;
-  signal_strength: number | null;
-  title: string | null;
-  description: string | null;
-  evidence: unknown;
-  created_at: string | null;
+  id?: number | string;
+  signal_date?: string | null;
+  score_date?: string | null;
+  signal_type?: string | null;
+  signal_level?: string | null;
+  title?: string | null;
+  message?: string | null;
+  region_code?: string;
+  region_name?: string | null;
+  category_id?: number;
+  category_name?: string | null;
+  risk_score?: number | null;
 };
 
-function getSupabase() {
-  return createClient(
-    process.env.NEXT_PUBLIC_SUPABASE_URL!,
-    process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!
-  );
+function num(value: number | null | undefined, fallback = 0) {
+  return value === null || value === undefined || Number.isNaN(value)
+    ? fallback
+    : Number(value);
 }
 
 function formatNumber(value: number | null | undefined) {
   if (value === null || value === undefined) return "-";
-  return new Intl.NumberFormat("ko-KR").format(Number(value));
+  return new Intl.NumberFormat("ko-KR").format(value);
 }
 
-function formatScore(value: number | null | undefined) {
+function formatScore(value: number | null | undefined, digits = 1) {
   if (value === null || value === undefined) return "-";
-  return Number(value).toFixed(1);
+  return Number(value).toFixed(digits);
 }
 
-function riskBadgeStyle(grade: string | null | undefined): React.CSSProperties {
-  const value = (grade || "").toLowerCase();
+function formatDate(value: string | null | undefined) {
+  if (!value) return "-";
+  const d = new Date(value);
+  if (Number.isNaN(d.getTime())) return value;
 
-  if (value === "critical") {
-    return {
-      background: "#fef2f2",
-      color: "#b91c1c",
-      border: "1px solid #fecaca",
-    };
-  }
+  const yyyy = d.getFullYear();
+  const mm = String(d.getMonth() + 1).padStart(2, "0");
+  const dd = String(d.getDate()).padStart(2, "0");
 
-  if (value === "high") {
-    return {
-      background: "#fff7ed",
-      color: "#c2410c",
-      border: "1px solid #fed7aa",
-    };
-  }
-
-  if (value === "medium") {
-    return {
-      background: "#fffbeb",
-      color: "#a16207",
-      border: "1px solid #fde68a",
-    };
-  }
-
-  return {
-    background: "#f0fdfa",
-    color: "#0f766e",
-    border: "1px solid #99f6e4",
-  };
+  return `${yyyy}.${mm}.${dd}.`;
 }
 
-function signalBadgeStyle(strength: number | null | undefined): React.CSSProperties {
-  const value = Number(strength || 0);
+function scoreTone(score: number | null | undefined) {
+  const n = num(score, 0);
 
-  if (value >= 80) {
-    return {
-      background: "#fef2f2",
-      color: "#b91c1c",
-      border: "1px solid #fecaca",
-    };
+  if (score === null || score === undefined) {
+    return "border-slate-200 bg-slate-100 text-slate-600";
   }
-
-  if (value >= 60) {
-    return {
-      background: "#fff7ed",
-      color: "#c2410c",
-      border: "1px solid #fed7aa",
-    };
-  }
-
-  if (value >= 40) {
-    return {
-      background: "#fffbeb",
-      color: "#a16207",
-      border: "1px solid #fde68a",
-    };
-  }
-
-  return {
-    background: "#eff6ff",
-      color: "#1d4ed8",
-      border: "1px solid #bfdbfe",
-    };
+  if (n >= 80) return "border-red-200 bg-red-50 text-red-700";
+  if (n >= 65) return "border-amber-200 bg-amber-50 text-amber-700";
+  if (n >= 45) return "border-yellow-200 bg-yellow-50 text-yellow-700";
+  return "border-emerald-200 bg-emerald-50 text-emerald-700";
 }
 
-export default async function HomePage() {
-  const supabase = getSupabase();
+function signalTone(level?: string | null) {
+  const v = String(level || "").toLowerCase();
+  if (v.includes("critical") || v.includes("high")) {
+    return "border-red-200 bg-red-50 text-red-700";
+  }
+  if (v.includes("medium") || v.includes("moderate")) {
+    return "border-amber-200 bg-amber-50 text-amber-700";
+  }
+  return "border-slate-200 bg-slate-50 text-slate-700";
+}
 
-  const [summaryRes, topRankingsRes, signalsRes] = await Promise.all([
-    supabase.rpc("get_dashboard_summary"),
-    supabase.rpc("get_top_risk_rankings", { p_limit: 8 }),
-    supabase.rpc("get_risk_signals_feed", {
-      p_region_code: null,
-      p_category_id: null,
-      p_limit: 6,
-      p_offset: 0,
-    }),
-  ]);
+function humanReason(code: string) {
+  switch (code) {
+    case "external_closure_pressure_high":
+      return "외부폐업압력 높음";
+    case "external_closure_pressure_moderate":
+      return "외부폐업압력 주의";
+    case "live_closure_rate_rising":
+      return "폐업가속";
+    case "net_business_decline":
+      return "순감소";
+    case "close_open_ratio_unfavorable":
+      return "폐업/개업비 악화";
+    case "competition_density_high":
+      return "경쟁과밀";
+    case "nts_business_weak":
+      return "NTS 약화";
+    case "nts_business_moderate":
+      return "NTS 경계";
+    case "market_risk_high":
+      return "시장위험 높음";
+    default:
+      return code;
+  }
+}
 
-  const summary = ((summaryRes.data || [])[0] || null) as DashboardSummary | null;
-  const topRankings = (topRankingsRes.data || []) as TopRankingRow[];
-  const signals = (signalsRes.data || []) as SignalRow[];
+async function getLatestSnapshotDate() {
+  const supabase = await createClient();
 
+  const { data } = await supabase
+    .from("integrated_region_category_baselines")
+    .select("snapshot_date")
+    .order("snapshot_date", { ascending: false })
+    .limit(1)
+    .maybeSingle();
+
+  return data?.snapshot_date ?? null;
+}
+
+async function getIntegratedRows(snapshotDate: string) {
+  const supabase = await createClient();
+
+  const { data } = await supabase
+    .from("integrated_region_category_baselines")
+    .select("*")
+    .eq("snapshot_date", snapshotDate)
+    .order("integrated_final_score", { ascending: false })
+    .limit(200);
+
+  return (data ?? []) as IntegratedRow[];
+}
+
+async function getSignals() {
+  const supabase = await createClient();
+
+  const { data } = await supabase.rpc("get_risk_signals_feed", {
+    p_region_code: null,
+    p_category_id: null,
+    p_limit: 6,
+    p_offset: 0,
+  });
+
+  return (data ?? []) as SignalRow[];
+}
+
+function EmptyState({ text }: { text: string }) {
   return (
-    <main
-      style={{
-        maxWidth: 1280,
-        margin: "0 auto",
-        padding: "24px 20px 48px",
-      }}
-    >
-      <section
-        style={{
-          background: "#ffffff",
-          border: "1px solid #e5e7eb",
-          borderRadius: 24,
-          padding: 24,
-          marginBottom: 20,
-        }}
-      >
-        <div
-          style={{
-            display: "flex",
-            justifyContent: "space-between",
-            gap: 16,
-            flexWrap: "wrap",
-            alignItems: "flex-start",
-          }}
-        >
-          <div style={{ maxWidth: 760 }}>
-            <div
-              style={{
-                display: "inline-flex",
-                alignItems: "center",
-                gap: 8,
-                padding: "6px 10px",
-                borderRadius: 999,
-                fontSize: 12,
-                fontWeight: 700,
-                background: "#f8fafc",
-                color: "#334155",
-                border: "1px solid #e2e8f0",
-                marginBottom: 14,
-              }}
-            >
-              Close Signal
-            </div>
+    <div className="rounded-2xl border border-dashed border-slate-200 bg-slate-50 px-4 py-10 text-center text-sm text-slate-500">
+      {text}
+    </div>
+  );
+}
 
-            <h1
-              style={{
-                margin: 0,
-                fontSize: 34,
-                lineHeight: 1.15,
-                fontWeight: 800,
-                color: "#111827",
-              }}
-            >
-              지역·업종별 폐업 전조 신호와
-              <br />
-              위험 랭킹을 한 화면에서 모니터링합니다.
-            </h1>
-
-            <p
-              style={{
-                margin: "14px 0 0",
-                color: "#6b7280",
-                fontSize: 15,
-                lineHeight: 1.7,
-              }}
-            >
-              최근 개·폐업 흐름, churn, 생존율, 스코어, 위험 신호를 결합해
-              지역/업종 단위 리스크를 추적합니다.
-            </p>
-          </div>
-
-          <div
-            style={{
-              display: "flex",
-              gap: 10,
-              flexWrap: "wrap",
-            }}
-          >
-            <Link
-              href="/rankings"
-              style={{
-                height: 44,
-                padding: "0 16px",
-                borderRadius: 12,
-                background: "#111827",
-                color: "#ffffff",
-                textDecoration: "none",
-                display: "inline-flex",
-                alignItems: "center",
-                fontWeight: 600,
-                border: "1px solid #111827",
-              }}
-            >
-              위험 랭킹 보기
-            </Link>
-
-            <Link
-              href="/signals"
-              style={{
-                height: 44,
-                padding: "0 16px",
-                borderRadius: 12,
-                background: "#ffffff",
-                color: "#111827",
-                textDecoration: "none",
-                display: "inline-flex",
-                alignItems: "center",
-                fontWeight: 600,
-                border: "1px solid #d1d5db",
-              }}
-            >
-              위험 신호 보기
-            </Link>
-
-            <Link
-              href="/watchlist"
-              style={{
-                height: 44,
-                padding: "0 16px",
-                borderRadius: 12,
-                background: "#ffffff",
-                color: "#111827",
-                textDecoration: "none",
-                display: "inline-flex",
-                alignItems: "center",
-                fontWeight: 600,
-                border: "1px solid #d1d5db",
-              }}
-            >
-              관심목록 보기
-            </Link>
-          </div>
-        </div>
-      </section>
-
-      <section
-        style={{
-          display: "grid",
-          gridTemplateColumns: "repeat(7, minmax(0, 1fr))",
-          gap: 14,
-          marginBottom: 20,
-        }}
-      >
-        <KpiCard
-          label="최신 점수 기준일"
-          value={summary?.latest_score_date || "-"}
-        />
-        <KpiCard
-          label="지역 수"
-          value={formatNumber(summary?.region_count)}
-        />
-        <KpiCard
-          label="카테고리 수"
-          value={formatNumber(summary?.category_count)}
-        />
-        <KpiCard
-          label="랭킹 건수"
-          value={formatNumber(summary?.ranking_count)}
-        />
-        <KpiCard
-          label="신호 건수"
-          value={formatNumber(summary?.signal_count)}
-        />
-        <KpiCard
-          label="평균 Base Score"
-          value={formatScore(summary?.avg_base_score)}
-        />
-        <KpiCard
-          label="평균 Adjusted Score"
-          value={formatScore(summary?.avg_adjusted_score)}
-        />
-      </section>
-
-      <section
-        style={{
-          display: "grid",
-          gridTemplateColumns: "minmax(0, 1.2fr) minmax(0, 0.8fr)",
-          gap: 20,
-        }}
-      >
-        <div
-          style={{
-            minWidth: 0,
-            display: "grid",
-            gap: 20,
-          }}
-        >
-          <Panel
-            title="상위 위험 랭킹"
-            actionHref="/rankings"
-            actionLabel="전체 보기"
-          >
-            {topRankings.length === 0 ? (
-              <EmptyState text="표시할 랭킹 데이터가 없습니다." />
-            ) : (
-              <div style={{ display: "grid", gap: 12 }}>
-                {topRankings.map((row, index) => (
-                  <Link
-                    key={`${row.region_code}-${row.category_id}`}
-                    href={`/regions/${row.region_code}/${row.category_id}`}
-                    style={{
-                      textDecoration: "none",
-                      color: "inherit",
-                    }}
-                  >
-                    <div
-                      style={{
-                        border: "1px solid #e5e7eb",
-                        borderRadius: 18,
-                        padding: 16,
-                        background: "#ffffff",
-                      }}
-                    >
-                      <div
-                        style={{
-                          display: "flex",
-                          justifyContent: "space-between",
-                          gap: 12,
-                          alignItems: "flex-start",
-                          flexWrap: "wrap",
-                        }}
-                      >
-                        <div style={{ minWidth: 0, flex: 1 }}>
-                          <div
-                            style={{
-                              display: "flex",
-                              gap: 8,
-                              alignItems: "center",
-                              flexWrap: "wrap",
-                              marginBottom: 8,
-                            }}
-                          >
-                            <span
-                              style={{
-                                minWidth: 28,
-                                height: 28,
-                                borderRadius: 999,
-                                background: "#f3f4f6",
-                                color: "#111827",
-                                display: "inline-flex",
-                                alignItems: "center",
-                                justifyContent: "center",
-                                fontSize: 13,
-                                fontWeight: 800,
-                              }}
-                            >
-                              {index + 1}
-                            </span>
-
-                            <strong
-                              style={{
-                                fontSize: 17,
-                                lineHeight: 1.4,
-                                color: "#111827",
-                              }}
-                            >
-                              {row.region_code} ·{" "}
-                              {row.category_name || `카테고리 ${row.category_id}`}
-                            </strong>
-
-                            <span
-                              style={{
-                                ...riskBadgeStyle(row.risk_grade),
-                                borderRadius: 999,
-                                padding: "4px 10px",
-                                fontSize: 12,
-                                fontWeight: 700,
-                              }}
-                            >
-                              {(row.risk_grade || "low").toUpperCase()}
-                            </span>
-                          </div>
-
-                          <div
-                            style={{
-                              color: "#6b7280",
-                              fontSize: 13,
-                              lineHeight: 1.6,
-                            }}
-                          >
-                            기준일 {row.score_date} · 시그널 {row.signal_count ?? 0}건
-                          </div>
-                        </div>
-
-                        <div
-                          style={{
-                            display: "grid",
-                            gridTemplateColumns: "repeat(2, minmax(110px, 1fr))",
-                            gap: 10,
-                            minWidth: 240,
-                          }}
-                        >
-                          <MiniStat label="Adjusted" value={formatScore(row.adjusted_score)} />
-                          <MiniStat label="Base" value={formatScore(row.base_score)} />
-                          <MiniStat label="폐업(30d)" value={formatNumber(row.close_prev_30d)} />
-                          <MiniStat label="Churn(30d)" value={formatScore(row.churn_prev_30d)} />
-                        </div>
-                      </div>
-                    </div>
-                  </Link>
-                ))}
-              </div>
-            )}
-          </Panel>
-
-          <Panel title="빠른 이동">
-            <div
-              style={{
-                display: "grid",
-                gridTemplateColumns: "repeat(auto-fit, minmax(180px, 1fr))",
-                gap: 12,
-              }}
-            >
-              <QuickLinkCard
-                href="/rankings"
-                title="위험 랭킹"
-                description="지역/업종별 스코어 정렬"
-              />
-              <QuickLinkCard
-                href="/signals"
-                title="위험 신호"
-                description="최근 감지 신호 피드 확인"
-              />
-              <QuickLinkCard
-                href="/watchlist"
-                title="관심목록"
-                description="저장한 지역/업종 추적"
-              />
-            </div>
-          </Panel>
-        </div>
-
-        <div
-          style={{
-            minWidth: 0,
-            display: "grid",
-            gap: 20,
-          }}
-        >
-          <Panel
-            title="최신 위험 신호"
-            actionHref="/signals"
-            actionLabel="전체 보기"
-          >
-            {signals.length === 0 ? (
-              <EmptyState text="표시할 위험 신호가 없습니다." />
-            ) : (
-              <div style={{ display: "grid", gap: 12 }}>
-                {signals.map((signal) => (
-                  <Link
-                    key={signal.id}
-                    href={`/regions/${signal.region_code}/${signal.category_id}`}
-                    style={{
-                      textDecoration: "none",
-                      color: "inherit",
-                    }}
-                  >
-                    <div
-                      style={{
-                        border: "1px solid #e5e7eb",
-                        borderRadius: 18,
-                        padding: 16,
-                        background: "#ffffff",
-                      }}
-                    >
-                      <div
-                        style={{
-                          display: "flex",
-                          gap: 8,
-                          alignItems: "center",
-                          flexWrap: "wrap",
-                          marginBottom: 8,
-                        }}
-                      >
-                        <span
-                          style={{
-                            ...signalBadgeStyle(signal.signal_strength),
-                            borderRadius: 999,
-                            padding: "4px 10px",
-                            fontSize: 12,
-                            fontWeight: 700,
-                          }}
-                        >
-                          강도 {signal.signal_strength ?? 0}
-                        </span>
-
-                        <span
-                          style={{
-                            fontSize: 12,
-                            color: "#6b7280",
-                          }}
-                        >
-                          {signal.signal_date}
-                        </span>
-                      </div>
-
-                      <div
-                        style={{
-                          fontSize: 16,
-                          fontWeight: 700,
-                          color: "#111827",
-                          lineHeight: 1.45,
-                          marginBottom: 6,
-                        }}
-                      >
-                        {signal.title || "제목 없음"}
-                      </div>
-
-                      <div
-                        style={{
-                          color: "#6b7280",
-                          fontSize: 13,
-                          lineHeight: 1.6,
-                          marginBottom: 10,
-                        }}
-                      >
-                        {signal.region_code} ·{" "}
-                        {signal.category_name || `카테고리 ${signal.category_id}`} ·{" "}
-                        {signal.signal_type || "-"}
-                      </div>
-
-                      <div
-                        style={{
-                          color: "#374151",
-                          fontSize: 14,
-                          lineHeight: 1.7,
-                        }}
-                      >
-                        {signal.description || "설명 없음"}
-                      </div>
-                    </div>
-                  </Link>
-                ))}
-              </div>
-            )}
-          </Panel>
-        </div>
-      </section>
-    </main>
+function StatCard({
+  label,
+  value,
+  sub,
+}: {
+  label: string;
+  value: string;
+  sub?: string;
+}) {
+  return (
+    <div className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">
+      <div className="text-xs font-semibold uppercase tracking-wide text-sky-700">{label}</div>
+      <div className="mt-3 text-2xl font-semibold tracking-tight text-slate-950">{value}</div>
+      {sub ? <div className="mt-2 text-sm leading-6 text-slate-500">{sub}</div> : null}
+    </div>
   );
 }
 
 function Panel({
   title,
-  children,
+  description,
   actionHref,
   actionLabel,
+  children,
 }: {
   title: string;
-  children: React.ReactNode;
+  description?: string;
   actionHref?: string;
   actionLabel?: string;
+  children: React.ReactNode;
 }) {
   return (
-    <section
-      style={{
-        background: "#ffffff",
-        border: "1px solid #e5e7eb",
-        borderRadius: 24,
-        padding: 20,
-      }}
-    >
-      <div
-        style={{
-          display: "flex",
-          justifyContent: "space-between",
-          gap: 12,
-          alignItems: "center",
-          flexWrap: "wrap",
-          marginBottom: 16,
-        }}
-      >
-        <h2
-          style={{
-            margin: 0,
-            fontSize: 22,
-            fontWeight: 800,
-            color: "#111827",
-          }}
-        >
-          {title}
-        </h2>
+    <section className="rounded-3xl border border-slate-200 bg-white p-6 shadow-sm">
+      <div className="mb-5 flex items-end justify-between gap-4">
+        <div>
+          <h2 className="text-lg font-semibold text-slate-950">{title}</h2>
+          {description ? <p className="mt-1 text-sm text-slate-500">{description}</p> : null}
+        </div>
 
         {actionHref && actionLabel ? (
           <Link
             href={actionHref}
-            style={{
-              textDecoration: "none",
-              color: "#2563eb",
-              fontSize: 14,
-              fontWeight: 600,
-            }}
+            className="text-sm font-medium text-sky-700 transition hover:text-sky-800"
           >
             {actionLabel}
           </Link>
@@ -650,152 +209,219 @@ function Panel({
   );
 }
 
-function KpiCard({
-  label,
-  value,
-}: {
-  label: string;
-  value: string;
-}) {
-  return (
-    <div
-      style={{
-        background: "#ffffff",
-        border: "1px solid #e5e7eb",
-        borderRadius: 18,
-        padding: 18,
-        minWidth: 0,
-      }}
-    >
-      <div
-        style={{
-          fontSize: 12,
-          color: "#6b7280",
-          marginBottom: 8,
-          whiteSpace: "nowrap",
-          overflow: "hidden",
-          textOverflow: "ellipsis",
-        }}
-      >
-        {label}
-      </div>
-      <div
-        style={{
-          fontSize: 26,
-          fontWeight: 800,
-          color: "#111827",
-          lineHeight: 1.2,
-          whiteSpace: "nowrap",
-          overflow: "hidden",
-          textOverflow: "ellipsis",
-        }}
-      >
-        {value}
-      </div>
-    </div>
-  );
-}
+export default async function HomePage() {
+  const latestSnapshotDate = await getLatestSnapshotDate();
+  const [rows, signals] = await Promise.all([
+    latestSnapshotDate ? getIntegratedRows(latestSnapshotDate) : Promise.resolve([] as IntegratedRow[]),
+    getSignals(),
+  ]);
 
-function MiniStat({
-  label,
-  value,
-}: {
-  label: string;
-  value: string;
-}) {
-  return (
-    <div
-      style={{
-        border: "1px solid #e5e7eb",
-        borderRadius: 14,
-        padding: 12,
-        background: "#f9fafb",
-      }}
-    >
-      <div
-        style={{
-          fontSize: 11,
-          color: "#6b7280",
-          marginBottom: 4,
-        }}
-      >
-        {label}
-      </div>
-      <div
-        style={{
-          fontSize: 17,
-          fontWeight: 800,
-          color: "#111827",
-        }}
-      >
-        {value}
-      </div>
-    </div>
-  );
-}
+  const topRows = rows.slice(0, 8);
 
-function QuickLinkCard({
-  href,
-  title,
-  description,
-}: {
-  href: string;
-  title: string;
-  description: string;
-}) {
-  return (
-    <Link
-      href={href}
-      style={{
-        textDecoration: "none",
-        color: "inherit",
-      }}
-    >
-      <div
-        style={{
-          border: "1px solid #e5e7eb",
-          borderRadius: 18,
-          padding: 16,
-          background: "#f9fafb",
-          minHeight: 110,
-        }}
-      >
-        <div
-          style={{
-            fontSize: 17,
-            fontWeight: 700,
-            color: "#111827",
-            marginBottom: 6,
-          }}
-        >
-          {title}
-        </div>
-        <div
-          style={{
-            fontSize: 14,
-            color: "#6b7280",
-            lineHeight: 1.6,
-          }}
-        >
-          {description}
-        </div>
-      </div>
-    </Link>
-  );
-}
+  const avgIntegrated =
+    rows.length > 0
+      ? rows.reduce((sum, row) => sum + num(row.integrated_final_score, 0), 0) / rows.length
+      : null;
 
-function EmptyState({ text }: { text: string }) {
+  const avgMarket =
+    rows.length > 0
+      ? rows.reduce((sum, row) => sum + num(row.integrated_market_score, 0), 0) / rows.length
+      : null;
+
+  const externalCriticalCount = rows.filter(
+    (row) => String(row.kosis_pressure_grade || "").toLowerCase() === "critical",
+  ).length;
+
+  const ntsWarningCount = rows.filter((row) => num(row.nts_business_score, 0) >= 50).length;
+
   return (
-    <div
-      style={{
-        border: "1px solid #e5e7eb",
-        borderRadius: 16,
-        background: "#f9fafb",
-        padding: 18,
-        color: "#6b7280",
-      }}
-    >
-      {text}
-    </div>
+    <main className="min-h-screen bg-slate-50">
+      <div className="mx-auto w-full max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
+        <section className="rounded-3xl border border-slate-200 bg-white p-6 shadow-sm">
+          <div className="flex flex-col gap-4">
+            <div>
+              <div className="mb-2 text-sm font-medium text-sky-700">INTEGRATED DASHBOARD</div>
+              <h1 className="text-2xl font-semibold tracking-tight text-slate-950 sm:text-3xl">
+                통합 위험관리 대시보드
+              </h1>
+              <p className="mt-2 text-sm leading-6 text-slate-500">
+                KOSIS 외부 폐업압력, 소상공인 흐름, 국세청/NTS 사업장 체력을 통합해
+                현재 위험과 회복 방향을 데이터 중심으로 봅니다.
+              </p>
+            </div>
+
+            <div className="flex flex-wrap gap-3">
+              <Link
+                href="/rankings"
+                className="inline-flex h-11 items-center justify-center rounded-xl bg-sky-600 px-5 text-sm font-semibold text-white shadow-sm transition hover:bg-sky-700"
+              >
+                통합 랭킹 보기
+              </Link>
+              <Link
+                href="/signals"
+                className="inline-flex h-11 items-center justify-center rounded-xl border border-sky-200 bg-sky-50 px-5 text-sm font-semibold text-sky-700 transition hover:bg-sky-100"
+              >
+                시그널 보기
+              </Link>
+              <Link
+                href="/watchlist"
+                className="inline-flex h-11 items-center justify-center rounded-xl border border-slate-200 bg-white px-5 text-sm font-semibold text-slate-700 transition hover:bg-slate-50"
+              >
+                관심목록 보기
+              </Link>
+            </div>
+          </div>
+        </section>
+
+        <section className="mt-6 grid grid-cols-1 gap-4 md:grid-cols-2 xl:grid-cols-4">
+          <StatCard
+            label="기준일"
+            value={latestSnapshotDate ? formatDate(latestSnapshotDate) : "-"}
+          />
+          <StatCard
+            label="통합 평균위험"
+            value={formatScore(avgIntegrated, 1)}
+          />
+          <StatCard
+            label="시장 평균위험"
+            value={formatScore(avgMarket, 1)}
+          />
+          <StatCard
+            label="경고 현황"
+            value={`외부 ${formatNumber(externalCriticalCount)}`}
+            sub={`NTS 경고 ${formatNumber(ntsWarningCount)}`}
+          />
+        </section>
+
+        <section className="mt-6 grid grid-cols-1 gap-6 xl:grid-cols-[1.2fr_0.8fr]">
+          <Panel
+            title="상위 통합 위험 랭킹"
+            description="지금 가장 먼저 관리해야 할 지역·업종입니다."
+            actionHref="/rankings"
+            actionLabel="전체 보기"
+          >
+            {topRows.length === 0 ? (
+              <EmptyState text="표시할 통합 랭킹이 없습니다." />
+            ) : (
+              <div className="grid gap-3">
+                {topRows.map((row, index) => (
+                  <Link
+                    key={`${row.region_code}-${row.category_id}-${row.snapshot_date}`}
+                    href={`/regions/${row.region_code}/${row.category_id}`}
+                    className="rounded-2xl border border-slate-200 bg-slate-50 p-4 transition hover:border-sky-200 hover:bg-sky-50/40"
+                  >
+                    <div className="flex flex-wrap items-start justify-between gap-3">
+                      <div className="min-w-0 flex-1">
+                        <div className="mb-2 flex flex-wrap items-center gap-2">
+                          <span className="inline-flex h-7 min-w-7 items-center justify-center rounded-full bg-sky-600 px-2 text-xs font-bold text-white">
+                            {index + 1}
+                          </span>
+                          <strong className="text-base font-semibold text-slate-950">
+                            {row.region_name ?? row.region_code} · {row.category_name ?? row.category_id}
+                          </strong>
+                          <span
+                            className={`inline-flex items-center rounded-full border px-3 py-1 text-xs font-medium ${scoreTone(
+                              row.integrated_final_score,
+                            )}`}
+                          >
+                            통합 {formatScore(row.integrated_final_score, 0)}
+                          </span>
+                        </div>
+
+                        <div className="text-sm leading-6 text-slate-600">
+                          {row.summary_text || "-"}
+                        </div>
+
+                        <div className="mt-3 flex flex-wrap gap-2">
+                          {(row.reason_codes ?? []).slice(0, 3).map((code) => (
+                            <span
+                              key={`${row.region_code}-${row.category_id}-${code}`}
+                              className="inline-flex items-center rounded-full border border-slate-200 bg-white px-3 py-1 text-xs font-medium text-slate-700"
+                            >
+                              {humanReason(code)}
+                            </span>
+                          ))}
+                        </div>
+                      </div>
+
+                      <div className="grid min-w-[220px] grid-cols-2 gap-2">
+                        <div className="rounded-xl border border-slate-200 bg-white p-3">
+                          <div className="text-[11px] uppercase tracking-wide text-slate-500">
+                            시장위험
+                          </div>
+                          <div className="mt-1 text-lg font-semibold text-slate-950">
+                            {formatScore(row.integrated_market_score, 0)}
+                          </div>
+                        </div>
+                        <div className="rounded-xl border border-slate-200 bg-white p-3">
+                          <div className="text-[11px] uppercase tracking-wide text-slate-500">
+                            NTS
+                          </div>
+                          <div className="mt-1 text-lg font-semibold text-slate-950">
+                            {formatScore(row.nts_business_score, 0)}
+                          </div>
+                        </div>
+                        <div className="rounded-xl border border-slate-200 bg-white p-3">
+                          <div className="text-[11px] uppercase tracking-wide text-slate-500">
+                            외부폐업
+                          </div>
+                          <div className="mt-1 text-lg font-semibold text-slate-950">
+                            {formatScore(row.kosis_pressure_score, 0)}
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </Link>
+                ))}
+              </div>
+            )}
+          </Panel>
+
+          <Panel
+            title="최신 위험 신호"
+            description="최근 감지된 시그널입니다."
+            actionHref="/signals"
+            actionLabel="전체 보기"
+          >
+            {signals.length === 0 ? (
+              <EmptyState text="표시할 위험 신호가 없습니다." />
+            ) : (
+              <div className="grid gap-3">
+                {signals.map((signal) => (
+                  <Link
+                    key={String(signal.id ?? `${signal.signal_date}-${signal.category_id}`)}
+                    href={`/regions/${signal.region_code}/${signal.category_id}`}
+                    className="rounded-2xl border border-slate-200 bg-slate-50 p-4 transition hover:border-sky-200 hover:bg-sky-50/40"
+                  >
+                    <div className="mb-2 flex flex-wrap items-center gap-2">
+                      <span
+                        className={`inline-flex items-center rounded-full border px-2.5 py-1 text-xs font-medium ${signalTone(
+                          signal.signal_level,
+                        )}`}
+                      >
+                        {signal.signal_level || "signal"}
+                      </span>
+                      <span className="text-xs text-slate-500">
+                        {formatDate(signal.signal_date || signal.score_date)}
+                      </span>
+                    </div>
+
+                    <div className="text-base font-semibold text-slate-950">
+                      {signal.title || "시그널"}
+                    </div>
+
+                    {signal.message ? (
+                      <div className="mt-2 text-sm leading-6 text-slate-600">
+                        {signal.message}
+                      </div>
+                    ) : null}
+                  </Link>
+                ))}
+              </div>
+            )}
+          </Panel>
+        </section>
+      </div>
+    </main>
   );
 }

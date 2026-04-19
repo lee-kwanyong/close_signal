@@ -1,0 +1,385 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA010120220807859792"
+				,"bizesNm" : "돌담정"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46150"
+				,"signguNm" : "순천시"
+				,"adongCd" : "46150370"
+				,"adongNm" : "외서면"
+				,"ldongCd" : "4615037028"
+				,"ldongNm" : "외서면"
+				,"lnoCd" : "4615037028103360000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 336
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 순천시 외서면 장산리 336"
+				,"rdnmCd" : "461504649218"
+				,"rdnm" : "전라남도 순천시 외서면 대전길"
+				,"bldMnno" : 204
+				,"bldSlno" : ""
+				,"bldMngNo" : "4615037028103360000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 순천시 외서면 대전길 204"
+				,"oldZipcd" : "540922"
+				,"newZipcd" : "57915"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.268562675101
+				,"lat" : 34.8946742745282
+				}
+				,{
+				"bizesId" : "MA010120220811577476"
+				,"bizesNm" : "해맑은농장"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G205"
+				,"indsMclsNm" : "식료품 소매"
+				,"indsSclsCd" : "G20506"
+				,"indsSclsNm" : "채소/과일 소매업"
+				,"ksicCd" : "G47215"
+				,"ksicNm" : "채소, 과실 및 뿌리작물 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46780"
+				,"signguNm" : "보성군"
+				,"adongCd" : "46780253"
+				,"adongNm" : "벌교읍"
+				,"ldongCd" : "4678025327"
+				,"ldongNm" : "벌교읍"
+				,"lnoCd" : "4678025327106540001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 654
+				,"lnoSlno" : 1
+				,"lnoAdr" : "전라남도 보성군 벌교읍 징광리 654-1"
+				,"rdnmCd" : "467804670010"
+				,"rdnm" : "전라남도 보성군 벌교읍 개곡길"
+				,"bldMnno" : 63
+				,"bldSlno" : 1
+				,"bldMngNo" : "4678025327106540001712323"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 보성군 벌교읍 개곡길 63-1"
+				,"oldZipcd" : "546902"
+				,"newZipcd" : "59414"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.28093316727
+				,"lat" : 34.8616551549318
+				}
+				,{
+				"bizesId" : "MA010120220812891573"
+				,"bizesNm" : "하리바이오팜법인"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G219"
+				,"indsMclsNm" : "식물 소매"
+				,"indsSclsCd" : "G21901"
+				,"indsSclsNm" : "꽃집"
+				,"ksicCd" : "G47851"
+				,"ksicNm" : "화초 및 식물 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46150"
+				,"signguNm" : "순천시"
+				,"adongCd" : "46150370"
+				,"adongNm" : "외서면"
+				,"ldongCd" : "4615037028"
+				,"ldongNm" : "외서면"
+				,"lnoCd" : "4615037028101050007"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 105
+				,"lnoSlno" : 7
+				,"lnoAdr" : "전라남도 순천시 외서면 장산리 105-7"
+				,"rdnmCd" : "461504649218"
+				,"rdnm" : "전라남도 순천시 외서면 대전길"
+				,"bldMnno" : 19
+				,"bldSlno" : ""
+				,"bldMngNo" : "4615037028101050007067246"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 순천시 외서면 대전길 19"
+				,"oldZipcd" : "540922"
+				,"newZipcd" : "57915"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.282403696149
+				,"lat" : 34.8983296127673
+				}
+				,{
+				"bizesId" : "MA0101202211A0008552"
+				,"bizesNm" : "석거리식당"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46780"
+				,"signguNm" : "보성군"
+				,"adongCd" : "46780253"
+				,"adongNm" : "벌교읍"
+				,"ldongCd" : "4678025326"
+				,"ldongNm" : "벌교읍"
+				,"lnoCd" : "4678025326110610001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 1061
+				,"lnoSlno" : 1
+				,"lnoAdr" : "전라남도 보성군 벌교읍 추동리 1061-1"
+				,"rdnmCd" : "467804649640"
+				,"rdnm" : "전라남도 보성군 벌교읍 쌍향수길"
+				,"bldMnno" : 229
+				,"bldSlno" : ""
+				,"bldMngNo" : "4678025326110610001710227"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 보성군 벌교읍 쌍향수길 229"
+				,"oldZipcd" : "546902"
+				,"newZipcd" : "59414"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.283997559387
+				,"lat" : 34.8973163370963
+				}
+				,{
+				"bizesId" : "MA0101202412A0073327"
+				,"bizesNm" : "하나인력"
+				,"brchNm" : ""
+				,"indsLclsCd" : "N1"
+				,"indsLclsNm" : "시설관리·임대"
+				,"indsMclsCd" : "N104"
+				,"indsMclsNm" : "고용 알선"
+				,"indsSclsCd" : "N10401"
+				,"indsSclsNm" : "고용 알선업"
+				,"ksicCd" : "N75110"
+				,"ksicNm" : "고용 알선업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46780"
+				,"signguNm" : "보성군"
+				,"adongCd" : "46780253"
+				,"adongNm" : "벌교읍"
+				,"ldongCd" : "4678025327"
+				,"ldongNm" : "벌교읍"
+				,"lnoCd" : "4678025327104870009"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 487
+				,"lnoSlno" : 9
+				,"lnoAdr" : "전라남도 보성군 벌교읍 징광리 487-9"
+				,"rdnmCd" : "467804670402"
+				,"rdnm" : "전라남도 보성군 벌교읍 징광길"
+				,"bldMnno" : 178
+				,"bldSlno" : 83
+				,"bldMngNo" : "4678025327104870009000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 보성군 벌교읍 징광길 178-83"
+				,"oldZipcd" : "546902"
+				,"newZipcd" : "59414"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.286204180034
+				,"lat" : 34.8710985437096
+				}
+				,{
+				"bizesId" : "MA010120220812051998"
+				,"bizesNm" : "백이산매점"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G204"
+				,"indsMclsNm" : "종합 소매"
+				,"indsSclsCd" : "G20499"
+				,"indsSclsNm" : "그 외 기타 종합 소매업"
+				,"ksicCd" : "G47190"
+				,"ksicNm" : "그 외 기타 종합 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46780"
+				,"signguNm" : "보성군"
+				,"adongCd" : "46780253"
+				,"adongNm" : "벌교읍"
+				,"ldongCd" : "4678025326"
+				,"ldongNm" : "벌교읍"
+				,"lnoCd" : "4678025326110740000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 1074
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 보성군 벌교읍 추동리 1074"
+				,"rdnmCd" : "467803290010"
+				,"rdnm" : "전라남도 보성군 벌교읍 율어로"
+				,"bldMnno" : 1721
+				,"bldSlno" : 38
+				,"bldMngNo" : "4678025326110740000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 보성군 벌교읍 율어로 1721-38"
+				,"oldZipcd" : "546902"
+				,"newZipcd" : "59414"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.29037531411
+				,"lat" : 34.8909193909665
+				}
+				,{
+				"bizesId" : "MA0101202408A0054008"
+				,"bizesNm" : "레몬에이스"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G205"
+				,"indsMclsNm" : "식료품 소매"
+				,"indsSclsCd" : "G20506"
+				,"indsSclsNm" : "채소/과일 소매업"
+				,"ksicCd" : "G47215"
+				,"ksicNm" : "채소, 과실 및 뿌리작물 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46780"
+				,"signguNm" : "보성군"
+				,"adongCd" : "46780253"
+				,"adongNm" : "벌교읍"
+				,"ldongCd" : "4678025326"
+				,"ldongNm" : "벌교읍"
+				,"lnoCd" : "4678025326101260000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 126
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 보성군 벌교읍 추동리 126"
+				,"rdnmCd" : "467804670056"
+				,"rdnm" : "전라남도 보성군 벌교읍 내추길"
+				,"bldMnno" : 98
+				,"bldSlno" : 1
+				,"bldMngNo" : "4678025326101260000710542"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 보성군 벌교읍 내추길 98-1"
+				,"oldZipcd" : "546902"
+				,"newZipcd" : "59414"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.291847360829
+				,"lat" : 34.8771785812019
+				}
+				,{
+				"bizesId" : "MA010120220813196306"
+				,"bizesNm" : "태백산맥휴게소"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G204"
+				,"indsMclsNm" : "종합 소매"
+				,"indsSclsCd" : "G20404"
+				,"indsSclsNm" : "슈퍼마켓"
+				,"ksicCd" : "G47129"
+				,"ksicNm" : "기타 음ㆍ식료품 위주 종합 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46780"
+				,"signguNm" : "보성군"
+				,"adongCd" : "46780253"
+				,"adongNm" : "벌교읍"
+				,"ldongCd" : "4678025326"
+				,"ldongNm" : "벌교읍"
+				,"lnoCd" : "4678025326104610001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 461
+				,"lnoSlno" : 1
+				,"lnoAdr" : "전라남도 보성군 벌교읍 추동리 461-1"
+				,"rdnmCd" : "467803290010"
+				,"rdnm" : "전라남도 보성군 벌교읍 율어로"
+				,"bldMnno" : 1773
+				,"bldSlno" : ""
+				,"bldMngNo" : "4678025326104610001000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 보성군 벌교읍 율어로 1773"
+				,"oldZipcd" : "546902"
+				,"newZipcd" : "59414"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.293600383635
+				,"lat" : 34.884160188054
+				}
+				,{
+				"bizesId" : "MA0106202509A0299028"
+				,"bizesNm" : "일은농산"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G205"
+				,"indsMclsNm" : "식료품 소매"
+				,"indsSclsCd" : "G20502"
+				,"indsSclsNm" : "가축 사료 소매업"
+				,"ksicCd" : "G47211"
+				,"ksicNm" : "곡물, 곡분 및 가축 사료 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46780"
+				,"signguNm" : "보성군"
+				,"adongCd" : "46780253"
+				,"adongNm" : "벌교읍"
+				,"ldongCd" : "4678025327"
+				,"ldongNm" : "벌교읍"
+				,"lnoCd" : "4678025327100420001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 42
+				,"lnoSlno" : 1
+				,"lnoAdr" : "전라남도 보성군 벌교읍 징광리 42-1"
+				,"rdnmCd" : "467804670161"
+				,"rdnm" : "전라남도 보성군 벌교읍 벌교세동길"
+				,"bldMnno" : 7
+				,"bldSlno" : 9
+				,"bldMngNo" : "4678025327100420001711945"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 보성군 벌교읍 벌교세동길 7-9"
+				,"oldZipcd" : "546902"
+				,"newZipcd" : "59414"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.296579207934
+				,"lat" : 34.8729395751865
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 1,
+		"totalCount" : 9	}
+}

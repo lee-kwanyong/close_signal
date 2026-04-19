@@ -1,0 +1,303 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA0101202303A0091606"
+				,"bizesNm" : "휴하우스"
+				,"brchNm" : ""
+				,"indsLclsCd" : "R1"
+				,"indsLclsNm" : "예술·스포츠"
+				,"indsMclsCd" : "R102"
+				,"indsMclsNm" : "도서관·사적지"
+				,"indsSclsCd" : "R10202"
+				,"indsSclsNm" : "독서실/스터디 카페"
+				,"ksicCd" : "R90212"
+				,"ksicNm" : "독서실 운영업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52790"
+				,"signguNm" : "고창군"
+				,"adongCd" : "52790400"
+				,"adongNm" : "흥덕면"
+				,"ldongCd" : "5279040031"
+				,"ldongNm" : "흥덕면"
+				,"lnoCd" : "5279040031101190009"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 119
+				,"lnoSlno" : 9
+				,"lnoAdr" : "전북특별자치도 고창군 흥덕면 석우리 119-9"
+				,"rdnmCd" : "527903279073"
+				,"rdnm" : "전북특별자치도 고창군 흥덕면 동림로"
+				,"bldMnno" : 170
+				,"bldSlno" : ""
+				,"bldMngNo" : "4579040031101190009000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 고창군 흥덕면 동림로 170"
+				,"oldZipcd" : "585824"
+				,"newZipcd" : "56412"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.714362872233
+				,"lat" : 35.558233257595
+				}
+				,{
+				"bizesId" : "MA0101202309A0060056"
+				,"bizesNm" : "영생인테리어"
+				,"brchNm" : ""
+				,"indsLclsCd" : "M1"
+				,"indsLclsNm" : "과학·기술"
+				,"indsMclsCd" : "M112"
+				,"indsMclsNm" : "전문 디자인"
+				,"indsSclsCd" : "M11201"
+				,"indsSclsNm" : "인테리어 디자인업"
+				,"ksicCd" : "F42412"
+				,"ksicNm" : "도배, 실내 장식 및 내장 목공사업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52800"
+				,"signguNm" : "부안군"
+				,"adongCd" : "52800410"
+				,"adongNm" : "줄포면"
+				,"ldongCd" : "5280041025"
+				,"ldongNm" : "줄포면"
+				,"lnoCd" : "5280041025105120000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 512
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전북특별자치도 부안군 줄포면 난산리 512"
+				,"rdnmCd" : "528004640206"
+				,"rdnm" : "전북특별자치도 부안군 줄포면 목상길"
+				,"bldMnno" : 16
+				,"bldSlno" : ""
+				,"bldMngNo" : "4580041025105120000071049"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 부안군 줄포면 목상길 16"
+				,"oldZipcd" : "579881"
+				,"newZipcd" : "56324"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.718173666507
+				,"lat" : 35.5881471712612
+				}
+				,{
+				"bizesId" : "MA010120220810078786"
+				,"bizesNm" : "예나건축인테리어"
+				,"brchNm" : ""
+				,"indsLclsCd" : "M1"
+				,"indsLclsNm" : "과학·기술"
+				,"indsMclsCd" : "M112"
+				,"indsMclsNm" : "전문 디자인"
+				,"indsSclsCd" : "M11201"
+				,"indsSclsNm" : "인테리어 디자인업"
+				,"ksicCd" : "F42412"
+				,"ksicNm" : "도배, 실내 장식 및 내장 목공사업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52800"
+				,"signguNm" : "부안군"
+				,"adongCd" : "52800410"
+				,"adongNm" : "줄포면"
+				,"ldongCd" : "5280041025"
+				,"ldongNm" : "줄포면"
+				,"lnoCd" : "5280041025102910001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 291
+				,"lnoSlno" : 1
+				,"lnoAdr" : "전북특별자치도 부안군 줄포면 난산리 291-1"
+				,"rdnmCd" : "528004640206"
+				,"rdnm" : "전북특별자치도 부안군 줄포면 목상길"
+				,"bldMnno" : 5
+				,"bldSlno" : 11
+				,"bldMngNo" : "4580041025102910001000001"
+				,"bldNm" : "단독주택"
+				,"rdnmAdr" : "전북특별자치도 부안군 줄포면 목상길 5-11"
+				,"oldZipcd" : "579881"
+				,"newZipcd" : "56324"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.718585793325
+				,"lat" : 35.5870395448182
+				}
+				,{
+				"bizesId" : "MA010120220807351867"
+				,"bizesNm" : "침선방"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G209"
+				,"indsMclsNm" : "섬유·의복·신발 소매"
+				,"indsSclsCd" : "G20909"
+				,"indsSclsNm" : "실/섬유제품 소매업"
+				,"ksicCd" : "G47429"
+				,"ksicNm" : "섬유 원단, 실 및 기타 섬유제품 소매업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52790"
+				,"signguNm" : "고창군"
+				,"adongCd" : "52790410"
+				,"adongNm" : "성내면"
+				,"ldongCd" : "5279041026"
+				,"ldongNm" : "성내면"
+				,"lnoCd" : "5279041026107020001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 702
+				,"lnoSlno" : 1
+				,"lnoAdr" : "전북특별자치도 고창군 성내면 신성리 702-1"
+				,"rdnmCd" : "527904853968"
+				,"rdnm" : "전북특별자치도 고창군 성내면 신성관동길"
+				,"bldMnno" : 43
+				,"bldSlno" : ""
+				,"bldMngNo" : "4579041026107020001017677"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 고창군 성내면 신성관동길 43"
+				,"oldZipcd" : "585812"
+				,"newZipcd" : "56419"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.730510787376
+				,"lat" : 35.5581081977914
+				}
+				,{
+				"bizesId" : "MA010120220812528236"
+				,"bizesNm" : "영용이네농장"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G205"
+				,"indsMclsNm" : "식료품 소매"
+				,"indsSclsCd" : "G20506"
+				,"indsSclsNm" : "채소/과일 소매업"
+				,"ksicCd" : "G47215"
+				,"ksicNm" : "채소, 과실 및 뿌리작물 소매업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52180"
+				,"signguNm" : "정읍시"
+				,"adongCd" : "52180340"
+				,"adongNm" : "고부면"
+				,"ldongCd" : "5218034022"
+				,"ldongNm" : "고부면"
+				,"lnoCd" : "5218034022101050013"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 105
+				,"lnoSlno" : 13
+				,"lnoAdr" : "전북특별자치도 정읍시 고부면 백운리 105-13"
+				,"rdnmCd" : "521804610047"
+				,"rdnm" : "전북특별자치도 정읍시 고부면 고부백운길"
+				,"bldMnno" : 145
+				,"bldSlno" : 31
+				,"bldMngNo" : "4518034022101050013070271"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 정읍시 고부면 고부백운길 145-31"
+				,"oldZipcd" : "580863"
+				,"newZipcd" : "56152"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.73765830284
+				,"lat" : 35.5715622855618
+				}
+				,{
+				"bizesId" : "MA010120220807377167"
+				,"bizesNm" : "정익의료재단"
+				,"brchNm" : ""
+				,"indsLclsCd" : "Q1"
+				,"indsLclsNm" : "보건의료"
+				,"indsMclsCd" : "Q101"
+				,"indsMclsNm" : "병원"
+				,"indsSclsCd" : "Q10105"
+				,"indsSclsNm" : "요양병원"
+				,"ksicCd" : "Q86105"
+				,"ksicNm" : "요양병원"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52790"
+				,"signguNm" : "고창군"
+				,"adongCd" : "52790410"
+				,"adongNm" : "성내면"
+				,"ldongCd" : "5279041026"
+				,"ldongNm" : "성내면"
+				,"lnoCd" : "5279041026100050000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 5
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전북특별자치도 고창군 성내면 신성리 5"
+				,"rdnmCd" : "527903279049"
+				,"rdnm" : "전북특별자치도 고창군 성내면 이재로"
+				,"bldMnno" : 81
+				,"bldSlno" : 9
+				,"bldMngNo" : "4579041026100050000016535"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 고창군 성내면 이재로 81-9"
+				,"oldZipcd" : "585812"
+				,"newZipcd" : "56419"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.743380516752
+				,"lat" : 35.5587131062544
+				}
+				,{
+				"bizesId" : "MA0101202307A0053529"
+				,"bizesNm" : "빛나는하루"
+				,"brchNm" : ""
+				,"indsLclsCd" : "N1"
+				,"indsLclsNm" : "시설관리·임대"
+				,"indsMclsCd" : "N102"
+				,"indsMclsNm" : "청소·방제"
+				,"indsSclsCd" : "N10201"
+				,"indsSclsNm" : "건축물 일반 청소업"
+				,"ksicCd" : "N74211"
+				,"ksicNm" : "건축물 일반 청소업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52180"
+				,"signguNm" : "정읍시"
+				,"adongCd" : "52180340"
+				,"adongNm" : "고부면"
+				,"ldongCd" : "5218034028"
+				,"ldongNm" : "고부면"
+				,"lnoCd" : "5218034028108800001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 880
+				,"lnoSlno" : 1
+				,"lnoAdr" : "전북특별자치도 정읍시 고부면 강고리 880-1"
+				,"rdnmCd" : "521804610889"
+				,"rdnm" : "전북특별자치도 정읍시 고부면 종암길"
+				,"bldMnno" : 51
+				,"bldSlno" : ""
+				,"bldMngNo" : "4518034028108800001078561"
+				,"bldNm" : "주택"
+				,"rdnmAdr" : "전북특별자치도 정읍시 고부면 종암길 51"
+				,"oldZipcd" : "580861"
+				,"newZipcd" : "56152"
+				,"dongNo" : ""
+				,"flrNo" : "1"
+				,"hoNo" : ""
+				,"lon" : 126.744399677957
+				,"lat" : 35.5851051932856
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 1,
+		"totalCount" : 7	}
+}

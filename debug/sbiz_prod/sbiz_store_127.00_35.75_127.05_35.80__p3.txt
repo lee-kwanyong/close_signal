@@ -1,0 +1,344 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA0106202509A0676933"
+				,"bizesNm" : "목우촌주유소"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G214"
+				,"indsMclsNm" : "연료 소매"
+				,"indsSclsCd" : "G21401"
+				,"indsSclsNm" : "주유소"
+				,"ksicCd" : "G47711"
+				,"ksicNm" : "운송장비용 주유소 운영업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52210"
+				,"signguNm" : "김제시"
+				,"adongCd" : "52210420"
+				,"adongNm" : "금구면"
+				,"ldongCd" : "5221042023"
+				,"ldongNm" : "금구면"
+				,"lnoCd" : "5221042023100780007"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 78
+				,"lnoSlno" : 7
+				,"lnoAdr" : "전북특별자치도 김제시 금구면 용복리 78-7"
+				,"rdnmCd" : "522104616080"
+				,"rdnm" : "전북특별자치도 김제시 금구면 구성길"
+				,"bldMnno" : 720
+				,"bldSlno" : ""
+				,"bldMngNo" : "4521042023100780007035880"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 김제시 금구면 구성길 720"
+				,"oldZipcd" : "576941"
+				,"newZipcd" : "54351"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.002067683539
+				,"lat" : 35.7570976719634
+				}
+				,{
+				"bizesId" : "MA0106202507A1142728"
+				,"bizesNm" : "미소밥상"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52210"
+				,"signguNm" : "김제시"
+				,"adongCd" : "52210450"
+				,"adongNm" : "금산면"
+				,"ldongCd" : "5221045032"
+				,"ldongNm" : "금산면"
+				,"lnoCd" : "5221045032100090066"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 9
+				,"lnoSlno" : 66
+				,"lnoAdr" : "전북특별자치도 김제시 금산면 용산리 9-66"
+				,"rdnmCd" : "522104616080"
+				,"rdnm" : "전북특별자치도 김제시 금산면 구성길"
+				,"bldMnno" : 606
+				,"bldSlno" : ""
+				,"bldMngNo" : "4521045032100090066040104"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 김제시 금산면 구성길 606"
+				,"oldZipcd" : "576964"
+				,"newZipcd" : "54346"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.002753070141
+				,"lat" : 35.7525822923003
+				}
+				,{
+				"bizesId" : "MA0106202509A0826906"
+				,"bizesNm" : "치킨매니아"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I210"
+				,"indsMclsNm" : "기타 간이"
+				,"indsSclsCd" : "I21006"
+				,"indsSclsNm" : "치킨"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52210"
+				,"signguNm" : "김제시"
+				,"adongCd" : "52210420"
+				,"adongNm" : "금구면"
+				,"ldongCd" : "5221042034"
+				,"ldongNm" : "금구면"
+				,"lnoCd" : "5221042034101700000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 170
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전북특별자치도 김제시 금구면 서도리 170"
+				,"rdnmCd" : "522103272027"
+				,"rdnm" : "전북특별자치도 김제시 금구면 봉두로"
+				,"bldMnno" : 21
+				,"bldSlno" : ""
+				,"bldMngNo" : "5221042034101700000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 김제시 금구면 봉두로 21"
+				,"oldZipcd" : "576941"
+				,"newZipcd" : "54350"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.005518563512
+				,"lat" : 35.7723740753714
+				}
+				,{
+				"bizesId" : "MA0106202509A0950924"
+				,"bizesNm" : "나린가비"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52210"
+				,"signguNm" : "김제시"
+				,"adongCd" : "52210420"
+				,"adongNm" : "금구면"
+				,"ldongCd" : "5221042021"
+				,"ldongNm" : "금구면"
+				,"lnoCd" : "5221042021103570003"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 357
+				,"lnoSlno" : 3
+				,"lnoAdr" : "전북특별자치도 김제시 금구면 금구리 357-3"
+				,"rdnmCd" : "522103272027"
+				,"rdnm" : "전북특별자치도 김제시 금구면 봉두로"
+				,"bldMnno" : 55
+				,"bldSlno" : 28
+				,"bldMngNo" : "4521042021103570003039366"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 김제시 금구면 봉두로 55-28"
+				,"oldZipcd" : "576941"
+				,"newZipcd" : "54350"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.007343632348
+				,"lat" : 35.775564465688
+				}
+				,{
+				"bizesId" : "MA0106202510A1717207"
+				,"bizesNm" : "밥줘요"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52210"
+				,"signguNm" : "김제시"
+				,"adongCd" : "52210420"
+				,"adongNm" : "금구면"
+				,"ldongCd" : "5221042021"
+				,"ldongNm" : "금구면"
+				,"lnoCd" : "5221042021104910001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 491
+				,"lnoSlno" : 1
+				,"lnoAdr" : "전북특별자치도 김제시 금구면 금구리 491-1"
+				,"rdnmCd" : "522103272005"
+				,"rdnm" : "전북특별자치도 김제시 금구면 금구로"
+				,"bldMnno" : 36
+				,"bldSlno" : ""
+				,"bldMngNo" : "4521042021104910001039437"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 김제시 금구면 금구로 36"
+				,"oldZipcd" : "576941"
+				,"newZipcd" : "54351"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.010959901448
+				,"lat" : 35.773752642501
+				}
+				,{
+				"bizesId" : "MA0106202509A0445855"
+				,"bizesNm" : "쉬고팜"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G221"
+				,"indsMclsNm" : "기타 상품 소매"
+				,"indsSclsCd" : "G22199"
+				,"indsSclsNm" : "그 외 기타 상품 전문 소매업"
+				,"ksicCd" : "G47859"
+				,"ksicNm" : "그 외 기타 분류 안된 상품 전문 소매업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52210"
+				,"signguNm" : "김제시"
+				,"adongCd" : "52210420"
+				,"adongNm" : "금구면"
+				,"ldongCd" : "5221042027"
+				,"ldongNm" : "금구면"
+				,"lnoCd" : "5221042027100700000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 70
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전북특별자치도 김제시 금구면 대화리 70"
+				,"rdnmCd" : "522104616240"
+				,"rdnm" : "전북특별자치도 김제시 금구면 대화2길"
+				,"bldMnno" : 66
+				,"bldSlno" : 74
+				,"bldMngNo" : "4521042027100700000034842"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 김제시 금구면 대화2길 66-74"
+				,"oldZipcd" : "576943"
+				,"newZipcd" : "54341"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.040389527162
+				,"lat" : 35.7965393776532
+				}
+				,{
+				"bizesId" : "MA0106202509A1230121"
+				,"bizesNm" : "대율정육식당"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20108"
+				,"indsSclsNm" : "소고기 구이/찜"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52210"
+				,"signguNm" : "김제시"
+				,"adongCd" : "52210420"
+				,"adongNm" : "금구면"
+				,"ldongCd" : "5221042027"
+				,"ldongNm" : "금구면"
+				,"lnoCd" : "5221042027101180002"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 118
+				,"lnoSlno" : 2
+				,"lnoAdr" : "전북특별자치도 김제시 금구면 대화리 118-2"
+				,"rdnmCd" : "522103272091"
+				,"rdnm" : "전북특별자치도 김제시 금구면 선비로"
+				,"bldMnno" : 1202
+				,"bldSlno" : 7
+				,"bldMngNo" : "4521042027101180002000002"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 김제시 금구면 선비로 1202-7"
+				,"oldZipcd" : "576943"
+				,"newZipcd" : "54341"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.043352475248
+				,"lat" : 35.7931766290644
+				}
+				,{
+				"bizesId" : "MA0106202509A1673626"
+				,"bizesNm" : "백산농원"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G205"
+				,"indsMclsNm" : "식료품 소매"
+				,"indsSclsCd" : "G20502"
+				,"indsSclsNm" : "가축 사료 소매업"
+				,"ksicCd" : "G47211"
+				,"ksicNm" : "곡물, 곡분 및 가축 사료 소매업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52710"
+				,"signguNm" : "완주군"
+				,"adongCd" : "52710330"
+				,"adongNm" : "이서면"
+				,"ldongCd" : "5271033025"
+				,"ldongNm" : "이서면"
+				,"lnoCd" : "5271033025103930006"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 393
+				,"lnoSlno" : 6
+				,"lnoAdr" : "전북특별자치도 완주군 이서면 이성리 393-6"
+				,"rdnmCd" : "527103273066"
+				,"rdnm" : "전북특별자치도 완주군 이서면 이서남로"
+				,"bldMnno" : 10
+				,"bldSlno" : ""
+				,"bldMngNo" : "4571033025103930006016508"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 완주군 이서면 이서남로 10"
+				,"oldZipcd" : "565851"
+				,"newZipcd" : "55368"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.048497611316
+				,"lat" : 35.7952295472963
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 3,
+		"totalCount" : 208	}
+}

@@ -1,0 +1,303 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA0101202408A0002609"
+				,"bizesNm" : "흑산홍어"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G205"
+				,"indsMclsNm" : "식료품 소매"
+				,"indsSclsCd" : "G20505"
+				,"indsSclsNm" : "수산물 소매업"
+				,"ksicCd" : "G47214"
+				,"ksicNm" : "신선, 냉동 및 기타 수산물 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46910"
+				,"signguNm" : "신안군"
+				,"adongCd" : "46910360"
+				,"adongNm" : "흑산면"
+				,"ldongCd" : "4691036023"
+				,"ldongNm" : "흑산면"
+				,"lnoCd" : "4691036023200340007"
+				,"plotSctCd" : "2"
+				,"plotSctNm" : "산"
+				,"lnoMnno" : 34
+				,"lnoSlno" : 7
+				,"lnoAdr" : "전라남도 신안군 흑산면 비리 산 34-7"
+				,"rdnmCd" : "469104706282"
+				,"rdnm" : "전라남도 신안군 흑산면 장도길"
+				,"bldMnno" : 18
+				,"bldSlno" : 3
+				,"bldMngNo" : "4691036023200340007000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 신안군 흑산면 장도길 18-3"
+				,"oldZipcd" : "535912"
+				,"newZipcd" : "58863"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 125.378087298501
+				,"lat" : 34.6780972697251
+				}
+				,{
+				"bizesId" : "MA010120220803049052"
+				,"bizesNm" : "안정아민박"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55104"
+				,"ksicNm" : "민박업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46910"
+				,"signguNm" : "신안군"
+				,"adongCd" : "46910360"
+				,"adongNm" : "흑산면"
+				,"ldongCd" : "4691036025"
+				,"ldongNm" : "흑산면"
+				,"lnoCd" : "4691036025101430000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 143
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 신안군 흑산면 심리 143"
+				,"rdnmCd" : "469104706199"
+				,"rdnm" : "전라남도 신안군 흑산면 심리길"
+				,"bldMnno" : 5
+				,"bldSlno" : 9
+				,"bldMngNo" : "4691036025101430000000003"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 신안군 흑산면 심리길 5-9"
+				,"oldZipcd" : "535912"
+				,"newZipcd" : "58863"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 125.394459818414
+				,"lat" : 34.6522843196176
+				}
+				,{
+				"bizesId" : "MA010120220803569998"
+				,"bizesNm" : "하나네"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55104"
+				,"ksicNm" : "민박업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46910"
+				,"signguNm" : "신안군"
+				,"adongCd" : "46910360"
+				,"adongNm" : "흑산면"
+				,"ldongCd" : "4691036025"
+				,"ldongNm" : "흑산면"
+				,"lnoCd" : "4691036025101960000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 196
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 신안군 흑산면 심리 196"
+				,"rdnmCd" : "469104706199"
+				,"rdnm" : "전라남도 신안군 흑산면 심리길"
+				,"bldMnno" : 29
+				,"bldSlno" : 4
+				,"bldMngNo" : "4691036025101940000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 신안군 흑산면 심리길 29-4"
+				,"oldZipcd" : "535912"
+				,"newZipcd" : "58863"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 125.395785393468
+				,"lat" : 34.6531129486279
+				}
+				,{
+				"bizesId" : "MA010120220807708119"
+				,"bizesNm" : "심리수산물직판장"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20111"
+				,"indsSclsNm" : "횟집"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46910"
+				,"signguNm" : "신안군"
+				,"adongCd" : "46910360"
+				,"adongNm" : "흑산면"
+				,"ldongCd" : "4691036025"
+				,"ldongNm" : "흑산면"
+				,"lnoCd" : "4691036025102000004"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 200
+				,"lnoSlno" : 4
+				,"lnoAdr" : "전라남도 신안군 흑산면 심리 200-4"
+				,"rdnmCd" : "469104706199"
+				,"rdnm" : "전라남도 신안군 흑산면 심리길"
+				,"bldMnno" : 42
+				,"bldSlno" : 6
+				,"bldMngNo" : "4691036025102000004000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 신안군 흑산면 심리길 42-6"
+				,"oldZipcd" : "535912"
+				,"newZipcd" : "58863"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 125.397086290124
+				,"lat" : 34.6529588119431
+				}
+				,{
+				"bizesId" : "MA010120220808203182"
+				,"bizesNm" : "영복다시마"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G205"
+				,"indsMclsNm" : "식료품 소매"
+				,"indsSclsCd" : "G20504"
+				,"indsSclsNm" : "건어물/젓갈 소매업"
+				,"ksicCd" : "G47213"
+				,"ksicNm" : "건어물 및 젓갈류 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46910"
+				,"signguNm" : "신안군"
+				,"adongCd" : "46910360"
+				,"adongNm" : "흑산면"
+				,"ldongCd" : "4691036025"
+				,"ldongNm" : "흑산면"
+				,"lnoCd" : "4691036025100860000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 86
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 신안군 흑산면 심리 86"
+				,"rdnmCd" : "469104706199"
+				,"rdnm" : "전라남도 신안군 흑산면 심리길"
+				,"bldMnno" : 43
+				,"bldSlno" : ""
+				,"bldMngNo" : "4691036025100860000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 신안군 흑산면 심리길 43"
+				,"oldZipcd" : "535912"
+				,"newZipcd" : "58863"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 125.397282366775
+				,"lat" : 34.6535382278805
+				}
+				,{
+				"bizesId" : "MA010120220808427017"
+				,"bizesNm" : "지피미민박"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55104"
+				,"ksicNm" : "민박업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46910"
+				,"signguNm" : "신안군"
+				,"adongCd" : "46910360"
+				,"adongNm" : "흑산면"
+				,"ldongCd" : "4691036025"
+				,"ldongNm" : "흑산면"
+				,"lnoCd" : "4691036025102030000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 203
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 신안군 흑산면 심리 203"
+				,"rdnmCd" : "469104706199"
+				,"rdnm" : "전라남도 신안군 흑산면 심리길"
+				,"bldMnno" : 64
+				,"bldSlno" : ""
+				,"bldMngNo" : "4691036025102030000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 신안군 흑산면 심리길 64"
+				,"oldZipcd" : "535912"
+				,"newZipcd" : "58863"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 125.39736615603
+				,"lat" : 34.6531517664522
+				}
+				,{
+				"bizesId" : "MA010120220813620552"
+				,"bizesNm" : "외갓집민박"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55104"
+				,"ksicNm" : "민박업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46910"
+				,"signguNm" : "신안군"
+				,"adongCd" : "46910360"
+				,"adongNm" : "흑산면"
+				,"ldongCd" : "4691036025"
+				,"ldongNm" : "흑산면"
+				,"lnoCd" : "4691036025102840000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 284
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 신안군 흑산면 심리 284"
+				,"rdnmCd" : "469103302010"
+				,"rdnm" : "전라남도 신안군 흑산면 흑산일주로"
+				,"bldMnno" : 1285
+				,"bldSlno" : 2
+				,"bldMngNo" : "4691036025100680000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 신안군 흑산면 흑산일주로 1285-2"
+				,"oldZipcd" : "535912"
+				,"newZipcd" : "58863"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 125.397626839219
+				,"lat" : 34.6526414468774
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 1,
+		"totalCount" : 7	}
+}

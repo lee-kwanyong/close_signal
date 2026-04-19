@@ -1,0 +1,221 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA010120220807635364"
+				,"bizesNm" : "대창수퍼"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G204"
+				,"indsMclsNm" : "종합 소매"
+				,"indsSclsCd" : "G20404"
+				,"indsSclsNm" : "슈퍼마켓"
+				,"ksicCd" : "G47129"
+				,"ksicNm" : "기타 음ㆍ식료품 위주 종합 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46870"
+				,"signguNm" : "영광군"
+				,"adongCd" : "46870380"
+				,"adongNm" : "낙월면"
+				,"ldongCd" : "4687038022"
+				,"ldongNm" : "낙월면"
+				,"lnoCd" : "4687038022202230000"
+				,"plotSctCd" : "2"
+				,"plotSctNm" : "산"
+				,"lnoMnno" : 223
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 영광군 낙월면 하낙월리 산 223"
+				,"rdnmCd" : "468704694027"
+				,"rdnm" : "전라남도 영광군 낙월면 낙월길2길"
+				,"bldMnno" : 19
+				,"bldSlno" : ""
+				,"bldMngNo" : "4687038022202210000026589"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 영광군 낙월면 낙월길2길 19"
+				,"oldZipcd" : "513891"
+				,"newZipcd" : "57068"
+				,"dongNo" : ""
+				,"flrNo" : "1"
+				,"hoNo" : ""
+				,"lon" : 126.128568838867
+				,"lat" : 35.1941842105314
+				}
+				,{
+				"bizesId" : "MA010120220812702438"
+				,"bizesNm" : "진월민박"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55104"
+				,"ksicNm" : "민박업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46870"
+				,"signguNm" : "영광군"
+				,"adongCd" : "46870380"
+				,"adongNm" : "낙월면"
+				,"ldongCd" : "4687038022"
+				,"ldongNm" : "낙월면"
+				,"lnoCd" : "4687038022202380000"
+				,"plotSctCd" : "2"
+				,"plotSctNm" : "산"
+				,"lnoMnno" : 238
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 영광군 낙월면 하낙월리 산 238"
+				,"rdnmCd" : "468704694027"
+				,"rdnm" : "전라남도 영광군 낙월면 낙월길2길"
+				,"bldMnno" : 30
+				,"bldSlno" : 1
+				,"bldMngNo" : "4687038022202380000026550"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 영광군 낙월면 낙월길2길 30-1"
+				,"oldZipcd" : "513891"
+				,"newZipcd" : "57068"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.129036019444
+				,"lat" : 35.1936197404378
+				}
+				,{
+				"bizesId" : "MA010120220807594260"
+				,"bizesNm" : "업소명없음"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G204"
+				,"indsMclsNm" : "종합 소매"
+				,"indsSclsCd" : "G20404"
+				,"indsSclsNm" : "슈퍼마켓"
+				,"ksicCd" : "G47129"
+				,"ksicNm" : "기타 음ㆍ식료품 위주 종합 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46870"
+				,"signguNm" : "영광군"
+				,"adongCd" : "46870380"
+				,"adongNm" : "낙월면"
+				,"ldongCd" : "4687038022"
+				,"ldongNm" : "낙월면"
+				,"lnoCd" : "4687038022202370000"
+				,"plotSctCd" : "2"
+				,"plotSctNm" : "산"
+				,"lnoMnno" : 237
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 영광군 낙월면 하낙월리 산 237"
+				,"rdnmCd" : "468704694027"
+				,"rdnm" : "전라남도 영광군 낙월면 낙월길2길"
+				,"bldMnno" : 30
+				,"bldSlno" : 2
+				,"bldMngNo" : "4687038022203360000026573"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 영광군 낙월면 낙월길2길 30-2"
+				,"oldZipcd" : "513891"
+				,"newZipcd" : "57068"
+				,"dongNo" : ""
+				,"flrNo" : "1"
+				,"hoNo" : ""
+				,"lon" : 126.129034480317
+				,"lat" : 35.1937639404644
+				}
+				,{
+				"bizesId" : "MA010120220803211148"
+				,"bizesNm" : "백하수오집민박"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55104"
+				,"ksicNm" : "민박업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46870"
+				,"signguNm" : "영광군"
+				,"adongCd" : "46870380"
+				,"adongNm" : "낙월면"
+				,"ldongCd" : "4687038022"
+				,"ldongNm" : "낙월면"
+				,"lnoCd" : "4687038022202390000"
+				,"plotSctCd" : "2"
+				,"plotSctNm" : "산"
+				,"lnoMnno" : 239
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 영광군 낙월면 하낙월리 산 239"
+				,"rdnmCd" : "468704694027"
+				,"rdnm" : "전라남도 영광군 낙월면 낙월길2길"
+				,"bldMnno" : 37
+				,"bldSlno" : ""
+				,"bldMngNo" : "4687038022202390000026919"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 영광군 낙월면 낙월길2길 37"
+				,"oldZipcd" : "513891"
+				,"newZipcd" : "57068"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.12968839304
+				,"lat" : 35.193191797485
+				}
+				,{
+				"bizesId" : "MA010120220810503958"
+				,"bizesNm" : "하낙월주민협동조합"
+				,"brchNm" : ""
+				,"indsLclsCd" : "M1"
+				,"indsLclsNm" : "과학·기술"
+				,"indsMclsCd" : "M107"
+				,"indsMclsNm" : "본사·경영 컨설팅"
+				,"indsSclsCd" : "M10703"
+				,"indsSclsNm" : "경영 컨설팅업"
+				,"ksicCd" : "M71531"
+				,"ksicNm" : "경영 컨설팅업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46870"
+				,"signguNm" : "영광군"
+				,"adongCd" : "46870380"
+				,"adongNm" : "낙월면"
+				,"ldongCd" : "4687038022"
+				,"ldongNm" : "낙월면"
+				,"lnoCd" : "4687038022202390000"
+				,"plotSctCd" : "2"
+				,"plotSctNm" : "산"
+				,"lnoMnno" : 239
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 영광군 낙월면 하낙월리 산 239"
+				,"rdnmCd" : "468704694027"
+				,"rdnm" : "전라남도 영광군 낙월면 낙월길2길"
+				,"bldMnno" : 43
+				,"bldSlno" : ""
+				,"bldMngNo" : "4687038022202390000026524"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 영광군 낙월면 낙월길2길 43"
+				,"oldZipcd" : "513891"
+				,"newZipcd" : "57068"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.12997788075
+				,"lat" : 35.1928153234803
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 1,
+		"totalCount" : 5	}
+}

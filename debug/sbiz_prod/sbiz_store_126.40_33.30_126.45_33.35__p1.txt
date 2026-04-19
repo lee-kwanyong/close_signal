@@ -1,0 +1,180 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA010120220811378850"
+				,"bizesNm" : "스위스퍼펙션제주점주"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G215"
+				,"indsMclsNm" : "의약·화장품 소매"
+				,"indsSclsCd" : "G21503"
+				,"indsSclsNm" : "화장품 소매업"
+				,"ksicCd" : "G47813"
+				,"ksicNm" : "화장품, 비누 및 방향제 소매업"
+				,"ctprvnCd" : "50"
+				,"ctprvnNm" : "제주특별자치도"
+				,"signguCd" : "50130"
+				,"signguNm" : "서귀포시"
+				,"adongCd" : "50130310"
+				,"adongNm" : "안덕면"
+				,"ldongCd" : "5013031029"
+				,"ldongNm" : "안덕면"
+				,"lnoCd" : "5013031029200150000"
+				,"plotSctCd" : "2"
+				,"plotSctNm" : "산"
+				,"lnoMnno" : 15
+				,"lnoSlno" : ""
+				,"lnoAdr" : "제주특별자치도 서귀포시 안덕면 광평리 산 15"
+				,"rdnmCd" : "501303350022"
+				,"rdnm" : "제주특별자치도 서귀포시 안덕면 광평로"
+				,"bldMnno" : 34
+				,"bldSlno" : 156
+				,"bldMngNo" : "5013031029200040000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "제주특별자치도 서귀포시 안덕면 광평로 34-156"
+				,"oldZipcd" : "699925"
+				,"newZipcd" : "63524"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.404243531656
+				,"lat" : 33.3403692372119
+				}
+				,{
+				"bizesId" : "MA010120220811352081"
+				,"bizesNm" : "나인브릿지퍼블릭"
+				,"brchNm" : ""
+				,"indsLclsCd" : "R1"
+				,"indsLclsNm" : "예술·스포츠"
+				,"indsMclsCd" : "R103"
+				,"indsMclsNm" : "스포츠 서비스"
+				,"indsSclsCd" : "R10311"
+				,"indsSclsNm" : "골프 연습장"
+				,"ksicCd" : "R91136"
+				,"ksicNm" : "골프 연습장 운영업"
+				,"ctprvnCd" : "50"
+				,"ctprvnNm" : "제주특별자치도"
+				,"signguCd" : "50130"
+				,"signguNm" : "서귀포시"
+				,"adongCd" : "50130310"
+				,"adongNm" : "안덕면"
+				,"ldongCd" : "5013031029"
+				,"ldongNm" : "안덕면"
+				,"lnoCd" : "5013031029200150000"
+				,"plotSctCd" : "2"
+				,"plotSctNm" : "산"
+				,"lnoMnno" : 15
+				,"lnoSlno" : ""
+				,"lnoAdr" : "제주특별자치도 서귀포시 안덕면 광평리 산 15"
+				,"rdnmCd" : "501303350022"
+				,"rdnm" : "제주특별자치도 서귀포시 안덕면 광평로"
+				,"bldMnno" : 34
+				,"bldSlno" : 156
+				,"bldMngNo" : "5013031029200040000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "제주특별자치도 서귀포시 안덕면 광평로 34-156"
+				,"oldZipcd" : "699925"
+				,"newZipcd" : "63524"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.404243531656
+				,"lat" : 33.3403692372119
+				}
+				,{
+				"bizesId" : "MA010120220809650005"
+				,"bizesNm" : "클럽나인브릿지드라이빙레인지"
+				,"brchNm" : ""
+				,"indsLclsCd" : "R1"
+				,"indsLclsNm" : "예술·스포츠"
+				,"indsMclsCd" : "R103"
+				,"indsMclsNm" : "스포츠 서비스"
+				,"indsSclsCd" : "R10311"
+				,"indsSclsNm" : "골프 연습장"
+				,"ksicCd" : "R91136"
+				,"ksicNm" : "골프 연습장 운영업"
+				,"ctprvnCd" : "50"
+				,"ctprvnNm" : "제주특별자치도"
+				,"signguCd" : "50130"
+				,"signguNm" : "서귀포시"
+				,"adongCd" : "50130310"
+				,"adongNm" : "안덕면"
+				,"ldongCd" : "5013031029"
+				,"ldongNm" : "안덕면"
+				,"lnoCd" : "5013031029200150000"
+				,"plotSctCd" : "2"
+				,"plotSctNm" : "산"
+				,"lnoMnno" : 15
+				,"lnoSlno" : ""
+				,"lnoAdr" : "제주특별자치도 서귀포시 안덕면 광평리 산 15"
+				,"rdnmCd" : "501303350022"
+				,"rdnm" : "제주특별자치도 서귀포시 안덕면 광평로"
+				,"bldMnno" : 34
+				,"bldSlno" : 156
+				,"bldMngNo" : "5013031029200040000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "제주특별자치도 서귀포시 안덕면 광평로 34-156"
+				,"oldZipcd" : "699925"
+				,"newZipcd" : "63524"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.404243531656
+				,"lat" : 33.3403692372119
+				}
+				,{
+				"bizesId" : "MA0101202302A0033750"
+				,"bizesNm" : "소각장구내식당"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I207"
+				,"indsMclsNm" : "구내식당·뷔페"
+				,"indsSclsCd" : "I20701"
+				,"indsSclsNm" : "구내식당"
+				,"ksicCd" : "I56130"
+				,"ksicNm" : "기관 구내식당업"
+				,"ctprvnCd" : "50"
+				,"ctprvnNm" : "제주특별자치도"
+				,"signguCd" : "50130"
+				,"signguNm" : "서귀포시"
+				,"adongCd" : "50130620"
+				,"adongNm" : "예래동"
+				,"ldongCd" : "5013011900"
+				,"ldongNm" : "색달동"
+				,"lnoCd" : "5013011900200080001"
+				,"plotSctCd" : "2"
+				,"plotSctNm" : "산"
+				,"lnoMnno" : 8
+				,"lnoSlno" : 1
+				,"lnoAdr" : "제주특별자치도 서귀포시 색달동 산 8-1"
+				,"rdnmCd" : "501304850318"
+				,"rdnm" : "제주특별자치도 서귀포시 산록남로1241번길"
+				,"bldMnno" : 163
+				,"bldSlno" : ""
+				,"bldMngNo" : "5013011900200080001039858"
+				,"bldNm" : "제주도광역폐기물소각시설"
+				,"rdnmAdr" : "제주특별자치도 서귀포시 산록남로1241번길 163"
+				,"oldZipcd" : "697820"
+				,"newZipcd" : "63554"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.4194996051
+				,"lat" : 33.3091735979179
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 1,
+		"totalCount" : 4	}
+}

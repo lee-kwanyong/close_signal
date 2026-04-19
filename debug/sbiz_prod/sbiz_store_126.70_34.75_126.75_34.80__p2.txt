@@ -1,0 +1,262 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA0101202503A0005001"
+				,"bizesNm" : "겔마미라클가호방"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G204"
+				,"indsMclsNm" : "종합 소매"
+				,"indsSclsCd" : "G20499"
+				,"indsSclsNm" : "그 외 기타 종합 소매업"
+				,"ksicCd" : "G47190"
+				,"ksicNm" : "그 외 기타 종합 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46830"
+				,"signguNm" : "영암군"
+				,"adongCd" : "46830250"
+				,"adongNm" : "영암읍"
+				,"ldongCd" : "4683025024"
+				,"ldongNm" : "영암읍"
+				,"lnoCd" : "4683025024100470015"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 47
+				,"lnoSlno" : 15
+				,"lnoAdr" : "전라남도 영암군 영암읍 동무리 47-15"
+				,"rdnmCd" : "468303295080"
+				,"rdnm" : "전라남도 영암군 영암읍 열무정로"
+				,"bldMnno" : 43
+				,"bldSlno" : ""
+				,"bldMngNo" : "4683025024100470015018347"
+				,"bldNm" : "우측호"
+				,"rdnmAdr" : "전라남도 영암군 영암읍 열무정로 43"
+				,"oldZipcd" : "526804"
+				,"newZipcd" : "58416"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.701575335873
+				,"lat" : 34.799407573661
+				}
+				,{
+				"bizesId" : "MA0101202503A0074930"
+				,"bizesNm" : "우리건설"
+				,"brchNm" : ""
+				,"indsLclsCd" : "N1"
+				,"indsLclsNm" : "시설관리·임대"
+				,"indsMclsCd" : "N102"
+				,"indsMclsNm" : "청소·방제"
+				,"indsSclsCd" : "N10201"
+				,"indsSclsNm" : "건축물 일반 청소업"
+				,"ksicCd" : "N74211"
+				,"ksicNm" : "건축물 일반 청소업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46830"
+				,"signguNm" : "영암군"
+				,"adongCd" : "46830250"
+				,"adongNm" : "영암읍"
+				,"ldongCd" : "4683025025"
+				,"ldongNm" : "영암읍"
+				,"lnoCd" : "4683025025101720003"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 172
+				,"lnoSlno" : 3
+				,"lnoAdr" : "전라남도 영암군 영암읍 남풍리 172-3"
+				,"rdnmCd" : "468304685273"
+				,"rdnm" : "전라남도 영암군 영암읍 수양남춘동길"
+				,"bldMnno" : 65
+				,"bldSlno" : ""
+				,"bldMngNo" : "4683025025101720003044487"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 영암군 영암읍 수양남춘동길 65"
+				,"oldZipcd" : "526801"
+				,"newZipcd" : "58421"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.701825098131
+				,"lat" : 34.7937743770776
+				}
+				,{
+				"bizesId" : "MA0106202510A2015794"
+				,"bizesNm" : "영암수양힐링제민박"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10102"
+				,"indsSclsNm" : "여관/모텔"
+				,"ksicCd" : "I55102"
+				,"ksicNm" : "여관업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46830"
+				,"signguNm" : "영암군"
+				,"adongCd" : "46830250"
+				,"adongNm" : "영암읍"
+				,"ldongCd" : "4683025027"
+				,"ldongNm" : "영암읍"
+				,"lnoCd" : "4683025027106430000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 643
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 영암군 영암읍 춘양리 643"
+				,"rdnmCd" : "468304685273"
+				,"rdnm" : "전라남도 영암군 영암읍 수양남춘동길"
+				,"bldMnno" : 37
+				,"bldSlno" : 6
+				,"bldMngNo" : "4683025027106430000014788"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 영암군 영암읍 수양남춘동길 37-6"
+				,"oldZipcd" : "526801"
+				,"newZipcd" : "58421"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.702577541
+				,"lat" : 34.7911531148784
+				}
+				,{
+				"bizesId" : "MA0106202510A0624272"
+				,"bizesNm" : "영암한우직판장"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G205"
+				,"indsMclsNm" : "식료품 소매"
+				,"indsSclsCd" : "G20503"
+				,"indsSclsNm" : "정육점"
+				,"ksicCd" : "G47212"
+				,"ksicNm" : "육류 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46830"
+				,"signguNm" : "영암군"
+				,"adongCd" : "46830250"
+				,"adongNm" : "영암읍"
+				,"ldongCd" : "4683025027"
+				,"ldongNm" : "영암읍"
+				,"lnoCd" : "4683025027104990000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 499
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 영암군 영암읍 춘양리 499"
+				,"rdnmCd" : "468303295019"
+				,"rdnm" : "전라남도 영암군 영암읍 낭주로"
+				,"bldMnno" : 79
+				,"bldSlno" : ""
+				,"bldMngNo" : "4683025027102340000044496"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 영암군 영암읍 낭주로 79"
+				,"oldZipcd" : "526801"
+				,"newZipcd" : "58421"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.706198125023
+				,"lat" : 34.7962188178215
+				}
+				,{
+				"bizesId" : "MA0101202502A0061041"
+				,"bizesNm" : "비바체관광"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55109"
+				,"ksicNm" : "기타 일반 및 생활 숙박시설 운영업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46830"
+				,"signguNm" : "영암군"
+				,"adongCd" : "46830250"
+				,"adongNm" : "영암읍"
+				,"ldongCd" : "4683025028"
+				,"ldongNm" : "영암읍"
+				,"lnoCd" : "4683025028101630001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 163
+				,"lnoSlno" : 1
+				,"lnoAdr" : "전라남도 영암군 영암읍 용흥리 163-1"
+				,"rdnmCd" : "468304685550"
+				,"rdnm" : "전라남도 영암군 영암읍 탑동길"
+				,"bldMnno" : 18
+				,"bldSlno" : 15
+				,"bldMngNo" : "4683025028101630001000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 영암군 영암읍 탑동길 18-15"
+				,"oldZipcd" : "526801"
+				,"newZipcd" : "58421"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.712805497544
+				,"lat" : 34.7878064010701
+				}
+				,{
+				"bizesId" : "MA0106202508A1513812"
+				,"bizesNm" : "진스텔라바이오텍"
+				,"brchNm" : ""
+				,"indsLclsCd" : "M1"
+				,"indsLclsNm" : "과학·기술"
+				,"indsMclsCd" : "M104"
+				,"indsMclsNm" : "회계·세무"
+				,"indsSclsCd" : "M10401"
+				,"indsSclsNm" : "공인회계사"
+				,"ksicCd" : "M71201"
+				,"ksicNm" : "공인회계사업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46830"
+				,"signguNm" : "영암군"
+				,"adongCd" : "46830250"
+				,"adongNm" : "영암읍"
+				,"ldongCd" : "4683025035"
+				,"ldongNm" : "영암읍"
+				,"lnoCd" : "4683025035101560001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 156
+				,"lnoSlno" : 1
+				,"lnoAdr" : "전라남도 영암군 영암읍 학송리 156-1"
+				,"rdnmCd" : "468303284049"
+				,"rdnm" : "전라남도 영암군 영암읍 예향로"
+				,"bldMnno" : 1180
+				,"bldSlno" : ""
+				,"bldMngNo" : "4683025035101560001016742"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 영암군 영암읍 예향로 1180"
+				,"oldZipcd" : "526803"
+				,"newZipcd" : "58422"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.737554527293
+				,"lat" : 34.7873935434084
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 2,
+		"totalCount" : 106	}
+}

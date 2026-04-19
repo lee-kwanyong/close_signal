@@ -1,0 +1,385 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA010120220810555281"
+				,"bizesNm" : "절물자연휴양림휴게소"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G204"
+				,"indsMclsNm" : "종합 소매"
+				,"indsSclsCd" : "G20404"
+				,"indsSclsNm" : "슈퍼마켓"
+				,"ksicCd" : "G47129"
+				,"ksicNm" : "기타 음ㆍ식료품 위주 종합 소매업"
+				,"ctprvnCd" : "50"
+				,"ctprvnNm" : "제주특별자치도"
+				,"signguCd" : "50110"
+				,"signguNm" : "제주시"
+				,"adongCd" : "50110620"
+				,"adongNm" : "봉개동"
+				,"ldongCd" : "5011011600"
+				,"ldongNm" : "봉개동"
+				,"lnoCd" : "5011011600200780001"
+				,"plotSctCd" : "2"
+				,"plotSctNm" : "산"
+				,"lnoMnno" : 78
+				,"lnoSlno" : 1
+				,"lnoAdr" : "제주특별자치도 제주시 봉개동 산 78-1"
+				,"rdnmCd" : "501103349064"
+				,"rdnm" : "제주특별자치도 제주시 명림로"
+				,"bldMnno" : 584
+				,"bldSlno" : ""
+				,"bldMngNo" : "5011011600200780001055840"
+				,"bldNm" : "절물휴양림"
+				,"rdnmAdr" : "제주특별자치도 제주시 명림로 584"
+				,"oldZipcd" : "690090"
+				,"newZipcd" : "63313"
+				,"dongNo" : ""
+				,"flrNo" : "1"
+				,"hoNo" : ""
+				,"lon" : 126.625204943209
+				,"lat" : 33.4400403363588
+				}
+				,{
+				"bizesId" : "MA010120220810960155"
+				,"bizesNm" : "농협목우촌또래오래치킨"
+				,"brchNm" : "한화점"
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I210"
+				,"indsMclsNm" : "기타 간이"
+				,"indsSclsCd" : "I21006"
+				,"indsSclsNm" : "치킨"
+				,"ksicCd" : "I56193"
+				,"ksicNm" : "치킨 전문점"
+				,"ctprvnCd" : "50"
+				,"ctprvnNm" : "제주특별자치도"
+				,"signguCd" : "50110"
+				,"signguNm" : "제주시"
+				,"adongCd" : "50110620"
+				,"adongNm" : "봉개동"
+				,"ldongCd" : "5011013300"
+				,"ldongNm" : "회천동"
+				,"lnoCd" : "5011013300100030016"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 3
+				,"lnoSlno" : 16
+				,"lnoAdr" : "제주특별자치도 제주시 회천동 3-16"
+				,"rdnmCd" : "501103349064"
+				,"rdnm" : "제주특별자치도 제주시 명림로"
+				,"bldMnno" : 575
+				,"bldSlno" : 107
+				,"bldMngNo" : "5011013300100030016065259"
+				,"bldNm" : "한화리조트"
+				,"rdnmAdr" : "제주특별자치도 제주시 명림로 575-107"
+				,"oldZipcd" : "690735"
+				,"newZipcd" : "63330"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.637352110834
+				,"lat" : 33.4490023452781
+				}
+				,{
+				"bizesId" : "MA010120220808818267"
+				,"bizesNm" : "오마이제주"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G218"
+				,"indsMclsNm" : "장식품 소매"
+				,"indsSclsCd" : "G21802"
+				,"indsSclsNm" : "기념품점"
+				,"ksicCd" : "G47842"
+				,"ksicNm" : "기념품, 관광 민예품 및 장식용품 소매업"
+				,"ctprvnCd" : "50"
+				,"ctprvnNm" : "제주특별자치도"
+				,"signguCd" : "50110"
+				,"signguNm" : "제주시"
+				,"adongCd" : "50110620"
+				,"adongNm" : "봉개동"
+				,"ldongCd" : "5011013300"
+				,"ldongNm" : "회천동"
+				,"lnoCd" : "5011013300100030016"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 3
+				,"lnoSlno" : 16
+				,"lnoAdr" : "제주특별자치도 제주시 회천동 3-16"
+				,"rdnmCd" : "501103349064"
+				,"rdnm" : "제주특별자치도 제주시 명림로"
+				,"bldMnno" : 575
+				,"bldSlno" : 107
+				,"bldMngNo" : "5011013300100030016065259"
+				,"bldNm" : "한화리조트"
+				,"rdnmAdr" : "제주특별자치도 제주시 명림로 575-107"
+				,"oldZipcd" : "690735"
+				,"newZipcd" : "63330"
+				,"dongNo" : ""
+				,"flrNo" : "1"
+				,"hoNo" : ""
+				,"lon" : 126.637352110834
+				,"lat" : 33.4490023452781
+				}
+				,{
+				"bizesId" : "MA010120220810362368"
+				,"bizesNm" : "제이피랜드2"
+				,"brchNm" : ""
+				,"indsLclsCd" : "R1"
+				,"indsLclsNm" : "예술·스포츠"
+				,"indsMclsCd" : "R104"
+				,"indsMclsNm" : "유원지·오락"
+				,"indsSclsCd" : "R10407"
+				,"indsSclsNm" : "노래방"
+				,"ksicCd" : "R91223"
+				,"ksicNm" : "노래 연습장 운영업"
+				,"ctprvnCd" : "50"
+				,"ctprvnNm" : "제주특별자치도"
+				,"signguCd" : "50110"
+				,"signguNm" : "제주시"
+				,"adongCd" : "50110620"
+				,"adongNm" : "봉개동"
+				,"ldongCd" : "5011013300"
+				,"ldongNm" : "회천동"
+				,"lnoCd" : "5011013300100030016"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 3
+				,"lnoSlno" : 16
+				,"lnoAdr" : "제주특별자치도 제주시 회천동 3-16"
+				,"rdnmCd" : "501103349064"
+				,"rdnm" : "제주특별자치도 제주시 명림로"
+				,"bldMnno" : 575
+				,"bldSlno" : 107
+				,"bldMngNo" : "5011013300100030016065259"
+				,"bldNm" : "고객샌터동"
+				,"rdnmAdr" : "제주특별자치도 제주시 명림로 575-107"
+				,"oldZipcd" : "690090"
+				,"newZipcd" : "63330"
+				,"dongNo" : ""
+				,"flrNo" : "1"
+				,"hoNo" : ""
+				,"lon" : 126.637352110834
+				,"lat" : 33.4490023452781
+				}
+				,{
+				"bizesId" : "MA010120220808066924"
+				,"bizesNm" : "제이피랜드1"
+				,"brchNm" : ""
+				,"indsLclsCd" : "R1"
+				,"indsLclsNm" : "예술·스포츠"
+				,"indsMclsCd" : "R104"
+				,"indsMclsNm" : "유원지·오락"
+				,"indsSclsCd" : "R10405"
+				,"indsSclsNm" : "기타 오락장"
+				,"ksicCd" : "R91229"
+				,"ksicNm" : "기타 오락장 운영업"
+				,"ctprvnCd" : "50"
+				,"ctprvnNm" : "제주특별자치도"
+				,"signguCd" : "50110"
+				,"signguNm" : "제주시"
+				,"adongCd" : "50110620"
+				,"adongNm" : "봉개동"
+				,"ldongCd" : "5011013300"
+				,"ldongNm" : "회천동"
+				,"lnoCd" : "5011013300100030016"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 3
+				,"lnoSlno" : 16
+				,"lnoAdr" : "제주특별자치도 제주시 회천동 3-16"
+				,"rdnmCd" : "501103349064"
+				,"rdnm" : "제주특별자치도 제주시 명림로"
+				,"bldMnno" : 575
+				,"bldSlno" : 107
+				,"bldMngNo" : "5011013300100030016065259"
+				,"bldNm" : "한화리조트고객센터"
+				,"rdnmAdr" : "제주특별자치도 제주시 명림로 575-107"
+				,"oldZipcd" : "690090"
+				,"newZipcd" : "63330"
+				,"dongNo" : ""
+				,"flrNo" : "1"
+				,"hoNo" : ""
+				,"lon" : 126.637352110834
+				,"lat" : 33.4490023452781
+				}
+				,{
+				"bizesId" : "MA010120220811285745"
+				,"bizesNm" : "지에스25한화리조트제주점"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G204"
+				,"indsMclsNm" : "종합 소매"
+				,"indsSclsCd" : "G20405"
+				,"indsSclsNm" : "편의점"
+				,"ksicCd" : "G47122"
+				,"ksicNm" : "체인화 편의점"
+				,"ctprvnCd" : "50"
+				,"ctprvnNm" : "제주특별자치도"
+				,"signguCd" : "50110"
+				,"signguNm" : "제주시"
+				,"adongCd" : "50110620"
+				,"adongNm" : "봉개동"
+				,"ldongCd" : "5011013300"
+				,"ldongNm" : "회천동"
+				,"lnoCd" : "5011013300100030016"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 3
+				,"lnoSlno" : 16
+				,"lnoAdr" : "제주특별자치도 제주시 회천동 3-16"
+				,"rdnmCd" : "501103349064"
+				,"rdnm" : "제주특별자치도 제주시 명림로"
+				,"bldMnno" : 575
+				,"bldSlno" : 107
+				,"bldMngNo" : "5011013300100030016065259"
+				,"bldNm" : ""
+				,"rdnmAdr" : "제주특별자치도 제주시 명림로 575-107"
+				,"oldZipcd" : "690090"
+				,"newZipcd" : "63330"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.637352110834
+				,"lat" : 33.4490023452781
+				}
+				,{
+				"bizesId" : "MA010120220813422738"
+				,"bizesNm" : "탐라테라피앤아로마앤스킨케어"
+				,"brchNm" : ""
+				,"indsLclsCd" : "S2"
+				,"indsLclsNm" : "수리·개인"
+				,"indsMclsCd" : "S208"
+				,"indsMclsNm" : "욕탕·신체관리"
+				,"indsSclsCd" : "S20803"
+				,"indsSclsNm" : "체형/비만 관리"
+				,"ksicCd" : "S96129"
+				,"ksicNm" : "체형 등 기타 신체 관리 서비스업"
+				,"ctprvnCd" : "50"
+				,"ctprvnNm" : "제주특별자치도"
+				,"signguCd" : "50110"
+				,"signguNm" : "제주시"
+				,"adongCd" : "50110620"
+				,"adongNm" : "봉개동"
+				,"ldongCd" : "5011013300"
+				,"ldongNm" : "회천동"
+				,"lnoCd" : "5011013300100030016"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 3
+				,"lnoSlno" : 16
+				,"lnoAdr" : "제주특별자치도 제주시 회천동 3-16"
+				,"rdnmCd" : "501103349064"
+				,"rdnm" : "제주특별자치도 제주시 명림로"
+				,"bldMnno" : 575
+				,"bldSlno" : 107
+				,"bldMngNo" : "5011013300100030016065259"
+				,"bldNm" : "한화리조트고객센터"
+				,"rdnmAdr" : "제주특별자치도 제주시 명림로 575-107"
+				,"oldZipcd" : "690090"
+				,"newZipcd" : "63330"
+				,"dongNo" : ""
+				,"flrNo" : "1"
+				,"hoNo" : ""
+				,"lon" : 126.637352110834
+				,"lat" : 33.4490023452781
+				}
+				,{
+				"bizesId" : "MA0106202201A0008892"
+				,"bizesNm" : "한화호텔앤드리조트"
+				,"brchNm" : "제주지점"
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55103"
+				,"ksicNm" : "휴양 콘도 운영업"
+				,"ctprvnCd" : "50"
+				,"ctprvnNm" : "제주특별자치도"
+				,"signguCd" : "50110"
+				,"signguNm" : "제주시"
+				,"adongCd" : "50110620"
+				,"adongNm" : "봉개동"
+				,"ldongCd" : "5011013300"
+				,"ldongNm" : "회천동"
+				,"lnoCd" : "5011013300100030016"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 3
+				,"lnoSlno" : 16
+				,"lnoAdr" : "제주특별자치도 제주시 회천동 3-16"
+				,"rdnmCd" : "501103349064"
+				,"rdnm" : "제주특별자치도 제주시 명림로"
+				,"bldMnno" : 575
+				,"bldSlno" : 107
+				,"bldMngNo" : "5011013300100030016065259"
+				,"bldNm" : ""
+				,"rdnmAdr" : "제주특별자치도 제주시 명림로 575-107"
+				,"oldZipcd" : "690090"
+				,"newZipcd" : "63330"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.637352110834
+				,"lat" : 33.4490023452781
+				}
+				,{
+				"bizesId" : "MA0101202409A0148783"
+				,"bizesNm" : "클럽하우스그릴"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "50"
+				,"ctprvnNm" : "제주특별자치도"
+				,"signguCd" : "50110"
+				,"signguNm" : "제주시"
+				,"adongCd" : "50110620"
+				,"adongNm" : "봉개동"
+				,"ldongCd" : "5011013300"
+				,"ldongNm" : "회천동"
+				,"lnoCd" : "5011013300100030016"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 3
+				,"lnoSlno" : 16
+				,"lnoAdr" : "제주특별자치도 제주시 회천동 3-16"
+				,"rdnmCd" : "501103349064"
+				,"rdnm" : "제주특별자치도 제주시 명림로"
+				,"bldMnno" : 575
+				,"bldSlno" : 107
+				,"bldMngNo" : "5011013300100030016065259"
+				,"bldNm" : "한화리조트"
+				,"rdnmAdr" : "제주특별자치도 제주시 명림로 575-107"
+				,"oldZipcd" : "690735"
+				,"newZipcd" : "63330"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.637352110834
+				,"lat" : 33.4490023452781
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 1,
+		"totalCount" : 9	}
+}

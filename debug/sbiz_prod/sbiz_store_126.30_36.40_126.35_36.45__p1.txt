@@ -1,0 +1,590 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA010120220806295373"
+				,"bizesNm" : "향토민박"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55104"
+				,"ksicNm" : "민박업"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44825"
+				,"signguNm" : "태안군"
+				,"adongCd" : "44825253"
+				,"adongNm" : "안면읍"
+				,"ldongCd" : "4482525325"
+				,"ldongNm" : "안면읍"
+				,"lnoCd" : "4482525325107340020"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 734
+				,"lnoSlno" : 20
+				,"lnoAdr" : "충청남도 태안군 안면읍 신야리 734-20"
+				,"rdnmCd" : "448254592146"
+				,"rdnm" : "충청남도 태안군 안면읍 샛별길"
+				,"bldMnno" : 184
+				,"bldSlno" : 3
+				,"bldMngNo" : "4482525325107340020001784"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청남도 태안군 안면읍 샛별길 184-3"
+				,"oldZipcd" : "357964"
+				,"newZipcd" : "32169"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.336032455268
+				,"lat" : 36.4489546968579
+				}
+				,{
+				"bizesId" : "MA010120220806289818"
+				,"bizesNm" : "신밧드의모험슈퍼"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G204"
+				,"indsMclsNm" : "종합 소매"
+				,"indsSclsCd" : "G20404"
+				,"indsSclsNm" : "슈퍼마켓"
+				,"ksicCd" : "I55109"
+				,"ksicNm" : "기타 일반 및 생활 숙박시설 운영업"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44825"
+				,"signguNm" : "태안군"
+				,"adongCd" : "44825253"
+				,"adongNm" : "안면읍"
+				,"ldongCd" : "4482525325"
+				,"ldongNm" : "안면읍"
+				,"lnoCd" : "4482525325107800003"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 780
+				,"lnoSlno" : 3
+				,"lnoAdr" : "충청남도 태안군 안면읍 신야리 780-3"
+				,"rdnmCd" : "448254592146"
+				,"rdnm" : "충청남도 태안군 안면읍 샛별길"
+				,"bldMnno" : 165
+				,"bldSlno" : 13
+				,"bldMngNo" : "4482525325107800000001917"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청남도 태안군 안면읍 샛별길 165-13"
+				,"oldZipcd" : "357964"
+				,"newZipcd" : "32169"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.336109953646
+				,"lat" : 36.4464048783664
+				}
+				,{
+				"bizesId" : "MA010120220814250883"
+				,"bizesNm" : "바다향기하우스"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55104"
+				,"ksicNm" : "민박업"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44825"
+				,"signguNm" : "태안군"
+				,"adongCd" : "44825253"
+				,"adongNm" : "안면읍"
+				,"ldongCd" : "4482525325"
+				,"ldongNm" : "안면읍"
+				,"lnoCd" : "4482525325107800000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 780
+				,"lnoSlno" : ""
+				,"lnoAdr" : "충청남도 태안군 안면읍 신야리 780"
+				,"rdnmCd" : "448254592146"
+				,"rdnm" : "충청남도 태안군 안면읍 샛별길"
+				,"bldMnno" : 165
+				,"bldSlno" : 13
+				,"bldMngNo" : "4482525325107800000001917"
+				,"bldNm" : "가동"
+				,"rdnmAdr" : "충청남도 태안군 안면읍 샛별길 165-13"
+				,"oldZipcd" : "357964"
+				,"newZipcd" : "32169"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.336109953646
+				,"lat" : 36.4464048783664
+				}
+				,{
+				"bizesId" : "MA010120220800295605"
+				,"bizesNm" : "포세이돈"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55109"
+				,"ksicNm" : "기타 일반 및 생활 숙박시설 운영업"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44825"
+				,"signguNm" : "태안군"
+				,"adongCd" : "44825253"
+				,"adongNm" : "안면읍"
+				,"ldongCd" : "4482525325"
+				,"ldongNm" : "안면읍"
+				,"lnoCd" : "4482525325107810012"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 781
+				,"lnoSlno" : 12
+				,"lnoAdr" : "충청남도 태안군 안면읍 신야리 781-12"
+				,"rdnmCd" : "448254592146"
+				,"rdnm" : "충청남도 태안군 안면읍 샛별길"
+				,"bldMnno" : 165
+				,"bldSlno" : 23
+				,"bldMngNo" : "4482525325107810012001855"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청남도 태안군 안면읍 샛별길 165-23"
+				,"oldZipcd" : "357964"
+				,"newZipcd" : "32169"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.336201330254
+				,"lat" : 36.4461530649623
+				}
+				,{
+				"bizesId" : "MA010120220806294832"
+				,"bizesNm" : "서해슈퍼"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G204"
+				,"indsMclsNm" : "종합 소매"
+				,"indsSclsCd" : "G20404"
+				,"indsSclsNm" : "슈퍼마켓"
+				,"ksicCd" : "G47129"
+				,"ksicNm" : "기타 음ㆍ식료품 위주 종합 소매업"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44825"
+				,"signguNm" : "태안군"
+				,"adongCd" : "44825253"
+				,"adongNm" : "안면읍"
+				,"ldongCd" : "4482525325"
+				,"ldongNm" : "안면읍"
+				,"lnoCd" : "4482525325107360003"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 736
+				,"lnoSlno" : 3
+				,"lnoAdr" : "충청남도 태안군 안면읍 신야리 736-3"
+				,"rdnmCd" : "448254592146"
+				,"rdnm" : "충청남도 태안군 안면읍 샛별길"
+				,"bldMnno" : 178
+				,"bldSlno" : ""
+				,"bldMngNo" : "4482525325107360003001916"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청남도 태안군 안면읍 샛별길 178"
+				,"oldZipcd" : "357964"
+				,"newZipcd" : "32169"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.336215444936
+				,"lat" : 36.448424037199
+				}
+				,{
+				"bizesId" : "MA010120220812348019"
+				,"bizesNm" : "그린펜션"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55109"
+				,"ksicNm" : "기타 일반 및 생활 숙박시설 운영업"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44825"
+				,"signguNm" : "태안군"
+				,"adongCd" : "44825253"
+				,"adongNm" : "안면읍"
+				,"ldongCd" : "4482525325"
+				,"ldongNm" : "안면읍"
+				,"lnoCd" : "4482525325107340034"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 734
+				,"lnoSlno" : 34
+				,"lnoAdr" : "충청남도 태안군 안면읍 신야리 734-34"
+				,"rdnmCd" : "448254592146"
+				,"rdnm" : "충청남도 태안군 안면읍 샛별길"
+				,"bldMnno" : 190
+				,"bldSlno" : 6
+				,"bldMngNo" : "4482525325107340034000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청남도 태안군 안면읍 샛별길 190-6"
+				,"oldZipcd" : "357964"
+				,"newZipcd" : "32169"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.336384079394
+				,"lat" : 36.4495784443537
+				}
+				,{
+				"bizesId" : "MA0101202501A0070054"
+				,"bizesNm" : "산해로"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55104"
+				,"ksicNm" : "민박업"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44825"
+				,"signguNm" : "태안군"
+				,"adongCd" : "44825253"
+				,"adongNm" : "안면읍"
+				,"ldongCd" : "4482525325"
+				,"ldongNm" : "안면읍"
+				,"lnoCd" : "4482525325107810014"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 781
+				,"lnoSlno" : 14
+				,"lnoAdr" : "충청남도 태안군 안면읍 신야리 781-14"
+				,"rdnmCd" : "448254592146"
+				,"rdnm" : "충청남도 태안군 안면읍 샛별길"
+				,"bldMnno" : 165
+				,"bldSlno" : 27
+				,"bldMngNo" : "4482525325107810014001851"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청남도 태안군 안면읍 샛별길 165-27"
+				,"oldZipcd" : "357964"
+				,"newZipcd" : "32169"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.336527232863
+				,"lat" : 36.4458665092778
+				}
+				,{
+				"bizesId" : "MA0101202302A0078961"
+				,"bizesNm" : "라파엘로펜션"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "L68112"
+				,"ksicNm" : "비주거용 건물 임대업"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44825"
+				,"signguNm" : "태안군"
+				,"adongCd" : "44825253"
+				,"adongNm" : "안면읍"
+				,"ldongCd" : "4482525325"
+				,"ldongNm" : "안면읍"
+				,"lnoCd" : "4482525325107810011"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 781
+				,"lnoSlno" : 11
+				,"lnoAdr" : "충청남도 태안군 안면읍 신야리 781-11"
+				,"rdnmCd" : "448254592146"
+				,"rdnm" : "충청남도 태안군 안면읍 샛별길"
+				,"bldMnno" : 165
+				,"bldSlno" : 24
+				,"bldMngNo" : "4482525325107810011001849"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청남도 태안군 안면읍 샛별길 165-24"
+				,"oldZipcd" : "357964"
+				,"newZipcd" : "32169"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.336596531073
+				,"lat" : 36.4455875383668
+				}
+				,{
+				"bizesId" : "MA0101202503A0054748"
+				,"bizesNm" : "더피아노"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55109"
+				,"ksicNm" : "기타 일반 및 생활 숙박시설 운영업"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44825"
+				,"signguNm" : "태안군"
+				,"adongCd" : "44825253"
+				,"adongNm" : "안면읍"
+				,"ldongCd" : "4482525325"
+				,"ldongNm" : "안면읍"
+				,"lnoCd" : "4482525325107810008"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 781
+				,"lnoSlno" : 8
+				,"lnoAdr" : "충청남도 태안군 안면읍 신야리 781-8"
+				,"rdnmCd" : "448254592146"
+				,"rdnm" : "충청남도 태안군 안면읍 샛별길"
+				,"bldMnno" : 165
+				,"bldSlno" : 26
+				,"bldMngNo" : "4482525325107810008001850"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청남도 태안군 안면읍 샛별길 165-26"
+				,"oldZipcd" : "357964"
+				,"newZipcd" : "32169"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.336884829105
+				,"lat" : 36.4457873929182
+				}
+				,{
+				"bizesId" : "MA010120220806293466"
+				,"bizesNm" : "샛별여행"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55109"
+				,"ksicNm" : "기타 일반 및 생활 숙박시설 운영업"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44825"
+				,"signguNm" : "태안군"
+				,"adongCd" : "44825253"
+				,"adongNm" : "안면읍"
+				,"ldongCd" : "4482525325"
+				,"ldongNm" : "안면읍"
+				,"lnoCd" : "4482525325107360017"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 736
+				,"lnoSlno" : 17
+				,"lnoAdr" : "충청남도 태안군 안면읍 신야리 736-17"
+				,"rdnmCd" : "448254592146"
+				,"rdnm" : "충청남도 태안군 안면읍 샛별길"
+				,"bldMnno" : 152
+				,"bldSlno" : ""
+				,"bldMngNo" : "4482525325107360017001853"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청남도 태안군 안면읍 샛별길 152"
+				,"oldZipcd" : "357964"
+				,"newZipcd" : "32169"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.337556261787
+				,"lat" : 36.4481521297823
+				}
+				,{
+				"bizesId" : "MA010120220813407957"
+				,"bizesNm" : "뜰안작은성"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55109"
+				,"ksicNm" : "기타 일반 및 생활 숙박시설 운영업"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44825"
+				,"signguNm" : "태안군"
+				,"adongCd" : "44825253"
+				,"adongNm" : "안면읍"
+				,"ldongCd" : "4482525325"
+				,"ldongNm" : "안면읍"
+				,"lnoCd" : "4482525325108870003"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 887
+				,"lnoSlno" : 3
+				,"lnoAdr" : "충청남도 태안군 안면읍 신야리 887-3"
+				,"rdnmCd" : "448254592146"
+				,"rdnm" : "충청남도 태안군 안면읍 샛별길"
+				,"bldMnno" : 133
+				,"bldSlno" : 6
+				,"bldMngNo" : "4482525325108870003000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청남도 태안군 안면읍 샛별길 133-6"
+				,"oldZipcd" : "357964"
+				,"newZipcd" : "32169"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.339019912074
+				,"lat" : 36.4478628645094
+				}
+				,{
+				"bizesId" : "MA010120220806152096"
+				,"bizesNm" : "미나슈퍼"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55104"
+				,"ksicNm" : "민박업"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44180"
+				,"signguNm" : "보령시"
+				,"adongCd" : "44180320"
+				,"adongNm" : "오천면"
+				,"ldongCd" : "4418032028"
+				,"ldongNm" : "오천면"
+				,"lnoCd" : "4418032028104390007"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 439
+				,"lnoSlno" : 7
+				,"lnoAdr" : "충청남도 보령시 오천면 삽시도리 439-7"
+				,"rdnmCd" : "441804556513"
+				,"rdnm" : "충청남도 보령시 오천면 장고도1길"
+				,"bldMnno" : 161
+				,"bldSlno" : ""
+				,"bldMngNo" : ""
+				,"bldNm" : "내장고도"
+				,"rdnmAdr" : "충청남도 보령시 오천면 장고도1길 161"
+				,"oldZipcd" : "355842"
+				,"newZipcd" : "33411"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.345482631357
+				,"lat" : 36.4008312944823
+				}
+				,{
+				"bizesId" : "MA0101202212A0040731"
+				,"bizesNm" : "장고도명장섬협동조합"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G205"
+				,"indsMclsNm" : "식료품 소매"
+				,"indsSclsCd" : "G20505"
+				,"indsSclsNm" : "수산물 소매업"
+				,"ksicCd" : "G47214"
+				,"ksicNm" : "신선, 냉동 및 기타 수산물 소매업"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44180"
+				,"signguNm" : "보령시"
+				,"adongCd" : "44180320"
+				,"adongNm" : "오천면"
+				,"ldongCd" : "4418032028"
+				,"ldongNm" : "오천면"
+				,"lnoCd" : "4418032028104390001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 439
+				,"lnoSlno" : 1
+				,"lnoAdr" : "충청남도 보령시 오천면 삽시도리 439-1"
+				,"rdnmCd" : "441804556513"
+				,"rdnm" : "충청남도 보령시 오천면 장고도1길"
+				,"bldMnno" : 186
+				,"bldSlno" : ""
+				,"bldMngNo" : "4418032028104390001001781"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청남도 보령시 오천면 장고도1길 186"
+				,"oldZipcd" : "355842"
+				,"newZipcd" : "33411"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.345712032516
+				,"lat" : 36.4013912680202
+				}
+				,{
+				"bizesId" : "MA010120220806147188"
+				,"bizesNm" : "바다사랑펜션·슈퍼"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55104"
+				,"ksicNm" : "민박업"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44180"
+				,"signguNm" : "보령시"
+				,"adongCd" : "44180320"
+				,"adongNm" : "오천면"
+				,"ldongCd" : "4418032028"
+				,"ldongNm" : "오천면"
+				,"lnoCd" : "4418032028104390001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 439
+				,"lnoSlno" : 1
+				,"lnoAdr" : "충청남도 보령시 오천면 삽시도리 439-1"
+				,"rdnmCd" : "441804556513"
+				,"rdnm" : "충청남도 보령시 오천면 장고도1길"
+				,"bldMnno" : 186
+				,"bldSlno" : ""
+				,"bldMngNo" : "4418032028104390001001781"
+				,"bldNm" : "내장고도"
+				,"rdnmAdr" : "충청남도 보령시 오천면 장고도1길 186"
+				,"oldZipcd" : "355842"
+				,"newZipcd" : "33411"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.345712032516
+				,"lat" : 36.4013912680202
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 1,
+		"totalCount" : 14	}
+}

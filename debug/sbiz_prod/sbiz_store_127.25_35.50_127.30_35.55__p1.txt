@@ -1,0 +1,344 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA010120220812006560"
+				,"bizesNm" : "나는디자인"
+				,"brchNm" : ""
+				,"indsLclsCd" : "M1"
+				,"indsLclsNm" : "과학·기술"
+				,"indsMclsCd" : "M112"
+				,"indsMclsNm" : "전문 디자인"
+				,"indsSclsCd" : "M11203"
+				,"indsSclsNm" : "시각 디자인업"
+				,"ksicCd" : "M73203"
+				,"ksicNm" : "시각 디자인업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52750"
+				,"signguNm" : "임실군"
+				,"adongCd" : "52750370"
+				,"adongNm" : "삼계면"
+				,"ldongCd" : "5275037026"
+				,"ldongNm" : "삼계면"
+				,"lnoCd" : "5275037026104400001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 440
+				,"lnoSlno" : 1
+				,"lnoAdr" : "전북특별자치도 임실군 삼계면 홍곡리 440-1"
+				,"rdnmCd" : "527504631026"
+				,"rdnm" : "전북특별자치도 임실군 삼계면 괘평2길"
+				,"bldMnno" : 22
+				,"bldSlno" : 8
+				,"bldMngNo" : "4575037026104400001000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 임실군 삼계면 괘평2길 22-8"
+				,"oldZipcd" : "566911"
+				,"newZipcd" : "55946"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.269813766374
+				,"lat" : 35.5002259082364
+				}
+				,{
+				"bizesId" : "MA0101202502A0036440"
+				,"bizesNm" : "김진배농장"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G219"
+				,"indsMclsNm" : "식물 소매"
+				,"indsSclsCd" : "G21901"
+				,"indsSclsNm" : "꽃집"
+				,"ksicCd" : "G47851"
+				,"ksicNm" : "화초 및 식물 소매업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52750"
+				,"signguNm" : "임실군"
+				,"adongCd" : "52750370"
+				,"adongNm" : "삼계면"
+				,"ldongCd" : "5275037026"
+				,"ldongNm" : "삼계면"
+				,"lnoCd" : "5275037026103900000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 390
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전북특별자치도 임실군 삼계면 홍곡리 390"
+				,"rdnmCd" : "527504631026"
+				,"rdnm" : "전북특별자치도 임실군 삼계면 괘평2길"
+				,"bldMnno" : 31
+				,"bldSlno" : ""
+				,"bldMngNo" : "4575037026103900000117064"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 임실군 삼계면 괘평2길 31"
+				,"oldZipcd" : "566911"
+				,"newZipcd" : "55946"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.270816256525
+				,"lat" : 35.5000794533636
+				}
+				,{
+				"bizesId" : "MA010120220807421885"
+				,"bizesNm" : "삼계식당"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52750"
+				,"signguNm" : "임실군"
+				,"adongCd" : "52750370"
+				,"adongNm" : "삼계면"
+				,"ldongCd" : "5275037028"
+				,"ldongNm" : "삼계면"
+				,"lnoCd" : "5275037028104330003"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 433
+				,"lnoSlno" : 3
+				,"lnoAdr" : "전북특별자치도 임실군 삼계면 삼계리 433-3"
+				,"rdnmCd" : "527503276058"
+				,"rdnm" : "전북특별자치도 임실군 삼계면 충효로"
+				,"bldMnno" : 1289
+				,"bldSlno" : ""
+				,"bldMngNo" : "4575037028104330004118152"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 임실군 삼계면 충효로 1289"
+				,"oldZipcd" : "566912"
+				,"newZipcd" : "55946"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.274833827454
+				,"lat" : 35.5082091513679
+				}
+				,{
+				"bizesId" : "MA010120220812574552"
+				,"bizesNm" : "박사골미산자락"
+				,"brchNm" : ""
+				,"indsLclsCd" : "R1"
+				,"indsLclsNm" : "예술·스포츠"
+				,"indsMclsCd" : "R104"
+				,"indsMclsNm" : "유원지·오락"
+				,"indsSclsCd" : "R10499"
+				,"indsSclsNm" : "기타 오락관련 서비스업"
+				,"ksicCd" : "R91299"
+				,"ksicNm" : "그 외 기타 분류 안된 오락관련 서비스업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52750"
+				,"signguNm" : "임실군"
+				,"adongCd" : "52750370"
+				,"adongNm" : "삼계면"
+				,"ldongCd" : "5275037028"
+				,"ldongNm" : "삼계면"
+				,"lnoCd" : "5275037028104340005"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 434
+				,"lnoSlno" : 5
+				,"lnoAdr" : "전북특별자치도 임실군 삼계면 삼계리 434-5"
+				,"rdnmCd" : "527503276058"
+				,"rdnm" : "전북특별자치도 임실군 삼계면 충효로"
+				,"bldMnno" : 1288
+				,"bldSlno" : ""
+				,"bldMngNo" : "4575037028104340005118226"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 임실군 삼계면 충효로 1288"
+				,"oldZipcd" : "566912"
+				,"newZipcd" : "55946"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.275186156699
+				,"lat" : 35.5080911786707
+				}
+				,{
+				"bizesId" : "MA010120220807433446"
+				,"bizesNm" : "삼계카센타"
+				,"brchNm" : ""
+				,"indsLclsCd" : "S2"
+				,"indsLclsNm" : "수리·개인"
+				,"indsMclsCd" : "S203"
+				,"indsMclsNm" : "자동차 수리·세차"
+				,"indsSclsCd" : "S20301"
+				,"indsSclsNm" : "자동차 정비소"
+				,"ksicCd" : "S95212"
+				,"ksicNm" : "자동차 전문 수리업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52750"
+				,"signguNm" : "임실군"
+				,"adongCd" : "52750370"
+				,"adongNm" : "삼계면"
+				,"ldongCd" : "5275037028"
+				,"ldongNm" : "삼계면"
+				,"lnoCd" : "5275037028104350001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 435
+				,"lnoSlno" : 1
+				,"lnoAdr" : "전북특별자치도 임실군 삼계면 삼계리 435-1"
+				,"rdnmCd" : "527503276058"
+				,"rdnm" : "전북특별자치도 임실군 삼계면 충효로"
+				,"bldMnno" : 1284
+				,"bldSlno" : 5
+				,"bldMngNo" : "4575037028104350001000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 임실군 삼계면 충효로 1284-5"
+				,"oldZipcd" : "566912"
+				,"newZipcd" : "55946"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.275316860914
+				,"lat" : 35.5076312152923
+				}
+				,{
+				"bizesId" : "MA010120220807424712"
+				,"bizesNm" : "우리슈퍼"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G204"
+				,"indsMclsNm" : "종합 소매"
+				,"indsSclsCd" : "G20404"
+				,"indsSclsNm" : "슈퍼마켓"
+				,"ksicCd" : "G47129"
+				,"ksicNm" : "기타 음ㆍ식료품 위주 종합 소매업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52750"
+				,"signguNm" : "임실군"
+				,"adongCd" : "52750370"
+				,"adongNm" : "삼계면"
+				,"ldongCd" : "5275037028"
+				,"ldongNm" : "삼계면"
+				,"lnoCd" : "5275037028103820001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 382
+				,"lnoSlno" : 1
+				,"lnoAdr" : "전북특별자치도 임실군 삼계면 삼계리 382-1"
+				,"rdnmCd" : "527503276058"
+				,"rdnm" : "전북특별자치도 임실군 삼계면 충효로"
+				,"bldMnno" : 1299
+				,"bldSlno" : ""
+				,"bldMngNo" : "4575037028103820001118308"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 임실군 삼계면 충효로 1299"
+				,"oldZipcd" : "566912"
+				,"newZipcd" : "55946"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.275597109354
+				,"lat" : 35.5090005577792
+				}
+				,{
+				"bizesId" : "MA0101202406A0161017"
+				,"bizesNm" : "옛참"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52750"
+				,"signguNm" : "임실군"
+				,"adongCd" : "52750370"
+				,"adongNm" : "삼계면"
+				,"ldongCd" : "5275037028"
+				,"ldongNm" : "삼계면"
+				,"lnoCd" : "5275037028104360003"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 436
+				,"lnoSlno" : 3
+				,"lnoAdr" : "전북특별자치도 임실군 삼계면 삼계리 436-3"
+				,"rdnmCd" : "527504631154"
+				,"rdnm" : "전북특별자치도 임실군 삼계면 삼계1길"
+				,"bldMnno" : 20
+				,"bldSlno" : 11
+				,"bldMngNo" : "4575037028104360003118300"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 임실군 삼계면 삼계1길 20-11"
+				,"oldZipcd" : "566912"
+				,"newZipcd" : "55946"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.275602188547
+				,"lat" : 35.5072610290494
+				}
+				,{
+				"bizesId" : "MA010120220813060220"
+				,"bizesNm" : "박사골김가네밤법인"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G205"
+				,"indsMclsNm" : "식료품 소매"
+				,"indsSclsCd" : "G20506"
+				,"indsSclsNm" : "채소/과일 소매업"
+				,"ksicCd" : "G47215"
+				,"ksicNm" : "채소, 과실 및 뿌리작물 소매업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52750"
+				,"signguNm" : "임실군"
+				,"adongCd" : "52750370"
+				,"adongNm" : "삼계면"
+				,"ldongCd" : "5275037028"
+				,"ldongNm" : "삼계면"
+				,"lnoCd" : "5275037028101960001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 196
+				,"lnoSlno" : 1
+				,"lnoAdr" : "전북특별자치도 임실군 삼계면 삼계리 196-1"
+				,"rdnmCd" : "527504631154"
+				,"rdnm" : "전북특별자치도 임실군 삼계면 삼계1길"
+				,"bldMnno" : 30
+				,"bldSlno" : ""
+				,"bldMngNo" : "4575037028101960001000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 임실군 삼계면 삼계1길 30"
+				,"oldZipcd" : "566912"
+				,"newZipcd" : "55946"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.277423405657
+				,"lat" : 35.5079778982654
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 1,
+		"totalCount" : 8	}
+}

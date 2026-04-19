@@ -1,0 +1,262 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA010120220807694942"
+				,"bizesNm" : "윤가네전통건강원"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G205"
+				,"indsMclsNm" : "식료품 소매"
+				,"indsSclsCd" : "G20508"
+				,"indsSclsNm" : "건강보조식품 소매업"
+				,"ksicCd" : "C10796"
+				,"ksicNm" : "건강 보조용 액화식품 제조업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46840"
+				,"signguNm" : "무안군"
+				,"adongCd" : "46840320"
+				,"adongNm" : "몽탄면"
+				,"ldongCd" : "4684032034"
+				,"ldongNm" : "몽탄면"
+				,"lnoCd" : "4684032034107070003"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 707
+				,"lnoSlno" : 3
+				,"lnoAdr" : "전라남도 무안군 몽탄면 대치리 707-3"
+				,"rdnmCd" : "468403296047"
+				,"rdnm" : "전라남도 무안군 몽탄면 대치로"
+				,"bldMnno" : 358
+				,"bldSlno" : 12
+				,"bldMngNo" : "4684032034107070003000004"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 무안군 몽탄면 대치로 358-12"
+				,"oldZipcd" : "534811"
+				,"newZipcd" : "58546"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.471379725479
+				,"lat" : 34.9437761369121
+				}
+				,{
+				"bizesId" : "MA0101202302A0062729"
+				,"bizesNm" : "대치2리건강원"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G205"
+				,"indsMclsNm" : "식료품 소매"
+				,"indsSclsCd" : "G20508"
+				,"indsSclsNm" : "건강보조식품 소매업"
+				,"ksicCd" : "C10796"
+				,"ksicNm" : "건강 보조용 액화식품 제조업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46840"
+				,"signguNm" : "무안군"
+				,"adongCd" : "46840320"
+				,"adongNm" : "몽탄면"
+				,"ldongCd" : "4684032034"
+				,"ldongNm" : "몽탄면"
+				,"lnoCd" : "4684032034104220000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 422
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 무안군 몽탄면 대치리 422"
+				,"rdnmCd" : "468403296047"
+				,"rdnm" : "전라남도 무안군 몽탄면 대치로"
+				,"bldMnno" : 268
+				,"bldSlno" : ""
+				,"bldMngNo" : "4684032034104220000060120"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 무안군 몽탄면 대치로 268"
+				,"oldZipcd" : "534811"
+				,"newZipcd" : "58546"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.478787277491
+				,"lat" : 34.9477651971771
+				}
+				,{
+				"bizesId" : "MA010120220806135156"
+				,"bizesNm" : "리빙모어"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G211"
+				,"indsMclsNm" : "가구 소매"
+				,"indsSclsCd" : "G21101"
+				,"indsSclsNm" : "가구 소매업"
+				,"ksicCd" : "G47520"
+				,"ksicNm" : "가구 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46840"
+				,"signguNm" : "무안군"
+				,"adongCd" : "46840320"
+				,"adongNm" : "몽탄면"
+				,"ldongCd" : "4684032030"
+				,"ldongNm" : "몽탄면"
+				,"lnoCd" : "4684032030104010000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 401
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 무안군 몽탄면 사천리 401"
+				,"rdnmCd" : "468404688326"
+				,"rdnm" : "전라남도 무안군 몽탄면 월천길"
+				,"bldMnno" : 13
+				,"bldSlno" : 26
+				,"bldMngNo" : "4684032030104010000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 무안군 몽탄면 월천길 13-26"
+				,"oldZipcd" : "534814"
+				,"newZipcd" : "58546"
+				,"dongNo" : ""
+				,"flrNo" : "2"
+				,"hoNo" : ""
+				,"lon" : 126.487599535566
+				,"lat" : 34.9249256536564
+				}
+				,{
+				"bizesId" : "MA0101202209A0040865"
+				,"bizesNm" : "숙숙이네콩나물"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G205"
+				,"indsMclsNm" : "식료품 소매"
+				,"indsSclsCd" : "G20506"
+				,"indsSclsNm" : "채소/과일 소매업"
+				,"ksicCd" : "G47215"
+				,"ksicNm" : "채소, 과실 및 뿌리작물 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46840"
+				,"signguNm" : "무안군"
+				,"adongCd" : "46840320"
+				,"adongNm" : "몽탄면"
+				,"ldongCd" : "4684032028"
+				,"ldongNm" : "몽탄면"
+				,"lnoCd" : "4684032028103740000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 374
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 무안군 몽탄면 약곡리 374"
+				,"rdnmCd" : "468404688257"
+				,"rdnm" : "전라남도 무안군 몽탄면 약곡길"
+				,"bldMnno" : 92
+				,"bldSlno" : 16
+				,"bldMngNo" : "4684032028103730000023003"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 무안군 몽탄면 약곡길 92-16"
+				,"oldZipcd" : "534813"
+				,"newZipcd" : "58549"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.492284025184
+				,"lat" : 34.9124251043367
+				}
+				,{
+				"bizesId" : "MA0101202306A0107842"
+				,"bizesNm" : "푸른하늘건강원"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G205"
+				,"indsMclsNm" : "식료품 소매"
+				,"indsSclsCd" : "G20508"
+				,"indsSclsNm" : "건강보조식품 소매업"
+				,"ksicCd" : "C10796"
+				,"ksicNm" : "건강 보조용 액화식품 제조업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46840"
+				,"signguNm" : "무안군"
+				,"adongCd" : "46840320"
+				,"adongNm" : "몽탄면"
+				,"ldongCd" : "4684032030"
+				,"ldongNm" : "몽탄면"
+				,"lnoCd" : "4684032030102580001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 258
+				,"lnoSlno" : 1
+				,"lnoAdr" : "전라남도 무안군 몽탄면 사천리 258-1"
+				,"rdnmCd" : "468404688179"
+				,"rdnm" : "전라남도 무안군 몽탄면 사내길"
+				,"bldMnno" : 54
+				,"bldSlno" : 10
+				,"bldMngNo" : "4684032030102580001000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 무안군 몽탄면 사내길 54-10"
+				,"oldZipcd" : "534814"
+				,"newZipcd" : "58546"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.495757373168
+				,"lat" : 34.9277811078111
+				}
+				,{
+				"bizesId" : "MA0101202501A0037527"
+				,"bizesNm" : "콜렉터피"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G213"
+				,"indsMclsNm" : "오락용품 소매"
+				,"indsSclsCd" : "G21302"
+				,"indsSclsNm" : "문구/회화용품 소매업"
+				,"ksicCd" : "G47612"
+				,"ksicNm" : "문구용품 및 회화용품 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46840"
+				,"signguNm" : "무안군"
+				,"adongCd" : "46840320"
+				,"adongNm" : "몽탄면"
+				,"ldongCd" : "4684032030"
+				,"ldongNm" : "몽탄면"
+				,"lnoCd" : "4684032030100660001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 66
+				,"lnoSlno" : 1
+				,"lnoAdr" : "전라남도 무안군 몽탄면 사천리 66-1"
+				,"rdnmCd" : "468403017043"
+				,"rdnm" : "전라남도 무안군 몽탄면 몽탄로"
+				,"bldMnno" : 940
+				,"bldSlno" : 1
+				,"bldMngNo" : "4684032030100020009021947"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 무안군 몽탄면 몽탄로 940-1"
+				,"oldZipcd" : "534814"
+				,"newZipcd" : "58546"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.499503994088
+				,"lat" : 34.9235871418843
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 1,
+		"totalCount" : 6	}
+}

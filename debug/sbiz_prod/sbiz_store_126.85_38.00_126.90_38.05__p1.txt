@@ -1,0 +1,303 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA0101202410A0039380"
+				,"bizesNm" : "준트레이드배달마트"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G219"
+				,"indsMclsNm" : "식물 소매"
+				,"indsSclsCd" : "G21901"
+				,"indsSclsNm" : "꽃집"
+				,"ksicCd" : "G47851"
+				,"ksicNm" : "화초 및 식물 소매업"
+				,"ctprvnCd" : "41"
+				,"ctprvnNm" : "경기도"
+				,"signguCd" : "41800"
+				,"signguNm" : "연천군"
+				,"adongCd" : "41800380"
+				,"adongNm" : "장남면"
+				,"ldongCd" : "4180038023"
+				,"ldongNm" : "장남면"
+				,"lnoCd" : "4180038023101130006"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 113
+				,"lnoSlno" : 6
+				,"lnoAdr" : "경기도 연천군 장남면 판부리 113-6"
+				,"rdnmCd" : "418003215063"
+				,"rdnm" : "경기도 연천군 장남면 장백로"
+				,"bldMnno" : 493
+				,"bldSlno" : 21
+				,"bldMngNo" : "4180038023101130006000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "경기도 연천군 장남면 장백로 493-21"
+				,"oldZipcd" : "486890"
+				,"newZipcd" : "11050"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.873405879005
+				,"lat" : 38.0004994514396
+				}
+				,{
+				"bizesId" : "MA010120220807153873"
+				,"bizesNm" : "멋인테리어"
+				,"brchNm" : ""
+				,"indsLclsCd" : "M1"
+				,"indsLclsNm" : "과학·기술"
+				,"indsMclsCd" : "M112"
+				,"indsMclsNm" : "전문 디자인"
+				,"indsSclsCd" : "M11201"
+				,"indsSclsNm" : "인테리어 디자인업"
+				,"ksicCd" : "F42412"
+				,"ksicNm" : "도배, 실내 장식 및 내장 목공사업"
+				,"ctprvnCd" : "41"
+				,"ctprvnNm" : "경기도"
+				,"signguCd" : "41800"
+				,"signguNm" : "연천군"
+				,"adongCd" : "41800330"
+				,"adongNm" : "백학면"
+				,"ldongCd" : "4180033024"
+				,"ldongNm" : "백학면"
+				,"lnoCd" : "4180033024104170000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 417
+				,"lnoSlno" : ""
+				,"lnoAdr" : "경기도 연천군 백학면 전동리 417"
+				,"rdnmCd" : "418004445330"
+				,"rdnm" : "경기도 연천군 백학면 장백로631번길"
+				,"bldMnno" : 59
+				,"bldSlno" : 166
+				,"bldMngNo" : "4180033024200560000003371"
+				,"bldNm" : ""
+				,"rdnmAdr" : "경기도 연천군 백학면 장백로631번길 59-166"
+				,"oldZipcd" : "486882"
+				,"newZipcd" : "11048"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.882903827335
+				,"lat" : 38.0132213855372
+				}
+				,{
+				"bizesId" : "MA0101202301A0104781"
+				,"bizesNm" : "지에스씨푸드백학음료"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I207"
+				,"indsMclsNm" : "구내식당·뷔페"
+				,"indsSclsCd" : "I20701"
+				,"indsSclsNm" : "구내식당"
+				,"ksicCd" : "I56130"
+				,"ksicNm" : "기관 구내식당업"
+				,"ctprvnCd" : "41"
+				,"ctprvnNm" : "경기도"
+				,"signguCd" : "41800"
+				,"signguNm" : "연천군"
+				,"adongCd" : "41800330"
+				,"adongNm" : "백학면"
+				,"ldongCd" : "4180033024"
+				,"ldongNm" : "백학면"
+				,"lnoCd" : "4180033024106180000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 618
+				,"lnoSlno" : ""
+				,"lnoAdr" : "경기도 연천군 백학면 전동리 618"
+				,"rdnmCd" : "418003215063"
+				,"rdnm" : "경기도 연천군 백학면 장백로"
+				,"bldMnno" : 589
+				,"bldSlno" : ""
+				,"bldMngNo" : "4180033024106180000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "경기도 연천군 백학면 장백로 589"
+				,"oldZipcd" : "486882"
+				,"newZipcd" : "11048"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.885431365087
+				,"lat" : 38.0061966401912
+				}
+				,{
+				"bizesId" : "MA010120220813100629"
+				,"bizesNm" : "해오름농원"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G219"
+				,"indsMclsNm" : "식물 소매"
+				,"indsSclsCd" : "G21901"
+				,"indsSclsNm" : "꽃집"
+				,"ksicCd" : "G47851"
+				,"ksicNm" : "화초 및 식물 소매업"
+				,"ctprvnCd" : "41"
+				,"ctprvnNm" : "경기도"
+				,"signguCd" : "41800"
+				,"signguNm" : "연천군"
+				,"adongCd" : "41800330"
+				,"adongNm" : "백학면"
+				,"ldongCd" : "4180033024"
+				,"ldongNm" : "백학면"
+				,"lnoCd" : "4180033024103880000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 388
+				,"lnoSlno" : ""
+				,"lnoAdr" : "경기도 연천군 백학면 전동리 388"
+				,"rdnmCd" : "418004445331"
+				,"rdnm" : "경기도 연천군 백학면 장백로683번길"
+				,"bldMnno" : 190
+				,"bldSlno" : 49
+				,"bldMngNo" : "4180033024103880000004459"
+				,"bldNm" : ""
+				,"rdnmAdr" : "경기도 연천군 백학면 장백로683번길 190-49"
+				,"oldZipcd" : "486882"
+				,"newZipcd" : "11048"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.891327529295
+				,"lat" : 38.0152115110918
+				}
+				,{
+				"bizesId" : "MA0101202408A0053750"
+				,"bizesNm" : "태창능이송이버섯"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G205"
+				,"indsMclsNm" : "식료품 소매"
+				,"indsSclsCd" : "G20506"
+				,"indsSclsNm" : "채소/과일 소매업"
+				,"ksicCd" : "G47215"
+				,"ksicNm" : "채소, 과실 및 뿌리작물 소매업"
+				,"ctprvnCd" : "41"
+				,"ctprvnNm" : "경기도"
+				,"signguCd" : "41800"
+				,"signguNm" : "연천군"
+				,"adongCd" : "41800330"
+				,"adongNm" : "백학면"
+				,"ldongCd" : "4180033024"
+				,"ldongNm" : "백학면"
+				,"lnoCd" : "4180033024102430002"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 243
+				,"lnoSlno" : 2
+				,"lnoAdr" : "경기도 연천군 백학면 전동리 243-2"
+				,"rdnmCd" : "418003215063"
+				,"rdnm" : "경기도 연천군 백학면 장백로"
+				,"bldMnno" : 674
+				,"bldSlno" : 4
+				,"bldMngNo" : "4180033024102430002000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "경기도 연천군 백학면 장백로 674-4"
+				,"oldZipcd" : "486882"
+				,"newZipcd" : "11048"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.893664079153
+				,"lat" : 38.0058890475868
+				}
+				,{
+				"bizesId" : "MA010120220803503851"
+				,"bizesNm" : "그린웰빙천년초농원"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G205"
+				,"indsMclsNm" : "식료품 소매"
+				,"indsSclsCd" : "G20509"
+				,"indsSclsNm" : "반찬/식료품 소매업"
+				,"ksicCd" : "G47219"
+				,"ksicNm" : "기타 식료품 소매업"
+				,"ctprvnCd" : "41"
+				,"ctprvnNm" : "경기도"
+				,"signguCd" : "41800"
+				,"signguNm" : "연천군"
+				,"adongCd" : "41800330"
+				,"adongNm" : "백학면"
+				,"ldongCd" : "4180033021"
+				,"ldongNm" : "백학면"
+				,"lnoCd" : "4180033021109220000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 922
+				,"lnoSlno" : ""
+				,"lnoAdr" : "경기도 연천군 백학면 두일리 922"
+				,"rdnmCd" : "418004445333"
+				,"rdnm" : "경기도 연천군 백학면 장백로899번길"
+				,"bldMnno" : 323
+				,"bldSlno" : ""
+				,"bldMngNo" : "4180033021109190000004522"
+				,"bldNm" : ""
+				,"rdnmAdr" : "경기도 연천군 백학면 장백로899번길 323"
+				,"oldZipcd" : "486881"
+				,"newZipcd" : "11048"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.894440146017
+				,"lat" : 38.0205117935407
+				}
+				,{
+				"bizesId" : "MA0106202510A2279277"
+				,"bizesNm" : "규리네농장"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G205"
+				,"indsMclsNm" : "식료품 소매"
+				,"indsSclsCd" : "G20502"
+				,"indsSclsNm" : "가축 사료 소매업"
+				,"ksicCd" : "G47211"
+				,"ksicNm" : "곡물, 곡분 및 가축 사료 소매업"
+				,"ctprvnCd" : "41"
+				,"ctprvnNm" : "경기도"
+				,"signguCd" : "41800"
+				,"signguNm" : "연천군"
+				,"adongCd" : "41800330"
+				,"adongNm" : "백학면"
+				,"ldongCd" : "4180033024"
+				,"ldongNm" : "백학면"
+				,"lnoCd" : "4180033024101990000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 199
+				,"lnoSlno" : ""
+				,"lnoAdr" : "경기도 연천군 백학면 전동리 199"
+				,"rdnmCd" : "418003215063"
+				,"rdnm" : "경기도 연천군 백학면 장백로"
+				,"bldMnno" : 699
+				,"bldSlno" : 7
+				,"bldMngNo" : "4180033024101990000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "경기도 연천군 백학면 장백로 699-7"
+				,"oldZipcd" : "486882"
+				,"newZipcd" : "11048"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.895951993138
+				,"lat" : 38.0063956138655
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 1,
+		"totalCount" : 7	}
+}

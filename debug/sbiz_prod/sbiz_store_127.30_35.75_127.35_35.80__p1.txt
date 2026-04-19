@@ -1,0 +1,303 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA010120220812602954"
+				,"bizesNm" : "구름다리"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55109"
+				,"ksicNm" : "기타 일반 및 생활 숙박시설 운영업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52720"
+				,"signguNm" : "진안군"
+				,"adongCd" : "52720380"
+				,"adongNm" : "부귀면"
+				,"ldongCd" : "5272038023"
+				,"ldongNm" : "부귀면"
+				,"lnoCd" : "5272038023106340001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 634
+				,"lnoSlno" : 1
+				,"lnoAdr" : "전북특별자치도 진안군 부귀면 세동리 634-1"
+				,"rdnmCd" : "527203016031"
+				,"rdnm" : "전북특별자치도 진안군 부귀면 곰티로"
+				,"bldMnno" : 1031
+				,"bldSlno" : 7
+				,"bldMngNo" : "4572038023106330001020343"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 진안군 부귀면 곰티로 1031-7"
+				,"oldZipcd" : "567913"
+				,"newZipcd" : "55417"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.310556655375
+				,"lat" : 35.7957575555803
+				}
+				,{
+				"bizesId" : "MA0101202409A0210432"
+				,"bizesNm" : "경동보일러A/S센터"
+				,"brchNm" : ""
+				,"indsLclsCd" : "S2"
+				,"indsLclsNm" : "수리·개인"
+				,"indsMclsCd" : "S206"
+				,"indsMclsNm" : "기타 가정용품 수리"
+				,"indsSclsCd" : "S20699"
+				,"indsSclsNm" : "그 외 기타 개인/가정용품 수리업"
+				,"ksicCd" : "S95399"
+				,"ksicNm" : "그 외 기타 개인 및 가정용품 수리업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52720"
+				,"signguNm" : "진안군"
+				,"adongCd" : "52720370"
+				,"adongNm" : "마령면"
+				,"ldongCd" : "5272037024"
+				,"ldongNm" : "마령면"
+				,"lnoCd" : "5272037024113080001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 1308
+				,"lnoSlno" : 1
+				,"lnoAdr" : "전북특별자치도 진안군 마령면 덕천리 1308-1"
+				,"rdnmCd" : "527204622348"
+				,"rdnm" : "전북특별자치도 진안군 마령면 추장길"
+				,"bldMnno" : 117
+				,"bldSlno" : 31
+				,"bldMngNo" : "4572037024113080001000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 진안군 마령면 추장길 117-31"
+				,"oldZipcd" : "567871"
+				,"newZipcd" : "55448"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.324479456445
+				,"lat" : 35.7646362545618
+				}
+				,{
+				"bizesId" : "MA010120220802882366"
+				,"bizesNm" : "진안흑염소요리"
+				,"brchNm" : "전문점"
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20199"
+				,"indsSclsNm" : "기타 한식 음식점"
+				,"ksicCd" : "I56113"
+				,"ksicNm" : "한식 육류 요리 전문점"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52720"
+				,"signguNm" : "진안군"
+				,"adongCd" : "52720380"
+				,"adongNm" : "부귀면"
+				,"ldongCd" : "5272038024"
+				,"ldongNm" : "부귀면"
+				,"lnoCd" : "5272038024109460001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 946
+				,"lnoSlno" : 1
+				,"lnoAdr" : "전북특별자치도 진안군 부귀면 신정리 946-1"
+				,"rdnmCd" : "527203016031"
+				,"rdnm" : "전북특별자치도 진안군 부귀면 곰티로"
+				,"bldMnno" : 1202
+				,"bldSlno" : 122
+				,"bldMngNo" : "4572038024109460001000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 진안군 부귀면 곰티로 1202-122"
+				,"oldZipcd" : "567913"
+				,"newZipcd" : "55417"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.324592028688
+				,"lat" : 35.784175334557
+				}
+				,{
+				"bizesId" : "MA010120220804908105"
+				,"bizesNm" : "벌떼가든"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52720"
+				,"signguNm" : "진안군"
+				,"adongCd" : "52720380"
+				,"adongNm" : "부귀면"
+				,"ldongCd" : "5272038024"
+				,"ldongNm" : "부귀면"
+				,"lnoCd" : "5272038024107450003"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 745
+				,"lnoSlno" : 3
+				,"lnoAdr" : "전북특별자치도 진안군 부귀면 신정리 745-3"
+				,"rdnmCd" : "527203016031"
+				,"rdnm" : "전북특별자치도 진안군 부귀면 곰티로"
+				,"bldMnno" : 1299
+				,"bldSlno" : ""
+				,"bldMngNo" : "4572038024107450003020236"
+				,"bldNm" : "벌떼가든"
+				,"rdnmAdr" : "전북특별자치도 진안군 부귀면 곰티로 1299"
+				,"oldZipcd" : "567913"
+				,"newZipcd" : "55417"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.336602638731
+				,"lat" : 35.7995718886174
+				}
+				,{
+				"bizesId" : "MA010120220804822071"
+				,"bizesNm" : "토마토야"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G205"
+				,"indsMclsNm" : "식료품 소매"
+				,"indsSclsCd" : "G20509"
+				,"indsSclsNm" : "반찬/식료품 소매업"
+				,"ksicCd" : "G47219"
+				,"ksicNm" : "기타 식료품 소매업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52720"
+				,"signguNm" : "진안군"
+				,"adongCd" : "52720370"
+				,"adongNm" : "마령면"
+				,"ldongCd" : "5272037024"
+				,"ldongNm" : "마령면"
+				,"lnoCd" : "5272037024116520000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 1652
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전북특별자치도 진안군 마령면 덕천리 1652"
+				,"rdnmCd" : "527203274010"
+				,"rdnm" : "전북특별자치도 진안군 마령면 덕천로"
+				,"bldMnno" : 94
+				,"bldSlno" : 21
+				,"bldMngNo" : "4572037024116520000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 진안군 마령면 덕천로 94-21"
+				,"oldZipcd" : "567871"
+				,"newZipcd" : "55448"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.343429292182
+				,"lat" : 35.7611858746564
+				}
+				,{
+				"bizesId" : "MA010120220813358191"
+				,"bizesNm" : "진안고원새싹인삼"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G205"
+				,"indsMclsNm" : "식료품 소매"
+				,"indsSclsCd" : "G20506"
+				,"indsSclsNm" : "채소/과일 소매업"
+				,"ksicCd" : "G47215"
+				,"ksicNm" : "채소, 과실 및 뿌리작물 소매업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52720"
+				,"signguNm" : "진안군"
+				,"adongCd" : "52720380"
+				,"adongNm" : "부귀면"
+				,"ldongCd" : "5272038024"
+				,"ldongNm" : "부귀면"
+				,"lnoCd" : "5272038024104820000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 482
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전북특별자치도 진안군 부귀면 신정리 482"
+				,"rdnmCd" : "527203267080"
+				,"rdnm" : "전북특별자치도 진안군 부귀면 전진로"
+				,"bldMnno" : 2411
+				,"bldSlno" : ""
+				,"bldMngNo" : "4572038024104820000020203"
+				,"bldNm" : "현대종합철재"
+				,"rdnmAdr" : "전북특별자치도 진안군 부귀면 전진로 2411"
+				,"oldZipcd" : "567913"
+				,"newZipcd" : "55417"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.344288146377
+				,"lat" : 35.7988201068798
+				}
+				,{
+				"bizesId" : "MA0101202308A0064884"
+				,"bizesNm" : "법인마이진안"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G221"
+				,"indsMclsNm" : "기타 상품 소매"
+				,"indsSclsCd" : "G22199"
+				,"indsSclsNm" : "그 외 기타 상품 전문 소매업"
+				,"ksicCd" : "G47859"
+				,"ksicNm" : "그 외 기타 분류 안된 상품 전문 소매업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52720"
+				,"signguNm" : "진안군"
+				,"adongCd" : "52720380"
+				,"adongNm" : "부귀면"
+				,"ldongCd" : "5272038024"
+				,"ldongNm" : "부귀면"
+				,"lnoCd" : "5272038024104820000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 482
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전북특별자치도 진안군 부귀면 신정리 482"
+				,"rdnmCd" : "527203267080"
+				,"rdnm" : "전북특별자치도 진안군 부귀면 전진로"
+				,"bldMnno" : 2411
+				,"bldSlno" : ""
+				,"bldMngNo" : "4572038024104820000020203"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 진안군 부귀면 전진로 2411"
+				,"oldZipcd" : "567913"
+				,"newZipcd" : "55417"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.344288146377
+				,"lat" : 35.7988201068798
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 1,
+		"totalCount" : 7	}
+}

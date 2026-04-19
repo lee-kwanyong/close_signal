@@ -1,0 +1,98 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA010120220813829643"
+				,"bizesNm" : "물영아리식당"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "50"
+				,"ctprvnNm" : "제주특별자치도"
+				,"signguCd" : "50130"
+				,"signguNm" : "서귀포시"
+				,"adongCd" : "50130253"
+				,"adongNm" : "남원읍"
+				,"ldongCd" : "5013025324"
+				,"ldongNm" : "남원읍"
+				,"lnoCd" : "5013025324110260004"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 1026
+				,"lnoSlno" : 4
+				,"lnoAdr" : "제주특별자치도 서귀포시 남원읍 수망리 1026-4"
+				,"rdnmCd" : "501303349229"
+				,"rdnm" : "제주특별자치도 서귀포시 남원읍 남조로"
+				,"bldMnno" : 996
+				,"bldSlno" : ""
+				,"bldMngNo" : "5013025324110260004000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "제주특별자치도 서귀포시 남원읍 남조로 996"
+				,"oldZipcd" : "699949"
+				,"newZipcd" : "63615"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.691750701304
+				,"lat" : 33.3611791227008
+				}
+				,{
+				"bizesId" : "MA0101202303A0087837"
+				,"bizesNm" : "물영아리오름"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I210"
+				,"indsMclsNm" : "기타 간이"
+				,"indsSclsCd" : "I21007"
+				,"indsSclsNm" : "김밥/만두/분식"
+				,"ksicCd" : "I56194"
+				,"ksicNm" : "김밥 및 기타 간이 음식점업"
+				,"ctprvnCd" : "50"
+				,"ctprvnNm" : "제주특별자치도"
+				,"signguCd" : "50130"
+				,"signguNm" : "서귀포시"
+				,"adongCd" : "50130253"
+				,"adongNm" : "남원읍"
+				,"ldongCd" : "5013025324"
+				,"ldongNm" : "남원읍"
+				,"lnoCd" : "5013025324110260004"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 1026
+				,"lnoSlno" : 4
+				,"lnoAdr" : "제주특별자치도 서귀포시 남원읍 수망리 1026-4"
+				,"rdnmCd" : "501303349229"
+				,"rdnm" : "제주특별자치도 서귀포시 남원읍 남조로"
+				,"bldMnno" : 996
+				,"bldSlno" : ""
+				,"bldMngNo" : "5013025324110260004000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "제주특별자치도 서귀포시 남원읍 남조로 996"
+				,"oldZipcd" : "699949"
+				,"newZipcd" : "63615"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.691750701304
+				,"lat" : 33.3611791227008
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 1,
+		"totalCount" : 2	}
+}

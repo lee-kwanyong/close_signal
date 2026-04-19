@@ -1,0 +1,262 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA0106202509A2301496"
+				,"bizesNm" : "마량스팀세차장"
+				,"brchNm" : ""
+				,"indsLclsCd" : "S2"
+				,"indsLclsNm" : "수리·개인"
+				,"indsMclsCd" : "S203"
+				,"indsMclsNm" : "자동차 수리·세차"
+				,"indsSclsCd" : "S20302"
+				,"indsSclsNm" : "자동차 세차장"
+				,"ksicCd" : "S95213"
+				,"ksicNm" : "자동차 세차업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46810"
+				,"signguNm" : "강진군"
+				,"adongCd" : "46810400"
+				,"adongNm" : "마량면"
+				,"ldongCd" : "4681040024"
+				,"ldongNm" : "마량면"
+				,"lnoCd" : "4681040024109920001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 992
+				,"lnoSlno" : 1
+				,"lnoAdr" : "전라남도 강진군 마량면 마량리 992-1"
+				,"rdnmCd" : "468104679107"
+				,"rdnm" : "전라남도 강진군 마량면 마량공단길"
+				,"bldMnno" : 3
+				,"bldSlno" : ""
+				,"bldMngNo" : "4681040024109920001000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 강진군 마량면 마량공단길 3"
+				,"oldZipcd" : "527911"
+				,"newZipcd" : "59267"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.815475589905
+				,"lat" : 34.4541577665297
+				}
+				,{
+				"bizesId" : "MA0101202505A0046872"
+				,"bizesNm" : "시온할인마트"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G205"
+				,"indsMclsNm" : "식료품 소매"
+				,"indsSclsCd" : "G20503"
+				,"indsSclsNm" : "정육점"
+				,"ksicCd" : "G47212"
+				,"ksicNm" : "육류 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46810"
+				,"signguNm" : "강진군"
+				,"adongCd" : "46810400"
+				,"adongNm" : "마량면"
+				,"ldongCd" : "4681040024"
+				,"ldongNm" : "마량면"
+				,"lnoCd" : "4681040024109870166"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 987
+				,"lnoSlno" : 166
+				,"lnoAdr" : "전라남도 강진군 마량면 마량리 987-166"
+				,"rdnmCd" : "468104679102"
+				,"rdnm" : "전라남도 강진군 마량면 마량4길"
+				,"bldMnno" : 6
+				,"bldSlno" : ""
+				,"bldMngNo" : "4681040024109870166000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 강진군 마량면 마량4길 6"
+				,"oldZipcd" : "527911"
+				,"newZipcd" : "59269"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.816471714427
+				,"lat" : 34.4514999503275
+				}
+				,{
+				"bizesId" : "MA0101202504A0095195"
+				,"bizesNm" : "남파랑81"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46810"
+				,"signguNm" : "강진군"
+				,"adongCd" : "46810400"
+				,"adongNm" : "마량면"
+				,"ldongCd" : "4681040024"
+				,"ldongNm" : "마량면"
+				,"lnoCd" : "4681040024109870089"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 987
+				,"lnoSlno" : 89
+				,"lnoAdr" : "전라남도 강진군 마량면 마량리 987-89"
+				,"rdnmCd" : "468103293051"
+				,"rdnm" : "전라남도 강진군 마량면 미항로"
+				,"bldMnno" : 133
+				,"bldSlno" : 1
+				,"bldMngNo" : "4681040024109870089040012"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 강진군 마량면 미항로 133-1"
+				,"oldZipcd" : "527911"
+				,"newZipcd" : "59269"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.817029888809
+				,"lat" : 34.4500404164996
+				}
+				,{
+				"bizesId" : "MA0101202505A0057009"
+				,"bizesNm" : "남도고기왕"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G205"
+				,"indsMclsNm" : "식료품 소매"
+				,"indsSclsCd" : "G20503"
+				,"indsSclsNm" : "정육점"
+				,"ksicCd" : "G47212"
+				,"ksicNm" : "육류 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46810"
+				,"signguNm" : "강진군"
+				,"adongCd" : "46810400"
+				,"adongNm" : "마량면"
+				,"ldongCd" : "4681040024"
+				,"ldongNm" : "마량면"
+				,"lnoCd" : "4681040024109870043"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 987
+				,"lnoSlno" : 43
+				,"lnoAdr" : "전라남도 강진군 마량면 마량리 987-43"
+				,"rdnmCd" : "468104679102"
+				,"rdnm" : "전라남도 강진군 마량면 마량4길"
+				,"bldMnno" : 11
+				,"bldSlno" : ""
+				,"bldMngNo" : "4681040024109870043041252"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 강진군 마량면 마량4길 11"
+				,"oldZipcd" : "527911"
+				,"newZipcd" : "59269"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.817081213094
+				,"lat" : 34.4514557905638
+				}
+				,{
+				"bizesId" : "MA0101202504A0024546"
+				,"bizesNm" : "꽃길"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I212"
+				,"indsMclsNm" : "비알코올 "
+				,"indsSclsCd" : "I21201"
+				,"indsSclsNm" : "카페"
+				,"ksicCd" : "I56229"
+				,"ksicNm" : "기타 비알코올 음료점업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46810"
+				,"signguNm" : "강진군"
+				,"adongCd" : "46810400"
+				,"adongNm" : "마량면"
+				,"ldongCd" : "4681040024"
+				,"ldongNm" : "마량면"
+				,"lnoCd" : "4681040024109870141"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 987
+				,"lnoSlno" : 141
+				,"lnoAdr" : "전라남도 강진군 마량면 마량리 987-141"
+				,"rdnmCd" : "468104679106"
+				,"rdnm" : "전라남도 강진군 마량면 마량8길"
+				,"bldMnno" : 9
+				,"bldSlno" : 1
+				,"bldMngNo" : "4681040024109870141041495"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 강진군 마량면 마량8길 9-1"
+				,"oldZipcd" : "527911"
+				,"newZipcd" : "59269"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.817605515745
+				,"lat" : 34.4505551106503
+				}
+				,{
+				"bizesId" : "MA0106202511A2373947"
+				,"bizesNm" : "에어라인"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46810"
+				,"signguNm" : "강진군"
+				,"adongCd" : "46810400"
+				,"adongNm" : "마량면"
+				,"ldongCd" : "4681040024"
+				,"ldongNm" : "마량면"
+				,"lnoCd" : "4681040024109870074"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 987
+				,"lnoSlno" : 74
+				,"lnoAdr" : "전라남도 강진군 마량면 마량리 987-74"
+				,"rdnmCd" : "468104679106"
+				,"rdnm" : "전라남도 강진군 마량면 마량8길"
+				,"bldMnno" : 11
+				,"bldSlno" : ""
+				,"bldMngNo" : "4681040024109870074041601"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 강진군 마량면 마량8길 11"
+				,"oldZipcd" : "527911"
+				,"newZipcd" : "59269"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.817670553246
+				,"lat" : 34.4506723978794
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 2,
+		"totalCount" : 106	}
+}

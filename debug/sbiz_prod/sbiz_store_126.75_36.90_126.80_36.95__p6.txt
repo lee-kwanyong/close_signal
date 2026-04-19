@@ -1,0 +1,467 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA0106202510A0737980"
+				,"bizesNm" : "당진언더코팅"
+				,"brchNm" : ""
+				,"indsLclsCd" : "S2"
+				,"indsLclsNm" : "수리·개인"
+				,"indsMclsCd" : "S203"
+				,"indsMclsNm" : "자동차 수리·세차"
+				,"indsSclsCd" : "S20302"
+				,"indsSclsNm" : "자동차 세차장"
+				,"ksicCd" : "S95213"
+				,"ksicNm" : "자동차 세차업"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44270"
+				,"signguNm" : "당진시"
+				,"adongCd" : "44270253"
+				,"adongNm" : "송악읍"
+				,"ldongCd" : "4427025333"
+				,"ldongNm" : "송악읍"
+				,"lnoCd" : "4427025333103380000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 338
+				,"lnoSlno" : ""
+				,"lnoAdr" : "충청남도 당진시 송악읍 복운리 338"
+				,"rdnmCd" : "442704595268"
+				,"rdnm" : "충청남도 당진시 송악읍 복운1길"
+				,"bldMnno" : 161
+				,"bldSlno" : 11
+				,"bldMngNo" : "4483025633103380000059342"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청남도 당진시 송악읍 복운1길 161-11"
+				,"oldZipcd" : "343827"
+				,"newZipcd" : "31723"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.770868764831
+				,"lat" : 36.9264398579292
+				}
+				,{
+				"bizesId" : "MA0106202510A0713350"
+				,"bizesNm" : "포항물회"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20111"
+				,"indsSclsNm" : "횟집"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44270"
+				,"signguNm" : "당진시"
+				,"adongCd" : "44270253"
+				,"adongNm" : "송악읍"
+				,"ldongCd" : "4427025333"
+				,"ldongNm" : "송악읍"
+				,"lnoCd" : "4427025333116340004"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 1634
+				,"lnoSlno" : 4
+				,"lnoAdr" : "충청남도 당진시 송악읍 복운리 1634-4"
+				,"rdnmCd" : "442704595425"
+				,"rdnm" : "충청남도 당진시 송악읍 신복운로5길"
+				,"bldMnno" : 4
+				,"bldSlno" : 13
+				,"bldMngNo" : "4483025633116340004090238"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청남도 당진시 송악읍 신복운로5길 4-13"
+				,"oldZipcd" : "343827"
+				,"newZipcd" : "31724"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.781632541485
+				,"lat" : 36.942076032448
+				}
+				,{
+				"bizesId" : "MA0106202511A2177257"
+				,"bizesNm" : "선택21"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44270"
+				,"signguNm" : "당진시"
+				,"adongCd" : "44270253"
+				,"adongNm" : "송악읍"
+				,"ldongCd" : "4427025333"
+				,"ldongNm" : "송악읍"
+				,"lnoCd" : "4427025333116460010"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 1646
+				,"lnoSlno" : 10
+				,"lnoAdr" : "충청남도 당진시 송악읍 복운리 1646-10"
+				,"rdnmCd" : "442704595424"
+				,"rdnm" : "충청남도 당진시 송악읍 신복운로4길"
+				,"bldMnno" : 6
+				,"bldSlno" : 10
+				,"bldMngNo" : "4483025633116460010090341"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청남도 당진시 송악읍 신복운로4길 6-10"
+				,"oldZipcd" : "343827"
+				,"newZipcd" : "31724"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.782157182656
+				,"lat" : 36.9431222594985
+				}
+				,{
+				"bizesId" : "MA0106202511A1073697"
+				,"bizesNm" : "코스모스비어"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I211"
+				,"indsMclsNm" : "주점"
+				,"indsSclsCd" : "I21103"
+				,"indsSclsNm" : "생맥주 전문"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44270"
+				,"signguNm" : "당진시"
+				,"adongCd" : "44270253"
+				,"adongNm" : "송악읍"
+				,"ldongCd" : "4427025333"
+				,"ldongNm" : "송악읍"
+				,"lnoCd" : "4427025333116460007"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 1646
+				,"lnoSlno" : 7
+				,"lnoAdr" : "충청남도 당진시 송악읍 복운리 1646-7"
+				,"rdnmCd" : "442704595426"
+				,"rdnm" : "충청남도 당진시 송악읍 신복운로6길"
+				,"bldMnno" : 21
+				,"bldSlno" : ""
+				,"bldMngNo" : "4483025633116460007090315"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청남도 당진시 송악읍 신복운로6길 21"
+				,"oldZipcd" : "343827"
+				,"newZipcd" : "31724"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.782393723964
+				,"lat" : 36.9428433554645
+				}
+				,{
+				"bizesId" : "MA0106202510A2083758"
+				,"bizesNm" : "옥이네포차야식"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20199"
+				,"indsSclsNm" : "기타 한식 음식점"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44270"
+				,"signguNm" : "당진시"
+				,"adongCd" : "44270253"
+				,"adongNm" : "송악읍"
+				,"ldongCd" : "4427025333"
+				,"ldongNm" : "송악읍"
+				,"lnoCd" : "4427025333116460008"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 1646
+				,"lnoSlno" : 8
+				,"lnoAdr" : "충청남도 당진시 송악읍 복운리 1646-8"
+				,"rdnmCd" : "442704595424"
+				,"rdnm" : "충청남도 당진시 송악읍 신복운로4길"
+				,"bldMnno" : 6
+				,"bldSlno" : 14
+				,"bldMngNo" : "4483025633116460008090329"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청남도 당진시 송악읍 신복운로4길 6-14"
+				,"oldZipcd" : "343827"
+				,"newZipcd" : "31724"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.782505625432
+				,"lat" : 36.9429697129374
+				}
+				,{
+				"bizesId" : "MA0106202510A1261994"
+				,"bizesNm" : "세시봉라이브"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44270"
+				,"signguNm" : "당진시"
+				,"adongCd" : "44270253"
+				,"adongNm" : "송악읍"
+				,"ldongCd" : "4427025333"
+				,"ldongNm" : "송악읍"
+				,"lnoCd" : "4427025333116390010"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 1639
+				,"lnoSlno" : 10
+				,"lnoAdr" : "충청남도 당진시 송악읍 복운리 1639-10"
+				,"rdnmCd" : "442704595422"
+				,"rdnm" : "충청남도 당진시 송악읍 신복운로2길"
+				,"bldMnno" : 20
+				,"bldSlno" : ""
+				,"bldMngNo" : "4427025333116390010000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청남도 당진시 송악읍 신복운로2길 20"
+				,"oldZipcd" : "343827"
+				,"newZipcd" : "31724"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.78251823441
+				,"lat" : 36.9424831478099
+				}
+				,{
+				"bizesId" : "MA0106202510A1232305"
+				,"bizesNm" : "언니포차"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44270"
+				,"signguNm" : "당진시"
+				,"adongCd" : "44270253"
+				,"adongNm" : "송악읍"
+				,"ldongCd" : "4427025333"
+				,"ldongNm" : "송악읍"
+				,"lnoCd" : "4427025333116380006"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 1638
+				,"lnoSlno" : 6
+				,"lnoAdr" : "충청남도 당진시 송악읍 복운리 1638-6"
+				,"rdnmCd" : "442704595426"
+				,"rdnm" : "충청남도 당진시 송악읍 신복운로6길"
+				,"bldMnno" : 16
+				,"bldSlno" : 6
+				,"bldMngNo" : "4483025633116380006090225"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청남도 당진시 송악읍 신복운로6길 16-6"
+				,"oldZipcd" : "343827"
+				,"newZipcd" : "31724"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.782732985792
+				,"lat" : 36.9419699199205
+				}
+				,{
+				"bizesId" : "MA0106202510A2272037"
+				,"bizesNm" : "신놀부&더맥"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44270"
+				,"signguNm" : "당진시"
+				,"adongCd" : "44270253"
+				,"adongNm" : "송악읍"
+				,"ldongCd" : "4427025333"
+				,"ldongNm" : "송악읍"
+				,"lnoCd" : "4427025333116510001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 1651
+				,"lnoSlno" : 1
+				,"lnoAdr" : "충청남도 당진시 송악읍 복운리 1651-1"
+				,"rdnmCd" : "442704595422"
+				,"rdnm" : "충청남도 당진시 송악읍 신복운로2길"
+				,"bldMnno" : 23
+				,"bldSlno" : 1
+				,"bldMngNo" : "4483025633116510001090294"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청남도 당진시 송악읍 신복운로2길 23-1"
+				,"oldZipcd" : "343827"
+				,"newZipcd" : "31724"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.782910733667
+				,"lat" : 36.942628040186
+				}
+				,{
+				"bizesId" : "MA0106202511A1407470"
+				,"bizesNm" : "국제닭강정"
+				,"brchNm" : "당진점"
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I210"
+				,"indsMclsNm" : "기타 간이"
+				,"indsSclsCd" : "I21006"
+				,"indsSclsNm" : "치킨"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44270"
+				,"signguNm" : "당진시"
+				,"adongCd" : "44270253"
+				,"adongNm" : "송악읍"
+				,"ldongCd" : "4427025333"
+				,"ldongNm" : "송악읍"
+				,"lnoCd" : "4427025333116500004"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 1650
+				,"lnoSlno" : 4
+				,"lnoAdr" : "충청남도 당진시 송악읍 복운리 1650-4"
+				,"rdnmCd" : "442704595424"
+				,"rdnm" : "충청남도 당진시 송악읍 신복운로4길"
+				,"bldMnno" : 18
+				,"bldSlno" : 7
+				,"bldMngNo" : "4483025633116500004090413"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청남도 당진시 송악읍 신복운로4길 18-7"
+				,"oldZipcd" : "343827"
+				,"newZipcd" : "31724"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.783198830452
+				,"lat" : 36.9439621784799
+				}
+				,{
+				"bizesId" : "MA0106202510A1173933"
+				,"bizesNm" : "신데렐라"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G209"
+				,"indsMclsNm" : "섬유·의복·신발 소매"
+				,"indsSclsCd" : "G20905"
+				,"indsSclsNm" : "기타 의류 소매업"
+				,"ksicCd" : "G47419"
+				,"ksicNm" : "기타 의복 소매업"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44270"
+				,"signguNm" : "당진시"
+				,"adongCd" : "44270253"
+				,"adongNm" : "송악읍"
+				,"ldongCd" : "4427025333"
+				,"ldongNm" : "송악읍"
+				,"lnoCd" : "4427025333116430010"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 1643
+				,"lnoSlno" : 10
+				,"lnoAdr" : "충청남도 당진시 송악읍 복운리 1643-10"
+				,"rdnmCd" : "442704595422"
+				,"rdnm" : "충청남도 당진시 송악읍 신복운로2길"
+				,"bldMnno" : 28
+				,"bldSlno" : ""
+				,"bldMngNo" : "4483025633116430010000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청남도 당진시 송악읍 신복운로2길 28"
+				,"oldZipcd" : "343827"
+				,"newZipcd" : "31724"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.783372503587
+				,"lat" : 36.9420972406197
+				}
+				,{
+				"bizesId" : "MA0106202510A0766937"
+				,"bizesNm" : "짠짜라노래연습장"
+				,"brchNm" : ""
+				,"indsLclsCd" : "R1"
+				,"indsLclsNm" : "예술·스포츠"
+				,"indsMclsCd" : "R104"
+				,"indsMclsNm" : "유원지·오락"
+				,"indsSclsCd" : "R10407"
+				,"indsSclsNm" : "노래방"
+				,"ksicCd" : "R91223"
+				,"ksicNm" : "노래 연습장 운영업"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44270"
+				,"signguNm" : "당진시"
+				,"adongCd" : "44270253"
+				,"adongNm" : "송악읍"
+				,"ldongCd" : "4427025333"
+				,"ldongNm" : "송악읍"
+				,"lnoCd" : "4427025333116540011"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 1654
+				,"lnoSlno" : 11
+				,"lnoAdr" : "충청남도 당진시 송악읍 복운리 1654-11"
+				,"rdnmCd" : "442703265065"
+				,"rdnm" : "충청남도 당진시 송악읍 신복운로"
+				,"bldMnno" : 193
+				,"bldSlno" : ""
+				,"bldMngNo" : "4483025633116540011090289"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청남도 당진시 송악읍 신복운로 193"
+				,"oldZipcd" : "343827"
+				,"newZipcd" : "31724"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.784538804213
+				,"lat" : 36.9425228742029
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 6,
+		"totalCount" : 511	}
+}

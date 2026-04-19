@@ -1,0 +1,344 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA010120220810597871"
+				,"bizesNm" : "보육인시니어직능클럽"
+				,"brchNm" : ""
+				,"indsLclsCd" : "P1"
+				,"indsLclsNm" : "교육"
+				,"indsMclsCd" : "P106"
+				,"indsMclsNm" : "기타 교육"
+				,"indsSclsCd" : "P10621"
+				,"indsSclsNm" : "직원 훈련기관"
+				,"ksicCd" : "P85650"
+				,"ksicNm" : "직원 훈련기관"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52720"
+				,"signguNm" : "진안군"
+				,"adongCd" : "52720310"
+				,"adongNm" : "용담면"
+				,"ldongCd" : "5272031023"
+				,"ldongNm" : "용담면"
+				,"lnoCd" : "5272031023106110001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 611
+				,"lnoSlno" : 1
+				,"lnoAdr" : "전북특별자치도 진안군 용담면 호계리 611-1"
+				,"rdnmCd" : "527204622376"
+				,"rdnm" : "전북특별자치도 진안군 용담면 호계길"
+				,"bldMnno" : 480
+				,"bldSlno" : 110
+				,"bldMngNo" : "4572031023106110001000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 진안군 용담면 호계길 480-110"
+				,"oldZipcd" : "567842"
+				,"newZipcd" : "55404"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.454061768332
+				,"lat" : 35.9342011683726
+				}
+				,{
+				"bizesId" : "MA010120220808757164"
+				,"bizesNm" : "위드커뮤니케이션"
+				,"brchNm" : ""
+				,"indsLclsCd" : "M1"
+				,"indsLclsNm" : "과학·기술"
+				,"indsMclsCd" : "M105"
+				,"indsMclsNm" : "광고"
+				,"indsSclsCd" : "M10599"
+				,"indsSclsNm" : "기타 광고 관련 서비스업"
+				,"ksicCd" : "M71399"
+				,"ksicNm" : "그 외 기타 광고 관련 서비스업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52720"
+				,"signguNm" : "진안군"
+				,"adongCd" : "52720310"
+				,"adongNm" : "용담면"
+				,"ldongCd" : "5272031023"
+				,"ldongNm" : "용담면"
+				,"lnoCd" : "5272031023105080007"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 508
+				,"lnoSlno" : 7
+				,"lnoAdr" : "전북특별자치도 진안군 용담면 호계리 508-7"
+				,"rdnmCd" : "527204622376"
+				,"rdnm" : "전북특별자치도 진안군 용담면 호계길"
+				,"bldMnno" : 563
+				,"bldSlno" : ""
+				,"bldMngNo" : "4572031023105080007014222"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 진안군 용담면 호계길 563"
+				,"oldZipcd" : "567842"
+				,"newZipcd" : "55404"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.460158587587
+				,"lat" : 35.921146087117
+				}
+				,{
+				"bizesId" : "MA010120220807235185"
+				,"bizesNm" : "강나루가든"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52720"
+				,"signguNm" : "진안군"
+				,"adongCd" : "52720390"
+				,"adongNm" : "정천면"
+				,"ldongCd" : "5272039023"
+				,"ldongNm" : "정천면"
+				,"lnoCd" : "5272039023116250003"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 1625
+				,"lnoSlno" : 3
+				,"lnoAdr" : "전북특별자치도 진안군 정천면 모정리 1625-3"
+				,"rdnmCd" : "527203274045"
+				,"rdnm" : "전북특별자치도 진안군 정천면 진용로"
+				,"bldMnno" : 1780
+				,"bldSlno" : 22
+				,"bldMngNo" : "4572039023116250003015957"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 진안군 정천면 진용로 1780-22"
+				,"oldZipcd" : "567821"
+				,"newZipcd" : "55410"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.481357374423
+				,"lat" : 35.9106897373631
+				}
+				,{
+				"bizesId" : "MA010120220809732346"
+				,"bizesNm" : "중앙농자재"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G210"
+				,"indsMclsNm" : "철물·건설자재 소매"
+				,"indsSclsCd" : "G21001"
+				,"indsSclsNm" : "철물/공구 소매업"
+				,"ksicCd" : "G47512"
+				,"ksicNm" : "공구 소매업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52720"
+				,"signguNm" : "진안군"
+				,"adongCd" : "52720390"
+				,"adongNm" : "정천면"
+				,"ldongCd" : "5272039023"
+				,"ldongNm" : "정천면"
+				,"lnoCd" : "5272039023116250003"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 1625
+				,"lnoSlno" : 3
+				,"lnoAdr" : "전북특별자치도 진안군 정천면 모정리 1625-3"
+				,"rdnmCd" : "527203274045"
+				,"rdnm" : "전북특별자치도 진안군 정천면 진용로"
+				,"bldMnno" : 1780
+				,"bldSlno" : 22
+				,"bldMngNo" : "4572039023116250003015957"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 진안군 정천면 진용로 1780-22"
+				,"oldZipcd" : "567821"
+				,"newZipcd" : "55410"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.481357374423
+				,"lat" : 35.9106897373631
+				}
+				,{
+				"bizesId" : "MA0101202406A0057411"
+				,"bizesNm" : "스테이담"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55104"
+				,"ksicNm" : "민박업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52720"
+				,"signguNm" : "진안군"
+				,"adongCd" : "52720310"
+				,"adongNm" : "용담면"
+				,"ldongCd" : "5272031024"
+				,"ldongNm" : "용담면"
+				,"lnoCd" : "5272031024108680012"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 868
+				,"lnoSlno" : 12
+				,"lnoAdr" : "전북특별자치도 진안군 용담면 월계리 868-12"
+				,"rdnmCd" : "527203274045"
+				,"rdnm" : "전북특별자치도 진안군 용담면 진용로"
+				,"bldMnno" : 2252
+				,"bldSlno" : 8
+				,"bldMngNo" : "4572031024108680012014237"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 진안군 용담면 진용로 2252-8"
+				,"oldZipcd" : "567842"
+				,"newZipcd" : "55404"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.488606590653
+				,"lat" : 35.938355405187
+				}
+				,{
+				"bizesId" : "MA0101202310A0038767"
+				,"bizesNm" : "바다물산"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G205"
+				,"indsMclsNm" : "식료품 소매"
+				,"indsSclsCd" : "G20504"
+				,"indsSclsNm" : "건어물/젓갈 소매업"
+				,"ksicCd" : "G47213"
+				,"ksicNm" : "건어물 및 젓갈류 소매업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52720"
+				,"signguNm" : "진안군"
+				,"adongCd" : "52720310"
+				,"adongNm" : "용담면"
+				,"ldongCd" : "5272031021"
+				,"ldongNm" : "용담면"
+				,"lnoCd" : "5272031021104610020"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 461
+				,"lnoSlno" : 20
+				,"lnoAdr" : "전북특별자치도 진안군 용담면 옥거리 461-20"
+				,"rdnmCd" : "527203274042"
+				,"rdnm" : "전북특별자치도 진안군 용담면 주용로"
+				,"bldMnno" : 398
+				,"bldSlno" : 8
+				,"bldMngNo" : "4572031021104610020013367"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 진안군 용담면 주용로 398-8"
+				,"oldZipcd" : "567842"
+				,"newZipcd" : "55404"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.488721721072
+				,"lat" : 35.9498546556825
+				}
+				,{
+				"bizesId" : "MA0101202305A0175741"
+				,"bizesNm" : "비즈파트너귀인"
+				,"brchNm" : ""
+				,"indsLclsCd" : "M1"
+				,"indsLclsNm" : "과학·기술"
+				,"indsMclsCd" : "M107"
+				,"indsMclsNm" : "본사·경영 컨설팅"
+				,"indsSclsCd" : "M10703"
+				,"indsSclsNm" : "경영 컨설팅업"
+				,"ksicCd" : "M71531"
+				,"ksicNm" : "경영 컨설팅업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52720"
+				,"signguNm" : "진안군"
+				,"adongCd" : "52720310"
+				,"adongNm" : "용담면"
+				,"ldongCd" : "5272031021"
+				,"ldongNm" : "용담면"
+				,"lnoCd" : "5272031021102920001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 292
+				,"lnoSlno" : 1
+				,"lnoAdr" : "전북특별자치도 진안군 용담면 옥거리 292-1"
+				,"rdnmCd" : "527203274042"
+				,"rdnm" : "전북특별자치도 진안군 용담면 주용로"
+				,"bldMnno" : 398
+				,"bldSlno" : 23
+				,"bldMngNo" : "4572031021102920001014227"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 진안군 용담면 주용로 398-23"
+				,"oldZipcd" : "567842"
+				,"newZipcd" : "55404"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.489142617144
+				,"lat" : 35.9498078795655
+				}
+				,{
+				"bizesId" : "MA010120220813047221"
+				,"bizesNm" : "행복이머무는집"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55104"
+				,"ksicNm" : "민박업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52720"
+				,"signguNm" : "진안군"
+				,"adongCd" : "52720390"
+				,"adongNm" : "정천면"
+				,"ldongCd" : "5272039023"
+				,"ldongNm" : "정천면"
+				,"lnoCd" : "5272039023109840003"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 984
+				,"lnoSlno" : 3
+				,"lnoAdr" : "전북특별자치도 진안군 정천면 모정리 984-3"
+				,"rdnmCd" : "527204622254"
+				,"rdnm" : "전북특별자치도 진안군 정천면 용정길"
+				,"bldMnno" : 60
+				,"bldSlno" : 23
+				,"bldMngNo" : "4572039023109840003020986"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 진안군 정천면 용정길 60-23"
+				,"oldZipcd" : "567821"
+				,"newZipcd" : "55410"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.489442473405
+				,"lat" : 35.9013562825878
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 1,
+		"totalCount" : 8	}
+}

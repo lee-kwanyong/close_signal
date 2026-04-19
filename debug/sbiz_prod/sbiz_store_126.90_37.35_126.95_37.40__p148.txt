@@ -1,0 +1,303 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA0106202511A2473330"
+				,"bizesNm" : "온정주점"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "41"
+				,"ctprvnNm" : "경기도"
+				,"signguCd" : "41171"
+				,"signguNm" : "안양시 만안구"
+				,"adongCd" : "41171510"
+				,"adongNm" : "안양1동"
+				,"ldongCd" : "4117110100"
+				,"ldongNm" : "안양동"
+				,"lnoCd" : "4117110100106740236"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 674
+				,"lnoSlno" : 236
+				,"lnoAdr" : "경기도 안양시 만안구 안양동 674-236"
+				,"rdnmCd" : "411714346299"
+				,"rdnm" : "경기도 안양시 만안구 장내로139번길"
+				,"bldMnno" : 34
+				,"bldSlno" : ""
+				,"bldMngNo" : "4117110100106740236008416"
+				,"bldNm" : ""
+				,"rdnmAdr" : "경기도 안양시 만안구 장내로139번길 34"
+				,"oldZipcd" : "430831"
+				,"newZipcd" : "13992"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.922197074495
+				,"lat" : 37.3991588531094
+				}
+				,{
+				"bizesId" : "MA0106202511A2447110"
+				,"bizesNm" : "본유가네양꼬치"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I202"
+				,"indsMclsNm" : "중식"
+				,"indsSclsCd" : "I20201"
+				,"indsSclsNm" : "중국집"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "41"
+				,"ctprvnNm" : "경기도"
+				,"signguCd" : "41410"
+				,"signguNm" : "군포시"
+				,"adongCd" : "41410620"
+				,"adongNm" : "광정동"
+				,"ldongCd" : "4141010400"
+				,"ldongNm" : "산본동"
+				,"lnoCd" : "4141010400111380003"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 1138
+				,"lnoSlno" : 3
+				,"lnoAdr" : "경기도 군포시 산본동 1138-3"
+				,"rdnmCd" : "414104400232"
+				,"rdnm" : "경기도 군포시 산본로323번길"
+				,"bldMnno" : 26
+				,"bldSlno" : 26
+				,"bldMngNo" : "4141010400111380003005504"
+				,"bldNm" : ""
+				,"rdnmAdr" : "경기도 군포시 산본로323번길 26-26"
+				,"oldZipcd" : "435805"
+				,"newZipcd" : "15865"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.930658730122
+				,"lat" : 37.3595370654165
+				}
+				,{
+				"bizesId" : "MA0106202511A2332628"
+				,"bizesNm" : "우지커피"
+				,"brchNm" : "산본역점"
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I212"
+				,"indsMclsNm" : "비알코올 "
+				,"indsSclsCd" : "I21201"
+				,"indsSclsNm" : "카페"
+				,"ksicCd" : "I56221"
+				,"ksicNm" : "커피 전문점"
+				,"ctprvnCd" : "41"
+				,"ctprvnNm" : "경기도"
+				,"signguCd" : "41410"
+				,"signguNm" : "군포시"
+				,"adongCd" : "41410620"
+				,"adongNm" : "광정동"
+				,"ldongCd" : "4141010400"
+				,"ldongNm" : "산본동"
+				,"lnoCd" : "4141010400111310001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 1131
+				,"lnoSlno" : 1
+				,"lnoAdr" : "경기도 군포시 산본동 1131-1"
+				,"rdnmCd" : "414104400232"
+				,"rdnm" : "경기도 군포시 산본로323번길"
+				,"bldMnno" : 4
+				,"bldSlno" : 21
+				,"bldMngNo" : "4141010400111310001005744"
+				,"bldNm" : ""
+				,"rdnmAdr" : "경기도 군포시 산본로323번길 4-21"
+				,"oldZipcd" : "435805"
+				,"newZipcd" : "15865"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.932385115491
+				,"lat" : 37.3602678970075
+				}
+				,{
+				"bizesId" : "MA0106202511A2392772"
+				,"bizesNm" : "지니.영"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G209"
+				,"indsMclsNm" : "섬유·의복·신발 소매"
+				,"indsSclsCd" : "G20908"
+				,"indsSclsNm" : "가발 소매업"
+				,"ksicCd" : "G47422"
+				,"ksicNm" : "의복 액세서리 및 모조 장신구 소매업"
+				,"ctprvnCd" : "41"
+				,"ctprvnNm" : "경기도"
+				,"signguCd" : "41171"
+				,"signguNm" : "안양시 만안구"
+				,"adongCd" : "41171570"
+				,"adongNm" : "안양7동"
+				,"ldongCd" : "4117110100"
+				,"ldongNm" : "안양동"
+				,"lnoCd" : "4117110100114320000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 1432
+				,"lnoSlno" : ""
+				,"lnoAdr" : "경기도 안양시 만안구 안양동 1432"
+				,"rdnmCd" : "411714346052"
+				,"rdnm" : "경기도 안양시 만안구 덕천로152번길"
+				,"bldMnno" : 25
+				,"bldSlno" : ""
+				,"bldMngNo" : "4117110100101890000020804"
+				,"bldNm" : ""
+				,"rdnmAdr" : "경기도 안양시 만안구 덕천로152번길 25"
+				,"oldZipcd" : "430017"
+				,"newZipcd" : "14084"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.938307150857
+				,"lat" : 37.3928972436281
+				}
+				,{
+				"bizesId" : "MA0106202511A2351478"
+				,"bizesNm" : "지혜숲국어교습소"
+				,"brchNm" : ""
+				,"indsLclsCd" : "P1"
+				,"indsLclsNm" : "교육"
+				,"indsMclsCd" : "P105"
+				,"indsMclsNm" : "일반 교육"
+				,"indsSclsCd" : "P10501"
+				,"indsSclsNm" : "입시·교과학원"
+				,"ksicCd" : "P85501"
+				,"ksicNm" : "일반 교과학원"
+				,"ctprvnCd" : "41"
+				,"ctprvnNm" : "경기도"
+				,"signguCd" : "41173"
+				,"signguNm" : "안양시 동안구"
+				,"adongCd" : "41173520"
+				,"adongNm" : "비산2동"
+				,"ldongCd" : "4117310100"
+				,"ldongNm" : "비산동"
+				,"lnoCd" : "4117310100111770000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 1177
+				,"lnoSlno" : ""
+				,"lnoAdr" : "경기도 안양시 동안구 비산동 1177"
+				,"rdnmCd" : "411734349039"
+				,"rdnm" : "경기도 안양시 동안구 경수대로884번길"
+				,"bldMnno" : 19
+				,"bldSlno" : ""
+				,"bldMngNo" : "4117310100104140016009514"
+				,"bldNm" : "평촌래미안푸르지오"
+				,"rdnmAdr" : "경기도 안양시 동안구 경수대로884번길 19"
+				,"oldZipcd" : "431052"
+				,"newZipcd" : "13954"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.938766412108
+				,"lat" : 37.3975017047915
+				}
+				,{
+				"bizesId" : "MA0106202511A2350092"
+				,"bizesNm" : "텐버거군포당동점"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I210"
+				,"indsMclsNm" : "기타 간이"
+				,"indsSclsCd" : "I21004"
+				,"indsSclsNm" : "버거"
+				,"ksicCd" : "I56192"
+				,"ksicNm" : "피자, 햄버거, 샌드위치 및 유사 음식점업"
+				,"ctprvnCd" : "41"
+				,"ctprvnNm" : "경기도"
+				,"signguCd" : "41410"
+				,"signguNm" : "군포시"
+				,"adongCd" : "41410510"
+				,"adongNm" : "군포1동"
+				,"ldongCd" : "4141010100"
+				,"ldongNm" : "당동"
+				,"lnoCd" : "4141010100107710012"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 771
+				,"lnoSlno" : 12
+				,"lnoAdr" : "경기도 군포시 당동 771-12"
+				,"rdnmCd" : "414103200009"
+				,"rdnm" : "경기도 군포시 당동로"
+				,"bldMnno" : 4
+				,"bldSlno" : ""
+				,"bldMngNo" : "4141010100107710012002753"
+				,"bldNm" : ""
+				,"rdnmAdr" : "경기도 군포시 당동로 4"
+				,"oldZipcd" : "435814"
+				,"newZipcd" : "15859"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.944142827797
+				,"lat" : 37.3508943312623
+				}
+				,{
+				"bizesId" : "MA0106202511A2445363"
+				,"bizesNm" : "육대장범계점"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "41"
+				,"ctprvnNm" : "경기도"
+				,"signguCd" : "41173"
+				,"signguNm" : "안양시 동안구"
+				,"adongCd" : "41173590"
+				,"adongNm" : "호계2동"
+				,"ldongCd" : "4117310400"
+				,"ldongNm" : "호계동"
+				,"lnoCd" : "4117310400109020020"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 902
+				,"lnoSlno" : 20
+				,"lnoAdr" : "경기도 안양시 동안구 호계동 902-20"
+				,"rdnmCd" : "411732182002"
+				,"rdnm" : "경기도 안양시 동안구 시민대로"
+				,"bldMnno" : 137
+				,"bldSlno" : ""
+				,"bldMngNo" : "4117310400109020020006874"
+				,"bldNm" : "진성베가타운"
+				,"rdnmAdr" : "경기도 안양시 동안구 시민대로 137"
+				,"oldZipcd" : "431836"
+				,"newZipcd" : "14041"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.94692663579
+				,"lat" : 37.3885855275451
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 148,
+		"totalCount" : 14707	}
+}

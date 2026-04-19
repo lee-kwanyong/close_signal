@@ -1,0 +1,590 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA0106202511A1719190"
+				,"bizesNm" : "롯데셀링"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G209"
+				,"indsMclsNm" : "섬유·의복·신발 소매"
+				,"indsSclsCd" : "G20911"
+				,"indsSclsNm" : "가방 소매업"
+				,"ksicCd" : "G47440"
+				,"ksicNm" : "가방 및 기타 가죽제품 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46770"
+				,"signguNm" : "고흥군"
+				,"adongCd" : "46770350"
+				,"adongNm" : "포두면"
+				,"ldongCd" : "4677035024"
+				,"ldongNm" : "포두면"
+				,"lnoCd" : "4677035024201420002"
+				,"plotSctCd" : "2"
+				,"plotSctNm" : "산"
+				,"lnoMnno" : 142
+				,"lnoSlno" : 2
+				,"lnoAdr" : "전라남도 고흥군 포두면 세동리 산 142-2"
+				,"rdnmCd" : "467704667260"
+				,"rdnm" : "전라남도 고흥군 포두면 미후길"
+				,"bldMnno" : 52
+				,"bldSlno" : 12
+				,"bldMngNo" : "4677035024201420002000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 고흥군 포두면 미후길 52-12"
+				,"oldZipcd" : "548884"
+				,"newZipcd" : "59526"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.35061779474
+				,"lat" : 34.5306881726748
+				}
+				,{
+				"bizesId" : "MA0106202509A2083562"
+				,"bizesNm" : "고흥유자청년회"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G209"
+				,"indsMclsNm" : "섬유·의복·신발 소매"
+				,"indsSclsCd" : "G20905"
+				,"indsSclsNm" : "기타 의류 소매업"
+				,"ksicCd" : "G47419"
+				,"ksicNm" : "기타 의복 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46770"
+				,"signguNm" : "고흥군"
+				,"adongCd" : "46770350"
+				,"adongNm" : "포두면"
+				,"ldongCd" : "4677035024"
+				,"ldongNm" : "포두면"
+				,"lnoCd" : "4677035024101230005"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 123
+				,"lnoSlno" : 5
+				,"lnoAdr" : "전라남도 고흥군 포두면 세동리 123-5"
+				,"rdnmCd" : "467703289019"
+				,"rdnm" : "전라남도 고흥군 포두면 신세동로"
+				,"bldMnno" : 101
+				,"bldSlno" : 88
+				,"bldMngNo" : "4677035024101230005000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 고흥군 포두면 신세동로 101-88"
+				,"oldZipcd" : "548884"
+				,"newZipcd" : "59526"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.351768195103
+				,"lat" : 34.532280425627
+				}
+				,{
+				"bizesId" : "MA010120220807778009"
+				,"bizesNm" : "차동상회"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G204"
+				,"indsMclsNm" : "종합 소매"
+				,"indsSclsCd" : "G20404"
+				,"indsSclsNm" : "슈퍼마켓"
+				,"ksicCd" : "G47129"
+				,"ksicNm" : "기타 음ㆍ식료품 위주 종합 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46770"
+				,"signguNm" : "고흥군"
+				,"adongCd" : "46770350"
+				,"adongNm" : "포두면"
+				,"ldongCd" : "4677035023"
+				,"ldongNm" : "포두면"
+				,"lnoCd" : "4677035023113530002"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 1353
+				,"lnoSlno" : 2
+				,"lnoAdr" : "전라남도 고흥군 포두면 차동리 1353-2"
+				,"rdnmCd" : "467704667516"
+				,"rdnm" : "전라남도 고흥군 포두면 외산길"
+				,"bldMnno" : 8
+				,"bldSlno" : 10
+				,"bldMngNo" : "4677035023113530002018804"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 고흥군 포두면 외산길 8-10"
+				,"oldZipcd" : "548882"
+				,"newZipcd" : "59526"
+				,"dongNo" : ""
+				,"flrNo" : "1"
+				,"hoNo" : ""
+				,"lon" : 127.357118721742
+				,"lat" : 34.5430101308496
+				}
+				,{
+				"bizesId" : "MA010120220808854110"
+				,"bizesNm" : "맑고밝고따뜻한가게"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G205"
+				,"indsMclsNm" : "식료품 소매"
+				,"indsSclsCd" : "G20509"
+				,"indsSclsNm" : "반찬/식료품 소매업"
+				,"ksicCd" : "G47219"
+				,"ksicNm" : "기타 식료품 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46770"
+				,"signguNm" : "고흥군"
+				,"adongCd" : "46770350"
+				,"adongNm" : "포두면"
+				,"ldongCd" : "4677035023"
+				,"ldongNm" : "포두면"
+				,"lnoCd" : "4677035023113430004"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 1343
+				,"lnoSlno" : 4
+				,"lnoAdr" : "전라남도 고흥군 포두면 차동리 1343-4"
+				,"rdnmCd" : "467704667516"
+				,"rdnm" : "전라남도 고흥군 포두면 외산길"
+				,"bldMnno" : 13
+				,"bldSlno" : ""
+				,"bldMngNo" : "4677035023113430004013865"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 고흥군 포두면 외산길 13"
+				,"oldZipcd" : "548882"
+				,"newZipcd" : "59526"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.35843413859
+				,"lat" : 34.5423662509373
+				}
+				,{
+				"bizesId" : "MA010120220806682866"
+				,"bizesNm" : "뮨2025"
+				,"brchNm" : ""
+				,"indsLclsCd" : "M1"
+				,"indsLclsNm" : "과학·기술"
+				,"indsMclsCd" : "M112"
+				,"indsMclsNm" : "전문 디자인"
+				,"indsSclsCd" : "M11203"
+				,"indsSclsNm" : "시각 디자인업"
+				,"ksicCd" : "M73203"
+				,"ksicNm" : "시각 디자인업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46770"
+				,"signguNm" : "고흥군"
+				,"adongCd" : "46770350"
+				,"adongNm" : "포두면"
+				,"ldongCd" : "4677035023"
+				,"ldongNm" : "포두면"
+				,"lnoCd" : "4677035023113430004"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 1343
+				,"lnoSlno" : 4
+				,"lnoAdr" : "전라남도 고흥군 포두면 차동리 1343-4"
+				,"rdnmCd" : "467704667516"
+				,"rdnm" : "전라남도 고흥군 포두면 외산길"
+				,"bldMnno" : 13
+				,"bldSlno" : ""
+				,"bldMngNo" : "4677035023113430004013865"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 고흥군 포두면 외산길 13"
+				,"oldZipcd" : "548882"
+				,"newZipcd" : "59526"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.35843413859
+				,"lat" : 34.5423662509373
+				}
+				,{
+				"bizesId" : "MA010120220807899210"
+				,"bizesNm" : "흥양농협남부주유소"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G214"
+				,"indsMclsNm" : "연료 소매"
+				,"indsSclsCd" : "G21401"
+				,"indsSclsNm" : "주유소"
+				,"ksicCd" : "G47711"
+				,"ksicNm" : "운송장비용 주유소 운영업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46770"
+				,"signguNm" : "고흥군"
+				,"adongCd" : "46770350"
+				,"adongNm" : "포두면"
+				,"ldongCd" : "4677035023"
+				,"ldongNm" : "포두면"
+				,"lnoCd" : "4677035023108550006"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 855
+				,"lnoSlno" : 6
+				,"lnoAdr" : "전라남도 고흥군 포두면 차동리 855-6"
+				,"rdnmCd" : "467703289023"
+				,"rdnm" : "전라남도 고흥군 포두면 우주로"
+				,"bldMnno" : 1195
+				,"bldSlno" : ""
+				,"bldMngNo" : "4677035023108550006018844"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 고흥군 포두면 우주로 1195"
+				,"oldZipcd" : "548882"
+				,"newZipcd" : "59526"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.367813907203
+				,"lat" : 34.544862403512
+				}
+				,{
+				"bizesId" : "MA0101202411A0128457"
+				,"bizesNm" : "티파니펜션"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55104"
+				,"ksicNm" : "민박업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46770"
+				,"signguNm" : "고흥군"
+				,"adongCd" : "46770350"
+				,"adongNm" : "포두면"
+				,"ldongCd" : "4677035023"
+				,"ldongNm" : "포두면"
+				,"lnoCd" : "4677035023200050019"
+				,"plotSctCd" : "2"
+				,"plotSctNm" : "산"
+				,"lnoMnno" : 5
+				,"lnoSlno" : 19
+				,"lnoAdr" : "전라남도 고흥군 포두면 차동리 산 5-19"
+				,"rdnmCd" : "467704667097"
+				,"rdnm" : "전라남도 고흥군 포두면 내산길"
+				,"bldMnno" : 3
+				,"bldSlno" : 6
+				,"bldMngNo" : "4677035023200050001019417"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 고흥군 포두면 내산길 3-6"
+				,"oldZipcd" : "548882"
+				,"newZipcd" : "59526"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.369294949657
+				,"lat" : 34.5447317312291
+				}
+				,{
+				"bizesId" : "MA0101202412A0023275"
+				,"bizesNm" : "티파니"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I204"
+				,"indsMclsNm" : "서양식"
+				,"indsSclsCd" : "I20401"
+				,"indsSclsNm" : "경양식"
+				,"ksicCd" : "I56123"
+				,"ksicNm" : "서양식 음식점업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46770"
+				,"signguNm" : "고흥군"
+				,"adongCd" : "46770350"
+				,"adongNm" : "포두면"
+				,"ldongCd" : "4677035023"
+				,"ldongNm" : "포두면"
+				,"lnoCd" : "4677035023200050019"
+				,"plotSctCd" : "2"
+				,"plotSctNm" : "산"
+				,"lnoMnno" : 5
+				,"lnoSlno" : 19
+				,"lnoAdr" : "전라남도 고흥군 포두면 차동리 산 5-19"
+				,"rdnmCd" : "467704667097"
+				,"rdnm" : "전라남도 고흥군 포두면 내산길"
+				,"bldMnno" : 3
+				,"bldSlno" : 6
+				,"bldMngNo" : "4677035023200050001019417"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 고흥군 포두면 내산길 3-6"
+				,"oldZipcd" : "548882"
+				,"newZipcd" : "59526"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.369294949657
+				,"lat" : 34.5447317312291
+				}
+				,{
+				"bizesId" : "MA0101202406A0358814"
+				,"bizesNm" : "카페솔바위"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I212"
+				,"indsMclsNm" : "비알코올 "
+				,"indsSclsCd" : "I21201"
+				,"indsSclsNm" : "카페"
+				,"ksicCd" : "I56221"
+				,"ksicNm" : "커피 전문점"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46770"
+				,"signguNm" : "고흥군"
+				,"adongCd" : "46770350"
+				,"adongNm" : "포두면"
+				,"ldongCd" : "4677035022"
+				,"ldongNm" : "포두면"
+				,"lnoCd" : "4677035022110040016"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 1004
+				,"lnoSlno" : 16
+				,"lnoAdr" : "전라남도 고흥군 포두면 옥강리 1004-16"
+				,"rdnmCd" : "467703289023"
+				,"rdnm" : "전라남도 고흥군 포두면 우주로"
+				,"bldMnno" : 1242
+				,"bldSlno" : 9
+				,"bldMngNo" : "4677035022110040016000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 고흥군 포두면 우주로 1242-9"
+				,"oldZipcd" : "548882"
+				,"newZipcd" : "59523"
+				,"dongNo" : ""
+				,"flrNo" : "1"
+				,"hoNo" : ""
+				,"lon" : 127.371124828084
+				,"lat" : 34.5471059957046
+				}
+				,{
+				"bizesId" : "MA010120220808505612"
+				,"bizesNm" : "일월"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46770"
+				,"signguNm" : "고흥군"
+				,"adongCd" : "46770350"
+				,"adongNm" : "포두면"
+				,"ldongCd" : "4677035022"
+				,"ldongNm" : "포두면"
+				,"lnoCd" : "4677035022109970002"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 997
+				,"lnoSlno" : 2
+				,"lnoAdr" : "전라남도 고흥군 포두면 옥강리 997-2"
+				,"rdnmCd" : "467703289023"
+				,"rdnm" : "전라남도 고흥군 포두면 우주로"
+				,"bldMnno" : 1273
+				,"bldSlno" : ""
+				,"bldMngNo" : "4677035022109970002018876"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 고흥군 포두면 우주로 1273"
+				,"oldZipcd" : "548882"
+				,"newZipcd" : "59523"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.373303723449
+				,"lat" : 34.5495422659757
+				}
+				,{
+				"bizesId" : "MA010120220807848287"
+				,"bizesNm" : "마복산식당"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46770"
+				,"signguNm" : "고흥군"
+				,"adongCd" : "46770350"
+				,"adongNm" : "포두면"
+				,"ldongCd" : "4677035022"
+				,"ldongNm" : "포두면"
+				,"lnoCd" : "4677035022109950003"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 995
+				,"lnoSlno" : 3
+				,"lnoAdr" : "전라남도 고흥군 포두면 옥강리 995-3"
+				,"rdnmCd" : "467703289023"
+				,"rdnm" : "전라남도 고흥군 포두면 우주로"
+				,"bldMnno" : 1279
+				,"bldSlno" : ""
+				,"bldMngNo" : "4677035022109950003018878"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 고흥군 포두면 우주로 1279"
+				,"oldZipcd" : "548882"
+				,"newZipcd" : "59523"
+				,"dongNo" : ""
+				,"flrNo" : "2"
+				,"hoNo" : ""
+				,"lon" : 127.374384602035
+				,"lat" : 34.5500527793341
+				}
+				,{
+				"bizesId" : "MA010120220808510906"
+				,"bizesNm" : "살래골민박"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55104"
+				,"ksicNm" : "민박업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46770"
+				,"signguNm" : "고흥군"
+				,"adongCd" : "46770350"
+				,"adongNm" : "포두면"
+				,"ldongCd" : "4677035023"
+				,"ldongNm" : "포두면"
+				,"lnoCd" : "4677035023106770000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 677
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 고흥군 포두면 차동리 677"
+				,"rdnmCd" : "467704667097"
+				,"rdnm" : "전라남도 고흥군 포두면 내산길"
+				,"bldMnno" : 151
+				,"bldSlno" : 5
+				,"bldMngNo" : "4677035023106770000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 고흥군 포두면 내산길 151-5"
+				,"oldZipcd" : "548882"
+				,"newZipcd" : "59526"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.374703701823
+				,"lat" : 34.5361695582286
+				}
+				,{
+				"bizesId" : "MA0101202211A0098952"
+				,"bizesNm" : "두바위가든"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46770"
+				,"signguNm" : "고흥군"
+				,"adongCd" : "46770340"
+				,"adongNm" : "도화면"
+				,"ldongCd" : "4677034026"
+				,"ldongNm" : "도화면"
+				,"lnoCd" : "4677034026100460001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 46
+				,"lnoSlno" : 1
+				,"lnoAdr" : "전라남도 고흥군 도화면 봉산리 46-1"
+				,"rdnmCd" : "467703289026"
+				,"rdnm" : "전라남도 고흥군 도화면 천마로"
+				,"bldMnno" : 3069
+				,"bldSlno" : 15
+				,"bldMngNo" : "4677034026100460001017213"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 고흥군 도화면 천마로 3069-15"
+				,"oldZipcd" : "548893"
+				,"newZipcd" : "59528"
+				,"dongNo" : ""
+				,"flrNo" : "1"
+				,"hoNo" : ""
+				,"lon" : 127.376213560954
+				,"lat" : 34.5061467152393
+				}
+				,{
+				"bizesId" : "MA010120220803184635"
+				,"bizesNm" : "아름다운민박"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55104"
+				,"ksicNm" : "민박업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46770"
+				,"signguNm" : "고흥군"
+				,"adongCd" : "46770340"
+				,"adongNm" : "도화면"
+				,"ldongCd" : "4677034026"
+				,"ldongNm" : "도화면"
+				,"lnoCd" : "4677034026100090007"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 9
+				,"lnoSlno" : 7
+				,"lnoAdr" : "전라남도 고흥군 도화면 봉산리 9-7"
+				,"rdnmCd" : "467703289026"
+				,"rdnm" : "전라남도 고흥군 도화면 천마로"
+				,"bldMnno" : 3152
+				,"bldSlno" : ""
+				,"bldMngNo" : "4677034026200030002000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 고흥군 도화면 천마로 3152"
+				,"oldZipcd" : "548893"
+				,"newZipcd" : "59528"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.385106191728
+				,"lat" : 34.5053077036237
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 1,
+		"totalCount" : 14	}
+}

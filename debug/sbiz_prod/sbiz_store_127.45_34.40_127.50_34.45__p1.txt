@@ -1,0 +1,426 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA0101202411A0102114"
+				,"bizesNm" : "정자나무민박"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55104"
+				,"ksicNm" : "민박업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46770"
+				,"signguNm" : "고흥군"
+				,"adongCd" : "46770360"
+				,"adongNm" : "봉래면"
+				,"ldongCd" : "4677036022"
+				,"ldongNm" : "봉래면"
+				,"lnoCd" : "4677036022101090004"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 109
+				,"lnoSlno" : 4
+				,"lnoAdr" : "전라남도 고흥군 봉래면 외초리 109-4"
+				,"rdnmCd" : "467703289023"
+				,"rdnm" : "전라남도 고흥군 봉래면 우주로"
+				,"bldMnno" : 4001
+				,"bldSlno" : ""
+				,"bldMngNo" : "4677036022101090004020999"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 고흥군 봉래면 우주로 4001"
+				,"oldZipcd" : "548944"
+				,"newZipcd" : "59570"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.491641343202
+				,"lat" : 34.4192965966183
+				}
+				,{
+				"bizesId" : "MA0106202507A2465739"
+				,"bizesNm" : "나로힐링캠핑장"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10104"
+				,"indsSclsNm" : "캠핑/글램핑"
+				,"ksicCd" : "G47631"
+				,"ksicNm" : "운동 및 경기용품 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46770"
+				,"signguNm" : "고흥군"
+				,"adongCd" : "46770360"
+				,"adongNm" : "봉래면"
+				,"ldongCd" : "4677036022"
+				,"ldongNm" : "봉래면"
+				,"lnoCd" : "4677036022103330005"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 333
+				,"lnoSlno" : 5
+				,"lnoAdr" : "전라남도 고흥군 봉래면 외초리 333-5"
+				,"rdnmCd" : "467703289023"
+				,"rdnm" : "전라남도 고흥군 봉래면 우주로"
+				,"bldMnno" : 3810
+				,"bldSlno" : 14
+				,"bldMngNo" : "4677036022103330005000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 고흥군 봉래면 우주로 3810-14"
+				,"oldZipcd" : "548944"
+				,"newZipcd" : "59570"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.492113858603
+				,"lat" : 34.4331050088151
+				}
+				,{
+				"bizesId" : "MA010120220809824388"
+				,"bizesNm" : "경창3호"
+				,"brchNm" : ""
+				,"indsLclsCd" : "R1"
+				,"indsLclsNm" : "예술·스포츠"
+				,"indsMclsCd" : "R104"
+				,"indsMclsNm" : "유원지·오락"
+				,"indsSclsCd" : "R10409"
+				,"indsSclsNm" : "수상/해양 레저업"
+				,"ksicCd" : "R91239"
+				,"ksicNm" : "기타 수상오락 서비스업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46770"
+				,"signguNm" : "고흥군"
+				,"adongCd" : "46770360"
+				,"adongNm" : "봉래면"
+				,"ldongCd" : "4677036022"
+				,"ldongNm" : "봉래면"
+				,"lnoCd" : "4677036022102190002"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 219
+				,"lnoSlno" : 2
+				,"lnoAdr" : "전라남도 고흥군 봉래면 외초리 219-2"
+				,"rdnmCd" : "467703289023"
+				,"rdnm" : "전라남도 고흥군 봉래면 우주로"
+				,"bldMnno" : 3955
+				,"bldSlno" : ""
+				,"bldMngNo" : "4677036022102190002020978"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 고흥군 봉래면 우주로 3955"
+				,"oldZipcd" : "548944"
+				,"newZipcd" : "59570"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.492418630938
+				,"lat" : 34.4219978414921
+				}
+				,{
+				"bizesId" : "MA010120220813773766"
+				,"bizesNm" : "경창수산"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G205"
+				,"indsMclsNm" : "식료품 소매"
+				,"indsSclsCd" : "G20505"
+				,"indsSclsNm" : "수산물 소매업"
+				,"ksicCd" : "G47214"
+				,"ksicNm" : "신선, 냉동 및 기타 수산물 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46770"
+				,"signguNm" : "고흥군"
+				,"adongCd" : "46770360"
+				,"adongNm" : "봉래면"
+				,"ldongCd" : "4677036022"
+				,"ldongNm" : "봉래면"
+				,"lnoCd" : "4677036022102190002"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 219
+				,"lnoSlno" : 2
+				,"lnoAdr" : "전라남도 고흥군 봉래면 외초리 219-2"
+				,"rdnmCd" : "467703289023"
+				,"rdnm" : "전라남도 고흥군 봉래면 우주로"
+				,"bldMnno" : 3955
+				,"bldSlno" : ""
+				,"bldMngNo" : "4677036022102190002020978"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 고흥군 봉래면 우주로 3955"
+				,"oldZipcd" : "548944"
+				,"newZipcd" : "59570"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.492418630938
+				,"lat" : 34.4219978414921
+				}
+				,{
+				"bizesId" : "MA010120220804917396"
+				,"bizesNm" : "작은좀쇄점빵"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G205"
+				,"indsMclsNm" : "식료품 소매"
+				,"indsSclsCd" : "G20505"
+				,"indsSclsNm" : "수산물 소매업"
+				,"ksicCd" : "G47214"
+				,"ksicNm" : "신선, 냉동 및 기타 수산물 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46770"
+				,"signguNm" : "고흥군"
+				,"adongCd" : "46770360"
+				,"adongNm" : "봉래면"
+				,"ldongCd" : "4677036023"
+				,"ldongNm" : "봉래면"
+				,"lnoCd" : "4677036023108820000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 882
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 고흥군 봉래면 예내리 882"
+				,"rdnmCd" : "467704667583"
+				,"rdnm" : "전라남도 고흥군 봉래면 작은좀쇄길"
+				,"bldMnno" : 42
+				,"bldSlno" : 3
+				,"bldMngNo" : "4677036023108820000021663"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 고흥군 봉래면 작은좀쇄길 42-3"
+				,"oldZipcd" : "548944"
+				,"newZipcd" : "59570"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.49264676461
+				,"lat" : 34.4460477488698
+				}
+				,{
+				"bizesId" : "MA010120220813945277"
+				,"bizesNm" : "정다운민박"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55104"
+				,"ksicNm" : "민박업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46770"
+				,"signguNm" : "고흥군"
+				,"adongCd" : "46770360"
+				,"adongNm" : "봉래면"
+				,"ldongCd" : "4677036022"
+				,"ldongNm" : "봉래면"
+				,"lnoCd" : "4677036022100730001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 73
+				,"lnoSlno" : 1
+				,"lnoAdr" : "전라남도 고흥군 봉래면 외초리 73-1"
+				,"rdnmCd" : "467704667014"
+				,"rdnm" : "전라남도 고흥군 봉래면 개안길"
+				,"bldMnno" : 33
+				,"bldSlno" : ""
+				,"bldMngNo" : "4677036022100730001021024"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 고흥군 봉래면 개안길 33"
+				,"oldZipcd" : "548944"
+				,"newZipcd" : "59570"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.49308714562
+				,"lat" : 34.4172805263436
+				}
+				,{
+				"bizesId" : "MA010120220812131680"
+				,"bizesNm" : "대호ENG"
+				,"brchNm" : ""
+				,"indsLclsCd" : "M1"
+				,"indsLclsNm" : "과학·기술"
+				,"indsMclsCd" : "M109"
+				,"indsMclsNm" : "기술 서비스"
+				,"indsSclsCd" : "M10901"
+				,"indsSclsNm" : "건축 설계 및 관련 서비스업"
+				,"ksicCd" : "M72111"
+				,"ksicNm" : "건축 설계 및 관련 서비스업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46770"
+				,"signguNm" : "고흥군"
+				,"adongCd" : "46770360"
+				,"adongNm" : "봉래면"
+				,"ldongCd" : "4677036022"
+				,"ldongNm" : "봉래면"
+				,"lnoCd" : "4677036022100730006"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 73
+				,"lnoSlno" : 6
+				,"lnoAdr" : "전라남도 고흥군 봉래면 외초리 73-6"
+				,"rdnmCd" : "467704667014"
+				,"rdnm" : "전라남도 고흥군 봉래면 개안길"
+				,"bldMnno" : 35
+				,"bldSlno" : ""
+				,"bldMngNo" : "4677036022100730006000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 고흥군 봉래면 개안길 35"
+				,"oldZipcd" : "548944"
+				,"newZipcd" : "59570"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.493270949303
+				,"lat" : 34.4170904791365
+				}
+				,{
+				"bizesId" : "MA010120220807872334"
+				,"bizesNm" : "정다운식당"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46770"
+				,"signguNm" : "고흥군"
+				,"adongCd" : "46770360"
+				,"adongNm" : "봉래면"
+				,"ldongCd" : "4677036022"
+				,"ldongNm" : "봉래면"
+				,"lnoCd" : "4677036022100730006"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 73
+				,"lnoSlno" : 6
+				,"lnoAdr" : "전라남도 고흥군 봉래면 외초리 73-6"
+				,"rdnmCd" : "467704667014"
+				,"rdnm" : "전라남도 고흥군 봉래면 개안길"
+				,"bldMnno" : 35
+				,"bldSlno" : ""
+				,"bldMngNo" : "4677036022100730006000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 고흥군 봉래면 개안길 35"
+				,"oldZipcd" : "548944"
+				,"newZipcd" : "59570"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.493270949303
+				,"lat" : 34.4170904791365
+				}
+				,{
+				"bizesId" : "MA010120220808250476"
+				,"bizesNm" : "별빛바다민박"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55104"
+				,"ksicNm" : "민박업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46770"
+				,"signguNm" : "고흥군"
+				,"adongCd" : "46770360"
+				,"adongNm" : "봉래면"
+				,"ldongCd" : "4677036022"
+				,"ldongNm" : "봉래면"
+				,"lnoCd" : "4677036022102970002"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 297
+				,"lnoSlno" : 2
+				,"lnoAdr" : "전라남도 고흥군 봉래면 외초리 297-2"
+				,"rdnmCd" : "467703289023"
+				,"rdnm" : "전라남도 고흥군 봉래면 우주로"
+				,"bldMnno" : 3875
+				,"bldSlno" : ""
+				,"bldMngNo" : "4677036022600000451021272"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 고흥군 봉래면 우주로 3875"
+				,"oldZipcd" : "548944"
+				,"newZipcd" : "59570"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.495022973156
+				,"lat" : 34.4282885091145
+				}
+				,{
+				"bizesId" : "MA010120220813944056"
+				,"bizesNm" : "뉴반도호"
+				,"brchNm" : ""
+				,"indsLclsCd" : "R1"
+				,"indsLclsNm" : "예술·스포츠"
+				,"indsMclsCd" : "R104"
+				,"indsMclsNm" : "유원지·오락"
+				,"indsSclsCd" : "R10409"
+				,"indsSclsNm" : "수상/해양 레저업"
+				,"ksicCd" : "R91239"
+				,"ksicNm" : "기타 수상오락 서비스업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46770"
+				,"signguNm" : "고흥군"
+				,"adongCd" : "46770360"
+				,"adongNm" : "봉래면"
+				,"ldongCd" : "4677036022"
+				,"ldongNm" : "봉래면"
+				,"lnoCd" : "4677036022102800002"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 280
+				,"lnoSlno" : 2
+				,"lnoAdr" : "전라남도 고흥군 봉래면 외초리 280-2"
+				,"rdnmCd" : "467703289023"
+				,"rdnm" : "전라남도 고흥군 봉래면 우주로"
+				,"bldMnno" : 3893
+				,"bldSlno" : 18
+				,"bldMngNo" : "4677036022102800002020921"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 고흥군 봉래면 우주로 3893-18"
+				,"oldZipcd" : "548944"
+				,"newZipcd" : "59570"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.495687294719
+				,"lat" : 34.4265640372796
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 1,
+		"totalCount" : 10	}
+}

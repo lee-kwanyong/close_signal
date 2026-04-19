@@ -1,0 +1,139 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA010120220810394506"
+				,"bizesNm" : "늘봄민박"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55104"
+				,"ksicNm" : "민박업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46780"
+				,"signguNm" : "보성군"
+				,"adongCd" : "46780350"
+				,"adongNm" : "복내면"
+				,"ldongCd" : "4678035023"
+				,"ldongNm" : "복내면"
+				,"lnoCd" : "4678035023100940000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 94
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 보성군 복내면 용동리 94"
+				,"rdnmCd" : "467803017027"
+				,"rdnm" : "전라남도 보성군 복내면 개기로"
+				,"bldMnno" : 1493
+				,"bldSlno" : 7
+				,"bldMngNo" : "4678035023100940000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 보성군 복내면 개기로 1493-7"
+				,"oldZipcd" : "546833"
+				,"newZipcd" : "59405"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.116240639289
+				,"lat" : 34.9022617619912
+				}
+				,{
+				"bizesId" : "MA0101202306A0091226"
+				,"bizesNm" : "리스우드공방"
+				,"brchNm" : ""
+				,"indsLclsCd" : "P1"
+				,"indsLclsNm" : "교육"
+				,"indsMclsCd" : "P106"
+				,"indsMclsNm" : "기타 교육"
+				,"indsSclsCd" : "P10625"
+				,"indsSclsNm" : "기타 기술/직업 훈련학원"
+				,"ksicCd" : "P85669"
+				,"ksicNm" : "기타 기술 및 직업 훈련학원"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46780"
+				,"signguNm" : "보성군"
+				,"adongCd" : "46780350"
+				,"adongNm" : "복내면"
+				,"ldongCd" : "4678035026"
+				,"ldongNm" : "복내면"
+				,"lnoCd" : "4678035026105120000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 512
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 보성군 복내면 일봉리 512"
+				,"rdnmCd" : "467804670338"
+				,"rdnm" : "전라남도 보성군 복내면 일봉길"
+				,"bldMnno" : 324
+				,"bldSlno" : 141
+				,"bldMngNo" : "4678035026105120000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 보성군 복내면 일봉길 324-141"
+				,"oldZipcd" : "546832"
+				,"newZipcd" : "59403"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.125748565162
+				,"lat" : 34.9380827320718
+				}
+				,{
+				"bizesId" : "MA010120220807770926"
+				,"bizesNm" : "봉천매점"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G213"
+				,"indsMclsNm" : "오락용품 소매"
+				,"indsSclsCd" : "G21302"
+				,"indsSclsNm" : "문구/회화용품 소매업"
+				,"ksicCd" : "G47612"
+				,"ksicNm" : "문구용품 및 회화용품 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46780"
+				,"signguNm" : "보성군"
+				,"adongCd" : "46780350"
+				,"adongNm" : "복내면"
+				,"ldongCd" : "4678035025"
+				,"ldongNm" : "복내면"
+				,"lnoCd" : "4678035025104050009"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 405
+				,"lnoSlno" : 9
+				,"lnoAdr" : "전라남도 보성군 복내면 봉천리 405-9"
+				,"rdnmCd" : "467804670077"
+				,"rdnm" : "전라남도 보성군 복내면 당촌길"
+				,"bldMnno" : 3
+				,"bldSlno" : ""
+				,"bldMngNo" : "4678035025104050007401124"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 보성군 복내면 당촌길 3"
+				,"oldZipcd" : "546832"
+				,"newZipcd" : "59405"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.140012578167
+				,"lat" : 34.9001725035764
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 1,
+		"totalCount" : 3	}
+}

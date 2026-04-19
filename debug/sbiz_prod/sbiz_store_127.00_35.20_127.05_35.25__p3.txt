@@ -1,0 +1,426 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA0101202412A0086535"
+				,"bizesNm" : "카페야그"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I212"
+				,"indsMclsNm" : "비알코올 "
+				,"indsSclsCd" : "I21201"
+				,"indsSclsNm" : "카페"
+				,"ksicCd" : "I56221"
+				,"ksicNm" : "커피 전문점"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46710"
+				,"signguNm" : "담양군"
+				,"adongCd" : "46710340"
+				,"adongNm" : "창평면"
+				,"ldongCd" : "4671034026"
+				,"ldongNm" : "창평면"
+				,"lnoCd" : "4671034026100600004"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 60
+				,"lnoSlno" : 4
+				,"lnoAdr" : "전라남도 담양군 창평면 의항리 60-4"
+				,"rdnmCd" : "467103286014"
+				,"rdnm" : "전라남도 담양군 창평면 의병로"
+				,"bldMnno" : 37
+				,"bldSlno" : ""
+				,"bldMngNo" : "4671034026100600004000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 담양군 창평면 의병로 37"
+				,"oldZipcd" : "517883"
+				,"newZipcd" : "57377"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.008952994513
+				,"lat" : 35.2308947132202
+				}
+				,{
+				"bizesId" : "MA0106202509A0769164"
+				,"bizesNm" : "창평콩나물"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G205"
+				,"indsMclsNm" : "식료품 소매"
+				,"indsSclsCd" : "G20502"
+				,"indsSclsNm" : "가축 사료 소매업"
+				,"ksicCd" : "G47211"
+				,"ksicNm" : "곡물, 곡분 및 가축 사료 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46710"
+				,"signguNm" : "담양군"
+				,"adongCd" : "46710340"
+				,"adongNm" : "창평면"
+				,"ldongCd" : "4671034026"
+				,"ldongNm" : "창평면"
+				,"lnoCd" : "4671034026101410001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 141
+				,"lnoSlno" : 1
+				,"lnoAdr" : "전라남도 담양군 창평면 의항리 141-1"
+				,"rdnmCd" : "467104658156"
+				,"rdnm" : "전라남도 담양군 창평면 보평길"
+				,"bldMnno" : 5
+				,"bldSlno" : 12
+				,"bldMngNo" : "4671034026101410001005956"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 담양군 창평면 보평길 5-12"
+				,"oldZipcd" : "517883"
+				,"newZipcd" : "57377"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.010271582419
+				,"lat" : 35.2337158304239
+				}
+				,{
+				"bizesId" : "MA0101202502A0089718"
+				,"bizesNm" : "미호상회"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G204"
+				,"indsMclsNm" : "종합 소매"
+				,"indsSclsCd" : "G20404"
+				,"indsSclsNm" : "슈퍼마켓"
+				,"ksicCd" : "G47129"
+				,"ksicNm" : "기타 음ㆍ식료품 위주 종합 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46710"
+				,"signguNm" : "담양군"
+				,"adongCd" : "46710340"
+				,"adongNm" : "창평면"
+				,"ldongCd" : "4671034021"
+				,"ldongNm" : "창평면"
+				,"lnoCd" : "4671034021101060001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 106
+				,"lnoSlno" : 1
+				,"lnoAdr" : "전라남도 담양군 창평면 창평리 106-1"
+				,"rdnmCd" : "467103286017"
+				,"rdnm" : "전라남도 담양군 창평면 창평로"
+				,"bldMnno" : 586
+				,"bldSlno" : ""
+				,"bldMngNo" : "4671034021101060001000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 담양군 창평면 창평로 586"
+				,"oldZipcd" : "517883"
+				,"newZipcd" : "57389"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.013348249393
+				,"lat" : 35.237897786483
+				}
+				,{
+				"bizesId" : "MA0101202503A0079960"
+				,"bizesNm" : "창평고기마트"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G205"
+				,"indsMclsNm" : "식료품 소매"
+				,"indsSclsCd" : "G20503"
+				,"indsSclsNm" : "정육점"
+				,"ksicCd" : "G47212"
+				,"ksicNm" : "육류 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46710"
+				,"signguNm" : "담양군"
+				,"adongCd" : "46710340"
+				,"adongNm" : "창평면"
+				,"ldongCd" : "4671034021"
+				,"ldongNm" : "창평면"
+				,"lnoCd" : "4671034021102430006"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 243
+				,"lnoSlno" : 6
+				,"lnoAdr" : "전라남도 담양군 창평면 창평리 243-6"
+				,"rdnmCd" : "467103286017"
+				,"rdnm" : "전라남도 담양군 창평면 창평로"
+				,"bldMnno" : 590
+				,"bldSlno" : ""
+				,"bldMngNo" : "4671034021102430006005270"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 담양군 창평면 창평로 590"
+				,"oldZipcd" : "517883"
+				,"newZipcd" : "57389"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.013644892245
+				,"lat" : 35.2379878882062
+				}
+				,{
+				"bizesId" : "MA0101202412A0039149"
+				,"bizesNm" : "가민사진관"
+				,"brchNm" : ""
+				,"indsLclsCd" : "M1"
+				,"indsLclsNm" : "과학·기술"
+				,"indsMclsCd" : "M113"
+				,"indsMclsNm" : "사진 촬영"
+				,"indsSclsCd" : "M11301"
+				,"indsSclsNm" : "사진촬영업"
+				,"ksicCd" : "M73301"
+				,"ksicNm" : "인물 사진 및 행사용 영상 촬영업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46710"
+				,"signguNm" : "담양군"
+				,"adongCd" : "46710340"
+				,"adongNm" : "창평면"
+				,"ldongCd" : "4671034021"
+				,"ldongNm" : "창평면"
+				,"lnoCd" : "4671034021102220003"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 222
+				,"lnoSlno" : 3
+				,"lnoAdr" : "전라남도 담양군 창평면 창평리 222-3"
+				,"rdnmCd" : "467103286017"
+				,"rdnm" : "전라남도 담양군 창평면 창평로"
+				,"bldMnno" : 598
+				,"bldSlno" : 4
+				,"bldMngNo" : "4671034021102220003000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 담양군 창평면 창평로 598-4"
+				,"oldZipcd" : "517883"
+				,"newZipcd" : "57389"
+				,"dongNo" : ""
+				,"flrNo" : "2"
+				,"hoNo" : ""
+				,"lon" : 127.014029330976
+				,"lat" : 35.237528156759
+				}
+				,{
+				"bizesId" : "MA0101202411A0120816"
+				,"bizesNm" : "대나무건강원"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G205"
+				,"indsMclsNm" : "식료품 소매"
+				,"indsSclsCd" : "G20508"
+				,"indsSclsNm" : "건강보조식품 소매업"
+				,"ksicCd" : "C10796"
+				,"ksicNm" : "건강 보조용 액화식품 제조업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46710"
+				,"signguNm" : "담양군"
+				,"adongCd" : "46710340"
+				,"adongNm" : "창평면"
+				,"ldongCd" : "4671034021"
+				,"ldongNm" : "창평면"
+				,"lnoCd" : "4671034021102520010"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 252
+				,"lnoSlno" : 10
+				,"lnoAdr" : "전라남도 담양군 창평면 창평리 252-10"
+				,"rdnmCd" : "467104658172"
+				,"rdnm" : "전라남도 담양군 창평면 사동길"
+				,"bldMnno" : 14
+				,"bldSlno" : 15
+				,"bldMngNo" : "4671034021102520010005234"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 담양군 창평면 사동길 14-15"
+				,"oldZipcd" : "517883"
+				,"newZipcd" : "57389"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.01515008389
+				,"lat" : 35.2384113427086
+				}
+				,{
+				"bizesId" : "MA0101202505A0039861"
+				,"bizesNm" : "연희네식당"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46710"
+				,"signguNm" : "담양군"
+				,"adongCd" : "46710340"
+				,"adongNm" : "창평면"
+				,"ldongCd" : "4671034024"
+				,"ldongNm" : "창평면"
+				,"lnoCd" : "4671034024104860024"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 486
+				,"lnoSlno" : 24
+				,"lnoAdr" : "전라남도 담양군 창평면 유천리 486-24"
+				,"rdnmCd" : "467104658315"
+				,"rdnm" : "전라남도 담양군 창평면 유천길"
+				,"bldMnno" : 153
+				,"bldSlno" : ""
+				,"bldMngNo" : "4671034024104860024007284"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 담양군 창평면 유천길 153"
+				,"oldZipcd" : "517882"
+				,"newZipcd" : "57390"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.020803233103
+				,"lat" : 35.2196624371193
+				}
+				,{
+				"bizesId" : "MA0106202510A2121102"
+				,"bizesNm" : "명태골"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46710"
+				,"signguNm" : "담양군"
+				,"adongCd" : "46710340"
+				,"adongNm" : "창평면"
+				,"ldongCd" : "4671034022"
+				,"ldongNm" : "창평면"
+				,"lnoCd" : "4671034022100500000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 50
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 담양군 창평면 삼천리 50"
+				,"rdnmCd" : "467103286014"
+				,"rdnm" : "전라남도 담양군 창평면 의병로"
+				,"bldMnno" : 213
+				,"bldSlno" : ""
+				,"bldMngNo" : "4671034022100500000005492"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 담양군 창평면 의병로 213"
+				,"oldZipcd" : "517882"
+				,"newZipcd" : "57389"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.022709600743
+				,"lat" : 35.2418352815648
+				}
+				,{
+				"bizesId" : "MA0106202507A2261439"
+				,"bizesNm" : "아이뷰티월드 광주전남"
+				,"brchNm" : ""
+				,"indsLclsCd" : "S2"
+				,"indsLclsNm" : "수리·개인"
+				,"indsMclsCd" : "S207"
+				,"indsMclsNm" : "이용·미용"
+				,"indsSclsCd" : "S20701"
+				,"indsSclsNm" : "미용실"
+				,"ksicCd" : "S96112"
+				,"ksicNm" : "두발 미용업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46710"
+				,"signguNm" : "담양군"
+				,"adongCd" : "46710350"
+				,"adongNm" : "대덕면"
+				,"ldongCd" : "4671035021"
+				,"ldongNm" : "대덕면"
+				,"lnoCd" : "4671035021100640012"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 64
+				,"lnoSlno" : 12
+				,"lnoAdr" : "전라남도 담양군 대덕면 매산리 64-12"
+				,"rdnmCd" : "467103286002"
+				,"rdnm" : "전라남도 담양군 대덕면 남대덕로"
+				,"bldMnno" : 1126
+				,"bldSlno" : ""
+				,"bldMngNo" : "4671035021100640012000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 담양군 대덕면 남대덕로 1126"
+				,"oldZipcd" : "517892"
+				,"newZipcd" : "57380"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.038039171197
+				,"lat" : 35.2483932397333
+				}
+				,{
+				"bizesId" : "MA0101202503A0072566"
+				,"bizesNm" : "대덕커피"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I212"
+				,"indsMclsNm" : "비알코올 "
+				,"indsSclsCd" : "I21201"
+				,"indsSclsNm" : "카페"
+				,"ksicCd" : "I56221"
+				,"ksicNm" : "커피 전문점"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46710"
+				,"signguNm" : "담양군"
+				,"adongCd" : "46710350"
+				,"adongNm" : "대덕면"
+				,"ldongCd" : "4671035021"
+				,"ldongNm" : "대덕면"
+				,"lnoCd" : "4671035021100740006"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 74
+				,"lnoSlno" : 6
+				,"lnoAdr" : "전라남도 담양군 대덕면 매산리 74-6"
+				,"rdnmCd" : "467104658084"
+				,"rdnm" : "전라남도 담양군 대덕면 대조동1길"
+				,"bldMnno" : 1
+				,"bldSlno" : 1
+				,"bldMngNo" : "4671035021100740006007273"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 담양군 대덕면 대조동1길 1-1"
+				,"oldZipcd" : "517892"
+				,"newZipcd" : "57380"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.038149613248
+				,"lat" : 35.2496010090115
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 3,
+		"totalCount" : 210	}
+}

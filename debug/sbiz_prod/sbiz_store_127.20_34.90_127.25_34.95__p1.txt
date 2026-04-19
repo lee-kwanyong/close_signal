@@ -1,0 +1,303 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA010120220811767405"
+				,"bizesNm" : "목임당"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55104"
+				,"ksicNm" : "민박업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46780"
+				,"signguNm" : "보성군"
+				,"adongCd" : "46780360"
+				,"adongNm" : "문덕면"
+				,"ldongCd" : "4678036022"
+				,"ldongNm" : "문덕면"
+				,"lnoCd" : "4678036022105270000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 527
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 보성군 문덕면 용암리 527"
+				,"rdnmCd" : "467804670002"
+				,"rdnm" : "전라남도 보성군 문덕면 가내길"
+				,"bldMnno" : 18
+				,"bldSlno" : 33
+				,"bldMngNo" : "4678036022105270000000450"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 보성군 문덕면 가내길 18-33"
+				,"oldZipcd" : "546842"
+				,"newZipcd" : "59400"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.203809486957
+				,"lat" : 34.9487574813963
+				}
+				,{
+				"bizesId" : "MA010120220807878504"
+				,"bizesNm" : "목임당"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10102"
+				,"indsSclsNm" : "여관/모텔"
+				,"ksicCd" : "I55109"
+				,"ksicNm" : "기타 일반 및 생활 숙박시설 운영업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46780"
+				,"signguNm" : "보성군"
+				,"adongCd" : "46780360"
+				,"adongNm" : "문덕면"
+				,"ldongCd" : "4678036022"
+				,"ldongNm" : "문덕면"
+				,"lnoCd" : "4678036022105270000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 527
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 보성군 문덕면 용암리 527"
+				,"rdnmCd" : "467804670002"
+				,"rdnm" : "전라남도 보성군 문덕면 가내길"
+				,"bldMnno" : 18
+				,"bldSlno" : 33
+				,"bldMngNo" : "4678036022105270000000450"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 보성군 문덕면 가내길 18-33"
+				,"oldZipcd" : "546842"
+				,"newZipcd" : "59400"
+				,"dongNo" : ""
+				,"flrNo" : "1"
+				,"hoNo" : ""
+				,"lon" : 127.203809486957
+				,"lat" : 34.9487574813963
+				}
+				,{
+				"bizesId" : "MA010120220809812253"
+				,"bizesNm" : "강현재"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55104"
+				,"ksicNm" : "민박업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46780"
+				,"signguNm" : "보성군"
+				,"adongCd" : "46780360"
+				,"adongNm" : "문덕면"
+				,"ldongCd" : "4678036022"
+				,"ldongNm" : "문덕면"
+				,"lnoCd" : "4678036022105230000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 523
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 보성군 문덕면 용암리 523"
+				,"rdnmCd" : "467804670002"
+				,"rdnm" : "전라남도 보성군 문덕면 가내길"
+				,"bldMnno" : 31
+				,"bldSlno" : 1
+				,"bldMngNo" : "4678036022105230000000485"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 보성군 문덕면 가내길 31-1"
+				,"oldZipcd" : "546842"
+				,"newZipcd" : "59400"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.204357954565
+				,"lat" : 34.9491982405885
+				}
+				,{
+				"bizesId" : "MA010120220807867746"
+				,"bizesNm" : "시골담배"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G204"
+				,"indsMclsNm" : "종합 소매"
+				,"indsSclsCd" : "G20404"
+				,"indsSclsNm" : "슈퍼마켓"
+				,"ksicCd" : "G47129"
+				,"ksicNm" : "기타 음ㆍ식료품 위주 종합 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46780"
+				,"signguNm" : "보성군"
+				,"adongCd" : "46780360"
+				,"adongNm" : "문덕면"
+				,"ldongCd" : "4678036027"
+				,"ldongNm" : "문덕면"
+				,"lnoCd" : "4678036027101150000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 115
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 보성군 문덕면 양동리 115"
+				,"rdnmCd" : "467804670107"
+				,"rdnm" : "전라남도 보성군 문덕면 동소산길"
+				,"bldMnno" : 473
+				,"bldSlno" : ""
+				,"bldMngNo" : "4678036027101150000001211"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 보성군 문덕면 동소산길 473"
+				,"oldZipcd" : "546841"
+				,"newZipcd" : "59402"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.204740373989
+				,"lat" : 34.9136557231417
+				}
+				,{
+				"bizesId" : "MA010120220811215723"
+				,"bizesNm" : "주암민박"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55104"
+				,"ksicNm" : "민박업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46780"
+				,"signguNm" : "보성군"
+				,"adongCd" : "46780360"
+				,"adongNm" : "문덕면"
+				,"ldongCd" : "4678036022"
+				,"ldongNm" : "문덕면"
+				,"lnoCd" : "4678036022102950000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 295
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 보성군 문덕면 용암리 295"
+				,"rdnmCd" : "467804670296"
+				,"rdnm" : "전라남도 보성군 문덕면 용암길"
+				,"bldMnno" : 189
+				,"bldSlno" : 32
+				,"bldMngNo" : "4678036022102950000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 보성군 문덕면 용암길 189-32"
+				,"oldZipcd" : "546842"
+				,"newZipcd" : "59400"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.20563553444
+				,"lat" : 34.9434993033424
+				}
+				,{
+				"bizesId" : "MA010120220813817728"
+				,"bizesNm" : "숲속의집"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10102"
+				,"indsSclsNm" : "여관/모텔"
+				,"ksicCd" : "I55102"
+				,"ksicNm" : "여관업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46780"
+				,"signguNm" : "보성군"
+				,"adongCd" : "46780360"
+				,"adongNm" : "문덕면"
+				,"ldongCd" : "4678036022"
+				,"ldongNm" : "문덕면"
+				,"lnoCd" : "4678036022100530001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 53
+				,"lnoSlno" : 1
+				,"lnoAdr" : "전라남도 보성군 문덕면 용암리 53-1"
+				,"rdnmCd" : "467804670296"
+				,"rdnm" : "전라남도 보성군 문덕면 용암길"
+				,"bldMnno" : 433
+				,"bldSlno" : ""
+				,"bldMngNo" : "4678036022100530001000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 보성군 문덕면 용암길 433"
+				,"oldZipcd" : "546842"
+				,"newZipcd" : "59400"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.216600948847
+				,"lat" : 34.929770095258
+				}
+				,{
+				"bizesId" : "MA010120220813521598"
+				,"bizesNm" : "심곡농원"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G205"
+				,"indsMclsNm" : "식료품 소매"
+				,"indsSclsCd" : "G20506"
+				,"indsSclsNm" : "채소/과일 소매업"
+				,"ksicCd" : "G47215"
+				,"ksicNm" : "채소, 과실 및 뿌리작물 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46780"
+				,"signguNm" : "보성군"
+				,"adongCd" : "46780360"
+				,"adongNm" : "문덕면"
+				,"ldongCd" : "4678036028"
+				,"ldongNm" : "문덕면"
+				,"lnoCd" : "4678036028102080001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 208
+				,"lnoSlno" : 1
+				,"lnoAdr" : "전라남도 보성군 문덕면 귀산리 208-1"
+				,"rdnmCd" : "467804670107"
+				,"rdnm" : "전라남도 보성군 문덕면 동소산길"
+				,"bldMnno" : 677
+				,"bldSlno" : 27
+				,"bldMngNo" : "4678036028102080001001379"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 보성군 문덕면 동소산길 677-27"
+				,"oldZipcd" : "546841"
+				,"newZipcd" : "59402"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.222240313881
+				,"lat" : 34.910479115225
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 1,
+		"totalCount" : 7	}
+}

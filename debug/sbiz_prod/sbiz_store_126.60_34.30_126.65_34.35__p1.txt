@@ -1,0 +1,262 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA010120220814129067"
+				,"bizesNm" : "남전수산남창5일시장"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G205"
+				,"indsMclsNm" : "식료품 소매"
+				,"indsSclsCd" : "G20505"
+				,"indsSclsNm" : "수산물 소매업"
+				,"ksicCd" : "G47214"
+				,"ksicNm" : "신선, 냉동 및 기타 수산물 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46820"
+				,"signguNm" : "해남군"
+				,"adongCd" : "46820350"
+				,"adongNm" : "북평면"
+				,"ldongCd" : "4682035025"
+				,"ldongNm" : "북평면"
+				,"lnoCd" : "4682035025102440013"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 244
+				,"lnoSlno" : 13
+				,"lnoAdr" : "전라남도 해남군 북평면 영전리 244-13"
+				,"rdnmCd" : "468204682088"
+				,"rdnm" : "전라남도 해남군 북평면 남전길"
+				,"bldMnno" : 52
+				,"bldSlno" : 2
+				,"bldMngNo" : "4682035025102440013000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 해남군 북평면 남전길 52-2"
+				,"oldZipcd" : "536932"
+				,"newZipcd" : "59057"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.600050782625
+				,"lat" : 34.3364974434793
+				}
+				,{
+				"bizesId" : "MA010120220807810325"
+				,"bizesNm" : "토말하우스"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55104"
+				,"ksicNm" : "민박업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46820"
+				,"signguNm" : "해남군"
+				,"adongCd" : "46820350"
+				,"adongNm" : "북평면"
+				,"ldongCd" : "4682035025"
+				,"ldongNm" : "북평면"
+				,"lnoCd" : "4682035025115050000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 1505
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 해남군 북평면 영전리 1505"
+				,"rdnmCd" : "468203294005"
+				,"rdnm" : "전라남도 해남군 북평면 땅끝해안로"
+				,"bldMnno" : 2904
+				,"bldSlno" : 26
+				,"bldMngNo" : "4682035025115050000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 해남군 북평면 땅끝해안로 2904-26"
+				,"oldZipcd" : "536932"
+				,"newZipcd" : "59057"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.600327503626
+				,"lat" : 34.3148088511286
+				}
+				,{
+				"bizesId" : "MA010120220807807260"
+				,"bizesNm" : "남성바닷가횟집"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20111"
+				,"indsSclsNm" : "횟집"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46820"
+				,"signguNm" : "해남군"
+				,"adongCd" : "46820350"
+				,"adongNm" : "북평면"
+				,"ldongCd" : "4682035025"
+				,"ldongNm" : "북평면"
+				,"lnoCd" : "4682035025114330006"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 1433
+				,"lnoSlno" : 6
+				,"lnoAdr" : "전라남도 해남군 북평면 영전리 1433-6"
+				,"rdnmCd" : "468204682083"
+				,"rdnm" : "전라남도 해남군 북평면 남성리길"
+				,"bldMnno" : 12
+				,"bldSlno" : 16
+				,"bldMngNo" : "4682035025114330006000005"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 해남군 북평면 남성리길 12-16"
+				,"oldZipcd" : "536932"
+				,"newZipcd" : "59057"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.601474345487
+				,"lat" : 34.318121007373
+				}
+				,{
+				"bizesId" : "MA0101202305A0005719"
+				,"bizesNm" : "갯바람팬션"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55109"
+				,"ksicNm" : "기타 일반 및 생활 숙박시설 운영업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46890"
+				,"signguNm" : "완도군"
+				,"adongCd" : "46890310"
+				,"adongNm" : "군외면"
+				,"ldongCd" : "4689031027"
+				,"ldongNm" : "군외면"
+				,"lnoCd" : "4689031027107620000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 762
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 완도군 군외면 삼두리 762"
+				,"rdnmCd" : "468903300027"
+				,"rdnm" : "전라남도 완도군 군외면 청해진서로"
+				,"bldMnno" : 1531
+				,"bldSlno" : ""
+				,"bldMngNo" : "4689031027107620000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 완도군 군외면 청해진서로 1531"
+				,"oldZipcd" : "537811"
+				,"newZipcd" : "59106"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.644060483242
+				,"lat" : 34.3422674975235
+				}
+				,{
+				"bizesId" : "MA010120220807807930"
+				,"bizesNm" : "삼두슈퍼"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G204"
+				,"indsMclsNm" : "종합 소매"
+				,"indsSclsCd" : "G20404"
+				,"indsSclsNm" : "슈퍼마켓"
+				,"ksicCd" : "G47129"
+				,"ksicNm" : "기타 음ㆍ식료품 위주 종합 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46890"
+				,"signguNm" : "완도군"
+				,"adongCd" : "46890310"
+				,"adongNm" : "군외면"
+				,"ldongCd" : "4689031027"
+				,"ldongNm" : "군외면"
+				,"lnoCd" : "4689031027105030010"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 503
+				,"lnoSlno" : 10
+				,"lnoAdr" : "전라남도 완도군 군외면 삼두리 503-10"
+				,"rdnmCd" : "468903300027"
+				,"rdnm" : "전라남도 완도군 군외면 청해진서로"
+				,"bldMnno" : 1608
+				,"bldSlno" : ""
+				,"bldMngNo" : "4689031027105030010000522"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 완도군 군외면 청해진서로 1608"
+				,"oldZipcd" : "537811"
+				,"newZipcd" : "59106"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.648444250773
+				,"lat" : 34.3465261069975
+				}
+				,{
+				"bizesId" : "MA010120220808624835"
+				,"bizesNm" : "마리"
+				,"brchNm" : "코리아"
+				,"indsLclsCd" : "N1"
+				,"indsLclsNm" : "시설관리·임대"
+				,"indsMclsCd" : "N105"
+				,"indsMclsNm" : "여행사·보조"
+				,"indsSclsCd" : "N10599"
+				,"indsSclsNm" : "기타 여행 보조/예약 서비스업"
+				,"ksicCd" : "N75290"
+				,"ksicNm" : "기타 여행 보조 및 예약 서비스업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46890"
+				,"signguNm" : "완도군"
+				,"adongCd" : "46890310"
+				,"adongNm" : "군외면"
+				,"ldongCd" : "4689031027"
+				,"ldongNm" : "군외면"
+				,"lnoCd" : "4689031027104130001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 413
+				,"lnoSlno" : 1
+				,"lnoAdr" : "전라남도 완도군 군외면 삼두리 413-1"
+				,"rdnmCd" : "468903300027"
+				,"rdnm" : "전라남도 완도군 군외면 청해진서로"
+				,"bldMnno" : 1578
+				,"bldSlno" : ""
+				,"bldMngNo" : "4689031027104130001000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 완도군 군외면 청해진서로 1578"
+				,"oldZipcd" : "537811"
+				,"newZipcd" : "59106"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.649357812568
+				,"lat" : 34.3437702154172
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 1,
+		"totalCount" : 6	}
+}

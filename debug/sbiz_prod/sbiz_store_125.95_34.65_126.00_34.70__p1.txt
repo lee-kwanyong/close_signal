@@ -1,0 +1,180 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA010120220808413259"
+				,"bizesNm" : "여백의미"
+				,"brchNm" : ""
+				,"indsLclsCd" : "M1"
+				,"indsLclsNm" : "과학·기술"
+				,"indsMclsCd" : "M115"
+				,"indsMclsNm" : "기타 전문 과학"
+				,"indsSclsCd" : "M11502"
+				,"indsSclsNm" : "번역/통역 서비스업"
+				,"ksicCd" : "M73902"
+				,"ksicNm" : "번역 및 통역 서비스업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46910"
+				,"signguNm" : "신안군"
+				,"adongCd" : "46910350"
+				,"adongNm" : "도초면"
+				,"ldongCd" : "4691035024"
+				,"ldongNm" : "도초면"
+				,"lnoCd" : "4691035024102810001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 281
+				,"lnoSlno" : 1
+				,"lnoAdr" : "전라남도 신안군 도초면 오류리 281-1"
+				,"rdnmCd" : "469104706187"
+				,"rdnm" : "전라남도 신안군 도초면 시목길"
+				,"bldMnno" : 152
+				,"bldSlno" : ""
+				,"bldMngNo" : "4691035024102810001000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 신안군 도초면 시목길 152"
+				,"oldZipcd" : "535891"
+				,"newZipcd" : "58851"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 125.955421637335
+				,"lat" : 34.680239847835
+				}
+				,{
+				"bizesId" : "MA0101202408A0027361"
+				,"bizesNm" : "입시·교과학원"
+				,"brchNm" : ""
+				,"indsLclsCd" : "P1"
+				,"indsLclsNm" : "교육"
+				,"indsMclsCd" : "P105"
+				,"indsMclsNm" : "일반 교육"
+				,"indsSclsCd" : "P10501"
+				,"indsSclsNm" : "입시·교과학원"
+				,"ksicCd" : "P85501"
+				,"ksicNm" : "일반 교과학원"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46910"
+				,"signguNm" : "신안군"
+				,"adongCd" : "46910350"
+				,"adongNm" : "도초면"
+				,"ldongCd" : "4691035025"
+				,"ldongNm" : "도초면"
+				,"lnoCd" : "4691035025106470002"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 647
+				,"lnoSlno" : 2
+				,"lnoAdr" : "전라남도 신안군 도초면 수항리 647-2"
+				,"rdnmCd" : "469103302003"
+				,"rdnm" : "전라남도 신안군 도초면 서남문로"
+				,"bldMnno" : 1698
+				,"bldSlno" : ""
+				,"bldMngNo" : "4691035025106200000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 신안군 도초면 서남문로 1698"
+				,"oldZipcd" : "535891"
+				,"newZipcd" : "58851"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 125.962629540355
+				,"lat" : 34.6902255779714
+				}
+				,{
+				"bizesId" : "MA010120220813835307"
+				,"bizesNm" : "초원자동차종합정비"
+				,"brchNm" : ""
+				,"indsLclsCd" : "S2"
+				,"indsLclsNm" : "수리·개인"
+				,"indsMclsCd" : "S203"
+				,"indsMclsNm" : "자동차 수리·세차"
+				,"indsSclsCd" : "S20301"
+				,"indsSclsNm" : "자동차 정비소"
+				,"ksicCd" : "S95212"
+				,"ksicNm" : "자동차 전문 수리업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46910"
+				,"signguNm" : "신안군"
+				,"adongCd" : "46910350"
+				,"adongNm" : "도초면"
+				,"ldongCd" : "4691035025"
+				,"ldongNm" : "도초면"
+				,"lnoCd" : "4691035025101360002"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 136
+				,"lnoSlno" : 2
+				,"lnoAdr" : "전라남도 신안군 도초면 수항리 136-2"
+				,"rdnmCd" : "469103302003"
+				,"rdnm" : "전라남도 신안군 도초면 서남문로"
+				,"bldMnno" : 1715
+				,"bldSlno" : 5
+				,"bldMngNo" : "4691035025101360002000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 신안군 도초면 서남문로 1715-5"
+				,"oldZipcd" : "535891"
+				,"newZipcd" : "58851"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 125.965151539615
+				,"lat" : 34.6892555050577
+				}
+				,{
+				"bizesId" : "MA0101202406A0559200"
+				,"bizesNm" : "신율수산"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G205"
+				,"indsMclsNm" : "식료품 소매"
+				,"indsSclsCd" : "G20505"
+				,"indsSclsNm" : "수산물 소매업"
+				,"ksicCd" : "G47214"
+				,"ksicNm" : "신선, 냉동 및 기타 수산물 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46910"
+				,"signguNm" : "신안군"
+				,"adongCd" : "46910350"
+				,"adongNm" : "도초면"
+				,"ldongCd" : "4691035026"
+				,"ldongNm" : "도초면"
+				,"lnoCd" : "4691035026104520003"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 452
+				,"lnoSlno" : 3
+				,"lnoAdr" : "전라남도 신안군 도초면 죽연리 452-3"
+				,"rdnmCd" : "469103302003"
+				,"rdnm" : "전라남도 신안군 도초면 서남문로"
+				,"bldMnno" : 1958
+				,"bldSlno" : 168
+				,"bldMngNo" : "4691035026104520003000002"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 신안군 도초면 서남문로 1958-168"
+				,"oldZipcd" : "535891"
+				,"newZipcd" : "58851"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 125.978042319041
+				,"lat" : 34.6641436607613
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 1,
+		"totalCount" : 4	}
+}

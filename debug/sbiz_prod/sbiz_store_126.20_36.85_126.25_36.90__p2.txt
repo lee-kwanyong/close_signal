@@ -1,0 +1,262 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA0106202506A0539748"
+				,"bizesNm" : "평화여관"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10102"
+				,"indsSclsNm" : "여관/모텔"
+				,"ksicCd" : "I55102"
+				,"ksicNm" : "여관업"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44825"
+				,"signguNm" : "태안군"
+				,"adongCd" : "44825350"
+				,"adongNm" : "원북면"
+				,"ldongCd" : "4482535024"
+				,"ldongNm" : "원북면"
+				,"lnoCd" : "4482535024105150057"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 515
+				,"lnoSlno" : 57
+				,"lnoAdr" : "충청남도 태안군 원북면 방갈리 515-57"
+				,"rdnmCd" : "448253264028"
+				,"rdnm" : "충청남도 태안군 원북면 옥파로"
+				,"bldMnno" : 1147
+				,"bldSlno" : ""
+				,"bldMngNo" : "4482535024105150057028246"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청남도 태안군 원북면 옥파로 1147"
+				,"oldZipcd" : "357914"
+				,"newZipcd" : "32105"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.204845771296
+				,"lat" : 36.8970033071793
+				}
+				,{
+				"bizesId" : "MA0106202508A0913615"
+				,"bizesNm" : "황금여관"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10102"
+				,"indsSclsNm" : "여관/모텔"
+				,"ksicCd" : "I55102"
+				,"ksicNm" : "여관업"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44825"
+				,"signguNm" : "태안군"
+				,"adongCd" : "44825350"
+				,"adongNm" : "원북면"
+				,"ldongCd" : "4482535024"
+				,"ldongNm" : "원북면"
+				,"lnoCd" : "4482535024105150057"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 515
+				,"lnoSlno" : 57
+				,"lnoAdr" : "충청남도 태안군 원북면 방갈리 515-57"
+				,"rdnmCd" : "448253264028"
+				,"rdnm" : "충청남도 태안군 원북면 옥파로"
+				,"bldMnno" : 1147
+				,"bldSlno" : ""
+				,"bldMngNo" : "4482535024105150057028246"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청남도 태안군 원북면 옥파로 1147"
+				,"oldZipcd" : "357914"
+				,"newZipcd" : "32105"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.204845771296
+				,"lat" : 36.8970033071793
+				}
+				,{
+				"bizesId" : "MA0106202509A1363459"
+				,"bizesNm" : "이마트24태안학암포점"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G204"
+				,"indsMclsNm" : "종합 소매"
+				,"indsSclsCd" : "G20405"
+				,"indsSclsNm" : "편의점"
+				,"ksicCd" : "G47121"
+				,"ksicNm" : "슈퍼마켓"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44825"
+				,"signguNm" : "태안군"
+				,"adongCd" : "44825350"
+				,"adongNm" : "원북면"
+				,"ldongCd" : "4482535024"
+				,"ldongNm" : "원북면"
+				,"lnoCd" : "4482535024105200001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 520
+				,"lnoSlno" : 1
+				,"lnoAdr" : "충청남도 태안군 원북면 방갈리 520-1"
+				,"rdnmCd" : "448253264028"
+				,"rdnm" : "충청남도 태안군 원북면 옥파로"
+				,"bldMnno" : 1114
+				,"bldSlno" : ""
+				,"bldMngNo" : "4482535024105200001030054"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청남도 태안군 원북면 옥파로 1114"
+				,"oldZipcd" : "357914"
+				,"newZipcd" : "32105"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.205740951338
+				,"lat" : 36.8939816864937
+				}
+				,{
+				"bizesId" : "MA0101202503A0072698"
+				,"bizesNm" : "통컴퍼니"
+				,"brchNm" : ""
+				,"indsLclsCd" : "N1"
+				,"indsLclsNm" : "시설관리·임대"
+				,"indsMclsCd" : "N108"
+				,"indsMclsNm" : "기타 사업 서비스"
+				,"indsSclsCd" : "N10802"
+				,"indsSclsNm" : "전시/컨벤션/행사 대행 서비스업"
+				,"ksicCd" : "N75992"
+				,"ksicNm" : "전시, 컨벤션 및 행사 대행업"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44825"
+				,"signguNm" : "태안군"
+				,"adongCd" : "44825350"
+				,"adongNm" : "원북면"
+				,"ldongCd" : "4482535024"
+				,"ldongNm" : "원북면"
+				,"lnoCd" : "4482535024106500000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 650
+				,"lnoSlno" : ""
+				,"lnoAdr" : "충청남도 태안군 원북면 방갈리 650"
+				,"rdnmCd" : "448253264028"
+				,"rdnm" : "충청남도 태안군 원북면 옥파로"
+				,"bldMnno" : 856
+				,"bldSlno" : 45
+				,"bldMngNo" : "4482535024106500000000001"
+				,"bldNm" : "제"
+				,"rdnmAdr" : "충청남도 태안군 원북면 옥파로 856-45"
+				,"oldZipcd" : "357914"
+				,"newZipcd" : "32105"
+				,"dongNo" : ""
+				,"flrNo" : "1"
+				,"hoNo" : ""
+				,"lon" : 126.206718314189
+				,"lat" : 36.8775886436563
+				}
+				,{
+				"bizesId" : "MA0106202510A0993973"
+				,"bizesNm" : "도비"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G213"
+				,"indsMclsNm" : "오락용품 소매"
+				,"indsSclsCd" : "G21304"
+				,"indsSclsNm" : "운동용품 소매업"
+				,"ksicCd" : "G47631"
+				,"ksicNm" : "운동 및 경기용품 소매업"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44825"
+				,"signguNm" : "태안군"
+				,"adongCd" : "44825350"
+				,"adongNm" : "원북면"
+				,"ldongCd" : "4482535024"
+				,"ldongNm" : "원북면"
+				,"lnoCd" : "4482535024105150250"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 515
+				,"lnoSlno" : 250
+				,"lnoAdr" : "충청남도 태안군 원북면 방갈리 515-250"
+				,"rdnmCd" : "448254592284"
+				,"rdnm" : "충청남도 태안군 원북면 학암포길"
+				,"bldMnno" : 21
+				,"bldSlno" : 22
+				,"bldMngNo" : "4482535024105150250000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청남도 태안군 원북면 학암포길 21-22"
+				,"oldZipcd" : "357914"
+				,"newZipcd" : "32105"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.208672286572
+				,"lat" : 36.8980110247524
+				}
+				,{
+				"bizesId" : "MA0106202509A0072660"
+				,"bizesNm" : "태담양봉원"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G204"
+				,"indsMclsNm" : "종합 소매"
+				,"indsSclsCd" : "G20404"
+				,"indsSclsNm" : "슈퍼마켓"
+				,"ksicCd" : "G47129"
+				,"ksicNm" : "기타 음ㆍ식료품 위주 종합 소매업"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44825"
+				,"signguNm" : "태안군"
+				,"adongCd" : "44825350"
+				,"adongNm" : "원북면"
+				,"ldongCd" : "4482535023"
+				,"ldongNm" : "원북면"
+				,"lnoCd" : "4482535023100570000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 57
+				,"lnoSlno" : ""
+				,"lnoAdr" : "충청남도 태안군 원북면 황촌리 57"
+				,"rdnmCd" : "448253264028"
+				,"rdnm" : "충청남도 태안군 원북면 옥파로"
+				,"bldMnno" : 716
+				,"bldSlno" : 282
+				,"bldMngNo" : "4482535023100570000028735"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청남도 태안군 원북면 옥파로 716-282"
+				,"oldZipcd" : "357914"
+				,"newZipcd" : "32106"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.221418477974
+				,"lat" : 36.8669630319819
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 2,
+		"totalCount" : 106	}
+}

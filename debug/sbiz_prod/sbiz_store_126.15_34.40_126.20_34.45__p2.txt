@@ -1,0 +1,713 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA0106202201A1248488"
+				,"bizesNm" : "서진도농협지산지점"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G214"
+				,"indsMclsNm" : "연료 소매"
+				,"indsSclsCd" : "G21403"
+				,"indsSclsNm" : "가정용 연료 소매업"
+				,"ksicCd" : "G47722"
+				,"ksicNm" : "가정용 액체 연료 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46900"
+				,"signguNm" : "진도군"
+				,"adongCd" : "46900350"
+				,"adongNm" : "지산면"
+				,"ldongCd" : "4690035021"
+				,"ldongNm" : "지산면"
+				,"lnoCd" : "4690035021102420002"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 242
+				,"lnoSlno" : 2
+				,"lnoAdr" : "전라남도 진도군 지산면 인지리 242-2"
+				,"rdnmCd" : "469004703235"
+				,"rdnm" : "전라남도 진도군 지산면 인지독치1길"
+				,"bldMnno" : 27
+				,"bldSlno" : ""
+				,"bldMngNo" : "4690035021102420002012908"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 진도군 지산면 인지독치1길 27"
+				,"oldZipcd" : "539853"
+				,"newZipcd" : "58950"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.165852421345
+				,"lat" : 34.4223982091783
+				}
+				,{
+				"bizesId" : "MA0101202504A0059334"
+				,"bizesNm" : "꽃샘미용실"
+				,"brchNm" : ""
+				,"indsLclsCd" : "S2"
+				,"indsLclsNm" : "수리·개인"
+				,"indsMclsCd" : "S207"
+				,"indsMclsNm" : "이용·미용"
+				,"indsSclsCd" : "S20701"
+				,"indsSclsNm" : "미용실"
+				,"ksicCd" : "S96112"
+				,"ksicNm" : "두발 미용업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46900"
+				,"signguNm" : "진도군"
+				,"adongCd" : "46900350"
+				,"adongNm" : "지산면"
+				,"ldongCd" : "4690035021"
+				,"ldongNm" : "지산면"
+				,"lnoCd" : "4690035021103020003"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 302
+				,"lnoSlno" : 3
+				,"lnoAdr" : "전라남도 진도군 지산면 인지리 302-3"
+				,"rdnmCd" : "469004703235"
+				,"rdnm" : "전라남도 진도군 지산면 인지독치1길"
+				,"bldMnno" : 9
+				,"bldSlno" : 8
+				,"bldMngNo" : "4690035021103020003012786"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 진도군 지산면 인지독치1길 9-8"
+				,"oldZipcd" : "539853"
+				,"newZipcd" : "58950"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.166344992026
+				,"lat" : 34.423185815527
+				}
+				,{
+				"bizesId" : "MA0101202409A0028305"
+				,"bizesNm" : "진또배기"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46900"
+				,"signguNm" : "진도군"
+				,"adongCd" : "46900350"
+				,"adongNm" : "지산면"
+				,"ldongCd" : "4690035021"
+				,"ldongNm" : "지산면"
+				,"lnoCd" : "4690035021103120023"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 312
+				,"lnoSlno" : 23
+				,"lnoAdr" : "전라남도 진도군 지산면 인지리 312-23"
+				,"rdnmCd" : "469004703235"
+				,"rdnm" : "전라남도 진도군 지산면 인지독치1길"
+				,"bldMnno" : 6
+				,"bldSlno" : ""
+				,"bldMngNo" : "4690035021103120023012674"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 진도군 지산면 인지독치1길 6"
+				,"oldZipcd" : "539853"
+				,"newZipcd" : "58950"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.166422795965
+				,"lat" : 34.4241148230473
+				}
+				,{
+				"bizesId" : "MA0106202511A2024659"
+				,"bizesNm" : "써니카페호프"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I211"
+				,"indsMclsNm" : "주점"
+				,"indsSclsCd" : "I21103"
+				,"indsSclsNm" : "생맥주 전문"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46900"
+				,"signguNm" : "진도군"
+				,"adongCd" : "46900350"
+				,"adongNm" : "지산면"
+				,"ldongCd" : "4690035021"
+				,"ldongNm" : "지산면"
+				,"lnoCd" : "4690035021103100001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 310
+				,"lnoSlno" : 1
+				,"lnoAdr" : "전라남도 진도군 지산면 인지리 310-1"
+				,"rdnmCd" : "469004703237"
+				,"rdnm" : "전라남도 진도군 지산면 인지인천1길"
+				,"bldMnno" : 25
+				,"bldSlno" : ""
+				,"bldMngNo" : "4690035021103100001012532"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 진도군 지산면 인지인천1길 25"
+				,"oldZipcd" : "539853"
+				,"newZipcd" : "58950"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.167307958708
+				,"lat" : 34.4248059429149
+				}
+				,{
+				"bizesId" : "MA0101202409A0240040"
+				,"bizesNm" : "소현다방"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I212"
+				,"indsMclsNm" : "비알코올 "
+				,"indsSclsCd" : "I21201"
+				,"indsSclsNm" : "카페"
+				,"ksicCd" : "I56221"
+				,"ksicNm" : "커피 전문점"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46900"
+				,"signguNm" : "진도군"
+				,"adongCd" : "46900350"
+				,"adongNm" : "지산면"
+				,"ldongCd" : "4690035021"
+				,"ldongNm" : "지산면"
+				,"lnoCd" : "4690035021103100001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 310
+				,"lnoSlno" : 1
+				,"lnoAdr" : "전라남도 진도군 지산면 인지리 310-1"
+				,"rdnmCd" : "469004703237"
+				,"rdnm" : "전라남도 진도군 지산면 인지인천1길"
+				,"bldMnno" : 25
+				,"bldSlno" : ""
+				,"bldMngNo" : "4690035021103100001012532"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 진도군 지산면 인지인천1길 25"
+				,"oldZipcd" : "539853"
+				,"newZipcd" : "58950"
+				,"dongNo" : ""
+				,"flrNo" : "1"
+				,"hoNo" : ""
+				,"lon" : 126.167307958708
+				,"lat" : 34.4248059429149
+				}
+				,{
+				"bizesId" : "MA0101202504A0060878"
+				,"bizesNm" : "정태서비스에셋"
+				,"brchNm" : ""
+				,"indsLclsCd" : "S2"
+				,"indsLclsNm" : "수리·개인"
+				,"indsMclsCd" : "S203"
+				,"indsMclsNm" : "자동차 수리·세차"
+				,"indsSclsCd" : "S20301"
+				,"indsSclsNm" : "자동차 정비소"
+				,"ksicCd" : "S95212"
+				,"ksicNm" : "자동차 전문 수리업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46900"
+				,"signguNm" : "진도군"
+				,"adongCd" : "46900340"
+				,"adongNm" : "임회면"
+				,"ldongCd" : "4690034026"
+				,"ldongNm" : "임회면"
+				,"lnoCd" : "4690034026102450055"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 245
+				,"lnoSlno" : 55
+				,"lnoAdr" : "전라남도 진도군 임회면 석교리 245-55"
+				,"rdnmCd" : "469004703189"
+				,"rdnm" : "전라남도 진도군 임회면 십일시길"
+				,"bldMnno" : 7
+				,"bldSlno" : 2
+				,"bldMngNo" : "4690034026102450055036919"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 진도군 임회면 십일시길 7-2"
+				,"oldZipcd" : "539841"
+				,"newZipcd" : "58942"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.191499526294
+				,"lat" : 34.4114376927225
+				}
+				,{
+				"bizesId" : "MA0101202409A0027749"
+				,"bizesNm" : "순다방"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I212"
+				,"indsMclsNm" : "비알코올 "
+				,"indsSclsCd" : "I21201"
+				,"indsSclsNm" : "카페"
+				,"ksicCd" : "I56221"
+				,"ksicNm" : "커피 전문점"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46900"
+				,"signguNm" : "진도군"
+				,"adongCd" : "46900340"
+				,"adongNm" : "임회면"
+				,"ldongCd" : "4690034026"
+				,"ldongNm" : "임회면"
+				,"lnoCd" : "4690034026102450055"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 245
+				,"lnoSlno" : 55
+				,"lnoAdr" : "전라남도 진도군 임회면 석교리 245-55"
+				,"rdnmCd" : "469004703189"
+				,"rdnm" : "전라남도 진도군 임회면 십일시길"
+				,"bldMnno" : 7
+				,"bldSlno" : 2
+				,"bldMngNo" : "4690034026102450055036919"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 진도군 임회면 십일시길 7-2"
+				,"oldZipcd" : "539841"
+				,"newZipcd" : "58942"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.191499526294
+				,"lat" : 34.4114376927225
+				}
+				,{
+				"bizesId" : "MA0101202409A0061437"
+				,"bizesNm" : "시골다방"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I212"
+				,"indsMclsNm" : "비알코올 "
+				,"indsSclsCd" : "I21201"
+				,"indsSclsNm" : "카페"
+				,"ksicCd" : "I56221"
+				,"ksicNm" : "커피 전문점"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46900"
+				,"signguNm" : "진도군"
+				,"adongCd" : "46900340"
+				,"adongNm" : "임회면"
+				,"ldongCd" : "4690034026"
+				,"ldongNm" : "임회면"
+				,"lnoCd" : "4690034026102440004"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 244
+				,"lnoSlno" : 4
+				,"lnoAdr" : "전라남도 진도군 임회면 석교리 244-4"
+				,"rdnmCd" : "469004703190"
+				,"rdnm" : "전라남도 진도군 임회면 십일시장길"
+				,"bldMnno" : 13
+				,"bldSlno" : 1
+				,"bldMngNo" : "4690034026102440004037038"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 진도군 임회면 십일시장길 13-1"
+				,"oldZipcd" : "539841"
+				,"newZipcd" : "58942"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.192024563571
+				,"lat" : 34.4099988608695
+				}
+				,{
+				"bizesId" : "MA0101202409A0080414"
+				,"bizesNm" : "피자생각"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I210"
+				,"indsMclsNm" : "기타 간이"
+				,"indsSclsCd" : "I21003"
+				,"indsSclsNm" : "피자"
+				,"ksicCd" : "I56192"
+				,"ksicNm" : "피자, 햄버거, 샌드위치 및 유사 음식점업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46900"
+				,"signguNm" : "진도군"
+				,"adongCd" : "46900340"
+				,"adongNm" : "임회면"
+				,"ldongCd" : "4690034026"
+				,"ldongNm" : "임회면"
+				,"lnoCd" : "4690034026102600010"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 260
+				,"lnoSlno" : 10
+				,"lnoAdr" : "전라남도 진도군 임회면 석교리 260-10"
+				,"rdnmCd" : "469004703189"
+				,"rdnm" : "전라남도 진도군 임회면 십일시길"
+				,"bldMnno" : 37
+				,"bldSlno" : ""
+				,"bldMngNo" : "4690034026102600010037085"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 진도군 임회면 십일시길 37"
+				,"oldZipcd" : "539841"
+				,"newZipcd" : "58942"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.192042719838
+				,"lat" : 34.4092417726148
+				}
+				,{
+				"bizesId" : "MA0106202511A1507185"
+				,"bizesNm" : "80샵앤샵"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G209"
+				,"indsMclsNm" : "섬유·의복·신발 소매"
+				,"indsSclsCd" : "G20905"
+				,"indsSclsNm" : "기타 의류 소매업"
+				,"ksicCd" : "G47419"
+				,"ksicNm" : "기타 의복 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46900"
+				,"signguNm" : "진도군"
+				,"adongCd" : "46900340"
+				,"adongNm" : "임회면"
+				,"ldongCd" : "4690034026"
+				,"ldongNm" : "임회면"
+				,"lnoCd" : "4690034026102720007"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 272
+				,"lnoSlno" : 7
+				,"lnoAdr" : "전라남도 진도군 임회면 석교리 272-7"
+				,"rdnmCd" : "469004703152"
+				,"rdnm" : "전라남도 진도군 임회면 석교길"
+				,"bldMnno" : 10
+				,"bldSlno" : ""
+				,"bldMngNo" : "4690034026102720007037110"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 진도군 임회면 석교길 10"
+				,"oldZipcd" : "539841"
+				,"newZipcd" : "58942"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.192194588343
+				,"lat" : 34.4081520350834
+				}
+				,{
+				"bizesId" : "MA0101202409A0056336"
+				,"bizesNm" : "보담"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46900"
+				,"signguNm" : "진도군"
+				,"adongCd" : "46900340"
+				,"adongNm" : "임회면"
+				,"ldongCd" : "4690034026"
+				,"ldongNm" : "임회면"
+				,"lnoCd" : "4690034026102600008"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 260
+				,"lnoSlno" : 8
+				,"lnoAdr" : "전라남도 진도군 임회면 석교리 260-8"
+				,"rdnmCd" : "469004703152"
+				,"rdnm" : "전라남도 진도군 임회면 석교길"
+				,"bldMnno" : 4
+				,"bldSlno" : 1
+				,"bldMngNo" : "4690034026102600008037102"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 진도군 임회면 석교길 4-1"
+				,"oldZipcd" : "539841"
+				,"newZipcd" : "58942"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.192189389186
+				,"lat" : 34.4086928638463
+				}
+				,{
+				"bizesId" : "MA0101202411A0049540"
+				,"bizesNm" : "시골김밥막창야식"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46900"
+				,"signguNm" : "진도군"
+				,"adongCd" : "46900340"
+				,"adongNm" : "임회면"
+				,"ldongCd" : "4690034026"
+				,"ldongNm" : "임회면"
+				,"lnoCd" : "4690034026102430002"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 243
+				,"lnoSlno" : 2
+				,"lnoAdr" : "전라남도 진도군 임회면 석교리 243-2"
+				,"rdnmCd" : "469004703189"
+				,"rdnm" : "전라남도 진도군 임회면 십일시길"
+				,"bldMnno" : 23
+				,"bldSlno" : 15
+				,"bldMngNo" : "4690034026102430002037052"
+				,"bldNm" : "국빈장"
+				,"rdnmAdr" : "전라남도 진도군 임회면 십일시길 23-15"
+				,"oldZipcd" : "539841"
+				,"newZipcd" : "58942"
+				,"dongNo" : ""
+				,"flrNo" : "1"
+				,"hoNo" : ""
+				,"lon" : 126.192276438651
+				,"lat" : 34.4098202366452
+				}
+				,{
+				"bizesId" : "MA0101202409A0039225"
+				,"bizesNm" : "국빈장"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10102"
+				,"indsSclsNm" : "여관/모텔"
+				,"ksicCd" : "I55102"
+				,"ksicNm" : "여관업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46900"
+				,"signguNm" : "진도군"
+				,"adongCd" : "46900340"
+				,"adongNm" : "임회면"
+				,"ldongCd" : "4690034026"
+				,"ldongNm" : "임회면"
+				,"lnoCd" : "4690034026102430002"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 243
+				,"lnoSlno" : 2
+				,"lnoAdr" : "전라남도 진도군 임회면 석교리 243-2"
+				,"rdnmCd" : "469004703189"
+				,"rdnm" : "전라남도 진도군 임회면 십일시길"
+				,"bldMnno" : 23
+				,"bldSlno" : 15
+				,"bldMngNo" : "4690034026102430002037052"
+				,"bldNm" : "국빈장"
+				,"rdnmAdr" : "전라남도 진도군 임회면 십일시길 23-15"
+				,"oldZipcd" : "539841"
+				,"newZipcd" : "58942"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.192276438651
+				,"lat" : 34.4098202366452
+				}
+				,{
+				"bizesId" : "MA0101202501A0066539"
+				,"bizesNm" : "술파티"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46900"
+				,"signguNm" : "진도군"
+				,"adongCd" : "46900340"
+				,"adongNm" : "임회면"
+				,"ldongCd" : "4690034026"
+				,"ldongNm" : "임회면"
+				,"lnoCd" : "4690034026102580010"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 258
+				,"lnoSlno" : 10
+				,"lnoAdr" : "전라남도 진도군 임회면 석교리 258-10"
+				,"rdnmCd" : "469004703190"
+				,"rdnm" : "전라남도 진도군 임회면 십일시장길"
+				,"bldMnno" : 3
+				,"bldSlno" : 1
+				,"bldMngNo" : "4690034026102580010037076"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 진도군 임회면 십일시장길 3-1"
+				,"oldZipcd" : "539841"
+				,"newZipcd" : "58942"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.192291040154
+				,"lat" : 34.4094327145791
+				}
+				,{
+				"bizesId" : "MA0101202409A0196335"
+				,"bizesNm" : "제왕장"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10102"
+				,"indsSclsNm" : "여관/모텔"
+				,"ksicCd" : "I55102"
+				,"ksicNm" : "여관업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46900"
+				,"signguNm" : "진도군"
+				,"adongCd" : "46900340"
+				,"adongNm" : "임회면"
+				,"ldongCd" : "4690034026"
+				,"ldongNm" : "임회면"
+				,"lnoCd" : "4690034026103480006"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 348
+				,"lnoSlno" : 6
+				,"lnoAdr" : "전라남도 진도군 임회면 석교리 348-6"
+				,"rdnmCd" : "469004703189"
+				,"rdnm" : "전라남도 진도군 임회면 십일시길"
+				,"bldMnno" : 47
+				,"bldSlno" : 6
+				,"bldMngNo" : "4690034026103480006035573"
+				,"bldNm" : "제왕장"
+				,"rdnmAdr" : "전라남도 진도군 임회면 십일시길 47-6"
+				,"oldZipcd" : "539841"
+				,"newZipcd" : "58942"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.193490738325
+				,"lat" : 34.4090890692948
+				}
+				,{
+				"bizesId" : "MA0101202501A0011274"
+				,"bizesNm" : "제왕식당"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46900"
+				,"signguNm" : "진도군"
+				,"adongCd" : "46900340"
+				,"adongNm" : "임회면"
+				,"ldongCd" : "4690034026"
+				,"ldongNm" : "임회면"
+				,"lnoCd" : "4690034026103480001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 348
+				,"lnoSlno" : 1
+				,"lnoAdr" : "전라남도 진도군 임회면 석교리 348-1"
+				,"rdnmCd" : "469004703189"
+				,"rdnm" : "전라남도 진도군 임회면 십일시길"
+				,"bldMnno" : 47
+				,"bldSlno" : 8
+				,"bldMngNo" : "4690034026103480001035560"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 진도군 임회면 십일시길 47-8"
+				,"oldZipcd" : "539841"
+				,"newZipcd" : "58942"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.193489354072
+				,"lat" : 34.409233290327
+				}
+				,{
+				"bizesId" : "MA0101202411A0172630"
+				,"bizesNm" : "진도앵무리태양광주민협동조합"
+				,"brchNm" : ""
+				,"indsLclsCd" : "M1"
+				,"indsLclsNm" : "과학·기술"
+				,"indsMclsCd" : "M107"
+				,"indsMclsNm" : "본사·경영 컨설팅"
+				,"indsSclsCd" : "M10703"
+				,"indsSclsNm" : "경영 컨설팅업"
+				,"ksicCd" : "M71531"
+				,"ksicNm" : "경영 컨설팅업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46900"
+				,"signguNm" : "진도군"
+				,"adongCd" : "46900350"
+				,"adongNm" : "지산면"
+				,"ldongCd" : "4690035025"
+				,"ldongNm" : "지산면"
+				,"lnoCd" : "4690035025102980003"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 298
+				,"lnoSlno" : 3
+				,"lnoAdr" : "전라남도 진도군 지산면 앵무리 298-3"
+				,"rdnmCd" : "469003301023"
+				,"rdnm" : "전라남도 진도군 지산면 앵무로"
+				,"bldMnno" : 162
+				,"bldSlno" : 35
+				,"bldMngNo" : "4690035025102980003000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 진도군 지산면 앵무로 162-35"
+				,"oldZipcd" : "539852"
+				,"newZipcd" : "58947"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.197029832859
+				,"lat" : 34.4439077917822
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 2,
+		"totalCount" : 117	}
+}

@@ -3,6 +3,7 @@
 import { revalidatePath } from "next/cache";
 import { redirect } from "next/navigation";
 import { createClient } from "@/lib/supabase/server";
+import { getInternalUserId } from "@/lib/auth/get-internal-user";
 
 function toSafeString(value: FormDataEntryValue | null) {
   return typeof value === "string" ? value.trim() : "";
@@ -13,6 +14,14 @@ function toSafeNumber(value: FormDataEntryValue | null) {
   return Number.isFinite(n) ? n : NaN;
 }
 
+function revalidateWatchlistRelatedPaths(regionCode: string, categoryId: number) {
+  revalidatePath("/");
+  revalidatePath("/rankings");
+  revalidatePath("/signals");
+  revalidatePath("/watchlist");
+  revalidatePath(`/regions/${regionCode}/${categoryId}`);
+}
+
 export async function mutateWatchlistAction(formData: FormData) {
   const intent = toSafeString(formData.get("intent"));
   const regionCode = toSafeString(formData.get("region_code"));
@@ -20,36 +29,17 @@ export async function mutateWatchlistAction(formData: FormData) {
   const watchlistId = toSafeNumber(formData.get("watchlist_id"));
   const next = toSafeString(formData.get("next")) || "/watchlist";
 
-  const fallbackUserId = toSafeNumber(formData.get("user_id"));
-  const requestedUserId = Number.isFinite(fallbackUserId) ? fallbackUserId : 1;
-
   if (!regionCode || !Number.isFinite(categoryId)) {
     redirect(`${next}?error=missing_required_fields`);
   }
 
+  const internalUserId = await getInternalUserId();
+
+  if (!internalUserId) {
+    redirect(`/auth/login?next=${encodeURIComponent(next)}`);
+  }
+
   const supabase = await createClient();
-
-  let internalUserId = requestedUserId;
-
-  const {
-    data: { user },
-  } = await supabase.auth.getUser();
-
-  if (user?.id) {
-    const { data: mappedUser, error: mappedUserError } = await supabase
-      .from("users")
-      .select("id")
-      .eq("auth_user_id", user.id)
-      .single();
-
-    if (!mappedUserError && mappedUser?.id) {
-      internalUserId = mappedUser.id;
-    }
-  }
-
-  if (!Number.isFinite(internalUserId)) {
-    redirect(`${next}?error=invalid_user`);
-  }
 
   if (intent === "remove") {
     let targetWatchlistId = watchlistId;
@@ -87,12 +77,7 @@ export async function mutateWatchlistAction(formData: FormData) {
       redirect(`${next}?error=remove_failed`);
     }
 
-    revalidatePath("/");
-    revalidatePath("/rankings");
-    revalidatePath("/signals");
-    revalidatePath("/watchlist");
-    revalidatePath(`/regions/${regionCode}/${categoryId}`);
-
+    revalidateWatchlistRelatedPaths(regionCode, categoryId);
     redirect(`${next}?success=removed`);
   }
 
@@ -103,15 +88,18 @@ export async function mutateWatchlistAction(formData: FormData) {
   });
 
   if (error) {
+    const code = String((error as { code?: string } | null)?.code ?? "");
+    const message = String((error as { message?: string } | null)?.message ?? "").toLowerCase();
+
+    if (code === "23505" || message.includes("duplicate")) {
+      revalidateWatchlistRelatedPaths(regionCode, categoryId);
+      redirect(`${next}?success=added`);
+    }
+
     console.error("add_watchlist error", error);
     redirect(`${next}?error=add_failed`);
   }
 
-  revalidatePath("/");
-  revalidatePath("/rankings");
-  revalidatePath("/signals");
-  revalidatePath("/watchlist");
-  revalidatePath(`/regions/${regionCode}/${categoryId}`);
-
+  revalidateWatchlistRelatedPaths(regionCode, categoryId);
   redirect(`${next}?success=added`);
 }

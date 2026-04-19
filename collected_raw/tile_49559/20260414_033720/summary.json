@@ -1,0 +1,10 @@
+﻿{
+    "minx":  130.55,
+    "maxx":  130.6,
+    "miny":  38,
+    "maxy":  38.05,
+    "max_pages":  3,
+    "run_dir":  "C:\\work\\close_signal\\collected_raw\\tile_49559\\20260414_033720",
+    "raw_jsonl_file":  "C:\\work\\close_signal\\collected_raw\\tile_49559\\20260414_033720\\raw_records.jsonl",
+    "collected_count":  0
+}

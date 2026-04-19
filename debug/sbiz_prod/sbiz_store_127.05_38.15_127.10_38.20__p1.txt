@@ -1,0 +1,221 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA010120220813061774"
+				,"bizesNm" : "우니메이카연천점"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10104"
+				,"indsSclsNm" : "캠핑/글램핑"
+				,"ksicCd" : "I55109"
+				,"ksicNm" : "기타 일반 및 생활 숙박시설 운영업"
+				,"ctprvnCd" : "41"
+				,"ctprvnNm" : "경기도"
+				,"signguCd" : "41800"
+				,"signguNm" : "연천군"
+				,"adongCd" : "41800370"
+				,"adongNm" : "중면"
+				,"ldongCd" : "4180037026"
+				,"ldongNm" : "중면"
+				,"lnoCd" : "4180037026100930000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 93
+				,"lnoSlno" : ""
+				,"lnoAdr" : "경기도 연천군 중면 합수리 93"
+				,"rdnmCd" : "418003215050"
+				,"rdnm" : "경기도 연천군 중면 합내로"
+				,"bldMnno" : 458
+				,"bldSlno" : ""
+				,"bldMngNo" : "4180037026100930000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "경기도 연천군 중면 합내로 458"
+				,"oldZipcd" : "486811"
+				,"newZipcd" : "11004"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.062991882242
+				,"lat" : 38.1558868848738
+				}
+				,{
+				"bizesId" : "MA010120220801735546"
+				,"bizesNm" : "하늘마당"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G205"
+				,"indsMclsNm" : "식료품 소매"
+				,"indsSclsCd" : "G20506"
+				,"indsSclsNm" : "채소/과일 소매업"
+				,"ksicCd" : "G47215"
+				,"ksicNm" : "채소, 과실 및 뿌리작물 소매업"
+				,"ctprvnCd" : "41"
+				,"ctprvnNm" : "경기도"
+				,"signguCd" : "41800"
+				,"signguNm" : "연천군"
+				,"adongCd" : "41800360"
+				,"adongNm" : "신서면"
+				,"ldongCd" : "4180036025"
+				,"ldongNm" : "신서면"
+				,"lnoCd" : "4180036025111980003"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 1198
+				,"lnoSlno" : 3
+				,"lnoAdr" : "경기도 연천군 신서면 답곡리 1198-3"
+				,"rdnmCd" : "418003215050"
+				,"rdnm" : "경기도 연천군 신서면 합내로"
+				,"bldMnno" : 483
+				,"bldSlno" : 83
+				,"bldMngNo" : "4180036025111980003000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "경기도 연천군 신서면 합내로 483-83"
+				,"oldZipcd" : "486830"
+				,"newZipcd" : "11009"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.065426629434
+				,"lat" : 38.1609486399837
+				}
+				,{
+				"bizesId" : "MA0101202209A0063525"
+				,"bizesNm" : "라곰"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10104"
+				,"indsSclsNm" : "캠핑/글램핑"
+				,"ksicCd" : "I55109"
+				,"ksicNm" : "기타 일반 및 생활 숙박시설 운영업"
+				,"ctprvnCd" : "41"
+				,"ctprvnNm" : "경기도"
+				,"signguCd" : "41800"
+				,"signguNm" : "연천군"
+				,"adongCd" : "41800360"
+				,"adongNm" : "신서면"
+				,"ldongCd" : "4180036025"
+				,"ldongNm" : "신서면"
+				,"lnoCd" : "4180036025112090000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 1209
+				,"lnoSlno" : ""
+				,"lnoAdr" : "경기도 연천군 신서면 답곡리 1209"
+				,"rdnmCd" : "418003215050"
+				,"rdnm" : "경기도 연천군 신서면 합내로"
+				,"bldMnno" : 493
+				,"bldSlno" : 1
+				,"bldMngNo" : "4180036025112090000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "경기도 연천군 신서면 합내로 493-1"
+				,"oldZipcd" : "486830"
+				,"newZipcd" : "11009"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.065606207255
+				,"lat" : 38.1576151917693
+				}
+				,{
+				"bizesId" : "MA0101202406A0500726"
+				,"bizesNm" : "털보네촌닭"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "41"
+				,"ctprvnNm" : "경기도"
+				,"signguCd" : "41800"
+				,"signguNm" : "연천군"
+				,"adongCd" : "41800360"
+				,"adongNm" : "신서면"
+				,"ldongCd" : "4180036022"
+				,"ldongNm" : "신서면"
+				,"lnoCd" : "4180036022106200008"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 620
+				,"lnoSlno" : 8
+				,"lnoAdr" : "경기도 연천군 신서면 도신리 620-8"
+				,"rdnmCd" : "418004445310"
+				,"rdnm" : "경기도 연천군 신서면 장거리길"
+				,"bldMnno" : 204
+				,"bldSlno" : 18
+				,"bldMngNo" : "4180036022106200008010177"
+				,"bldNm" : ""
+				,"rdnmAdr" : "경기도 연천군 신서면 장거리길 204-18"
+				,"oldZipcd" : "486832"
+				,"newZipcd" : "11003"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.097150106264
+				,"lat" : 38.1631068716211
+				}
+				,{
+				"bizesId" : "MA010120220811043255"
+				,"bizesNm" : "원압산손두부"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "41"
+				,"ctprvnNm" : "경기도"
+				,"signguCd" : "41800"
+				,"signguNm" : "연천군"
+				,"adongCd" : "41800360"
+				,"adongNm" : "신서면"
+				,"ldongCd" : "4180036022"
+				,"ldongNm" : "신서면"
+				,"lnoCd" : "4180036022108390002"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 839
+				,"lnoSlno" : 2
+				,"lnoAdr" : "경기도 연천군 신서면 도신리 839-2"
+				,"rdnmCd" : "418004445232"
+				,"rdnm" : "경기도 연천군 신서면 연신로766번길"
+				,"bldMnno" : 9
+				,"bldSlno" : ""
+				,"bldMngNo" : "4180036022108390002023016"
+				,"bldNm" : ""
+				,"rdnmAdr" : "경기도 연천군 신서면 연신로766번길 9"
+				,"oldZipcd" : "486832"
+				,"newZipcd" : "11003"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.098401998002
+				,"lat" : 38.1521778523291
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 1,
+		"totalCount" : 5	}
+}

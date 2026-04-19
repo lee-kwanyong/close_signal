@@ -1,0 +1,385 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA010120220813596122"
+				,"bizesNm" : "다현수산"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G205"
+				,"indsMclsNm" : "식료품 소매"
+				,"indsSclsCd" : "G20504"
+				,"indsSclsNm" : "건어물/젓갈 소매업"
+				,"ksicCd" : "G47213"
+				,"ksicNm" : "건어물 및 젓갈류 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46910"
+				,"signguNm" : "신안군"
+				,"adongCd" : "46910360"
+				,"adongNm" : "흑산면"
+				,"ldongCd" : "4691036030"
+				,"ldongNm" : "흑산면"
+				,"lnoCd" : "4691036030202440007"
+				,"plotSctCd" : "2"
+				,"plotSctNm" : "산"
+				,"lnoMnno" : 244
+				,"lnoSlno" : 7
+				,"lnoAdr" : "전라남도 신안군 흑산면 태도리 산 244-7"
+				,"rdnmCd" : "469104857711"
+				,"rdnm" : "전라남도 신안군 흑산면 하태도길"
+				,"bldMnno" : 46
+				,"bldSlno" : 17
+				,"bldMngNo" : "4691036030202440007000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 신안군 흑산면 하태도길 46-17"
+				,"oldZipcd" : "535910"
+				,"newZipcd" : "58864"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 125.297780929938
+				,"lat" : 34.3906560365247
+				}
+				,{
+				"bizesId" : "MA010120220805107931"
+				,"bizesNm" : "흑산태도수산"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G205"
+				,"indsMclsNm" : "식료품 소매"
+				,"indsSclsCd" : "G20505"
+				,"indsSclsNm" : "수산물 소매업"
+				,"ksicCd" : "G47214"
+				,"ksicNm" : "신선, 냉동 및 기타 수산물 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46910"
+				,"signguNm" : "신안군"
+				,"adongCd" : "46910360"
+				,"adongNm" : "흑산면"
+				,"ldongCd" : "4691036030"
+				,"ldongNm" : "흑산면"
+				,"lnoCd" : "4691036030202440006"
+				,"plotSctCd" : "2"
+				,"plotSctNm" : "산"
+				,"lnoMnno" : 244
+				,"lnoSlno" : 6
+				,"lnoAdr" : "전라남도 신안군 흑산면 태도리 산 244-6"
+				,"rdnmCd" : "469104857711"
+				,"rdnm" : "전라남도 신안군 흑산면 하태도길"
+				,"bldMnno" : 46
+				,"bldSlno" : 11
+				,"bldMngNo" : "4691036030202440005000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 신안군 흑산면 하태도길 46-11"
+				,"oldZipcd" : "535910"
+				,"newZipcd" : "58864"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 125.297900129696
+				,"lat" : 34.3906757217381
+				}
+				,{
+				"bizesId" : "MA010120220808844063"
+				,"bizesNm" : "흑산태도"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G205"
+				,"indsMclsNm" : "식료품 소매"
+				,"indsSclsCd" : "G20505"
+				,"indsSclsNm" : "수산물 소매업"
+				,"ksicCd" : "G47214"
+				,"ksicNm" : "신선, 냉동 및 기타 수산물 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46910"
+				,"signguNm" : "신안군"
+				,"adongCd" : "46910360"
+				,"adongNm" : "흑산면"
+				,"ldongCd" : "4691036030"
+				,"ldongNm" : "흑산면"
+				,"lnoCd" : "4691036030202440006"
+				,"plotSctCd" : "2"
+				,"plotSctNm" : "산"
+				,"lnoMnno" : 244
+				,"lnoSlno" : 6
+				,"lnoAdr" : "전라남도 신안군 흑산면 태도리 산 244-6"
+				,"rdnmCd" : "469104857711"
+				,"rdnm" : "전라남도 신안군 흑산면 하태도길"
+				,"bldMnno" : 46
+				,"bldSlno" : 11
+				,"bldMngNo" : "4691036030202440005000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 신안군 흑산면 하태도길 46-11"
+				,"oldZipcd" : "535910"
+				,"newZipcd" : "58864"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 125.297900129696
+				,"lat" : 34.3906757217381
+				}
+				,{
+				"bizesId" : "MA0101202409A0077360"
+				,"bizesNm" : "태도슈퍼"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G204"
+				,"indsMclsNm" : "종합 소매"
+				,"indsSclsCd" : "G20404"
+				,"indsSclsNm" : "슈퍼마켓"
+				,"ksicCd" : "G47129"
+				,"ksicNm" : "기타 음ㆍ식료품 위주 종합 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46910"
+				,"signguNm" : "신안군"
+				,"adongCd" : "46910360"
+				,"adongNm" : "흑산면"
+				,"ldongCd" : "4691036030"
+				,"ldongNm" : "흑산면"
+				,"lnoCd" : "4691036030202840006"
+				,"plotSctCd" : "2"
+				,"plotSctNm" : "산"
+				,"lnoMnno" : 284
+				,"lnoSlno" : 6
+				,"lnoAdr" : "전라남도 신안군 흑산면 태도리 산 284-6"
+				,"rdnmCd" : "469104857711"
+				,"rdnm" : "전라남도 신안군 흑산면 하태도길"
+				,"bldMnno" : 51
+				,"bldSlno" : ""
+				,"bldMngNo" : "4691036030202840008000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 신안군 흑산면 하태도길 51"
+				,"oldZipcd" : "535910"
+				,"newZipcd" : "58864"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 125.298675694989
+				,"lat" : 34.3904972316993
+				}
+				,{
+				"bizesId" : "MA010120220814046914"
+				,"bizesNm" : "태도슈퍼"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G204"
+				,"indsMclsNm" : "종합 소매"
+				,"indsSclsCd" : "G20404"
+				,"indsSclsNm" : "슈퍼마켓"
+				,"ksicCd" : "G47129"
+				,"ksicNm" : "기타 음ㆍ식료품 위주 종합 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46910"
+				,"signguNm" : "신안군"
+				,"adongCd" : "46910360"
+				,"adongNm" : "흑산면"
+				,"ldongCd" : "4691036030"
+				,"ldongNm" : "흑산면"
+				,"lnoCd" : "4691036030203010000"
+				,"plotSctCd" : "2"
+				,"plotSctNm" : "산"
+				,"lnoMnno" : 301
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 신안군 흑산면 태도리 산 301"
+				,"rdnmCd" : "469104857711"
+				,"rdnm" : "전라남도 신안군 흑산면 하태도길"
+				,"bldMnno" : 9
+				,"bldSlno" : 6
+				,"bldMngNo" : "4691036030203010000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 신안군 흑산면 하태도길 9-6"
+				,"oldZipcd" : "535910"
+				,"newZipcd" : "58864"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 125.298793188775
+				,"lat" : 34.3938247681768
+				}
+				,{
+				"bizesId" : "MA0101202212A0001815"
+				,"bizesNm" : "하나호"
+				,"brchNm" : ""
+				,"indsLclsCd" : "R1"
+				,"indsLclsNm" : "예술·스포츠"
+				,"indsMclsCd" : "R104"
+				,"indsMclsNm" : "유원지·오락"
+				,"indsSclsCd" : "R10409"
+				,"indsSclsNm" : "수상/해양 레저업"
+				,"ksicCd" : "R91239"
+				,"ksicNm" : "기타 수상오락 서비스업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46910"
+				,"signguNm" : "신안군"
+				,"adongCd" : "46910360"
+				,"adongNm" : "흑산면"
+				,"ldongCd" : "4691036030"
+				,"ldongNm" : "흑산면"
+				,"lnoCd" : "4691036030203070000"
+				,"plotSctCd" : "2"
+				,"plotSctNm" : "산"
+				,"lnoMnno" : 307
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 신안군 흑산면 태도리 산 307"
+				,"rdnmCd" : "469104857711"
+				,"rdnm" : "전라남도 신안군 흑산면 하태도길"
+				,"bldMnno" : 1
+				,"bldSlno" : ""
+				,"bldMngNo" : "4691036030203070001000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 신안군 흑산면 하태도길 1"
+				,"oldZipcd" : "535910"
+				,"newZipcd" : "58864"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 125.299010445728
+				,"lat" : 34.3949093834834
+				}
+				,{
+				"bizesId" : "MA0101202505A0070213"
+				,"bizesNm" : "섬나라수산"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G205"
+				,"indsMclsNm" : "식료품 소매"
+				,"indsSclsCd" : "G20505"
+				,"indsSclsNm" : "수산물 소매업"
+				,"ksicCd" : "G47214"
+				,"ksicNm" : "신선, 냉동 및 기타 수산물 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46910"
+				,"signguNm" : "신안군"
+				,"adongCd" : "46910360"
+				,"adongNm" : "흑산면"
+				,"ldongCd" : "4691036030"
+				,"ldongNm" : "흑산면"
+				,"lnoCd" : "4691036030203060003"
+				,"plotSctCd" : "2"
+				,"plotSctNm" : "산"
+				,"lnoMnno" : 306
+				,"lnoSlno" : 3
+				,"lnoAdr" : "전라남도 신안군 흑산면 태도리 산 306-3"
+				,"rdnmCd" : "469104857711"
+				,"rdnm" : "전라남도 신안군 흑산면 하태도길"
+				,"bldMnno" : 17
+				,"bldSlno" : 2
+				,"bldMngNo" : "4691036030202970000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 신안군 흑산면 하태도길 17-2"
+				,"oldZipcd" : "535910"
+				,"newZipcd" : "58864"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 125.299077630274
+				,"lat" : 34.3937385909044
+				}
+				,{
+				"bizesId" : "MA0101202502A0051263"
+				,"bizesNm" : "고성피싱"
+				,"brchNm" : ""
+				,"indsLclsCd" : "R1"
+				,"indsLclsNm" : "예술·스포츠"
+				,"indsMclsCd" : "R104"
+				,"indsMclsNm" : "유원지·오락"
+				,"indsSclsCd" : "R10409"
+				,"indsSclsNm" : "수상/해양 레저업"
+				,"ksicCd" : "R91239"
+				,"ksicNm" : "기타 수상오락 서비스업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46910"
+				,"signguNm" : "신안군"
+				,"adongCd" : "46910360"
+				,"adongNm" : "흑산면"
+				,"ldongCd" : "4691036030"
+				,"ldongNm" : "흑산면"
+				,"lnoCd" : "4691036030203060000"
+				,"plotSctCd" : "2"
+				,"plotSctNm" : "산"
+				,"lnoMnno" : 306
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 신안군 흑산면 태도리 산 306"
+				,"rdnmCd" : "469104857711"
+				,"rdnm" : "전라남도 신안군 흑산면 하태도길"
+				,"bldMnno" : 3
+				,"bldSlno" : ""
+				,"bldMngNo" : "4691036030203060000000002"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 신안군 흑산면 하태도길 3"
+				,"oldZipcd" : "535910"
+				,"newZipcd" : "58864"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 125.299120675283
+				,"lat" : 34.3942980130441
+				}
+				,{
+				"bizesId" : "MA010120220806870084"
+				,"bizesNm" : "산호"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55104"
+				,"ksicNm" : "민박업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46910"
+				,"signguNm" : "신안군"
+				,"adongCd" : "46910360"
+				,"adongNm" : "흑산면"
+				,"ldongCd" : "4691036030"
+				,"ldongNm" : "흑산면"
+				,"lnoCd" : "4691036030203030001"
+				,"plotSctCd" : "2"
+				,"plotSctNm" : "산"
+				,"lnoMnno" : 303
+				,"lnoSlno" : 1
+				,"lnoAdr" : "전라남도 신안군 흑산면 태도리 산 303-1"
+				,"rdnmCd" : "469104857711"
+				,"rdnm" : "전라남도 신안군 흑산면 하태도길"
+				,"bldMnno" : 5
+				,"bldSlno" : 5
+				,"bldMngNo" : "4691036030203030001000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 신안군 흑산면 하태도길 5-5"
+				,"oldZipcd" : "535910"
+				,"newZipcd" : "58864"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 125.299224886491
+				,"lat" : 34.3939839971243
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 1,
+		"totalCount" : 9	}
+}

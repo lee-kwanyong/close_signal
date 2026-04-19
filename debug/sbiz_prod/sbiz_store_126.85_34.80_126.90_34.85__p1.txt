@@ -1,0 +1,467 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA010120220812128810"
+				,"bizesNm" : "소잉시스터즈"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G218"
+				,"indsMclsNm" : "장식품 소매"
+				,"indsSclsCd" : "G21801"
+				,"indsSclsNm" : "예술품 소매업"
+				,"ksicCd" : "G47841"
+				,"ksicNm" : "예술품 및 골동품 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46800"
+				,"signguNm" : "장흥군"
+				,"adongCd" : "46800350"
+				,"adongNm" : "유치면"
+				,"ldongCd" : "4680035034"
+				,"ldongNm" : "유치면"
+				,"lnoCd" : "4680035034105550002"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 555
+				,"lnoSlno" : 2
+				,"lnoAdr" : "전라남도 장흥군 유치면 운월리 555-2"
+				,"rdnmCd" : "468003292022"
+				,"rdnm" : "전라남도 장흥군 유치면 신풍신덕로"
+				,"bldMnno" : 505
+				,"bldSlno" : ""
+				,"bldMngNo" : "4680035034105550002021915"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 장흥군 유치면 신풍신덕로 505"
+				,"oldZipcd" : "529823"
+				,"newZipcd" : "59300"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.851857230153
+				,"lat" : 34.8397509213985
+				}
+				,{
+				"bizesId" : "MA0101202211A0041163"
+				,"bizesNm" : "해피먹거리"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G204"
+				,"indsMclsNm" : "종합 소매"
+				,"indsSclsCd" : "G20404"
+				,"indsSclsNm" : "슈퍼마켓"
+				,"ksicCd" : "G47129"
+				,"ksicNm" : "기타 음ㆍ식료품 위주 종합 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46800"
+				,"signguNm" : "장흥군"
+				,"adongCd" : "46800350"
+				,"adongNm" : "유치면"
+				,"ldongCd" : "4680035034"
+				,"ldongNm" : "유치면"
+				,"lnoCd" : "4680035034105790003"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 579
+				,"lnoSlno" : 3
+				,"lnoAdr" : "전라남도 장흥군 유치면 운월리 579-3"
+				,"rdnmCd" : "468004676177"
+				,"rdnm" : "전라남도 장흥군 유치면 봉덕신덕길"
+				,"bldMnno" : 512
+				,"bldSlno" : 31
+				,"bldMngNo" : "4680035034104690000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 장흥군 유치면 봉덕신덕길 512-31"
+				,"oldZipcd" : "529823"
+				,"newZipcd" : "59300"
+				,"dongNo" : ""
+				,"flrNo" : "2"
+				,"hoNo" : ""
+				,"lon" : 126.858822884607
+				,"lat" : 34.8389839955183
+				}
+				,{
+				"bizesId" : "MA010120220803360876"
+				,"bizesNm" : "남도좋은식품"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G205"
+				,"indsMclsNm" : "식료품 소매"
+				,"indsSclsCd" : "G20506"
+				,"indsSclsNm" : "채소/과일 소매업"
+				,"ksicCd" : "G47215"
+				,"ksicNm" : "채소, 과실 및 뿌리작물 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46800"
+				,"signguNm" : "장흥군"
+				,"adongCd" : "46800350"
+				,"adongNm" : "유치면"
+				,"ldongCd" : "4680035034"
+				,"ldongNm" : "유치면"
+				,"lnoCd" : "4680035034105790020"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 579
+				,"lnoSlno" : 20
+				,"lnoAdr" : "전라남도 장흥군 유치면 운월리 579-20"
+				,"rdnmCd" : "468004676177"
+				,"rdnm" : "전라남도 장흥군 유치면 봉덕신덕길"
+				,"bldMnno" : 512
+				,"bldSlno" : 31
+				,"bldMngNo" : "4680035034104690000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 장흥군 유치면 봉덕신덕길 512-31"
+				,"oldZipcd" : "529823"
+				,"newZipcd" : "59300"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.858822884607
+				,"lat" : 34.8389839955183
+				}
+				,{
+				"bizesId" : "MA010120220800997970"
+				,"bizesNm" : "하늘공원"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I102"
+				,"indsMclsNm" : "기타 숙박"
+				,"indsSclsCd" : "I10299"
+				,"indsSclsNm" : "그 외 기타 숙박업"
+				,"ksicCd" : "I55909"
+				,"ksicNm" : "그 외 기타 숙박업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46800"
+				,"signguNm" : "장흥군"
+				,"adongCd" : "46800350"
+				,"adongNm" : "유치면"
+				,"ldongCd" : "4680035034"
+				,"ldongNm" : "유치면"
+				,"lnoCd" : "4680035034104680036"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 468
+				,"lnoSlno" : 36
+				,"lnoAdr" : "전라남도 장흥군 유치면 운월리 468-36"
+				,"rdnmCd" : "468004676177"
+				,"rdnm" : "전라남도 장흥군 유치면 봉덕신덕길"
+				,"bldMnno" : 474
+				,"bldSlno" : 195
+				,"bldMngNo" : "4680035034104680036000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 장흥군 유치면 봉덕신덕길 474-195"
+				,"oldZipcd" : "529823"
+				,"newZipcd" : "59300"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.862260684922
+				,"lat" : 34.8360673790093
+				}
+				,{
+				"bizesId" : "MA0101202307A0025488"
+				,"bizesNm" : "달빛상점"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G204"
+				,"indsMclsNm" : "종합 소매"
+				,"indsSclsCd" : "G20404"
+				,"indsSclsNm" : "슈퍼마켓"
+				,"ksicCd" : "G47121"
+				,"ksicNm" : "슈퍼마켓"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46800"
+				,"signguNm" : "장흥군"
+				,"adongCd" : "46800350"
+				,"adongNm" : "유치면"
+				,"ldongCd" : "4680035032"
+				,"ldongNm" : "유치면"
+				,"lnoCd" : "4680035032104970001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 497
+				,"lnoSlno" : 1
+				,"lnoAdr" : "전라남도 장흥군 유치면 봉덕리 497-1"
+				,"rdnmCd" : "468004676177"
+				,"rdnm" : "전라남도 장흥군 유치면 봉덕신덕길"
+				,"bldMnno" : 371
+				,"bldSlno" : ""
+				,"bldMngNo" : "4680035032104970001000001"
+				,"bldNm" : "달빛계곡캠핑장"
+				,"rdnmAdr" : "전라남도 장흥군 유치면 봉덕신덕길 371"
+				,"oldZipcd" : "529823"
+				,"newZipcd" : "59300"
+				,"dongNo" : ""
+				,"flrNo" : "1"
+				,"hoNo" : ""
+				,"lon" : 126.866730889801
+				,"lat" : 34.8300329285606
+				}
+				,{
+				"bizesId" : "MA0101202210A0022467"
+				,"bizesNm" : "달빛계곡캠핑장"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10104"
+				,"indsSclsNm" : "캠핑/글램핑"
+				,"ksicCd" : "I55109"
+				,"ksicNm" : "기타 일반 및 생활 숙박시설 운영업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46800"
+				,"signguNm" : "장흥군"
+				,"adongCd" : "46800350"
+				,"adongNm" : "유치면"
+				,"ldongCd" : "4680035032"
+				,"ldongNm" : "유치면"
+				,"lnoCd" : "4680035032104970001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 497
+				,"lnoSlno" : 1
+				,"lnoAdr" : "전라남도 장흥군 유치면 봉덕리 497-1"
+				,"rdnmCd" : "468004676177"
+				,"rdnm" : "전라남도 장흥군 유치면 봉덕신덕길"
+				,"bldMnno" : 371
+				,"bldSlno" : ""
+				,"bldMngNo" : "4680035032104970001000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 장흥군 유치면 봉덕신덕길 371"
+				,"oldZipcd" : "529823"
+				,"newZipcd" : "59300"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.866730889801
+				,"lat" : 34.8300329285606
+				}
+				,{
+				"bizesId" : "MA0101202505A0081194"
+				,"bizesNm" : "가마솥죽순이네"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G205"
+				,"indsMclsNm" : "식료품 소매"
+				,"indsSclsCd" : "G20506"
+				,"indsSclsNm" : "채소/과일 소매업"
+				,"ksicCd" : "G47215"
+				,"ksicNm" : "채소, 과실 및 뿌리작물 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46800"
+				,"signguNm" : "장흥군"
+				,"adongCd" : "46800350"
+				,"adongNm" : "유치면"
+				,"ldongCd" : "4680035032"
+				,"ldongNm" : "유치면"
+				,"lnoCd" : "4680035032103180000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 318
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 장흥군 유치면 봉덕리 318"
+				,"rdnmCd" : "468004676177"
+				,"rdnm" : "전라남도 장흥군 유치면 봉덕신덕길"
+				,"bldMnno" : 252
+				,"bldSlno" : 123
+				,"bldMngNo" : "4680035032103180000022001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 장흥군 유치면 봉덕신덕길 252-123"
+				,"oldZipcd" : "529823"
+				,"newZipcd" : "59300"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.875382647488
+				,"lat" : 34.8268871695709
+				}
+				,{
+				"bizesId" : "MA010120220808171156"
+				,"bizesNm" : "문화수퍼"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G204"
+				,"indsMclsNm" : "종합 소매"
+				,"indsSclsCd" : "G20404"
+				,"indsSclsNm" : "슈퍼마켓"
+				,"ksicCd" : "G47129"
+				,"ksicNm" : "기타 음ㆍ식료품 위주 종합 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46800"
+				,"signguNm" : "장흥군"
+				,"adongCd" : "46800350"
+				,"adongNm" : "유치면"
+				,"ldongCd" : "4680035033"
+				,"ldongNm" : "유치면"
+				,"lnoCd" : "4680035033105500005"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 550
+				,"lnoSlno" : 5
+				,"lnoAdr" : "전라남도 장흥군 유치면 대천리 550-5"
+				,"rdnmCd" : "468004676290"
+				,"rdnm" : "전라남도 장흥군 유치면 암천길"
+				,"bldMnno" : 20
+				,"bldSlno" : ""
+				,"bldMngNo" : "4680035033105500005022017"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 장흥군 유치면 암천길 20"
+				,"oldZipcd" : "529823"
+				,"newZipcd" : "59300"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.876278672155
+				,"lat" : 34.8417342632287
+				}
+				,{
+				"bizesId" : "MA010120220805512550"
+				,"bizesNm" : "솔향기"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55104"
+				,"ksicNm" : "민박업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46800"
+				,"signguNm" : "장흥군"
+				,"adongCd" : "46800350"
+				,"adongNm" : "유치면"
+				,"ldongCd" : "4680035033"
+				,"ldongNm" : "유치면"
+				,"lnoCd" : "4680035033105500016"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 550
+				,"lnoSlno" : 16
+				,"lnoAdr" : "전라남도 장흥군 유치면 대천리 550-16"
+				,"rdnmCd" : "468004676290"
+				,"rdnm" : "전라남도 장흥군 유치면 암천길"
+				,"bldMnno" : 19
+				,"bldSlno" : ""
+				,"bldMngNo" : "4680035033105500016022019"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 장흥군 유치면 암천길 19"
+				,"oldZipcd" : "529823"
+				,"newZipcd" : "59300"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.876595925818
+				,"lat" : 34.8416083886168
+				}
+				,{
+				"bizesId" : "MA010120220812551885"
+				,"bizesNm" : "안전가스"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G214"
+				,"indsMclsNm" : "연료 소매"
+				,"indsSclsCd" : "G21403"
+				,"indsSclsNm" : "가정용 연료 소매업"
+				,"ksicCd" : "G47723"
+				,"ksicNm" : "가정용 가스 연료 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46800"
+				,"signguNm" : "장흥군"
+				,"adongCd" : "46800350"
+				,"adongNm" : "유치면"
+				,"ldongCd" : "4680035033"
+				,"ldongNm" : "유치면"
+				,"lnoCd" : "4680035033106230000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 623
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 장흥군 유치면 대천리 623"
+				,"rdnmCd" : "468004676105"
+				,"rdnm" : "전라남도 장흥군 유치면 대천죽동길"
+				,"bldMnno" : 18
+				,"bldSlno" : 2
+				,"bldMngNo" : "4680035033106230000022045"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 장흥군 유치면 대천죽동길 18-2"
+				,"oldZipcd" : "529823"
+				,"newZipcd" : "59300"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.880098774053
+				,"lat" : 34.8311735976516
+				}
+				,{
+				"bizesId" : "MA010120220807813357"
+				,"bizesNm" : "보림산장"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46800"
+				,"signguNm" : "장흥군"
+				,"adongCd" : "46800350"
+				,"adongNm" : "유치면"
+				,"ldongCd" : "4680035032"
+				,"ldongNm" : "유치면"
+				,"lnoCd" : "4680035032101650001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 165
+				,"lnoSlno" : 1
+				,"lnoAdr" : "전라남도 장흥군 유치면 봉덕리 165-1"
+				,"rdnmCd" : "468003292013"
+				,"rdnm" : "전라남도 장흥군 유치면 보림사로"
+				,"bldMnno" : 384
+				,"bldSlno" : ""
+				,"bldMngNo" : "4680035032101650001022112"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 장흥군 유치면 보림사로 384"
+				,"oldZipcd" : "529823"
+				,"newZipcd" : "59300"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.891268333286
+				,"lat" : 34.8167074636606
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 1,
+		"totalCount" : 11	}
+}

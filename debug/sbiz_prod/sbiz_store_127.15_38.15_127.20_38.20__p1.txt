@@ -1,0 +1,262 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA010120220802285462"
+				,"bizesNm" : "연천산약초체험관"
+				,"brchNm" : ""
+				,"indsLclsCd" : "R1"
+				,"indsLclsNm" : "예술·스포츠"
+				,"indsMclsCd" : "R104"
+				,"indsMclsNm" : "유원지·오락"
+				,"indsSclsCd" : "R10499"
+				,"indsSclsNm" : "기타 오락관련 서비스업"
+				,"ksicCd" : "R91299"
+				,"ksicNm" : "그 외 기타 분류 안된 오락관련 서비스업"
+				,"ctprvnCd" : "41"
+				,"ctprvnNm" : "경기도"
+				,"signguCd" : "41800"
+				,"signguNm" : "연천군"
+				,"adongCd" : "41800360"
+				,"adongNm" : "신서면"
+				,"ldongCd" : "4180036023"
+				,"ldongNm" : "신서면"
+				,"lnoCd" : "4180036023100470000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 47
+				,"lnoSlno" : ""
+				,"lnoAdr" : "경기도 연천군 신서면 내산리 47"
+				,"rdnmCd" : "418004445080"
+				,"rdnm" : "경기도 연천군 신서면 동내로1346번길"
+				,"bldMnno" : 328
+				,"bldSlno" : 77
+				,"bldMngNo" : "4180036023100470000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "경기도 연천군 신서면 동내로1346번길 328-77"
+				,"oldZipcd" : "486831"
+				,"newZipcd" : "11002"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.160833103389
+				,"lat" : 38.1632441352318
+				}
+				,{
+				"bizesId" : "MA010120220806566543"
+				,"bizesNm" : "담터오지캠핑장"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10104"
+				,"indsSclsNm" : "캠핑/글램핑"
+				,"ksicCd" : "I55109"
+				,"ksicNm" : "기타 일반 및 생활 숙박시설 운영업"
+				,"ctprvnCd" : "41"
+				,"ctprvnNm" : "경기도"
+				,"signguCd" : "41650"
+				,"signguNm" : "포천시"
+				,"adongCd" : "41650400"
+				,"adongNm" : "관인면"
+				,"ldongCd" : "4165040022"
+				,"ldongNm" : "관인면"
+				,"lnoCd" : "4165040022100400001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 40
+				,"lnoSlno" : 1
+				,"lnoAdr" : "경기도 포천시 관인면 삼율리 40-1"
+				,"rdnmCd" : "416504490081"
+				,"rdnm" : "경기도 포천시 관인면 담터길"
+				,"bldMnno" : 409
+				,"bldSlno" : ""
+				,"bldMngNo" : ""
+				,"bldNm" : ""
+				,"rdnmAdr" : "경기도 포천시 관인면 담터길 409"
+				,"oldZipcd" : "487933"
+				,"newZipcd" : "11100"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.187782257842
+				,"lat" : 38.1666095513507
+				}
+				,{
+				"bizesId" : "MA010120220808629612"
+				,"bizesNm" : "담터금학캠핑장"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10104"
+				,"indsSclsNm" : "캠핑/글램핑"
+				,"ksicCd" : "I55109"
+				,"ksicNm" : "기타 일반 및 생활 숙박시설 운영업"
+				,"ctprvnCd" : "41"
+				,"ctprvnNm" : "경기도"
+				,"signguCd" : "41650"
+				,"signguNm" : "포천시"
+				,"adongCd" : "41650400"
+				,"adongNm" : "관인면"
+				,"ldongCd" : "4165040022"
+				,"ldongNm" : "관인면"
+				,"lnoCd" : "4165040022100480000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 48
+				,"lnoSlno" : ""
+				,"lnoAdr" : "경기도 포천시 관인면 삼율리 48"
+				,"rdnmCd" : "416504490081"
+				,"rdnm" : "경기도 포천시 관인면 담터길"
+				,"bldMnno" : 339
+				,"bldSlno" : ""
+				,"bldMngNo" : "4165040022100480000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "경기도 포천시 관인면 담터길 339"
+				,"oldZipcd" : "487933"
+				,"newZipcd" : "11100"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.189422206844
+				,"lat" : 38.1609402368938
+				}
+				,{
+				"bizesId" : "MA0106202507A0763068"
+				,"bizesNm" : "담터 휴 캠핑장"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10104"
+				,"indsSclsNm" : "캠핑/글램핑"
+				,"ksicCd" : "G47631"
+				,"ksicNm" : "운동 및 경기용품 소매업"
+				,"ctprvnCd" : "51"
+				,"ctprvnNm" : "강원특별자치도"
+				,"signguCd" : "51780"
+				,"signguNm" : "철원군"
+				,"adongCd" : "51780259"
+				,"adongNm" : "동송읍"
+				,"ldongCd" : "5178025925"
+				,"ldongNm" : "동송읍"
+				,"lnoCd" : "5178025925108590004"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 859
+				,"lnoSlno" : 4
+				,"lnoAdr" : "강원특별자치도 철원군 동송읍 상노리 859-4"
+				,"rdnmCd" : "517804490081"
+				,"rdnm" : "강원특별자치도 철원군 동송읍 담터길"
+				,"bldMnno" : 372
+				,"bldSlno" : ""
+				,"bldMngNo" : "5178025925108590004000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "강원특별자치도 철원군 동송읍 담터길 372"
+				,"oldZipcd" : "269812"
+				,"newZipcd" : "24026"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.189475635065
+				,"lat" : 38.1639491679091
+				}
+				,{
+				"bizesId" : "MA0101202504A0044783"
+				,"bizesNm" : "민수캠핑"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G204"
+				,"indsMclsNm" : "종합 소매"
+				,"indsSclsCd" : "G20404"
+				,"indsSclsNm" : "슈퍼마켓"
+				,"ksicCd" : "G47129"
+				,"ksicNm" : "기타 음ㆍ식료품 위주 종합 소매업"
+				,"ctprvnCd" : "41"
+				,"ctprvnNm" : "경기도"
+				,"signguCd" : "41650"
+				,"signguNm" : "포천시"
+				,"adongCd" : "41650400"
+				,"adongNm" : "관인면"
+				,"ldongCd" : "4165040022"
+				,"ldongNm" : "관인면"
+				,"lnoCd" : "4165040022105100000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 510
+				,"lnoSlno" : ""
+				,"lnoAdr" : "경기도 포천시 관인면 삼율리 510"
+				,"rdnmCd" : "416504490081"
+				,"rdnm" : "경기도 포천시 관인면 담터길"
+				,"bldMnno" : 269
+				,"bldSlno" : ""
+				,"bldMngNo" : "4165040022202850000000002"
+				,"bldNm" : ""
+				,"rdnmAdr" : "경기도 포천시 관인면 담터길 269"
+				,"oldZipcd" : "487933"
+				,"newZipcd" : "11100"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.194592107442
+				,"lat" : 38.1570398803916
+				}
+				,{
+				"bizesId" : "MA010120220801675501"
+				,"bizesNm" : "대청마루물소리"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10104"
+				,"indsSclsNm" : "캠핑/글램핑"
+				,"ksicCd" : "I55109"
+				,"ksicNm" : "기타 일반 및 생활 숙박시설 운영업"
+				,"ctprvnCd" : "41"
+				,"ctprvnNm" : "경기도"
+				,"signguCd" : "41650"
+				,"signguNm" : "포천시"
+				,"adongCd" : "41650400"
+				,"adongNm" : "관인면"
+				,"ldongCd" : "4165040022"
+				,"ldongNm" : "관인면"
+				,"lnoCd" : "4165040022100100000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 10
+				,"lnoSlno" : ""
+				,"lnoAdr" : "경기도 포천시 관인면 삼율리 10"
+				,"rdnmCd" : "416504490081"
+				,"rdnm" : "경기도 포천시 관인면 담터길"
+				,"bldMnno" : 239
+				,"bldSlno" : ""
+				,"bldMngNo" : "4165040022100100000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "경기도 포천시 관인면 담터길 239"
+				,"oldZipcd" : "487933"
+				,"newZipcd" : "11100"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.198296720384
+				,"lat" : 38.1557363821433
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 1,
+		"totalCount" : 6	}
+}

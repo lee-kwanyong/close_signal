@@ -1,0 +1,221 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA010120220801631145"
+				,"bizesNm" : "시종면영농형태양광주민참여형협동조합"
+				,"brchNm" : ""
+				,"indsLclsCd" : "M1"
+				,"indsLclsNm" : "과학·기술"
+				,"indsMclsCd" : "M109"
+				,"indsMclsNm" : "기술 서비스"
+				,"indsSclsCd" : "M10999"
+				,"indsSclsNm" : "기타 엔지니어링 서비스업"
+				,"ksicCd" : "M72129"
+				,"ksicNm" : "기타 엔지니어링 서비스업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46830"
+				,"signguNm" : "영암군"
+				,"adongCd" : "46830340"
+				,"adongNm" : "시종면"
+				,"ldongCd" : "4683034022"
+				,"ldongNm" : "시종면"
+				,"lnoCd" : "4683034022111560000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 1156
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 영암군 시종면 구산리 1156"
+				,"rdnmCd" : "468303295006"
+				,"rdnm" : "전라남도 영암군 시종면 구산로"
+				,"bldMnno" : 78
+				,"bldSlno" : 4
+				,"bldMngNo" : "4683034022111560000036034"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 영암군 시종면 구산로 78-4"
+				,"oldZipcd" : "526843"
+				,"newZipcd" : "58427"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.572974795743
+				,"lat" : 34.859481202747
+				}
+				,{
+				"bizesId" : "MA010120220805863883"
+				,"bizesNm" : "효동농촌체험휴양마을"
+				,"brchNm" : ""
+				,"indsLclsCd" : "R1"
+				,"indsLclsNm" : "예술·스포츠"
+				,"indsMclsCd" : "R104"
+				,"indsMclsNm" : "유원지·오락"
+				,"indsSclsCd" : "R10499"
+				,"indsSclsNm" : "기타 오락관련 서비스업"
+				,"ksicCd" : "R91299"
+				,"ksicNm" : "그 외 기타 분류 안된 오락관련 서비스업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46830"
+				,"signguNm" : "영암군"
+				,"adongCd" : "46830340"
+				,"adongNm" : "시종면"
+				,"ldongCd" : "4683034034"
+				,"ldongNm" : "시종면"
+				,"lnoCd" : "4683034034110050000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 1005
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 영암군 시종면 옥야리 1005"
+				,"rdnmCd" : "468303295017"
+				,"rdnm" : "전라남도 영암군 시종면 남해당로"
+				,"bldMnno" : 65
+				,"bldSlno" : ""
+				,"bldMngNo" : "4683034034105350002000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 영암군 시종면 남해당로 65"
+				,"oldZipcd" : "526841"
+				,"newZipcd" : "58426"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.585917415428
+				,"lat" : 34.8953924068221
+				}
+				,{
+				"bizesId" : "MA010120220813128986"
+				,"bizesNm" : "인디커뮤니케이션"
+				,"brchNm" : "영암지점"
+				,"indsLclsCd" : "M1"
+				,"indsLclsNm" : "과학·기술"
+				,"indsMclsCd" : "M105"
+				,"indsMclsNm" : "광고"
+				,"indsSclsCd" : "M10504"
+				,"indsSclsNm" : "광고물 설계/제작업"
+				,"ksicCd" : "M71393"
+				,"ksicNm" : "광고물 문안, 도안, 설계 등 작성업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46830"
+				,"signguNm" : "영암군"
+				,"adongCd" : "46830340"
+				,"adongNm" : "시종면"
+				,"ldongCd" : "4683034034"
+				,"ldongNm" : "시종면"
+				,"lnoCd" : "4683034034107590000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 759
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 영암군 시종면 옥야리 759"
+				,"rdnmCd" : "468304685479"
+				,"rdnm" : "전라남도 영암군 시종면 효자길"
+				,"bldMnno" : 84
+				,"bldSlno" : 5
+				,"bldMngNo" : "4683034034107600001037394"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 영암군 시종면 효자길 84-5"
+				,"oldZipcd" : "526841"
+				,"newZipcd" : "58426"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.588282091344
+				,"lat" : 34.8928855579933
+				}
+				,{
+				"bizesId" : "MA0101202411A0187728"
+				,"bizesNm" : "주민참여내동배수로태양광발전소"
+				,"brchNm" : ""
+				,"indsLclsCd" : "M1"
+				,"indsLclsNm" : "과학·기술"
+				,"indsMclsCd" : "M107"
+				,"indsMclsNm" : "본사·경영 컨설팅"
+				,"indsSclsCd" : "M10703"
+				,"indsSclsNm" : "경영 컨설팅업"
+				,"ksicCd" : "M71531"
+				,"ksicNm" : "경영 컨설팅업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46830"
+				,"signguNm" : "영암군"
+				,"adongCd" : "46830340"
+				,"adongNm" : "시종면"
+				,"ldongCd" : "4683034022"
+				,"ldongNm" : "시종면"
+				,"lnoCd" : "4683034022103290003"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 329
+				,"lnoSlno" : 3
+				,"lnoAdr" : "전라남도 영암군 시종면 구산리 329-3"
+				,"rdnmCd" : "468304685445"
+				,"rdnm" : "전라남도 영암군 시종면 태정길"
+				,"bldMnno" : 34
+				,"bldSlno" : ""
+				,"bldMngNo" : "4683034022103290003035911"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 영암군 시종면 태정길 34"
+				,"oldZipcd" : "526843"
+				,"newZipcd" : "58427"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.591032590503
+				,"lat" : 34.8676738594873
+				}
+				,{
+				"bizesId" : "MA010120220812465661"
+				,"bizesNm" : "금강기획"
+				,"brchNm" : ""
+				,"indsLclsCd" : "M1"
+				,"indsLclsNm" : "과학·기술"
+				,"indsMclsCd" : "M105"
+				,"indsMclsNm" : "광고"
+				,"indsSclsCd" : "M10504"
+				,"indsSclsNm" : "광고물 설계/제작업"
+				,"ksicCd" : "M71393"
+				,"ksicNm" : "광고물 문안, 도안, 설계 등 작성업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46830"
+				,"signguNm" : "영암군"
+				,"adongCd" : "46830340"
+				,"adongNm" : "시종면"
+				,"ldongCd" : "4683034021"
+				,"ldongNm" : "시종면"
+				,"lnoCd" : "4683034021103320001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 332
+				,"lnoSlno" : 1
+				,"lnoAdr" : "전라남도 영암군 시종면 와우리 332-1"
+				,"rdnmCd" : "468304685353"
+				,"rdnm" : "전라남도 영암군 시종면 와우정길"
+				,"bldMnno" : 80
+				,"bldSlno" : 1
+				,"bldMngNo" : "4683034021103320001036859"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 영암군 시종면 와우정길 80-1"
+				,"oldZipcd" : "526841"
+				,"newZipcd" : "58427"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.594500185744
+				,"lat" : 34.8786734706628
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 1,
+		"totalCount" : 5	}
+}

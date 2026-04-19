@@ -1,0 +1,549 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA0101202503A0042690"
+				,"bizesNm" : "황금공인중개사사무소"
+				,"brchNm" : ""
+				,"indsLclsCd" : "L1"
+				,"indsLclsNm" : "부동산"
+				,"indsMclsCd" : "L102"
+				,"indsMclsNm" : "부동산 서비스"
+				,"indsSclsCd" : "L10203"
+				,"indsSclsNm" : "부동산 중개/대리업"
+				,"ksicCd" : "L68221"
+				,"ksicNm" : "부동산 중개 및 대리업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46870"
+				,"signguNm" : "영광군"
+				,"adongCd" : "46870360"
+				,"adongNm" : "염산면"
+				,"ldongCd" : "4687036023"
+				,"ldongNm" : "염산면"
+				,"lnoCd" : "4687036023107190008"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 719
+				,"lnoSlno" : 8
+				,"lnoAdr" : "전라남도 영광군 염산면 봉남리 719-8"
+				,"rdnmCd" : "468704694359"
+				,"rdnm" : "전라남도 영광군 염산면 천년로1길"
+				,"bldMnno" : 1
+				,"bldSlno" : 2
+				,"bldMngNo" : "4687036023107200001019897"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 영광군 염산면 천년로1길 1-2"
+				,"oldZipcd" : "513862"
+				,"newZipcd" : "57066"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.372290382534
+				,"lat" : 35.2172257091623
+				}
+				,{
+				"bizesId" : "MA0101202409A0202357"
+				,"bizesNm" : "꽃님이노래방"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I211"
+				,"indsMclsNm" : "주점"
+				,"indsSclsCd" : "I21101"
+				,"indsSclsNm" : "일반 유흥 주점"
+				,"ksicCd" : "I56211"
+				,"ksicNm" : "일반 유흥 주점업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46870"
+				,"signguNm" : "영광군"
+				,"adongCd" : "46870360"
+				,"adongNm" : "염산면"
+				,"ldongCd" : "4687036023"
+				,"ldongNm" : "염산면"
+				,"lnoCd" : "4687036023107190005"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 719
+				,"lnoSlno" : 5
+				,"lnoAdr" : "전라남도 영광군 염산면 봉남리 719-5"
+				,"rdnmCd" : "468704694359"
+				,"rdnm" : "전라남도 영광군 염산면 천년로1길"
+				,"bldMnno" : 9
+				,"bldSlno" : ""
+				,"bldMngNo" : "4687036023107190005019891"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 영광군 염산면 천년로1길 9"
+				,"oldZipcd" : "513862"
+				,"newZipcd" : "57066"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.372398475735
+				,"lat" : 35.2174516027755
+				}
+				,{
+				"bizesId" : "MA0106202511A1011670"
+				,"bizesNm" : "소고기국밥"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20107"
+				,"indsSclsNm" : "돼지고기 구이/찜"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46870"
+				,"signguNm" : "영광군"
+				,"adongCd" : "46870360"
+				,"adongNm" : "염산면"
+				,"ldongCd" : "4687036023"
+				,"ldongNm" : "염산면"
+				,"lnoCd" : "4687036023107210011"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 721
+				,"lnoSlno" : 11
+				,"lnoAdr" : "전라남도 영광군 염산면 봉남리 721-11"
+				,"rdnmCd" : "468703298037"
+				,"rdnm" : "전라남도 영광군 염산면 천년로"
+				,"bldMnno" : 16
+				,"bldSlno" : 2
+				,"bldMngNo" : "4687036023107210011019920"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 영광군 염산면 천년로 16-2"
+				,"oldZipcd" : "513862"
+				,"newZipcd" : "57066"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.373313511859
+				,"lat" : 35.217005676469
+				}
+				,{
+				"bizesId" : "MA0101202505A0033531"
+				,"bizesNm" : "염산정든한의원"
+				,"brchNm" : ""
+				,"indsLclsCd" : "Q1"
+				,"indsLclsNm" : "보건의료"
+				,"indsMclsCd" : "Q102"
+				,"indsMclsNm" : "의원"
+				,"indsSclsCd" : "Q10211"
+				,"indsSclsNm" : "한의원"
+				,"ksicCd" : "Q86203"
+				,"ksicNm" : "한의원"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46870"
+				,"signguNm" : "영광군"
+				,"adongCd" : "46870360"
+				,"adongNm" : "염산면"
+				,"ldongCd" : "4687036023"
+				,"ldongNm" : "염산면"
+				,"lnoCd" : "4687036023107180020"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 718
+				,"lnoSlno" : 20
+				,"lnoAdr" : "전라남도 영광군 염산면 봉남리 718-20"
+				,"rdnmCd" : "468703298037"
+				,"rdnm" : "전라남도 영광군 염산면 천년로"
+				,"bldMnno" : 15
+				,"bldSlno" : 2
+				,"bldMngNo" : "4687036023107180020019733"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 영광군 염산면 천년로 15-2"
+				,"oldZipcd" : "513862"
+				,"newZipcd" : "57066"
+				,"dongNo" : ""
+				,"flrNo" : "1"
+				,"hoNo" : ""
+				,"lon" : 126.373517613099
+				,"lat" : 35.217601612529
+				}
+				,{
+				"bizesId" : "MA0101202504A0003440"
+				,"bizesNm" : "원앙수산"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46870"
+				,"signguNm" : "영광군"
+				,"adongCd" : "46870360"
+				,"adongNm" : "염산면"
+				,"ldongCd" : "4687036023"
+				,"ldongNm" : "염산면"
+				,"lnoCd" : "4687036023106950020"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 695
+				,"lnoSlno" : 20
+				,"lnoAdr" : "전라남도 영광군 염산면 봉남리 695-20"
+				,"rdnmCd" : "468704694427"
+				,"rdnm" : "전라남도 영광군 염산면 향화로5길"
+				,"bldMnno" : 21
+				,"bldSlno" : 9
+				,"bldMngNo" : "4687036023106950020000001"
+				,"bldNm" : "설도젓갈타운"
+				,"rdnmAdr" : "전라남도 영광군 염산면 향화로5길 21-9"
+				,"oldZipcd" : "513862"
+				,"newZipcd" : "57066"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.374269898815
+				,"lat" : 35.2111699829047
+				}
+				,{
+				"bizesId" : "MA0101202502A0005148"
+				,"bizesNm" : "진도건어물"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G205"
+				,"indsMclsNm" : "식료품 소매"
+				,"indsSclsCd" : "G20504"
+				,"indsSclsNm" : "건어물/젓갈 소매업"
+				,"ksicCd" : "G47213"
+				,"ksicNm" : "건어물 및 젓갈류 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46870"
+				,"signguNm" : "영광군"
+				,"adongCd" : "46870360"
+				,"adongNm" : "염산면"
+				,"ldongCd" : "4687036023"
+				,"ldongNm" : "염산면"
+				,"lnoCd" : "4687036023106950020"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 695
+				,"lnoSlno" : 20
+				,"lnoAdr" : "전라남도 영광군 염산면 봉남리 695-20"
+				,"rdnmCd" : "468704694427"
+				,"rdnm" : "전라남도 영광군 염산면 향화로5길"
+				,"bldMnno" : 21
+				,"bldSlno" : 9
+				,"bldMngNo" : "4687036023106950020000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 영광군 염산면 향화로5길 21-9"
+				,"oldZipcd" : "513862"
+				,"newZipcd" : "57066"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.374269898815
+				,"lat" : 35.2111699829047
+				}
+				,{
+				"bizesId" : "MA0101202504A0109846"
+				,"bizesNm" : "원앙수산"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G205"
+				,"indsMclsNm" : "식료품 소매"
+				,"indsSclsCd" : "G20505"
+				,"indsSclsNm" : "수산물 소매업"
+				,"ksicCd" : "G47214"
+				,"ksicNm" : "신선, 냉동 및 기타 수산물 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46870"
+				,"signguNm" : "영광군"
+				,"adongCd" : "46870360"
+				,"adongNm" : "염산면"
+				,"ldongCd" : "4687036023"
+				,"ldongNm" : "염산면"
+				,"lnoCd" : "4687036023106950020"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 695
+				,"lnoSlno" : 20
+				,"lnoAdr" : "전라남도 영광군 염산면 봉남리 695-20"
+				,"rdnmCd" : "468704694427"
+				,"rdnm" : "전라남도 영광군 염산면 향화로5길"
+				,"bldMnno" : 21
+				,"bldSlno" : 9
+				,"bldMngNo" : "4687036023106950020000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 영광군 염산면 향화로5길 21-9"
+				,"oldZipcd" : "513862"
+				,"newZipcd" : "57066"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.374269898815
+				,"lat" : 35.2111699829047
+				}
+				,{
+				"bizesId" : "MA0101202411A0031651"
+				,"bizesNm" : "신안염산젓갈"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G205"
+				,"indsMclsNm" : "식료품 소매"
+				,"indsSclsCd" : "G20504"
+				,"indsSclsNm" : "건어물/젓갈 소매업"
+				,"ksicCd" : "G47213"
+				,"ksicNm" : "건어물 및 젓갈류 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46870"
+				,"signguNm" : "영광군"
+				,"adongCd" : "46870360"
+				,"adongNm" : "염산면"
+				,"ldongCd" : "4687036023"
+				,"ldongNm" : "염산면"
+				,"lnoCd" : "4687036023106990007"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 699
+				,"lnoSlno" : 7
+				,"lnoAdr" : "전라남도 영광군 염산면 봉남리 699-7"
+				,"rdnmCd" : "468704694359"
+				,"rdnm" : "전라남도 영광군 염산면 천년로1길"
+				,"bldMnno" : 34
+				,"bldSlno" : ""
+				,"bldMngNo" : "4687036023106990007019715"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 영광군 염산면 천년로1길 34"
+				,"oldZipcd" : "513862"
+				,"newZipcd" : "57066"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.374335653051
+				,"lat" : 35.218344935903
+				}
+				,{
+				"bizesId" : "MA0106202511A0522989"
+				,"bizesNm" : "춘반점"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I202"
+				,"indsMclsNm" : "중식"
+				,"indsSclsCd" : "I20201"
+				,"indsSclsNm" : "중국집"
+				,"ksicCd" : "I56121"
+				,"ksicNm" : "중식 음식점업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46870"
+				,"signguNm" : "영광군"
+				,"adongCd" : "46870360"
+				,"adongNm" : "염산면"
+				,"ldongCd" : "4687036023"
+				,"ldongNm" : "염산면"
+				,"lnoCd" : "4687036023110770054"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 1077
+				,"lnoSlno" : 54
+				,"lnoAdr" : "전라남도 영광군 염산면 봉남리 1077-54"
+				,"rdnmCd" : "468703298040"
+				,"rdnm" : "전라남도 영광군 염산면 향화로"
+				,"bldMnno" : 709
+				,"bldSlno" : ""
+				,"bldMngNo" : "4687036023110770054000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 영광군 염산면 향화로 709"
+				,"oldZipcd" : "513862"
+				,"newZipcd" : "57066"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.374564023234
+				,"lat" : 35.2172104364973
+				}
+				,{
+				"bizesId" : "MA0101202505A0018249"
+				,"bizesNm" : "소풍"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I210"
+				,"indsMclsNm" : "기타 간이"
+				,"indsSclsCd" : "I21003"
+				,"indsSclsNm" : "피자"
+				,"ksicCd" : "I56192"
+				,"ksicNm" : "피자, 햄버거, 샌드위치 및 유사 음식점업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46870"
+				,"signguNm" : "영광군"
+				,"adongCd" : "46870360"
+				,"adongNm" : "염산면"
+				,"ldongCd" : "4687036023"
+				,"ldongNm" : "염산면"
+				,"lnoCd" : "4687036023110770054"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 1077
+				,"lnoSlno" : 54
+				,"lnoAdr" : "전라남도 영광군 염산면 봉남리 1077-54"
+				,"rdnmCd" : "468703298040"
+				,"rdnm" : "전라남도 영광군 염산면 향화로"
+				,"bldMnno" : 709
+				,"bldSlno" : ""
+				,"bldMngNo" : "4687036023110770054000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 영광군 염산면 향화로 709"
+				,"oldZipcd" : "513862"
+				,"newZipcd" : "57066"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.37459683327
+				,"lat" : 35.2172286326537
+				}
+				,{
+				"bizesId" : "MA0101202501A0055948"
+				,"bizesNm" : "황소집"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46870"
+				,"signguNm" : "영광군"
+				,"adongCd" : "46870360"
+				,"adongNm" : "염산면"
+				,"ldongCd" : "4687036023"
+				,"ldongNm" : "염산면"
+				,"lnoCd" : "4687036023110770054"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 1077
+				,"lnoSlno" : 54
+				,"lnoAdr" : "전라남도 영광군 염산면 봉남리 1077-54"
+				,"rdnmCd" : "468703298040"
+				,"rdnm" : "전라남도 영광군 염산면 향화로"
+				,"bldMnno" : 709
+				,"bldSlno" : ""
+				,"bldMngNo" : "4687036023110770054000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 영광군 염산면 향화로 709"
+				,"oldZipcd" : "513862"
+				,"newZipcd" : "57066"
+				,"dongNo" : ""
+				,"flrNo" : "1"
+				,"hoNo" : ""
+				,"lon" : 126.37459683327
+				,"lat" : 35.2172286326537
+				}
+				,{
+				"bizesId" : "MA0101202505A0080766"
+				,"bizesNm" : "파트너방제"
+				,"brchNm" : ""
+				,"indsLclsCd" : "S2"
+				,"indsLclsNm" : "수리·개인"
+				,"indsMclsCd" : "S206"
+				,"indsMclsNm" : "기타 가정용품 수리"
+				,"indsSclsCd" : "S20699"
+				,"indsSclsNm" : "그 외 기타 개인/가정용품 수리업"
+				,"ksicCd" : "S95399"
+				,"ksicNm" : "그 외 기타 개인 및 가정용품 수리업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46870"
+				,"signguNm" : "영광군"
+				,"adongCd" : "46870360"
+				,"adongNm" : "염산면"
+				,"ldongCd" : "4687036021"
+				,"ldongNm" : "염산면"
+				,"lnoCd" : "4687036021103610000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 361
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 영광군 염산면 축동리 361"
+				,"rdnmCd" : "468704694152"
+				,"rdnm" : "전라남도 영광군 염산면 봉덕로6길"
+				,"bldMnno" : 52
+				,"bldSlno" : 7
+				,"bldMngNo" : "4687036021103610000018929"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 영광군 염산면 봉덕로6길 52-7"
+				,"oldZipcd" : "513865"
+				,"newZipcd" : "57064"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.386663152993
+				,"lat" : 35.2469802227784
+				}
+				,{
+				"bizesId" : "MA0106202510A1213807"
+				,"bizesNm" : "칠산젓갈"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G204"
+				,"indsMclsNm" : "종합 소매"
+				,"indsSclsCd" : "G20404"
+				,"indsSclsNm" : "슈퍼마켓"
+				,"ksicCd" : "G47129"
+				,"ksicNm" : "기타 음ㆍ식료품 위주 종합 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46870"
+				,"signguNm" : "영광군"
+				,"adongCd" : "46870360"
+				,"adongNm" : "염산면"
+				,"ldongCd" : "4687036022"
+				,"ldongNm" : "염산면"
+				,"lnoCd" : "4687036022113230000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 1323
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 영광군 염산면 상계리 1323"
+				,"rdnmCd" : "468703298037"
+				,"rdnm" : "전라남도 영광군 염산면 천년로"
+				,"bldMnno" : 267
+				,"bldSlno" : 1
+				,"bldMngNo" : "4687036022113240003023061"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 영광군 염산면 천년로 267-1"
+				,"oldZipcd" : "513863"
+				,"newZipcd" : "57064"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.399244936121
+				,"lat" : 35.2229507363267
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 2,
+		"totalCount" : 113	}
+}

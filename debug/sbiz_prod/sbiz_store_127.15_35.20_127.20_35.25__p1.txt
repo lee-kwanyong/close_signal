@@ -1,0 +1,221 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA0106202510A1189199"
+				,"bizesNm" : "죽산녹색농촌체험마을"
+				,"brchNm" : ""
+				,"indsLclsCd" : "P1"
+				,"indsLclsNm" : "교육"
+				,"indsMclsCd" : "P106"
+				,"indsMclsNm" : "기타 교육"
+				,"indsSclsCd" : "P10607"
+				,"indsSclsNm" : "청소년 수련시설"
+				,"ksicCd" : "P85614"
+				,"ksicNm" : "청소년 수련시설 운영업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46720"
+				,"signguNm" : "곡성군"
+				,"adongCd" : "46720390"
+				,"adongNm" : "겸면"
+				,"ldongCd" : "4672039030"
+				,"ldongNm" : "겸면"
+				,"lnoCd" : "4672039030104680013"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 468
+				,"lnoSlno" : 13
+				,"lnoAdr" : "전라남도 곡성군 겸면 운교리 468-13"
+				,"rdnmCd" : "467204661308"
+				,"rdnm" : "전라남도 곡성군 겸면 죽산하늘재길"
+				,"bldMnno" : 42
+				,"bldSlno" : ""
+				,"bldMngNo" : "4672039030104680013000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 곡성군 겸면 죽산하늘재길 42"
+				,"oldZipcd" : "516932"
+				,"newZipcd" : "57520"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.175220593206
+				,"lat" : 35.2335173362062
+				}
+				,{
+				"bizesId" : "MA010120220805255737"
+				,"bizesNm" : "미성미용실"
+				,"brchNm" : ""
+				,"indsLclsCd" : "S2"
+				,"indsLclsNm" : "수리·개인"
+				,"indsMclsCd" : "S207"
+				,"indsMclsNm" : "이용·미용"
+				,"indsSclsCd" : "S20701"
+				,"indsSclsNm" : "미용실"
+				,"ksicCd" : "S96112"
+				,"ksicNm" : "두발 미용업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46720"
+				,"signguNm" : "곡성군"
+				,"adongCd" : "46720390"
+				,"adongNm" : "겸면"
+				,"ldongCd" : "4672039029"
+				,"ldongNm" : "겸면"
+				,"lnoCd" : "4672039029100160012"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 16
+				,"lnoSlno" : 12
+				,"lnoAdr" : "전라남도 곡성군 겸면 송강리 16-12"
+				,"rdnmCd" : "467203000207"
+				,"rdnm" : "전라남도 곡성군 겸면 곡순로"
+				,"bldMnno" : 1633
+				,"bldSlno" : 1
+				,"bldMngNo" : "4672039029100160012029745"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 곡성군 겸면 곡순로 1633-1"
+				,"oldZipcd" : "516932"
+				,"newZipcd" : "57515"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.192703260506
+				,"lat" : 35.2447395658674
+				}
+				,{
+				"bizesId" : "MA010120220807462170"
+				,"bizesNm" : "흥산슈퍼"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G204"
+				,"indsMclsNm" : "종합 소매"
+				,"indsSclsCd" : "G20404"
+				,"indsSclsNm" : "슈퍼마켓"
+				,"ksicCd" : "G47129"
+				,"ksicNm" : "기타 음ㆍ식료품 위주 종합 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46720"
+				,"signguNm" : "곡성군"
+				,"adongCd" : "46720390"
+				,"adongNm" : "겸면"
+				,"ldongCd" : "4672039027"
+				,"ldongNm" : "겸면"
+				,"lnoCd" : "4672039027108830000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 883
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 곡성군 겸면 괴정리 883"
+				,"rdnmCd" : "467203000207"
+				,"rdnm" : "전라남도 곡성군 겸면 곡순로"
+				,"bldMnno" : 1626
+				,"bldSlno" : ""
+				,"bldMngNo" : "4672039027108820001031265"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 곡성군 겸면 곡순로 1626"
+				,"oldZipcd" : "516932"
+				,"newZipcd" : "57515"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.193703855866
+				,"lat" : 35.2450624528464
+				}
+				,{
+				"bizesId" : "MA010120220807487317"
+				,"bizesNm" : "복슈퍼"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G204"
+				,"indsMclsNm" : "종합 소매"
+				,"indsSclsCd" : "G20404"
+				,"indsSclsNm" : "슈퍼마켓"
+				,"ksicCd" : "G47129"
+				,"ksicNm" : "기타 음ㆍ식료품 위주 종합 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46720"
+				,"signguNm" : "곡성군"
+				,"adongCd" : "46720390"
+				,"adongNm" : "겸면"
+				,"ldongCd" : "4672039027"
+				,"ldongNm" : "겸면"
+				,"lnoCd" : "4672039027108840005"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 884
+				,"lnoSlno" : 5
+				,"lnoAdr" : "전라남도 곡성군 겸면 괴정리 884-5"
+				,"rdnmCd" : "467203000207"
+				,"rdnm" : "전라남도 곡성군 겸면 곡순로"
+				,"bldMnno" : 1624
+				,"bldSlno" : ""
+				,"bldMngNo" : "4672039027108840005029546"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 곡성군 겸면 곡순로 1624"
+				,"oldZipcd" : "516932"
+				,"newZipcd" : "57515"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.193890593939
+				,"lat" : 35.245044126924
+				}
+				,{
+				"bizesId" : "MA0101202406A0005418"
+				,"bizesNm" : "한국기계안전관리"
+				,"brchNm" : ""
+				,"indsLclsCd" : "N1"
+				,"indsLclsNm" : "시설관리·임대"
+				,"indsMclsCd" : "N101"
+				,"indsMclsNm" : "시설관리"
+				,"indsSclsCd" : "N10101"
+				,"indsSclsNm" : "사업시설 유지·관리 서비스업"
+				,"ksicCd" : "N74100"
+				,"ksicNm" : "사업시설 유지ㆍ관리 서비스업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46720"
+				,"signguNm" : "곡성군"
+				,"adongCd" : "46720390"
+				,"adongNm" : "겸면"
+				,"ldongCd" : "4672039028"
+				,"ldongNm" : "겸면"
+				,"lnoCd" : "4672039028101790000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 179
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 곡성군 겸면 대명리 179"
+				,"rdnmCd" : "467204661055"
+				,"rdnm" : "전라남도 곡성군 겸면 대명길"
+				,"bldMnno" : 80
+				,"bldSlno" : 2
+				,"bldMngNo" : "4672039028101790000030147"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 곡성군 겸면 대명길 80-2"
+				,"oldZipcd" : "516932"
+				,"newZipcd" : "57520"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.194840169411
+				,"lat" : 35.2378138091048
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 1,
+		"totalCount" : 5	}
+}

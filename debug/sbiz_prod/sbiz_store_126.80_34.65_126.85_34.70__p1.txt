@@ -1,0 +1,508 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA010120220807789535"
+				,"bizesNm" : "방가방가든"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20107"
+				,"indsSclsNm" : "돼지고기 구이/찜"
+				,"ksicCd" : "I56113"
+				,"ksicNm" : "한식 육류 요리 전문점"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46810"
+				,"signguNm" : "강진군"
+				,"adongCd" : "46810310"
+				,"adongNm" : "군동면"
+				,"ldongCd" : "4681031023"
+				,"ldongNm" : "군동면"
+				,"lnoCd" : "4681031023110700001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 1070
+				,"lnoSlno" : 1
+				,"lnoAdr" : "전라남도 강진군 군동면 라천리 1070-1"
+				,"rdnmCd" : "468104679431"
+				,"rdnm" : "전라남도 강진군 군동면 호라길"
+				,"bldMnno" : 201
+				,"bldSlno" : ""
+				,"bldMngNo" : "4681031023110700001305109"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 강진군 군동면 호라길 201"
+				,"oldZipcd" : "527853"
+				,"newZipcd" : "59220"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.802014858621
+				,"lat" : 34.6515357632406
+				}
+				,{
+				"bizesId" : "MA010120220806515091"
+				,"bizesNm" : "고향집농박"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55104"
+				,"ksicNm" : "민박업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46810"
+				,"signguNm" : "강진군"
+				,"adongCd" : "46810310"
+				,"adongNm" : "군동면"
+				,"ldongCd" : "4681031023"
+				,"ldongNm" : "군동면"
+				,"lnoCd" : "4681031023109390002"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 939
+				,"lnoSlno" : 2
+				,"lnoAdr" : "전라남도 강진군 군동면 라천리 939-2"
+				,"rdnmCd" : "468104679230"
+				,"rdnm" : "전라남도 강진군 군동면 시목길"
+				,"bldMnno" : 128
+				,"bldSlno" : ""
+				,"bldMngNo" : "4681031023109420001304819"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 강진군 군동면 시목길 128"
+				,"oldZipcd" : "527853"
+				,"newZipcd" : "59220"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.807375737638
+				,"lat" : 34.6541224483537
+				}
+				,{
+				"bizesId" : "MA0101202406A0186353"
+				,"bizesNm" : "일율산방"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55104"
+				,"ksicNm" : "민박업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46810"
+				,"signguNm" : "강진군"
+				,"adongCd" : "46810310"
+				,"adongNm" : "군동면"
+				,"ldongCd" : "4681031023"
+				,"ldongNm" : "군동면"
+				,"lnoCd" : "4681031023108190003"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 819
+				,"lnoSlno" : 3
+				,"lnoAdr" : "전라남도 강진군 군동면 라천리 819-3"
+				,"rdnmCd" : "468104679088"
+				,"rdnm" : "전라남도 강진군 군동면 동동길"
+				,"bldMnno" : 100
+				,"bldSlno" : ""
+				,"bldMngNo" : "4681031023108190003305077"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 강진군 군동면 동동길 100"
+				,"oldZipcd" : "527853"
+				,"newZipcd" : "59220"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.811187975544
+				,"lat" : 34.6518567992355
+				}
+				,{
+				"bizesId" : "MA010120220807816538"
+				,"bizesNm" : "강진석물"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G221"
+				,"indsMclsNm" : "기타 상품 소매"
+				,"indsSclsCd" : "G22199"
+				,"indsSclsNm" : "그 외 기타 상품 전문 소매업"
+				,"ksicCd" : "G47859"
+				,"ksicNm" : "그 외 기타 분류 안된 상품 전문 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46810"
+				,"signguNm" : "강진군"
+				,"adongCd" : "46810370"
+				,"adongNm" : "작천면"
+				,"ldongCd" : "4681037025"
+				,"ldongNm" : "작천면"
+				,"lnoCd" : "4681037025104070000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 407
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 강진군 작천면 토마리 407"
+				,"rdnmCd" : "468104679390"
+				,"rdnm" : "전라남도 강진군 작천면 토동1길"
+				,"bldMnno" : 38
+				,"bldSlno" : ""
+				,"bldMngNo" : "4681037025104070000102163"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 강진군 작천면 토동1길 38"
+				,"oldZipcd" : "527823"
+				,"newZipcd" : "59216"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.81492093866
+				,"lat" : 34.6900561387065
+				}
+				,{
+				"bizesId" : "MA010120220807808661"
+				,"bizesNm" : "화방슈퍼"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G204"
+				,"indsMclsNm" : "종합 소매"
+				,"indsSclsCd" : "G20404"
+				,"indsSclsNm" : "슈퍼마켓"
+				,"ksicCd" : "G47121"
+				,"ksicNm" : "슈퍼마켓"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46810"
+				,"signguNm" : "강진군"
+				,"adongCd" : "46810310"
+				,"adongNm" : "군동면"
+				,"ldongCd" : "4681031025"
+				,"ldongNm" : "군동면"
+				,"lnoCd" : "4681031025107380002"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 738
+				,"lnoSlno" : 2
+				,"lnoAdr" : "전라남도 강진군 군동면 화산리 738-2"
+				,"rdnmCd" : "468103293047"
+				,"rdnm" : "전라남도 강진군 군동면 화방로"
+				,"bldMnno" : 174
+				,"bldSlno" : ""
+				,"bldMngNo" : "4681031025107380002304756"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 강진군 군동면 화방로 174"
+				,"oldZipcd" : "527851"
+				,"newZipcd" : "59218"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.824754692066
+				,"lat" : 34.6585656852058
+				}
+				,{
+				"bizesId" : "MA010120220807816409"
+				,"bizesNm" : "와보랑께박물관"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G204"
+				,"indsMclsNm" : "종합 소매"
+				,"indsSclsCd" : "G20404"
+				,"indsSclsNm" : "슈퍼마켓"
+				,"ksicCd" : "G47129"
+				,"ksicNm" : "기타 음ㆍ식료품 위주 종합 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46810"
+				,"signguNm" : "강진군"
+				,"adongCd" : "46810380"
+				,"adongNm" : "병영면"
+				,"ldongCd" : "4681038031"
+				,"ldongNm" : "병영면"
+				,"lnoCd" : "4681038031105960001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 596
+				,"lnoSlno" : 1
+				,"lnoAdr" : "전라남도 강진군 병영면 도룡리 596-1"
+				,"rdnmCd" : "468103292042"
+				,"rdnm" : "전라남도 강진군 병영면 장강로"
+				,"bldMnno" : 804
+				,"bldSlno" : 6
+				,"bldMngNo" : "4681038031105960001402137"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 강진군 병영면 장강로 804-6"
+				,"oldZipcd" : "527831"
+				,"newZipcd" : "59215"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.826763500282
+				,"lat" : 34.6997548760889
+				}
+				,{
+				"bizesId" : "MA010120220813110822"
+				,"bizesNm" : "와보랑께"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I212"
+				,"indsMclsNm" : "비알코올 "
+				,"indsSclsCd" : "I21201"
+				,"indsSclsNm" : "카페"
+				,"ksicCd" : "I56221"
+				,"ksicNm" : "커피 전문점"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46810"
+				,"signguNm" : "강진군"
+				,"adongCd" : "46810380"
+				,"adongNm" : "병영면"
+				,"ldongCd" : "4681038031"
+				,"ldongNm" : "병영면"
+				,"lnoCd" : "4681038031105960001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 596
+				,"lnoSlno" : 1
+				,"lnoAdr" : "전라남도 강진군 병영면 도룡리 596-1"
+				,"rdnmCd" : "468103292042"
+				,"rdnm" : "전라남도 강진군 병영면 장강로"
+				,"bldMnno" : 804
+				,"bldSlno" : 6
+				,"bldMngNo" : "4681038031105960001402137"
+				,"bldNm" : "와보랑께박물관"
+				,"rdnmAdr" : "전라남도 강진군 병영면 장강로 804-6"
+				,"oldZipcd" : "527831"
+				,"newZipcd" : "59215"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.826763500282
+				,"lat" : 34.6997548760889
+				}
+				,{
+				"bizesId" : "MA010120220809847290"
+				,"bizesNm" : "와보랑께박물관민박"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55104"
+				,"ksicNm" : "민박업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46810"
+				,"signguNm" : "강진군"
+				,"adongCd" : "46810380"
+				,"adongNm" : "병영면"
+				,"ldongCd" : "4681038031"
+				,"ldongNm" : "병영면"
+				,"lnoCd" : "4681038031105960001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 596
+				,"lnoSlno" : 1
+				,"lnoAdr" : "전라남도 강진군 병영면 도룡리 596-1"
+				,"rdnmCd" : "468103292042"
+				,"rdnm" : "전라남도 강진군 병영면 장강로"
+				,"bldMnno" : 804
+				,"bldSlno" : 6
+				,"bldMngNo" : "4681038031105960001402137"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 강진군 병영면 장강로 804-6"
+				,"oldZipcd" : "527831"
+				,"newZipcd" : "59215"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.826763500282
+				,"lat" : 34.6997548760889
+				}
+				,{
+				"bizesId" : "MA010120220803585458"
+				,"bizesNm" : "청솔농원민박"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55104"
+				,"ksicNm" : "민박업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46810"
+				,"signguNm" : "강진군"
+				,"adongCd" : "46810310"
+				,"adongNm" : "군동면"
+				,"ldongCd" : "4681031024"
+				,"ldongNm" : "군동면"
+				,"lnoCd" : "4681031024109120003"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 912
+				,"lnoSlno" : 3
+				,"lnoAdr" : "전라남도 강진군 군동면 금강리 912-3"
+				,"rdnmCd" : "468104679195"
+				,"rdnm" : "전라남도 강진군 군동면 서은길"
+				,"bldMnno" : 28
+				,"bldSlno" : 28
+				,"bldMngNo" : "4681031024109120003000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 강진군 군동면 서은길 28-28"
+				,"oldZipcd" : "527851"
+				,"newZipcd" : "59220"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.837698083598
+				,"lat" : 34.6503535137113
+				}
+				,{
+				"bizesId" : "MA010120220808207720"
+				,"bizesNm" : "수인석재종합상사"
+				,"brchNm" : ""
+				,"indsLclsCd" : "S2"
+				,"indsLclsNm" : "수리·개인"
+				,"indsMclsCd" : "S210"
+				,"indsMclsNm" : "장례식장 "
+				,"indsSclsCd" : "S21001"
+				,"indsSclsNm" : "장례식장"
+				,"ksicCd" : "S96921"
+				,"ksicNm" : "장례식장 및 장의관련 서비스업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46810"
+				,"signguNm" : "강진군"
+				,"adongCd" : "46810380"
+				,"adongNm" : "병영면"
+				,"ldongCd" : "4681038032"
+				,"ldongNm" : "병영면"
+				,"lnoCd" : "4681038032101610000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 161
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 강진군 병영면 삭양리 161"
+				,"rdnmCd" : "468104679143"
+				,"rdnm" : "전라남도 강진군 병영면 백양2길"
+				,"bldMnno" : 23
+				,"bldSlno" : 1
+				,"bldMngNo" : "4681038032101610000402204"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 강진군 병영면 백양2길 23-1"
+				,"oldZipcd" : "527831"
+				,"newZipcd" : "59215"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.837636548072
+				,"lat" : 34.6986701069208
+				}
+				,{
+				"bizesId" : "MA0101202212A0042433"
+				,"bizesNm" : "청솔농원묵은지"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G205"
+				,"indsMclsNm" : "식료품 소매"
+				,"indsSclsCd" : "G20509"
+				,"indsSclsNm" : "반찬/식료품 소매업"
+				,"ksicCd" : "G47218"
+				,"ksicNm" : "조리 반찬류 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46810"
+				,"signguNm" : "강진군"
+				,"adongCd" : "46810310"
+				,"adongNm" : "군동면"
+				,"ldongCd" : "4681031024"
+				,"ldongNm" : "군동면"
+				,"lnoCd" : "4681031024109120010"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 912
+				,"lnoSlno" : 10
+				,"lnoAdr" : "전라남도 강진군 군동면 금강리 912-10"
+				,"rdnmCd" : "468104679195"
+				,"rdnm" : "전라남도 강진군 군동면 서은길"
+				,"bldMnno" : 28
+				,"bldSlno" : 26
+				,"bldMngNo" : "4681031024109120010000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 강진군 군동면 서은길 28-26"
+				,"oldZipcd" : "527851"
+				,"newZipcd" : "59220"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.837872858591
+				,"lat" : 34.650227545433
+				}
+				,{
+				"bizesId" : "MA010120220813884406"
+				,"bizesNm" : "서당골농박"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55104"
+				,"ksicNm" : "민박업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46810"
+				,"signguNm" : "강진군"
+				,"adongCd" : "46810310"
+				,"adongNm" : "군동면"
+				,"ldongCd" : "4681031026"
+				,"ldongNm" : "군동면"
+				,"lnoCd" : "4681031026107250001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 725
+				,"lnoSlno" : 1
+				,"lnoAdr" : "전라남도 강진군 군동면 용소리 725-1"
+				,"rdnmCd" : "468104679234"
+				,"rdnm" : "전라남도 강진군 군동면 신기1길"
+				,"bldMnno" : 43
+				,"bldSlno" : ""
+				,"bldMngNo" : "4681031026107250001000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 강진군 군동면 신기1길 43"
+				,"oldZipcd" : "527851"
+				,"newZipcd" : "59219"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.847535738374
+				,"lat" : 34.6571089348378
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 1,
+		"totalCount" : 12	}
+}

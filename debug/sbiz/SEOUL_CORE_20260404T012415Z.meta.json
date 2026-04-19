@@ -1,0 +1,20 @@
+{
+  "run_id": 159,
+  "tile_key": "SEOUL_CORE",
+  "minx": 126.9,
+  "miny": 37.45,
+  "maxx": 127.1,
+  "maxy": 37.65,
+  "started_at": "2026-04-04T01:24:15.490Z",
+  "endpoint": "storeListInRectangle",
+  "base_url": "https://apis.data.go.kr/B553077/api/open/sdsc2",
+  "page_size": 1000,
+  "max_pages": 3,
+  "debug_ingest": false,
+  "key_param_name": "ServiceKey",
+  "result_type_param_name": "type",
+  "result_type": "json",
+  "indsLclsCd": null,
+  "indsMclsCd": null,
+  "indsSclsCd": null
+}

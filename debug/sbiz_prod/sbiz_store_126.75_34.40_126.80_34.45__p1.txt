@@ -1,0 +1,98 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA0101202306A0000742"
+				,"bizesNm" : "두성호"
+				,"brchNm" : ""
+				,"indsLclsCd" : "N1"
+				,"indsLclsNm" : "시설관리·임대"
+				,"indsMclsCd" : "N109"
+				,"indsMclsNm" : "운송장비 대여"
+				,"indsSclsCd" : "N10999"
+				,"indsSclsNm" : "기타 운송장비 대여업"
+				,"ksicCd" : "N76190"
+				,"ksicNm" : "기타 운송장비 임대업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46890"
+				,"signguNm" : "완도군"
+				,"adongCd" : "46890330"
+				,"adongNm" : "고금면"
+				,"ldongCd" : "4689033024"
+				,"ldongNm" : "고금면"
+				,"lnoCd" : "4689033024108870003"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 887
+				,"lnoSlno" : 3
+				,"lnoAdr" : "전라남도 완도군 고금면 청용리 887-3"
+				,"rdnmCd" : "468904862505"
+				,"rdnm" : "전라남도 완도군 고금면 용초길"
+				,"bldMnno" : 124
+				,"bldSlno" : ""
+				,"bldMngNo" : "4689033024108870003016352"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 완도군 고금면 용초길 124"
+				,"oldZipcd" : "537870"
+				,"newZipcd" : "59128"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.778305927638
+				,"lat" : 34.4234101746064
+				}
+				,{
+				"bizesId" : "MA0101202303A0092521"
+				,"bizesNm" : "고금황소인력"
+				,"brchNm" : ""
+				,"indsLclsCd" : "N1"
+				,"indsLclsNm" : "시설관리·임대"
+				,"indsMclsCd" : "N104"
+				,"indsMclsNm" : "고용 알선"
+				,"indsSclsCd" : "N10402"
+				,"indsSclsNm" : "임시/일용 인력 공급업"
+				,"ksicCd" : "N75121"
+				,"ksicNm" : "임시 및 일용 인력 공급업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46890"
+				,"signguNm" : "완도군"
+				,"adongCd" : "46890330"
+				,"adongNm" : "고금면"
+				,"ldongCd" : "4689033022"
+				,"ldongNm" : "고금면"
+				,"lnoCd" : "4689033022108490000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 849
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 완도군 고금면 덕암리 849"
+				,"rdnmCd" : "468903300029"
+				,"rdnm" : "전라남도 완도군 고금면 고금로"
+				,"bldMnno" : 667
+				,"bldSlno" : 40
+				,"bldMngNo" : "4689033022108490000017043"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 완도군 고금면 고금로 667-40"
+				,"oldZipcd" : "537871"
+				,"newZipcd" : "59130"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.799862939913
+				,"lat" : 34.4023620007137
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 1,
+		"totalCount" : 2	}
+}

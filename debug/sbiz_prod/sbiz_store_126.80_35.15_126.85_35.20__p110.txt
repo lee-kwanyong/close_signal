@@ -1,0 +1,262 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA0106202511A2390784"
+				,"bizesNm" : "배땝"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G209"
+				,"indsMclsNm" : "섬유·의복·신발 소매"
+				,"indsSclsCd" : "G20905"
+				,"indsSclsNm" : "기타 의류 소매업"
+				,"ksicCd" : "G47419"
+				,"ksicNm" : "기타 의복 소매업"
+				,"ctprvnCd" : "29"
+				,"ctprvnNm" : "광주광역시"
+				,"signguCd" : "29200"
+				,"signguNm" : "광산구"
+				,"adongCd" : "29200600"
+				,"adongNm" : "월곡1동"
+				,"ldongCd" : "2920012800"
+				,"ldongNm" : "월곡동"
+				,"lnoCd" : "2920012800106010005"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 601
+				,"lnoSlno" : 5
+				,"lnoAdr" : "광주광역시 광산구 월곡동 601-5"
+				,"rdnmCd" : "292003163040"
+				,"rdnm" : "광주광역시 광산구 월곡로"
+				,"bldMnno" : 24
+				,"bldSlno" : 1
+				,"bldMngNo" : "2920012800106010005000957"
+				,"bldNm" : ""
+				,"rdnmAdr" : "광주광역시 광산구 월곡로 24-1"
+				,"oldZipcd" : "506825"
+				,"newZipcd" : "62350"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.811735205909
+				,"lat" : 35.1687536466532
+				}
+				,{
+				"bizesId" : "MA0106202511A2418013"
+				,"bizesNm" : "맛있는반찬"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G221"
+				,"indsMclsNm" : "기타 상품 소매"
+				,"indsSclsCd" : "G22199"
+				,"indsSclsNm" : "그 외 기타 상품 전문 소매업"
+				,"ksicCd" : "G47859"
+				,"ksicNm" : "그 외 기타 분류 안된 상품 전문 소매업"
+				,"ctprvnCd" : "29"
+				,"ctprvnNm" : "광주광역시"
+				,"signguCd" : "29200"
+				,"signguNm" : "광산구"
+				,"adongCd" : "29200637"
+				,"adongNm" : "수완동"
+				,"ldongCd" : "2920012300"
+				,"ldongNm" : "장덕동"
+				,"lnoCd" : "2920012300116440000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 1644
+				,"lnoSlno" : ""
+				,"lnoAdr" : "광주광역시 광산구 장덕동 1644"
+				,"rdnmCd" : "292004289675"
+				,"rdnm" : "광주광역시 광산구 풍영로200번길"
+				,"bldMnno" : 51
+				,"bldSlno" : ""
+				,"bldMngNo" : "2920012300116440000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "광주광역시 광산구 풍영로200번길 51"
+				,"oldZipcd" : "506304"
+				,"newZipcd" : "62225"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.816989653939
+				,"lat" : 35.1898984780682
+				}
+				,{
+				"bizesId" : "MA0106202511A2414042"
+				,"bizesNm" : "오일내수완"
+				,"brchNm" : "본점"
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "29"
+				,"ctprvnNm" : "광주광역시"
+				,"signguCd" : "29200"
+				,"signguNm" : "광산구"
+				,"adongCd" : "29200637"
+				,"adongNm" : "수완동"
+				,"ldongCd" : "2920011400"
+				,"ldongNm" : "수완동"
+				,"lnoCd" : "2920011400114550000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 1455
+				,"lnoSlno" : ""
+				,"lnoAdr" : "광주광역시 광산구 수완동 1455"
+				,"rdnmCd" : "292003163026"
+				,"rdnm" : "광주광역시 광산구 수완로"
+				,"bldMnno" : 57
+				,"bldSlno" : ""
+				,"bldMngNo" : "2920011400114550000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "광주광역시 광산구 수완로 57"
+				,"oldZipcd" : "506304"
+				,"newZipcd" : "62306"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.82844079596
+				,"lat" : 35.1902397280702
+				}
+				,{
+				"bizesId" : "MA0106202511A2432251"
+				,"bizesNm" : "춘향이밥상"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "29"
+				,"ctprvnNm" : "광주광역시"
+				,"signguCd" : "29200"
+				,"signguNm" : "광산구"
+				,"adongCd" : "29200630"
+				,"adongNm" : "신가동"
+				,"ldongCd" : "2920011900"
+				,"ldongNm" : "신가동"
+				,"lnoCd" : "2920011900104950002"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 495
+				,"lnoSlno" : 2
+				,"lnoAdr" : "광주광역시 광산구 신가동 495-2"
+				,"rdnmCd" : "292004289390"
+				,"rdnm" : "광주광역시 광산구 신창로33번길"
+				,"bldMnno" : 21
+				,"bldSlno" : 12
+				,"bldMngNo" : "2920011900104950002000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "광주광역시 광산구 신창로33번길 21-12"
+				,"oldZipcd" : "506307"
+				,"newZipcd" : "62297"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.835703544086
+				,"lat" : 35.18769896648
+				}
+				,{
+				"bizesId" : "MA0106202511A2473285"
+				,"bizesNm" : "루미에르헤어살롱"
+				,"brchNm" : ""
+				,"indsLclsCd" : "S2"
+				,"indsLclsNm" : "수리·개인"
+				,"indsMclsCd" : "S207"
+				,"indsMclsNm" : "이용·미용"
+				,"indsSclsCd" : "S20701"
+				,"indsSclsNm" : "미용실"
+				,"ksicCd" : "S96111"
+				,"ksicNm" : "이용업"
+				,"ctprvnCd" : "29"
+				,"ctprvnNm" : "광주광역시"
+				,"signguCd" : "29200"
+				,"signguNm" : "광산구"
+				,"adongCd" : "29200700"
+				,"adongNm" : "신창동"
+				,"ldongCd" : "2920011800"
+				,"ldongNm" : "신창동"
+				,"lnoCd" : "2920011800112210001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 1221
+				,"lnoSlno" : 1
+				,"lnoAdr" : "광주광역시 광산구 신창동 1221-1"
+				,"rdnmCd" : "292003163047"
+				,"rdnm" : "광주광역시 광산구 장신로"
+				,"bldMnno" : 261
+				,"bldSlno" : ""
+				,"bldMngNo" : "2920011800112210002000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "광주광역시 광산구 장신로 261"
+				,"oldZipcd" : "506841"
+				,"newZipcd" : "62252"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.838749409152
+				,"lat" : 35.1909479346874
+				}
+				,{
+				"bizesId" : "MA0106202511A2473050"
+				,"bizesNm" : "육회바른연어상무"
+				,"brchNm" : "중앙점"
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20108"
+				,"indsSclsNm" : "소고기 구이/찜"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "29"
+				,"ctprvnNm" : "광주광역시"
+				,"signguCd" : "29140"
+				,"signguNm" : "서구"
+				,"adongCd" : "29140745"
+				,"adongNm" : "치평동"
+				,"ldongCd" : "2914012000"
+				,"ldongNm" : "치평동"
+				,"lnoCd" : "2914012000112170000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 1217
+				,"lnoSlno" : ""
+				,"lnoAdr" : "광주광역시 서구 치평동 1217"
+				,"rdnmCd" : "291403160020"
+				,"rdnm" : "광주광역시 서구 상무연하로"
+				,"bldMnno" : 75
+				,"bldSlno" : ""
+				,"bldMngNo" : "2914012000112170000025109"
+				,"bldNm" : ""
+				,"rdnmAdr" : "광주광역시 서구 상무연하로 75"
+				,"oldZipcd" : "502827"
+				,"newZipcd" : "61949"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.849850376182
+				,"lat" : 35.1549530078828
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 110,
+		"totalCount" : 10906	}
+}

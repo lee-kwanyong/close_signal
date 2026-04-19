@@ -1,0 +1,221 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA0106202510A1071894"
+				,"bizesNm" : "은정식당"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "41"
+				,"ctprvnNm" : "경기도"
+				,"signguCd" : "41800"
+				,"signguNm" : "연천군"
+				,"adongCd" : "41800310"
+				,"adongNm" : "군남면"
+				,"ldongCd" : "4180031022"
+				,"ldongNm" : "군남면"
+				,"lnoCd" : "4180031022102640007"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 264
+				,"lnoSlno" : 7
+				,"lnoAdr" : "경기도 연천군 군남면 옥계리 264-7"
+				,"rdnmCd" : "418003215004"
+				,"rdnm" : "경기도 연천군 군남면 군중로"
+				,"bldMnno" : 4
+				,"bldSlno" : ""
+				,"bldMngNo" : "4180031022102640007000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "경기도 연천군 군남면 군중로 4"
+				,"oldZipcd" : "486822"
+				,"newZipcd" : "11005"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.053166954756
+				,"lat" : 38.1225941833788
+				}
+				,{
+				"bizesId" : "MA0106202511A2417203"
+				,"bizesNm" : "순타토종순대국해장국"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "41"
+				,"ctprvnNm" : "경기도"
+				,"signguCd" : "41800"
+				,"signguNm" : "연천군"
+				,"adongCd" : "41800250"
+				,"adongNm" : "연천읍"
+				,"ldongCd" : "4180025021"
+				,"ldongNm" : "연천읍"
+				,"lnoCd" : "4180025021100340011"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 34
+				,"lnoSlno" : 11
+				,"lnoAdr" : "경기도 연천군 연천읍 차탄리 34-11"
+				,"rdnmCd" : "418003215030"
+				,"rdnm" : "경기도 연천군 연천읍 연천로"
+				,"bldMnno" : 272
+				,"bldSlno" : ""
+				,"bldMngNo" : "4180025021100340011010792"
+				,"bldNm" : ""
+				,"rdnmAdr" : "경기도 연천군 연천읍 연천로 272"
+				,"oldZipcd" : "486803"
+				,"newZipcd" : "11016"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.075178065453
+				,"lat" : 38.1010954062825
+				}
+				,{
+				"bizesId" : "MA0106202507A1337403"
+				,"bizesNm" : "현가리모터스세차장"
+				,"brchNm" : ""
+				,"indsLclsCd" : "S2"
+				,"indsLclsNm" : "수리·개인"
+				,"indsMclsCd" : "S203"
+				,"indsMclsNm" : "자동차 수리·세차"
+				,"indsSclsCd" : "S20302"
+				,"indsSclsNm" : "자동차 세차장"
+				,"ksicCd" : "S95213"
+				,"ksicNm" : "자동차 세차업"
+				,"ctprvnCd" : "41"
+				,"ctprvnNm" : "경기도"
+				,"signguCd" : "41800"
+				,"signguNm" : "연천군"
+				,"adongCd" : "41800250"
+				,"adongNm" : "연천읍"
+				,"ldongCd" : "4180025022"
+				,"ldongNm" : "연천읍"
+				,"lnoCd" : "4180025022100400029"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 40
+				,"lnoSlno" : 29
+				,"lnoAdr" : "경기도 연천군 연천읍 현가리 40-29"
+				,"rdnmCd" : "418004445261"
+				,"rdnm" : "경기도 연천군 연천읍 연천로335번길"
+				,"bldMnno" : 4
+				,"bldSlno" : ""
+				,"bldMngNo" : "4180025022100400020024521"
+				,"bldNm" : ""
+				,"rdnmAdr" : "경기도 연천군 연천읍 연천로335번길 4"
+				,"oldZipcd" : "486802"
+				,"newZipcd" : "11014"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.075298242256
+				,"lat" : 38.107104421141
+				}
+				,{
+				"bizesId" : "MA0106202509A1358495"
+				,"bizesNm" : "연천종로약국"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G215"
+				,"indsMclsNm" : "의약·화장품 소매"
+				,"indsSclsCd" : "G21502"
+				,"indsSclsNm" : "의료기기 소매업"
+				,"ksicCd" : "G47811"
+				,"ksicNm" : "의약품 및 의료용품 소매업"
+				,"ctprvnCd" : "41"
+				,"ctprvnNm" : "경기도"
+				,"signguCd" : "41800"
+				,"signguNm" : "연천군"
+				,"adongCd" : "41800250"
+				,"adongNm" : "연천읍"
+				,"ldongCd" : "4180025021"
+				,"ldongNm" : "연천읍"
+				,"lnoCd" : "4180025021100510031"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 51
+				,"lnoSlno" : 31
+				,"lnoAdr" : "경기도 연천군 연천읍 차탄리 51-31"
+				,"rdnmCd" : "418003215031"
+				,"rdnm" : "경기도 연천군 연천읍 연천역로"
+				,"bldMnno" : 1
+				,"bldSlno" : ""
+				,"bldMngNo" : "4180025021100510031010797"
+				,"bldNm" : ""
+				,"rdnmAdr" : "경기도 연천군 연천읍 연천역로 1"
+				,"oldZipcd" : "486803"
+				,"newZipcd" : "11013"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.075429525872
+				,"lat" : 38.1017168756062
+				}
+				,{
+				"bizesId" : "MA0106202507A2395038"
+				,"bizesNm" : "안제리나베이커리연천점"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I210"
+				,"indsMclsNm" : "기타 간이"
+				,"indsSclsCd" : "I21001"
+				,"indsSclsNm" : "빵/도넛"
+				,"ksicCd" : "I56191"
+				,"ksicNm" : "제과점업"
+				,"ctprvnCd" : "41"
+				,"ctprvnNm" : "경기도"
+				,"signguCd" : "41800"
+				,"signguNm" : "연천군"
+				,"adongCd" : "41800250"
+				,"adongNm" : "연천읍"
+				,"ldongCd" : "4180025021"
+				,"ldongNm" : "연천읍"
+				,"lnoCd" : "4180025021100590040"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 59
+				,"lnoSlno" : 40
+				,"lnoAdr" : "경기도 연천군 연천읍 차탄리 59-40"
+				,"rdnmCd" : "418003215031"
+				,"rdnm" : "경기도 연천군 연천읍 연천역로"
+				,"bldMnno" : 14
+				,"bldSlno" : 1
+				,"bldMngNo" : "4180025021100590040010827"
+				,"bldNm" : ""
+				,"rdnmAdr" : "경기도 연천군 연천읍 연천역로 14-1"
+				,"oldZipcd" : "486803"
+				,"newZipcd" : "11016"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.07651196969
+				,"lat" : 38.1010855361681
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 3,
+		"totalCount" : 205	}
+}

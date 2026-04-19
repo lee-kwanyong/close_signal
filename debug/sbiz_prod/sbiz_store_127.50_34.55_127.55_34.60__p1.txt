@@ -1,0 +1,303 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA0101202406A0119404"
+				,"bizesNm" : "미르마루갤러리"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G218"
+				,"indsMclsNm" : "장식품 소매"
+				,"indsSclsCd" : "G21801"
+				,"indsSclsNm" : "예술품 소매업"
+				,"ksicCd" : "G47841"
+				,"ksicNm" : "예술품 및 골동품 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46770"
+				,"signguNm" : "고흥군"
+				,"adongCd" : "46770440"
+				,"adongNm" : "영남면"
+				,"ldongCd" : "4677044024"
+				,"ldongNm" : "영남면"
+				,"lnoCd" : "4677044024100690000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 69
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 고흥군 영남면 우천리 69"
+				,"rdnmCd" : "467703289033"
+				,"rdnm" : "전라남도 고흥군 영남면 해맞이로"
+				,"bldMnno" : 1033
+				,"bldSlno" : ""
+				,"bldMngNo" : "4677044024100690000071453"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 고흥군 영남면 해맞이로 1033"
+				,"oldZipcd" : "548822"
+				,"newZipcd" : "59521"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.503060620651
+				,"lat" : 34.5946711729063
+				}
+				,{
+				"bizesId" : "MA0101202305A0080164"
+				,"bizesNm" : "미르마루갤러리&카페"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I212"
+				,"indsMclsNm" : "비알코올 "
+				,"indsSclsCd" : "I21201"
+				,"indsSclsNm" : "카페"
+				,"ksicCd" : "I56221"
+				,"ksicNm" : "커피 전문점"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46770"
+				,"signguNm" : "고흥군"
+				,"adongCd" : "46770440"
+				,"adongNm" : "영남면"
+				,"ldongCd" : "4677044024"
+				,"ldongNm" : "영남면"
+				,"lnoCd" : "4677044024100690000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 69
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 고흥군 영남면 우천리 69"
+				,"rdnmCd" : "467703289033"
+				,"rdnm" : "전라남도 고흥군 영남면 해맞이로"
+				,"bldMnno" : 1033
+				,"bldSlno" : ""
+				,"bldMngNo" : "4677044024100690000071453"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 고흥군 영남면 해맞이로 1033"
+				,"oldZipcd" : "548822"
+				,"newZipcd" : "59521"
+				,"dongNo" : ""
+				,"flrNo" : "1"
+				,"hoNo" : ""
+				,"lon" : 127.503060620651
+				,"lat" : 34.5946711729063
+				}
+				,{
+				"bizesId" : "MA010120220810121641"
+				,"bizesNm" : "용궁민박"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55104"
+				,"ksicNm" : "민박업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46770"
+				,"signguNm" : "고흥군"
+				,"adongCd" : "46770440"
+				,"adongNm" : "영남면"
+				,"ldongCd" : "4677044024"
+				,"ldongNm" : "영남면"
+				,"lnoCd" : "4677044024100570009"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 57
+				,"lnoSlno" : 9
+				,"lnoAdr" : "전라남도 고흥군 영남면 우천리 57-9"
+				,"rdnmCd" : "467704667527"
+				,"rdnm" : "전라남도 고흥군 영남면 용바위길"
+				,"bldMnno" : 9
+				,"bldSlno" : ""
+				,"bldMngNo" : "4677044024100630002060211"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 고흥군 영남면 용바위길 9"
+				,"oldZipcd" : "548822"
+				,"newZipcd" : "59521"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.504726585478
+				,"lat" : 34.5943668213748
+				}
+				,{
+				"bizesId" : "MA010120220807863859"
+				,"bizesNm" : "용암식당"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46770"
+				,"signguNm" : "고흥군"
+				,"adongCd" : "46770440"
+				,"adongNm" : "영남면"
+				,"ldongCd" : "4677044024"
+				,"ldongNm" : "영남면"
+				,"lnoCd" : "4677044024100570006"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 57
+				,"lnoSlno" : 6
+				,"lnoAdr" : "전라남도 고흥군 영남면 우천리 57-6"
+				,"rdnmCd" : "467704667527"
+				,"rdnm" : "전라남도 고흥군 영남면 용바위길"
+				,"bldMnno" : 23
+				,"bldSlno" : ""
+				,"bldMngNo" : "4677044024100570006060171"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 고흥군 영남면 용바위길 23"
+				,"oldZipcd" : "548822"
+				,"newZipcd" : "59521"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.50580408366
+				,"lat" : 34.5940919306396
+				}
+				,{
+				"bizesId" : "MA0101202411A0057464"
+				,"bizesNm" : "용암민박"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55104"
+				,"ksicNm" : "민박업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46770"
+				,"signguNm" : "고흥군"
+				,"adongCd" : "46770440"
+				,"adongNm" : "영남면"
+				,"ldongCd" : "4677044024"
+				,"ldongNm" : "영남면"
+				,"lnoCd" : "4677044024100570006"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 57
+				,"lnoSlno" : 6
+				,"lnoAdr" : "전라남도 고흥군 영남면 우천리 57-6"
+				,"rdnmCd" : "467704667527"
+				,"rdnm" : "전라남도 고흥군 영남면 용바위길"
+				,"bldMnno" : 23
+				,"bldSlno" : ""
+				,"bldMngNo" : "4677044024100570006060171"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 고흥군 영남면 용바위길 23"
+				,"oldZipcd" : "548822"
+				,"newZipcd" : "59521"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.50580408366
+				,"lat" : 34.5940919306396
+				}
+				,{
+				"bizesId" : "MA010120220804381132"
+				,"bizesNm" : "낭도거기휴게소"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G204"
+				,"indsMclsNm" : "종합 소매"
+				,"indsSclsCd" : "G20404"
+				,"indsSclsNm" : "슈퍼마켓"
+				,"ksicCd" : "G47129"
+				,"ksicNm" : "기타 음ㆍ식료품 위주 종합 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46130"
+				,"signguNm" : "여수시"
+				,"adongCd" : "46130350"
+				,"adongNm" : "화정면"
+				,"ldongCd" : "4613035027"
+				,"ldongNm" : "화정면"
+				,"lnoCd" : "4613035027105600000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 560
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 여수시 화정면 낭도리 560"
+				,"rdnmCd" : "461304646674"
+				,"rdnm" : "전라남도 여수시 화정면 여산길"
+				,"bldMnno" : 142
+				,"bldSlno" : 26
+				,"bldMngNo" : "4613035027105600000002112"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 여수시 화정면 여산길 142-26"
+				,"oldZipcd" : "556832"
+				,"newZipcd" : "59781"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.540147346142
+				,"lat" : 34.5984428785139
+				}
+				,{
+				"bizesId" : "MA010120220813250106"
+				,"bizesNm" : "산타바휴게소"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G204"
+				,"indsMclsNm" : "종합 소매"
+				,"indsSclsCd" : "G20404"
+				,"indsSclsNm" : "슈퍼마켓"
+				,"ksicCd" : "G47129"
+				,"ksicNm" : "기타 음ㆍ식료품 위주 종합 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46130"
+				,"signguNm" : "여수시"
+				,"adongCd" : "46130350"
+				,"adongNm" : "화정면"
+				,"ldongCd" : "4613035027"
+				,"ldongNm" : "화정면"
+				,"lnoCd" : "4613035027104910000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 491
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 여수시 화정면 낭도리 491"
+				,"rdnmCd" : "461304646674"
+				,"rdnm" : "전라남도 여수시 화정면 여산길"
+				,"bldMnno" : 209
+				,"bldSlno" : 20
+				,"bldMngNo" : "4613035027104910000000002"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 여수시 화정면 여산길 209-20"
+				,"oldZipcd" : "556832"
+				,"newZipcd" : "59781"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.548915355835
+				,"lat" : 34.5989716505434
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 1,
+		"totalCount" : 7	}
+}

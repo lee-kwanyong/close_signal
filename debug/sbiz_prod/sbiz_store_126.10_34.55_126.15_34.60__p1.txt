@@ -1,0 +1,344 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA010120220810041910"
+				,"bizesNm" : "선창길가든"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46910"
+				,"signguNm" : "신안군"
+				,"adongCd" : "46910380"
+				,"adongNm" : "신의면"
+				,"ldongCd" : "4691038022"
+				,"ldongNm" : "신의면"
+				,"lnoCd" : "4691038022100940002"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 94
+				,"lnoSlno" : 2
+				,"lnoAdr" : "전라남도 신안군 신의면 상태동리 94-2"
+				,"rdnmCd" : "469104706082"
+				,"rdnm" : "전라남도 신안군 신의면 동리선착장길"
+				,"bldMnno" : 138
+				,"bldSlno" : 20
+				,"bldMngNo" : "4691038022100940002000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 신안군 신의면 동리선착장길 138-20"
+				,"oldZipcd" : "535942"
+				,"newZipcd" : "58857"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.102535985844
+				,"lat" : 34.5926422246638
+				}
+				,{
+				"bizesId" : "MA010120220804329842"
+				,"bizesNm" : "선창길민박"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55104"
+				,"ksicNm" : "민박업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46910"
+				,"signguNm" : "신안군"
+				,"adongCd" : "46910380"
+				,"adongNm" : "신의면"
+				,"ldongCd" : "4691038022"
+				,"ldongNm" : "신의면"
+				,"lnoCd" : "4691038022100940001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 94
+				,"lnoSlno" : 1
+				,"lnoAdr" : "전라남도 신안군 신의면 상태동리 94-1"
+				,"rdnmCd" : "469104706082"
+				,"rdnm" : "전라남도 신안군 신의면 동리선착장길"
+				,"bldMnno" : 138
+				,"bldSlno" : 22
+				,"bldMngNo" : "4691038022100940001000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 신안군 신의면 동리선착장길 138-22"
+				,"oldZipcd" : "535942"
+				,"newZipcd" : "58857"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.102723114199
+				,"lat" : 34.5924723339819
+				}
+				,{
+				"bizesId" : "MA0101202211A0058740"
+				,"bizesNm" : "해오름가든"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46910"
+				,"signguNm" : "신안군"
+				,"adongCd" : "46910380"
+				,"adongNm" : "신의면"
+				,"ldongCd" : "4691038022"
+				,"ldongNm" : "신의면"
+				,"lnoCd" : "4691038022100980025"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 98
+				,"lnoSlno" : 25
+				,"lnoAdr" : "전라남도 신안군 신의면 상태동리 98-25"
+				,"rdnmCd" : "469104706082"
+				,"rdnm" : "전라남도 신안군 신의면 동리선착장길"
+				,"bldMnno" : 138
+				,"bldSlno" : 37
+				,"bldMngNo" : "4691038022100980025000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 신안군 신의면 동리선착장길 138-37"
+				,"oldZipcd" : "535942"
+				,"newZipcd" : "58857"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.103181853532
+				,"lat" : 34.5944137254012
+				}
+				,{
+				"bizesId" : "MA010120220813684627"
+				,"bizesNm" : "신안천일염생산자협동조합"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G205"
+				,"indsMclsNm" : "식료품 소매"
+				,"indsSclsCd" : "G20509"
+				,"indsSclsNm" : "반찬/식료품 소매업"
+				,"ksicCd" : "G47219"
+				,"ksicNm" : "기타 식료품 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46910"
+				,"signguNm" : "신안군"
+				,"adongCd" : "46910380"
+				,"adongNm" : "신의면"
+				,"ldongCd" : "4691038022"
+				,"ldongNm" : "신의면"
+				,"lnoCd" : "4691038022104250002"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 425
+				,"lnoSlno" : 2
+				,"lnoAdr" : "전라남도 신안군 신의면 상태동리 425-2"
+				,"rdnmCd" : "469104706082"
+				,"rdnm" : "전라남도 신안군 신의면 동리선착장길"
+				,"bldMnno" : 88
+				,"bldSlno" : 6
+				,"bldMngNo" : "4691038022100000003000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 신안군 신의면 동리선착장길 88-6"
+				,"oldZipcd" : "535942"
+				,"newZipcd" : "58857"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.10690060363
+				,"lat" : 34.5911959434193
+				}
+				,{
+				"bizesId" : "MA0101202307A0106543"
+				,"bizesNm" : "선착장매점"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G204"
+				,"indsMclsNm" : "종합 소매"
+				,"indsSclsCd" : "G20404"
+				,"indsSclsNm" : "슈퍼마켓"
+				,"ksicCd" : "G47129"
+				,"ksicNm" : "기타 음ㆍ식료품 위주 종합 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46910"
+				,"signguNm" : "신안군"
+				,"adongCd" : "46910380"
+				,"adongNm" : "신의면"
+				,"ldongCd" : "4691038022"
+				,"ldongNm" : "신의면"
+				,"lnoCd" : "4691038022100010016"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 1
+				,"lnoSlno" : 16
+				,"lnoAdr" : "전라남도 신안군 신의면 상태동리 1-16"
+				,"rdnmCd" : "469104706082"
+				,"rdnm" : "전라남도 신안군 신의면 동리선착장길"
+				,"bldMnno" : 19
+				,"bldSlno" : ""
+				,"bldMngNo" : "4691038022100010016000001"
+				,"bldNm" : "매점신의동리항여객선터미널"
+				,"rdnmAdr" : "전라남도 신안군 신의면 동리선착장길 19"
+				,"oldZipcd" : "535942"
+				,"newZipcd" : "58857"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.110627994048
+				,"lat" : 34.5891859905386
+				}
+				,{
+				"bizesId" : "MA010120220814085417"
+				,"bizesNm" : "대중민박"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55104"
+				,"ksicNm" : "민박업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46910"
+				,"signguNm" : "신안군"
+				,"adongCd" : "46910380"
+				,"adongNm" : "신의면"
+				,"ldongCd" : "4691038025"
+				,"ldongNm" : "신의면"
+				,"lnoCd" : "4691038025102800000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 280
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 신안군 신의면 고평사도리 280"
+				,"rdnmCd" : "469104706336"
+				,"rdnm" : "전라남도 신안군 신의면 평사길"
+				,"bldMnno" : 63
+				,"bldSlno" : ""
+				,"bldMngNo" : "4691038025102800000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 신안군 신의면 평사길 63"
+				,"oldZipcd" : "535941"
+				,"newZipcd" : "58857"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.14627856296
+				,"lat" : 34.5787498928648
+				}
+				,{
+				"bizesId" : "MA010120220812456673"
+				,"bizesNm" : "평사민박"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55104"
+				,"ksicNm" : "민박업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46910"
+				,"signguNm" : "신안군"
+				,"adongCd" : "46910380"
+				,"adongNm" : "신의면"
+				,"ldongCd" : "4691038025"
+				,"ldongNm" : "신의면"
+				,"lnoCd" : "4691038025102430000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 243
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 신안군 신의면 고평사도리 243"
+				,"rdnmCd" : "469104706336"
+				,"rdnm" : "전라남도 신안군 신의면 평사길"
+				,"bldMnno" : 55
+				,"bldSlno" : ""
+				,"bldMngNo" : "4691038025102430000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 신안군 신의면 평사길 55"
+				,"oldZipcd" : "535941"
+				,"newZipcd" : "58857"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.146500501115
+				,"lat" : 34.5794275026302
+				}
+				,{
+				"bizesId" : "MA010120220804850207"
+				,"bizesNm" : "화숙민박"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55104"
+				,"ksicNm" : "민박업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46910"
+				,"signguNm" : "신안군"
+				,"adongCd" : "46910380"
+				,"adongNm" : "신의면"
+				,"ldongCd" : "4691038025"
+				,"ldongNm" : "신의면"
+				,"lnoCd" : "4691038025102620001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 262
+				,"lnoSlno" : 1
+				,"lnoAdr" : "전라남도 신안군 신의면 고평사도리 262-1"
+				,"rdnmCd" : "469104706336"
+				,"rdnm" : "전라남도 신안군 신의면 평사길"
+				,"bldMnno" : 42
+				,"bldSlno" : ""
+				,"bldMngNo" : "4691038025102620001000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 신안군 신의면 평사길 42"
+				,"oldZipcd" : "535941"
+				,"newZipcd" : "58857"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.147597442754
+				,"lat" : 34.5787320689133
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 1,
+		"totalCount" : 8	}
+}

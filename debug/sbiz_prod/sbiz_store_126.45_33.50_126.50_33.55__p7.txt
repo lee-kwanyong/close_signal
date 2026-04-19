@@ -1,0 +1,221 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA0106202508A0836631"
+				,"bizesNm" : "제주도두트로피칼풀빌라펜션"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55102"
+				,"ksicNm" : "여관업"
+				,"ctprvnCd" : "50"
+				,"ctprvnNm" : "제주특별자치도"
+				,"signguCd" : "50110"
+				,"signguNm" : "제주시"
+				,"adongCd" : "50110690"
+				,"adongNm" : "도두동"
+				,"ldongCd" : "5011012700"
+				,"ldongNm" : "도두일동"
+				,"lnoCd" : "5011012700124360007"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 2436
+				,"lnoSlno" : 7
+				,"lnoAdr" : "제주특별자치도 제주시 도두일동 2436-7"
+				,"rdnmCd" : "501104847545"
+				,"rdnm" : "제주특별자치도 제주시 도리중길"
+				,"bldMnno" : 25
+				,"bldSlno" : ""
+				,"bldMngNo" : "5011012700124360007000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "제주특별자치도 제주시 도리중길 25"
+				,"oldZipcd" : "690241"
+				,"newZipcd" : "63112"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.463887613464
+				,"lat" : 33.5021176202749
+				}
+				,{
+				"bizesId" : "MA0106202511A2444737"
+				,"bizesNm" : "수당구클럽"
+				,"brchNm" : ""
+				,"indsLclsCd" : "R1"
+				,"indsLclsNm" : "예술·스포츠"
+				,"indsMclsCd" : "R103"
+				,"indsMclsNm" : "스포츠 서비스"
+				,"indsSclsCd" : "R10310"
+				,"indsSclsNm" : "당구장"
+				,"ksicCd" : "R91135"
+				,"ksicNm" : "당구장 운영업"
+				,"ctprvnCd" : "50"
+				,"ctprvnNm" : "제주특별자치도"
+				,"signguCd" : "50110"
+				,"signguNm" : "제주시"
+				,"adongCd" : "50110690"
+				,"adongNm" : "도두동"
+				,"ldongCd" : "5011012700"
+				,"ldongNm" : "도두일동"
+				,"lnoCd" : "5011012700126260005"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 2626
+				,"lnoSlno" : 5
+				,"lnoAdr" : "제주특별자치도 제주시 도두일동 2626-5"
+				,"rdnmCd" : "501103349093"
+				,"rdnm" : "제주특별자치도 제주시 서해안로"
+				,"bldMnno" : 161
+				,"bldSlno" : ""
+				,"bldMngNo" : "5011012700126260005000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "제주특별자치도 제주시 서해안로 161"
+				,"oldZipcd" : "690241"
+				,"newZipcd" : "63113"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.466049854988
+				,"lat" : 33.5040112774727
+				}
+				,{
+				"bizesId" : "MA0106202510A2470331"
+				,"bizesNm" : "파리크라상파리바게뜨제주공항국제선점"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I210"
+				,"indsMclsNm" : "기타 간이"
+				,"indsSclsCd" : "I21001"
+				,"indsSclsNm" : "빵/도넛"
+				,"ksicCd" : "I56191"
+				,"ksicNm" : "제과점업"
+				,"ctprvnCd" : "50"
+				,"ctprvnNm" : "제주특별자치도"
+				,"signguCd" : "50110"
+				,"signguNm" : "제주시"
+				,"adongCd" : "50110580"
+				,"adongNm" : "용담2동"
+				,"ldongCd" : "5011010900"
+				,"ldongNm" : "용담이동"
+				,"lnoCd" : "5011010900120020000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 2002
+				,"lnoSlno" : ""
+				,"lnoAdr" : "제주특별자치도 제주시 용담이동 2002"
+				,"rdnmCd" : "501103349012"
+				,"rdnm" : "제주특별자치도 제주시 공항로"
+				,"bldMnno" : 2
+				,"bldSlno" : ""
+				,"bldMngNo" : "5011010900120020000012515"
+				,"bldNm" : ""
+				,"rdnmAdr" : "제주특별자치도 제주시 공항로 2"
+				,"oldZipcd" : "690727"
+				,"newZipcd" : "63115"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.495956962825
+				,"lat" : 33.5059397371195
+				}
+				,{
+				"bizesId" : "MA0106202511A0374277"
+				,"bizesNm" : "미도인제주"
+				,"brchNm" : "공항점"
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "50"
+				,"ctprvnNm" : "제주특별자치도"
+				,"signguCd" : "50110"
+				,"signguNm" : "제주시"
+				,"adongCd" : "50110580"
+				,"adongNm" : "용담2동"
+				,"ldongCd" : "5011010900"
+				,"ldongNm" : "용담이동"
+				,"lnoCd" : "5011010900120020000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 2002
+				,"lnoSlno" : ""
+				,"lnoAdr" : "제주특별자치도 제주시 용담이동 2002"
+				,"rdnmCd" : "501103349012"
+				,"rdnm" : "제주특별자치도 제주시 공항로"
+				,"bldMnno" : 2
+				,"bldSlno" : ""
+				,"bldMngNo" : "5011010900120020000012515"
+				,"bldNm" : ""
+				,"rdnmAdr" : "제주특별자치도 제주시 공항로 2"
+				,"oldZipcd" : "690727"
+				,"newZipcd" : "63115"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.495956962825
+				,"lat" : 33.5059397371195
+				}
+				,{
+				"bizesId" : "MA0106202509A0388031"
+				,"bizesNm" : "영림농수산"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G221"
+				,"indsMclsNm" : "기타 상품 소매"
+				,"indsSclsCd" : "G22199"
+				,"indsSclsNm" : "그 외 기타 상품 전문 소매업"
+				,"ksicCd" : "G47859"
+				,"ksicNm" : "그 외 기타 분류 안된 상품 전문 소매업"
+				,"ctprvnCd" : "50"
+				,"ctprvnNm" : "제주특별자치도"
+				,"signguCd" : "50110"
+				,"signguNm" : "제주시"
+				,"adongCd" : "50110580"
+				,"adongNm" : "용담2동"
+				,"ldongCd" : "5011010900"
+				,"ldongNm" : "용담이동"
+				,"lnoCd" : "5011010900115270002"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 1527
+				,"lnoSlno" : 2
+				,"lnoAdr" : "제주특별자치도 제주시 용담이동 1527-2"
+				,"rdnmCd" : "501103349154"
+				,"rdnm" : "제주특별자치도 제주시 용문로"
+				,"bldMnno" : 26
+				,"bldSlno" : 7
+				,"bldMngNo" : "5011010900115270002000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "제주특별자치도 제주시 용문로 26-7"
+				,"oldZipcd" : "690821"
+				,"newZipcd" : "63164"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.497891841772
+				,"lat" : 33.5044780020871
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 7,
+		"totalCount" : 605	}
+}

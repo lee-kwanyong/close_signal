@@ -1,4 +1,4 @@
-import { toText, toNullableNumber, toNumber } from "@/lib/format";
+import { toText, toNullableNumber } from "@/lib/format";
 
 export type RankingRow = Record<string, unknown>;
 
@@ -32,19 +32,11 @@ export function getRankingRiskGrade(row: RankingRow) {
 }
 
 export function getRankingSignalCount(row: RankingRow) {
-  return (
-    toNullableNumber(row.signal_count) ??
-    toNullableNumber(row.signals_count) ??
-    0
-  );
+  return toNullableNumber(row.signal_count) ?? toNullableNumber(row.signals_count) ?? 0;
 }
 
 export function getRankingBusinessCount(row: RankingRow) {
-  return (
-    toNullableNumber(row.business_count) ??
-    toNullableNumber(row.sample_size) ??
-    0
-  );
+  return toNullableNumber(row.business_count) ?? toNullableNumber(row.sample_size) ?? 0;
 }
 
 export function getRankingChangeValue(row: RankingRow) {

@@ -1,0 +1,262 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA0101202406A0537688"
+				,"bizesNm" : "팔금도신재생에너지주민군협동조합"
+				,"brchNm" : ""
+				,"indsLclsCd" : "N1"
+				,"indsLclsNm" : "시설관리·임대"
+				,"indsMclsCd" : "N101"
+				,"indsMclsNm" : "시설관리"
+				,"indsSclsCd" : "N10101"
+				,"indsSclsNm" : "사업시설 유지·관리 서비스업"
+				,"ksicCd" : "N74100"
+				,"ksicNm" : "사업시설 유지ㆍ관리 서비스업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46910"
+				,"signguNm" : "신안군"
+				,"adongCd" : "46910410"
+				,"adongNm" : "팔금면"
+				,"ldongCd" : "4691041027"
+				,"ldongNm" : "팔금면"
+				,"lnoCd" : "4691041027104190000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 419
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 신안군 팔금면 당고리 419"
+				,"rdnmCd" : "469104706146"
+				,"rdnm" : "전라남도 신안군 팔금면 삼층석탑길"
+				,"bldMnno" : 275
+				,"bldSlno" : 34
+				,"bldMngNo" : "4691041027104190000000002"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 신안군 팔금면 삼층석탑길 275-34"
+				,"oldZipcd" : "535851"
+				,"newZipcd" : "58837"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.15024092745
+				,"lat" : 34.7917230924147
+				}
+				,{
+				"bizesId" : "MA0101202305A0104117"
+				,"bizesNm" : "황금정원"
+				,"brchNm" : ""
+				,"indsLclsCd" : "N1"
+				,"indsLclsNm" : "시설관리·임대"
+				,"indsMclsCd" : "N103"
+				,"indsMclsNm" : "조경·유지"
+				,"indsSclsCd" : "N10301"
+				,"indsSclsNm" : "조경 유지·관리 서비스업"
+				,"ksicCd" : "N74300"
+				,"ksicNm" : "조경관리 및 유지 서비스업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46910"
+				,"signguNm" : "신안군"
+				,"adongCd" : "46910410"
+				,"adongNm" : "팔금면"
+				,"ldongCd" : "4691041025"
+				,"ldongNm" : "팔금면"
+				,"lnoCd" : "4691041025104560000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 456
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 신안군 팔금면 진고리 456"
+				,"rdnmCd" : "469104706227"
+				,"rdnm" : "전라남도 신안군 팔금면 오림안길"
+				,"bldMnno" : 9
+				,"bldSlno" : 9
+				,"bldMngNo" : "4691041025104560000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 신안군 팔금면 오림안길 9-9"
+				,"oldZipcd" : "535851"
+				,"newZipcd" : "58837"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.15123544398
+				,"lat" : 34.7789033867513
+				}
+				,{
+				"bizesId" : "MA010120220806785739"
+				,"bizesNm" : "법인루마"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G205"
+				,"indsMclsNm" : "식료품 소매"
+				,"indsSclsCd" : "G20506"
+				,"indsSclsNm" : "채소/과일 소매업"
+				,"ksicCd" : "G47215"
+				,"ksicNm" : "채소, 과실 및 뿌리작물 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46910"
+				,"signguNm" : "신안군"
+				,"adongCd" : "46910400"
+				,"adongNm" : "안좌면"
+				,"ldongCd" : "4691040021"
+				,"ldongNm" : "안좌면"
+				,"lnoCd" : "4691040021102460000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 246
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 신안군 안좌면 금산리 246"
+				,"rdnmCd" : "469104706205"
+				,"rdnm" : "전라남도 신안군 안좌면 안좌동부길"
+				,"bldMnno" : 482
+				,"bldSlno" : 28
+				,"bldMngNo" : "4691040021102460000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 신안군 안좌면 안좌동부길 482-28"
+				,"oldZipcd" : "535842"
+				,"newZipcd" : "58841"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.158574347757
+				,"lat" : 34.7554642748793
+				}
+				,{
+				"bizesId" : "MA010120220807685620"
+				,"bizesNm" : "동백횟집"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20111"
+				,"indsSclsNm" : "횟집"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46910"
+				,"signguNm" : "신안군"
+				,"adongCd" : "46910410"
+				,"adongNm" : "팔금면"
+				,"ldongCd" : "4691041027"
+				,"ldongNm" : "팔금면"
+				,"lnoCd" : "4691041027100230001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 23
+				,"lnoSlno" : 1
+				,"lnoAdr" : "전라남도 신안군 팔금면 당고리 23-1"
+				,"rdnmCd" : "469104706146"
+				,"rdnm" : "전라남도 신안군 팔금면 삼층석탑길"
+				,"bldMnno" : 449
+				,"bldSlno" : ""
+				,"bldMngNo" : "4691041027100230001000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 신안군 팔금면 삼층석탑길 449"
+				,"oldZipcd" : "535851"
+				,"newZipcd" : "58837"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.168600490353
+				,"lat" : 34.7935625143482
+				}
+				,{
+				"bizesId" : "MA010120220811674101"
+				,"bizesNm" : "팔금맛집"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20111"
+				,"indsSclsNm" : "횟집"
+				,"ksicCd" : "I56114"
+				,"ksicNm" : "한식 해산물 요리 전문점"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46910"
+				,"signguNm" : "신안군"
+				,"adongCd" : "46910410"
+				,"adongNm" : "팔금면"
+				,"ldongCd" : "4691041027"
+				,"ldongNm" : "팔금면"
+				,"lnoCd" : "4691041027100210001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 21
+				,"lnoSlno" : 1
+				,"lnoAdr" : "전라남도 신안군 팔금면 당고리 21-1"
+				,"rdnmCd" : "469104706146"
+				,"rdnm" : "전라남도 신안군 팔금면 삼층석탑길"
+				,"bldMnno" : 455
+				,"bldSlno" : ""
+				,"bldMngNo" : "4691041027100210001000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 신안군 팔금면 삼층석탑길 455"
+				,"oldZipcd" : "535851"
+				,"newZipcd" : "58837"
+				,"dongNo" : ""
+				,"flrNo" : "1"
+				,"hoNo" : ""
+				,"lon" : 126.169408637838
+				,"lat" : 34.7936040874421
+				}
+				,{
+				"bizesId" : "MA0101202406A0443345"
+				,"bizesNm" : "카페레스토랑시하바다"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46910"
+				,"signguNm" : "신안군"
+				,"adongCd" : "46910410"
+				,"adongNm" : "팔금면"
+				,"ldongCd" : "4691041027"
+				,"ldongNm" : "팔금면"
+				,"lnoCd" : "4691041027100200002"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 20
+				,"lnoSlno" : 2
+				,"lnoAdr" : "전라남도 신안군 팔금면 당고리 20-2"
+				,"rdnmCd" : "469104706146"
+				,"rdnm" : "전라남도 신안군 팔금면 삼층석탑길"
+				,"bldMnno" : 473
+				,"bldSlno" : ""
+				,"bldMngNo" : "4691041027100200001000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 신안군 팔금면 삼층석탑길 473"
+				,"oldZipcd" : "535851"
+				,"newZipcd" : "58837"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.171207517856
+				,"lat" : 34.7940039443544
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 1,
+		"totalCount" : 6	}
+}

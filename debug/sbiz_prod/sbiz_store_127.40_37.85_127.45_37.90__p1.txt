@@ -1,0 +1,303 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA0101202305A0120532"
+				,"bizesNm" : "포쉬카라반"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10104"
+				,"indsSclsNm" : "캠핑/글램핑"
+				,"ksicCd" : "I55109"
+				,"ksicNm" : "기타 일반 및 생활 숙박시설 운영업"
+				,"ctprvnCd" : "41"
+				,"ctprvnNm" : "경기도"
+				,"signguCd" : "41820"
+				,"signguNm" : "가평군"
+				,"adongCd" : "41820345"
+				,"adongNm" : "조종면"
+				,"ldongCd" : "4182034526"
+				,"ldongNm" : "조종면"
+				,"lnoCd" : "4182034526100080003"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 8
+				,"lnoSlno" : 3
+				,"lnoAdr" : "경기도 가평군 조종면 마일리 8-3"
+				,"rdnmCd" : "418203216030"
+				,"rdnm" : "경기도 가평군 조종면 연인산로"
+				,"bldMnno" : 670
+				,"bldSlno" : 272
+				,"bldMngNo" : "4182034526100080003000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "경기도 가평군 조종면 연인산로 670-272"
+				,"oldZipcd" : "477832"
+				,"newZipcd" : "12433"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.40113349661
+				,"lat" : 37.8547338179692
+				}
+				,{
+				"bizesId" : "MA0101202406A0319369"
+				,"bizesNm" : "김원장캠핑"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10104"
+				,"indsSclsNm" : "캠핑/글램핑"
+				,"ksicCd" : "I55109"
+				,"ksicNm" : "기타 일반 및 생활 숙박시설 운영업"
+				,"ctprvnCd" : "41"
+				,"ctprvnNm" : "경기도"
+				,"signguCd" : "41820"
+				,"signguNm" : "가평군"
+				,"adongCd" : "41820345"
+				,"adongNm" : "조종면"
+				,"ldongCd" : "4182034526"
+				,"ldongNm" : "조종면"
+				,"lnoCd" : "4182034526100070001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 7
+				,"lnoSlno" : 1
+				,"lnoAdr" : "경기도 가평군 조종면 마일리 7-1"
+				,"rdnmCd" : "418203216030"
+				,"rdnm" : "경기도 가평군 조종면 연인산로"
+				,"bldMnno" : 670
+				,"bldSlno" : 458
+				,"bldMngNo" : "4182034026100070001016508"
+				,"bldNm" : ""
+				,"rdnmAdr" : "경기도 가평군 조종면 연인산로 670-458"
+				,"oldZipcd" : "477832"
+				,"newZipcd" : "12433"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.401444245669
+				,"lat" : 37.8554625254219
+				}
+				,{
+				"bizesId" : "MA0101202409A0274984"
+				,"bizesNm" : "연인산농산물판매센터"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G205"
+				,"indsMclsNm" : "식료품 소매"
+				,"indsSclsCd" : "G20506"
+				,"indsSclsNm" : "채소/과일 소매업"
+				,"ksicCd" : "G47215"
+				,"ksicNm" : "채소, 과실 및 뿌리작물 소매업"
+				,"ctprvnCd" : "41"
+				,"ctprvnNm" : "경기도"
+				,"signguCd" : "41820"
+				,"signguNm" : "가평군"
+				,"adongCd" : "41820350"
+				,"adongNm" : "북면"
+				,"ldongCd" : "4182035026"
+				,"ldongNm" : "북면"
+				,"lnoCd" : "4182035026105270001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 527
+				,"lnoSlno" : 1
+				,"lnoAdr" : "경기도 가평군 북면 백둔리 527-1"
+				,"rdnmCd" : "418204448083"
+				,"rdnm" : "경기도 가평군 북면 백둔로467번길"
+				,"bldMnno" : 135
+				,"bldSlno" : ""
+				,"bldMngNo" : "4182035026105270001000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "경기도 가평군 북면 백둔로467번길 135"
+				,"oldZipcd" : "477842"
+				,"newZipcd" : "12406"
+				,"dongNo" : ""
+				,"flrNo" : "1"
+				,"hoNo" : ""
+				,"lon" : 127.448013346858
+				,"lat" : 37.8954765564627
+				}
+				,{
+				"bizesId" : "MA0101202410A1024077"
+				,"bizesNm" : "가평농산물판매센타"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G205"
+				,"indsMclsNm" : "식료품 소매"
+				,"indsSclsCd" : "G20506"
+				,"indsSclsNm" : "채소/과일 소매업"
+				,"ksicCd" : "G47215"
+				,"ksicNm" : "채소, 과실 및 뿌리작물 소매업"
+				,"ctprvnCd" : "41"
+				,"ctprvnNm" : "경기도"
+				,"signguCd" : "41820"
+				,"signguNm" : "가평군"
+				,"adongCd" : "41820350"
+				,"adongNm" : "북면"
+				,"ldongCd" : "4182035026"
+				,"ldongNm" : "북면"
+				,"lnoCd" : "4182035026105270001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 527
+				,"lnoSlno" : 1
+				,"lnoAdr" : "경기도 가평군 북면 백둔리 527-1"
+				,"rdnmCd" : "418204448083"
+				,"rdnm" : "경기도 가평군 북면 백둔로467번길"
+				,"bldMnno" : 135
+				,"bldSlno" : ""
+				,"bldMngNo" : "4182035026105270001000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "경기도 가평군 북면 백둔로467번길 135"
+				,"oldZipcd" : "477842"
+				,"newZipcd" : "12406"
+				,"dongNo" : ""
+				,"flrNo" : "1"
+				,"hoNo" : ""
+				,"lon" : 127.448013346858
+				,"lat" : 37.8954765564627
+				}
+				,{
+				"bizesId" : "MA0101202303A0110766"
+				,"bizesNm" : "팝펜션식당"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G204"
+				,"indsMclsNm" : "종합 소매"
+				,"indsSclsCd" : "G20404"
+				,"indsSclsNm" : "슈퍼마켓"
+				,"ksicCd" : "G47129"
+				,"ksicNm" : "기타 음ㆍ식료품 위주 종합 소매업"
+				,"ctprvnCd" : "41"
+				,"ctprvnNm" : "경기도"
+				,"signguCd" : "41820"
+				,"signguNm" : "가평군"
+				,"adongCd" : "41820350"
+				,"adongNm" : "북면"
+				,"ldongCd" : "4182035026"
+				,"ldongNm" : "북면"
+				,"lnoCd" : "4182035026105250000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 525
+				,"lnoSlno" : ""
+				,"lnoAdr" : "경기도 가평군 북면 백둔리 525"
+				,"rdnmCd" : "418204448083"
+				,"rdnm" : "경기도 가평군 북면 백둔로467번길"
+				,"bldMnno" : 124
+				,"bldSlno" : ""
+				,"bldMngNo" : "4182035026105250000011878"
+				,"bldNm" : ""
+				,"rdnmAdr" : "경기도 가평군 북면 백둔로467번길 124"
+				,"oldZipcd" : "477842"
+				,"newZipcd" : "12406"
+				,"dongNo" : ""
+				,"flrNo" : "1"
+				,"hoNo" : ""
+				,"lon" : 127.448075652242
+				,"lat" : 37.8963772579525
+				}
+				,{
+				"bizesId" : "MA010120220802192543"
+				,"bizesNm" : "팝펜션식당"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55109"
+				,"ksicNm" : "기타 일반 및 생활 숙박시설 운영업"
+				,"ctprvnCd" : "41"
+				,"ctprvnNm" : "경기도"
+				,"signguCd" : "41820"
+				,"signguNm" : "가평군"
+				,"adongCd" : "41820350"
+				,"adongNm" : "북면"
+				,"ldongCd" : "4182035026"
+				,"ldongNm" : "북면"
+				,"lnoCd" : "4182035026105250000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 525
+				,"lnoSlno" : ""
+				,"lnoAdr" : "경기도 가평군 북면 백둔리 525"
+				,"rdnmCd" : "418204448083"
+				,"rdnm" : "경기도 가평군 북면 백둔로467번길"
+				,"bldMnno" : 124
+				,"bldSlno" : ""
+				,"bldMngNo" : "4182035026105250000011878"
+				,"bldNm" : ""
+				,"rdnmAdr" : "경기도 가평군 북면 백둔로467번길 124"
+				,"oldZipcd" : "477842"
+				,"newZipcd" : "12406"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.448075652242
+				,"lat" : 37.8963772579525
+				}
+				,{
+				"bizesId" : "MA0101202409A0017132"
+				,"bizesNm" : "가평계곡호박펜션"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55104"
+				,"ksicNm" : "민박업"
+				,"ctprvnCd" : "41"
+				,"ctprvnNm" : "경기도"
+				,"signguCd" : "41820"
+				,"signguNm" : "가평군"
+				,"adongCd" : "41820350"
+				,"adongNm" : "북면"
+				,"ldongCd" : "4182035026"
+				,"ldongNm" : "북면"
+				,"lnoCd" : "4182035026105580000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 558
+				,"lnoSlno" : ""
+				,"lnoAdr" : "경기도 가평군 북면 백둔리 558"
+				,"rdnmCd" : "418204448083"
+				,"rdnm" : "경기도 가평군 북면 백둔로467번길"
+				,"bldMnno" : 101
+				,"bldSlno" : ""
+				,"bldMngNo" : "4182035026105460000048618"
+				,"bldNm" : ""
+				,"rdnmAdr" : "경기도 가평군 북면 백둔로467번길 101"
+				,"oldZipcd" : "477842"
+				,"newZipcd" : "12406"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.449073730389
+				,"lat" : 37.8978509934755
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 1,
+		"totalCount" : 7	}
+}

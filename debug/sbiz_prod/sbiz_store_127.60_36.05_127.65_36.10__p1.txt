@@ -1,0 +1,221 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA010120220805754454"
+				,"bizesNm" : "양각산펜션"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55109"
+				,"ksicNm" : "기타 일반 및 생활 숙박시설 운영업"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44710"
+				,"signguNm" : "금산군"
+				,"adongCd" : "44710330"
+				,"adongNm" : "부리면"
+				,"ldongCd" : "4471033030"
+				,"ldongNm" : "부리면"
+				,"lnoCd" : "4471033030100480000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 48
+				,"lnoSlno" : ""
+				,"lnoAdr" : "충청남도 금산군 부리면 수통리 48"
+				,"rdnmCd" : "447104857825"
+				,"rdnm" : "충청남도 금산군 부리면 양각산길"
+				,"bldMnno" : 69
+				,"bldSlno" : ""
+				,"bldMngNo" : "4471033030100480000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청남도 금산군 부리면 양각산길 69"
+				,"oldZipcd" : "312844"
+				,"newZipcd" : "32756"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.601066121437
+				,"lat" : 36.0564453595591
+				}
+				,{
+				"bizesId" : "MA0101202406A0535995"
+				,"bizesNm" : "금상"
+				,"brchNm" : ""
+				,"indsLclsCd" : "N1"
+				,"indsLclsNm" : "시설관리·임대"
+				,"indsMclsCd" : "N103"
+				,"indsMclsNm" : "조경·유지"
+				,"indsSclsCd" : "N10301"
+				,"indsSclsNm" : "조경 유지·관리 서비스업"
+				,"ksicCd" : "N74300"
+				,"ksicNm" : "조경관리 및 유지 서비스업"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44710"
+				,"signguNm" : "금산군"
+				,"adongCd" : "44710330"
+				,"adongNm" : "부리면"
+				,"ldongCd" : "4471033028"
+				,"ldongNm" : "부리면"
+				,"lnoCd" : "4471033028107580002"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 758
+				,"lnoSlno" : 2
+				,"lnoAdr" : "충청남도 금산군 부리면 어재리 758-2"
+				,"rdnmCd" : "447104571095"
+				,"rdnm" : "충청남도 금산군 부리면 농바우길"
+				,"bldMnno" : 366
+				,"bldSlno" : ""
+				,"bldMngNo" : "4471033028107580002000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청남도 금산군 부리면 농바우길 366"
+				,"oldZipcd" : "312844"
+				,"newZipcd" : "32762"
+				,"dongNo" : ""
+				,"flrNo" : "1"
+				,"hoNo" : ""
+				,"lon" : 127.601324764577
+				,"lat" : 36.0845977940781
+				}
+				,{
+				"bizesId" : "MA0101202306A0059876"
+				,"bizesNm" : "농바우민박"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55104"
+				,"ksicNm" : "민박업"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44710"
+				,"signguNm" : "금산군"
+				,"adongCd" : "44710330"
+				,"adongNm" : "부리면"
+				,"ldongCd" : "4471033028"
+				,"ldongNm" : "부리면"
+				,"lnoCd" : "4471033028107450007"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 745
+				,"lnoSlno" : 7
+				,"lnoAdr" : "충청남도 금산군 부리면 어재리 745-7"
+				,"rdnmCd" : "447104571095"
+				,"rdnm" : "충청남도 금산군 부리면 농바우길"
+				,"bldMnno" : 390
+				,"bldSlno" : ""
+				,"bldMngNo" : "4471033028107450007000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청남도 금산군 부리면 농바우길 390"
+				,"oldZipcd" : "312844"
+				,"newZipcd" : "32762"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.603386811428
+				,"lat" : 36.0841999112768
+				}
+				,{
+				"bizesId" : "MA010120220803258436"
+				,"bizesNm" : "푸르내마을순이네"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55104"
+				,"ksicNm" : "민박업"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44710"
+				,"signguNm" : "금산군"
+				,"adongCd" : "44710320"
+				,"adongNm" : "제원면"
+				,"ldongCd" : "4471032032"
+				,"ldongNm" : "제원면"
+				,"lnoCd" : "4471032032100390020"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 39
+				,"lnoSlno" : 20
+				,"lnoAdr" : "충청남도 금산군 제원면 용화리 39-20"
+				,"rdnmCd" : "447104571458"
+				,"rdnm" : "충청남도 금산군 제원면 용강2길"
+				,"bldMnno" : 41
+				,"bldSlno" : ""
+				,"bldMngNo" : "4471032032100390020033085"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청남도 금산군 제원면 용강2길 41"
+				,"oldZipcd" : "312822"
+				,"newZipcd" : "32720"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.605887444586
+				,"lat" : 36.0888735618241
+				}
+				,{
+				"bizesId" : "MA010120220813264128"
+				,"bizesNm" : "선셋파머스"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55104"
+				,"ksicNm" : "민박업"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44710"
+				,"signguNm" : "금산군"
+				,"adongCd" : "44710330"
+				,"adongNm" : "부리면"
+				,"ldongCd" : "4471033028"
+				,"ldongNm" : "부리면"
+				,"lnoCd" : "4471033028100430001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 43
+				,"lnoSlno" : 1
+				,"lnoAdr" : "충청남도 금산군 부리면 어재리 43-1"
+				,"rdnmCd" : "447104571426"
+				,"rdnm" : "충청남도 금산군 부리면 어재길"
+				,"bldMnno" : 28
+				,"bldSlno" : 141
+				,"bldMngNo" : "4471033028100430001000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청남도 금산군 부리면 어재길 28-141"
+				,"oldZipcd" : "312844"
+				,"newZipcd" : "32762"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.608436993849
+				,"lat" : 36.0768025133462
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 1,
+		"totalCount" : 5	}
+}

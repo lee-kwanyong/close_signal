@@ -1,0 +1,8 @@
+<response>
+	<header>
+		<resultCode>10</resultCode>
+		<resultMsg>INVALID_REQUEST_PARAMETER_ERROR</resultMsg>
+	</header>
+	<body>
+	</body>
+</response>

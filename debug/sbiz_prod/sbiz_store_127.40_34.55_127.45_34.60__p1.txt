@@ -1,0 +1,344 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA010120220813667430"
+				,"bizesNm" : "해창상회"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G204"
+				,"indsMclsNm" : "종합 소매"
+				,"indsSclsCd" : "G20404"
+				,"indsSclsNm" : "슈퍼마켓"
+				,"ksicCd" : "G47129"
+				,"ksicNm" : "기타 음ㆍ식료품 위주 종합 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46770"
+				,"signguNm" : "고흥군"
+				,"adongCd" : "46770350"
+				,"adongNm" : "포두면"
+				,"ldongCd" : "4677035032"
+				,"ldongNm" : "포두면"
+				,"lnoCd" : "4677035032101300000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 130
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 고흥군 포두면 오취리 130"
+				,"rdnmCd" : "467704667358"
+				,"rdnm" : "전라남도 고흥군 포두면 상오안길"
+				,"bldMnno" : 3
+				,"bldSlno" : ""
+				,"bldMngNo" : "4677035032101300000019279"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 고흥군 포두면 상오안길 3"
+				,"oldZipcd" : "548884"
+				,"newZipcd" : "59523"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.403602252306
+				,"lat" : 34.5698274510665
+				}
+				,{
+				"bizesId" : "MA010120220813515574"
+				,"bizesNm" : "오늘처럼"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I211"
+				,"indsMclsNm" : "주점"
+				,"indsSclsCd" : "I21104"
+				,"indsSclsNm" : "요리 주점"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46770"
+				,"signguNm" : "고흥군"
+				,"adongCd" : "46770440"
+				,"adongNm" : "영남면"
+				,"ldongCd" : "4677044022"
+				,"ldongNm" : "영남면"
+				,"lnoCd" : "4677044022108670003"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 867
+				,"lnoSlno" : 3
+				,"lnoAdr" : "전라남도 고흥군 영남면 금사리 867-3"
+				,"rdnmCd" : "467703289028"
+				,"rdnm" : "전라남도 고흥군 영남면 팔영로"
+				,"bldMnno" : 604
+				,"bldSlno" : 9
+				,"bldMngNo" : "4677044022108670003039720"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 고흥군 영남면 팔영로 604-9"
+				,"oldZipcd" : "548821"
+				,"newZipcd" : "59520"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.409412064698
+				,"lat" : 34.5901265057227
+				}
+				,{
+				"bizesId" : "MA0101202409A0263681"
+				,"bizesNm" : "동오동수산"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G205"
+				,"indsMclsNm" : "식료품 소매"
+				,"indsSclsCd" : "G20505"
+				,"indsSclsNm" : "수산물 소매업"
+				,"ksicCd" : "G47214"
+				,"ksicNm" : "신선, 냉동 및 기타 수산물 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46770"
+				,"signguNm" : "고흥군"
+				,"adongCd" : "46770350"
+				,"adongNm" : "포두면"
+				,"ldongCd" : "4677035032"
+				,"ldongNm" : "포두면"
+				,"lnoCd" : "4677035032102730003"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 273
+				,"lnoSlno" : 3
+				,"lnoAdr" : "전라남도 고흥군 포두면 오취리 273-3"
+				,"rdnmCd" : "467704667499"
+				,"rdnm" : "전라남도 고흥군 포두면 오취안길"
+				,"bldMnno" : 40
+				,"bldSlno" : 19
+				,"bldMngNo" : "4677035032102730003020664"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 고흥군 포두면 오취안길 40-19"
+				,"oldZipcd" : "548884"
+				,"newZipcd" : "59523"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.410303722472
+				,"lat" : 34.5630713569231
+				}
+				,{
+				"bizesId" : "MA0101202309A0065153"
+				,"bizesNm" : "굿라이프"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55104"
+				,"ksicNm" : "민박업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46770"
+				,"signguNm" : "고흥군"
+				,"adongCd" : "46770350"
+				,"adongNm" : "포두면"
+				,"ldongCd" : "4677035032"
+				,"ldongNm" : "포두면"
+				,"lnoCd" : "4677035032103140014"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 314
+				,"lnoSlno" : 14
+				,"lnoAdr" : "전라남도 고흥군 포두면 오취리 314-14"
+				,"rdnmCd" : "467704667499"
+				,"rdnm" : "전라남도 고흥군 포두면 오취안길"
+				,"bldMnno" : 55
+				,"bldSlno" : ""
+				,"bldMngNo" : "4677035032103140014000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 고흥군 포두면 오취안길 55"
+				,"oldZipcd" : "548884"
+				,"newZipcd" : "59523"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.410797430611
+				,"lat" : 34.563754790946
+				}
+				,{
+				"bizesId" : "MA0101202501A0003054"
+				,"bizesNm" : "사도구매점"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G204"
+				,"indsMclsNm" : "종합 소매"
+				,"indsSclsCd" : "G20404"
+				,"indsSclsNm" : "슈퍼마켓"
+				,"ksicCd" : "G47129"
+				,"ksicNm" : "기타 음ㆍ식료품 위주 종합 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46770"
+				,"signguNm" : "고흥군"
+				,"adongCd" : "46770440"
+				,"adongNm" : "영남면"
+				,"ldongCd" : "4677044022"
+				,"ldongNm" : "영남면"
+				,"lnoCd" : "4677044022107320019"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 732
+				,"lnoSlno" : 19
+				,"lnoAdr" : "전라남도 고흥군 영남면 금사리 732-19"
+				,"rdnmCd" : "467704667329"
+				,"rdnm" : "전라남도 고흥군 영남면 사도진해안길"
+				,"bldMnno" : 133
+				,"bldSlno" : ""
+				,"bldMngNo" : "4677044022107320019039553"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 고흥군 영남면 사도진해안길 133"
+				,"oldZipcd" : "548821"
+				,"newZipcd" : "59520"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.419153569326
+				,"lat" : 34.5829720902444
+				}
+				,{
+				"bizesId" : "MA0101202505A0010156"
+				,"bizesNm" : "해드리오"
+				,"brchNm" : ""
+				,"indsLclsCd" : "M1"
+				,"indsLclsNm" : "과학·기술"
+				,"indsMclsCd" : "M112"
+				,"indsMclsNm" : "전문 디자인"
+				,"indsSclsCd" : "M11203"
+				,"indsSclsNm" : "시각 디자인업"
+				,"ksicCd" : "M73203"
+				,"ksicNm" : "시각 디자인업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46770"
+				,"signguNm" : "고흥군"
+				,"adongCd" : "46770440"
+				,"adongNm" : "영남면"
+				,"ldongCd" : "4677044022"
+				,"ldongNm" : "영남면"
+				,"lnoCd" : "4677044022106440000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 644
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 고흥군 영남면 금사리 644"
+				,"rdnmCd" : "467704667330"
+				,"rdnm" : "전라남도 고흥군 영남면 사도해안길"
+				,"bldMnno" : 15
+				,"bldSlno" : 4
+				,"bldMngNo" : "4677044022106440000039622"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 고흥군 영남면 사도해안길 15-4"
+				,"oldZipcd" : "548821"
+				,"newZipcd" : "59520"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.41980381873
+				,"lat" : 34.5844031394836
+				}
+				,{
+				"bizesId" : "MA010120220807850889"
+				,"bizesNm" : "만호슈퍼"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G204"
+				,"indsMclsNm" : "종합 소매"
+				,"indsSclsCd" : "G20404"
+				,"indsSclsNm" : "슈퍼마켓"
+				,"ksicCd" : "G47129"
+				,"ksicNm" : "기타 음ㆍ식료품 위주 종합 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46770"
+				,"signguNm" : "고흥군"
+				,"adongCd" : "46770440"
+				,"adongNm" : "영남면"
+				,"ldongCd" : "4677044022"
+				,"ldongNm" : "영남면"
+				,"lnoCd" : "4677044022110950004"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 1095
+				,"lnoSlno" : 4
+				,"lnoAdr" : "전라남도 고흥군 영남면 금사리 1095-4"
+				,"rdnmCd" : "467703289028"
+				,"rdnm" : "전라남도 고흥군 영남면 팔영로"
+				,"bldMnno" : 721
+				,"bldSlno" : 5
+				,"bldMngNo" : "4677044022111010002039879"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 고흥군 영남면 팔영로 721-5"
+				,"oldZipcd" : "548821"
+				,"newZipcd" : "59520"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.420169936886
+				,"lat" : 34.5965081590388
+				}
+				,{
+				"bizesId" : "MA0101202406A0550039"
+				,"bizesNm" : "해창만길두솔라"
+				,"brchNm" : ""
+				,"indsLclsCd" : "M1"
+				,"indsLclsNm" : "과학·기술"
+				,"indsMclsCd" : "M107"
+				,"indsMclsNm" : "본사·경영 컨설팅"
+				,"indsSclsCd" : "M10703"
+				,"indsSclsNm" : "경영 컨설팅업"
+				,"ksicCd" : "M71531"
+				,"ksicNm" : "경영 컨설팅업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46770"
+				,"signguNm" : "고흥군"
+				,"adongCd" : "46770440"
+				,"adongNm" : "영남면"
+				,"ldongCd" : "4677044022"
+				,"ldongNm" : "영남면"
+				,"lnoCd" : "4677044022107320056"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 732
+				,"lnoSlno" : 56
+				,"lnoAdr" : "전라남도 고흥군 영남면 금사리 732-56"
+				,"rdnmCd" : "467704667329"
+				,"rdnm" : "전라남도 고흥군 영남면 사도진해안길"
+				,"bldMnno" : 163
+				,"bldSlno" : ""
+				,"bldMngNo" : "4677044022107320035040161"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 고흥군 영남면 사도진해안길 163"
+				,"oldZipcd" : "548821"
+				,"newZipcd" : "59520"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.421560548168
+				,"lat" : 34.584784701835
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 1,
+		"totalCount" : 8	}
+}

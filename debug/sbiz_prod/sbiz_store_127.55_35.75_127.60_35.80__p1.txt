@@ -1,0 +1,180 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA010120220807986801"
+				,"bizesNm" : "매산청풍"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G205"
+				,"indsMclsNm" : "식료품 소매"
+				,"indsSclsCd" : "G20506"
+				,"indsSclsNm" : "채소/과일 소매업"
+				,"ksicCd" : "G47215"
+				,"ksicNm" : "채소, 과실 및 뿌리작물 소매업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52740"
+				,"signguNm" : "장수군"
+				,"adongCd" : "52740360"
+				,"adongNm" : "계북면"
+				,"ldongCd" : "5274036021"
+				,"ldongNm" : "계북면"
+				,"lnoCd" : "5274036021105940000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 594
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전북특별자치도 장수군 계북면 월현리 594"
+				,"rdnmCd" : "527403276026"
+				,"rdnm" : "전북특별자치도 장수군 계북면 월현로"
+				,"bldMnno" : 323
+				,"bldSlno" : 23
+				,"bldMngNo" : "4574036021105940000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 장수군 계북면 월현로 323-23"
+				,"oldZipcd" : "597861"
+				,"newZipcd" : "55603"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.581205448372
+				,"lat" : 35.7831547929978
+				}
+				,{
+				"bizesId" : "MA010120220803378079"
+				,"bizesNm" : "산촌가든"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52740"
+				,"signguNm" : "장수군"
+				,"adongCd" : "52740360"
+				,"adongNm" : "계북면"
+				,"ldongCd" : "5274036021"
+				,"ldongNm" : "계북면"
+				,"lnoCd" : "5274036021102540000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 254
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전북특별자치도 장수군 계북면 월현리 254"
+				,"rdnmCd" : "527403276026"
+				,"rdnm" : "전북특별자치도 장수군 계북면 월현로"
+				,"bldMnno" : 278
+				,"bldSlno" : ""
+				,"bldMngNo" : "4574036021200500000003340"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 장수군 계북면 월현로 278"
+				,"oldZipcd" : "597861"
+				,"newZipcd" : "55603"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.588044451763
+				,"lat" : 35.7821391800193
+				}
+				,{
+				"bizesId" : "MA010120220802911080"
+				,"bizesNm" : "하늘꽃"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55109"
+				,"ksicNm" : "기타 일반 및 생활 숙박시설 운영업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52740"
+				,"signguNm" : "장수군"
+				,"adongCd" : "52740360"
+				,"adongNm" : "계북면"
+				,"ldongCd" : "5274036021"
+				,"ldongNm" : "계북면"
+				,"lnoCd" : "5274036021104490000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 449
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전북특별자치도 장수군 계북면 월현리 449"
+				,"rdnmCd" : "527403276026"
+				,"rdnm" : "전북특별자치도 장수군 계북면 월현로"
+				,"bldMnno" : 135
+				,"bldSlno" : 15
+				,"bldMngNo" : "4574036021104490000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 장수군 계북면 월현로 135-15"
+				,"oldZipcd" : "597861"
+				,"newZipcd" : "55603"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.590982219198
+				,"lat" : 35.7740856118209
+				}
+				,{
+				"bizesId" : "MA0106202509A2074168"
+				,"bizesNm" : "제이에스농원"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G205"
+				,"indsMclsNm" : "식료품 소매"
+				,"indsSclsCd" : "G20502"
+				,"indsSclsNm" : "가축 사료 소매업"
+				,"ksicCd" : "G47211"
+				,"ksicNm" : "곡물, 곡분 및 가축 사료 소매업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52740"
+				,"signguNm" : "장수군"
+				,"adongCd" : "52740335"
+				,"adongNm" : "장계면"
+				,"ldongCd" : "5274033524"
+				,"ldongNm" : "장계면"
+				,"lnoCd" : "5274033524101640001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 164
+				,"lnoSlno" : 1
+				,"lnoAdr" : "전북특별자치도 장수군 장계면 금덕리 164-1"
+				,"rdnmCd" : "527403276056"
+				,"rdnm" : "전북특별자치도 장수군 장계면 장무로"
+				,"bldMnno" : 565
+				,"bldSlno" : ""
+				,"bldMngNo" : "4574033524101640001000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 장수군 장계면 장무로 565"
+				,"oldZipcd" : "597841"
+				,"newZipcd" : "55618"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.59605031799
+				,"lat" : 35.7566934458143
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 1,
+		"totalCount" : 4	}
+}

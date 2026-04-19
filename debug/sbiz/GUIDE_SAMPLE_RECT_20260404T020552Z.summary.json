@@ -1,0 +1,31 @@
+{
+  "ok": true,
+  "run_id": 165,
+  "tile_key": "GUIDE_SAMPLE_RECT",
+  "started_at": "2026-04-04T02:05:52.205Z",
+  "finished_at": "2026-04-04T02:05:54.533Z",
+  "page_count": 1,
+  "total_fetched": 81,
+  "total_unique": 81,
+  "total_ingested": 81,
+  "debug_ingest": true,
+  "page_summaries": [
+    {
+      "page": 1,
+      "url": "https://apis.data.go.kr/B553077/api/open/sdsc2/storeListInRectangle?serviceKey=40062e9e97eecc728094af62a3e777caa3dd99a459d920a3587d5157465f5c5a&pageNo=1&numOfRows=1000&type=json&minx=127.034113&miny=37.509715&maxx=127.03573&maxy=37.510824",
+      "http_status": 200,
+      "content_type": "application/json;charset=utf-8",
+      "body_length": 86661,
+      "xml_error_code": null,
+      "xml_error_message": null,
+      "json_error_code": null,
+      "json_error_message": null,
+      "json_parse_error": null,
+      "extracted_row_count": 81,
+      "unique_row_count": 81,
+      "raw_path": "C:\\work\\close_signal\\debug\\sbiz\\GUIDE_SAMPLE_RECT_20260404T020552Z.page-1.raw.txt",
+      "json_path": "C:\\work\\close_signal\\debug\\sbiz\\GUIDE_SAMPLE_RECT_20260404T020552Z.page-1.json",
+      "rows_path": "C:\\work\\close_signal\\debug\\sbiz\\GUIDE_SAMPLE_RECT_20260404T020552Z.page-1.rows.json"
+    }
+  ]
+}

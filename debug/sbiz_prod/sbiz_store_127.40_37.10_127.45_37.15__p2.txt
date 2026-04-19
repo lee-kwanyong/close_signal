@@ -1,0 +1,303 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA0101202505A0035652"
+				,"bizesNm" : "용인광주환경"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G222"
+				,"indsMclsNm" : "중고 상품 소매"
+				,"indsSclsCd" : "G22201"
+				,"indsSclsNm" : "중고 상품 소매업"
+				,"ksicCd" : "G47869"
+				,"ksicNm" : "기타 중고 상품 소매업"
+				,"ctprvnCd" : "41"
+				,"ctprvnNm" : "경기도"
+				,"signguCd" : "41461"
+				,"signguNm" : "용인시 처인구"
+				,"adongCd" : "41461350"
+				,"adongNm" : "백암면"
+				,"ldongCd" : "4146135023"
+				,"ldongNm" : "백암면"
+				,"lnoCd" : "4146135023102320001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 232
+				,"lnoSlno" : 1
+				,"lnoAdr" : "경기도 용인시 처인구 백암면 백봉리 232-1"
+				,"rdnmCd" : "414613203008"
+				,"rdnm" : "경기도 용인시 처인구 백암면 고안로"
+				,"bldMnno" : 11
+				,"bldSlno" : ""
+				,"bldMngNo" : "4146135023102320001015815"
+				,"bldNm" : ""
+				,"rdnmAdr" : "경기도 용인시 처인구 백암면 고안로 11"
+				,"oldZipcd" : "449865"
+				,"newZipcd" : "17180"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.400985833992
+				,"lat" : 37.1356363671204
+				}
+				,{
+				"bizesId" : "MA0106202511A0825060"
+				,"bizesNm" : "토박이"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "41"
+				,"ctprvnNm" : "경기도"
+				,"signguCd" : "41461"
+				,"signguNm" : "용인시 처인구"
+				,"adongCd" : "41461350"
+				,"adongNm" : "백암면"
+				,"ldongCd" : "4146135024"
+				,"ldongNm" : "백암면"
+				,"lnoCd" : "4146135024104620001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 462
+				,"lnoSlno" : 1
+				,"lnoAdr" : "경기도 용인시 처인구 백암면 고안리 462-1"
+				,"rdnmCd" : "414612012010"
+				,"rdnm" : "경기도 용인시 처인구 백암면 죽양대로"
+				,"bldMnno" : 658
+				,"bldSlno" : ""
+				,"bldMngNo" : "4146135024104620001016247"
+				,"bldNm" : ""
+				,"rdnmAdr" : "경기도 용인시 처인구 백암면 죽양대로 658"
+				,"oldZipcd" : "449863"
+				,"newZipcd" : "17180"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.407580842844
+				,"lat" : 37.1314239650294
+				}
+				,{
+				"bizesId" : "MA0101202505A0055240"
+				,"bizesNm" : "씨유안성삼보점"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G204"
+				,"indsMclsNm" : "종합 소매"
+				,"indsSclsCd" : "G20405"
+				,"indsSclsNm" : "편의점"
+				,"ksicCd" : "G47122"
+				,"ksicNm" : "체인화 편의점"
+				,"ctprvnCd" : "41"
+				,"ctprvnNm" : "경기도"
+				,"signguCd" : "41550"
+				,"signguNm" : "안성시"
+				,"adongCd" : "41550390"
+				,"adongNm" : "일죽면"
+				,"ldongCd" : "4155039027"
+				,"ldongNm" : "일죽면"
+				,"lnoCd" : "4155039027109060004"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 906
+				,"lnoSlno" : 4
+				,"lnoAdr" : "경기도 안성시 일죽면 방초리 906-4"
+				,"rdnmCd" : "415502012010"
+				,"rdnm" : "경기도 안성시 일죽면 죽양대로"
+				,"bldMnno" : 507
+				,"bldSlno" : ""
+				,"bldMngNo" : "4155039027109060004023830"
+				,"bldNm" : ""
+				,"rdnmAdr" : "경기도 안성시 일죽면 죽양대로 507"
+				,"oldZipcd" : "456912"
+				,"newZipcd" : "17525"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.419841543603
+				,"lat" : 37.1221994107148
+				}
+				,{
+				"bizesId" : "MA0101202503A0071344"
+				,"bizesNm" : "수카오디오"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G202"
+				,"indsMclsNm" : "자동차 부품 소매"
+				,"indsSclsCd" : "G20202"
+				,"indsSclsNm" : "자동차 부품 소매업"
+				,"ksicCd" : "G45213"
+				,"ksicNm" : "자동차 내장용 신품 전기ㆍ전자ㆍ정밀기기 판매업"
+				,"ctprvnCd" : "41"
+				,"ctprvnNm" : "경기도"
+				,"signguCd" : "41550"
+				,"signguNm" : "안성시"
+				,"adongCd" : "41550390"
+				,"adongNm" : "일죽면"
+				,"ldongCd" : "4155039027"
+				,"ldongNm" : "일죽면"
+				,"lnoCd" : "4155039027108680001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 868
+				,"lnoSlno" : 1
+				,"lnoAdr" : "경기도 안성시 일죽면 방초리 868-1"
+				,"rdnmCd" : "415502012010"
+				,"rdnm" : "경기도 안성시 일죽면 죽양대로"
+				,"bldMnno" : 500
+				,"bldSlno" : ""
+				,"bldMngNo" : "4155039027108680007032895"
+				,"bldNm" : ""
+				,"rdnmAdr" : "경기도 안성시 일죽면 죽양대로 500"
+				,"oldZipcd" : "456912"
+				,"newZipcd" : "17525"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.421384544808
+				,"lat" : 37.1224552429573
+				}
+				,{
+				"bizesId" : "MA0101202502A0057323"
+				,"bizesNm" : "장안인테리어"
+				,"brchNm" : ""
+				,"indsLclsCd" : "M1"
+				,"indsLclsNm" : "과학·기술"
+				,"indsMclsCd" : "M112"
+				,"indsMclsNm" : "전문 디자인"
+				,"indsSclsCd" : "M11201"
+				,"indsSclsNm" : "인테리어 디자인업"
+				,"ksicCd" : "F42412"
+				,"ksicNm" : "도배, 실내 장식 및 내장 목공사업"
+				,"ctprvnCd" : "41"
+				,"ctprvnNm" : "경기도"
+				,"signguCd" : "41550"
+				,"signguNm" : "안성시"
+				,"adongCd" : "41550390"
+				,"adongNm" : "일죽면"
+				,"ldongCd" : "4155039027"
+				,"ldongNm" : "일죽면"
+				,"lnoCd" : "4155039027102880002"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 288
+				,"lnoSlno" : 2
+				,"lnoAdr" : "경기도 안성시 일죽면 방초리 288-2"
+				,"rdnmCd" : "415504424673"
+				,"rdnm" : "경기도 안성시 일죽면 초막길"
+				,"bldMnno" : 79
+				,"bldSlno" : ""
+				,"bldMngNo" : "4155039027108840022000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "경기도 안성시 일죽면 초막길 79"
+				,"oldZipcd" : "456912"
+				,"newZipcd" : "17525"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.426895442399
+				,"lat" : 37.1239583131626
+				}
+				,{
+				"bizesId" : "MA0101202503A0033540"
+				,"bizesNm" : "방초리묵집"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "41"
+				,"ctprvnNm" : "경기도"
+				,"signguCd" : "41550"
+				,"signguNm" : "안성시"
+				,"adongCd" : "41550390"
+				,"adongNm" : "일죽면"
+				,"ldongCd" : "4155039027"
+				,"ldongNm" : "일죽면"
+				,"lnoCd" : "4155039027104600007"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 460
+				,"lnoSlno" : 7
+				,"lnoAdr" : "경기도 안성시 일죽면 방초리 460-7"
+				,"rdnmCd" : "415503012065"
+				,"rdnm" : "경기도 안성시 일죽면 사실로"
+				,"bldMnno" : 104
+				,"bldSlno" : ""
+				,"bldMngNo" : "4155039027104600008007618"
+				,"bldNm" : "방초리묵집"
+				,"rdnmAdr" : "경기도 안성시 일죽면 사실로 104"
+				,"oldZipcd" : "456912"
+				,"newZipcd" : "17525"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.433696335374
+				,"lat" : 37.1207619092733
+				}
+				,{
+				"bizesId" : "MA0106202511A1415239"
+				,"bizesNm" : "런던로스트볼남이천ic점"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G213"
+				,"indsMclsNm" : "오락용품 소매"
+				,"indsSclsCd" : "G21304"
+				,"indsSclsNm" : "운동용품 소매업"
+				,"ksicCd" : "G47631"
+				,"ksicNm" : "운동 및 경기용품 소매업"
+				,"ctprvnCd" : "41"
+				,"ctprvnNm" : "경기도"
+				,"signguCd" : "41550"
+				,"signguNm" : "안성시"
+				,"adongCd" : "41550390"
+				,"adongNm" : "일죽면"
+				,"ldongCd" : "4155039027"
+				,"ldongNm" : "일죽면"
+				,"lnoCd" : "4155039027100370002"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 37
+				,"lnoSlno" : 2
+				,"lnoAdr" : "경기도 안성시 일죽면 방초리 37-2"
+				,"rdnmCd" : "415503012065"
+				,"rdnm" : "경기도 안성시 일죽면 사실로"
+				,"bldMnno" : 316
+				,"bldSlno" : ""
+				,"bldMngNo" : "4155039027100370002000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "경기도 안성시 일죽면 사실로 316"
+				,"oldZipcd" : "456912"
+				,"newZipcd" : "17525"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.436874862307
+				,"lat" : 37.1393209913764
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 2,
+		"totalCount" : 107	}
+}

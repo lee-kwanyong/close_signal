@@ -18,7 +18,9 @@ export default function SectionCard({
   bodyClassName = "",
 }: SectionCardProps) {
   return (
-    <section className={`rounded-2xl border border-slate-200 bg-white p-5 ${className}`}>
+    <section
+      className={`rounded-[1.75rem] border border-[#d7ece4] bg-white p-5 shadow-[0_12px_28px_rgba(31,122,99,0.05)] ${className}`}
+    >
       {title || description || action ? (
         <div className="mb-4 flex items-start justify-between gap-3">
           <div className="min-w-0">

@@ -1,0 +1,139 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA0106202510A0747789"
+				,"bizesNm" : "컬럼비아"
+				,"brchNm" : "아산점"
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G213"
+				,"indsMclsNm" : "오락용품 소매"
+				,"indsSclsCd" : "G21304"
+				,"indsSclsNm" : "운동용품 소매업"
+				,"ksicCd" : "G47631"
+				,"ksicNm" : "운동 및 경기용품 소매업"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44200"
+				,"signguNm" : "아산시"
+				,"adongCd" : "44200360"
+				,"adongNm" : "둔포면"
+				,"ldongCd" : "4420036026"
+				,"ldongNm" : "둔포면"
+				,"lnoCd" : "4420036026100170003"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 17
+				,"lnoSlno" : 3
+				,"lnoAdr" : "충청남도 아산시 둔포면 신항리 17-3"
+				,"rdnmCd" : "442004559795"
+				,"rdnm" : "충청남도 아산시 둔포면 해위안길"
+				,"bldMnno" : 127
+				,"bldSlno" : ""
+				,"bldMngNo" : "4420036026100170003077943"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청남도 아산시 둔포면 해위안길 127"
+				,"oldZipcd" : "336873"
+				,"newZipcd" : "31421"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.029058088233
+				,"lat" : 36.8968130020438
+				}
+				,{
+				"bizesId" : "MA0106202509A2373000"
+				,"bizesNm" : "오뷔엘알아산퍼스트"
+				,"brchNm" : "빌리지점"
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G209"
+				,"indsMclsNm" : "섬유·의복·신발 소매"
+				,"indsSclsCd" : "G20905"
+				,"indsSclsNm" : "기타 의류 소매업"
+				,"ksicCd" : "G47419"
+				,"ksicNm" : "기타 의복 소매업"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44200"
+				,"signguNm" : "아산시"
+				,"adongCd" : "44200360"
+				,"adongNm" : "둔포면"
+				,"ldongCd" : "4420036026"
+				,"ldongNm" : "둔포면"
+				,"lnoCd" : "4420036026100170003"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 17
+				,"lnoSlno" : 3
+				,"lnoAdr" : "충청남도 아산시 둔포면 신항리 17-3"
+				,"rdnmCd" : "442004559795"
+				,"rdnm" : "충청남도 아산시 둔포면 해위안길"
+				,"bldMnno" : 127
+				,"bldSlno" : ""
+				,"bldMngNo" : "4420036026100170003077943"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청남도 아산시 둔포면 해위안길 127"
+				,"oldZipcd" : "336873"
+				,"newZipcd" : "31421"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.029058088233
+				,"lat" : 36.8968130020438
+				}
+				,{
+				"bizesId" : "MA0106202510A2017469"
+				,"bizesNm" : "음봉솥뚜껑매운탕"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20112"
+				,"indsSclsNm" : "해산물 구이/찜"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44200"
+				,"signguNm" : "아산시"
+				,"adongCd" : "44200350"
+				,"adongNm" : "음봉면"
+				,"ldongCd" : "4420035027"
+				,"ldongNm" : "음봉면"
+				,"lnoCd" : "4420035027103430002"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 343
+				,"lnoSlno" : 2
+				,"lnoAdr" : "충청남도 아산시 음봉면 소동리 343-2"
+				,"rdnmCd" : "442003250039"
+				,"rdnm" : "충청남도 아산시 음봉면 연암율금로"
+				,"bldMnno" : 126
+				,"bldSlno" : ""
+				,"bldMngNo" : "4420035027103430002000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청남도 아산시 음봉면 연암율금로 126"
+				,"oldZipcd" : "336864"
+				,"newZipcd" : "31413"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.040618915931
+				,"lat" : 36.86372120044
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 5,
+		"totalCount" : 403	}
+}

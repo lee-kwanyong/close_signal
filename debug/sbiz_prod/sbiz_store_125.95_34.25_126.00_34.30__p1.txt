@@ -1,0 +1,98 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA010120220809673053"
+				,"bizesNm" : "대마섬마을민박"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55104"
+				,"ksicNm" : "민박업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46900"
+				,"signguNm" : "진도군"
+				,"adongCd" : "46900360"
+				,"adongNm" : "조도면"
+				,"ldongCd" : "4690036026"
+				,"ldongNm" : "조도면"
+				,"lnoCd" : "4690036026104140000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 414
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 진도군 조도면 대마도리 414"
+				,"rdnmCd" : "469004703082"
+				,"rdnm" : "전라남도 진도군 조도면 대마도길"
+				,"bldMnno" : 109
+				,"bldSlno" : 4
+				,"bldMngNo" : "4690036026104140000030567"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 진도군 조도면 대마도길 109-4"
+				,"oldZipcd" : "539914"
+				,"newZipcd" : "58958"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 125.992844936081
+				,"lat" : 34.2683125744099
+				}
+				,{
+				"bizesId" : "MA010120220810173052"
+				,"bizesNm" : "대마민박"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55104"
+				,"ksicNm" : "민박업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46900"
+				,"signguNm" : "진도군"
+				,"adongCd" : "46900360"
+				,"adongNm" : "조도면"
+				,"ldongCd" : "4690036026"
+				,"ldongNm" : "조도면"
+				,"lnoCd" : "4690036026104390000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 439
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 진도군 조도면 대마도리 439"
+				,"rdnmCd" : "469004703082"
+				,"rdnm" : "전라남도 진도군 조도면 대마도길"
+				,"bldMnno" : 76
+				,"bldSlno" : 9
+				,"bldMngNo" : "4690036026104380000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 진도군 조도면 대마도길 76-9"
+				,"oldZipcd" : "539914"
+				,"newZipcd" : "58958"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 125.993929549775
+				,"lat" : 34.2684116271049
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 1,
+		"totalCount" : 2	}
+}

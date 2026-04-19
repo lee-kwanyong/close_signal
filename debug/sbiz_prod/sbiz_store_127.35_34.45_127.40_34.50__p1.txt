@@ -1,0 +1,426 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA010120220802265053"
+				,"bizesNm" : "하늘정원"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55104"
+				,"ksicNm" : "민박업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46770"
+				,"signguNm" : "고흥군"
+				,"adongCd" : "46770340"
+				,"adongNm" : "도화면"
+				,"ldongCd" : "4677034031"
+				,"ldongNm" : "도화면"
+				,"lnoCd" : "4677034031100390000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 39
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 고흥군 도화면 발포리 39"
+				,"rdnmCd" : "467703289026"
+				,"rdnm" : "전라남도 고흥군 도화면 천마로"
+				,"bldMnno" : 2683
+				,"bldSlno" : ""
+				,"bldMngNo" : "4677034031100390000011451"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 고흥군 도화면 천마로 2683"
+				,"oldZipcd" : "548893"
+				,"newZipcd" : "59528"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.350366053958
+				,"lat" : 34.4939728484069
+				}
+				,{
+				"bizesId" : "MA0101202411A0045556"
+				,"bizesNm" : "파도랑별이랑"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55104"
+				,"ksicNm" : "민박업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46770"
+				,"signguNm" : "고흥군"
+				,"adongCd" : "46770340"
+				,"adongNm" : "도화면"
+				,"ldongCd" : "4677034031"
+				,"ldongNm" : "도화면"
+				,"lnoCd" : "4677034031100550001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 55
+				,"lnoSlno" : 1
+				,"lnoAdr" : "전라남도 고흥군 도화면 발포리 55-1"
+				,"rdnmCd" : "467703289026"
+				,"rdnm" : "전라남도 고흥군 도화면 천마로"
+				,"bldMnno" : 2689
+				,"bldSlno" : ""
+				,"bldMngNo" : "4677034031100460006071308"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 고흥군 도화면 천마로 2689"
+				,"oldZipcd" : "548893"
+				,"newZipcd" : "59528"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.351028832487
+				,"lat" : 34.4936464233462
+				}
+				,{
+				"bizesId" : "MA010120220809664803"
+				,"bizesNm" : "추억만들기"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55109"
+				,"ksicNm" : "기타 일반 및 생활 숙박시설 운영업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46770"
+				,"signguNm" : "고흥군"
+				,"adongCd" : "46770340"
+				,"adongNm" : "도화면"
+				,"ldongCd" : "4677034031"
+				,"ldongNm" : "도화면"
+				,"lnoCd" : "4677034031100600002"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 60
+				,"lnoSlno" : 2
+				,"lnoAdr" : "전라남도 고흥군 도화면 발포리 60-2"
+				,"rdnmCd" : "467703289026"
+				,"rdnm" : "전라남도 고흥군 도화면 천마로"
+				,"bldMnno" : 2703
+				,"bldSlno" : ""
+				,"bldMngNo" : "4677034031100600002000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 고흥군 도화면 천마로 2703"
+				,"oldZipcd" : "548893"
+				,"newZipcd" : "59528"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.352452360466
+				,"lat" : 34.4929932798945
+				}
+				,{
+				"bizesId" : "MA0106202301A1263242"
+				,"bizesNm" : "빅토리아호텔"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46770"
+				,"signguNm" : "고흥군"
+				,"adongCd" : "46770340"
+				,"adongNm" : "도화면"
+				,"ldongCd" : "4677034031"
+				,"ldongNm" : "도화면"
+				,"lnoCd" : "4677034031100890001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 89
+				,"lnoSlno" : 1
+				,"lnoAdr" : "전라남도 고흥군 도화면 발포리 89-1"
+				,"rdnmCd" : "467703289026"
+				,"rdnm" : "전라남도 고흥군 도화면 천마로"
+				,"bldMnno" : 2736
+				,"bldSlno" : 29
+				,"bldMngNo" : "4677034031100890001011438"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 고흥군 도화면 천마로 2736-29"
+				,"oldZipcd" : "548893"
+				,"newZipcd" : "59528"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.353116966908
+				,"lat" : 34.4905213808845
+				}
+				,{
+				"bizesId" : "MA010120220807842204"
+				,"bizesNm" : "햇살가든"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46770"
+				,"signguNm" : "고흥군"
+				,"adongCd" : "46770340"
+				,"adongNm" : "도화면"
+				,"ldongCd" : "4677034031"
+				,"ldongNm" : "도화면"
+				,"lnoCd" : "4677034031100650016"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 65
+				,"lnoSlno" : 16
+				,"lnoAdr" : "전라남도 고흥군 도화면 발포리 65-16"
+				,"rdnmCd" : "467703289026"
+				,"rdnm" : "전라남도 고흥군 도화면 천마로"
+				,"bldMnno" : 2721
+				,"bldSlno" : 8
+				,"bldMngNo" : "4677034031100650016011449"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 고흥군 도화면 천마로 2721-8"
+				,"oldZipcd" : "548893"
+				,"newZipcd" : "59528"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.353878341382
+				,"lat" : 34.4929260568748
+				}
+				,{
+				"bizesId" : "MA010120220807842205"
+				,"bizesNm" : "햇살파크여관"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10102"
+				,"indsSclsNm" : "여관/모텔"
+				,"ksicCd" : "I55102"
+				,"ksicNm" : "여관업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46770"
+				,"signguNm" : "고흥군"
+				,"adongCd" : "46770340"
+				,"adongNm" : "도화면"
+				,"ldongCd" : "4677034031"
+				,"ldongNm" : "도화면"
+				,"lnoCd" : "4677034031100650016"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 65
+				,"lnoSlno" : 16
+				,"lnoAdr" : "전라남도 고흥군 도화면 발포리 65-16"
+				,"rdnmCd" : "467703289026"
+				,"rdnm" : "전라남도 고흥군 도화면 천마로"
+				,"bldMnno" : 2721
+				,"bldSlno" : 8
+				,"bldMngNo" : "4677034031100650016011449"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 고흥군 도화면 천마로 2721-8"
+				,"oldZipcd" : "548893"
+				,"newZipcd" : "59528"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.353878341382
+				,"lat" : 34.4929260568748
+				}
+				,{
+				"bizesId" : "MA010120220807894309"
+				,"bizesNm" : "빅토리아호텔"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10102"
+				,"indsSclsNm" : "여관/모텔"
+				,"ksicCd" : "I55102"
+				,"ksicNm" : "여관업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46770"
+				,"signguNm" : "고흥군"
+				,"adongCd" : "46770340"
+				,"adongNm" : "도화면"
+				,"ldongCd" : "4677034031"
+				,"ldongNm" : "도화면"
+				,"lnoCd" : "4677034031100890001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 89
+				,"lnoSlno" : 1
+				,"lnoAdr" : "전라남도 고흥군 도화면 발포리 89-1"
+				,"rdnmCd" : "467703289026"
+				,"rdnm" : "전라남도 고흥군 도화면 천마로"
+				,"bldMnno" : 2736
+				,"bldSlno" : 19
+				,"bldMngNo" : "4677034031100890001011437"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 고흥군 도화면 천마로 2736-19"
+				,"oldZipcd" : "548893"
+				,"newZipcd" : "59528"
+				,"dongNo" : ""
+				,"flrNo" : "1"
+				,"hoNo" : ""
+				,"lon" : 127.354024021642
+				,"lat" : 34.4913300638684
+				}
+				,{
+				"bizesId" : "MA0101202309A0071003"
+				,"bizesNm" : "김정구엔"
+				,"brchNm" : ""
+				,"indsLclsCd" : "M1"
+				,"indsLclsNm" : "과학·기술"
+				,"indsMclsCd" : "M107"
+				,"indsMclsNm" : "본사·경영 컨설팅"
+				,"indsSclsCd" : "M10703"
+				,"indsSclsNm" : "경영 컨설팅업"
+				,"ksicCd" : "M71531"
+				,"ksicNm" : "경영 컨설팅업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46770"
+				,"signguNm" : "고흥군"
+				,"adongCd" : "46770340"
+				,"adongNm" : "도화면"
+				,"ldongCd" : "4677034031"
+				,"ldongNm" : "도화면"
+				,"lnoCd" : "4677034031100890001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 89
+				,"lnoSlno" : 1
+				,"lnoAdr" : "전라남도 고흥군 도화면 발포리 89-1"
+				,"rdnmCd" : "467703289026"
+				,"rdnm" : "전라남도 고흥군 도화면 천마로"
+				,"bldMnno" : 2736
+				,"bldSlno" : 19
+				,"bldMngNo" : "4677034031100890001011437"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 고흥군 도화면 천마로 2736-19"
+				,"oldZipcd" : "548893"
+				,"newZipcd" : "59528"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.354024021642
+				,"lat" : 34.4913300638684
+				}
+				,{
+				"bizesId" : "MA0101202209A0054914"
+				,"bizesNm" : "발포매점"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G204"
+				,"indsMclsNm" : "종합 소매"
+				,"indsSclsCd" : "G20404"
+				,"indsSclsNm" : "슈퍼마켓"
+				,"ksicCd" : "G47129"
+				,"ksicNm" : "기타 음ㆍ식료품 위주 종합 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46770"
+				,"signguNm" : "고흥군"
+				,"adongCd" : "46770340"
+				,"adongNm" : "도화면"
+				,"ldongCd" : "4677034031"
+				,"ldongNm" : "도화면"
+				,"lnoCd" : "4677034031100110000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 11
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 고흥군 도화면 발포리 11"
+				,"rdnmCd" : "467703289026"
+				,"rdnm" : "전라남도 고흥군 도화면 천마로"
+				,"bldMnno" : 2740
+				,"bldSlno" : ""
+				,"bldMngNo" : "4677034031100110000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 고흥군 도화면 천마로 2740"
+				,"oldZipcd" : "548893"
+				,"newZipcd" : "59528"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.356509671506
+				,"lat" : 34.4921161155174
+				}
+				,{
+				"bizesId" : "MA010120220806694901"
+				,"bizesNm" : "광주학생해양수련원"
+				,"brchNm" : ""
+				,"indsLclsCd" : "P1"
+				,"indsLclsNm" : "교육"
+				,"indsMclsCd" : "P106"
+				,"indsMclsNm" : "기타 교육"
+				,"indsSclsCd" : "P10607"
+				,"indsSclsNm" : "청소년 수련시설"
+				,"ksicCd" : "P85614"
+				,"ksicNm" : "청소년 수련시설 운영업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46770"
+				,"signguNm" : "고흥군"
+				,"adongCd" : "46770340"
+				,"adongNm" : "도화면"
+				,"ldongCd" : "4677034031"
+				,"ldongNm" : "도화면"
+				,"lnoCd" : "4677034031110000000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 1000
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 고흥군 도화면 발포리 1000"
+				,"rdnmCd" : "467703289026"
+				,"rdnm" : "전라남도 고흥군 도화면 천마로"
+				,"bldMnno" : 2733
+				,"bldSlno" : ""
+				,"bldMngNo" : "4677034031200100000000001"
+				,"bldNm" : "광주학생해양수련원"
+				,"rdnmAdr" : "전라남도 고흥군 도화면 천마로 2733"
+				,"oldZipcd" : "548893"
+				,"newZipcd" : "59528"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.356979975186
+				,"lat" : 34.4926195558457
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 1,
+		"totalCount" : 10	}
+}

@@ -1,66 +1,73 @@
+import type { ReactNode } from "react";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { createClient } from "@/lib/supabase/server";
+import { mutateWatchlistAction } from "@/app/watchlist/actions";
 
 type PageProps = {
   params: Promise<{
     regionCode: string;
     categoryId: string;
   }>;
+  searchParams?: Promise<{
+    success?: string;
+    error?: string;
+  }>;
 };
 
-type DetailRow = {
+type IntegratedDetailRow = {
+  snapshot_date: string | null;
   region_code: string;
-  region_name: string;
+  region_name: string | null;
   category_id: number;
-  category_name: string;
-  score_date: string;
-  risk_score: number | null;
-  risk_grade: string | null;
-  business_count: number | null;
-  open_count_7d: number | null;
-  close_count_7d: number | null;
-  pause_count_7d: number | null;
-  resume_count_7d: number | null;
-  close_rate_7d: number | null;
-  open_rate_7d: number | null;
-  pause_rate_7d: number | null;
-  resume_rate_7d: number | null;
-  net_change_7d: number | null;
-  close_count_30d: number | null;
-  open_count_30d: number | null;
-  pause_count_30d: number | null;
-  resume_count_30d: number | null;
-  close_rate_30d: number | null;
-  open_rate_30d: number | null;
-  pause_rate_30d: number | null;
-  resume_rate_30d: number | null;
-  net_change_30d: number | null;
-  risk_delta_7d: number | null;
-  risk_delta_30d: number | null;
+  category_name: string | null;
+  smallbiz_risk_score: number | null;
+  smallbiz_close_rate_7d: number | null;
+  smallbiz_close_rate_30d: number | null;
+  smallbiz_open_rate_7d: number | null;
+  smallbiz_open_rate_30d: number | null;
+  smallbiz_net_change_7d: number | null;
+  smallbiz_net_change_30d: number | null;
+  smallbiz_risk_delta_7d: number | null;
+  smallbiz_risk_delta_30d: number | null;
+  kosis_pressure_score: number | null;
+  kosis_pressure_grade: string | null;
+  kosis_pressure_label: string | null;
+  kosis_closed_total: number | null;
+  kosis_national_share_pct: number | null;
+  kosis_yoy_closed_delta_pct: number | null;
+  nts_business_score: number | null;
+  nts_label: string | null;
+  integrated_market_score: number | null;
+  integrated_final_score: number | null;
+  integrated_severity: string | null;
+  reason_codes: string[] | null;
+  summary_text: string | null;
+  recovery_direction: string | null;
+};
+
+type WatchlistRow = {
+  watchlist_id: number;
+  region_code: string;
+  category_id: number;
 };
 
 type SignalRow = {
   id?: number | string;
-  signal_date?: string;
-  score_date?: string;
+  signal_date?: string | null;
+  score_date?: string | null;
   signal_type?: string | null;
   signal_level?: string | null;
   title?: string | null;
   message?: string | null;
-  region_code?: string;
-  region_name?: string | null;
-  category_id?: number;
-  category_name?: string | null;
   risk_score?: number | null;
 };
 
-type WatchlistStatusRow = {
-  is_watching: boolean | null;
-  watchlist_id: number | null;
-};
-
-const USER_ID = 1;
+function num(value: number | null | undefined, fallback = 0) {
+  return value === null || value === undefined || Number.isNaN(value)
+    ? fallback
+    : Number(value);
+}
 
 function formatNumber(value: number | null | undefined) {
   if (value === null || value === undefined) return "-";
@@ -69,18 +76,19 @@ function formatNumber(value: number | null | undefined) {
 
 function formatPercent(value: number | null | undefined, digits = 1) {
   if (value === null || value === undefined) return "-";
-  return `${value.toFixed(digits)}%`;
+  return `${Number(value).toFixed(digits)}%`;
 }
 
-function formatScore(value: number | null | undefined, digits = 1) {
+function formatScore(value: number | null | undefined, digits = 0) {
   if (value === null || value === undefined) return "-";
-  return value.toFixed(digits);
+  return Number(value).toFixed(digits);
 }
 
 function formatSigned(value: number | null | undefined, digits = 1) {
   if (value === null || value === undefined) return "-";
-  if (value > 0) return `+${value.toFixed(digits)}`;
-  if (value < 0) return value.toFixed(digits);
+  const n = Number(value);
+  if (n > 0) return `+${n.toFixed(digits)}`;
+  if (n < 0) return n.toFixed(digits);
   return `0.${"0".repeat(digits)}`;
 }
 
@@ -88,99 +96,237 @@ function formatDate(value: string | null | undefined) {
   if (!value) return "-";
   const d = new Date(value);
   if (Number.isNaN(d.getTime())) return value;
-  return new Intl.DateTimeFormat("ko-KR", {
-    year: "numeric",
-    month: "2-digit",
-    day: "2-digit",
-  }).format(d);
+
+  const yyyy = d.getFullYear();
+  const mm = String(d.getMonth() + 1).padStart(2, "0");
+  const dd = String(d.getDate()).padStart(2, "0");
+
+  return `${yyyy}.${mm}.${dd}.`;
 }
 
-function riskTone(score: number | null | undefined) {
+function scoreTone(score: number | null | undefined) {
+  const n = num(score, 0);
+
   if (score === null || score === undefined) {
-    return "bg-slate-100 text-slate-600 border-slate-200";
+    return "border-slate-200 bg-slate-100 text-slate-600";
   }
-  if (score >= 80) return "bg-red-50 text-red-700 border-red-200";
-  if (score >= 65) return "bg-amber-50 text-amber-700 border-amber-200";
-  if (score >= 45) return "bg-yellow-50 text-yellow-700 border-yellow-200";
-  return "bg-emerald-50 text-emerald-700 border-emerald-200";
+  if (n >= 80) return "border-red-200 bg-red-50 text-red-700";
+  if (n >= 65) return "border-amber-200 bg-amber-50 text-amber-700";
+  if (n >= 45) return "border-yellow-200 bg-yellow-50 text-yellow-700";
+  return "border-emerald-200 bg-emerald-50 text-emerald-700";
+}
+
+function pressureTone(grade: string | null | undefined) {
+  const value = String(grade || "").toLowerCase();
+
+  if (value === "critical") return "border-red-200 bg-red-50 text-red-700";
+  if (value === "high") return "border-orange-200 bg-orange-50 text-orange-700";
+  if (value === "moderate") return "border-amber-200 bg-amber-50 text-amber-700";
+  return "border-sky-200 bg-sky-50 text-sky-700";
+}
+
+function ntsTone(score: number | null | undefined) {
+  const n = num(score, 0);
+
+  if (score === null || score === undefined) {
+    return "border-slate-200 bg-slate-100 text-slate-500";
+  }
+  if (n >= 70) return "border-red-200 bg-red-50 text-red-700";
+  if (n >= 50) return "border-orange-200 bg-orange-50 text-orange-700";
+  if (n >= 35) return "border-amber-200 bg-amber-50 text-amber-700";
+  return "border-emerald-200 bg-emerald-50 text-emerald-700";
+}
+
+function severityLabel(severity: string | null | undefined) {
+  const value = String(severity || "").toLowerCase();
+
+  if (value === "critical") return "치명";
+  if (value === "high") return "높음";
+  if (value === "moderate") return "주의";
+  return "관찰";
 }
 
 function signalTone(level?: string | null) {
-  const v = (level || "").toLowerCase();
+  const v = String(level || "").toLowerCase();
   if (v.includes("critical") || v.includes("high")) {
-    return "bg-red-50 text-red-700 border-red-200";
+    return "border-red-200 bg-red-50 text-red-700";
   }
-  if (v.includes("medium")) {
-    return "bg-amber-50 text-amber-700 border-amber-200";
+  if (v.includes("medium") || v.includes("moderate")) {
+    return "border-amber-200 bg-amber-50 text-amber-700";
   }
-  return "bg-slate-50 text-slate-700 border-slate-200";
+  return "border-slate-200 bg-slate-50 text-slate-700";
 }
 
-function miniBarWidth(value: number | null | undefined, max: number) {
-  if (!value || max <= 0) return "0%";
-  const pct = Math.max(0, Math.min(100, (value / max) * 100));
-  return `${pct}%`;
+function humanReason(code: string) {
+  switch (code) {
+    case "external_closure_pressure_high":
+      return "외부폐업압력 높음";
+    case "external_closure_pressure_moderate":
+      return "외부폐업압력 주의";
+    case "live_closure_rate_rising":
+      return "폐업가속";
+    case "net_business_decline":
+      return "순감소";
+    case "close_open_ratio_unfavorable":
+      return "폐업/개업비 악화";
+    case "competition_density_high":
+      return "경쟁과밀";
+    case "nts_business_weak":
+      return "NTS 약화";
+    case "nts_business_moderate":
+      return "NTS 경계";
+    case "market_risk_high":
+      return "시장위험 높음";
+    default:
+      return code;
+  }
 }
 
-async function getDetail(regionCode: string, categoryId: number) {
-  const supabase = await createClient();
+function normalizeRegionCode(code?: string | null) {
+  const raw = String(code || "").trim().toUpperCase();
+  if (!raw) return "";
 
-  const { data, error } = await supabase.rpc("get_region_category_detail_named", {
-    p_region_code: regionCode,
-    p_category_id: categoryId,
-  });
+  const aliasMap: Record<string, string> = {
+    "11": "KR-11",
+    "26": "KR-26",
+    "27": "KR-27",
+    "28": "KR-28",
+    "29": "KR-29",
+    "30": "KR-30",
+    "31": "KR-31",
+    "36": "KR-36",
+    "41": "KR-41",
+    "42": "KR-42",
+    "43": "KR-43",
+    "44": "KR-44",
+    "45": "KR-45",
+    "46": "KR-46",
+    "47": "KR-47",
+    "48": "KR-48",
+    "50": "KR-50",
+    "A01": "KR-11",
+    "A02": "KR-26",
+    "A03": "KR-41",
+    "A04": "KR-27",
+    "A05": "KR-28",
+    "A06": "KR-29",
+    "A07": "KR-30",
+    "A08": "KR-31",
+    "A09": "KR-36",
+    "A10": "KR-42",
+    "A11": "KR-43",
+    "A12": "KR-44",
+    "A13": "KR-45",
+    "A14": "KR-46",
+    "A15": "KR-47",
+    "A16": "KR-48",
+    "A17": "KR-50",
+  };
 
-  if (error) {
-    console.error("get_region_category_detail_named error", error);
-    return null;
-  }
-
-  const row = Array.isArray(data) ? (data[0] as DetailRow | undefined) : null;
-  return row ?? null;
+  if (aliasMap[raw]) return aliasMap[raw];
+  if (/^KR-\d{2}$/.test(raw)) return raw;
+  return raw;
 }
 
-async function getSignals(regionCode: string, categoryId: number) {
-  const supabase = await createClient();
+function candidateRegionCodes(input?: string | null) {
+  const raw = String(input || "").trim();
+  if (!raw) return [];
 
-  const { data, error } = await supabase.rpc("get_risk_signals_feed", {
-    p_region_code: regionCode,
-    p_category_id: categoryId,
-    p_limit: 10,
-  });
+  const normalized = normalizeRegionCode(raw);
+  const set = new Set<string>([raw, raw.toUpperCase(), normalized]);
 
-  if (error) {
-    console.error("get_risk_signals_feed error", error);
-    return [] as SignalRow[];
+  if (/^KR-\d{2}$/i.test(normalized)) {
+    set.add(normalized.slice(3));
   }
 
-  return (data ?? []) as SignalRow[];
+  return Array.from(set).filter(Boolean);
 }
 
-async function getWatchStatus(regionCode: string, categoryId: number) {
-  const supabase = await createClient();
+function deriveRiskInterpretation(row: IntegratedDetailRow) {
+  const severity = severityLabel(row.integrated_severity);
+  const parts: string[] = [];
 
-  const { data, error } = await supabase.rpc("get_watchlist_status", {
-    p_user_id: USER_ID,
-    p_region_code: regionCode,
-    p_category_id: categoryId,
-  });
+  parts.push(`현재 통합위험은 ${severity} 단계(${formatScore(row.integrated_final_score, 0)})입니다.`);
 
-  if (error) {
-    console.error("get_watchlist_status error", error);
-    return {
-      is_watching: false,
-      watchlist_id: null,
-    } satisfies WatchlistStatusRow;
+  if (num(row.kosis_pressure_score, 0) >= 60) {
+    parts.push("외부 폐업압력이 매우 높아 시장 자체가 나쁜 구간입니다.");
+  } else if (num(row.kosis_pressure_score, 0) >= 40) {
+    parts.push("외부 폐업압력이 주의 단계라 시장 방어가 필요합니다.");
   }
 
-  const row = Array.isArray(data)
-    ? (data[0] as WatchlistStatusRow | undefined)
-    : null;
+  if (num(row.nts_business_score, 0) >= 50) {
+    parts.push("NTS 체력도 약해져 내부 체력 관리가 같이 필요합니다.");
+  }
 
-  return {
-    is_watching: row?.is_watching ?? false,
-    watchlist_id: row?.watchlist_id ?? null,
-  } satisfies WatchlistStatusRow;
+  if (num(row.smallbiz_net_change_7d, 0) < 0) {
+    parts.push("최근 7일 순증감이 마이너스라 단기 흐름도 좋지 않습니다.");
+  }
+
+  return parts.join(" ");
+}
+
+function deriveRecoveryDirection(row: IntegratedDetailRow) {
+  if (row.recovery_direction?.trim()) {
+    return row.recovery_direction;
+  }
+
+  const reasons = row.reason_codes ?? [];
+  const actions: string[] = [];
+
+  if (reasons.includes("nts_business_weak") || reasons.includes("nts_business_moderate")) {
+    actions.push("고정비·세무 체력 점검");
+  }
+  if (reasons.includes("external_closure_pressure_high")) {
+    actions.push("확장보다 손실 통제");
+  }
+  if (reasons.includes("live_closure_rate_rising")) {
+    actions.push("폐업가속 원인 차단");
+  }
+  if (reasons.includes("net_business_decline")) {
+    actions.push("저효율 영역 정리");
+  }
+  if (reasons.includes("competition_density_high")) {
+    actions.push("차별 포지션 재정의");
+  }
+  if (reasons.includes("close_open_ratio_unfavorable")) {
+    actions.push("신규 유입 전환 개선");
+  }
+
+  if (actions.length === 0) {
+    return "기본 운영지표 유지 관찰";
+  }
+
+  return actions.slice(0, 3).join(" / ");
+}
+
+function getMessageText(success?: string, error?: string) {
+  if (success === "added") return "관심목록에 추가되었습니다.";
+  if (success === "removed") return "관심목록에서 제거되었습니다.";
+  if (error === "missing_required_fields") return "필수 값이 누락되었습니다.";
+  if (error === "watchlist_lookup_failed") return "관심 상태 조회에 실패했습니다.";
+  if (error === "watchlist_not_found") return "관심목록 항목을 찾지 못했습니다.";
+  if (error === "remove_failed") return "관심목록 해제에 실패했습니다.";
+  if (error === "add_failed") return "관심목록 추가에 실패했습니다.";
+  if (error === "invalid_user") return "사용자 확인에 실패했습니다.";
+  return "";
+}
+
+function MessageBanner({
+  success,
+  error,
+}: {
+  success?: string;
+  error?: string;
+}) {
+  const message = getMessageText(success, error);
+
+  if (!message) return null;
+
+  const tone = success
+    ? "border-emerald-200 bg-emerald-50 text-emerald-700"
+    : "border-red-200 bg-red-50 text-red-700";
+
+  return <div className={`rounded-2xl border px-4 py-3 text-sm ${tone}`}>{message}</div>;
 }
 
 function StatCard({
@@ -193,429 +339,527 @@ function StatCard({
   sub?: string;
 }) {
   return (
-    <div className="rounded-2xl border border-slate-200 bg-white p-4 shadow-sm">
-      <div className="text-xs font-medium tracking-wide text-slate-500 uppercase">
-        {label}
-      </div>
-      <div className="mt-2 text-2xl font-semibold text-slate-900">{value}</div>
-      {sub ? <div className="mt-1 text-sm text-slate-500">{sub}</div> : null}
+    <div className="rounded-2xl border border-sky-100 bg-sky-50 p-5">
+      <div className="text-xs font-semibold uppercase tracking-wide text-sky-700">{label}</div>
+      <div className="mt-3 text-2xl font-semibold tracking-tight text-slate-950">{value}</div>
+      {sub ? <div className="mt-2 text-sm leading-6 text-slate-500">{sub}</div> : null}
     </div>
   );
 }
 
-function DeltaPill({
-  label,
-  value,
+function SectionTitle({
+  title,
+  description,
+  action,
 }: {
-  label: string;
-  value: number | null | undefined;
+  title: string;
+  description?: string;
+  action?: ReactNode;
 }) {
-  const positive = (value ?? 0) > 0;
-  const negative = (value ?? 0) < 0;
-
   return (
-    <div
-      className={[
-        "inline-flex items-center rounded-full border px-3 py-1 text-sm font-medium",
-        positive
-          ? "border-red-200 bg-red-50 text-red-700"
-          : negative
-          ? "border-emerald-200 bg-emerald-50 text-emerald-700"
-          : "border-slate-200 bg-slate-50 text-slate-600",
-      ].join(" ")}
-    >
-      <span className="mr-2 text-slate-500">{label}</span>
-      <span>{formatSigned(value)}</span>
+    <div className="mb-5 flex items-end justify-between gap-4">
+      <div>
+        <h2 className="text-lg font-semibold text-slate-950">{title}</h2>
+        {description ? <p className="mt-1 text-sm text-slate-500">{description}</p> : null}
+      </div>
+      {action}
     </div>
   );
 }
 
-export default async function RegionCategoryDetailPage({ params }: PageProps) {
-  const { regionCode, categoryId } = await params;
-  const numericCategoryId = Number(categoryId);
+async function getInternalUserId() {
+  try {
+    const supabase = await createClient();
+    const {
+      data: { user },
+    } = await supabase.auth.getUser();
 
-  if (!regionCode || Number.isNaN(numericCategoryId)) {
+    if (!user?.id) return null;
+
+    const { data } = await supabase
+      .from("users")
+      .select("id")
+      .eq("auth_user_id", user.id)
+      .single();
+
+    if (!data?.id) return null;
+    return data.id as number;
+  } catch {
+    return null;
+  }
+}
+
+async function getIntegratedDetail(regionCode: string, categoryId: number) {
+  try {
+    const supabase = await createClient();
+
+    const { data } = await supabase
+      .from("integrated_region_category_baselines")
+      .select("*")
+      .in("region_code", candidateRegionCodes(regionCode))
+      .eq("category_id", categoryId)
+      .order("snapshot_date", { ascending: false })
+      .limit(30);
+
+    return (data ?? []) as IntegratedDetailRow[];
+  } catch {
+    return [] as IntegratedDetailRow[];
+  }
+}
+
+async function getSignals(regionCode: string, categoryId: number) {
+  try {
+    const supabase = await createClient();
+
+    const { data } = await supabase.rpc("get_risk_signals_feed", {
+      p_region_code: normalizeRegionCode(regionCode),
+      p_category_id: categoryId,
+      p_limit: 10,
+    });
+
+    return (data ?? []) as SignalRow[];
+  } catch {
+    return [] as SignalRow[];
+  }
+}
+
+async function getWatchStatus(userId: number | null, regionCode: string, categoryId: number) {
+  if (!userId) {
+    return {
+      isWatching: false,
+      watchlistId: null as number | null,
+    };
+  }
+
+  try {
+    const supabase = await createClient();
+
+    const { data } = await supabase.rpc("get_my_watchlists", {
+      p_user_id: userId,
+    });
+
+    const codes = candidateRegionCodes(regionCode);
+    const rows = (data ?? []) as WatchlistRow[];
+    const found = rows.find(
+      (row) => codes.includes(row.region_code) && Number(row.category_id) === categoryId,
+    );
+
+    return {
+      isWatching: !!found,
+      watchlistId: found?.watchlist_id ?? null,
+    };
+  } catch {
+    return {
+      isWatching: false,
+      watchlistId: null as number | null,
+    };
+  }
+}
+
+export default async function RegionCategoryDetailPage({
+  params,
+  searchParams,
+}: PageProps) {
+  const resolvedParams = await params;
+  const resolvedSearchParams = (await searchParams) || {};
+
+  const regionCode = String(resolvedParams.regionCode || "").trim();
+  const categoryId = Number(String(resolvedParams.categoryId || "").trim());
+
+  if (!regionCode || !Number.isFinite(categoryId)) {
     notFound();
   }
 
-  const [detail, signals, watchStatus] = await Promise.all([
-    getDetail(regionCode, numericCategoryId),
-    getSignals(regionCode, numericCategoryId),
-    getWatchStatus(regionCode, numericCategoryId),
+  const userId = await getInternalUserId();
+
+  const [rows, signals, watchStatus] = await Promise.all([
+    getIntegratedDetail(regionCode, categoryId),
+    getSignals(regionCode, categoryId),
+    getWatchStatus(userId, regionCode, categoryId),
   ]);
 
-  if (!detail) {
+  if (rows.length === 0) {
     notFound();
   }
 
-  const max7d = Math.max(
-    detail.open_count_7d ?? 0,
-    detail.close_count_7d ?? 0,
-    detail.pause_count_7d ?? 0,
-    detail.resume_count_7d ?? 0,
-    1
-  );
-
-  const max30d = Math.max(
-    detail.open_count_30d ?? 0,
-    detail.close_count_30d ?? 0,
-    detail.pause_count_30d ?? 0,
-    detail.resume_count_30d ?? 0,
-    1
-  );
-
-  const isWatching = !!watchStatus.is_watching;
+  const latest = rows[0];
+  const currentPath = `/regions/${regionCode}/${categoryId}`;
 
   return (
     <main className="min-h-screen bg-slate-50">
       <div className="mx-auto flex w-full max-w-7xl flex-col gap-6 px-4 py-8 sm:px-6 lg:px-8">
-        <div className="flex flex-col gap-4 rounded-3xl border border-slate-200 bg-white p-6 shadow-sm">
-          <div className="flex flex-wrap items-start justify-between gap-4">
-            <div>
-              <div className="mb-2 flex flex-wrap items-center gap-2">
-                <Link
-                  href="/rankings"
-                  className="text-sm text-slate-500 transition hover:text-slate-900"
-                >
+        <MessageBanner
+          success={resolvedSearchParams.success}
+          error={resolvedSearchParams.error}
+        />
+
+        <section className="rounded-3xl border border-slate-200 bg-white p-6 shadow-sm">
+          <div className="flex flex-col gap-5 lg:flex-row lg:items-start lg:justify-between">
+            <div className="min-w-0">
+              <div className="mb-2 flex flex-wrap items-center gap-2 text-sm">
+                <Link href="/rankings" className="text-sky-700 transition hover:text-sky-800">
                   랭킹
                 </Link>
                 <span className="text-slate-300">/</span>
-                <Link
-                  href="/signals"
-                  className="text-sm text-slate-500 transition hover:text-slate-900"
-                >
+                <Link href="/signals" className="text-sky-700 transition hover:text-sky-800">
                   시그널
                 </Link>
               </div>
 
+              <div className="mb-2 text-sm font-medium text-sky-700">INTEGRATED DETAIL</div>
+
               <h1 className="text-2xl font-semibold tracking-tight text-slate-950 sm:text-3xl">
-                {detail.region_name} · {detail.category_name}
+                {latest.region_name ?? latest.region_code} · {latest.category_name ?? latest.category_id}
               </h1>
 
-              <div className="mt-3 flex flex-wrap items-center gap-2">
+              <p className="mt-2 text-sm leading-6 text-slate-500">
+                외부 폐업압력, 소상공인 흐름, 국세청/NTS 체력을 통합한 위험관리 화면입니다.
+              </p>
+
+              <div className="mt-4 flex flex-wrap items-center gap-2">
                 <span
-                  className={[
-                    "inline-flex items-center rounded-full border px-3 py-1 text-sm font-medium",
-                    riskTone(detail.risk_score),
-                  ].join(" ")}
+                  className={`inline-flex items-center rounded-full border px-3 py-1 text-sm font-medium ${scoreTone(
+                    latest.integrated_final_score,
+                  )}`}
                 >
-                  위험도 {formatScore(detail.risk_score)}
+                  통합위험 {formatScore(latest.integrated_final_score, 0)}
+                </span>
+
+                <span
+                  className={`inline-flex items-center rounded-full border px-3 py-1 text-sm font-medium ${scoreTone(
+                    latest.integrated_market_score,
+                  )}`}
+                >
+                  시장위험 {formatScore(latest.integrated_market_score, 0)}
                 </span>
 
                 <span className="inline-flex items-center rounded-full border border-slate-200 bg-slate-50 px-3 py-1 text-sm text-slate-700">
-                  기준일 {formatDate(detail.score_date)}
+                  기준일 {formatDate(latest.snapshot_date)}
                 </span>
-
-                {detail.risk_grade ? (
-                  <span className="inline-flex items-center rounded-full border border-slate-200 bg-slate-50 px-3 py-1 text-sm text-slate-700">
-                    등급 {detail.risk_grade}
-                  </span>
-                ) : null}
               </div>
             </div>
 
             <div className="flex flex-wrap gap-2">
-              <form action="/watchlist/actions" method="post">
-                <input type="hidden" name="region_code" value={detail.region_code} />
-                <input
-                  type="hidden"
-                  name="category_id"
-                  value={String(detail.category_id)}
-                />
-                <input type="hidden" name="user_id" value={String(USER_ID)} />
-                <input
-                  type="hidden"
-                  name="intent"
-                  value={isWatching ? "remove" : "add"}
-                />
-                {watchStatus.watchlist_id ? (
+              {userId ? (
+                <form action={mutateWatchlistAction}>
+                  <input type="hidden" name="user_id" value={String(userId)} />
+                  <input type="hidden" name="region_code" value={latest.region_code} />
+                  <input type="hidden" name="category_id" value={String(latest.category_id)} />
                   <input
                     type="hidden"
-                    name="watchlist_id"
-                    value={String(watchStatus.watchlist_id)}
+                    name="intent"
+                    value={watchStatus.isWatching ? "remove" : "add"}
                   />
-                ) : null}
-                <button
-                  type="submit"
-                  className={[
-                    "inline-flex h-11 items-center justify-center rounded-xl px-4 text-sm font-medium transition",
-                    isWatching
-                      ? "border border-slate-200 bg-white text-slate-700 hover:bg-slate-50"
-                      : "bg-slate-950 text-white hover:bg-slate-800",
-                  ].join(" ")}
+                  {watchStatus.watchlistId ? (
+                    <input
+                      type="hidden"
+                      name="watchlist_id"
+                      value={String(watchStatus.watchlistId)}
+                    />
+                  ) : null}
+                  <input type="hidden" name="next" value={currentPath} />
+                  <button
+                    type="submit"
+                    className={[
+                      "inline-flex h-11 min-w-[108px] items-center justify-center rounded-xl px-4 text-sm font-medium transition whitespace-nowrap",
+                      watchStatus.isWatching
+                        ? "border border-sky-200 bg-sky-50 text-sky-700 hover:bg-sky-100"
+                        : "bg-sky-600 text-white shadow-sm hover:bg-sky-700",
+                    ].join(" ")}
+                  >
+                    {watchStatus.isWatching ? "관심목록 해제" : "관심목록 추가"}
+                  </button>
+                </form>
+              ) : (
+                <Link
+                  href={`/auth/login?next=${encodeURIComponent(currentPath)}`}
+                  className="inline-flex h-11 min-w-[108px] items-center justify-center rounded-xl bg-sky-600 px-4 text-sm font-medium text-white shadow-sm transition hover:bg-sky-700"
                 >
-                  {isWatching ? "관심목록 해제" : "관심목록 추가"}
-                </button>
-              </form>
+                  로그인 후 저장
+                </Link>
+              )}
 
               <Link
                 href="/watchlist"
-                className="inline-flex h-11 items-center justify-center rounded-xl border border-slate-200 bg-white px-4 text-sm font-medium text-slate-700 transition hover:bg-slate-50"
+                className="inline-flex h-11 items-center justify-center rounded-xl border border-sky-200 bg-sky-50 px-4 text-sm font-medium text-sky-700 transition hover:bg-sky-100"
               >
                 관심목록 보기
               </Link>
             </div>
           </div>
-
-          <div className="flex flex-wrap gap-2">
-            <DeltaPill label="7일 변화" value={detail.risk_delta_7d} />
-            <DeltaPill label="30일 변화" value={detail.risk_delta_30d} />
-          </div>
-        </div>
+        </section>
 
         <section className="grid grid-cols-1 gap-4 md:grid-cols-2 xl:grid-cols-4">
           <StatCard
-            label="전체 사업장 수"
-            value={formatNumber(detail.business_count)}
+            label="통합 위험"
+            value={formatScore(latest.integrated_final_score, 0)}
+            sub={`현재 단계 ${severityLabel(latest.integrated_severity)}`}
           />
           <StatCard
-            label="7일 폐업률"
-            value={formatPercent(detail.close_rate_7d)}
-            sub={`폐업 ${formatNumber(detail.close_count_7d)} / 개업 ${formatNumber(
-              detail.open_count_7d
+            label="시장 위험"
+            value={formatScore(latest.integrated_market_score, 0)}
+            sub={`소상공인 ${formatScore(latest.smallbiz_risk_score, 1)} / KOSIS ${formatScore(
+              latest.kosis_pressure_score,
+              0,
             )}`}
           />
           <StatCard
-            label="30일 폐업률"
-            value={formatPercent(detail.close_rate_30d)}
-            sub={`폐업 ${formatNumber(detail.close_count_30d)} / 개업 ${formatNumber(
-              detail.open_count_30d
+            label="외부 폐업압력"
+            value={formatScore(latest.kosis_pressure_score, 0)}
+            sub={`전국비중 ${formatPercent(latest.kosis_national_share_pct, 2)} / 전년대비 ${formatSigned(
+              latest.kosis_yoy_closed_delta_pct,
+              1,
             )}`}
           />
           <StatCard
-            label="7일 순증감"
-            value={formatSigned(detail.net_change_7d, 0)}
-            sub={`30일 순증감 ${formatSigned(detail.net_change_30d, 0)}`}
+            label="NTS 사업장 체력"
+            value={formatScore(latest.nts_business_score, 0)}
+            sub={latest.nts_label || "없음"}
           />
         </section>
 
-        <section className="grid grid-cols-1 gap-6 xl:grid-cols-2">
-          <div className="rounded-3xl border border-slate-200 bg-white p-6 shadow-sm">
-            <div className="mb-5">
-              <h2 className="text-lg font-semibold text-slate-950">최근 7일 이벤트 분포</h2>
-              <p className="mt-1 text-sm text-slate-500">
-                개업·폐업·휴업·재개 이벤트 수를 비교합니다.
-              </p>
+        <section
+          id="db-insight"
+          className="scroll-mt-24 rounded-3xl border border-slate-200 bg-white p-6 shadow-sm"
+        >
+          <SectionTitle
+            title="랭킹 기준 정보"
+            description="랭킹 페이지에서 보던 핵심 사유, DB 요약, 기준일을 이 화면에서 바로 확인합니다."
+          />
+
+          <div className="grid grid-cols-1 gap-4 xl:grid-cols-[0.9fr_1.1fr_1.4fr]">
+            <div className="rounded-2xl border border-slate-200 bg-white p-5">
+              <div className="text-xs font-semibold uppercase tracking-wide text-slate-500">
+                기준일
+              </div>
+              <div className="mt-3 text-2xl font-semibold tracking-tight text-slate-950">
+                {formatDate(latest.snapshot_date)}
+              </div>
+              <div className="mt-2 text-sm leading-6 text-slate-500">
+                현재 상세 화면은 가장 최근 스냅샷 기준으로 표시됩니다.
+              </div>
             </div>
 
-            <div className="space-y-4">
-              {[
-                {
-                  label: "개업",
-                  value: detail.open_count_7d,
-                  tone: "bg-emerald-500",
-                },
-                {
-                  label: "폐업",
-                  value: detail.close_count_7d,
-                  tone: "bg-red-500",
-                },
-                {
-                  label: "휴업",
-                  value: detail.pause_count_7d,
-                  tone: "bg-amber-500",
-                },
-                {
-                  label: "재개",
-                  value: detail.resume_count_7d,
-                  tone: "bg-sky-500",
-                },
-              ].map((item) => (
-                <div key={item.label}>
-                  <div className="mb-2 flex items-center justify-between text-sm">
-                    <span className="font-medium text-slate-700">{item.label}</span>
-                    <span className="text-slate-500">
-                      {formatNumber(item.value)}
+            <div className="rounded-2xl border border-slate-200 bg-white p-5">
+              <div className="text-xs font-semibold uppercase tracking-wide text-slate-500">
+                핵심 사유
+              </div>
+              <div className="mt-3 flex flex-wrap gap-2">
+                {(latest.reason_codes ?? []).length === 0 ? (
+                  <span className="text-sm text-slate-400">-</span>
+                ) : (
+                  (latest.reason_codes ?? []).map((code) => (
+                    <span
+                      key={`${latest.region_code}-${latest.category_id}-${code}`}
+                      className="inline-flex items-center rounded-full border border-slate-200 bg-slate-50 px-3 py-1 text-xs font-medium text-slate-700"
+                    >
+                      {humanReason(code)}
                     </span>
-                  </div>
-                  <div className="h-2 overflow-hidden rounded-full bg-slate-100">
-                    <div
-                      className={`h-full rounded-full ${item.tone}`}
-                      style={{ width: miniBarWidth(item.value, max7d) }}
-                    />
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
-
-          <div className="rounded-3xl border border-slate-200 bg-white p-6 shadow-sm">
-            <div className="mb-5">
-              <h2 className="text-lg font-semibold text-slate-950">최근 30일 이벤트 분포</h2>
-              <p className="mt-1 text-sm text-slate-500">
-                한 달 기준으로 이벤트 강도를 비교합니다.
-              </p>
+                  ))
+                )}
+              </div>
             </div>
 
-            <div className="space-y-4">
-              {[
-                {
-                  label: "개업",
-                  value: detail.open_count_30d,
-                  tone: "bg-emerald-500",
-                },
-                {
-                  label: "폐업",
-                  value: detail.close_count_30d,
-                  tone: "bg-red-500",
-                },
-                {
-                  label: "휴업",
-                  value: detail.pause_count_30d,
-                  tone: "bg-amber-500",
-                },
-                {
-                  label: "재개",
-                  value: detail.resume_count_30d,
-                  tone: "bg-sky-500",
-                },
-              ].map((item) => (
-                <div key={item.label}>
-                  <div className="mb-2 flex items-center justify-between text-sm">
-                    <span className="font-medium text-slate-700">{item.label}</span>
-                    <span className="text-slate-500">
-                      {formatNumber(item.value)}
-                    </span>
-                  </div>
-                  <div className="h-2 overflow-hidden rounded-full bg-slate-100">
-                    <div
-                      className={`h-full rounded-full ${item.tone}`}
-                      style={{ width: miniBarWidth(item.value, max30d) }}
-                    />
-                  </div>
-                </div>
-              ))}
+            <div className="rounded-2xl border border-slate-200 bg-white p-5">
+              <div className="text-xs font-semibold uppercase tracking-wide text-slate-500">
+                DB 요약
+              </div>
+              <div className="mt-3 text-sm leading-7 text-slate-700">
+                {latest.summary_text || "-"}
+              </div>
             </div>
           </div>
         </section>
 
         <section className="grid grid-cols-1 gap-6 xl:grid-cols-[1.2fr_0.8fr]">
           <div className="rounded-3xl border border-slate-200 bg-white p-6 shadow-sm">
-            <div className="mb-5">
-              <h2 className="text-lg font-semibold text-slate-950">비율 지표</h2>
-              <p className="mt-1 text-sm text-slate-500">
-                7일·30일 기준의 주요 이벤트 비율입니다.
-              </p>
-            </div>
+            <SectionTitle
+              title="통합 해석"
+              description="위험 해석과 회복 방향을 함께 봅니다."
+            />
 
-            <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
-              {[
-                {
-                  label: "7일 폐업률",
-                  value: formatPercent(detail.close_rate_7d),
-                },
-                {
-                  label: "7일 개업률",
-                  value: formatPercent(detail.open_rate_7d),
-                },
-                {
-                  label: "7일 휴업률",
-                  value: formatPercent(detail.pause_rate_7d),
-                },
-                {
-                  label: "7일 재개률",
-                  value: formatPercent(detail.resume_rate_7d),
-                },
-                {
-                  label: "30일 폐업률",
-                  value: formatPercent(detail.close_rate_30d),
-                },
-                {
-                  label: "30일 개업률",
-                  value: formatPercent(detail.open_rate_30d),
-                },
-                {
-                  label: "30일 휴업률",
-                  value: formatPercent(detail.pause_rate_30d),
-                },
-                {
-                  label: "30일 재개률",
-                  value: formatPercent(detail.resume_rate_30d),
-                },
-              ].map((item) => (
-                <div
-                  key={item.label}
-                  className="rounded-2xl border border-slate-200 bg-slate-50 p-4"
-                >
-                  <div className="text-sm text-slate-500">{item.label}</div>
-                  <div className="mt-2 text-xl font-semibold text-slate-950">
-                    {item.value}
-                  </div>
+            <div className="grid gap-4">
+              <div className="rounded-2xl border border-sky-100 bg-sky-50 p-5">
+                <div className="text-xs font-semibold uppercase tracking-wide text-sky-700">
+                  위험 해석
                 </div>
-              ))}
+                <div className="mt-3 text-sm leading-7 text-slate-700">
+                  {deriveRiskInterpretation(latest)}
+                </div>
+              </div>
+
+              <div className="rounded-2xl border border-slate-200 bg-white p-5">
+                <div className="text-xs font-semibold uppercase tracking-wide text-slate-500">
+                  회복 방향
+                </div>
+                <div className="mt-3 text-sm leading-7 text-slate-700">
+                  {deriveRecoveryDirection(latest)}
+                </div>
+              </div>
             </div>
           </div>
 
-          <div className="rounded-3xl border border-slate-200 bg-white p-6 shadow-sm">
-            <div className="mb-5">
-              <h2 className="text-lg font-semibold text-slate-950">요약 해석</h2>
-              <p className="mt-1 text-sm text-slate-500">
-                현재 수치를 빠르게 해석할 수 있도록 정리했습니다.
-              </p>
+          <aside className="rounded-3xl border border-slate-200 bg-white p-6 shadow-sm">
+            <SectionTitle
+              title="현재 위험 구성"
+              description="어떤 축이 위험을 끌어올리는지 바로 봅니다."
+            />
+
+            <div className="space-y-4">
+              <div className="rounded-2xl border border-slate-200 bg-white p-4">
+                <div className="mb-2 flex items-center justify-between">
+                  <span className="text-sm font-medium text-slate-700">외부 폐업압력</span>
+                  <span
+                    className={`inline-flex items-center rounded-full border px-3 py-1 text-sm font-medium ${pressureTone(
+                      latest.kosis_pressure_grade,
+                    )}`}
+                  >
+                    {(latest.kosis_pressure_label || severityLabel(latest.kosis_pressure_grade))} · {formatScore(
+                      latest.kosis_pressure_score,
+                      0,
+                    )}
+                  </span>
+                </div>
+                <div className="text-sm text-slate-500">
+                  폐업자 {formatNumber(latest.kosis_closed_total)}명 · 전국비중 {formatPercent(
+                    latest.kosis_national_share_pct,
+                    2,
+                  )}
+                </div>
+              </div>
+
+              <div className="rounded-2xl border border-slate-200 bg-white p-4">
+                <div className="mb-2 flex items-center justify-between">
+                  <span className="text-sm font-medium text-slate-700">소상공인 흐름</span>
+                  <span
+                    className={`inline-flex items-center rounded-full border px-3 py-1 text-sm font-medium ${scoreTone(
+                      latest.smallbiz_risk_score,
+                    )}`}
+                  >
+                    {formatScore(latest.smallbiz_risk_score, 1)}
+                  </span>
+                </div>
+                <div className="space-y-1 text-sm text-slate-500">
+                  <div>7일 폐업률 {formatPercent(latest.smallbiz_close_rate_7d, 1)}</div>
+                  <div>30일 폐업률 {formatPercent(latest.smallbiz_close_rate_30d, 1)}</div>
+                  <div className={num(latest.smallbiz_net_change_7d, 0) < 0 ? "text-red-600" : "text-slate-500"}>
+                    7일 순증감 {formatSigned(latest.smallbiz_net_change_7d, 0)}
+                  </div>
+                </div>
+              </div>
+
+              <div className="rounded-2xl border border-slate-200 bg-white p-4">
+                <div className="mb-2 flex items-center justify-between">
+                  <span className="text-sm font-medium text-slate-700">NTS 사업장 체력</span>
+                  <span
+                    className={`inline-flex items-center rounded-full border px-3 py-1 text-sm font-medium ${ntsTone(
+                      latest.nts_business_score,
+                    )}`}
+                  >
+                    {(latest.nts_label || "없음")} · {formatScore(latest.nts_business_score, 0)}
+                  </span>
+                </div>
+                <div className="text-sm text-slate-500">
+                  세무·체력 약화가 보이면 회복 속도보다 손실 통제가 우선입니다.
+                </div>
+              </div>
             </div>
+          </aside>
+        </section>
 
-            <div className="space-y-3 text-sm leading-6 text-slate-700">
-              <div className="rounded-2xl border border-slate-200 bg-slate-50 p-4">
-                현재 위험도는{" "}
-                <span className="font-semibold text-slate-950">
-                  {formatScore(detail.risk_score)}
-                </span>
-                점이며, 최근 7일 변화는{" "}
-                <span className="font-semibold text-slate-950">
-                  {formatSigned(detail.risk_delta_7d)}
-                </span>
-                입니다.
-              </div>
+        <section className="rounded-3xl border border-slate-200 bg-white p-6 shadow-sm">
+          <SectionTitle
+            title="시계열 변화"
+            description="동일 지역·업종의 최근 통합위험 추이를 봅니다."
+          />
 
-              <div className="rounded-2xl border border-slate-200 bg-slate-50 p-4">
-                최근 7일 기준 폐업{" "}
-                <span className="font-semibold text-slate-950">
-                  {formatNumber(detail.close_count_7d)}
-                </span>
-                건, 개업{" "}
-                <span className="font-semibold text-slate-950">
-                  {formatNumber(detail.open_count_7d)}
-                </span>
-                건으로 순증감은{" "}
-                <span className="font-semibold text-slate-950">
-                  {formatSigned(detail.net_change_7d, 0)}
-                </span>
-                입니다.
-              </div>
-
-              <div className="rounded-2xl border border-slate-200 bg-slate-50 p-4">
-                최근 30일 폐업률은{" "}
-                <span className="font-semibold text-slate-950">
-                  {formatPercent(detail.close_rate_30d)}
-                </span>
-                이고, 전체 사업장 수는{" "}
-                <span className="font-semibold text-slate-950">
-                  {formatNumber(detail.business_count)}
-                </span>
-                개입니다.
-              </div>
-            </div>
+          <div className="overflow-x-auto">
+            <table className="min-w-[1100px] text-left">
+              <thead className="border-b border-slate-200 bg-slate-50">
+                <tr className="text-sm text-slate-500">
+                  <th className="whitespace-nowrap px-4 py-3 font-medium">기준일</th>
+                  <th className="whitespace-nowrap px-4 py-3 font-medium">통합위험</th>
+                  <th className="whitespace-nowrap px-4 py-3 font-medium">시장위험</th>
+                  <th className="whitespace-nowrap px-4 py-3 font-medium">외부폐업압력</th>
+                  <th className="whitespace-nowrap px-4 py-3 font-medium">NTS위험</th>
+                  <th className="whitespace-nowrap px-4 py-3 font-medium">7일 순증감</th>
+                  <th className="whitespace-nowrap px-4 py-3 font-medium">DB 요약</th>
+                </tr>
+              </thead>
+              <tbody>
+                {rows.map((row, index) => (
+                  <tr
+                    key={`${row.snapshot_date ?? "row"}-${index}`}
+                    className="border-b border-slate-100 last:border-b-0"
+                  >
+                    <td className="whitespace-nowrap px-4 py-4 text-sm text-slate-700">
+                      {formatDate(row.snapshot_date)}
+                    </td>
+                    <td className="whitespace-nowrap px-4 py-4">
+                      <span
+                        className={`inline-flex items-center rounded-full border px-3 py-1 text-sm font-medium ${scoreTone(
+                          row.integrated_final_score,
+                        )}`}
+                      >
+                        {formatScore(row.integrated_final_score, 0)}
+                      </span>
+                    </td>
+                    <td className="whitespace-nowrap px-4 py-4">
+                      <span
+                        className={`inline-flex items-center rounded-full border px-3 py-1 text-sm font-medium ${scoreTone(
+                          row.integrated_market_score,
+                        )}`}
+                      >
+                        {formatScore(row.integrated_market_score, 0)}
+                      </span>
+                    </td>
+                    <td className="whitespace-nowrap px-4 py-4">
+                      <span
+                        className={`inline-flex items-center rounded-full border px-3 py-1 text-sm font-medium ${pressureTone(
+                          row.kosis_pressure_grade,
+                        )}`}
+                      >
+                        {(row.kosis_pressure_label || severityLabel(row.kosis_pressure_grade))} · {formatScore(
+                          row.kosis_pressure_score,
+                          0,
+                        )}
+                      </span>
+                    </td>
+                    <td className="whitespace-nowrap px-4 py-4">
+                      <span
+                        className={`inline-flex items-center rounded-full border px-3 py-1 text-sm font-medium ${ntsTone(
+                          row.nts_business_score,
+                        )}`}
+                      >
+                        {(row.nts_label || "없음")} · {formatScore(row.nts_business_score, 0)}
+                      </span>
+                    </td>
+                    <td className={`whitespace-nowrap px-4 py-4 text-sm font-semibold ${num(row.smallbiz_net_change_7d, 0) < 0 ? "text-red-600" : "text-slate-500"}`}>
+                      {formatSigned(row.smallbiz_net_change_7d, 0)}
+                    </td>
+                    <td className="px-4 py-4 text-sm leading-6 text-slate-600">
+                      {row.summary_text || "-"}
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
           </div>
         </section>
 
         <section className="rounded-3xl border border-slate-200 bg-white p-6 shadow-sm">
-          <div className="mb-5 flex items-end justify-between gap-4">
-            <div>
-              <h2 className="text-lg font-semibold text-slate-950">관련 시그널</h2>
-              <p className="mt-1 text-sm text-slate-500">
-                해당 지역·업종에 연결된 최신 시그널입니다.
-              </p>
-            </div>
-
-            <Link
-              href={`/signals?regionCode=${encodeURIComponent(
-                detail.region_code
-              )}&categoryId=${detail.category_id}`}
-              className="text-sm font-medium text-slate-700 transition hover:text-slate-950"
-            >
-              전체 시그널 보기
-            </Link>
-          </div>
+          <SectionTitle
+            title="관련 시그널"
+            description="이 지역·업종에 연결된 최근 시그널입니다."
+            action={
+              <Link
+                href={`/signals?regionCode=${encodeURIComponent(regionCode)}&categoryId=${categoryId}`}
+                className="text-sm font-medium text-sky-700 transition hover:text-sky-800"
+              >
+                전체 시그널 보기
+              </Link>
+            }
+          />
 
           {signals.length === 0 ? (
             <div className="rounded-2xl border border-dashed border-slate-200 bg-slate-50 px-4 py-10 text-center text-sm text-slate-500">
@@ -624,23 +868,21 @@ export default async function RegionCategoryDetailPage({ params }: PageProps) {
           ) : (
             <div className="space-y-3">
               {signals.map((signal, index) => {
-                const signalKey =
-                  signal.id ??
-                  `${signal.signal_date ?? signal.score_date ?? "unknown"}-${index}`;
+                const key =
+                  signal.id ?? `${signal.signal_date ?? signal.score_date ?? "signal"}-${index}`;
 
                 return (
                   <div
-                    key={signalKey}
+                    key={key}
                     className="rounded-2xl border border-slate-200 bg-slate-50 p-4"
                   >
                     <div className="flex flex-wrap items-start justify-between gap-3">
-                      <div>
+                      <div className="min-w-0">
                         <div className="flex flex-wrap items-center gap-2">
                           <span
-                            className={[
-                              "inline-flex items-center rounded-full border px-2.5 py-1 text-xs font-medium",
-                              signalTone(signal.signal_level),
-                            ].join(" ")}
+                            className={`inline-flex items-center rounded-full border px-2.5 py-1 text-xs font-medium ${signalTone(
+                              signal.signal_level,
+                            )}`}
                           >
                             {signal.signal_level || "signal"}
                           </span>
@@ -662,12 +904,11 @@ export default async function RegionCategoryDetailPage({ params }: PageProps) {
 
                       {signal.risk_score !== null && signal.risk_score !== undefined ? (
                         <div
-                          className={[
-                            "inline-flex items-center rounded-full border px-3 py-1 text-sm font-medium",
-                            riskTone(signal.risk_score),
-                          ].join(" ")}
+                          className={`inline-flex items-center rounded-full border px-3 py-1 text-sm font-medium whitespace-nowrap ${scoreTone(
+                            signal.risk_score,
+                          )}`}
                         >
-                          위험도 {formatScore(signal.risk_score)}
+                          위험도 {formatScore(signal.risk_score, 1)}
                         </div>
                       ) : null}
                     </div>

@@ -1,0 +1,139 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA010120220807737407"
+				,"bizesNm" : "칠산횟집"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20111"
+				,"indsSclsNm" : "횟집"
+				,"ksicCd" : "I56114"
+				,"ksicNm" : "한식 해산물 요리 전문점"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46860"
+				,"signguNm" : "함평군"
+				,"adongCd" : "46860310"
+				,"adongNm" : "손불면"
+				,"ldongCd" : "4686031024"
+				,"ldongNm" : "손불면"
+				,"lnoCd" : "4686031024111380000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 1138
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 함평군 손불면 월천리 1138"
+				,"rdnmCd" : "468604691202"
+				,"rdnm" : "전라남도 함평군 손불면 안악길"
+				,"bldMnno" : 132
+				,"bldSlno" : ""
+				,"bldMngNo" : "4686031024111380000009417"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 함평군 손불면 안악길 132"
+				,"oldZipcd" : "525843"
+				,"newZipcd" : "57110"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.390895087407
+				,"lat" : 35.1393458519777
+				}
+				,{
+				"bizesId" : "MA010120220807754045"
+				,"bizesNm" : "안악식당"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46860"
+				,"signguNm" : "함평군"
+				,"adongCd" : "46860310"
+				,"adongNm" : "손불면"
+				,"ldongCd" : "4686031024"
+				,"ldongNm" : "손불면"
+				,"lnoCd" : "4686031024101620008"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 162
+				,"lnoSlno" : 8
+				,"lnoAdr" : "전라남도 함평군 손불면 월천리 162-8"
+				,"rdnmCd" : "468604691202"
+				,"rdnm" : "전라남도 함평군 손불면 안악길"
+				,"bldMnno" : 109
+				,"bldSlno" : ""
+				,"bldMngNo" : "4686031024101620008009415"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 함평군 손불면 안악길 109"
+				,"oldZipcd" : "525843"
+				,"newZipcd" : "57110"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.392331873126
+				,"lat" : 35.1379559797069
+				}
+				,{
+				"bizesId" : "MA010120220812309859"
+				,"bizesNm" : "피싱펜션"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55104"
+				,"ksicNm" : "민박업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46860"
+				,"signguNm" : "함평군"
+				,"adongCd" : "46860310"
+				,"adongNm" : "손불면"
+				,"ldongCd" : "4686031024"
+				,"ldongNm" : "손불면"
+				,"lnoCd" : "4686031024101620004"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 162
+				,"lnoSlno" : 4
+				,"lnoAdr" : "전라남도 함평군 손불면 월천리 162-4"
+				,"rdnmCd" : "468604691202"
+				,"rdnm" : "전라남도 함평군 손불면 안악길"
+				,"bldMnno" : 107
+				,"bldSlno" : ""
+				,"bldMngNo" : "4686031024101620004009407"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 함평군 손불면 안악길 107"
+				,"oldZipcd" : "525843"
+				,"newZipcd" : "57110"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.392629594009
+				,"lat" : 35.1377591761982
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 1,
+		"totalCount" : 3	}
+}

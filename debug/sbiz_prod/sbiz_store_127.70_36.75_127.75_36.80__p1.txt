@@ -1,0 +1,344 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA0101202411A0031225"
+				,"bizesNm" : "보광산주유소"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G214"
+				,"indsMclsNm" : "연료 소매"
+				,"indsSclsCd" : "G21401"
+				,"indsSclsNm" : "주유소"
+				,"ksicCd" : "G47711"
+				,"ksicNm" : "운송장비용 주유소 운영업"
+				,"ctprvnCd" : "43"
+				,"ctprvnNm" : "충청북도"
+				,"signguCd" : "43760"
+				,"signguNm" : "괴산군"
+				,"adongCd" : "43760390"
+				,"adongNm" : "사리면"
+				,"ldongCd" : "4376039026"
+				,"ldongNm" : "사리면"
+				,"lnoCd" : "4376039026100140002"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 14
+				,"lnoSlno" : 2
+				,"lnoAdr" : "충청북도 괴산군 사리면 수암리 14-2"
+				,"rdnmCd" : "437603240095"
+				,"rdnm" : "충청북도 괴산군 사리면 중부로"
+				,"bldMnno" : 843
+				,"bldSlno" : ""
+				,"bldMngNo" : "4376039026100140002015798"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청북도 괴산군 사리면 중부로 843"
+				,"oldZipcd" : "367823"
+				,"newZipcd" : "28047"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.706929029819
+				,"lat" : 36.799775143212
+				}
+				,{
+				"bizesId" : "MA0101202504A0115066"
+				,"bizesNm" : "송이"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G220"
+				,"indsMclsNm" : "애완동물·용품 소매"
+				,"indsSclsCd" : "G22001"
+				,"indsSclsNm" : "애완동물/애완용품 소매업"
+				,"ksicCd" : "G47852"
+				,"ksicNm" : "애완용 동물 및 관련용품 소매업"
+				,"ctprvnCd" : "43"
+				,"ctprvnNm" : "충청북도"
+				,"signguCd" : "43760"
+				,"signguNm" : "괴산군"
+				,"adongCd" : "43760390"
+				,"adongNm" : "사리면"
+				,"ldongCd" : "4376039027"
+				,"ldongNm" : "사리면"
+				,"lnoCd" : "4376039027103440000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 344
+				,"lnoSlno" : ""
+				,"lnoAdr" : "충청북도 괴산군 사리면 이곡리 344"
+				,"rdnmCd" : "437604538277"
+				,"rdnm" : "충청북도 괴산군 사리면 모래재로이곡4길"
+				,"bldMnno" : 48
+				,"bldSlno" : 12
+				,"bldMngNo" : "4376039027103440000016934"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청북도 괴산군 사리면 모래재로이곡4길 48-12"
+				,"oldZipcd" : "367823"
+				,"newZipcd" : "28047"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.710056514856
+				,"lat" : 36.7950618154185
+				}
+				,{
+				"bizesId" : "MA0101202406A0364782"
+				,"bizesNm" : "세차여행"
+				,"brchNm" : ""
+				,"indsLclsCd" : "S2"
+				,"indsLclsNm" : "수리·개인"
+				,"indsMclsCd" : "S203"
+				,"indsMclsNm" : "자동차 수리·세차"
+				,"indsSclsCd" : "S20302"
+				,"indsSclsNm" : "자동차 세차장"
+				,"ksicCd" : "S95213"
+				,"ksicNm" : "자동차 세차업"
+				,"ctprvnCd" : "43"
+				,"ctprvnNm" : "충청북도"
+				,"signguCd" : "43760"
+				,"signguNm" : "괴산군"
+				,"adongCd" : "43760390"
+				,"adongNm" : "사리면"
+				,"ldongCd" : "4376039027"
+				,"ldongNm" : "사리면"
+				,"lnoCd" : "4376039027104480000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 448
+				,"lnoSlno" : ""
+				,"lnoAdr" : "충청북도 괴산군 사리면 이곡리 448"
+				,"rdnmCd" : "437604538276"
+				,"rdnm" : "충청북도 괴산군 사리면 모래재로이곡3길"
+				,"bldMnno" : 23
+				,"bldSlno" : 1
+				,"bldMngNo" : "4376039027104480000016586"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청북도 괴산군 사리면 모래재로이곡3길 23-1"
+				,"oldZipcd" : "367823"
+				,"newZipcd" : "28047"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.711088661238
+				,"lat" : 36.7976327766214
+				}
+				,{
+				"bizesId" : "MA0101202305A0032419"
+				,"bizesNm" : "모든식품"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G204"
+				,"indsMclsNm" : "종합 소매"
+				,"indsSclsCd" : "G20404"
+				,"indsSclsNm" : "슈퍼마켓"
+				,"ksicCd" : "G47129"
+				,"ksicNm" : "기타 음ㆍ식료품 위주 종합 소매업"
+				,"ctprvnCd" : "43"
+				,"ctprvnNm" : "충청북도"
+				,"signguCd" : "43760"
+				,"signguNm" : "괴산군"
+				,"adongCd" : "43760350"
+				,"adongNm" : "문광면"
+				,"ldongCd" : "4376035027"
+				,"ldongNm" : "문광면"
+				,"lnoCd" : "4376035027107310004"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 731
+				,"lnoSlno" : 4
+				,"lnoAdr" : "충청북도 괴산군 문광면 양곡리 731-4"
+				,"rdnmCd" : "437604538114"
+				,"rdnm" : "충청북도 괴산군 문광면 괴산로양곡2길"
+				,"bldMnno" : 8
+				,"bldSlno" : ""
+				,"bldMngNo" : "4376035027107310004021650"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청북도 괴산군 문광면 괴산로양곡2길 8"
+				,"oldZipcd" : "367853"
+				,"newZipcd" : "28048"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.726978718049
+				,"lat" : 36.7527612589136
+				}
+				,{
+				"bizesId" : "MA0101202303A0069015"
+				,"bizesNm" : "문무카페테리아"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I212"
+				,"indsMclsNm" : "비알코올 "
+				,"indsSclsCd" : "I21201"
+				,"indsSclsNm" : "카페"
+				,"ksicCd" : "I56221"
+				,"ksicNm" : "커피 전문점"
+				,"ctprvnCd" : "43"
+				,"ctprvnNm" : "충청북도"
+				,"signguCd" : "43760"
+				,"signguNm" : "괴산군"
+				,"adongCd" : "43760350"
+				,"adongNm" : "문광면"
+				,"ldongCd" : "4376035027"
+				,"ldongNm" : "문광면"
+				,"lnoCd" : "4376035027104760002"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 476
+				,"lnoSlno" : 2
+				,"lnoAdr" : "충청북도 괴산군 문광면 양곡리 476-2"
+				,"rdnmCd" : "437604538115"
+				,"rdnm" : "충청북도 괴산군 문광면 괴산로양곡3길"
+				,"bldMnno" : 7
+				,"bldSlno" : 15
+				,"bldMngNo" : "4376035027104760002020739"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청북도 괴산군 문광면 괴산로양곡3길 7-15"
+				,"oldZipcd" : "367851"
+				,"newZipcd" : "28056"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.739451567529
+				,"lat" : 36.7630740567607
+				}
+				,{
+				"bizesId" : "MA010120220806317509"
+				,"bizesNm" : "산들가든"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "43"
+				,"ctprvnNm" : "충청북도"
+				,"signguCd" : "43760"
+				,"signguNm" : "괴산군"
+				,"adongCd" : "43760350"
+				,"adongNm" : "문광면"
+				,"ldongCd" : "4376035024"
+				,"ldongNm" : "문광면"
+				,"lnoCd" : "4376035024103650001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 365
+				,"lnoSlno" : 1
+				,"lnoAdr" : "충청북도 괴산군 문광면 유평리 365-1"
+				,"rdnmCd" : "437603014041"
+				,"rdnm" : "충청북도 괴산군 문광면 모래재로"
+				,"bldMnno" : 1241
+				,"bldSlno" : ""
+				,"bldMngNo" : "4376035024103650001022289"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청북도 괴산군 문광면 모래재로 1241"
+				,"oldZipcd" : "367852"
+				,"newZipcd" : "28055"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.740965676798
+				,"lat" : 36.7958824942395
+				}
+				,{
+				"bizesId" : "MA010120220811873991"
+				,"bizesNm" : "문광낚시터"
+				,"brchNm" : ""
+				,"indsLclsCd" : "R1"
+				,"indsLclsNm" : "예술·스포츠"
+				,"indsMclsCd" : "R104"
+				,"indsMclsNm" : "유원지·오락"
+				,"indsSclsCd" : "R10408"
+				,"indsSclsNm" : "낚시터 운영업"
+				,"ksicCd" : "R91231"
+				,"ksicNm" : "낚시장 운영업"
+				,"ctprvnCd" : "43"
+				,"ctprvnNm" : "충청북도"
+				,"signguCd" : "43760"
+				,"signguNm" : "괴산군"
+				,"adongCd" : "43760350"
+				,"adongNm" : "문광면"
+				,"ldongCd" : "4376035027"
+				,"ldongNm" : "문광면"
+				,"lnoCd" : "4376035027100050001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 5
+				,"lnoSlno" : 1
+				,"lnoAdr" : "충청북도 괴산군 문광면 양곡리 5-1"
+				,"rdnmCd" : "437604538117"
+				,"rdnm" : "충청북도 괴산군 문광면 괴산로양곡5길"
+				,"bldMnno" : 44
+				,"bldSlno" : ""
+				,"bldMngNo" : "4376035027100050001019940"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청북도 괴산군 문광면 괴산로양곡5길 44"
+				,"oldZipcd" : "367851"
+				,"newZipcd" : "28056"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.74754728783
+				,"lat" : 36.7686823483025
+				}
+				,{
+				"bizesId" : "MA010120220806267093"
+				,"bizesNm" : "업소명없음"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G204"
+				,"indsMclsNm" : "종합 소매"
+				,"indsSclsCd" : "G20404"
+				,"indsSclsNm" : "슈퍼마켓"
+				,"ksicCd" : "G47129"
+				,"ksicNm" : "기타 음ㆍ식료품 위주 종합 소매업"
+				,"ctprvnCd" : "43"
+				,"ctprvnNm" : "충청북도"
+				,"signguCd" : "43760"
+				,"signguNm" : "괴산군"
+				,"adongCd" : "43760350"
+				,"adongNm" : "문광면"
+				,"ldongCd" : "4376035027"
+				,"ldongNm" : "문광면"
+				,"lnoCd" : "4376035027100750000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 75
+				,"lnoSlno" : ""
+				,"lnoAdr" : "충청북도 괴산군 문광면 양곡리 75"
+				,"rdnmCd" : "437603014014"
+				,"rdnm" : "충청북도 괴산군 문광면 괴산로"
+				,"bldMnno" : 3024
+				,"bldSlno" : 2
+				,"bldMngNo" : "4376035027100750000020488"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청북도 괴산군 문광면 괴산로 3024-2"
+				,"oldZipcd" : "367851"
+				,"newZipcd" : "28056"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.749654411132
+				,"lat" : 36.7653800899696
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 1,
+		"totalCount" : 8	}
+}

@@ -1,0 +1,385 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA010120220813750876"
+				,"bizesNm" : "전통한옥펜션연안제A"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55104"
+				,"ksicNm" : "민박업"
+				,"ctprvnCd" : "51"
+				,"ctprvnNm" : "강원특별자치도"
+				,"signguCd" : "51790"
+				,"signguNm" : "화천군"
+				,"adongCd" : "51790320"
+				,"adongNm" : "하남면"
+				,"ldongCd" : "5179032029"
+				,"ldongNm" : "하남면"
+				,"lnoCd" : "5179032029107410000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 741
+				,"lnoSlno" : ""
+				,"lnoAdr" : "강원특별자치도 화천군 하남면 서오지리 741"
+				,"rdnmCd" : "517904493074"
+				,"rdnm" : "강원특별자치도 화천군 하남면 서오지리길"
+				,"bldMnno" : 113
+				,"bldSlno" : 1
+				,"bldMngNo" : "4279032029107410000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "강원특별자치도 화천군 하남면 서오지리길 113-1"
+				,"oldZipcd" : "209842"
+				,"newZipcd" : "24147"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.623182083932
+				,"lat" : 38.0536198936444
+				}
+				,{
+				"bizesId" : "MA010120220804519187"
+				,"bizesNm" : "바우하우스"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55104"
+				,"ksicNm" : "민박업"
+				,"ctprvnCd" : "51"
+				,"ctprvnNm" : "강원특별자치도"
+				,"signguCd" : "51790"
+				,"signguNm" : "화천군"
+				,"adongCd" : "51790320"
+				,"adongNm" : "하남면"
+				,"ldongCd" : "5179032029"
+				,"ldongNm" : "하남면"
+				,"lnoCd" : "5179032029103330000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 333
+				,"lnoSlno" : ""
+				,"lnoAdr" : "강원특별자치도 화천군 하남면 서오지리 333"
+				,"rdnmCd" : "517903013022"
+				,"rdnm" : "강원특별자치도 화천군 하남면 영서로"
+				,"bldMnno" : 5065
+				,"bldSlno" : 12
+				,"bldMngNo" : "4279032029003330000011718"
+				,"bldNm" : ""
+				,"rdnmAdr" : "강원특별자치도 화천군 하남면 영서로 5065-12"
+				,"oldZipcd" : "209842"
+				,"newZipcd" : "24147"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.634144262319
+				,"lat" : 38.0511738604084
+				}
+				,{
+				"bizesId" : "MA010120220804542598"
+				,"bizesNm" : "주인수"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G204"
+				,"indsMclsNm" : "종합 소매"
+				,"indsSclsCd" : "G20404"
+				,"indsSclsNm" : "슈퍼마켓"
+				,"ksicCd" : "G47129"
+				,"ksicNm" : "기타 음ㆍ식료품 위주 종합 소매업"
+				,"ctprvnCd" : "51"
+				,"ctprvnNm" : "강원특별자치도"
+				,"signguCd" : "51790"
+				,"signguNm" : "화천군"
+				,"adongCd" : "51790320"
+				,"adongNm" : "하남면"
+				,"ldongCd" : "5179032029"
+				,"ldongNm" : "하남면"
+				,"lnoCd" : "5179032029103900001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 390
+				,"lnoSlno" : 1
+				,"lnoAdr" : "강원특별자치도 화천군 하남면 서오지리 390-1"
+				,"rdnmCd" : "517904493074"
+				,"rdnm" : "강원특별자치도 화천군 하남면 서오지리길"
+				,"bldMnno" : 8
+				,"bldSlno" : ""
+				,"bldMngNo" : "4279032029003900002015877"
+				,"bldNm" : ""
+				,"rdnmAdr" : "강원특별자치도 화천군 하남면 서오지리길 8"
+				,"oldZipcd" : "209842"
+				,"newZipcd" : "24147"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.634765104656
+				,"lat" : 38.0531434982206
+				}
+				,{
+				"bizesId" : "MA0101202412A0078318"
+				,"bizesNm" : "서오지리꽃빛향"
+				,"brchNm" : ""
+				,"indsLclsCd" : "S2"
+				,"indsLclsNm" : "수리·개인"
+				,"indsMclsCd" : "S208"
+				,"indsMclsNm" : "욕탕·신체관리"
+				,"indsSclsCd" : "S20801"
+				,"indsSclsNm" : "목욕탕/사우나"
+				,"ksicCd" : "S96121"
+				,"ksicNm" : "욕탕업"
+				,"ctprvnCd" : "51"
+				,"ctprvnNm" : "강원특별자치도"
+				,"signguCd" : "51790"
+				,"signguNm" : "화천군"
+				,"adongCd" : "51790320"
+				,"adongNm" : "하남면"
+				,"ldongCd" : "5179032029"
+				,"ldongNm" : "하남면"
+				,"lnoCd" : "5179032029103640010"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 364
+				,"lnoSlno" : 10
+				,"lnoAdr" : "강원특별자치도 화천군 하남면 서오지리 364-10"
+				,"rdnmCd" : "517903013022"
+				,"rdnm" : "강원특별자치도 화천군 하남면 영서로"
+				,"bldMnno" : 5076
+				,"bldSlno" : 2
+				,"bldMngNo" : "5179032029103640010000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "강원특별자치도 화천군 하남면 영서로 5076-2"
+				,"oldZipcd" : "209842"
+				,"newZipcd" : "24147"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.635438082588
+				,"lat" : 38.0519146273604
+				}
+				,{
+				"bizesId" : "MA0101202412A0039157"
+				,"bizesNm" : "서오지리꽃빛향지점"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55104"
+				,"ksicNm" : "민박업"
+				,"ctprvnCd" : "51"
+				,"ctprvnNm" : "강원특별자치도"
+				,"signguCd" : "51790"
+				,"signguNm" : "화천군"
+				,"adongCd" : "51790320"
+				,"adongNm" : "하남면"
+				,"ldongCd" : "5179032029"
+				,"ldongNm" : "하남면"
+				,"lnoCd" : "5179032029103640007"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 364
+				,"lnoSlno" : 7
+				,"lnoAdr" : "강원특별자치도 화천군 하남면 서오지리 364-7"
+				,"rdnmCd" : "517903013022"
+				,"rdnm" : "강원특별자치도 화천군 하남면 영서로"
+				,"bldMnno" : 5078
+				,"bldSlno" : ""
+				,"bldMngNo" : "4279032029103640007000003"
+				,"bldNm" : ""
+				,"rdnmAdr" : "강원특별자치도 화천군 하남면 영서로 5078"
+				,"oldZipcd" : "209842"
+				,"newZipcd" : "24147"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.635465307383
+				,"lat" : 38.0524279977684
+				}
+				,{
+				"bizesId" : "MA010120220806762225"
+				,"bizesNm" : "개울건너집민박"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55104"
+				,"ksicNm" : "민박업"
+				,"ctprvnCd" : "51"
+				,"ctprvnNm" : "강원특별자치도"
+				,"signguCd" : "51790"
+				,"signguNm" : "화천군"
+				,"adongCd" : "51790320"
+				,"adongNm" : "하남면"
+				,"ldongCd" : "5179032023"
+				,"ldongNm" : "하남면"
+				,"lnoCd" : "5179032023104450001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 445
+				,"lnoSlno" : 1
+				,"lnoAdr" : "강원특별자치도 화천군 하남면 계성리 445-1"
+				,"rdnmCd" : "517903231006"
+				,"rdnm" : "강원특별자치도 화천군 하남면 명지령로"
+				,"bldMnno" : 1226
+				,"bldSlno" : 12
+				,"bldMngNo" : "4279032023004450000011920"
+				,"bldNm" : "개울건너집"
+				,"rdnmAdr" : "강원특별자치도 화천군 하남면 명지령로 1226-12"
+				,"oldZipcd" : "209842"
+				,"newZipcd" : "24146"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.636355463209
+				,"lat" : 38.0802251367534
+				}
+				,{
+				"bizesId" : "MA010120220804512928"
+				,"bizesNm" : "감자바우가든"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "51"
+				,"ctprvnNm" : "강원특별자치도"
+				,"signguCd" : "51790"
+				,"signguNm" : "화천군"
+				,"adongCd" : "51790320"
+				,"adongNm" : "하남면"
+				,"ldongCd" : "5179032029"
+				,"ldongNm" : "하남면"
+				,"lnoCd" : "5179032029103690000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 369
+				,"lnoSlno" : ""
+				,"lnoAdr" : "강원특별자치도 화천군 하남면 서오지리 369"
+				,"rdnmCd" : "517903013022"
+				,"rdnm" : "강원특별자치도 화천군 하남면 영서로"
+				,"bldMnno" : 5082
+				,"bldSlno" : 18
+				,"bldMngNo" : "4279032029003690000011717"
+				,"bldNm" : ""
+				,"rdnmAdr" : "강원특별자치도 화천군 하남면 영서로 5082-18"
+				,"oldZipcd" : "209842"
+				,"newZipcd" : "24147"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.637183187575
+				,"lat" : 38.0521394170254
+				}
+				,{
+				"bizesId" : "MA0101202302A0023938"
+				,"bizesNm" : "강변소풍민박"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55109"
+				,"ksicNm" : "기타 일반 및 생활 숙박시설 운영업"
+				,"ctprvnCd" : "51"
+				,"ctprvnNm" : "강원특별자치도"
+				,"signguCd" : "51790"
+				,"signguNm" : "화천군"
+				,"adongCd" : "51790320"
+				,"adongNm" : "하남면"
+				,"ldongCd" : "5179032029"
+				,"ldongNm" : "하남면"
+				,"lnoCd" : "5179032029103760001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 376
+				,"lnoSlno" : 1
+				,"lnoAdr" : "강원특별자치도 화천군 하남면 서오지리 376-1"
+				,"rdnmCd" : "517903013022"
+				,"rdnm" : "강원특별자치도 화천군 하남면 영서로"
+				,"bldMnno" : 5082
+				,"bldSlno" : 30
+				,"bldMngNo" : "4279032029103760001000001"
+				,"bldNm" : "강변소풍펜션"
+				,"rdnmAdr" : "강원특별자치도 화천군 하남면 영서로 5082-30"
+				,"oldZipcd" : "209842"
+				,"newZipcd" : "24147"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.637931585738
+				,"lat" : 38.051729949348
+				}
+				,{
+				"bizesId" : "MA010120220804053693"
+				,"bizesNm" : "수크"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G209"
+				,"indsMclsNm" : "섬유·의복·신발 소매"
+				,"indsSclsCd" : "G20907"
+				,"indsSclsNm" : "액세서리/잡화 소매업"
+				,"ksicCd" : "G47422"
+				,"ksicNm" : "의복 액세서리 및 모조 장신구 소매업"
+				,"ctprvnCd" : "51"
+				,"ctprvnNm" : "강원특별자치도"
+				,"signguCd" : "51790"
+				,"signguNm" : "화천군"
+				,"adongCd" : "51790320"
+				,"adongNm" : "하남면"
+				,"ldongCd" : "5179032023"
+				,"ldongNm" : "하남면"
+				,"lnoCd" : "5179032023104390000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 439
+				,"lnoSlno" : ""
+				,"lnoAdr" : "강원특별자치도 화천군 하남면 계성리 439"
+				,"rdnmCd" : "517903231006"
+				,"rdnm" : "강원특별자치도 화천군 하남면 명지령로"
+				,"bldMnno" : 1245
+				,"bldSlno" : ""
+				,"bldMngNo" : "4279032023104390000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "강원특별자치도 화천군 하남면 명지령로 1245"
+				,"oldZipcd" : "209842"
+				,"newZipcd" : "24146"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.638354602594
+				,"lat" : 38.0820611470638
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 1,
+		"totalCount" : 9	}
+}

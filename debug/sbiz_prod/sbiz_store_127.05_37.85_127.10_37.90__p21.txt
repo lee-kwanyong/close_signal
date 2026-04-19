@@ -1,0 +1,262 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA0106202511A2253844"
+				,"bizesNm" : "펌프랠리"
+				,"brchNm" : ""
+				,"indsLclsCd" : "R1"
+				,"indsLclsNm" : "예술·스포츠"
+				,"indsMclsCd" : "R104"
+				,"indsMclsNm" : "유원지·오락"
+				,"indsSclsCd" : "R10404"
+				,"indsSclsNm" : "전자 게임장"
+				,"ksicCd" : "R91221"
+				,"ksicNm" : "전자 게임장 운영업"
+				,"ctprvnCd" : "41"
+				,"ctprvnNm" : "경기도"
+				,"signguCd" : "41250"
+				,"signguNm" : "동두천시"
+				,"adongCd" : "41250566"
+				,"adongNm" : "송내동"
+				,"ldongCd" : "4125010200"
+				,"ldongNm" : "지행동"
+				,"lnoCd" : "4125010200107190000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 719
+				,"lnoSlno" : ""
+				,"lnoAdr" : "경기도 동두천시 지행동 719"
+				,"rdnmCd" : "412503189031"
+				,"rdnm" : "경기도 동두천시 중앙로"
+				,"bldMnno" : 110
+				,"bldSlno" : 9
+				,"bldMngNo" : "4125010200107190000000128"
+				,"bldNm" : ""
+				,"rdnmAdr" : "경기도 동두천시 중앙로 110-9"
+				,"oldZipcd" : "483010"
+				,"newZipcd" : "11350"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.053045901189
+				,"lat" : 37.8916322569963
+				}
+				,{
+				"bizesId" : "MA0106202511A2351124"
+				,"bizesNm" : "브라보"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "41"
+				,"ctprvnNm" : "경기도"
+				,"signguCd" : "41250"
+				,"signguNm" : "동두천시"
+				,"adongCd" : "41250566"
+				,"adongNm" : "송내동"
+				,"ldongCd" : "4125010100"
+				,"ldongNm" : "송내동"
+				,"lnoCd" : "4125010100106950004"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 695
+				,"lnoSlno" : 4
+				,"lnoAdr" : "경기도 동두천시 송내동 695-4"
+				,"rdnmCd" : "412503189005"
+				,"rdnm" : "경기도 동두천시 동두천로"
+				,"bldMnno" : 9
+				,"bldSlno" : ""
+				,"bldMngNo" : "4125010100106950004009189"
+				,"bldNm" : ""
+				,"rdnmAdr" : "경기도 동두천시 동두천로 9"
+				,"oldZipcd" : "483010"
+				,"newZipcd" : "11354"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.053959939328
+				,"lat" : 37.8822890237383
+				}
+				,{
+				"bizesId" : "MA0106202511A2303315"
+				,"bizesNm" : "별밤노래타운"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I211"
+				,"indsMclsNm" : "주점"
+				,"indsSclsCd" : "I21101"
+				,"indsSclsNm" : "일반 유흥 주점"
+				,"ksicCd" : "I56211"
+				,"ksicNm" : "일반 유흥 주점업"
+				,"ctprvnCd" : "41"
+				,"ctprvnNm" : "경기도"
+				,"signguCd" : "41250"
+				,"signguNm" : "동두천시"
+				,"adongCd" : "41250566"
+				,"adongNm" : "송내동"
+				,"ldongCd" : "4125010200"
+				,"ldongNm" : "지행동"
+				,"lnoCd" : "4125010200107210002"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 721
+				,"lnoSlno" : 2
+				,"lnoAdr" : "경기도 동두천시 지행동 721-2"
+				,"rdnmCd" : "412503189005"
+				,"rdnm" : "경기도 동두천시 동두천로"
+				,"bldMnno" : 119
+				,"bldSlno" : ""
+				,"bldMngNo" : "4125010200107210002008886"
+				,"bldNm" : ""
+				,"rdnmAdr" : "경기도 동두천시 동두천로 119"
+				,"oldZipcd" : "483010"
+				,"newZipcd" : "11350"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.054626462536
+				,"lat" : 37.8920729976942
+				}
+				,{
+				"bizesId" : "MA0106202511A2329792"
+				,"bizesNm" : "안성훈치과"
+				,"brchNm" : ""
+				,"indsLclsCd" : "Q1"
+				,"indsLclsNm" : "보건의료"
+				,"indsMclsCd" : "Q101"
+				,"indsMclsNm" : "병원"
+				,"indsSclsCd" : "Q10103"
+				,"indsSclsNm" : "치과병원"
+				,"ksicCd" : "Q86103"
+				,"ksicNm" : "치과병원"
+				,"ctprvnCd" : "41"
+				,"ctprvnNm" : "경기도"
+				,"signguCd" : "41250"
+				,"signguNm" : "동두천시"
+				,"adongCd" : "41250566"
+				,"adongNm" : "송내동"
+				,"ldongCd" : "4125010200"
+				,"ldongNm" : "지행동"
+				,"lnoCd" : "4125010200107210003"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 721
+				,"lnoSlno" : 3
+				,"lnoAdr" : "경기도 동두천시 지행동 721-3"
+				,"rdnmCd" : "412503189005"
+				,"rdnm" : "경기도 동두천시 동두천로"
+				,"bldMnno" : 115
+				,"bldSlno" : ""
+				,"bldMngNo" : "4125010200107210003001603"
+				,"bldNm" : ""
+				,"rdnmAdr" : "경기도 동두천시 동두천로 115"
+				,"oldZipcd" : "483010"
+				,"newZipcd" : "11350"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.054637558208
+				,"lat" : 37.8917036046871
+				}
+				,{
+				"bizesId" : "MA0106202511A2269184"
+				,"bizesNm" : "염색하기좋은날"
+				,"brchNm" : ""
+				,"indsLclsCd" : "S2"
+				,"indsLclsNm" : "수리·개인"
+				,"indsMclsCd" : "S207"
+				,"indsMclsNm" : "이용·미용"
+				,"indsSclsCd" : "S20701"
+				,"indsSclsNm" : "미용실"
+				,"ksicCd" : "S96111"
+				,"ksicNm" : "이용업"
+				,"ctprvnCd" : "41"
+				,"ctprvnNm" : "경기도"
+				,"signguCd" : "41250"
+				,"signguNm" : "동두천시"
+				,"adongCd" : "41250565"
+				,"adongNm" : "불현동"
+				,"ldongCd" : "4125010300"
+				,"ldongNm" : "생연동"
+				,"lnoCd" : "4125010300103850004"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 385
+				,"lnoSlno" : 4
+				,"lnoAdr" : "경기도 동두천시 생연동 385-4"
+				,"rdnmCd" : "412503012028"
+				,"rdnm" : "경기도 동두천시 삼육사로"
+				,"bldMnno" : 1005
+				,"bldSlno" : ""
+				,"bldMngNo" : "4125010300103850004008836"
+				,"bldNm" : ""
+				,"rdnmAdr" : "경기도 동두천시 삼육사로 1005"
+				,"oldZipcd" : "483030"
+				,"newZipcd" : "11318"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.061692463604
+				,"lat" : 37.8993311264379
+				}
+				,{
+				"bizesId" : "MA0106202511A2232246"
+				,"bizesNm" : "써니파크베이스볼"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G213"
+				,"indsMclsNm" : "오락용품 소매"
+				,"indsSclsCd" : "G21304"
+				,"indsSclsNm" : "운동용품 소매업"
+				,"ksicCd" : "G47631"
+				,"ksicNm" : "운동 및 경기용품 소매업"
+				,"ctprvnCd" : "41"
+				,"ctprvnNm" : "경기도"
+				,"signguCd" : "41250"
+				,"signguNm" : "동두천시"
+				,"adongCd" : "41250565"
+				,"adongNm" : "불현동"
+				,"ldongCd" : "4125010400"
+				,"ldongNm" : "광암동"
+				,"lnoCd" : "4125010400101820000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 182
+				,"lnoSlno" : ""
+				,"lnoAdr" : "경기도 동두천시 광암동 182"
+				,"rdnmCd" : "412504367029"
+				,"rdnm" : "경기도 동두천시 광암로61번길"
+				,"bldMnno" : 28
+				,"bldSlno" : ""
+				,"bldMngNo" : "4125010400101820000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "경기도 동두천시 광암로61번길 28"
+				,"oldZipcd" : "483040"
+				,"newZipcd" : "11322"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.088688666407
+				,"lat" : 37.8934667478989
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 21,
+		"totalCount" : 2006	}
+}

@@ -1,0 +1,262 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA010120220813531224"
+				,"bizesNm" : "미롱터"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55104"
+				,"ksicNm" : "민박업"
+				,"ctprvnCd" : "41"
+				,"ctprvnNm" : "경기도"
+				,"signguCd" : "41820"
+				,"signguNm" : "가평군"
+				,"adongCd" : "41820350"
+				,"adongNm" : "북면"
+				,"ldongCd" : "4182035025"
+				,"ldongNm" : "북면"
+				,"lnoCd" : "4182035025105640010"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 564
+				,"lnoSlno" : 10
+				,"lnoAdr" : "경기도 가평군 북면 적목리 564-10"
+				,"rdnmCd" : "418203000142"
+				,"rdnm" : "경기도 가평군 북면 가화로"
+				,"bldMnno" : 3289
+				,"bldSlno" : 33
+				,"bldMngNo" : "4182035025105640010000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "경기도 가평군 북면 가화로 3289-33"
+				,"oldZipcd" : "477841"
+				,"newZipcd" : "12400"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.437100661584
+				,"lat" : 38.0013769721504
+				}
+				,{
+				"bizesId" : "MA0101202412A0037744"
+				,"bizesNm" : "별누리"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55104"
+				,"ksicNm" : "민박업"
+				,"ctprvnCd" : "41"
+				,"ctprvnNm" : "경기도"
+				,"signguCd" : "41820"
+				,"signguNm" : "가평군"
+				,"adongCd" : "41820350"
+				,"adongNm" : "북면"
+				,"ldongCd" : "4182035025"
+				,"ldongNm" : "북면"
+				,"lnoCd" : "4182035025105640004"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 564
+				,"lnoSlno" : 4
+				,"lnoAdr" : "경기도 가평군 북면 적목리 564-4"
+				,"rdnmCd" : "418203000142"
+				,"rdnm" : "경기도 가평군 북면 가화로"
+				,"bldMnno" : 3289
+				,"bldSlno" : 34
+				,"bldMngNo" : "4182035025105640004000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "경기도 가평군 북면 가화로 3289-34"
+				,"oldZipcd" : "477841"
+				,"newZipcd" : "12400"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.437284750641
+				,"lat" : 38.0017006200233
+				}
+				,{
+				"bizesId" : "MA010120220802918476"
+				,"bizesNm" : "아마빌레펜션"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55109"
+				,"ksicNm" : "기타 일반 및 생활 숙박시설 운영업"
+				,"ctprvnCd" : "41"
+				,"ctprvnNm" : "경기도"
+				,"signguCd" : "41820"
+				,"signguNm" : "가평군"
+				,"adongCd" : "41820350"
+				,"adongNm" : "북면"
+				,"ldongCd" : "4182035025"
+				,"ldongNm" : "북면"
+				,"lnoCd" : "4182035025105640001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 564
+				,"lnoSlno" : 1
+				,"lnoAdr" : "경기도 가평군 북면 적목리 564-1"
+				,"rdnmCd" : "418203000142"
+				,"rdnm" : "경기도 가평군 북면 가화로"
+				,"bldMnno" : 3289
+				,"bldSlno" : 24
+				,"bldMngNo" : "4182035025105640001000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "경기도 가평군 북면 가화로 3289-24"
+				,"oldZipcd" : "477841"
+				,"newZipcd" : "12400"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.437775333695
+				,"lat" : 38.0018699701964
+				}
+				,{
+				"bizesId" : "MA0101202305A0168601"
+				,"bizesNm" : "아트라"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G218"
+				,"indsMclsNm" : "장식품 소매"
+				,"indsSclsCd" : "G21801"
+				,"indsSclsNm" : "예술품 소매업"
+				,"ksicCd" : "G47841"
+				,"ksicNm" : "예술품 및 골동품 소매업"
+				,"ctprvnCd" : "41"
+				,"ctprvnNm" : "경기도"
+				,"signguCd" : "41820"
+				,"signguNm" : "가평군"
+				,"adongCd" : "41820350"
+				,"adongNm" : "북면"
+				,"ldongCd" : "4182035025"
+				,"ldongNm" : "북면"
+				,"lnoCd" : "4182035025105750000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 575
+				,"lnoSlno" : ""
+				,"lnoAdr" : "경기도 가평군 북면 적목리 575"
+				,"rdnmCd" : "418203000142"
+				,"rdnm" : "경기도 가평군 북면 가화로"
+				,"bldMnno" : 3585
+				,"bldSlno" : 36
+				,"bldMngNo" : "4182035025105750000011236"
+				,"bldNm" : ""
+				,"rdnmAdr" : "경기도 가평군 북면 가화로 3585-36"
+				,"oldZipcd" : "477841"
+				,"newZipcd" : "12400"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.441482257517
+				,"lat" : 38.0257575430023
+				}
+				,{
+				"bizesId" : "MA010120220802179831"
+				,"bizesNm" : "들꽃핀자리"
+				,"brchNm" : ""
+				,"indsLclsCd" : "P1"
+				,"indsLclsNm" : "교육"
+				,"indsMclsCd" : "P106"
+				,"indsMclsNm" : "기타 교육"
+				,"indsSclsCd" : "P10607"
+				,"indsSclsNm" : "청소년 수련시설"
+				,"ksicCd" : "I55109"
+				,"ksicNm" : "기타 일반 및 생활 숙박시설 운영업"
+				,"ctprvnCd" : "41"
+				,"ctprvnNm" : "경기도"
+				,"signguCd" : "41820"
+				,"signguNm" : "가평군"
+				,"adongCd" : "41820350"
+				,"adongNm" : "북면"
+				,"ldongCd" : "4182035025"
+				,"ldongNm" : "북면"
+				,"lnoCd" : "4182035025105750000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 575
+				,"lnoSlno" : ""
+				,"lnoAdr" : "경기도 가평군 북면 적목리 575"
+				,"rdnmCd" : "418203000142"
+				,"rdnm" : "경기도 가평군 북면 가화로"
+				,"bldMnno" : 3585
+				,"bldSlno" : 36
+				,"bldMngNo" : "4182035025105750000011236"
+				,"bldNm" : ""
+				,"rdnmAdr" : "경기도 가평군 북면 가화로 3585-36"
+				,"oldZipcd" : "477841"
+				,"newZipcd" : "12400"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.441482257517
+				,"lat" : 38.0257575430023
+				}
+				,{
+				"bizesId" : "MA010120220801657928"
+				,"bizesNm" : "라온펜션"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55109"
+				,"ksicNm" : "기타 일반 및 생활 숙박시설 운영업"
+				,"ctprvnCd" : "41"
+				,"ctprvnNm" : "경기도"
+				,"signguCd" : "41820"
+				,"signguNm" : "가평군"
+				,"adongCd" : "41820350"
+				,"adongNm" : "북면"
+				,"ldongCd" : "4182035025"
+				,"ldongNm" : "북면"
+				,"lnoCd" : "4182035025105840002"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 584
+				,"lnoSlno" : 2
+				,"lnoAdr" : "경기도 가평군 북면 적목리 584-2"
+				,"rdnmCd" : "418203000142"
+				,"rdnm" : "경기도 가평군 북면 가화로"
+				,"bldMnno" : 3594
+				,"bldSlno" : ""
+				,"bldMngNo" : "4182035025105840002000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "경기도 가평군 북면 가화로 3594"
+				,"oldZipcd" : "477841"
+				,"newZipcd" : "12400"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.442687204981
+				,"lat" : 38.0272665562411
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 1,
+		"totalCount" : 6	}
+}

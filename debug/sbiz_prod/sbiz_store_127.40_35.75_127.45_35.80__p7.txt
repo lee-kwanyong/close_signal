@@ -1,0 +1,508 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA0106202509A2364056"
+				,"bizesNm" : "마이산중심"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G218"
+				,"indsMclsNm" : "장식품 소매"
+				,"indsSclsCd" : "G21802"
+				,"indsSclsNm" : "기념품점"
+				,"ksicCd" : "G47842"
+				,"ksicNm" : "기념품, 관광 민예품 및 장식용품 소매업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52720"
+				,"signguNm" : "진안군"
+				,"adongCd" : "52720370"
+				,"adongNm" : "마령면"
+				,"ldongCd" : "5272037022"
+				,"ldongNm" : "마령면"
+				,"lnoCd" : "5272037022100100000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 10
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전북특별자치도 진안군 마령면 동촌리 10"
+				,"rdnmCd" : "527203274013"
+				,"rdnm" : "전북특별자치도 진안군 마령면 마이산남로"
+				,"bldMnno" : 362
+				,"bldSlno" : ""
+				,"bldMngNo" : "4572037022100100000004138"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 진안군 마령면 마이산남로 362"
+				,"oldZipcd" : "567872"
+				,"newZipcd" : "55450"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.410642330032
+				,"lat" : 35.7578207745762
+				}
+				,{
+				"bizesId" : "MA0106202509A1341463"
+				,"bizesNm" : "진안손세차장"
+				,"brchNm" : ""
+				,"indsLclsCd" : "S2"
+				,"indsLclsNm" : "수리·개인"
+				,"indsMclsCd" : "S203"
+				,"indsMclsNm" : "자동차 수리·세차"
+				,"indsSclsCd" : "S20302"
+				,"indsSclsNm" : "자동차 세차장"
+				,"ksicCd" : "S95213"
+				,"ksicNm" : "자동차 세차업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52720"
+				,"signguNm" : "진안군"
+				,"adongCd" : "52720250"
+				,"adongNm" : "진안읍"
+				,"ldongCd" : "5272025022"
+				,"ldongNm" : "진안읍"
+				,"lnoCd" : "5272025022103320007"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 332
+				,"lnoSlno" : 7
+				,"lnoAdr" : "전북특별자치도 진안군 진안읍 군하리 332-7"
+				,"rdnmCd" : "527204622075"
+				,"rdnm" : "전북특별자치도 진안군 진안읍 대광3길"
+				,"bldMnno" : 25
+				,"bldSlno" : 14
+				,"bldMngNo" : "4572025022103320007023691"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 진안군 진안읍 대광3길 25-14"
+				,"oldZipcd" : "567806"
+				,"newZipcd" : "55437"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.421836062943
+				,"lat" : 35.7857841979927
+				}
+				,{
+				"bizesId" : "MA0106202511A1383759"
+				,"bizesNm" : "진안주전부리"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52720"
+				,"signguNm" : "진안군"
+				,"adongCd" : "52720250"
+				,"adongNm" : "진안읍"
+				,"ldongCd" : "5272025021"
+				,"ldongNm" : "진안읍"
+				,"lnoCd" : "5272025021104110014"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 411
+				,"lnoSlno" : 14
+				,"lnoAdr" : "전북특별자치도 진안군 진안읍 군상리 411-14"
+				,"rdnmCd" : "527203274057"
+				,"rdnm" : "전북특별자치도 진안군 진안읍 진무로"
+				,"bldMnno" : 1091
+				,"bldSlno" : ""
+				,"bldMngNo" : "4572025021104110014005913"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 진안군 진안읍 진무로 1091"
+				,"oldZipcd" : "567804"
+				,"newZipcd" : "55430"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.42787526124
+				,"lat" : 35.7919545000538
+				}
+				,{
+				"bizesId" : "MA0106202510A2305667"
+				,"bizesNm" : "나애진안"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52720"
+				,"signguNm" : "진안군"
+				,"adongCd" : "52720250"
+				,"adongNm" : "진안읍"
+				,"ldongCd" : "5272025021"
+				,"ldongNm" : "진안읍"
+				,"lnoCd" : "5272025021104060062"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 406
+				,"lnoSlno" : 62
+				,"lnoAdr" : "전북특별자치도 진안군 진안읍 군상리 406-62"
+				,"rdnmCd" : "527204622200"
+				,"rdnm" : "전북특별자치도 진안군 진안읍 시장길"
+				,"bldMnno" : 8
+				,"bldSlno" : 9
+				,"bldMngNo" : "4572025021104060062007180"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 진안군 진안읍 시장길 8-9"
+				,"oldZipcd" : "567804"
+				,"newZipcd" : "55430"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.428176198053
+				,"lat" : 35.7923770196006
+				}
+				,{
+				"bizesId" : "MA0106202509A1268176"
+				,"bizesNm" : "진안미용실"
+				,"brchNm" : ""
+				,"indsLclsCd" : "S2"
+				,"indsLclsNm" : "수리·개인"
+				,"indsMclsCd" : "S207"
+				,"indsMclsNm" : "이용·미용"
+				,"indsSclsCd" : "S20701"
+				,"indsSclsNm" : "미용실"
+				,"ksicCd" : "S96111"
+				,"ksicNm" : "이용업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52720"
+				,"signguNm" : "진안군"
+				,"adongCd" : "52720250"
+				,"adongNm" : "진안읍"
+				,"ldongCd" : "5272025021"
+				,"ldongNm" : "진안읍"
+				,"lnoCd" : "5272025021104060070"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 406
+				,"lnoSlno" : 70
+				,"lnoAdr" : "전북특별자치도 진안군 진안읍 군상리 406-70"
+				,"rdnmCd" : "527203274057"
+				,"rdnm" : "전북특별자치도 진안군 진안읍 진무로"
+				,"bldMnno" : 1097
+				,"bldSlno" : 4
+				,"bldMngNo" : "4572025021104060070007188"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 진안군 진안읍 진무로 1097-4"
+				,"oldZipcd" : "567804"
+				,"newZipcd" : "55430"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.428562196387
+				,"lat" : 35.7921593427687
+				}
+				,{
+				"bizesId" : "MA0106202510A2043257"
+				,"bizesNm" : "마이퍼타임"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52720"
+				,"signguNm" : "진안군"
+				,"adongCd" : "52720250"
+				,"adongNm" : "진안읍"
+				,"ldongCd" : "5272025021"
+				,"ldongNm" : "진안읍"
+				,"lnoCd" : "5272025021104060007"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 406
+				,"lnoSlno" : 7
+				,"lnoAdr" : "전북특별자치도 진안군 진안읍 군상리 406-7"
+				,"rdnmCd" : "527204622198"
+				,"rdnm" : "전북특별자치도 진안군 진안읍 시장1길"
+				,"bldMnno" : 16
+				,"bldSlno" : ""
+				,"bldMngNo" : "4572025021104060007007836"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 진안군 진안읍 시장1길 16"
+				,"oldZipcd" : "567804"
+				,"newZipcd" : "55430"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.429626736778
+				,"lat" : 35.7926422225725
+				}
+				,{
+				"bizesId" : "MA0106202511A1005164"
+				,"bizesNm" : "진안고원로스팅하우스"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G221"
+				,"indsMclsNm" : "기타 상품 소매"
+				,"indsSclsCd" : "G22199"
+				,"indsSclsNm" : "그 외 기타 상품 전문 소매업"
+				,"ksicCd" : "G47859"
+				,"ksicNm" : "그 외 기타 분류 안된 상품 전문 소매업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52720"
+				,"signguNm" : "진안군"
+				,"adongCd" : "52720250"
+				,"adongNm" : "진안읍"
+				,"ldongCd" : "5272025021"
+				,"ldongNm" : "진안읍"
+				,"lnoCd" : "5272025021104060007"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 406
+				,"lnoSlno" : 7
+				,"lnoAdr" : "전북특별자치도 진안군 진안읍 군상리 406-7"
+				,"rdnmCd" : "527204622198"
+				,"rdnm" : "전북특별자치도 진안군 진안읍 시장1길"
+				,"bldMnno" : 16
+				,"bldSlno" : ""
+				,"bldMngNo" : "4572025021104060007007836"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 진안군 진안읍 시장1길 16"
+				,"oldZipcd" : "567804"
+				,"newZipcd" : "55430"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.429626736778
+				,"lat" : 35.7926422225725
+				}
+				,{
+				"bizesId" : "MA0106202509A2018830"
+				,"bizesNm" : "황제아구세상"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52720"
+				,"signguNm" : "진안군"
+				,"adongCd" : "52720250"
+				,"adongNm" : "진안읍"
+				,"ldongCd" : "5272025021"
+				,"ldongNm" : "진안읍"
+				,"lnoCd" : "5272025021104590001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 459
+				,"lnoSlno" : 1
+				,"lnoAdr" : "전북특별자치도 진안군 진안읍 군상리 459-1"
+				,"rdnmCd" : "527203274056"
+				,"rdnm" : "전북특별자치도 진안군 진안읍 중앙로"
+				,"bldMnno" : 119
+				,"bldSlno" : 4
+				,"bldMngNo" : "4572025021104590001023129"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 진안군 진안읍 중앙로 119-4"
+				,"oldZipcd" : "567804"
+				,"newZipcd" : "55422"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.43008677579
+				,"lat" : 35.7938482620333
+				}
+				,{
+				"bizesId" : "MA0106202509A2014759"
+				,"bizesNm" : "진안제이이레염소탕"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20199"
+				,"indsSclsNm" : "기타 한식 음식점"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52720"
+				,"signguNm" : "진안군"
+				,"adongCd" : "52720250"
+				,"adongNm" : "진안읍"
+				,"ldongCd" : "5272025021"
+				,"ldongNm" : "진안읍"
+				,"lnoCd" : "5272025021104030058"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 403
+				,"lnoSlno" : 58
+				,"lnoAdr" : "전북특별자치도 진안군 진안읍 군상리 403-58"
+				,"rdnmCd" : "527203274046"
+				,"rdnm" : "전북특별자치도 진안군 진안읍 진장로"
+				,"bldMnno" : 11
+				,"bldSlno" : ""
+				,"bldMngNo" : "4572025021104030058006001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 진안군 진안읍 진장로 11"
+				,"oldZipcd" : "567804"
+				,"newZipcd" : "55431"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.432359132672
+				,"lat" : 35.7926594662054
+				}
+				,{
+				"bizesId" : "MA0106202509A1710927"
+				,"bizesNm" : "우리집밥상"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52720"
+				,"signguNm" : "진안군"
+				,"adongCd" : "52720250"
+				,"adongNm" : "진안읍"
+				,"ldongCd" : "5272025021"
+				,"ldongNm" : "진안읍"
+				,"lnoCd" : "5272025021104020008"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 402
+				,"lnoSlno" : 8
+				,"lnoAdr" : "전북특별자치도 진안군 진안읍 군상리 402-8"
+				,"rdnmCd" : "527203274046"
+				,"rdnm" : "전북특별자치도 진안군 진안읍 진장로"
+				,"bldMnno" : 14
+				,"bldSlno" : ""
+				,"bldMngNo" : "4572025021104020008004918"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 진안군 진안읍 진장로 14"
+				,"oldZipcd" : "567804"
+				,"newZipcd" : "55432"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.43261164758
+				,"lat" : 35.7923070677972
+				}
+				,{
+				"bizesId" : "MA0106202511A1175234"
+				,"bizesNm" : "돼지다방"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52720"
+				,"signguNm" : "진안군"
+				,"adongCd" : "52720250"
+				,"adongNm" : "진안읍"
+				,"ldongCd" : "5272025021"
+				,"ldongNm" : "진안읍"
+				,"lnoCd" : "5272025021102820001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 282
+				,"lnoSlno" : 1
+				,"lnoAdr" : "전북특별자치도 진안군 진안읍 군상리 282-1"
+				,"rdnmCd" : "527203274046"
+				,"rdnm" : "전북특별자치도 진안군 진안읍 진장로"
+				,"bldMnno" : 19
+				,"bldSlno" : ""
+				,"bldMngNo" : "4572025021102820001004919"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 진안군 진안읍 진장로 19"
+				,"oldZipcd" : "567804"
+				,"newZipcd" : "55431"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.433134334739
+				,"lat" : 35.7928189024569
+				}
+				,{
+				"bizesId" : "MA0106202511A1830197"
+				,"bizesNm" : "연정"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52720"
+				,"signguNm" : "진안군"
+				,"adongCd" : "52720250"
+				,"adongNm" : "진안읍"
+				,"ldongCd" : "5272025021"
+				,"ldongNm" : "진안읍"
+				,"lnoCd" : "5272025021102670002"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 267
+				,"lnoSlno" : 2
+				,"lnoAdr" : "전북특별자치도 진안군 진안읍 군상리 267-2"
+				,"rdnmCd" : "527203274046"
+				,"rdnm" : "전북특별자치도 진안군 진안읍 진장로"
+				,"bldMnno" : 51
+				,"bldSlno" : 12
+				,"bldMngNo" : "4572025021102670002032275"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 진안군 진안읍 진장로 51-12"
+				,"oldZipcd" : "567804"
+				,"newZipcd" : "55431"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.436478731208
+				,"lat" : 35.7934917635963
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 7,
+		"totalCount" : 612	}
+}

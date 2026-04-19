@@ -1,0 +1,221 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA010120220807901253"
+				,"bizesNm" : "국제기구세계녹색기후기구여성지도자본부"
+				,"brchNm" : ""
+				,"indsLclsCd" : "P1"
+				,"indsLclsNm" : "교육"
+				,"indsMclsCd" : "P106"
+				,"indsMclsNm" : "기타 교육"
+				,"indsSclsCd" : "P10621"
+				,"indsSclsNm" : "직원 훈련기관"
+				,"ksicCd" : "P85650"
+				,"ksicNm" : "직원 훈련기관"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46150"
+				,"signguNm" : "순천시"
+				,"adongCd" : "46150360"
+				,"adongNm" : "송광면"
+				,"ldongCd" : "4615036025"
+				,"ldongNm" : "송광면"
+				,"lnoCd" : "4615036025107210000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 721
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 순천시 송광면 삼청리 721"
+				,"rdnmCd" : "461504649725"
+				,"rdnm" : "전라남도 순천시 송광면 왕대길"
+				,"bldMnno" : 118
+				,"bldSlno" : ""
+				,"bldMngNo" : "4615036025107000000058428"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 순천시 송광면 왕대길 118"
+				,"oldZipcd" : "540933"
+				,"newZipcd" : "57912"
+				,"dongNo" : ""
+				,"flrNo" : "1"
+				,"hoNo" : ""
+				,"lon" : 127.204986436657
+				,"lat" : 35.0344679843479
+				}
+				,{
+				"bizesId" : "MA010120220812057210"
+				,"bizesNm" : "왕대민박"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10102"
+				,"indsSclsNm" : "여관/모텔"
+				,"ksicCd" : "I55102"
+				,"ksicNm" : "여관업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46150"
+				,"signguNm" : "순천시"
+				,"adongCd" : "46150360"
+				,"adongNm" : "송광면"
+				,"ldongCd" : "4615036025"
+				,"ldongNm" : "송광면"
+				,"lnoCd" : "4615036025107630000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 763
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 순천시 송광면 삼청리 763"
+				,"rdnmCd" : "461504649725"
+				,"rdnm" : "전라남도 순천시 송광면 왕대길"
+				,"bldMnno" : 73
+				,"bldSlno" : ""
+				,"bldMngNo" : "4615036025107630002080791"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 순천시 송광면 왕대길 73"
+				,"oldZipcd" : "540933"
+				,"newZipcd" : "57912"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.205188774619
+				,"lat" : 35.0321150496312
+				}
+				,{
+				"bizesId" : "MA010120220803174563"
+				,"bizesNm" : "김해댁닭집"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20110"
+				,"indsSclsNm" : "닭/오리고기 구이/찜"
+				,"ksicCd" : "I56113"
+				,"ksicNm" : "한식 육류 요리 전문점"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46150"
+				,"signguNm" : "순천시"
+				,"adongCd" : "46150360"
+				,"adongNm" : "송광면"
+				,"ldongCd" : "4615036025"
+				,"ldongNm" : "송광면"
+				,"lnoCd" : "4615036025107160001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 716
+				,"lnoSlno" : 1
+				,"lnoAdr" : "전라남도 순천시 송광면 삼청리 716-1"
+				,"rdnmCd" : "461504649725"
+				,"rdnm" : "전라남도 순천시 송광면 왕대길"
+				,"bldMnno" : 126
+				,"bldSlno" : ""
+				,"bldMngNo" : ""
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 순천시 송광면 왕대길 126"
+				,"oldZipcd" : "540933"
+				,"newZipcd" : "57912"
+				,"dongNo" : ""
+				,"flrNo" : "1"
+				,"hoNo" : ""
+				,"lon" : 127.206158263809
+				,"lat" : 35.0341595311554
+				}
+				,{
+				"bizesId" : "MA0101202502A0009389"
+				,"bizesNm" : "최Horowitz"
+				,"brchNm" : ""
+				,"indsLclsCd" : "S2"
+				,"indsLclsNm" : "수리·개인"
+				,"indsMclsCd" : "S206"
+				,"indsMclsNm" : "기타 가정용품 수리"
+				,"indsSclsCd" : "S20603"
+				,"indsSclsNm" : "시계/귀금속/악기 수리업"
+				,"ksicCd" : "S95393"
+				,"ksicNm" : "시계, 귀금속 및 악기 수리업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46150"
+				,"signguNm" : "순천시"
+				,"adongCd" : "46150360"
+				,"adongNm" : "송광면"
+				,"ldongCd" : "4615036026"
+				,"ldongNm" : "송광면"
+				,"lnoCd" : "4615036026103430001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 343
+				,"lnoSlno" : 1
+				,"lnoAdr" : "전라남도 순천시 송광면 후곡리 343-1"
+				,"rdnmCd" : "461504856925"
+				,"rdnm" : "전라남도 순천시 송광면 모후실안길"
+				,"bldMnno" : 44
+				,"bldSlno" : 12
+				,"bldMngNo" : "4615036026103420001000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 순천시 송광면 모후실안길 44-12"
+				,"oldZipcd" : "540933"
+				,"newZipcd" : "57912"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.209909269511
+				,"lat" : 35.0182167463392
+				}
+				,{
+				"bizesId" : "MA010120220807839190"
+				,"bizesNm" : "모후산산장"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20107"
+				,"indsSclsNm" : "돼지고기 구이/찜"
+				,"ksicCd" : "I56113"
+				,"ksicNm" : "한식 육류 요리 전문점"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46150"
+				,"signguNm" : "순천시"
+				,"adongCd" : "46150360"
+				,"adongNm" : "송광면"
+				,"ldongCd" : "4615036025"
+				,"ldongNm" : "송광면"
+				,"lnoCd" : "4615036025104380000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 438
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 순천시 송광면 삼청리 438"
+				,"rdnmCd" : "461504649438"
+				,"rdnm" : "전라남도 순천시 송광면 삼청길"
+				,"bldMnno" : 211
+				,"bldSlno" : ""
+				,"bldMngNo" : "4615036025104380000015541"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 순천시 송광면 삼청길 211"
+				,"oldZipcd" : "540933"
+				,"newZipcd" : "57912"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.210076095623
+				,"lat" : 35.0320345770032
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 1,
+		"totalCount" : 5	}
+}

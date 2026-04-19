@@ -1,0 +1,262 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA010120220800812213"
+				,"bizesNm" : "팔랑농산민박"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55104"
+				,"ksicNm" : "민박업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52190"
+				,"signguNm" : "남원시"
+				,"adongCd" : "52190460"
+				,"adongNm" : "산내면"
+				,"ldongCd" : "5219046026"
+				,"ldongNm" : "산내면"
+				,"lnoCd" : "5219046026105980000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 598
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전북특별자치도 남원시 산내면 내령리 598"
+				,"rdnmCd" : "521904613095"
+				,"rdnm" : "전북특별자치도 남원시 산내면 내령길"
+				,"bldMnno" : 247
+				,"bldSlno" : 13
+				,"bldMngNo" : "4519046026105980000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 남원시 산내면 내령길 247-13"
+				,"oldZipcd" : "590851"
+				,"newZipcd" : "55805"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.584681944156
+				,"lat" : 35.4073315069819
+				}
+				,{
+				"bizesId" : "MA010120220805003297"
+				,"bizesNm" : "팔랑농산펜션"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55104"
+				,"ksicNm" : "민박업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52190"
+				,"signguNm" : "남원시"
+				,"adongCd" : "52190460"
+				,"adongNm" : "산내면"
+				,"ldongCd" : "5219046026"
+				,"ldongNm" : "산내면"
+				,"lnoCd" : "5219046026106170000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 617
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전북특별자치도 남원시 산내면 내령리 617"
+				,"rdnmCd" : "521904613095"
+				,"rdnm" : "전북특별자치도 남원시 산내면 내령길"
+				,"bldMnno" : 235
+				,"bldSlno" : ""
+				,"bldMngNo" : "4519046026106170000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 남원시 산내면 내령길 235"
+				,"oldZipcd" : "590851"
+				,"newZipcd" : "55805"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.584690088772
+				,"lat" : 35.4069348923957
+				}
+				,{
+				"bizesId" : "MA0101202409A0084050"
+				,"bizesNm" : "스테이팔랑"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55104"
+				,"ksicNm" : "민박업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52190"
+				,"signguNm" : "남원시"
+				,"adongCd" : "52190460"
+				,"adongNm" : "산내면"
+				,"ldongCd" : "5219046026"
+				,"ldongNm" : "산내면"
+				,"lnoCd" : "5219046026106170000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 617
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전북특별자치도 남원시 산내면 내령리 617"
+				,"rdnmCd" : "521904613095"
+				,"rdnm" : "전북특별자치도 남원시 산내면 내령길"
+				,"bldMnno" : 235
+				,"bldSlno" : ""
+				,"bldMngNo" : "4519046026106170000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 남원시 산내면 내령길 235"
+				,"oldZipcd" : "590851"
+				,"newZipcd" : "55805"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.584690088772
+				,"lat" : 35.4069348923957
+				}
+				,{
+				"bizesId" : "MA010120220807429938"
+				,"bizesNm" : "바래봉산채식당"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52190"
+				,"signguNm" : "남원시"
+				,"adongCd" : "52190460"
+				,"adongNm" : "산내면"
+				,"ldongCd" : "5219046026"
+				,"ldongNm" : "산내면"
+				,"lnoCd" : "5219046026106160001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 616
+				,"lnoSlno" : 1
+				,"lnoAdr" : "전북특별자치도 남원시 산내면 내령리 616-1"
+				,"rdnmCd" : "521904613095"
+				,"rdnm" : "전북특별자치도 남원시 산내면 내령길"
+				,"bldMnno" : 241
+				,"bldSlno" : ""
+				,"bldMngNo" : "4519046026106160001014929"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 남원시 산내면 내령길 241"
+				,"oldZipcd" : "590851"
+				,"newZipcd" : "55805"
+				,"dongNo" : ""
+				,"flrNo" : "1"
+				,"hoNo" : ""
+				,"lon" : 127.585649330113
+				,"lat" : 35.4071375458101
+				}
+				,{
+				"bizesId" : "MA010120220807423069"
+				,"bizesNm" : "팔랑농산"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55104"
+				,"ksicNm" : "민박업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52190"
+				,"signguNm" : "남원시"
+				,"adongCd" : "52190460"
+				,"adongNm" : "산내면"
+				,"ldongCd" : "5219046026"
+				,"ldongNm" : "산내면"
+				,"lnoCd" : "5219046026105780000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 578
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전북특별자치도 남원시 산내면 내령리 578"
+				,"rdnmCd" : "521904613095"
+				,"rdnm" : "전북특별자치도 남원시 산내면 내령길"
+				,"bldMnno" : 256
+				,"bldSlno" : ""
+				,"bldMngNo" : "4519046026105780000024369"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 남원시 산내면 내령길 256"
+				,"oldZipcd" : "590851"
+				,"newZipcd" : "55805"
+				,"dongNo" : ""
+				,"flrNo" : "1"
+				,"hoNo" : ""
+				,"lon" : 127.586906003794
+				,"lat" : 35.407365785902
+				}
+				,{
+				"bizesId" : "MA0101202311A0042819"
+				,"bizesNm" : "지리산민박"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55104"
+				,"ksicNm" : "민박업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52190"
+				,"signguNm" : "남원시"
+				,"adongCd" : "52190460"
+				,"adongNm" : "산내면"
+				,"ldongCd" : "5219046026"
+				,"ldongNm" : "산내면"
+				,"lnoCd" : "5219046026103120003"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 312
+				,"lnoSlno" : 3
+				,"lnoAdr" : "전북특별자치도 남원시 산내면 내령리 312-3"
+				,"rdnmCd" : "521903000201"
+				,"rdnm" : "전북특별자치도 남원시 산내면 지리산로"
+				,"bldMnno" : 1275
+				,"bldSlno" : 64
+				,"bldMngNo" : "4519046026103120003000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 남원시 산내면 지리산로 1275-64"
+				,"oldZipcd" : "590851"
+				,"newZipcd" : "55805"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.599514605886
+				,"lat" : 35.4033561382697
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 1,
+		"totalCount" : 6	}
+}

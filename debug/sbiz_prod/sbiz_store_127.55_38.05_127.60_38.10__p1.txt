@@ -1,0 +1,385 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA010120220803207273"
+				,"bizesNm" : "령계곡펜션"
+				,"brchNm" : "명지"
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55104"
+				,"ksicNm" : "민박업"
+				,"ctprvnCd" : "51"
+				,"ctprvnNm" : "강원특별자치도"
+				,"signguCd" : "51790"
+				,"signguNm" : "화천군"
+				,"adongCd" : "51790340"
+				,"adongNm" : "사내면"
+				,"ldongCd" : "5179034024"
+				,"ldongNm" : "사내면"
+				,"lnoCd" : "5179034024105260001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 526
+				,"lnoSlno" : 1
+				,"lnoAdr" : "강원특별자치도 화천군 사내면 용담리 526-1"
+				,"rdnmCd" : "517903231006"
+				,"rdnm" : "강원특별자치도 화천군 사내면 명지령로"
+				,"bldMnno" : 228
+				,"bldSlno" : ""
+				,"bldMngNo" : "4279034024105260001000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "강원특별자치도 화천군 사내면 명지령로 228"
+				,"oldZipcd" : "209835"
+				,"newZipcd" : "24152"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.550714700757
+				,"lat" : 38.0803243210635
+				}
+				,{
+				"bizesId" : "MA0101202504A0096023"
+				,"bizesNm" : "해피브루캠핑카페"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I212"
+				,"indsMclsNm" : "비알코올 "
+				,"indsSclsCd" : "I21201"
+				,"indsSclsNm" : "카페"
+				,"ksicCd" : "I56221"
+				,"ksicNm" : "커피 전문점"
+				,"ctprvnCd" : "51"
+				,"ctprvnNm" : "강원특별자치도"
+				,"signguCd" : "51790"
+				,"signguNm" : "화천군"
+				,"adongCd" : "51790340"
+				,"adongNm" : "사내면"
+				,"ldongCd" : "5179034024"
+				,"ldongNm" : "사내면"
+				,"lnoCd" : "5179034024105260001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 526
+				,"lnoSlno" : 1
+				,"lnoAdr" : "강원특별자치도 화천군 사내면 용담리 526-1"
+				,"rdnmCd" : "517903231006"
+				,"rdnm" : "강원특별자치도 화천군 사내면 명지령로"
+				,"bldMnno" : 228
+				,"bldSlno" : ""
+				,"bldMngNo" : "4279034024105260001000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "강원특별자치도 화천군 사내면 명지령로 228"
+				,"oldZipcd" : "209835"
+				,"newZipcd" : "24152"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.550714700757
+				,"lat" : 38.0803243210635
+				}
+				,{
+				"bizesId" : "MA010120220813102557"
+				,"bizesNm" : "물안골스머프펜션C"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55109"
+				,"ksicNm" : "기타 일반 및 생활 숙박시설 운영업"
+				,"ctprvnCd" : "51"
+				,"ctprvnNm" : "강원특별자치도"
+				,"signguCd" : "51790"
+				,"signguNm" : "화천군"
+				,"adongCd" : "51790340"
+				,"adongNm" : "사내면"
+				,"ldongCd" : "5179034024"
+				,"ldongNm" : "사내면"
+				,"lnoCd" : "5179034024102060000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 206
+				,"lnoSlno" : ""
+				,"lnoAdr" : "강원특별자치도 화천군 사내면 용담리 206"
+				,"rdnmCd" : "517904493039"
+				,"rdnm" : "강원특별자치도 화천군 사내면 물안골길"
+				,"bldMnno" : 12
+				,"bldSlno" : 66
+				,"bldMngNo" : "4279034024102060000000004"
+				,"bldNm" : ""
+				,"rdnmAdr" : "강원특별자치도 화천군 사내면 물안골길 12-66"
+				,"oldZipcd" : "209835"
+				,"newZipcd" : "24161"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.551635481028
+				,"lat" : 38.0511665783192
+				}
+				,{
+				"bizesId" : "MA010120220805530050"
+				,"bizesNm" : "물안골스머프펜션"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55109"
+				,"ksicNm" : "기타 일반 및 생활 숙박시설 운영업"
+				,"ctprvnCd" : "51"
+				,"ctprvnNm" : "강원특별자치도"
+				,"signguCd" : "51790"
+				,"signguNm" : "화천군"
+				,"adongCd" : "51790340"
+				,"adongNm" : "사내면"
+				,"ldongCd" : "5179034024"
+				,"ldongNm" : "사내면"
+				,"lnoCd" : "5179034024102060000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 206
+				,"lnoSlno" : ""
+				,"lnoAdr" : "강원특별자치도 화천군 사내면 용담리 206"
+				,"rdnmCd" : "517904493039"
+				,"rdnm" : "강원특별자치도 화천군 사내면 물안골길"
+				,"bldMnno" : 12
+				,"bldSlno" : 66
+				,"bldMngNo" : "4279034024102060000000004"
+				,"bldNm" : ""
+				,"rdnmAdr" : "강원특별자치도 화천군 사내면 물안골길 12-66"
+				,"oldZipcd" : "209835"
+				,"newZipcd" : "24161"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.551635481028
+				,"lat" : 38.0511665783192
+				}
+				,{
+				"bizesId" : "MA010120220813573888"
+				,"bizesNm" : "물안골스머프펜션"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55109"
+				,"ksicNm" : "기타 일반 및 생활 숙박시설 운영업"
+				,"ctprvnCd" : "51"
+				,"ctprvnNm" : "강원특별자치도"
+				,"signguCd" : "51790"
+				,"signguNm" : "화천군"
+				,"adongCd" : "51790340"
+				,"adongNm" : "사내면"
+				,"ldongCd" : "5179034024"
+				,"ldongNm" : "사내면"
+				,"lnoCd" : "5179034024102060017"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 206
+				,"lnoSlno" : 17
+				,"lnoAdr" : "강원특별자치도 화천군 사내면 용담리 206-17"
+				,"rdnmCd" : "517904493039"
+				,"rdnm" : "강원특별자치도 화천군 사내면 물안골길"
+				,"bldMnno" : 12
+				,"bldSlno" : 68
+				,"bldMngNo" : "4279034024102060001000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "강원특별자치도 화천군 사내면 물안골길 12-68"
+				,"oldZipcd" : "209835"
+				,"newZipcd" : "24161"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.551725135007
+				,"lat" : 38.0509679570346
+				}
+				,{
+				"bizesId" : "MA0101202307A0061230"
+				,"bizesNm" : "화천포레스트"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55104"
+				,"ksicNm" : "민박업"
+				,"ctprvnCd" : "51"
+				,"ctprvnNm" : "강원특별자치도"
+				,"signguCd" : "51790"
+				,"signguNm" : "화천군"
+				,"adongCd" : "51790340"
+				,"adongNm" : "사내면"
+				,"ldongCd" : "5179034024"
+				,"ldongNm" : "사내면"
+				,"lnoCd" : "5179034024102060002"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 206
+				,"lnoSlno" : 2
+				,"lnoAdr" : "강원특별자치도 화천군 사내면 용담리 206-2"
+				,"rdnmCd" : "517904493039"
+				,"rdnm" : "강원특별자치도 화천군 사내면 물안골길"
+				,"bldMnno" : 12
+				,"bldSlno" : 72
+				,"bldMngNo" : "4279034024102060002000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "강원특별자치도 화천군 사내면 물안골길 12-72"
+				,"oldZipcd" : "209835"
+				,"newZipcd" : "24161"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.551940986961
+				,"lat" : 38.0508858617117
+				}
+				,{
+				"bizesId" : "MA010120220812422396"
+				,"bizesNm" : "둥지캠핑장"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10104"
+				,"indsSclsNm" : "캠핑/글램핑"
+				,"ksicCd" : "I55109"
+				,"ksicNm" : "기타 일반 및 생활 숙박시설 운영업"
+				,"ctprvnCd" : "51"
+				,"ctprvnNm" : "강원특별자치도"
+				,"signguCd" : "51790"
+				,"signguNm" : "화천군"
+				,"adongCd" : "51790340"
+				,"adongNm" : "사내면"
+				,"ldongCd" : "5179034024"
+				,"ldongNm" : "사내면"
+				,"lnoCd" : "5179034024101110009"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 111
+				,"lnoSlno" : 9
+				,"lnoAdr" : "강원특별자치도 화천군 사내면 용담리 111-9"
+				,"rdnmCd" : "517904493030"
+				,"rdnm" : "강원특별자치도 화천군 사내면 돈내미길"
+				,"bldMnno" : 183
+				,"bldSlno" : 39
+				,"bldMngNo" : "4279034024101110009000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "강원특별자치도 화천군 사내면 돈내미길 183-39"
+				,"oldZipcd" : "209835"
+				,"newZipcd" : "24152"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.553367221674
+				,"lat" : 38.070834312161
+				}
+				,{
+				"bizesId" : "MA0101202410A0328347"
+				,"bizesNm" : "신토불이강원약초"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G205"
+				,"indsMclsNm" : "식료품 소매"
+				,"indsSclsCd" : "G20509"
+				,"indsSclsNm" : "반찬/식료품 소매업"
+				,"ksicCd" : "G47218"
+				,"ksicNm" : "조리 반찬류 소매업"
+				,"ctprvnCd" : "51"
+				,"ctprvnNm" : "강원특별자치도"
+				,"signguCd" : "51790"
+				,"signguNm" : "화천군"
+				,"adongCd" : "51790340"
+				,"adongNm" : "사내면"
+				,"ldongCd" : "5179034024"
+				,"ldongNm" : "사내면"
+				,"lnoCd" : "5179034024100070001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 7
+				,"lnoSlno" : 1
+				,"lnoAdr" : "강원특별자치도 화천군 사내면 용담리 7-1"
+				,"rdnmCd" : "517903013001"
+				,"rdnm" : "강원특별자치도 화천군 사내면 사내천로"
+				,"bldMnno" : 404
+				,"bldSlno" : ""
+				,"bldMngNo" : "4279034024000070001014345"
+				,"bldNm" : ""
+				,"rdnmAdr" : "강원특별자치도 화천군 사내면 사내천로 404"
+				,"oldZipcd" : "209835"
+				,"newZipcd" : "24152"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.558907676605
+				,"lat" : 38.0546097436264
+				}
+				,{
+				"bizesId" : "MA010120220804511563"
+				,"bizesNm" : "용담샘터약초집"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G204"
+				,"indsMclsNm" : "종합 소매"
+				,"indsSclsCd" : "G20404"
+				,"indsSclsNm" : "슈퍼마켓"
+				,"ksicCd" : "G47129"
+				,"ksicNm" : "기타 음ㆍ식료품 위주 종합 소매업"
+				,"ctprvnCd" : "51"
+				,"ctprvnNm" : "강원특별자치도"
+				,"signguCd" : "51790"
+				,"signguNm" : "화천군"
+				,"adongCd" : "51790340"
+				,"adongNm" : "사내면"
+				,"ldongCd" : "5179034024"
+				,"ldongNm" : "사내면"
+				,"lnoCd" : "5179034024200010008"
+				,"plotSctCd" : "2"
+				,"plotSctNm" : "산"
+				,"lnoMnno" : 1
+				,"lnoSlno" : 8
+				,"lnoAdr" : "강원특별자치도 화천군 사내면 용담리 산 1-8"
+				,"rdnmCd" : "517903013001"
+				,"rdnm" : "강원특별자치도 화천군 사내면 사내천로"
+				,"bldMnno" : 433
+				,"bldSlno" : ""
+				,"bldMngNo" : "4279034024000000000014343"
+				,"bldNm" : ""
+				,"rdnmAdr" : "강원특별자치도 화천군 사내면 사내천로 433"
+				,"oldZipcd" : "209835"
+				,"newZipcd" : "24152"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.56232619359
+				,"lat" : 38.0546655127801
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 1,
+		"totalCount" : 9	}
+}

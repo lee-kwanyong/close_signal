@@ -1,0 +1,344 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA0106202511A2269076"
+				,"bizesNm" : "영계치킨"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I210"
+				,"indsMclsNm" : "기타 간이"
+				,"indsSclsCd" : "I21006"
+				,"indsSclsNm" : "치킨"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "11"
+				,"ctprvnNm" : "서울특별시"
+				,"signguCd" : "11350"
+				,"signguNm" : "노원구"
+				,"adongCd" : "11350630"
+				,"adongNm" : "상계1동"
+				,"ldongCd" : "1135010500"
+				,"ldongNm" : "상계동"
+				,"lnoCd" : "1135010500112670000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 1267
+				,"lnoSlno" : ""
+				,"lnoAdr" : "서울특별시 노원구 상계동 1267"
+				,"rdnmCd" : "113503000001"
+				,"rdnm" : "서울특별시 노원구 동일로"
+				,"bldMnno" : 1700
+				,"bldSlno" : ""
+				,"bldMngNo" : "1135010500112670000009826"
+				,"bldNm" : ""
+				,"rdnmAdr" : "서울특별시 노원구 동일로 1700"
+				,"oldZipcd" : "139876"
+				,"newZipcd" : "01624"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.055819733374
+				,"lat" : 37.6801841460987
+				}
+				,{
+				"bizesId" : "MA0106202511A2222646"
+				,"bizesNm" : "우주수학"
+				,"brchNm" : ""
+				,"indsLclsCd" : "P1"
+				,"indsLclsNm" : "교육"
+				,"indsMclsCd" : "P105"
+				,"indsMclsNm" : "일반 교육"
+				,"indsSclsCd" : "P10501"
+				,"indsSclsNm" : "입시·교과학원"
+				,"ksicCd" : "P85501"
+				,"ksicNm" : "일반 교과학원"
+				,"ctprvnCd" : "11"
+				,"ctprvnNm" : "서울특별시"
+				,"signguCd" : "11350"
+				,"signguNm" : "노원구"
+				,"adongCd" : "11350700"
+				,"adongNm" : "상계8동"
+				,"ldongCd" : "1135010500"
+				,"ldongNm" : "상계동"
+				,"lnoCd" : "1135010500106510002"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 651
+				,"lnoSlno" : 2
+				,"lnoAdr" : "서울특별시 노원구 상계동 651-2"
+				,"rdnmCd" : "113503000001"
+				,"rdnm" : "서울특별시 노원구 동일로"
+				,"bldMnno" : 1551
+				,"bldSlno" : ""
+				,"bldMngNo" : "1135010500106510002000571"
+				,"bldNm" : ""
+				,"rdnmAdr" : "서울특별시 노원구 동일로 1551"
+				,"oldZipcd" : "139823"
+				,"newZipcd" : "01620"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.056841187361
+				,"lat" : 37.6668852014486
+				}
+				,{
+				"bizesId" : "MA0106202511A2249119"
+				,"bizesNm" : "샤오마라컵마라탕&마라꼬치"
+				,"brchNm" : "노원점"
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I202"
+				,"indsMclsNm" : "중식"
+				,"indsSclsCd" : "I20202"
+				,"indsSclsNm" : "마라탕/훠궈"
+				,"ksicCd" : "I56121"
+				,"ksicNm" : "중식 음식점업"
+				,"ctprvnCd" : "11"
+				,"ctprvnNm" : "서울특별시"
+				,"signguCd" : "11350"
+				,"signguNm" : "노원구"
+				,"adongCd" : "11350640"
+				,"adongNm" : "상계2동"
+				,"ldongCd" : "1135010500"
+				,"ldongNm" : "상계동"
+				,"lnoCd" : "1135010500105930003"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 593
+				,"lnoSlno" : 3
+				,"lnoAdr" : "서울특별시 노원구 상계동 593-3"
+				,"rdnmCd" : "113504130298"
+				,"rdnm" : "서울특별시 노원구 상계로3길"
+				,"bldMnno" : 10
+				,"bldSlno" : ""
+				,"bldMngNo" : "1135010500105930003007538"
+				,"bldNm" : ""
+				,"rdnmAdr" : "서울특별시 노원구 상계로3길 10"
+				,"oldZipcd" : "139821"
+				,"newZipcd" : "01693"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.062545103822
+				,"lat" : 37.6567102367449
+				}
+				,{
+				"bizesId" : "MA0106202511A2247988"
+				,"bizesNm" : "와우스타약국"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G215"
+				,"indsMclsNm" : "의약·화장품 소매"
+				,"indsSclsCd" : "G21502"
+				,"indsSclsNm" : "의료기기 소매업"
+				,"ksicCd" : "G47811"
+				,"ksicNm" : "의약품 및 의료용품 소매업"
+				,"ctprvnCd" : "11"
+				,"ctprvnNm" : "서울특별시"
+				,"signguCd" : "11350"
+				,"signguNm" : "노원구"
+				,"adongCd" : "11350640"
+				,"adongNm" : "상계2동"
+				,"ldongCd" : "1135010500"
+				,"ldongNm" : "상계동"
+				,"lnoCd" : "1135010500102920001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 292
+				,"lnoSlno" : 1
+				,"lnoAdr" : "서울특별시 노원구 상계동 292-1"
+				,"rdnmCd" : "113503005047"
+				,"rdnm" : "서울특별시 노원구 노해로"
+				,"bldMnno" : 507
+				,"bldSlno" : ""
+				,"bldMngNo" : "1135010500103300007020222"
+				,"bldNm" : ""
+				,"rdnmAdr" : "서울특별시 노원구 노해로 507"
+				,"oldZipcd" : "139816"
+				,"newZipcd" : "01695"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.063892596595
+				,"lat" : 37.6554301200164
+				}
+				,{
+				"bizesId" : "MA0106202511A2328523"
+				,"bizesNm" : "평화로운집노원역점"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "11"
+				,"ctprvnNm" : "서울특별시"
+				,"signguCd" : "11350"
+				,"signguNm" : "노원구"
+				,"adongCd" : "11350640"
+				,"adongNm" : "상계2동"
+				,"ldongCd" : "1135010500"
+				,"ldongNm" : "상계동"
+				,"lnoCd" : "1135010500103230009"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 323
+				,"lnoSlno" : 9
+				,"lnoAdr" : "서울특별시 노원구 상계동 323-9"
+				,"rdnmCd" : "113504130090"
+				,"rdnm" : "서울특별시 노원구 노해로85길"
+				,"bldMnno" : 10
+				,"bldSlno" : 2
+				,"bldMngNo" : "1135010500103230009007799"
+				,"bldNm" : ""
+				,"rdnmAdr" : "서울특별시 노원구 노해로85길 10-2"
+				,"oldZipcd" : "139816"
+				,"newZipcd" : "01695"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.065286839541
+				,"lat" : 37.6558257887744
+				}
+				,{
+				"bizesId" : "MA0106202511A2358735"
+				,"bizesNm" : "플러피하우스강아지미용&강아지분양"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G220"
+				,"indsMclsNm" : "애완동물·용품 소매"
+				,"indsSclsCd" : "G22001"
+				,"indsSclsNm" : "애완동물/애완용품 소매업"
+				,"ksicCd" : "G47852"
+				,"ksicNm" : "애완용 동물 및 관련용품 소매업"
+				,"ctprvnCd" : "11"
+				,"ctprvnNm" : "서울특별시"
+				,"signguCd" : "11350"
+				,"signguNm" : "노원구"
+				,"adongCd" : "11350640"
+				,"adongNm" : "상계2동"
+				,"ldongCd" : "1135010500"
+				,"ldongNm" : "상계동"
+				,"lnoCd" : "1135010500103660003"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 366
+				,"lnoSlno" : 3
+				,"lnoAdr" : "서울특별시 노원구 상계동 366-3"
+				,"rdnmCd" : "113503110003"
+				,"rdnm" : "서울특별시 노원구 상계로"
+				,"bldMnno" : 97
+				,"bldSlno" : ""
+				,"bldMngNo" : "1135010500103660003008013"
+				,"bldNm" : ""
+				,"rdnmAdr" : "서울특별시 노원구 상계로 97"
+				,"oldZipcd" : "139816"
+				,"newZipcd" : "01691"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.06567324124
+				,"lat" : 37.6570689294981
+				}
+				,{
+				"bizesId" : "MA0106202511A2403853"
+				,"bizesNm" : "윤경헤어"
+				,"brchNm" : ""
+				,"indsLclsCd" : "S2"
+				,"indsLclsNm" : "수리·개인"
+				,"indsMclsCd" : "S207"
+				,"indsMclsNm" : "이용·미용"
+				,"indsSclsCd" : "S20701"
+				,"indsSclsNm" : "미용실"
+				,"ksicCd" : "S96111"
+				,"ksicNm" : "이용업"
+				,"ctprvnCd" : "11"
+				,"ctprvnNm" : "서울특별시"
+				,"signguCd" : "11350"
+				,"signguNm" : "노원구"
+				,"adongCd" : "11350640"
+				,"adongNm" : "상계2동"
+				,"ldongCd" : "1135010500"
+				,"ldongNm" : "상계동"
+				,"lnoCd" : "1135010500103890243"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 389
+				,"lnoSlno" : 243
+				,"lnoAdr" : "서울특별시 노원구 상계동 389-243"
+				,"rdnmCd" : "113504130274"
+				,"rdnm" : "서울특별시 노원구 상계로17길"
+				,"bldMnno" : 21
+				,"bldSlno" : ""
+				,"bldMngNo" : "1135010500103890243007069"
+				,"bldNm" : ""
+				,"rdnmAdr" : "서울특별시 노원구 상계로17길 21"
+				,"oldZipcd" : "139818"
+				,"newZipcd" : "01684"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.067612650464
+				,"lat" : 37.658734650172
+				}
+				,{
+				"bizesId" : "MA0106202511A2462532"
+				,"bizesNm" : "키즈스마일놀이필라테스"
+				,"brchNm" : ""
+				,"indsLclsCd" : "P1"
+				,"indsLclsNm" : "교육"
+				,"indsMclsCd" : "P106"
+				,"indsMclsNm" : "기타 교육"
+				,"indsSclsCd" : "P10603"
+				,"indsSclsNm" : "요가/필라테스 학원"
+				,"ksicCd" : "R91132"
+				,"ksicNm" : "체력 단련시설 운영업"
+				,"ctprvnCd" : "11"
+				,"ctprvnNm" : "서울특별시"
+				,"signguCd" : "11350"
+				,"signguNm" : "노원구"
+				,"adongCd" : "11350619"
+				,"adongNm" : "중계본동"
+				,"ldongCd" : "1135010600"
+				,"ldongNm" : "중계동"
+				,"lnoCd" : "1135010600103660013"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 366
+				,"lnoSlno" : 13
+				,"lnoAdr" : "서울특별시 노원구 중계동 366-13"
+				,"rdnmCd" : "113504130353"
+				,"rdnm" : "서울특별시 노원구 중계로18길"
+				,"bldMnno" : 17
+				,"bldSlno" : ""
+				,"bldMngNo" : "1135010600103660013012282"
+				,"bldNm" : ""
+				,"rdnmAdr" : "서울특별시 노원구 중계로18길 17"
+				,"oldZipcd" : "139861"
+				,"newZipcd" : "01720"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.07787280827
+				,"lat" : 37.6515204656866
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 90,
+		"totalCount" : 8908	}
+}

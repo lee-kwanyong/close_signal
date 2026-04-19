@@ -1,0 +1,385 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA0101202410A0147611"
+				,"bizesNm" : "중미산천문대"
+				,"brchNm" : ""
+				,"indsLclsCd" : "P1"
+				,"indsLclsNm" : "교육"
+				,"indsMclsCd" : "P106"
+				,"indsMclsNm" : "기타 교육"
+				,"indsSclsCd" : "P10607"
+				,"indsSclsNm" : "청소년 수련시설"
+				,"ksicCd" : "P85614"
+				,"ksicNm" : "청소년 수련시설 운영업"
+				,"ctprvnCd" : "41"
+				,"ctprvnNm" : "경기도"
+				,"signguCd" : "41830"
+				,"signguNm" : "양평군"
+				,"adongCd" : "41830340"
+				,"adongNm" : "옥천면"
+				,"ldongCd" : "4183034023"
+				,"ldongNm" : "옥천면"
+				,"lnoCd" : "4183034023101170001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 117
+				,"lnoSlno" : 1
+				,"lnoAdr" : "경기도 양평군 옥천면 신복리 117-1"
+				,"rdnmCd" : "418303217023"
+				,"rdnm" : "경기도 양평군 옥천면 중미산로"
+				,"bldMnno" : 1268
+				,"bldSlno" : ""
+				,"bldMngNo" : "4183034023101170001015726"
+				,"bldNm" : ""
+				,"rdnmAdr" : "경기도 양평군 옥천면 중미산로 1268"
+				,"oldZipcd" : "476831"
+				,"newZipcd" : "12505"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.45927014566
+				,"lat" : 37.581682074147
+				}
+				,{
+				"bizesId" : "MA0101202504A0005774"
+				,"bizesNm" : "손오공방소잉하우스"
+				,"brchNm" : ""
+				,"indsLclsCd" : "P1"
+				,"indsLclsNm" : "교육"
+				,"indsMclsCd" : "P106"
+				,"indsMclsNm" : "기타 교육"
+				,"indsSclsCd" : "P10629"
+				,"indsSclsNm" : "그 외 기타 교육기관"
+				,"ksicCd" : "P85699"
+				,"ksicNm" : "그 외 기타 분류 안된 교육기관"
+				,"ctprvnCd" : "41"
+				,"ctprvnNm" : "경기도"
+				,"signguCd" : "41830"
+				,"signguNm" : "양평군"
+				,"adongCd" : "41830340"
+				,"adongNm" : "옥천면"
+				,"ldongCd" : "4183034023"
+				,"ldongNm" : "옥천면"
+				,"lnoCd" : "4183034023103380001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 338
+				,"lnoSlno" : 1
+				,"lnoAdr" : "경기도 양평군 옥천면 신복리 338-1"
+				,"rdnmCd" : "418304451814"
+				,"rdnm" : "경기도 양평군 옥천면 신촌길"
+				,"bldMnno" : 64
+				,"bldSlno" : ""
+				,"bldMngNo" : "4183034023103380001011282"
+				,"bldNm" : ""
+				,"rdnmAdr" : "경기도 양평군 옥천면 신촌길 64"
+				,"oldZipcd" : "476831"
+				,"newZipcd" : "12505"
+				,"dongNo" : ""
+				,"flrNo" : "1"
+				,"hoNo" : ""
+				,"lon" : 127.459668787131
+				,"lat" : 37.5507585978093
+				}
+				,{
+				"bizesId" : "MA0101202410A0290198"
+				,"bizesNm" : "중미갤러리"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G218"
+				,"indsMclsNm" : "장식품 소매"
+				,"indsSclsCd" : "G21801"
+				,"indsSclsNm" : "예술품 소매업"
+				,"ksicCd" : "G47841"
+				,"ksicNm" : "예술품 및 골동품 소매업"
+				,"ctprvnCd" : "41"
+				,"ctprvnNm" : "경기도"
+				,"signguCd" : "41830"
+				,"signguNm" : "양평군"
+				,"adongCd" : "41830340"
+				,"adongNm" : "옥천면"
+				,"ldongCd" : "4183034023"
+				,"ldongNm" : "옥천면"
+				,"lnoCd" : "4183034023101020001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 102
+				,"lnoSlno" : 1
+				,"lnoAdr" : "경기도 양평군 옥천면 신복리 102-1"
+				,"rdnmCd" : "418303217023"
+				,"rdnm" : "경기도 양평군 옥천면 중미산로"
+				,"bldMnno" : 1229
+				,"bldSlno" : ""
+				,"bldMngNo" : "4183034023101020001011755"
+				,"bldNm" : ""
+				,"rdnmAdr" : "경기도 양평군 옥천면 중미산로 1229"
+				,"oldZipcd" : "476831"
+				,"newZipcd" : "12505"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.460427653439
+				,"lat" : 37.5858040798294
+				}
+				,{
+				"bizesId" : "MA0101202505A0055554"
+				,"bizesNm" : "게르마니아이용원"
+				,"brchNm" : ""
+				,"indsLclsCd" : "S2"
+				,"indsLclsNm" : "수리·개인"
+				,"indsMclsCd" : "S207"
+				,"indsMclsNm" : "이용·미용"
+				,"indsSclsCd" : "S20701"
+				,"indsSclsNm" : "미용실"
+				,"ksicCd" : "S96111"
+				,"ksicNm" : "이용업"
+				,"ctprvnCd" : "41"
+				,"ctprvnNm" : "경기도"
+				,"signguCd" : "41830"
+				,"signguNm" : "양평군"
+				,"adongCd" : "41830340"
+				,"adongNm" : "옥천면"
+				,"ldongCd" : "4183034023"
+				,"ldongNm" : "옥천면"
+				,"lnoCd" : "4183034023103310000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 331
+				,"lnoSlno" : ""
+				,"lnoAdr" : "경기도 양평군 옥천면 신복리 331"
+				,"rdnmCd" : "418304451814"
+				,"rdnm" : "경기도 양평군 옥천면 신촌길"
+				,"bldMnno" : 86
+				,"bldSlno" : ""
+				,"bldMngNo" : "4183034023103310000011573"
+				,"bldNm" : ""
+				,"rdnmAdr" : "경기도 양평군 옥천면 신촌길 86"
+				,"oldZipcd" : "476831"
+				,"newZipcd" : "12505"
+				,"dongNo" : ""
+				,"flrNo" : "3"
+				,"hoNo" : ""
+				,"lon" : 127.460520326808
+				,"lat" : 37.5530528057792
+				}
+				,{
+				"bizesId" : "MA0101202505A0046629"
+				,"bizesNm" : "슬기로운농촌생활사회적협동조합"
+				,"brchNm" : ""
+				,"indsLclsCd" : "P1"
+				,"indsLclsNm" : "교육"
+				,"indsMclsCd" : "P106"
+				,"indsMclsNm" : "기타 교육"
+				,"indsSclsCd" : "P10621"
+				,"indsSclsNm" : "직원 훈련기관"
+				,"ksicCd" : "P85650"
+				,"ksicNm" : "직원 훈련기관"
+				,"ctprvnCd" : "41"
+				,"ctprvnNm" : "경기도"
+				,"signguCd" : "41820"
+				,"signguNm" : "가평군"
+				,"adongCd" : "41820310"
+				,"adongNm" : "설악면"
+				,"ldongCd" : "4182031032"
+				,"ldongNm" : "설악면"
+				,"lnoCd" : "4182031032102490003"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 249
+				,"lnoSlno" : 3
+				,"lnoAdr" : "경기도 가평군 설악면 가일리 249-3"
+				,"rdnmCd" : "418204448224"
+				,"rdnm" : "경기도 가평군 설악면 유명산길"
+				,"bldMnno" : 76
+				,"bldSlno" : ""
+				,"bldMngNo" : "4182031032102490003014649"
+				,"bldNm" : ""
+				,"rdnmAdr" : "경기도 가평군 설악면 유명산길 76"
+				,"oldZipcd" : "477851"
+				,"newZipcd" : "12473"
+				,"dongNo" : ""
+				,"flrNo" : "2"
+				,"hoNo" : ""
+				,"lon" : 127.490402860568
+				,"lat" : 37.5953959541712
+				}
+				,{
+				"bizesId" : "MA0101202409A0169553"
+				,"bizesNm" : "초록풍경"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55104"
+				,"ksicNm" : "민박업"
+				,"ctprvnCd" : "41"
+				,"ctprvnNm" : "경기도"
+				,"signguCd" : "41820"
+				,"signguNm" : "가평군"
+				,"adongCd" : "41820310"
+				,"adongNm" : "설악면"
+				,"ldongCd" : "4182031032"
+				,"ldongNm" : "설악면"
+				,"lnoCd" : "4182031032102510000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 251
+				,"lnoSlno" : ""
+				,"lnoAdr" : "경기도 가평군 설악면 가일리 251"
+				,"rdnmCd" : "418204448224"
+				,"rdnm" : "경기도 가평군 설악면 유명산길"
+				,"bldMnno" : 69
+				,"bldSlno" : ""
+				,"bldMngNo" : "4182031032102510000013946"
+				,"bldNm" : ""
+				,"rdnmAdr" : "경기도 가평군 설악면 유명산길 69"
+				,"oldZipcd" : "477851"
+				,"newZipcd" : "12473"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.491174954239
+				,"lat" : 37.5957170974441
+				}
+				,{
+				"bizesId" : "MA0101202504A0112909"
+				,"bizesNm" : "유명산258"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10104"
+				,"indsSclsNm" : "캠핑/글램핑"
+				,"ksicCd" : "I55109"
+				,"ksicNm" : "기타 일반 및 생활 숙박시설 운영업"
+				,"ctprvnCd" : "41"
+				,"ctprvnNm" : "경기도"
+				,"signguCd" : "41820"
+				,"signguNm" : "가평군"
+				,"adongCd" : "41820310"
+				,"adongNm" : "설악면"
+				,"ldongCd" : "4182031032"
+				,"ldongNm" : "설악면"
+				,"lnoCd" : "4182031032102580001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 258
+				,"lnoSlno" : 1
+				,"lnoAdr" : "경기도 가평군 설악면 가일리 258-1"
+				,"rdnmCd" : "418204448224"
+				,"rdnm" : "경기도 가평군 설악면 유명산길"
+				,"bldMnno" : 61
+				,"bldSlno" : 12
+				,"bldMngNo" : "4182031032102580001014257"
+				,"bldNm" : ""
+				,"rdnmAdr" : "경기도 가평군 설악면 유명산길 61-12"
+				,"oldZipcd" : "477851"
+				,"newZipcd" : "12473"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.492244243614
+				,"lat" : 37.5964604584281
+				}
+				,{
+				"bizesId" : "MA0101202504A0115201"
+				,"bizesNm" : "카페258"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I212"
+				,"indsMclsNm" : "비알코올 "
+				,"indsSclsCd" : "I21201"
+				,"indsSclsNm" : "카페"
+				,"ksicCd" : "I56221"
+				,"ksicNm" : "커피 전문점"
+				,"ctprvnCd" : "41"
+				,"ctprvnNm" : "경기도"
+				,"signguCd" : "41820"
+				,"signguNm" : "가평군"
+				,"adongCd" : "41820310"
+				,"adongNm" : "설악면"
+				,"ldongCd" : "4182031032"
+				,"ldongNm" : "설악면"
+				,"lnoCd" : "4182031032102580001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 258
+				,"lnoSlno" : 1
+				,"lnoAdr" : "경기도 가평군 설악면 가일리 258-1"
+				,"rdnmCd" : "418204448224"
+				,"rdnm" : "경기도 가평군 설악면 유명산길"
+				,"bldMnno" : 61
+				,"bldSlno" : 12
+				,"bldMngNo" : "4182031032102580001014257"
+				,"bldNm" : ""
+				,"rdnmAdr" : "경기도 가평군 설악면 유명산길 61-12"
+				,"oldZipcd" : "477851"
+				,"newZipcd" : "12473"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.492244243614
+				,"lat" : 37.5964604584281
+				}
+				,{
+				"bizesId" : "MA0106202510A1878678"
+				,"bizesNm" : "가평힐링피아풀카라반글램핑"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10102"
+				,"indsSclsNm" : "여관/모텔"
+				,"ksicCd" : "I55102"
+				,"ksicNm" : "여관업"
+				,"ctprvnCd" : "41"
+				,"ctprvnNm" : "경기도"
+				,"signguCd" : "41820"
+				,"signguNm" : "가평군"
+				,"adongCd" : "41820310"
+				,"adongNm" : "설악면"
+				,"ldongCd" : "4182031032"
+				,"ldongNm" : "설악면"
+				,"lnoCd" : "4182031032102610003"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 261
+				,"lnoSlno" : 3
+				,"lnoAdr" : "경기도 가평군 설악면 가일리 261-3"
+				,"rdnmCd" : "418204448224"
+				,"rdnm" : "경기도 가평군 설악면 유명산길"
+				,"bldMnno" : 61
+				,"bldSlno" : 75
+				,"bldMngNo" : "4182031032102610003013937"
+				,"bldNm" : ""
+				,"rdnmAdr" : "경기도 가평군 설악면 유명산길 61-75"
+				,"oldZipcd" : "477851"
+				,"newZipcd" : "12473"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.494710845608
+				,"lat" : 37.5978827076
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 2,
+		"totalCount" : 109	}
+}

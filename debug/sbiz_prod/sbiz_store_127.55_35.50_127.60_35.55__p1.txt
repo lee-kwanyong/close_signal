@@ -1,0 +1,262 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA0101202503A0020283"
+				,"bizesNm" : "수연엘샘"
+				,"brchNm" : ""
+				,"indsLclsCd" : "M1"
+				,"indsLclsNm" : "과학·기술"
+				,"indsMclsCd" : "M107"
+				,"indsMclsNm" : "본사·경영 컨설팅"
+				,"indsSclsCd" : "M10703"
+				,"indsSclsNm" : "경영 컨설팅업"
+				,"ksicCd" : "M71531"
+				,"ksicNm" : "경영 컨설팅업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52740"
+				,"signguNm" : "장수군"
+				,"adongCd" : "52740320"
+				,"adongNm" : "번암면"
+				,"ldongCd" : "5274032028"
+				,"ldongNm" : "번암면"
+				,"lnoCd" : "5274032028200370005"
+				,"plotSctCd" : "2"
+				,"plotSctNm" : "산"
+				,"lnoMnno" : 37
+				,"lnoSlno" : 5
+				,"lnoAdr" : "전북특별자치도 장수군 번암면 노단리 산 37-5"
+				,"rdnmCd" : "527403016018"
+				,"rdnm" : "전북특별자치도 장수군 번암면 봉화산로"
+				,"bldMnno" : 349
+				,"bldSlno" : ""
+				,"bldMngNo" : "4574032028101250005019703"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 장수군 번암면 봉화산로 349"
+				,"oldZipcd" : "597812"
+				,"newZipcd" : "55659"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.563515341427
+				,"lat" : 35.5278817544752
+				}
+				,{
+				"bizesId" : "MA010120220807419676"
+				,"bizesNm" : "철쭉슈퍼"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G204"
+				,"indsMclsNm" : "종합 소매"
+				,"indsSclsCd" : "G20404"
+				,"indsSclsNm" : "슈퍼마켓"
+				,"ksicCd" : "G47129"
+				,"ksicNm" : "기타 음ㆍ식료품 위주 종합 소매업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52190"
+				,"signguNm" : "남원시"
+				,"adongCd" : "52190450"
+				,"adongNm" : "아영면"
+				,"ldongCd" : "5219045027"
+				,"ldongNm" : "아영면"
+				,"lnoCd" : "5219045027107960007"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 796
+				,"lnoSlno" : 7
+				,"lnoAdr" : "전북특별자치도 남원시 아영면 성리 796-7"
+				,"rdnmCd" : "521903016018"
+				,"rdnm" : "전북특별자치도 남원시 아영면 봉화산로"
+				,"bldMnno" : 689
+				,"bldSlno" : 4
+				,"bldMngNo" : "4519045027108080000019707"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 남원시 아영면 봉화산로 689-4"
+				,"oldZipcd" : "590863"
+				,"newZipcd" : "55711"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.576956413968
+				,"lat" : 35.526493310757
+				}
+				,{
+				"bizesId" : "MA010120220812109398"
+				,"bizesNm" : "철쭉민박"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55104"
+				,"ksicNm" : "민박업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52190"
+				,"signguNm" : "남원시"
+				,"adongCd" : "52190450"
+				,"adongNm" : "아영면"
+				,"ldongCd" : "5219045027"
+				,"ldongNm" : "아영면"
+				,"lnoCd" : "5219045027107960008"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 796
+				,"lnoSlno" : 8
+				,"lnoAdr" : "전북특별자치도 남원시 아영면 성리 796-8"
+				,"rdnmCd" : "521903016018"
+				,"rdnm" : "전북특별자치도 남원시 아영면 봉화산로"
+				,"bldMnno" : 689
+				,"bldSlno" : 4
+				,"bldMngNo" : "4519045027108080000019707"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 남원시 아영면 봉화산로 689-4"
+				,"oldZipcd" : "590863"
+				,"newZipcd" : "55711"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.576956413968
+				,"lat" : 35.526493310757
+				}
+				,{
+				"bizesId" : "MA010120220807444307"
+				,"bizesNm" : "흥부마을"
+				,"brchNm" : ""
+				,"indsLclsCd" : "R1"
+				,"indsLclsNm" : "예술·스포츠"
+				,"indsMclsCd" : "R104"
+				,"indsMclsNm" : "유원지·오락"
+				,"indsSclsCd" : "R10499"
+				,"indsSclsNm" : "기타 오락관련 서비스업"
+				,"ksicCd" : "R91299"
+				,"ksicNm" : "그 외 기타 분류 안된 오락관련 서비스업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52190"
+				,"signguNm" : "남원시"
+				,"adongCd" : "52190450"
+				,"adongNm" : "아영면"
+				,"ldongCd" : "5219045027"
+				,"ldongNm" : "아영면"
+				,"lnoCd" : "5219045027105600001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 560
+				,"lnoSlno" : 1
+				,"lnoAdr" : "전북특별자치도 남원시 아영면 성리 560-1"
+				,"rdnmCd" : "521904613695"
+				,"rdnm" : "전북특별자치도 남원시 아영면 흥부1길"
+				,"bldMnno" : 46
+				,"bldSlno" : ""
+				,"bldMngNo" : "4519045027105600001000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 남원시 아영면 흥부1길 46"
+				,"oldZipcd" : "590863"
+				,"newZipcd" : "55711"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.584360333906
+				,"lat" : 35.5197160172678
+				}
+				,{
+				"bizesId" : "MA010120220813309421"
+				,"bizesNm" : "길동무"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I212"
+				,"indsMclsNm" : "비알코올 "
+				,"indsSclsCd" : "I21201"
+				,"indsSclsNm" : "카페"
+				,"ksicCd" : "I56229"
+				,"ksicNm" : "기타 비알코올 음료점업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52190"
+				,"signguNm" : "남원시"
+				,"adongCd" : "52190450"
+				,"adongNm" : "아영면"
+				,"ldongCd" : "5219045028"
+				,"ldongNm" : "아영면"
+				,"lnoCd" : "5219045028104200010"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 420
+				,"lnoSlno" : 10
+				,"lnoAdr" : "전북특별자치도 남원시 아영면 구상리 420-10"
+				,"rdnmCd" : "521903016018"
+				,"rdnm" : "전북특별자치도 남원시 아영면 봉화산로"
+				,"bldMnno" : 922
+				,"bldSlno" : ""
+				,"bldMngNo" : "4519045028104200010019834"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 남원시 아영면 봉화산로 922"
+				,"oldZipcd" : "590862"
+				,"newZipcd" : "55711"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.594189902065
+				,"lat" : 35.5341156590027
+				}
+				,{
+				"bizesId" : "MA010120220807427089"
+				,"bizesNm" : "아영가스"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G214"
+				,"indsMclsNm" : "연료 소매"
+				,"indsSclsCd" : "G21403"
+				,"indsSclsNm" : "가정용 연료 소매업"
+				,"ksicCd" : "G47723"
+				,"ksicNm" : "가정용 가스 연료 소매업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52190"
+				,"signguNm" : "남원시"
+				,"adongCd" : "52190450"
+				,"adongNm" : "아영면"
+				,"ldongCd" : "5219045026"
+				,"ldongNm" : "아영면"
+				,"lnoCd" : "5219045026105580010"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 558
+				,"lnoSlno" : 10
+				,"lnoAdr" : "전북특별자치도 남원시 아영면 월산리 558-10"
+				,"rdnmCd" : "521903271039"
+				,"rdnm" : "전북특별자치도 남원시 아영면 흥부로"
+				,"bldMnno" : 163
+				,"bldSlno" : ""
+				,"bldMngNo" : "4519045026105580010042278"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 남원시 아영면 흥부로 163"
+				,"oldZipcd" : "590863"
+				,"newZipcd" : "55711"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.598315939822
+				,"lat" : 35.5151050994375
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 1,
+		"totalCount" : 6	}
+}

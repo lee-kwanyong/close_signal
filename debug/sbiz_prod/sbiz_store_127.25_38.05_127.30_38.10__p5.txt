@@ -1,0 +1,221 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA0106202510A0226051"
+				,"bizesNm" : "삼진슈퍼"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G221"
+				,"indsMclsNm" : "기타 상품 소매"
+				,"indsSclsCd" : "G22199"
+				,"indsSclsNm" : "그 외 기타 상품 전문 소매업"
+				,"ksicCd" : "G47859"
+				,"ksicNm" : "그 외 기타 분류 안된 상품 전문 소매업"
+				,"ctprvnCd" : "41"
+				,"ctprvnNm" : "경기도"
+				,"signguCd" : "41650"
+				,"signguNm" : "포천시"
+				,"adongCd" : "41650390"
+				,"adongNm" : "영북면"
+				,"ldongCd" : "4165039021"
+				,"ldongNm" : "영북면"
+				,"lnoCd" : "4165039021105210028"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 521
+				,"lnoSlno" : 28
+				,"lnoAdr" : "경기도 포천시 영북면 운천리 521-28"
+				,"rdnmCd" : "416504439473"
+				,"rdnm" : "경기도 포천시 영북면 운천로44번길"
+				,"bldMnno" : 9
+				,"bldSlno" : ""
+				,"bldMngNo" : "4165039021105210028068043"
+				,"bldNm" : ""
+				,"rdnmAdr" : "경기도 포천시 영북면 운천로44번길 9"
+				,"oldZipcd" : "487892"
+				,"newZipcd" : "11105"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.269234006495
+				,"lat" : 38.0917928830596
+				}
+				,{
+				"bizesId" : "MA0106202511A1581758"
+				,"bizesNm" : "두경에너지대원주유소"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G214"
+				,"indsMclsNm" : "연료 소매"
+				,"indsSclsCd" : "G21401"
+				,"indsSclsNm" : "주유소"
+				,"ksicCd" : "G47711"
+				,"ksicNm" : "운송장비용 주유소 운영업"
+				,"ctprvnCd" : "41"
+				,"ctprvnNm" : "경기도"
+				,"signguCd" : "41650"
+				,"signguNm" : "포천시"
+				,"adongCd" : "41650390"
+				,"adongNm" : "영북면"
+				,"ldongCd" : "4165039024"
+				,"ldongNm" : "영북면"
+				,"lnoCd" : "4165039024103180002"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 318
+				,"lnoSlno" : 2
+				,"lnoAdr" : "경기도 포천시 영북면 야미리 318-2"
+				,"rdnmCd" : "416503000136"
+				,"rdnm" : "경기도 포천시 영북면 호국로"
+				,"bldMnno" : 3525
+				,"bldSlno" : ""
+				,"bldMngNo" : "4165039024103180002061972"
+				,"bldNm" : ""
+				,"rdnmAdr" : "경기도 포천시 영북면 호국로 3525"
+				,"oldZipcd" : "487898"
+				,"newZipcd" : "11109"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.269473341435
+				,"lat" : 38.0513952571796
+				}
+				,{
+				"bizesId" : "MA0106202511A2451396"
+				,"bizesNm" : "짱구분식"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I210"
+				,"indsMclsNm" : "기타 간이"
+				,"indsSclsCd" : "I21007"
+				,"indsSclsNm" : "김밥/만두/분식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "41"
+				,"ctprvnNm" : "경기도"
+				,"signguCd" : "41650"
+				,"signguNm" : "포천시"
+				,"adongCd" : "41650390"
+				,"adongNm" : "영북면"
+				,"ldongCd" : "4165039021"
+				,"ldongNm" : "영북면"
+				,"lnoCd" : "4165039021105060018"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 506
+				,"lnoSlno" : 18
+				,"lnoAdr" : "경기도 포천시 영북면 운천리 506-18"
+				,"rdnmCd" : "416504439478"
+				,"rdnm" : "경기도 포천시 영북면 운천로9번길"
+				,"bldMnno" : 10
+				,"bldSlno" : ""
+				,"bldMngNo" : "4165039021105060018067553"
+				,"bldNm" : ""
+				,"rdnmAdr" : "경기도 포천시 영북면 운천로9번길 10"
+				,"oldZipcd" : "487892"
+				,"newZipcd" : "11106"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.273458823204
+				,"lat" : 38.0906119408526
+				}
+				,{
+				"bizesId" : "MA0106202511A1415668"
+				,"bizesNm" : "꽈아페&짱구분식"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I210"
+				,"indsMclsNm" : "기타 간이"
+				,"indsSclsCd" : "I21007"
+				,"indsSclsNm" : "김밥/만두/분식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "41"
+				,"ctprvnNm" : "경기도"
+				,"signguCd" : "41650"
+				,"signguNm" : "포천시"
+				,"adongCd" : "41650390"
+				,"adongNm" : "영북면"
+				,"ldongCd" : "4165039021"
+				,"ldongNm" : "영북면"
+				,"lnoCd" : "4165039021105060018"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 506
+				,"lnoSlno" : 18
+				,"lnoAdr" : "경기도 포천시 영북면 운천리 506-18"
+				,"rdnmCd" : "416504439478"
+				,"rdnm" : "경기도 포천시 영북면 운천로9번길"
+				,"bldMnno" : 10
+				,"bldSlno" : ""
+				,"bldMngNo" : "4165039021105060018067553"
+				,"bldNm" : ""
+				,"rdnmAdr" : "경기도 포천시 영북면 운천로9번길 10"
+				,"oldZipcd" : "487892"
+				,"newZipcd" : "11106"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.273458823204
+				,"lat" : 38.0906119408526
+				}
+				,{
+				"bizesId" : "MA0106202511A0743273"
+				,"bizesNm" : "큰손손만두"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I210"
+				,"indsMclsNm" : "기타 간이"
+				,"indsSclsCd" : "I21007"
+				,"indsSclsNm" : "김밥/만두/분식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "41"
+				,"ctprvnNm" : "경기도"
+				,"signguCd" : "41650"
+				,"signguNm" : "포천시"
+				,"adongCd" : "41650390"
+				,"adongNm" : "영북면"
+				,"ldongCd" : "4165039025"
+				,"ldongNm" : "영북면"
+				,"lnoCd" : "4165039025101610000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 161
+				,"lnoSlno" : ""
+				,"lnoAdr" : "경기도 포천시 영북면 문암리 161"
+				,"rdnmCd" : "416503000136"
+				,"rdnm" : "경기도 포천시 영북면 호국로"
+				,"bldMnno" : 3763
+				,"bldSlno" : ""
+				,"bldMngNo" : "4165039025101500000064171"
+				,"bldNm" : ""
+				,"rdnmAdr" : "경기도 포천시 영북면 호국로 3763"
+				,"oldZipcd" : "487895"
+				,"newZipcd" : "11107"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.27348336713
+				,"lat" : 38.0727197223741
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 5,
+		"totalCount" : 405	}
+}

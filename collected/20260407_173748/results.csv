@@ -1,0 +1,3 @@
+﻿"source_name","source_url","type","status","output_file","collected_at"
+"sample_json_api","https://jsonplaceholder.typicode.com/posts","json","success",".\collected\20260407_173748\sample_json_api.json","2026-04-07 오후 5:37:48"
+"sample_html_page","https://example.com","html","success",".\collected\20260407_173748\sample_html_page.html","2026-04-07 오후 5:37:49"

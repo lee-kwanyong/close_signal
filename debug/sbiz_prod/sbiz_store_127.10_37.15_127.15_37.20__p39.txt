@@ -1,0 +1,262 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA0106202511A2365669"
+				,"bizesNm" : "까벨로헤어"
+				,"brchNm" : ""
+				,"indsLclsCd" : "S2"
+				,"indsLclsNm" : "수리·개인"
+				,"indsMclsCd" : "S207"
+				,"indsMclsNm" : "이용·미용"
+				,"indsSclsCd" : "S20701"
+				,"indsSclsNm" : "미용실"
+				,"ksicCd" : "S96111"
+				,"ksicNm" : "이용업"
+				,"ctprvnCd" : "41"
+				,"ctprvnNm" : "경기도"
+				,"signguCd" : "41590"
+				,"signguNm" : "화성시"
+				,"adongCd" : "41590620"
+				,"adongNm" : "동탄8동"
+				,"ldongCd" : "4159013600"
+				,"ldongNm" : "장지동"
+				,"lnoCd" : "4159013600110140004"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 1014
+				,"lnoSlno" : 4
+				,"lnoAdr" : "경기도 화성시 장지동 1014-4"
+				,"rdnmCd" : "415904857651"
+				,"rdnm" : "경기도 화성시 동탄장지천6길"
+				,"bldMnno" : 60
+				,"bldSlno" : 1
+				,"bldMngNo" : "4159013600110140004000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "경기도 화성시 동탄장지천6길 60-1"
+				,"oldZipcd" : ""
+				,"newZipcd" : "18508"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.108435184413
+				,"lat" : 37.1579264508466
+				}
+				,{
+				"bizesId" : "MA0106202511A2384246"
+				,"bizesNm" : "홍루이젠동탄"
+				,"brchNm" : "호수공원점"
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G221"
+				,"indsMclsNm" : "기타 상품 소매"
+				,"indsSclsCd" : "G22199"
+				,"indsSclsNm" : "그 외 기타 상품 전문 소매업"
+				,"ksicCd" : "G47859"
+				,"ksicNm" : "그 외 기타 분류 안된 상품 전문 소매업"
+				,"ctprvnCd" : "41"
+				,"ctprvnNm" : "경기도"
+				,"signguCd" : "41590"
+				,"signguNm" : "화성시"
+				,"adongCd" : "41590610"
+				,"adongNm" : "동탄7동"
+				,"ldongCd" : "4159013500"
+				,"ldongNm" : "산척동"
+				,"lnoCd" : "4159013500107270007"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 727
+				,"lnoSlno" : 7
+				,"lnoAdr" : "경기도 화성시 산척동 727-7"
+				,"rdnmCd" : "415904852341"
+				,"rdnm" : "경기도 화성시 동탄대로6길"
+				,"bldMnno" : 23
+				,"bldSlno" : ""
+				,"bldMngNo" : "4159013500107270007000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "경기도 화성시 동탄대로6길 23"
+				,"oldZipcd" : ""
+				,"newZipcd" : "18501"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.109396277411
+				,"lat" : 37.1686391363163
+				}
+				,{
+				"bizesId" : "MA0106202511A2346224"
+				,"bizesNm" : "동탄oo스팀"
+				,"brchNm" : ""
+				,"indsLclsCd" : "S2"
+				,"indsLclsNm" : "수리·개인"
+				,"indsMclsCd" : "S203"
+				,"indsMclsNm" : "자동차 수리·세차"
+				,"indsSclsCd" : "S20302"
+				,"indsSclsNm" : "자동차 세차장"
+				,"ksicCd" : "S95213"
+				,"ksicNm" : "자동차 세차업"
+				,"ctprvnCd" : "41"
+				,"ctprvnNm" : "경기도"
+				,"signguCd" : "41590"
+				,"signguNm" : "화성시"
+				,"adongCd" : "41590620"
+				,"adongNm" : "동탄8동"
+				,"ldongCd" : "4159013600"
+				,"ldongNm" : "장지동"
+				,"lnoCd" : "4159013600110270004"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 1027
+				,"lnoSlno" : 4
+				,"lnoAdr" : "경기도 화성시 장지동 1027-4"
+				,"rdnmCd" : "415904852333"
+				,"rdnm" : "경기도 화성시 동탄대로2길"
+				,"bldMnno" : 124
+				,"bldSlno" : 9
+				,"bldMngNo" : "4159042030105300003000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "경기도 화성시 동탄대로2길 124-9"
+				,"oldZipcd" : ""
+				,"newZipcd" : "18508"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.116029865737
+				,"lat" : 37.1550899364966
+				}
+				,{
+				"bizesId" : "MA0106202511A2361508"
+				,"bizesNm" : "숙명메종드피아노2관학원"
+				,"brchNm" : ""
+				,"indsLclsCd" : "P1"
+				,"indsLclsNm" : "교육"
+				,"indsMclsCd" : "P106"
+				,"indsMclsNm" : "기타 교육"
+				,"indsSclsCd" : "P10609"
+				,"indsSclsNm" : "음악학원"
+				,"ksicCd" : "P85501"
+				,"ksicNm" : "일반 교과학원"
+				,"ctprvnCd" : "41"
+				,"ctprvnNm" : "경기도"
+				,"signguCd" : "41590"
+				,"signguNm" : "화성시"
+				,"adongCd" : "41590610"
+				,"adongNm" : "동탄7동"
+				,"ldongCd" : "4159013500"
+				,"ldongNm" : "산척동"
+				,"lnoCd" : "4159013500107230000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 723
+				,"lnoSlno" : ""
+				,"lnoAdr" : "경기도 화성시 산척동 723"
+				,"rdnmCd" : "415902348101"
+				,"rdnm" : "경기도 화성시 동탄순환대로"
+				,"bldMnno" : 263
+				,"bldSlno" : ""
+				,"bldMngNo" : "4159013500201190000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "경기도 화성시 동탄순환대로 263"
+				,"oldZipcd" : ""
+				,"newZipcd" : "18501"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.118576608735
+				,"lat" : 37.1711532627029
+				}
+				,{
+				"bizesId" : "MA0106202511A2303471"
+				,"bizesNm" : "멍식이"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G220"
+				,"indsMclsNm" : "애완동물·용품 소매"
+				,"indsSclsCd" : "G22001"
+				,"indsSclsNm" : "애완동물/애완용품 소매업"
+				,"ksicCd" : "G47852"
+				,"ksicNm" : "애완용 동물 및 관련용품 소매업"
+				,"ctprvnCd" : "41"
+				,"ctprvnNm" : "경기도"
+				,"signguCd" : "41590"
+				,"signguNm" : "화성시"
+				,"adongCd" : "41590610"
+				,"adongNm" : "동탄7동"
+				,"ldongCd" : "4159013500"
+				,"ldongNm" : "산척동"
+				,"lnoCd" : "4159013500108290001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 829
+				,"lnoSlno" : 1
+				,"lnoAdr" : "경기도 화성시 산척동 829-1"
+				,"rdnmCd" : "415904852373"
+				,"rdnm" : "경기도 화성시 동탄순환대로14길"
+				,"bldMnno" : 82
+				,"bldSlno" : 2
+				,"bldMngNo" : "4159013500201170003000009"
+				,"bldNm" : ""
+				,"rdnmAdr" : "경기도 화성시 동탄순환대로14길 82-2"
+				,"oldZipcd" : ""
+				,"newZipcd" : "18502"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.119610176159
+				,"lat" : 37.1696744922744
+				}
+				,{
+				"bizesId" : "MA0106202511A2464652"
+				,"bizesNm" : "오쌈각"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "41"
+				,"ctprvnNm" : "경기도"
+				,"signguCd" : "41590"
+				,"signguNm" : "화성시"
+				,"adongCd" : "41590630"
+				,"adongNm" : "동탄9동"
+				,"ldongCd" : "4159013400"
+				,"ldongNm" : "목동"
+				,"lnoCd" : "4159013400104550004"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 455
+				,"lnoSlno" : 4
+				,"lnoAdr" : "경기도 화성시 목동 455-4"
+				,"rdnmCd" : "415904852425"
+				,"rdnm" : "경기도 화성시 왕배산3길"
+				,"bldMnno" : 20
+				,"bldSlno" : ""
+				,"bldMngNo" : "4159013400104550004000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "경기도 화성시 왕배산3길 20"
+				,"oldZipcd" : ""
+				,"newZipcd" : "18490"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.125957517432
+				,"lat" : 37.1814086631501
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 39,
+		"totalCount" : 3806	}
+}

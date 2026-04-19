@@ -1,0 +1,303 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA010120220812718389"
+				,"bizesNm" : "풍경채민박"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55104"
+				,"ksicNm" : "민박업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46770"
+				,"signguNm" : "고흥군"
+				,"adongCd" : "46770380"
+				,"adongNm" : "과역면"
+				,"ldongCd" : "4677038022"
+				,"ldongNm" : "과역면"
+				,"lnoCd" : "4677038022202140001"
+				,"plotSctCd" : "2"
+				,"plotSctNm" : "산"
+				,"lnoMnno" : 214
+				,"lnoSlno" : 1
+				,"lnoAdr" : "전라남도 고흥군 과역면 백일리 산 214-1"
+				,"rdnmCd" : "467704667281"
+				,"rdnm" : "전라남도 고흥군 과역면 백일길"
+				,"bldMnno" : 590
+				,"bldSlno" : 36
+				,"bldMngNo" : "4677038022202140001000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 고흥군 과역면 백일길 590-36"
+				,"oldZipcd" : "548833"
+				,"newZipcd" : "59510"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.451480379477
+				,"lat" : 34.6936241599147
+				}
+				,{
+				"bizesId" : "MA0101202308A0070848"
+				,"bizesNm" : "일공일ISland"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55104"
+				,"ksicNm" : "민박업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46770"
+				,"signguNm" : "고흥군"
+				,"adongCd" : "46770380"
+				,"adongNm" : "과역면"
+				,"ldongCd" : "4677038022"
+				,"ldongNm" : "과역면"
+				,"lnoCd" : "4677038022201970007"
+				,"plotSctCd" : "2"
+				,"plotSctNm" : "산"
+				,"lnoMnno" : 197
+				,"lnoSlno" : 7
+				,"lnoAdr" : "전라남도 고흥군 과역면 백일리 산 197-7"
+				,"rdnmCd" : "467704667281"
+				,"rdnm" : "전라남도 고흥군 과역면 백일길"
+				,"bldMnno" : 576
+				,"bldSlno" : 37
+				,"bldMngNo" : "4677038022201970000000002"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 고흥군 과역면 백일길 576-37"
+				,"oldZipcd" : "548833"
+				,"newZipcd" : "59510"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.451743420675
+				,"lat" : 34.6918203468886
+				}
+				,{
+				"bizesId" : "MA010120220807769689"
+				,"bizesNm" : "담배가게"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G207"
+				,"indsMclsNm" : "담배 소매"
+				,"indsSclsCd" : "G20701"
+				,"indsSclsNm" : "담배/전자담배 소매업"
+				,"ksicCd" : "G47222"
+				,"ksicNm" : "담배 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46770"
+				,"signguNm" : "고흥군"
+				,"adongCd" : "46770370"
+				,"adongNm" : "점암면"
+				,"ldongCd" : "4677037024"
+				,"ldongNm" : "점암면"
+				,"lnoCd" : "4677037024102210002"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 221
+				,"lnoSlno" : 2
+				,"lnoAdr" : "전라남도 고흥군 점암면 여호리 221-2"
+				,"rdnmCd" : "467704667479"
+				,"rdnm" : "전라남도 고흥군 점암면 여호해안길"
+				,"bldMnno" : 56
+				,"bldSlno" : ""
+				,"bldMngNo" : "4677037024102210002059807"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 고흥군 점암면 여호해안길 56"
+				,"oldZipcd" : "548811"
+				,"newZipcd" : "59518"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.468776052688
+				,"lat" : 34.6621984382885
+				}
+				,{
+				"bizesId" : "MA010120220812562225"
+				,"bizesNm" : "오스프리호"
+				,"brchNm" : ""
+				,"indsLclsCd" : "R1"
+				,"indsLclsNm" : "예술·스포츠"
+				,"indsMclsCd" : "R104"
+				,"indsMclsNm" : "유원지·오락"
+				,"indsSclsCd" : "R10409"
+				,"indsSclsNm" : "수상/해양 레저업"
+				,"ksicCd" : "R91239"
+				,"ksicNm" : "기타 수상오락 서비스업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46770"
+				,"signguNm" : "고흥군"
+				,"adongCd" : "46770370"
+				,"adongNm" : "점암면"
+				,"ldongCd" : "4677037024"
+				,"ldongNm" : "점암면"
+				,"lnoCd" : "4677037024101040000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 104
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 고흥군 점암면 여호리 104"
+				,"rdnmCd" : "467704667479"
+				,"rdnm" : "전라남도 고흥군 점암면 여호해안길"
+				,"bldMnno" : 30
+				,"bldSlno" : 6
+				,"bldMngNo" : "4677037024101040000060689"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 고흥군 점암면 여호해안길 30-6"
+				,"oldZipcd" : "548811"
+				,"newZipcd" : "59518"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.470027298224
+				,"lat" : 34.6635367407931
+				}
+				,{
+				"bizesId" : "MA010120220813603176"
+				,"bizesNm" : "정운호"
+				,"brchNm" : ""
+				,"indsLclsCd" : "R1"
+				,"indsLclsNm" : "예술·스포츠"
+				,"indsMclsCd" : "R104"
+				,"indsMclsNm" : "유원지·오락"
+				,"indsSclsCd" : "R10409"
+				,"indsSclsNm" : "수상/해양 레저업"
+				,"ksicCd" : "R91239"
+				,"ksicNm" : "기타 수상오락 서비스업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46770"
+				,"signguNm" : "고흥군"
+				,"adongCd" : "46770370"
+				,"adongNm" : "점암면"
+				,"ldongCd" : "4677037024"
+				,"ldongNm" : "점암면"
+				,"lnoCd" : "4677037024101000001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 100
+				,"lnoSlno" : 1
+				,"lnoAdr" : "전라남도 고흥군 점암면 여호리 100-1"
+				,"rdnmCd" : "467704667479"
+				,"rdnm" : "전라남도 고흥군 점암면 여호해안길"
+				,"bldMnno" : 82
+				,"bldSlno" : ""
+				,"bldMngNo" : "4677037024101000001060636"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 고흥군 점암면 여호해안길 82"
+				,"oldZipcd" : "548811"
+				,"newZipcd" : "59518"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.470293119505
+				,"lat" : 34.6603807357647
+				}
+				,{
+				"bizesId" : "MA010120220804539425"
+				,"bizesNm" : "여호구매점"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G204"
+				,"indsMclsNm" : "종합 소매"
+				,"indsSclsCd" : "G20404"
+				,"indsSclsNm" : "슈퍼마켓"
+				,"ksicCd" : "G47129"
+				,"ksicNm" : "기타 음ㆍ식료품 위주 종합 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46770"
+				,"signguNm" : "고흥군"
+				,"adongCd" : "46770370"
+				,"adongNm" : "점암면"
+				,"ldongCd" : "4677037024"
+				,"ldongNm" : "점암면"
+				,"lnoCd" : "4677037024101080011"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 108
+				,"lnoSlno" : 11
+				,"lnoAdr" : "전라남도 고흥군 점암면 여호리 108-11"
+				,"rdnmCd" : "467704667479"
+				,"rdnm" : "전라남도 고흥군 점암면 여호해안길"
+				,"bldMnno" : 81
+				,"bldSlno" : ""
+				,"bldMngNo" : "4677037024101080011000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 고흥군 점암면 여호해안길 81"
+				,"oldZipcd" : "548811"
+				,"newZipcd" : "59518"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.47065388328
+				,"lat" : 34.6605145571281
+				}
+				,{
+				"bizesId" : "MA0101202309A0074757"
+				,"bizesNm" : "여도"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G204"
+				,"indsMclsNm" : "종합 소매"
+				,"indsSclsCd" : "G20404"
+				,"indsSclsNm" : "슈퍼마켓"
+				,"ksicCd" : "G47129"
+				,"ksicNm" : "기타 음ㆍ식료품 위주 종합 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46770"
+				,"signguNm" : "고흥군"
+				,"adongCd" : "46770370"
+				,"adongNm" : "점암면"
+				,"ldongCd" : "4677037024"
+				,"ldongNm" : "점암면"
+				,"lnoCd" : "4677037024100670000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 67
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 고흥군 점암면 여호리 67"
+				,"rdnmCd" : "467704667479"
+				,"rdnm" : "전라남도 고흥군 점암면 여호해안길"
+				,"bldMnno" : 112
+				,"bldSlno" : ""
+				,"bldMngNo" : "4677037024100670000000001"
+				,"bldNm" : "제"
+				,"rdnmAdr" : "전라남도 고흥군 점암면 여호해안길 112"
+				,"oldZipcd" : "548811"
+				,"newZipcd" : "59518"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.473023919697
+				,"lat" : 34.6590721225979
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 1,
+		"totalCount" : 7	}
+}

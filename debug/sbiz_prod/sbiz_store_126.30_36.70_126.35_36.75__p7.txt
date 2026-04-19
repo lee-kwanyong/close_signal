@@ -1,0 +1,262 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA0106202511A2288132"
+				,"bizesNm" : "카포리아"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G202"
+				,"indsMclsNm" : "자동차 부품 소매"
+				,"indsSclsCd" : "G20202"
+				,"indsSclsNm" : "자동차 부품 소매업"
+				,"ksicCd" : "G45219"
+				,"ksicNm" : "기타 자동차 신품 부품 및 내장품 판매업"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44825"
+				,"signguNm" : "태안군"
+				,"adongCd" : "44825250"
+				,"adongNm" : "태안읍"
+				,"ldongCd" : "4482525022"
+				,"ldongNm" : "태안읍"
+				,"lnoCd" : "4482525022106850008"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 685
+				,"lnoSlno" : 8
+				,"lnoAdr" : "충청남도 태안군 태안읍 남문리 685-8"
+				,"rdnmCd" : "448253264009"
+				,"rdnm" : "충청남도 태안군 태안읍 동백로"
+				,"bldMnno" : 276
+				,"bldSlno" : ""
+				,"bldMngNo" : "4482525022106850008007466"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청남도 태안군 태안읍 동백로 276"
+				,"oldZipcd" : "357901"
+				,"newZipcd" : "32144"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.30033055711
+				,"lat" : 36.749374637373
+				}
+				,{
+				"bizesId" : "MA0106202510A2168727"
+				,"bizesNm" : "채림네일"
+				,"brchNm" : ""
+				,"indsLclsCd" : "S2"
+				,"indsLclsNm" : "수리·개인"
+				,"indsMclsCd" : "S207"
+				,"indsMclsNm" : "이용·미용"
+				,"indsSclsCd" : "S20701"
+				,"indsSclsNm" : "미용실"
+				,"ksicCd" : "S96111"
+				,"ksicNm" : "이용업"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44825"
+				,"signguNm" : "태안군"
+				,"adongCd" : "44825250"
+				,"adongNm" : "태안읍"
+				,"ldongCd" : "4482525022"
+				,"ldongNm" : "태안읍"
+				,"lnoCd" : "4482525022107250004"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 725
+				,"lnoSlno" : 4
+				,"lnoAdr" : "충청남도 태안군 태안읍 남문리 725-4"
+				,"rdnmCd" : "448254592024"
+				,"rdnm" : "충청남도 태안군 태안읍 군청12길"
+				,"bldMnno" : 6
+				,"bldSlno" : ""
+				,"bldMngNo" : "4482525022107250004000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청남도 태안군 태안읍 군청12길 6"
+				,"oldZipcd" : "357901"
+				,"newZipcd" : "32144"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.300949337947
+				,"lat" : 36.7441158405256
+				}
+				,{
+				"bizesId" : "MA0106202511A0397933"
+				,"bizesNm" : "좋은계란"
+				,"brchNm" : "태안점"
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G221"
+				,"indsMclsNm" : "기타 상품 소매"
+				,"indsSclsCd" : "G22199"
+				,"indsSclsNm" : "그 외 기타 상품 전문 소매업"
+				,"ksicCd" : "G47859"
+				,"ksicNm" : "그 외 기타 분류 안된 상품 전문 소매업"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44825"
+				,"signguNm" : "태안군"
+				,"adongCd" : "44825250"
+				,"adongNm" : "태안읍"
+				,"ldongCd" : "4482525022"
+				,"ldongNm" : "태안읍"
+				,"lnoCd" : "4482525022107240010"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 724
+				,"lnoSlno" : 10
+				,"lnoAdr" : "충청남도 태안군 태안읍 남문리 724-10"
+				,"rdnmCd" : "448254592024"
+				,"rdnm" : "충청남도 태안군 태안읍 군청12길"
+				,"bldMnno" : 7
+				,"bldSlno" : ""
+				,"bldMngNo" : "4482525022107240010007332"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청남도 태안군 태안읍 군청12길 7"
+				,"oldZipcd" : "357901"
+				,"newZipcd" : "32144"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.301362863645
+				,"lat" : 36.7441993682082
+				}
+				,{
+				"bizesId" : "MA0106202511A0439404"
+				,"bizesNm" : "하삼동커피"
+				,"brchNm" : "태안점"
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I212"
+				,"indsMclsNm" : "비알코올 "
+				,"indsSclsCd" : "I21201"
+				,"indsSclsNm" : "카페"
+				,"ksicCd" : "I56221"
+				,"ksicNm" : "커피 전문점"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44825"
+				,"signguNm" : "태안군"
+				,"adongCd" : "44825250"
+				,"adongNm" : "태안읍"
+				,"ldongCd" : "4482525021"
+				,"ldongNm" : "태안읍"
+				,"lnoCd" : "4482525021108790001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 879
+				,"lnoSlno" : 1
+				,"lnoAdr" : "충청남도 태안군 태안읍 동문리 879-1"
+				,"rdnmCd" : "448254592080"
+				,"rdnm" : "충청남도 태안군 태안읍 동문1길"
+				,"bldMnno" : 38
+				,"bldSlno" : ""
+				,"bldMngNo" : "4482525021108790001007355"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청남도 태안군 태안읍 동문1길 38"
+				,"oldZipcd" : "357905"
+				,"newZipcd" : "32143"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.303096543045
+				,"lat" : 36.7493548249399
+				}
+				,{
+				"bizesId" : "MA0106202511A1811671"
+				,"bizesNm" : "김밥세상"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I210"
+				,"indsMclsNm" : "기타 간이"
+				,"indsSclsCd" : "I21007"
+				,"indsSclsNm" : "김밥/만두/분식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44825"
+				,"signguNm" : "태안군"
+				,"adongCd" : "44825250"
+				,"adongNm" : "태안읍"
+				,"ldongCd" : "4482525022"
+				,"ldongNm" : "태안읍"
+				,"lnoCd" : "4482525022107010000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 701
+				,"lnoSlno" : ""
+				,"lnoAdr" : "충청남도 태안군 태안읍 남문리 701"
+				,"rdnmCd" : "448253264009"
+				,"rdnm" : "충청남도 태안군 태안읍 동백로"
+				,"bldMnno" : 304
+				,"bldSlno" : ""
+				,"bldMngNo" : "4482525022107010000007535"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청남도 태안군 태안읍 동백로 304"
+				,"oldZipcd" : "357901"
+				,"newZipcd" : "32144"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.303198503524
+				,"lat" : 36.7479857477908
+				}
+				,{
+				"bizesId" : "MA0106202511A1075706"
+				,"bizesNm" : "한상가득"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44825"
+				,"signguNm" : "태안군"
+				,"adongCd" : "44825250"
+				,"adongNm" : "태안읍"
+				,"ldongCd" : "4482525021"
+				,"ldongNm" : "태안읍"
+				,"lnoCd" : "4482525021108930008"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 893
+				,"lnoSlno" : 8
+				,"lnoAdr" : "충청남도 태안군 태안읍 동문리 893-8"
+				,"rdnmCd" : "448254592243"
+				,"rdnm" : "충청남도 태안군 태안읍 정주내1길"
+				,"bldMnno" : 43
+				,"bldSlno" : ""
+				,"bldMngNo" : "4482525021108930008000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청남도 태안군 태안읍 정주내1길 43"
+				,"oldZipcd" : "357905"
+				,"newZipcd" : "32144"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.30613279679
+				,"lat" : 36.7466782743334
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 7,
+		"totalCount" : 606	}
+}

@@ -1,0 +1,262 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA010120220813962574"
+				,"bizesNm" : "복합문화공간청년들"
+				,"brchNm" : ""
+				,"indsLclsCd" : "P1"
+				,"indsLclsNm" : "교육"
+				,"indsMclsCd" : "P106"
+				,"indsMclsNm" : "기타 교육"
+				,"indsSclsCd" : "P10611"
+				,"indsSclsNm" : "미술학원"
+				,"ksicCd" : "P85622"
+				,"ksicNm" : "미술학원"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44230"
+				,"signguNm" : "논산시"
+				,"adongCd" : "44230400"
+				,"adongNm" : "가야곡면"
+				,"ldongCd" : "4423040033"
+				,"ldongNm" : "가야곡면"
+				,"lnoCd" : "4423040033107940000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 794
+				,"lnoSlno" : ""
+				,"lnoAdr" : "충청남도 논산시 가야곡면 삼전리 794"
+				,"rdnmCd" : "442304565703"
+				,"rdnm" : "충청남도 논산시 가야곡면 원앙로111번길"
+				,"bldMnno" : 68
+				,"bldSlno" : 1
+				,"bldMngNo" : "4423040033107940000017307"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청남도 논산시 가야곡면 원앙로111번길 68-1"
+				,"oldZipcd" : "320844"
+				,"newZipcd" : "33020"
+				,"dongNo" : ""
+				,"flrNo" : "2"
+				,"hoNo" : ""
+				,"lon" : 127.158343587143
+				,"lat" : 36.0933647546762
+				}
+				,{
+				"bizesId" : "MA010120220807289378"
+				,"bizesNm" : "호정공원"
+				,"brchNm" : ""
+				,"indsLclsCd" : "S2"
+				,"indsLclsNm" : "수리·개인"
+				,"indsMclsCd" : "S210"
+				,"indsMclsNm" : "장례식장 "
+				,"indsSclsCd" : "S21002"
+				,"indsSclsNm" : "화장터/묘지/납골당"
+				,"ksicCd" : "S96922"
+				,"ksicNm" : "화장터 운영, 묘지 분양 및 관리업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52710"
+				,"signguNm" : "완주군"
+				,"adongCd" : "52710390"
+				,"adongNm" : "화산면"
+				,"ldongCd" : "5271039024"
+				,"ldongNm" : "화산면"
+				,"lnoCd" : "5271039024201000003"
+				,"plotSctCd" : "2"
+				,"plotSctNm" : "산"
+				,"lnoMnno" : 100
+				,"lnoSlno" : 3
+				,"lnoAdr" : "전북특별자치도 완주군 화산면 운곡리 산 100-3"
+				,"rdnmCd" : "527103273059"
+				,"rdnm" : "전북특별자치도 완주군 화산면 운곡로"
+				,"bldMnno" : 381
+				,"bldSlno" : 64
+				,"bldMngNo" : "4571039024201000003000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 완주군 화산면 운곡로 381-64"
+				,"oldZipcd" : "565883"
+				,"newZipcd" : "55304"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.178102858368
+				,"lat" : 36.071058856846
+				}
+				,{
+				"bizesId" : "MA010120220805508382"
+				,"bizesNm" : "큰손인테리어"
+				,"brchNm" : ""
+				,"indsLclsCd" : "M1"
+				,"indsLclsNm" : "과학·기술"
+				,"indsMclsCd" : "M112"
+				,"indsMclsNm" : "전문 디자인"
+				,"indsSclsCd" : "M11201"
+				,"indsSclsNm" : "인테리어 디자인업"
+				,"ksicCd" : "F42412"
+				,"ksicNm" : "도배, 실내 장식 및 내장 목공사업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52710"
+				,"signguNm" : "완주군"
+				,"adongCd" : "52710390"
+				,"adongNm" : "화산면"
+				,"ldongCd" : "5271039024"
+				,"ldongNm" : "화산면"
+				,"lnoCd" : "5271039024106020000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 602
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전북특별자치도 완주군 화산면 운곡리 602"
+				,"rdnmCd" : "527104619194"
+				,"rdnm" : "전북특별자치도 완주군 화산면 수실길"
+				,"bldMnno" : 98
+				,"bldSlno" : ""
+				,"bldMngNo" : "4571039024106020000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 완주군 화산면 수실길 98"
+				,"oldZipcd" : "565883"
+				,"newZipcd" : "55304"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.179737798268
+				,"lat" : 36.0626660363967
+				}
+				,{
+				"bizesId" : "MA010120220809797611"
+				,"bizesNm" : "더지원"
+				,"brchNm" : ""
+				,"indsLclsCd" : "M1"
+				,"indsLclsNm" : "과학·기술"
+				,"indsMclsCd" : "M109"
+				,"indsMclsNm" : "기술 서비스"
+				,"indsSclsCd" : "M10902"
+				,"indsSclsNm" : "도시 계획 및 조경 설계 서비스업"
+				,"ksicCd" : "M72112"
+				,"ksicNm" : "도시 계획 및 조경 설계 서비스업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52710"
+				,"signguNm" : "완주군"
+				,"adongCd" : "52710390"
+				,"adongNm" : "화산면"
+				,"ldongCd" : "5271039024"
+				,"ldongNm" : "화산면"
+				,"lnoCd" : "5271039024103640000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 364
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전북특별자치도 완주군 화산면 운곡리 364"
+				,"rdnmCd" : "527104619082"
+				,"rdnm" : "전북특별자치도 완주군 화산면 돈의길"
+				,"bldMnno" : 65
+				,"bldSlno" : ""
+				,"bldMngNo" : "4571039024103640000020883"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 완주군 화산면 돈의길 65"
+				,"oldZipcd" : "565883"
+				,"newZipcd" : "55304"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.18366683022
+				,"lat" : 36.0529989635094
+				}
+				,{
+				"bizesId" : "MA0101202505A0076828"
+				,"bizesNm" : "고청장묘"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G221"
+				,"indsMclsNm" : "기타 상품 소매"
+				,"indsSclsCd" : "G22199"
+				,"indsSclsNm" : "그 외 기타 상품 전문 소매업"
+				,"ksicCd" : "G47859"
+				,"ksicNm" : "그 외 기타 분류 안된 상품 전문 소매업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52710"
+				,"signguNm" : "완주군"
+				,"adongCd" : "52710390"
+				,"adongNm" : "화산면"
+				,"ldongCd" : "5271039024"
+				,"ldongNm" : "화산면"
+				,"lnoCd" : "5271039024107170001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 717
+				,"lnoSlno" : 1
+				,"lnoAdr" : "전북특별자치도 완주군 화산면 운곡리 717-1"
+				,"rdnmCd" : "527103273059"
+				,"rdnm" : "전북특별자치도 완주군 화산면 운곡로"
+				,"bldMnno" : 374
+				,"bldSlno" : ""
+				,"bldMngNo" : "5271039024107170001000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 완주군 화산면 운곡로 374"
+				,"oldZipcd" : "565883"
+				,"newZipcd" : "55304"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.185981449005
+				,"lat" : 36.0697671564816
+				}
+				,{
+				"bizesId" : "MA010120220814375472"
+				,"bizesNm" : "완주체험누리협동조합"
+				,"brchNm" : ""
+				,"indsLclsCd" : "R1"
+				,"indsLclsNm" : "예술·스포츠"
+				,"indsMclsCd" : "R104"
+				,"indsMclsNm" : "유원지·오락"
+				,"indsSclsCd" : "R10499"
+				,"indsSclsNm" : "기타 오락관련 서비스업"
+				,"ksicCd" : "R91299"
+				,"ksicNm" : "그 외 기타 분류 안된 오락관련 서비스업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52710"
+				,"signguNm" : "완주군"
+				,"adongCd" : "52710390"
+				,"adongNm" : "화산면"
+				,"ldongCd" : "5271039024"
+				,"ldongNm" : "화산면"
+				,"lnoCd" : "5271039024103120000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 312
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전북특별자치도 완주군 화산면 운곡리 312"
+				,"rdnmCd" : "527103273059"
+				,"rdnm" : "전북특별자치도 완주군 화산면 운곡로"
+				,"bldMnno" : 194
+				,"bldSlno" : ""
+				,"bldMngNo" : "4571039024103120000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 완주군 화산면 운곡로 194"
+				,"oldZipcd" : "565883"
+				,"newZipcd" : "55304"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.189509013697
+				,"lat" : 36.0548554049701
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 1,
+		"totalCount" : 6	}
+}

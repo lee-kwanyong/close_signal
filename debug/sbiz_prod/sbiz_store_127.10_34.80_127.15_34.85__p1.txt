@@ -1,0 +1,344 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA010120220807870399"
+				,"bizesNm" : "춘정한옥"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55104"
+				,"ksicNm" : "민박업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46780"
+				,"signguNm" : "보성군"
+				,"adongCd" : "46780320"
+				,"adongNm" : "미력면"
+				,"ldongCd" : "4678032024"
+				,"ldongNm" : "미력면"
+				,"lnoCd" : "4678032024105090001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 509
+				,"lnoSlno" : 1
+				,"lnoAdr" : "전라남도 보성군 미력면 용정리 509-1"
+				,"rdnmCd" : "467804670143"
+				,"rdnm" : "전라남도 보성군 미력면 미력춘정길"
+				,"bldMnno" : 53
+				,"bldSlno" : 4
+				,"bldMngNo" : "4678032024105090000040381"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 보성군 미력면 미력춘정길 53-4"
+				,"oldZipcd" : "546822"
+				,"newZipcd" : "59442"
+				,"dongNo" : ""
+				,"flrNo" : "1"
+				,"hoNo" : ""
+				,"lon" : 127.100581960822
+				,"lat" : 34.8200587042004
+				}
+				,{
+				"bizesId" : "MA010120220807846350"
+				,"bizesNm" : "제일건강원"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G205"
+				,"indsMclsNm" : "식료품 소매"
+				,"indsSclsCd" : "G20508"
+				,"indsSclsNm" : "건강보조식품 소매업"
+				,"ksicCd" : "C10796"
+				,"ksicNm" : "건강 보조용 액화식품 제조업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46780"
+				,"signguNm" : "보성군"
+				,"adongCd" : "46780320"
+				,"adongNm" : "미력면"
+				,"ldongCd" : "4678032024"
+				,"ldongNm" : "미력면"
+				,"lnoCd" : "4678032024101060006"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 106
+				,"lnoSlno" : 6
+				,"lnoAdr" : "전라남도 보성군 미력면 용정리 106-6"
+				,"rdnmCd" : "467804670298"
+				,"rdnm" : "전라남도 보성군 미력면 용정길"
+				,"bldMnno" : 143
+				,"bldSlno" : ""
+				,"bldMngNo" : "4678032024101060006041080"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 보성군 미력면 용정길 143"
+				,"oldZipcd" : "546822"
+				,"newZipcd" : "59442"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.105165403041
+				,"lat" : 34.8056773276165
+				}
+				,{
+				"bizesId" : "MA010120220807900762"
+				,"bizesNm" : "대보건설보성녹차(목포)휴게소주"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I210"
+				,"indsMclsNm" : "기타 간이"
+				,"indsSclsCd" : "I21099"
+				,"indsSclsNm" : "그 외 기타 간이 음식점"
+				,"ksicCd" : "I56199"
+				,"ksicNm" : "간이 음식 포장 판매 전문점"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46780"
+				,"signguNm" : "보성군"
+				,"adongCd" : "46780320"
+				,"adongNm" : "미력면"
+				,"ldongCd" : "4678032023"
+				,"ldongNm" : "미력면"
+				,"lnoCd" : "4678032023201960007"
+				,"plotSctCd" : "2"
+				,"plotSctNm" : "산"
+				,"lnoMnno" : 196
+				,"lnoSlno" : 7
+				,"lnoAdr" : "전라남도 보성군 미력면 화방리 산 196-7"
+				,"rdnmCd" : "467801000002"
+				,"rdnm" : "전라남도 보성군 미력면 남해고속도로"
+				,"bldMnno" : 63
+				,"bldSlno" : ""
+				,"bldMngNo" : "4678032023201960007000001"
+				,"bldNm" : "외"
+				,"rdnmAdr" : "전라남도 보성군 미력면 남해고속도로 63"
+				,"oldZipcd" : "546822"
+				,"newZipcd" : "59442"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.12767966378
+				,"lat" : 34.813714403214
+				}
+				,{
+				"bizesId" : "MA010120220807900765"
+				,"bizesNm" : "대보건설보성녹차(목포)주유소주"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G214"
+				,"indsMclsNm" : "연료 소매"
+				,"indsSclsCd" : "G21401"
+				,"indsSclsNm" : "주유소"
+				,"ksicCd" : "G47711"
+				,"ksicNm" : "운송장비용 주유소 운영업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46780"
+				,"signguNm" : "보성군"
+				,"adongCd" : "46780320"
+				,"adongNm" : "미력면"
+				,"ldongCd" : "4678032023"
+				,"ldongNm" : "미력면"
+				,"lnoCd" : "4678032023201960007"
+				,"plotSctCd" : "2"
+				,"plotSctNm" : "산"
+				,"lnoMnno" : 196
+				,"lnoSlno" : 7
+				,"lnoAdr" : "전라남도 보성군 미력면 화방리 산 196-7"
+				,"rdnmCd" : "467801000002"
+				,"rdnm" : "전라남도 보성군 미력면 남해고속도로"
+				,"bldMnno" : 63
+				,"bldSlno" : ""
+				,"bldMngNo" : "4678032023201960007000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 보성군 미력면 남해고속도로 63"
+				,"oldZipcd" : "546822"
+				,"newZipcd" : "59442"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.12767966378
+				,"lat" : 34.813714403214
+				}
+				,{
+				"bizesId" : "MA010120220805880896"
+				,"bizesNm" : "보성하이샵"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G204"
+				,"indsMclsNm" : "종합 소매"
+				,"indsSclsCd" : "G20499"
+				,"indsSclsNm" : "그 외 기타 종합 소매업"
+				,"ksicCd" : "G47190"
+				,"ksicNm" : "그 외 기타 종합 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46780"
+				,"signguNm" : "보성군"
+				,"adongCd" : "46780320"
+				,"adongNm" : "미력면"
+				,"ldongCd" : "4678032023"
+				,"ldongNm" : "미력면"
+				,"lnoCd" : "4678032023201960007"
+				,"plotSctCd" : "2"
+				,"plotSctNm" : "산"
+				,"lnoMnno" : 196
+				,"lnoSlno" : 7
+				,"lnoAdr" : "전라남도 보성군 미력면 화방리 산 196-7"
+				,"rdnmCd" : "467801000002"
+				,"rdnm" : "전라남도 보성군 미력면 남해고속도로"
+				,"bldMnno" : 63
+				,"bldSlno" : ""
+				,"bldMngNo" : "4678032023201960007000001"
+				,"bldNm" : "보성녹차광양방향휴게소"
+				,"rdnmAdr" : "전라남도 보성군 미력면 남해고속도로 63"
+				,"oldZipcd" : "546822"
+				,"newZipcd" : "59442"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.12767966378
+				,"lat" : 34.813714403214
+				}
+				,{
+				"bizesId" : "MA010120220806439553"
+				,"bizesNm" : "마음향기연구소"
+				,"brchNm" : ""
+				,"indsLclsCd" : "P1"
+				,"indsLclsNm" : "교육"
+				,"indsMclsCd" : "P106"
+				,"indsMclsNm" : "기타 교육"
+				,"indsSclsCd" : "P10629"
+				,"indsSclsNm" : "그 외 기타 교육기관"
+				,"ksicCd" : "P85699"
+				,"ksicNm" : "그 외 기타 분류 안된 교육기관"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46780"
+				,"signguNm" : "보성군"
+				,"adongCd" : "46780330"
+				,"adongNm" : "겸백면"
+				,"ldongCd" : "4678033024"
+				,"ldongNm" : "겸백면"
+				,"lnoCd" : "4678033024105220000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 522
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 보성군 겸백면 평호리 522"
+				,"rdnmCd" : "467804670075"
+				,"rdnm" : "전라남도 보성군 겸백면 달구재길"
+				,"bldMnno" : 442
+				,"bldSlno" : 11
+				,"bldMngNo" : "4678033024105220000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 보성군 겸백면 달구재길 442-11"
+				,"oldZipcd" : "546863"
+				,"newZipcd" : "59408"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.141562578119
+				,"lat" : 34.8278511678593
+				}
+				,{
+				"bizesId" : "MA010120220807854588"
+				,"bizesNm" : "현풍원"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10102"
+				,"indsSclsNm" : "여관/모텔"
+				,"ksicCd" : "I55102"
+				,"ksicNm" : "여관업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46780"
+				,"signguNm" : "보성군"
+				,"adongCd" : "46780330"
+				,"adongNm" : "겸백면"
+				,"ldongCd" : "4678033025"
+				,"ldongNm" : "겸백면"
+				,"lnoCd" : "4678033025105520009"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 552
+				,"lnoSlno" : 9
+				,"lnoAdr" : "전라남도 보성군 겸백면 도안리 552-9"
+				,"rdnmCd" : "467804670098"
+				,"rdnm" : "전라남도 보성군 겸백면 도림길"
+				,"bldMnno" : 160
+				,"bldSlno" : ""
+				,"bldMngNo" : "4678033025105520007021733"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 보성군 겸백면 도림길 160"
+				,"oldZipcd" : "546862"
+				,"newZipcd" : "59412"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.142797491594
+				,"lat" : 34.8086497024242
+				}
+				,{
+				"bizesId" : "MA0101202301A0000990"
+				,"bizesNm" : "법인가람뜰"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G205"
+				,"indsMclsNm" : "식료품 소매"
+				,"indsSclsCd" : "G20506"
+				,"indsSclsNm" : "채소/과일 소매업"
+				,"ksicCd" : "G47215"
+				,"ksicNm" : "채소, 과실 및 뿌리작물 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46780"
+				,"signguNm" : "보성군"
+				,"adongCd" : "46780330"
+				,"adongNm" : "겸백면"
+				,"ldongCd" : "4678033021"
+				,"ldongNm" : "겸백면"
+				,"lnoCd" : "4678033021105420001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 542
+				,"lnoSlno" : 1
+				,"lnoAdr" : "전라남도 보성군 겸백면 석호리 542-1"
+				,"rdnmCd" : "467803290019"
+				,"rdnm" : "전라남도 보성군 겸백면 충의로"
+				,"bldMnno" : 2517
+				,"bldSlno" : ""
+				,"bldMngNo" : "4678033021105420001022558"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 보성군 겸백면 충의로 2517"
+				,"oldZipcd" : "546863"
+				,"newZipcd" : "59411"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.149047918422
+				,"lat" : 34.8324123646565
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 1,
+		"totalCount" : 8	}
+}

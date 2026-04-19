@@ -1,0 +1,221 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA0106202511A2266868"
+				,"bizesNm" : "조운축산"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G205"
+				,"indsMclsNm" : "식료품 소매"
+				,"indsSclsCd" : "G20503"
+				,"indsSclsNm" : "정육점"
+				,"ksicCd" : "G47212"
+				,"ksicNm" : "육류 소매업"
+				,"ctprvnCd" : "43"
+				,"ctprvnNm" : "충청북도"
+				,"signguCd" : "43114"
+				,"signguNm" : "청주시 청원구"
+				,"adongCd" : "43114253"
+				,"adongNm" : "오창읍"
+				,"ldongCd" : "4311425346"
+				,"ldongNm" : "오창읍"
+				,"lnoCd" : "4311425346104170007"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 417
+				,"lnoSlno" : 7
+				,"lnoAdr" : "충청북도 청주시 청원구 오창읍 구룡리 417-7"
+				,"rdnmCd" : "431144520069"
+				,"rdnm" : "충청북도 청주시 청원구 오창읍 구룡6길"
+				,"bldMnno" : 8
+				,"bldSlno" : ""
+				,"bldMngNo" : "4371025346104170007000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청북도 청주시 청원구 오창읍 구룡6길 8"
+				,"oldZipcd" : "363884"
+				,"newZipcd" : "28121"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.415771191695
+				,"lat" : 36.7113625112994
+				}
+				,{
+				"bizesId" : "MA0106202511A2423176"
+				,"bizesNm" : "김치찜연구소"
+				,"brchNm" : "오창점"
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20102"
+				,"indsSclsNm" : "국/탕/찌개류"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "43"
+				,"ctprvnNm" : "충청북도"
+				,"signguCd" : "43114"
+				,"signguNm" : "청주시 청원구"
+				,"adongCd" : "43114253"
+				,"adongNm" : "오창읍"
+				,"ldongCd" : "4311425345"
+				,"ldongNm" : "오창읍"
+				,"lnoCd" : "4311425345107180018"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 718
+				,"lnoSlno" : 18
+				,"lnoAdr" : "충청북도 청주시 청원구 오창읍 양청리 718-18"
+				,"rdnmCd" : "431143240062"
+				,"rdnm" : "충청북도 청주시 청원구 오창읍 오창공원로"
+				,"bldMnno" : 47
+				,"bldSlno" : ""
+				,"bldMngNo" : "4371025345007180018004496"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청북도 청주시 청원구 오창읍 오창공원로 47"
+				,"oldZipcd" : "363883"
+				,"newZipcd" : "28115"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.419863803712
+				,"lat" : 36.7168449722068
+				}
+				,{
+				"bizesId" : "MA0106202511A2393546"
+				,"bizesNm" : "유지효의인생족발"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20103"
+				,"indsSclsNm" : "족발/보쌈"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "43"
+				,"ctprvnNm" : "충청북도"
+				,"signguCd" : "43114"
+				,"signguNm" : "청주시 청원구"
+				,"adongCd" : "43114253"
+				,"adongNm" : "오창읍"
+				,"ldongCd" : "4311425345"
+				,"ldongNm" : "오창읍"
+				,"lnoCd" : "4311425345107370017"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 737
+				,"lnoSlno" : 17
+				,"lnoAdr" : "충청북도 청주시 청원구 오창읍 양청리 737-17"
+				,"rdnmCd" : "431143240050"
+				,"rdnm" : "충청북도 청주시 청원구 오창읍 양청택지로"
+				,"bldMnno" : 72
+				,"bldSlno" : ""
+				,"bldMngNo" : "4371025345007370017004789"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청북도 청주시 청원구 오창읍 양청택지로 72"
+				,"oldZipcd" : "363883"
+				,"newZipcd" : "28115"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.42308041412
+				,"lat" : 36.7196540829532
+				}
+				,{
+				"bizesId" : "MA0106202511A2095644"
+				,"bizesNm" : "GS25양청원마트점"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G204"
+				,"indsMclsNm" : "종합 소매"
+				,"indsSclsCd" : "G20405"
+				,"indsSclsNm" : "편의점"
+				,"ksicCd" : "G47121"
+				,"ksicNm" : "슈퍼마켓"
+				,"ctprvnCd" : "43"
+				,"ctprvnNm" : "충청북도"
+				,"signguCd" : "43114"
+				,"signguNm" : "청주시 청원구"
+				,"adongCd" : "43114253"
+				,"adongNm" : "오창읍"
+				,"ldongCd" : "4311425345"
+				,"ldongNm" : "오창읍"
+				,"lnoCd" : "4311425345107540001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 754
+				,"lnoSlno" : 1
+				,"lnoAdr" : "충청북도 청주시 청원구 오창읍 양청리 754-1"
+				,"rdnmCd" : "431144520436"
+				,"rdnm" : "충청북도 청주시 청원구 오창읍 양청길"
+				,"bldMnno" : 6
+				,"bldSlno" : ""
+				,"bldMngNo" : "4371025345007540001004778"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청북도 청주시 청원구 오창읍 양청길 6"
+				,"oldZipcd" : "363883"
+				,"newZipcd" : "28115"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.423470756784
+				,"lat" : 36.717354843787
+				}
+				,{
+				"bizesId" : "MA0106202511A2283965"
+				,"bizesNm" : "오창우육면&딤섬"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I202"
+				,"indsMclsNm" : "중식"
+				,"indsSclsCd" : "I20201"
+				,"indsSclsNm" : "중국집"
+				,"ksicCd" : "I56121"
+				,"ksicNm" : "중식 음식점업"
+				,"ctprvnCd" : "43"
+				,"ctprvnNm" : "충청북도"
+				,"signguCd" : "43114"
+				,"signguNm" : "청주시 청원구"
+				,"adongCd" : "43114253"
+				,"adongNm" : "오창읍"
+				,"ldongCd" : "4311425345"
+				,"ldongNm" : "오창읍"
+				,"lnoCd" : "4311425345108180001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 818
+				,"lnoSlno" : 1
+				,"lnoAdr" : "충청북도 청주시 청원구 오창읍 양청리 818-1"
+				,"rdnmCd" : "431143240077"
+				,"rdnm" : "충청북도 청주시 청원구 오창읍 중심상업로"
+				,"bldMnno" : 30
+				,"bldSlno" : ""
+				,"bldMngNo" : "4371025345008180001004815"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청북도 청주시 청원구 오창읍 중심상업로 30"
+				,"oldZipcd" : "363883"
+				,"newZipcd" : "28119"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.430141890948
+				,"lat" : 36.7133479811861
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 22,
+		"totalCount" : 2105	}
+}

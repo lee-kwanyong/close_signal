@@ -1,0 +1,262 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA010120220809754891"
+				,"bizesNm" : "빨간집"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55104"
+				,"ksicNm" : "민박업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46130"
+				,"signguNm" : "여수시"
+				,"adongCd" : "46130360"
+				,"adongNm" : "삼산면"
+				,"ldongCd" : "4613036026"
+				,"ldongNm" : "삼산면"
+				,"lnoCd" : "4613036026214810000"
+				,"plotSctCd" : "2"
+				,"plotSctNm" : "산"
+				,"lnoMnno" : 1481
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 여수시 삼산면 손죽리 산 1481"
+				,"rdnmCd" : "461304646564"
+				,"rdnm" : "전라남도 여수시 삼산면 손죽새터길"
+				,"bldMnno" : 6
+				,"bldSlno" : 8
+				,"bldMngNo" : "4613036026214810000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 여수시 삼산면 손죽새터길 6-8"
+				,"oldZipcd" : "556854"
+				,"newZipcd" : "59788"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.359436886273
+				,"lat" : 34.2856895009805
+				}
+				,{
+				"bizesId" : "MA010120220812463606"
+				,"bizesNm" : "섬빛효소연구소"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G205"
+				,"indsMclsNm" : "식료품 소매"
+				,"indsSclsCd" : "G20508"
+				,"indsSclsNm" : "건강보조식품 소매업"
+				,"ksicCd" : "G47217"
+				,"ksicNm" : "건강 보조식품 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46130"
+				,"signguNm" : "여수시"
+				,"adongCd" : "46130360"
+				,"adongNm" : "삼산면"
+				,"ldongCd" : "4613036026"
+				,"ldongNm" : "삼산면"
+				,"lnoCd" : "4613036026214730000"
+				,"plotSctCd" : "2"
+				,"plotSctNm" : "산"
+				,"lnoMnno" : 1473
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 여수시 삼산면 손죽리 산 1473"
+				,"rdnmCd" : "461304646564"
+				,"rdnm" : "전라남도 여수시 삼산면 손죽새터길"
+				,"bldMnno" : 12
+				,"bldSlno" : ""
+				,"bldMngNo" : "4613036026214730000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 여수시 삼산면 손죽새터길 12"
+				,"oldZipcd" : "556854"
+				,"newZipcd" : "59788"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.359662999662
+				,"lat" : 34.2852290813108
+				}
+				,{
+				"bizesId" : "MA010120220807915065"
+				,"bizesNm" : "손죽민박"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55104"
+				,"ksicNm" : "민박업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46130"
+				,"signguNm" : "여수시"
+				,"adongCd" : "46130360"
+				,"adongNm" : "삼산면"
+				,"ldongCd" : "4613036026"
+				,"ldongNm" : "삼산면"
+				,"lnoCd" : "4613036026214840000"
+				,"plotSctCd" : "2"
+				,"plotSctNm" : "산"
+				,"lnoMnno" : 1484
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 여수시 삼산면 손죽리 산 1484"
+				,"rdnmCd" : "461304646563"
+				,"rdnm" : "전라남도 여수시 삼산면 손죽길"
+				,"bldMnno" : 67
+				,"bldSlno" : 2
+				,"bldMngNo" : "4613036026214840000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 여수시 삼산면 손죽길 67-2"
+				,"oldZipcd" : "556854"
+				,"newZipcd" : "59788"
+				,"dongNo" : ""
+				,"flrNo" : "1"
+				,"hoNo" : ""
+				,"lon" : 127.359697693652
+				,"lat" : 34.2857247949786
+				}
+				,{
+				"bizesId" : "MA010120220803436960"
+				,"bizesNm" : "섬섬민박"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55104"
+				,"ksicNm" : "민박업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46130"
+				,"signguNm" : "여수시"
+				,"adongCd" : "46130360"
+				,"adongNm" : "삼산면"
+				,"ldongCd" : "4613036026"
+				,"ldongNm" : "삼산면"
+				,"lnoCd" : "4613036026211710000"
+				,"plotSctCd" : "2"
+				,"plotSctNm" : "산"
+				,"lnoMnno" : 1171
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 여수시 삼산면 손죽리 산 1171"
+				,"rdnmCd" : "461304646741"
+				,"rdnm" : "전라남도 여수시 삼산면 우데미길"
+				,"bldMnno" : 19
+				,"bldSlno" : ""
+				,"bldMngNo" : "4613036026211710000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 여수시 삼산면 우데미길 19"
+				,"oldZipcd" : "556854"
+				,"newZipcd" : "59788"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.361083297768
+				,"lat" : 34.2846569701495
+				}
+				,{
+				"bizesId" : "MA010120220812008535"
+				,"bizesNm" : "손대점빵"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G204"
+				,"indsMclsNm" : "종합 소매"
+				,"indsSclsCd" : "G20404"
+				,"indsSclsNm" : "슈퍼마켓"
+				,"ksicCd" : "G47129"
+				,"ksicNm" : "기타 음ㆍ식료품 위주 종합 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46130"
+				,"signguNm" : "여수시"
+				,"adongCd" : "46130360"
+				,"adongNm" : "삼산면"
+				,"ldongCd" : "4613036026"
+				,"ldongNm" : "삼산면"
+				,"lnoCd" : "4613036026207610000"
+				,"plotSctCd" : "2"
+				,"plotSctNm" : "산"
+				,"lnoMnno" : 761
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 여수시 삼산면 손죽리 산 761"
+				,"rdnmCd" : "461304646859"
+				,"rdnm" : "전라남도 여수시 삼산면 중천샘길"
+				,"bldMnno" : 9
+				,"bldSlno" : ""
+				,"bldMngNo" : "4613036026207610000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 여수시 삼산면 중천샘길 9"
+				,"oldZipcd" : "556854"
+				,"newZipcd" : "59788"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.361153550732
+				,"lat" : 34.2858467202988
+				}
+				,{
+				"bizesId" : "MA010120220802781710"
+				,"bizesNm" : "부두민박"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55104"
+				,"ksicNm" : "민박업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46130"
+				,"signguNm" : "여수시"
+				,"adongCd" : "46130360"
+				,"adongNm" : "삼산면"
+				,"ldongCd" : "4613036026"
+				,"ldongNm" : "삼산면"
+				,"lnoCd" : "4613036026206390000"
+				,"plotSctCd" : "2"
+				,"plotSctNm" : "산"
+				,"lnoMnno" : 639
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 여수시 삼산면 손죽리 산 639"
+				,"rdnmCd" : "461304646563"
+				,"rdnm" : "전라남도 여수시 삼산면 손죽길"
+				,"bldMnno" : 11
+				,"bldSlno" : 2
+				,"bldMngNo" : "4613036026206390000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 여수시 삼산면 손죽길 11-2"
+				,"oldZipcd" : "556854"
+				,"newZipcd" : "59788"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.362073538764
+				,"lat" : 34.2901711202618
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 1,
+		"totalCount" : 6	}
+}

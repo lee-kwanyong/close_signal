@@ -1,0 +1,98 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA010120220808718933"
+				,"bizesNm" : "지에스25영흥발전본부점"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G204"
+				,"indsMclsNm" : "종합 소매"
+				,"indsSclsCd" : "G20405"
+				,"indsSclsNm" : "편의점"
+				,"ksicCd" : "G47122"
+				,"ksicNm" : "체인화 편의점"
+				,"ctprvnCd" : "28"
+				,"ctprvnNm" : "인천광역시"
+				,"signguCd" : "28720"
+				,"signguNm" : "옹진군"
+				,"adongCd" : "28720360"
+				,"adongNm" : "영흥면"
+				,"ldongCd" : "2872036021"
+				,"ldongNm" : "영흥면"
+				,"lnoCd" : "2872036021113440000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 1344
+				,"lnoSlno" : ""
+				,"lnoAdr" : "인천광역시 옹진군 영흥면 외리 1344"
+				,"rdnmCd" : "287204274155"
+				,"rdnm" : "인천광역시 옹진군 영흥면 영흥남로293번길"
+				,"bldMnno" : 75
+				,"bldSlno" : ""
+				,"bldMngNo" : "2872036021201680000010445"
+				,"bldNm" : ""
+				,"rdnmAdr" : "인천광역시 옹진군 영흥면 영흥남로293번길 75"
+				,"oldZipcd" : "409871"
+				,"newZipcd" : "23120"
+				,"dongNo" : ""
+				,"flrNo" : "2"
+				,"hoNo" : ""
+				,"lon" : 126.4410329362
+				,"lat" : 37.2399861193252
+				}
+				,{
+				"bizesId" : "MA010120220809335119"
+				,"bizesNm" : "숲속펜션"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55109"
+				,"ksicNm" : "기타 일반 및 생활 숙박시설 운영업"
+				,"ctprvnCd" : "28"
+				,"ctprvnNm" : "인천광역시"
+				,"signguCd" : "28720"
+				,"signguNm" : "옹진군"
+				,"adongCd" : "28720360"
+				,"adongNm" : "영흥면"
+				,"ldongCd" : "2872036021"
+				,"ldongNm" : "영흥면"
+				,"lnoCd" : "2872036021109910002"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 991
+				,"lnoSlno" : 2
+				,"lnoAdr" : "인천광역시 옹진군 영흥면 외리 991-2"
+				,"rdnmCd" : "287204274156"
+				,"rdnm" : "인천광역시 옹진군 영흥면 영흥남로321번길"
+				,"bldMnno" : 47
+				,"bldSlno" : 128
+				,"bldMngNo" : "2872036021109910002011666"
+				,"bldNm" : ""
+				,"rdnmAdr" : "인천광역시 옹진군 영흥면 영흥남로321번길 47-128"
+				,"oldZipcd" : "409871"
+				,"newZipcd" : "23121"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.447269698025
+				,"lat" : 37.2455387332149
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 1,
+		"totalCount" : 2	}
+}

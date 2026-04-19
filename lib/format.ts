@@ -23,6 +23,19 @@ export function formatFixed(value: number, digits = 1) {
   return value.toFixed(digits);
 }
 
-export function formatPercent(value: number, digits = 1) {
-  return `${value.toFixed(digits)}%`;
+export function formatPercent(value: number | null | undefined, digits = 1) {
+  const numeric = Number(value ?? 0);
+  if (!Number.isFinite(numeric)) return `${(0).toFixed(digits)}%`;
+  return `${numeric.toFixed(digits)}%`;
+}
+
+export function formatCurrency(value: number | null | undefined, currency = "KRW") {
+  const numeric = Number(value ?? 0);
+  if (!Number.isFinite(numeric)) return "-";
+
+  return new Intl.NumberFormat("ko-KR", {
+    style: "currency",
+    currency,
+    maximumFractionDigits: 0,
+  }).format(numeric);
 }

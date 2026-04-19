@@ -1,0 +1,262 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA0106202507A2143053"
+				,"bizesNm" : "마니커식당"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "41"
+				,"ctprvnNm" : "경기도"
+				,"signguCd" : "41550"
+				,"signguNm" : "안성시"
+				,"adongCd" : "41550330"
+				,"adongNm" : "서운면"
+				,"ldongCd" : "4155033021"
+				,"ldongNm" : "서운면"
+				,"lnoCd" : "4155033021100930000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 93
+				,"lnoSlno" : ""
+				,"lnoAdr" : "경기도 안성시 서운면 인리 93"
+				,"rdnmCd" : "415504424390"
+				,"rdnm" : "경기도 안성시 서운면 서운중앙길"
+				,"bldMnno" : 11
+				,"bldSlno" : ""
+				,"bldMngNo" : "4155033021100930000012565"
+				,"bldNm" : ""
+				,"rdnmAdr" : "경기도 안성시 서운면 서운중앙길 11"
+				,"oldZipcd" : "456853"
+				,"newZipcd" : "17607"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.25894497323
+				,"lat" : 36.9441300736881
+				}
+				,{
+				"bizesId" : "MA0106202509A0170734"
+				,"bizesNm" : "율이네포도농원"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G205"
+				,"indsMclsNm" : "식료품 소매"
+				,"indsSclsCd" : "G20502"
+				,"indsSclsNm" : "가축 사료 소매업"
+				,"ksicCd" : "G47211"
+				,"ksicNm" : "곡물, 곡분 및 가축 사료 소매업"
+				,"ctprvnCd" : "41"
+				,"ctprvnNm" : "경기도"
+				,"signguCd" : "41550"
+				,"signguNm" : "안성시"
+				,"adongCd" : "41550330"
+				,"adongNm" : "서운면"
+				,"ldongCd" : "4155033024"
+				,"ldongNm" : "서운면"
+				,"lnoCd" : "4155033024100120003"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 12
+				,"lnoSlno" : 3
+				,"lnoAdr" : "경기도 안성시 서운면 신촌리 12-3"
+				,"rdnmCd" : "415504424390"
+				,"rdnm" : "경기도 안성시 서운면 서운중앙길"
+				,"bldMnno" : 31
+				,"bldSlno" : ""
+				,"bldMngNo" : "4155033024100120003004873"
+				,"bldNm" : ""
+				,"rdnmAdr" : "경기도 안성시 서운면 서운중앙길 31"
+				,"oldZipcd" : "456852"
+				,"newZipcd" : "17607"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.259230778395
+				,"lat" : 36.9423362841823
+				}
+				,{
+				"bizesId" : "MA0101202503A0042841"
+				,"bizesNm" : "모카무스"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G209"
+				,"indsMclsNm" : "섬유·의복·신발 소매"
+				,"indsSclsCd" : "G20905"
+				,"indsSclsNm" : "기타 의류 소매업"
+				,"ksicCd" : "G47414"
+				,"ksicNm" : "셔츠 및 블라우스 소매업"
+				,"ctprvnCd" : "41"
+				,"ctprvnNm" : "경기도"
+				,"signguCd" : "41550"
+				,"signguNm" : "안성시"
+				,"adongCd" : "41550330"
+				,"adongNm" : "서운면"
+				,"ldongCd" : "4155033025"
+				,"ldongNm" : "서운면"
+				,"lnoCd" : "4155033025101780001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 178
+				,"lnoSlno" : 1
+				,"lnoAdr" : "경기도 안성시 서운면 산평리 178-1"
+				,"rdnmCd" : "415503208030"
+				,"rdnm" : "경기도 안성시 서운면 서운로"
+				,"bldMnno" : 54
+				,"bldSlno" : 13
+				,"bldMngNo" : "4155033025101770000042084"
+				,"bldNm" : ""
+				,"rdnmAdr" : "경기도 안성시 서운면 서운로 54-13"
+				,"oldZipcd" : "456852"
+				,"newZipcd" : "17609"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.262206680051
+				,"lat" : 36.9196943644908
+				}
+				,{
+				"bizesId" : "MA0101202503A0026915"
+				,"bizesNm" : "서까래집"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10102"
+				,"indsSclsNm" : "여관/모텔"
+				,"ksicCd" : "I55102"
+				,"ksicNm" : "여관업"
+				,"ctprvnCd" : "41"
+				,"ctprvnNm" : "경기도"
+				,"signguCd" : "41550"
+				,"signguNm" : "안성시"
+				,"adongCd" : "41550330"
+				,"adongNm" : "서운면"
+				,"ldongCd" : "4155033021"
+				,"ldongNm" : "서운면"
+				,"lnoCd" : "4155033021100330000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 33
+				,"lnoSlno" : ""
+				,"lnoAdr" : "경기도 안성시 서운면 인리 33"
+				,"rdnmCd" : "415503208023"
+				,"rdnm" : "경기도 안성시 서운면 바우덕이로"
+				,"bldMnno" : 61
+				,"bldSlno" : 6
+				,"bldMngNo" : "4155033021100330000012747"
+				,"bldNm" : ""
+				,"rdnmAdr" : "경기도 안성시 서운면 바우덕이로 61-6"
+				,"oldZipcd" : "456853"
+				,"newZipcd" : "17607"
+				,"dongNo" : ""
+				,"flrNo" : "1"
+				,"hoNo" : ""
+				,"lon" : 127.265932401367
+				,"lat" : 36.945484287145
+				}
+				,{
+				"bizesId" : "MA0106202509A1348098"
+				,"bizesNm" : "바우덕이포도농장"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G205"
+				,"indsMclsNm" : "식료품 소매"
+				,"indsSclsCd" : "G20502"
+				,"indsSclsNm" : "가축 사료 소매업"
+				,"ksicCd" : "G47211"
+				,"ksicNm" : "곡물, 곡분 및 가축 사료 소매업"
+				,"ctprvnCd" : "41"
+				,"ctprvnNm" : "경기도"
+				,"signguCd" : "41550"
+				,"signguNm" : "안성시"
+				,"adongCd" : "41550330"
+				,"adongNm" : "서운면"
+				,"ldongCd" : "4155033021"
+				,"ldongNm" : "서운면"
+				,"lnoCd" : "4155033021102190000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 219
+				,"lnoSlno" : ""
+				,"lnoAdr" : "경기도 안성시 서운면 인리 219"
+				,"rdnmCd" : "415503208023"
+				,"rdnm" : "경기도 안성시 서운면 바우덕이로"
+				,"bldMnno" : 102
+				,"bldSlno" : ""
+				,"bldMngNo" : "4155033021102190000030707"
+				,"bldNm" : ""
+				,"rdnmAdr" : "경기도 안성시 서운면 바우덕이로 102"
+				,"oldZipcd" : "456853"
+				,"newZipcd" : "17607"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.270572451977
+				,"lat" : 36.9464830248801
+				}
+				,{
+				"bizesId" : "MA0106202507A1963777"
+				,"bizesNm" : "청용고을"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "41"
+				,"ctprvnNm" : "경기도"
+				,"signguCd" : "41550"
+				,"signguNm" : "안성시"
+				,"adongCd" : "41550330"
+				,"adongNm" : "서운면"
+				,"ldongCd" : "4155033022"
+				,"ldongNm" : "서운면"
+				,"lnoCd" : "4155033022100430002"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 43
+				,"lnoSlno" : 2
+				,"lnoAdr" : "경기도 안성시 서운면 청용리 43-2"
+				,"rdnmCd" : "415504424670"
+				,"rdnm" : "경기도 안성시 서운면 청룡길"
+				,"bldMnno" : 128
+				,"bldSlno" : 49
+				,"bldMngNo" : "4155033022100420000028331"
+				,"bldNm" : ""
+				,"rdnmAdr" : "경기도 안성시 서운면 청룡길 128-49"
+				,"oldZipcd" : "456852"
+				,"newZipcd" : "17609"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.293293719211
+				,"lat" : 36.9139087583524
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 2,
+		"totalCount" : 106	}
+}

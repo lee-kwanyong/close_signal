@@ -1,0 +1,549 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA010120220804426684"
+				,"bizesNm" : "에이치에스마트"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G218"
+				,"indsMclsNm" : "장식품 소매"
+				,"indsSclsCd" : "G21802"
+				,"indsSclsNm" : "기념품점"
+				,"ksicCd" : "G47842"
+				,"ksicNm" : "기념품, 관광 민예품 및 장식용품 소매업"
+				,"ctprvnCd" : "50"
+				,"ctprvnNm" : "제주특별자치도"
+				,"signguCd" : "50110"
+				,"signguNm" : "제주시"
+				,"adongCd" : "50110640"
+				,"adongNm" : "오라동"
+				,"ldongCd" : "5011012000"
+				,"ldongNm" : "오라이동"
+				,"lnoCd" : "5011012000138120001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 3812
+				,"lnoSlno" : 1
+				,"lnoAdr" : "제주특별자치도 제주시 오라이동 3812-1"
+				,"rdnmCd" : "501103349145"
+				,"rdnm" : "제주특별자치도 제주시 오라남로"
+				,"bldMnno" : 330
+				,"bldSlno" : 30
+				,"bldMngNo" : "5011012000200680000000001"
+				,"bldNm" : "오라이동"
+				,"rdnmAdr" : "제주특별자치도 제주시 오라남로 330-30"
+				,"oldZipcd" : "690162"
+				,"newZipcd" : "63144"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.509700381837
+				,"lat" : 33.4333352829711
+				}
+				,{
+				"bizesId" : "MA010120220811362159"
+				,"bizesNm" : "열안지하우스"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10102"
+				,"indsSclsNm" : "여관/모텔"
+				,"ksicCd" : "I55102"
+				,"ksicNm" : "여관업"
+				,"ctprvnCd" : "50"
+				,"ctprvnNm" : "제주특별자치도"
+				,"signguCd" : "50110"
+				,"signguNm" : "제주시"
+				,"adongCd" : "50110640"
+				,"adongNm" : "오라동"
+				,"ldongCd" : "5011012000"
+				,"ldongNm" : "오라이동"
+				,"lnoCd" : "5011012000103350009"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 335
+				,"lnoSlno" : 9
+				,"lnoAdr" : "제주특별자치도 제주시 오라이동 335-9"
+				,"rdnmCd" : "501103349145"
+				,"rdnm" : "제주특별자치도 제주시 오라남로"
+				,"bldMnno" : 265
+				,"bldSlno" : ""
+				,"bldMngNo" : "5011012000103350009000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "제주특별자치도 제주시 오라남로 265"
+				,"oldZipcd" : "690162"
+				,"newZipcd" : "63144"
+				,"dongNo" : ""
+				,"flrNo" : "1"
+				,"hoNo" : ""
+				,"lon" : 126.512346265155
+				,"lat" : 33.4389987513486
+				}
+				,{
+				"bizesId" : "MA0101202309A0055863"
+				,"bizesNm" : "골프존카운티오라"
+				,"brchNm" : "골프연습장"
+				,"indsLclsCd" : "R1"
+				,"indsLclsNm" : "예술·스포츠"
+				,"indsMclsCd" : "R103"
+				,"indsMclsNm" : "스포츠 서비스"
+				,"indsSclsCd" : "R10311"
+				,"indsSclsNm" : "골프 연습장"
+				,"ksicCd" : "R91136"
+				,"ksicNm" : "골프 연습장 운영업"
+				,"ctprvnCd" : "50"
+				,"ctprvnNm" : "제주특별자치도"
+				,"signguCd" : "50110"
+				,"signguNm" : "제주시"
+				,"adongCd" : "50110640"
+				,"adongNm" : "오라동"
+				,"ldongCd" : "5011012000"
+				,"ldongNm" : "오라이동"
+				,"lnoCd" : "5011012000102890003"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 289
+				,"lnoSlno" : 3
+				,"lnoAdr" : "제주특별자치도 제주시 오라이동 289-3"
+				,"rdnmCd" : "501103349145"
+				,"rdnm" : "제주특별자치도 제주시 오라남로"
+				,"bldMnno" : 130
+				,"bldSlno" : 16
+				,"bldMngNo" : "5011012000102890003011292"
+				,"bldNm" : ""
+				,"rdnmAdr" : "제주특별자치도 제주시 오라남로 130-16"
+				,"oldZipcd" : "690162"
+				,"newZipcd" : "63144"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.513187360391
+				,"lat" : 33.4482164052866
+				}
+				,{
+				"bizesId" : "MA0101202305A0092064"
+				,"bizesNm" : "최윤프로샵"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G209"
+				,"indsMclsNm" : "섬유·의복·신발 소매"
+				,"indsSclsCd" : "G20905"
+				,"indsSclsNm" : "기타 의류 소매업"
+				,"ksicCd" : "G47419"
+				,"ksicNm" : "기타 의복 소매업"
+				,"ctprvnCd" : "50"
+				,"ctprvnNm" : "제주특별자치도"
+				,"signguCd" : "50110"
+				,"signguNm" : "제주시"
+				,"adongCd" : "50110640"
+				,"adongNm" : "오라동"
+				,"ldongCd" : "5011012000"
+				,"ldongNm" : "오라이동"
+				,"lnoCd" : "5011012000102890003"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 289
+				,"lnoSlno" : 3
+				,"lnoAdr" : "제주특별자치도 제주시 오라이동 289-3"
+				,"rdnmCd" : "501103349145"
+				,"rdnm" : "제주특별자치도 제주시 오라남로"
+				,"bldMnno" : 130
+				,"bldSlno" : 16
+				,"bldMngNo" : "5011012000102890003011292"
+				,"bldNm" : "오라CC프로샵오라칸트리클럽"
+				,"rdnmAdr" : "제주특별자치도 제주시 오라남로 130-16"
+				,"oldZipcd" : "690162"
+				,"newZipcd" : "63144"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.513187360391
+				,"lat" : 33.4482164052866
+				}
+				,{
+				"bizesId" : "MA0101202406A0413381"
+				,"bizesNm" : "국민안전연구소"
+				,"brchNm" : ""
+				,"indsLclsCd" : "P1"
+				,"indsLclsNm" : "교육"
+				,"indsMclsCd" : "P105"
+				,"indsMclsNm" : "일반 교육"
+				,"indsSclsCd" : "P10501"
+				,"indsSclsNm" : "입시·교과학원"
+				,"ksicCd" : "P85501"
+				,"ksicNm" : "일반 교과학원"
+				,"ctprvnCd" : "50"
+				,"ctprvnNm" : "제주특별자치도"
+				,"signguCd" : "50110"
+				,"signguNm" : "제주시"
+				,"adongCd" : "50110640"
+				,"adongNm" : "오라동"
+				,"ldongCd" : "5011012000"
+				,"ldongNm" : "오라이동"
+				,"lnoCd" : "5011012000103350014"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 335
+				,"lnoSlno" : 14
+				,"lnoAdr" : "제주특별자치도 제주시 오라이동 335-14"
+				,"rdnmCd" : "501103349145"
+				,"rdnm" : "제주특별자치도 제주시 오라남로"
+				,"bldMnno" : 257
+				,"bldSlno" : 17
+				,"bldMngNo" : "5011012000103350014000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "제주특별자치도 제주시 오라남로 257-17"
+				,"oldZipcd" : "690162"
+				,"newZipcd" : "63144"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.514131433816
+				,"lat" : 33.4389967421303
+				}
+				,{
+				"bizesId" : "MA0101202305A0015207"
+				,"bizesNm" : "제생바이오"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G215"
+				,"indsMclsNm" : "의약·화장품 소매"
+				,"indsSclsCd" : "G21503"
+				,"indsSclsNm" : "화장품 소매업"
+				,"ksicCd" : "G47813"
+				,"ksicNm" : "화장품, 비누 및 방향제 소매업"
+				,"ctprvnCd" : "50"
+				,"ctprvnNm" : "제주특별자치도"
+				,"signguCd" : "50110"
+				,"signguNm" : "제주시"
+				,"adongCd" : "50110640"
+				,"adongNm" : "오라동"
+				,"ldongCd" : "5011012000"
+				,"ldongNm" : "오라이동"
+				,"lnoCd" : "5011012000103350014"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 335
+				,"lnoSlno" : 14
+				,"lnoAdr" : "제주특별자치도 제주시 오라이동 335-14"
+				,"rdnmCd" : "501103349145"
+				,"rdnm" : "제주특별자치도 제주시 오라남로"
+				,"bldMnno" : 257
+				,"bldSlno" : 17
+				,"bldMngNo" : "5011012000103350014000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "제주특별자치도 제주시 오라남로 257-17"
+				,"oldZipcd" : "690162"
+				,"newZipcd" : "63144"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.514131433816
+				,"lat" : 33.4389967421303
+				}
+				,{
+				"bizesId" : "MA0101202311A0041010"
+				,"bizesNm" : "국민안전교육연구원"
+				,"brchNm" : ""
+				,"indsLclsCd" : "P1"
+				,"indsLclsNm" : "교육"
+				,"indsMclsCd" : "P106"
+				,"indsMclsNm" : "기타 교육"
+				,"indsSclsCd" : "P10629"
+				,"indsSclsNm" : "그 외 기타 교육기관"
+				,"ksicCd" : "P85699"
+				,"ksicNm" : "그 외 기타 분류 안된 교육기관"
+				,"ctprvnCd" : "50"
+				,"ctprvnNm" : "제주특별자치도"
+				,"signguCd" : "50110"
+				,"signguNm" : "제주시"
+				,"adongCd" : "50110640"
+				,"adongNm" : "오라동"
+				,"ldongCd" : "5011012000"
+				,"ldongNm" : "오라이동"
+				,"lnoCd" : "5011012000103350014"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 335
+				,"lnoSlno" : 14
+				,"lnoAdr" : "제주특별자치도 제주시 오라이동 335-14"
+				,"rdnmCd" : "501103349145"
+				,"rdnm" : "제주특별자치도 제주시 오라남로"
+				,"bldMnno" : 257
+				,"bldSlno" : 17
+				,"bldMngNo" : "5011012000103350014000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "제주특별자치도 제주시 오라남로 257-17"
+				,"oldZipcd" : "690162"
+				,"newZipcd" : "63144"
+				,"dongNo" : ""
+				,"flrNo" : "1"
+				,"hoNo" : ""
+				,"lon" : 126.514131433816
+				,"lat" : 33.4389967421303
+				}
+				,{
+				"bizesId" : "MA0101202502A0100854"
+				,"bizesNm" : "로아프라퍼티"
+				,"brchNm" : ""
+				,"indsLclsCd" : "R1"
+				,"indsLclsNm" : "예술·스포츠"
+				,"indsMclsCd" : "R104"
+				,"indsMclsNm" : "유원지·오락"
+				,"indsSclsCd" : "R10499"
+				,"indsSclsNm" : "기타 오락관련 서비스업"
+				,"ksicCd" : "R91299"
+				,"ksicNm" : "그 외 기타 분류 안된 오락관련 서비스업"
+				,"ctprvnCd" : "50"
+				,"ctprvnNm" : "제주특별자치도"
+				,"signguCd" : "50110"
+				,"signguNm" : "제주시"
+				,"adongCd" : "50110630"
+				,"adongNm" : "아라동"
+				,"ldongCd" : "5011013400"
+				,"ldongNm" : "오등동"
+				,"lnoCd" : "5011013400119180000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 1918
+				,"lnoSlno" : ""
+				,"lnoAdr" : "제주특별자치도 제주시 오등동 1918"
+				,"rdnmCd" : "501104848754"
+				,"rdnm" : "제주특별자치도 제주시 죽성길"
+				,"bldMnno" : 84
+				,"bldSlno" : 47
+				,"bldMngNo" : "5011013400119180000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "제주특별자치도 제주시 죽성길 84-47"
+				,"oldZipcd" : "690150"
+				,"newZipcd" : "63242"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.534496990415
+				,"lat" : 33.449524410836
+				}
+				,{
+				"bizesId" : "MA010120220811374211"
+				,"bizesNm" : "한라산리조트"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55103"
+				,"ksicNm" : "휴양 콘도 운영업"
+				,"ctprvnCd" : "50"
+				,"ctprvnNm" : "제주특별자치도"
+				,"signguCd" : "50110"
+				,"signguNm" : "제주시"
+				,"adongCd" : "50110630"
+				,"adongNm" : "아라동"
+				,"ldongCd" : "5011013400"
+				,"ldongNm" : "오등동"
+				,"lnoCd" : "5011013400100100002"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 10
+				,"lnoSlno" : 2
+				,"lnoAdr" : "제주특별자치도 제주시 오등동 10-2"
+				,"rdnmCd" : "501104847955"
+				,"rdnm" : "제주특별자치도 제주시 선돌목동길"
+				,"bldMnno" : 56
+				,"bldSlno" : 46
+				,"bldMngNo" : "5011013400100100002000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "제주특별자치도 제주시 선돌목동길 56-46"
+				,"oldZipcd" : "690150"
+				,"newZipcd" : "63242"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.544710443311
+				,"lat" : 33.4441256797404
+				}
+				,{
+				"bizesId" : "MA010120220811312885"
+				,"bizesNm" : "한라종합상사"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G213"
+				,"indsMclsNm" : "오락용품 소매"
+				,"indsSclsCd" : "G21304"
+				,"indsSclsNm" : "운동용품 소매업"
+				,"ksicCd" : "G47631"
+				,"ksicNm" : "운동 및 경기용품 소매업"
+				,"ctprvnCd" : "50"
+				,"ctprvnNm" : "제주특별자치도"
+				,"signguCd" : "50110"
+				,"signguNm" : "제주시"
+				,"adongCd" : "50110630"
+				,"adongNm" : "아라동"
+				,"ldongCd" : "5011013400"
+				,"ldongNm" : "오등동"
+				,"lnoCd" : "5011013400100100002"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 10
+				,"lnoSlno" : 2
+				,"lnoAdr" : "제주특별자치도 제주시 오등동 10-2"
+				,"rdnmCd" : "501104847955"
+				,"rdnm" : "제주특별자치도 제주시 선돌목동길"
+				,"bldMnno" : 56
+				,"bldSlno" : 46
+				,"bldMngNo" : "5011013400100100002000001"
+				,"bldNm" : "한라산골프장내"
+				,"rdnmAdr" : "제주특별자치도 제주시 선돌목동길 56-46"
+				,"oldZipcd" : "690150"
+				,"newZipcd" : "63242"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.544710443311
+				,"lat" : 33.4441256797404
+				}
+				,{
+				"bizesId" : "MA010120220803041955"
+				,"bizesNm" : "지에스25제주난타파크점"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G204"
+				,"indsMclsNm" : "종합 소매"
+				,"indsSclsCd" : "G20405"
+				,"indsSclsNm" : "편의점"
+				,"ksicCd" : "G47122"
+				,"ksicNm" : "체인화 편의점"
+				,"ctprvnCd" : "50"
+				,"ctprvnNm" : "제주특별자치도"
+				,"signguCd" : "50110"
+				,"signguNm" : "제주시"
+				,"adongCd" : "50110630"
+				,"adongNm" : "아라동"
+				,"ldongCd" : "5011013400"
+				,"ldongNm" : "오등동"
+				,"lnoCd" : "5011013400100100001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 10
+				,"lnoSlno" : 1
+				,"lnoAdr" : "제주특별자치도 제주시 오등동 10-1"
+				,"rdnmCd" : "501104847955"
+				,"rdnm" : "제주특별자치도 제주시 선돌목동길"
+				,"bldMnno" : 56
+				,"bldSlno" : 26
+				,"bldMngNo" : "5011013400100100001000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "제주특별자치도 제주시 선돌목동길 56-26"
+				,"oldZipcd" : "690150"
+				,"newZipcd" : "63242"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.547917266061
+				,"lat" : 33.4458234065847
+				}
+				,{
+				"bizesId" : "MA0101202307A0061109"
+				,"bizesNm" : "관음사식당"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "50"
+				,"ctprvnNm" : "제주특별자치도"
+				,"signguCd" : "50110"
+				,"signguNm" : "제주시"
+				,"adongCd" : "50110630"
+				,"adongNm" : "아라동"
+				,"ldongCd" : "5011013400"
+				,"ldongNm" : "오등동"
+				,"lnoCd" : "5011013400201800004"
+				,"plotSctCd" : "2"
+				,"plotSctNm" : "산"
+				,"lnoMnno" : 180
+				,"lnoSlno" : 4
+				,"lnoAdr" : "제주특별자치도 제주시 오등동 산 180-4"
+				,"rdnmCd" : "501103349080"
+				,"rdnm" : "제주특별자치도 제주시 산록북로"
+				,"bldMnno" : 585
+				,"bldSlno" : ""
+				,"bldMngNo" : "5011013400101800004047085"
+				,"bldNm" : ""
+				,"rdnmAdr" : "제주특별자치도 제주시 산록북로 585"
+				,"oldZipcd" : "690150"
+				,"newZipcd" : "63242"
+				,"dongNo" : ""
+				,"flrNo" : "1"
+				,"hoNo" : ""
+				,"lon" : 126.549296051583
+				,"lat" : 33.4225219892212
+				}
+				,{
+				"bizesId" : "MA010120220805038967"
+				,"bizesNm" : "관음사휴게소"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G204"
+				,"indsMclsNm" : "종합 소매"
+				,"indsSclsCd" : "G20404"
+				,"indsSclsNm" : "슈퍼마켓"
+				,"ksicCd" : "G47129"
+				,"ksicNm" : "기타 음ㆍ식료품 위주 종합 소매업"
+				,"ctprvnCd" : "50"
+				,"ctprvnNm" : "제주특별자치도"
+				,"signguCd" : "50110"
+				,"signguNm" : "제주시"
+				,"adongCd" : "50110630"
+				,"adongNm" : "아라동"
+				,"ldongCd" : "5011013400"
+				,"ldongNm" : "오등동"
+				,"lnoCd" : "5011013400201800004"
+				,"plotSctCd" : "2"
+				,"plotSctNm" : "산"
+				,"lnoMnno" : 180
+				,"lnoSlno" : 4
+				,"lnoAdr" : "제주특별자치도 제주시 오등동 산 180-4"
+				,"rdnmCd" : "501103349080"
+				,"rdnm" : "제주특별자치도 제주시 산록북로"
+				,"bldMnno" : 585
+				,"bldSlno" : ""
+				,"bldMngNo" : "5011013400101800004047085"
+				,"bldNm" : ""
+				,"rdnmAdr" : "제주특별자치도 제주시 산록북로 585"
+				,"oldZipcd" : "690150"
+				,"newZipcd" : "63242"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.549296051583
+				,"lat" : 33.4225219892212
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 1,
+		"totalCount" : 13	}
+}

@@ -1,0 +1,303 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA010120220801668467"
+				,"bizesNm" : "인양주유소"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G214"
+				,"indsMclsNm" : "연료 소매"
+				,"indsSclsCd" : "G21401"
+				,"indsSclsNm" : "주유소"
+				,"ksicCd" : "G47711"
+				,"ksicNm" : "운송장비용 주유소 운영업"
+				,"ctprvnCd" : "50"
+				,"ctprvnNm" : "제주특별자치도"
+				,"signguCd" : "50110"
+				,"signguNm" : "제주시"
+				,"adongCd" : "50110320"
+				,"adongNm" : "추자면"
+				,"ldongCd" : "5011032022"
+				,"ldongNm" : "추자면"
+				,"lnoCd" : "5011032022100400000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 40
+				,"lnoSlno" : ""
+				,"lnoAdr" : "제주특별자치도 제주시 추자면 영흥리 40"
+				,"rdnmCd" : "501104848302"
+				,"rdnm" : "제주특별자치도 제주시 추자면 영흥4길"
+				,"bldMnno" : 1
+				,"bldSlno" : ""
+				,"bldMngNo" : "5011032022000400000046032"
+				,"bldNm" : ""
+				,"rdnmAdr" : "제주특별자치도 제주시 추자면 영흥4길 1"
+				,"oldZipcd" : "695951"
+				,"newZipcd" : "63000"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.300252057151
+				,"lat" : 33.9573029342393
+				}
+				,{
+				"bizesId" : "MA010120220811305799"
+				,"bizesNm" : "추자정비센터"
+				,"brchNm" : ""
+				,"indsLclsCd" : "S2"
+				,"indsLclsNm" : "수리·개인"
+				,"indsMclsCd" : "S203"
+				,"indsMclsNm" : "자동차 수리·세차"
+				,"indsSclsCd" : "S20301"
+				,"indsSclsNm" : "자동차 정비소"
+				,"ksicCd" : "S95212"
+				,"ksicNm" : "자동차 전문 수리업"
+				,"ctprvnCd" : "50"
+				,"ctprvnNm" : "제주특별자치도"
+				,"signguCd" : "50110"
+				,"signguNm" : "제주시"
+				,"adongCd" : "50110320"
+				,"adongNm" : "추자면"
+				,"ldongCd" : "5011032022"
+				,"ldongNm" : "추자면"
+				,"lnoCd" : "5011032022100310013"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 31
+				,"lnoSlno" : 13
+				,"lnoAdr" : "제주특별자치도 제주시 추자면 영흥리 31-13"
+				,"rdnmCd" : "501103349195"
+				,"rdnm" : "제주특별자치도 제주시 추자면 추자로"
+				,"bldMnno" : 158
+				,"bldSlno" : ""
+				,"bldMngNo" : "5011032022000310012045999"
+				,"bldNm" : ""
+				,"rdnmAdr" : "제주특별자치도 제주시 추자면 추자로 158"
+				,"oldZipcd" : "695951"
+				,"newZipcd" : "63000"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.30130589099
+				,"lat" : 33.9580842210579
+				}
+				,{
+				"bizesId" : "MA0101202505A0030319"
+				,"bizesNm" : "용구수산"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G205"
+				,"indsMclsNm" : "식료품 소매"
+				,"indsSclsCd" : "G20504"
+				,"indsSclsNm" : "건어물/젓갈 소매업"
+				,"ksicCd" : "G47213"
+				,"ksicNm" : "건어물 및 젓갈류 소매업"
+				,"ctprvnCd" : "50"
+				,"ctprvnNm" : "제주특별자치도"
+				,"signguCd" : "50110"
+				,"signguNm" : "제주시"
+				,"adongCd" : "50110320"
+				,"adongNm" : "추자면"
+				,"ldongCd" : "5011032023"
+				,"ldongNm" : "추자면"
+				,"lnoCd" : "5011032023105770000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 577
+				,"lnoSlno" : ""
+				,"lnoAdr" : "제주특별자치도 제주시 추자면 묵리 577"
+				,"rdnmCd" : "501103349195"
+				,"rdnm" : "제주특별자치도 제주시 추자면 추자로"
+				,"bldMnno" : 266
+				,"bldSlno" : ""
+				,"bldMngNo" : "5011032023005770000045459"
+				,"bldNm" : ""
+				,"rdnmAdr" : "제주특별자치도 제주시 추자면 추자로 266"
+				,"oldZipcd" : "695952"
+				,"newZipcd" : "63001"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.305554193985
+				,"lat" : 33.9505175245227
+				}
+				,{
+				"bizesId" : "MA0106202511A0157356"
+				,"bizesNm" : "추자도예초리수산"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G205"
+				,"indsMclsNm" : "식료품 소매"
+				,"indsSclsCd" : "G20502"
+				,"indsSclsNm" : "가축 사료 소매업"
+				,"ksicCd" : "G47211"
+				,"ksicNm" : "곡물, 곡분 및 가축 사료 소매업"
+				,"ctprvnCd" : "50"
+				,"ctprvnNm" : "제주특별자치도"
+				,"signguCd" : "50110"
+				,"signguNm" : "제주시"
+				,"adongCd" : "50110320"
+				,"adongNm" : "추자면"
+				,"ldongCd" : "5011032024"
+				,"ldongNm" : "추자면"
+				,"lnoCd" : "5011032024103080001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 308
+				,"lnoSlno" : 1
+				,"lnoAdr" : "제주특별자치도 제주시 추자면 예초리 308-1"
+				,"rdnmCd" : "501103349195"
+				,"rdnm" : "제주특별자치도 제주시 추자면 추자로"
+				,"bldMnno" : 734
+				,"bldSlno" : ""
+				,"bldMngNo" : "5011032024103080001000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "제주특별자치도 제주시 추자면 추자로 734"
+				,"oldZipcd" : "695952"
+				,"newZipcd" : "63001"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.33205115538
+				,"lat" : 33.9541169523579
+				}
+				,{
+				"bizesId" : "MA010120220807917648"
+				,"bizesNm" : "지성카서비스"
+				,"brchNm" : ""
+				,"indsLclsCd" : "S2"
+				,"indsLclsNm" : "수리·개인"
+				,"indsMclsCd" : "S203"
+				,"indsMclsNm" : "자동차 수리·세차"
+				,"indsSclsCd" : "S20301"
+				,"indsSclsNm" : "자동차 정비소"
+				,"ksicCd" : "S95212"
+				,"ksicNm" : "자동차 전문 수리업"
+				,"ctprvnCd" : "50"
+				,"ctprvnNm" : "제주특별자치도"
+				,"signguCd" : "50110"
+				,"signguNm" : "제주시"
+				,"adongCd" : "50110320"
+				,"adongNm" : "추자면"
+				,"ldongCd" : "5011032024"
+				,"ldongNm" : "추자면"
+				,"lnoCd" : "5011032024102960000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 296
+				,"lnoSlno" : ""
+				,"lnoAdr" : "제주특별자치도 제주시 추자면 예초리 296"
+				,"rdnmCd" : "501103349195"
+				,"rdnm" : "제주특별자치도 제주시 추자면 추자로"
+				,"bldMnno" : 734
+				,"bldSlno" : 1
+				,"bldMngNo" : "5011032024102960000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "제주특별자치도 제주시 추자면 추자로 734-1"
+				,"oldZipcd" : "695952"
+				,"newZipcd" : "63001"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.332255917881
+				,"lat" : 33.9542172299163
+				}
+				,{
+				"bizesId" : "MA010120220811312601"
+				,"bizesNm" : "바닷가의만남"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20107"
+				,"indsSclsNm" : "돼지고기 구이/찜"
+				,"ksicCd" : "I56113"
+				,"ksicNm" : "한식 육류 요리 전문점"
+				,"ctprvnCd" : "50"
+				,"ctprvnNm" : "제주특별자치도"
+				,"signguCd" : "50110"
+				,"signguNm" : "제주시"
+				,"adongCd" : "50110320"
+				,"adongNm" : "추자면"
+				,"ldongCd" : "5011032024"
+				,"ldongNm" : "추자면"
+				,"lnoCd" : "5011032024102000001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 200
+				,"lnoSlno" : 1
+				,"lnoAdr" : "제주특별자치도 제주시 추자면 예초리 200-1"
+				,"rdnmCd" : "501103349195"
+				,"rdnm" : "제주특별자치도 제주시 추자면 추자로"
+				,"bldMnno" : 753
+				,"bldSlno" : ""
+				,"bldMngNo" : "5011032024102000001000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "제주특별자치도 제주시 추자면 추자로 753"
+				,"oldZipcd" : "695952"
+				,"newZipcd" : "63001"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.332276752117
+				,"lat" : 33.9557048421341
+				}
+				,{
+				"bizesId" : "MA010120220803711555"
+				,"bizesNm" : "해진마트"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G204"
+				,"indsMclsNm" : "종합 소매"
+				,"indsSclsCd" : "G20404"
+				,"indsSclsNm" : "슈퍼마켓"
+				,"ksicCd" : "G47129"
+				,"ksicNm" : "기타 음ㆍ식료품 위주 종합 소매업"
+				,"ctprvnCd" : "50"
+				,"ctprvnNm" : "제주특별자치도"
+				,"signguCd" : "50110"
+				,"signguNm" : "제주시"
+				,"adongCd" : "50110320"
+				,"adongNm" : "추자면"
+				,"ldongCd" : "5011032024"
+				,"ldongNm" : "추자면"
+				,"lnoCd" : "5011032024102000001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 200
+				,"lnoSlno" : 1
+				,"lnoAdr" : "제주특별자치도 제주시 추자면 예초리 200-1"
+				,"rdnmCd" : "501103349195"
+				,"rdnm" : "제주특별자치도 제주시 추자면 추자로"
+				,"bldMnno" : 753
+				,"bldSlno" : ""
+				,"bldMngNo" : "5011032024102000001000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "제주특별자치도 제주시 추자면 추자로 753"
+				,"oldZipcd" : "695952"
+				,"newZipcd" : "63001"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.332276752117
+				,"lat" : 33.9557048421341
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 1,
+		"totalCount" : 7	}
+}

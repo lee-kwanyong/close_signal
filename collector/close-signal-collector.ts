@@ -30,7 +30,16 @@ const SOURCE_DATA_URL =
 const SOURCE_FORMAT = (process.env.CLOSE_SIGNAL_SOURCE_FORMAT || "json").toLowerCase();
 
 const SERVICE_KEY = process.env.CLOSE_SIGNAL_SERVICE_KEY || "";
-const DATE_KEY = process.env.CLOSE_SIGNAL_DATE_KEY || "";
+function getTodayDateKeyKst(): string {
+  const now = new Date();
+  const kst = new Date(now.getTime() + 9 * 60 * 60 * 1000);
+  const yyyy = kst.getUTCFullYear();
+  const mm = String(kst.getUTCMonth() + 1).padStart(2, "0");
+  const dd = String(kst.getUTCDate()).padStart(2, "0");
+  return `${yyyy}${mm}${dd}`;
+}
+
+const DATE_KEY = process.env.CLOSE_SIGNAL_DATE_KEY || getTodayDateKeyKst();
 const START_PAGE_NO = Number(process.env.CLOSE_SIGNAL_PAGE_NO || "1");
 const NUM_OF_ROWS = Number(process.env.CLOSE_SIGNAL_NUM_OF_ROWS || "1000");
 

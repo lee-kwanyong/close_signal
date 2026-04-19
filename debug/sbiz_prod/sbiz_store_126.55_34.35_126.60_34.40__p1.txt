@@ -1,0 +1,385 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA0101202411A0182826"
+				,"bizesNm" : "웰니스해남법인"
+				,"brchNm" : ""
+				,"indsLclsCd" : "R1"
+				,"indsLclsNm" : "예술·스포츠"
+				,"indsMclsCd" : "R104"
+				,"indsMclsNm" : "유원지·오락"
+				,"indsSclsCd" : "R10499"
+				,"indsSclsNm" : "기타 오락관련 서비스업"
+				,"ksicCd" : "R91299"
+				,"ksicNm" : "그 외 기타 분류 안된 오락관련 서비스업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46820"
+				,"signguNm" : "해남군"
+				,"adongCd" : "46820340"
+				,"adongNm" : "송지면"
+				,"ldongCd" : "4682034032"
+				,"ldongNm" : "송지면"
+				,"lnoCd" : "4682034032100630001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 63
+				,"lnoSlno" : 1
+				,"lnoAdr" : "전라남도 해남군 송지면 마봉리 63-1"
+				,"rdnmCd" : "468204682155"
+				,"rdnm" : "전라남도 해남군 송지면 마봉송종길"
+				,"bldMnno" : 279
+				,"bldSlno" : 126
+				,"bldMngNo" : "4682034032100630001000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 해남군 송지면 마봉송종길 279-126"
+				,"oldZipcd" : "536922"
+				,"newZipcd" : "59064"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.557123048804
+				,"lat" : 34.3513862411877
+				}
+				,{
+				"bizesId" : "MA010120220805847808"
+				,"bizesNm" : "달마고도민박"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55104"
+				,"ksicNm" : "민박업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46820"
+				,"signguNm" : "해남군"
+				,"adongCd" : "46820340"
+				,"adongNm" : "송지면"
+				,"ldongCd" : "4682034034"
+				,"ldongNm" : "송지면"
+				,"lnoCd" : "4682034034105640000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 564
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 해남군 송지면 서정리 564"
+				,"rdnmCd" : "468204682279"
+				,"rdnm" : "전라남도 해남군 송지면 서안길"
+				,"bldMnno" : 4
+				,"bldSlno" : ""
+				,"bldMngNo" : "4682034034105640000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 해남군 송지면 서안길 4"
+				,"oldZipcd" : "536922"
+				,"newZipcd" : "59067"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.559164181236
+				,"lat" : 34.3871007225728
+				}
+				,{
+				"bizesId" : "MA0101202502A0012545"
+				,"bizesNm" : "아트공방"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G218"
+				,"indsMclsNm" : "장식품 소매"
+				,"indsSclsCd" : "G21801"
+				,"indsSclsNm" : "예술품 소매업"
+				,"ksicCd" : "G47841"
+				,"ksicNm" : "예술품 및 골동품 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46820"
+				,"signguNm" : "해남군"
+				,"adongCd" : "46820340"
+				,"adongNm" : "송지면"
+				,"ldongCd" : "4682034034"
+				,"ldongNm" : "송지면"
+				,"lnoCd" : "4682034034102810001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 281
+				,"lnoSlno" : 1
+				,"lnoAdr" : "전라남도 해남군 송지면 서정리 281-1"
+				,"rdnmCd" : "468204682574"
+				,"rdnm" : "전라남도 해남군 송지면 치소길"
+				,"bldMnno" : 50
+				,"bldSlno" : ""
+				,"bldMngNo" : "4682034034102810001000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 해남군 송지면 치소길 50"
+				,"oldZipcd" : "536922"
+				,"newZipcd" : "59067"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.559171620075
+				,"lat" : 34.3939789200444
+				}
+				,{
+				"bizesId" : "MA010120220808044512"
+				,"bizesNm" : "이지잇푸드"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G205"
+				,"indsMclsNm" : "식료품 소매"
+				,"indsSclsCd" : "G20509"
+				,"indsSclsNm" : "반찬/식료품 소매업"
+				,"ksicCd" : "G47219"
+				,"ksicNm" : "기타 식료품 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46820"
+				,"signguNm" : "해남군"
+				,"adongCd" : "46820340"
+				,"adongNm" : "송지면"
+				,"ldongCd" : "4682034034"
+				,"ldongNm" : "송지면"
+				,"lnoCd" : "4682034034100500000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 50
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 해남군 송지면 서정리 50"
+				,"rdnmCd" : "468204682187"
+				,"rdnm" : "전라남도 해남군 송지면 미황사길"
+				,"bldMnno" : 30
+				,"bldSlno" : 26
+				,"bldMngNo" : "4682034034108640000000002"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 해남군 송지면 미황사길 30-26"
+				,"oldZipcd" : "536922"
+				,"newZipcd" : "59067"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.560425946408
+				,"lat" : 34.3849417462314
+				}
+				,{
+				"bizesId" : "MA010120220807808766"
+				,"bizesNm" : "호수산장"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46820"
+				,"signguNm" : "해남군"
+				,"adongCd" : "46820340"
+				,"adongNm" : "송지면"
+				,"ldongCd" : "4682034034"
+				,"ldongNm" : "송지면"
+				,"lnoCd" : "4682034034100030001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 3
+				,"lnoSlno" : 1
+				,"lnoAdr" : "전라남도 해남군 송지면 서정리 3-1"
+				,"rdnmCd" : "468204682187"
+				,"rdnm" : "전라남도 해남군 송지면 미황사길"
+				,"bldMnno" : 78
+				,"bldSlno" : 15
+				,"bldMngNo" : "4682034034100030001000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 해남군 송지면 미황사길 78-15"
+				,"oldZipcd" : "536922"
+				,"newZipcd" : "59067"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.566750236101
+				,"lat" : 34.3836211173412
+				}
+				,{
+				"bizesId" : "MA010120220811893617"
+				,"bizesNm" : "조아사료"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G205"
+				,"indsMclsNm" : "식료품 소매"
+				,"indsSclsCd" : "G20502"
+				,"indsSclsNm" : "가축 사료 소매업"
+				,"ksicCd" : "G47211"
+				,"ksicNm" : "곡물, 곡분 및 가축 사료 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46820"
+				,"signguNm" : "해남군"
+				,"adongCd" : "46820340"
+				,"adongNm" : "송지면"
+				,"ldongCd" : "4682034034"
+				,"ldongNm" : "송지면"
+				,"lnoCd" : "4682034034101580002"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 158
+				,"lnoSlno" : 2
+				,"lnoAdr" : "전라남도 해남군 송지면 서정리 158-2"
+				,"rdnmCd" : "468203294004"
+				,"rdnm" : "전라남도 해남군 송지면 달마로"
+				,"bldMnno" : 586
+				,"bldSlno" : 45
+				,"bldMngNo" : "4682034034101580001000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 해남군 송지면 달마로 586-45"
+				,"oldZipcd" : "536922"
+				,"newZipcd" : "59067"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.567528543827
+				,"lat" : 34.390853618863
+				}
+				,{
+				"bizesId" : "MA0101202502A0081685"
+				,"bizesNm" : "더맵"
+				,"brchNm" : ""
+				,"indsLclsCd" : "M1"
+				,"indsLclsNm" : "과학·기술"
+				,"indsMclsCd" : "M109"
+				,"indsMclsNm" : "기술 서비스"
+				,"indsSclsCd" : "M10999"
+				,"indsSclsNm" : "기타 엔지니어링 서비스업"
+				,"ksicCd" : "M72129"
+				,"ksicNm" : "기타 엔지니어링 서비스업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46820"
+				,"signguNm" : "해남군"
+				,"adongCd" : "46820350"
+				,"adongNm" : "북평면"
+				,"ldongCd" : "4682035024"
+				,"ldongNm" : "북평면"
+				,"lnoCd" : "4682035024106990000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 699
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 해남군 북평면 평암리 699"
+				,"rdnmCd" : "468204682591"
+				,"rdnm" : "전라남도 해남군 북평면 평암길"
+				,"bldMnno" : 17
+				,"bldSlno" : 9
+				,"bldMngNo" : "4682035024106990000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 해남군 북평면 평암길 17-9"
+				,"oldZipcd" : "536931"
+				,"newZipcd" : "59057"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.589495725846
+				,"lat" : 34.3571783346398
+				}
+				,{
+				"bizesId" : "MA010120220804900292"
+				,"bizesNm" : "땅끝애민박"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55109"
+				,"ksicNm" : "기타 일반 및 생활 숙박시설 운영업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46820"
+				,"signguNm" : "해남군"
+				,"adongCd" : "46820350"
+				,"adongNm" : "북평면"
+				,"ldongCd" : "4682035023"
+				,"ldongNm" : "북평면"
+				,"lnoCd" : "4682035023112160006"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 1216
+				,"lnoSlno" : 6
+				,"lnoAdr" : "전라남도 해남군 북평면 서홍리 1216-6"
+				,"rdnmCd" : "468203294005"
+				,"rdnm" : "전라남도 해남군 북평면 땅끝해안로"
+				,"bldMnno" : 3727
+				,"bldSlno" : 35
+				,"bldMngNo" : "4682035023200130002000002"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 해남군 북평면 땅끝해안로 3727-35"
+				,"oldZipcd" : "536931"
+				,"newZipcd" : "59056"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.596433807658
+				,"lat" : 34.3792062596716
+				}
+				,{
+				"bizesId" : "MA0101202504A0090174"
+				,"bizesNm" : "은주네절임배추"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G205"
+				,"indsMclsNm" : "식료품 소매"
+				,"indsSclsCd" : "G20506"
+				,"indsSclsNm" : "채소/과일 소매업"
+				,"ksicCd" : "G47215"
+				,"ksicNm" : "채소, 과실 및 뿌리작물 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46820"
+				,"signguNm" : "해남군"
+				,"adongCd" : "46820350"
+				,"adongNm" : "북평면"
+				,"ldongCd" : "4682035023"
+				,"ldongNm" : "북평면"
+				,"lnoCd" : "4682035023116050000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 1605
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 해남군 북평면 서홍리 1605"
+				,"rdnmCd" : "468204682589"
+				,"rdnm" : "전라남도 해남군 북평면 평등길"
+				,"bldMnno" : 41
+				,"bldSlno" : ""
+				,"bldMngNo" : "4682035023116050000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 해남군 북평면 평등길 41"
+				,"oldZipcd" : "536931"
+				,"newZipcd" : "59056"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.599518910199
+				,"lat" : 34.3729331632667
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 1,
+		"totalCount" : 9	}
+}

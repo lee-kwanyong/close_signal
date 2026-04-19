@@ -1,0 +1,385 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA010120220807867111"
+				,"bizesNm" : "물레방아"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G204"
+				,"indsMclsNm" : "종합 소매"
+				,"indsSclsCd" : "G20404"
+				,"indsSclsNm" : "슈퍼마켓"
+				,"ksicCd" : "G47129"
+				,"ksicNm" : "기타 음ㆍ식료품 위주 종합 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46150"
+				,"signguNm" : "순천시"
+				,"adongCd" : "46150380"
+				,"adongNm" : "낙안면"
+				,"ldongCd" : "4615038036"
+				,"ldongNm" : "낙안면"
+				,"lnoCd" : "4615038036101750004"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 175
+				,"lnoSlno" : 4
+				,"lnoAdr" : "전라남도 순천시 낙안면 금산리 175-4"
+				,"rdnmCd" : "461504670386"
+				,"rdnm" : "전라남도 순천시 낙안면 조정래길"
+				,"bldMnno" : 1457
+				,"bldSlno" : ""
+				,"bldMngNo" : "4615038036101750005000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 순천시 낙안면 조정래길 1457"
+				,"oldZipcd" : "540913"
+				,"newZipcd" : "57916"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.352942599291
+				,"lat" : 34.9452518591555
+				}
+				,{
+				"bizesId" : "MA010120220807513899"
+				,"bizesNm" : "가고파초롱네"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55104"
+				,"ksicNm" : "민박업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46150"
+				,"signguNm" : "순천시"
+				,"adongCd" : "46150380"
+				,"adongNm" : "낙안면"
+				,"ldongCd" : "4615038036"
+				,"ldongNm" : "낙안면"
+				,"lnoCd" : "4615038036103970001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 397
+				,"lnoSlno" : 1
+				,"lnoAdr" : "전라남도 순천시 낙안면 금산리 397-1"
+				,"rdnmCd" : "461504650195"
+				,"rdnm" : "전라남도 순천시 낙안면 금산3길"
+				,"bldMnno" : 22
+				,"bldSlno" : 5
+				,"bldMngNo" : "4615038036103970001000002"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 순천시 낙안면 금산3길 22-5"
+				,"oldZipcd" : "540913"
+				,"newZipcd" : "57916"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.353228980046
+				,"lat" : 34.9380038816656
+				}
+				,{
+				"bizesId" : "MA010120220809603482"
+				,"bizesNm" : "실크로드민박"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55104"
+				,"ksicNm" : "민박업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46150"
+				,"signguNm" : "순천시"
+				,"adongCd" : "46150380"
+				,"adongNm" : "낙안면"
+				,"ldongCd" : "4615038036"
+				,"ldongNm" : "낙안면"
+				,"lnoCd" : "4615038036101630000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 163
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 순천시 낙안면 금산리 163"
+				,"rdnmCd" : "461504649115"
+				,"rdnm" : "전라남도 순천시 낙안면 금산신전길"
+				,"bldMnno" : 60
+				,"bldSlno" : ""
+				,"bldMngNo" : "4615038036101630000010410"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 순천시 낙안면 금산신전길 60"
+				,"oldZipcd" : "540913"
+				,"newZipcd" : "57916"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.35341315722
+				,"lat" : 34.9477653565827
+				}
+				,{
+				"bizesId" : "MA010120220807865287"
+				,"bizesNm" : "해오름집"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10102"
+				,"indsSclsNm" : "여관/모텔"
+				,"ksicCd" : "I55102"
+				,"ksicNm" : "여관업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46150"
+				,"signguNm" : "순천시"
+				,"adongCd" : "46150380"
+				,"adongNm" : "낙안면"
+				,"ldongCd" : "4615038036"
+				,"ldongNm" : "낙안면"
+				,"lnoCd" : "4615038036103970005"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 397
+				,"lnoSlno" : 5
+				,"lnoAdr" : "전라남도 순천시 낙안면 금산리 397-5"
+				,"rdnmCd" : "461504650195"
+				,"rdnm" : "전라남도 순천시 낙안면 금산3길"
+				,"bldMnno" : 22
+				,"bldSlno" : 1
+				,"bldMngNo" : "4615038036103970001000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 순천시 낙안면 금산3길 22-1"
+				,"oldZipcd" : "540913"
+				,"newZipcd" : "57916"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.353403185897
+				,"lat" : 34.9377870422224
+				}
+				,{
+				"bizesId" : "MA010120220807899806"
+				,"bizesNm" : "순천꽃마차마을"
+				,"brchNm" : ""
+				,"indsLclsCd" : "R1"
+				,"indsLclsNm" : "예술·스포츠"
+				,"indsMclsCd" : "R104"
+				,"indsMclsNm" : "유원지·오락"
+				,"indsSclsCd" : "R10499"
+				,"indsSclsNm" : "기타 오락관련 서비스업"
+				,"ksicCd" : "R91299"
+				,"ksicNm" : "그 외 기타 분류 안된 오락관련 서비스업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46150"
+				,"signguNm" : "순천시"
+				,"adongCd" : "46150380"
+				,"adongNm" : "낙안면"
+				,"ldongCd" : "4615038036"
+				,"ldongNm" : "낙안면"
+				,"lnoCd" : "4615038036103750001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 375
+				,"lnoSlno" : 1
+				,"lnoAdr" : "전라남도 순천시 낙안면 금산리 375-1"
+				,"rdnmCd" : "461504650196"
+				,"rdnm" : "전라남도 순천시 낙안면 금산길"
+				,"bldMnno" : 64
+				,"bldSlno" : ""
+				,"bldMngNo" : "4615038036103750001000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 순천시 낙안면 금산길 64"
+				,"oldZipcd" : "540913"
+				,"newZipcd" : "57916"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.354449051053
+				,"lat" : 34.9391811446937
+				}
+				,{
+				"bizesId" : "MA0101202305A0194917"
+				,"bizesNm" : "성광이엔지"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G211"
+				,"indsMclsNm" : "가구 소매"
+				,"indsSclsCd" : "G21101"
+				,"indsSclsNm" : "가구 소매업"
+				,"ksicCd" : "G47520"
+				,"ksicNm" : "가구 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46150"
+				,"signguNm" : "순천시"
+				,"adongCd" : "46150380"
+				,"adongNm" : "낙안면"
+				,"ldongCd" : "4615038036"
+				,"ldongNm" : "낙안면"
+				,"lnoCd" : "4615038036103530001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 353
+				,"lnoSlno" : 1
+				,"lnoAdr" : "전라남도 순천시 낙안면 금산리 353-1"
+				,"rdnmCd" : "461504649114"
+				,"rdnm" : "전라남도 순천시 낙안면 금산2길"
+				,"bldMnno" : 31
+				,"bldSlno" : ""
+				,"bldMngNo" : "4615038036103530001022969"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 순천시 낙안면 금산2길 31"
+				,"oldZipcd" : "540913"
+				,"newZipcd" : "57916"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.355525650784
+				,"lat" : 34.9400793853154
+				}
+				,{
+				"bizesId" : "MA010120220804885321"
+				,"bizesNm" : "법인요술모자정원"
+				,"brchNm" : ""
+				,"indsLclsCd" : "R1"
+				,"indsLclsNm" : "예술·스포츠"
+				,"indsMclsCd" : "R104"
+				,"indsMclsNm" : "유원지·오락"
+				,"indsSclsCd" : "R10499"
+				,"indsSclsNm" : "기타 오락관련 서비스업"
+				,"ksicCd" : "R91299"
+				,"ksicNm" : "그 외 기타 분류 안된 오락관련 서비스업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46150"
+				,"signguNm" : "순천시"
+				,"adongCd" : "46150380"
+				,"adongNm" : "낙안면"
+				,"ldongCd" : "4615038035"
+				,"ldongNm" : "낙안면"
+				,"lnoCd" : "4615038035107580000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 758
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 순천시 낙안면 창녕리 758"
+				,"rdnmCd" : "461504649006"
+				,"rdnm" : "전라남도 순천시 낙안면 가금길"
+				,"bldMnno" : 16
+				,"bldSlno" : ""
+				,"bldMngNo" : "4615038035107580001028181"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 순천시 낙안면 가금길 16"
+				,"oldZipcd" : "540911"
+				,"newZipcd" : "57917"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.379328741435
+				,"lat" : 34.9199605476218
+				}
+				,{
+				"bizesId" : "MA010120220813854878"
+				,"bizesNm" : "포레스트152"
+				,"brchNm" : ""
+				,"indsLclsCd" : "R1"
+				,"indsLclsNm" : "예술·스포츠"
+				,"indsMclsCd" : "R104"
+				,"indsMclsNm" : "유원지·오락"
+				,"indsSclsCd" : "R10499"
+				,"indsSclsNm" : "기타 오락관련 서비스업"
+				,"ksicCd" : "R91299"
+				,"ksicNm" : "그 외 기타 분류 안된 오락관련 서비스업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46150"
+				,"signguNm" : "순천시"
+				,"adongCd" : "46150400"
+				,"adongNm" : "상사면"
+				,"ldongCd" : "4615040027"
+				,"ldongNm" : "상사면"
+				,"lnoCd" : "4615040027201550005"
+				,"plotSctCd" : "2"
+				,"plotSctNm" : "산"
+				,"lnoMnno" : 155
+				,"lnoSlno" : 5
+				,"lnoAdr" : "전라남도 순천시 상사면 초곡리 산 155-5"
+				,"rdnmCd" : "461504650046"
+				,"rdnm" : "전라남도 순천시 상사면 초곡기동길"
+				,"bldMnno" : 230
+				,"bldSlno" : 40
+				,"bldMngNo" : "4615040027201550005000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 순천시 상사면 초곡기동길 230-40"
+				,"oldZipcd" : "540863"
+				,"newZipcd" : "57919"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.396767809412
+				,"lat" : 34.9007232947604
+				}
+				,{
+				"bizesId" : "MA010120220806347707"
+				,"bizesNm" : "법인포레스트152"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G205"
+				,"indsMclsNm" : "식료품 소매"
+				,"indsSclsCd" : "G20506"
+				,"indsSclsNm" : "채소/과일 소매업"
+				,"ksicCd" : "G47215"
+				,"ksicNm" : "채소, 과실 및 뿌리작물 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46150"
+				,"signguNm" : "순천시"
+				,"adongCd" : "46150400"
+				,"adongNm" : "상사면"
+				,"ldongCd" : "4615040027"
+				,"ldongNm" : "상사면"
+				,"lnoCd" : "4615040027110080003"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 1008
+				,"lnoSlno" : 3
+				,"lnoAdr" : "전라남도 순천시 상사면 초곡리 1008-3"
+				,"rdnmCd" : "461504650046"
+				,"rdnm" : "전라남도 순천시 상사면 초곡기동길"
+				,"bldMnno" : 230
+				,"bldSlno" : 3
+				,"bldMngNo" : "4615040027110080003000002"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 순천시 상사면 초곡기동길 230-3"
+				,"oldZipcd" : "540863"
+				,"newZipcd" : "57919"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.398693531274
+				,"lat" : 34.9007440350882
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 1,
+		"totalCount" : 9	}
+}

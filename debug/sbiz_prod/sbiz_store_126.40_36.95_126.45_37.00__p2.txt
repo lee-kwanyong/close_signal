@@ -1,0 +1,303 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA0106202507A1325692"
+				,"bizesNm" : "365푸드도시락배달"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44210"
+				,"signguNm" : "서산시"
+				,"adongCd" : "44210250"
+				,"adongNm" : "대산읍"
+				,"ldongCd" : "4421025027"
+				,"ldongNm" : "대산읍"
+				,"lnoCd" : "4421025027109150000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 915
+				,"lnoSlno" : ""
+				,"lnoAdr" : "충청남도 서산시 대산읍 대죽리 915"
+				,"rdnmCd" : "442103254151"
+				,"rdnm" : "충청남도 서산시 대산읍 죽엽로"
+				,"bldMnno" : 148
+				,"bldSlno" : ""
+				,"bldMngNo" : "4421025027109150000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청남도 서산시 대산읍 죽엽로 148"
+				,"oldZipcd" : "356874"
+				,"newZipcd" : "31905"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.402771271085
+				,"lat" : 36.9793051214504
+				}
+				,{
+				"bizesId" : "MA0101202504A0056918"
+				,"bizesNm" : "대박식당"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44210"
+				,"signguNm" : "서산시"
+				,"adongCd" : "44210250"
+				,"adongNm" : "대산읍"
+				,"ldongCd" : "4421025022"
+				,"ldongNm" : "대산읍"
+				,"lnoCd" : "4421025022103130001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 313
+				,"lnoSlno" : 1
+				,"lnoAdr" : "충청남도 서산시 대산읍 대로리 313-1"
+				,"rdnmCd" : "442103254045"
+				,"rdnm" : "충청남도 서산시 대산읍 명지1로"
+				,"bldMnno" : 27
+				,"bldSlno" : ""
+				,"bldMngNo" : "4421025022103130001002686"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청남도 서산시 대산읍 명지1로 27"
+				,"oldZipcd" : "356872"
+				,"newZipcd" : "31907"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.409971758601
+				,"lat" : 36.9689607649723
+				}
+				,{
+				"bizesId" : "MA0106202304A1994709"
+				,"bizesNm" : "씨유현대오일뱅크복지관점"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44210"
+				,"signguNm" : "서산시"
+				,"adongCd" : "44210250"
+				,"adongNm" : "대산읍"
+				,"ldongCd" : "4421025028"
+				,"ldongNm" : "대산읍"
+				,"lnoCd" : "4421025028109870001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 987
+				,"lnoSlno" : 1
+				,"lnoAdr" : "충청남도 서산시 대산읍 화곡리 987-1"
+				,"rdnmCd" : "442103254163"
+				,"rdnm" : "충청남도 서산시 대산읍 평신2로"
+				,"bldMnno" : 26
+				,"bldSlno" : ""
+				,"bldMngNo" : "4421025028109800112000704"
+				,"bldNm" : "현대오일뱅크사원아파트"
+				,"rdnmAdr" : "충청남도 서산시 대산읍 평신2로 26"
+				,"oldZipcd" : "356872"
+				,"newZipcd" : "31904"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.414818905916
+				,"lat" : 36.9929622843162
+				}
+				,{
+				"bizesId" : "MA0106202304A1994813"
+				,"bizesNm" : "현대그린푸드오일뱅크"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I207"
+				,"indsMclsNm" : "구내식당·뷔페"
+				,"indsSclsCd" : "I20701"
+				,"indsSclsNm" : "구내식당"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44210"
+				,"signguNm" : "서산시"
+				,"adongCd" : "44210250"
+				,"adongNm" : "대산읍"
+				,"ldongCd" : "4421025028"
+				,"ldongNm" : "대산읍"
+				,"lnoCd" : "4421025028109870001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 987
+				,"lnoSlno" : 1
+				,"lnoAdr" : "충청남도 서산시 대산읍 화곡리 987-1"
+				,"rdnmCd" : "442103254163"
+				,"rdnm" : "충청남도 서산시 대산읍 평신2로"
+				,"bldMnno" : 26
+				,"bldSlno" : ""
+				,"bldMngNo" : "4421025028109800112000704"
+				,"bldNm" : "현대오일뱅크사원아파트"
+				,"rdnmAdr" : "충청남도 서산시 대산읍 평신2로 26"
+				,"oldZipcd" : "356872"
+				,"newZipcd" : "31904"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.414818905916
+				,"lat" : 36.9929622843162
+				}
+				,{
+				"bizesId" : "MA0106202509A1006294"
+				,"bizesNm" : "전주한식뷔페"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I207"
+				,"indsMclsNm" : "구내식당·뷔페"
+				,"indsSclsCd" : "I20702"
+				,"indsSclsNm" : "뷔페"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44210"
+				,"signguNm" : "서산시"
+				,"adongCd" : "44210250"
+				,"adongNm" : "대산읍"
+				,"ldongCd" : "4421025028"
+				,"ldongNm" : "대산읍"
+				,"lnoCd" : "4421025028104240004"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 424
+				,"lnoSlno" : 4
+				,"lnoAdr" : "충청남도 서산시 대산읍 화곡리 424-4"
+				,"rdnmCd" : "442103251049"
+				,"rdnm" : "충청남도 서산시 대산읍 충의로"
+				,"bldMnno" : 2591
+				,"bldSlno" : ""
+				,"bldMngNo" : "4421025028104240004004038"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청남도 서산시 대산읍 충의로 2591"
+				,"oldZipcd" : "356872"
+				,"newZipcd" : "31904"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.424153552669
+				,"lat" : 36.9885206007949
+				}
+				,{
+				"bizesId" : "MA0101202503A0071368"
+				,"bizesNm" : "세븐일레븐서산롯데케미칼점"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G204"
+				,"indsMclsNm" : "종합 소매"
+				,"indsSclsCd" : "G20405"
+				,"indsSclsNm" : "편의점"
+				,"ksicCd" : "G47122"
+				,"ksicNm" : "체인화 편의점"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44210"
+				,"signguNm" : "서산시"
+				,"adongCd" : "44210250"
+				,"adongNm" : "대산읍"
+				,"ldongCd" : "4421025022"
+				,"ldongNm" : "대산읍"
+				,"lnoCd" : "4421025022100890091"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 89
+				,"lnoSlno" : 91
+				,"lnoAdr" : "충청남도 서산시 대산읍 대로리 89-91"
+				,"rdnmCd" : "442103254056"
+				,"rdnm" : "충청남도 서산시 대산읍 물안1로"
+				,"bldMnno" : 123
+				,"bldSlno" : ""
+				,"bldMngNo" : "4421025022100890020002700"
+				,"bldNm" : "롯데대산유화사택"
+				,"rdnmAdr" : "충청남도 서산시 대산읍 물안1로 123"
+				,"oldZipcd" : "356767"
+				,"newZipcd" : "31907"
+				,"dongNo" : ""
+				,"flrNo" : "1"
+				,"hoNo" : ""
+				,"lon" : 126.424993928495
+				,"lat" : 36.9678991123239
+				}
+				,{
+				"bizesId" : "MA0101202504A0020884"
+				,"bizesNm" : "나라유통"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G205"
+				,"indsMclsNm" : "식료품 소매"
+				,"indsSclsCd" : "G20506"
+				,"indsSclsNm" : "채소/과일 소매업"
+				,"ksicCd" : "G47215"
+				,"ksicNm" : "채소, 과실 및 뿌리작물 소매업"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44210"
+				,"signguNm" : "서산시"
+				,"adongCd" : "44210250"
+				,"adongNm" : "대산읍"
+				,"ldongCd" : "4421025022"
+				,"ldongNm" : "대산읍"
+				,"lnoCd" : "4421025022100890091"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 89
+				,"lnoSlno" : 91
+				,"lnoAdr" : "충청남도 서산시 대산읍 대로리 89-91"
+				,"rdnmCd" : "442103254056"
+				,"rdnm" : "충청남도 서산시 대산읍 물안1로"
+				,"bldMnno" : 123
+				,"bldSlno" : ""
+				,"bldMngNo" : "4421025022100890020002700"
+				,"bldNm" : "롯데대산유화사택"
+				,"rdnmAdr" : "충청남도 서산시 대산읍 물안1로 123"
+				,"oldZipcd" : "356767"
+				,"newZipcd" : "31907"
+				,"dongNo" : ""
+				,"flrNo" : "1"
+				,"hoNo" : ""
+				,"lon" : 126.424993928495
+				,"lat" : 36.9678991123239
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 2,
+		"totalCount" : 107	}
+}

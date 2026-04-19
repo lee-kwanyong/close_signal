@@ -11,7 +11,7 @@ export default function FilterBar({
 }: FilterBarProps) {
   return (
     <div
-      className={`rounded-2xl border border-slate-200 bg-white p-4 sm:p-5 ${className}`}
+      className={`rounded-[1.5rem] border border-[#d7ece4] bg-white p-4 sm:p-5 shadow-[0_10px_24px_rgba(31,122,99,0.04)] ${className}`}
     >
       <div className="grid gap-3">{children}</div>
     </div>

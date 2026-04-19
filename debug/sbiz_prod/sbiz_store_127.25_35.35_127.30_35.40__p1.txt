@@ -1,0 +1,344 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA010120220807426928"
+				,"bizesNm" : "경국지색"
+				,"brchNm" : ""
+				,"indsLclsCd" : "M1"
+				,"indsLclsNm" : "과학·기술"
+				,"indsMclsCd" : "M105"
+				,"indsMclsNm" : "광고"
+				,"indsSclsCd" : "M10501"
+				,"indsSclsNm" : "광고 대행업"
+				,"ksicCd" : "M71310"
+				,"ksicNm" : "광고 대행업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52190"
+				,"signguNm" : "남원시"
+				,"adongCd" : "52190350"
+				,"adongNm" : "금지면"
+				,"ldongCd" : "5219035023"
+				,"ldongNm" : "금지면"
+				,"lnoCd" : "5219035023110990001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 1099
+				,"lnoSlno" : 1
+				,"lnoAdr" : "전북특별자치도 남원시 금지면 서매리 1099-1"
+				,"rdnmCd" : "521904613079"
+				,"rdnm" : "전북특별자치도 남원시 금지면 금지순환길"
+				,"bldMnno" : 633
+				,"bldSlno" : 65
+				,"bldMngNo" : "4519035023110990001045013"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 남원시 금지면 금지순환길 633-65"
+				,"oldZipcd" : "590952"
+				,"newZipcd" : "55785"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.271710768169
+				,"lat" : 35.3629061986255
+				}
+				,{
+				"bizesId" : "MA010120220812068728"
+				,"bizesNm" : "뜰향"
+				,"brchNm" : ""
+				,"indsLclsCd" : "P1"
+				,"indsLclsNm" : "교육"
+				,"indsMclsCd" : "P106"
+				,"indsMclsNm" : "기타 교육"
+				,"indsSclsCd" : "P10625"
+				,"indsSclsNm" : "기타 기술/직업 훈련학원"
+				,"ksicCd" : "P85669"
+				,"ksicNm" : "기타 기술 및 직업 훈련학원"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52190"
+				,"signguNm" : "남원시"
+				,"adongCd" : "52190350"
+				,"adongNm" : "금지면"
+				,"ldongCd" : "5219035023"
+				,"ldongNm" : "금지면"
+				,"lnoCd" : "5219035023110440000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 1044
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전북특별자치도 남원시 금지면 서매리 1044"
+				,"rdnmCd" : "521904613333"
+				,"rdnm" : "전북특별자치도 남원시 금지면 서재새뜸길"
+				,"bldMnno" : 16
+				,"bldSlno" : ""
+				,"bldMngNo" : "4519035023110440000016644"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 남원시 금지면 서재새뜸길 16"
+				,"oldZipcd" : "590952"
+				,"newZipcd" : "55785"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.275269640679
+				,"lat" : 35.3578597310779
+				}
+				,{
+				"bizesId" : "MA010120220803020717"
+				,"bizesNm" : "문덕봉"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G205"
+				,"indsMclsNm" : "식료품 소매"
+				,"indsSclsCd" : "G20502"
+				,"indsSclsNm" : "가축 사료 소매업"
+				,"ksicCd" : "G47211"
+				,"ksicNm" : "곡물, 곡분 및 가축 사료 소매업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52190"
+				,"signguNm" : "남원시"
+				,"adongCd" : "52190340"
+				,"adongNm" : "주생면"
+				,"ldongCd" : "5219034028"
+				,"ldongNm" : "주생면"
+				,"lnoCd" : "5219034028106550001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 655
+				,"lnoSlno" : 1
+				,"lnoAdr" : "전북특별자치도 남원시 주생면 내동리 655-1"
+				,"rdnmCd" : "521904613583"
+				,"rdnm" : "전북특별자치도 남원시 주생면 주생내동길"
+				,"bldMnno" : 61
+				,"bldSlno" : 20
+				,"bldMngNo" : "4519034028106550001018297"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 남원시 주생면 주생내동길 61-20"
+				,"oldZipcd" : "590941"
+				,"newZipcd" : "55783"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.275578215986
+				,"lat" : 35.3839073115342
+				}
+				,{
+				"bizesId" : "MA0106202509A0711779"
+				,"bizesNm" : "승리농장"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G205"
+				,"indsMclsNm" : "식료품 소매"
+				,"indsSclsCd" : "G20502"
+				,"indsSclsNm" : "가축 사료 소매업"
+				,"ksicCd" : "G47211"
+				,"ksicNm" : "곡물, 곡분 및 가축 사료 소매업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52190"
+				,"signguNm" : "남원시"
+				,"adongCd" : "52190340"
+				,"adongNm" : "주생면"
+				,"ldongCd" : "5219034028"
+				,"ldongNm" : "주생면"
+				,"lnoCd" : "5219034028106520004"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 652
+				,"lnoSlno" : 4
+				,"lnoAdr" : "전북특별자치도 남원시 주생면 내동리 652-4"
+				,"rdnmCd" : "521904613583"
+				,"rdnm" : "전북특별자치도 남원시 주생면 주생내동길"
+				,"bldMnno" : 61
+				,"bldSlno" : 26
+				,"bldMngNo" : "4519034028106520004048355"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 남원시 주생면 주생내동길 61-26"
+				,"oldZipcd" : "590941"
+				,"newZipcd" : "55783"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.27590599763
+				,"lat" : 35.3832035316876
+				}
+				,{
+				"bizesId" : "MA010120220807422846"
+				,"bizesNm" : "성원공예"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G218"
+				,"indsMclsNm" : "장식품 소매"
+				,"indsSclsCd" : "G21801"
+				,"indsSclsNm" : "예술품 소매업"
+				,"ksicCd" : "G47841"
+				,"ksicNm" : "예술품 및 골동품 소매업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52190"
+				,"signguNm" : "남원시"
+				,"adongCd" : "52190340"
+				,"adongNm" : "주생면"
+				,"ldongCd" : "5219034029"
+				,"ldongNm" : "주생면"
+				,"lnoCd" : "5219034029103450000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 345
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전북특별자치도 남원시 주생면 도산리 345"
+				,"rdnmCd" : "521904613582"
+				,"rdnm" : "전북특별자치도 남원시 주생면 주생금풍길"
+				,"bldMnno" : 184
+				,"bldSlno" : ""
+				,"bldMngNo" : "4519034029103450000018606"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 남원시 주생면 주생금풍길 184"
+				,"oldZipcd" : "590941"
+				,"newZipcd" : "55783"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.28749640017
+				,"lat" : 35.3773539620533
+				}
+				,{
+				"bizesId" : "MA0101202406A0084625"
+				,"bizesNm" : "미미쌀농"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I212"
+				,"indsMclsNm" : "비알코올 "
+				,"indsSclsCd" : "I21201"
+				,"indsSclsNm" : "카페"
+				,"ksicCd" : "I56221"
+				,"ksicNm" : "커피 전문점"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52190"
+				,"signguNm" : "남원시"
+				,"adongCd" : "52190350"
+				,"adongNm" : "금지면"
+				,"ldongCd" : "5219035022"
+				,"ldongNm" : "금지면"
+				,"lnoCd" : "5219035022108720004"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 872
+				,"lnoSlno" : 4
+				,"lnoAdr" : "전북특별자치도 남원시 금지면 입암리 872-4"
+				,"rdnmCd" : "521904613019"
+				,"rdnm" : "전북특별자치도 남원시 금지면 갓바위3길"
+				,"bldMnno" : 91
+				,"bldSlno" : ""
+				,"bldMngNo" : "4519035022108720002041753"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 남원시 금지면 갓바위3길 91"
+				,"oldZipcd" : "590952"
+				,"newZipcd" : "55784"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.292210487376
+				,"lat" : 35.3570718588504
+				}
+				,{
+				"bizesId" : "MA0101202505A0089921"
+				,"bizesNm" : "화동치킨"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I210"
+				,"indsMclsNm" : "기타 간이"
+				,"indsSclsCd" : "I21006"
+				,"indsSclsNm" : "치킨"
+				,"ksicCd" : "I56193"
+				,"ksicNm" : "치킨 전문점"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52190"
+				,"signguNm" : "남원시"
+				,"adongCd" : "52190350"
+				,"adongNm" : "금지면"
+				,"ldongCd" : "5219035022"
+				,"ldongNm" : "금지면"
+				,"lnoCd" : "5219035022108720004"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 872
+				,"lnoSlno" : 4
+				,"lnoAdr" : "전북특별자치도 남원시 금지면 입암리 872-4"
+				,"rdnmCd" : "521904613019"
+				,"rdnm" : "전북특별자치도 남원시 금지면 갓바위3길"
+				,"bldMnno" : 91
+				,"bldSlno" : ""
+				,"bldMngNo" : "4519035022108720002041753"
+				,"bldNm" : "주"
+				,"rdnmAdr" : "전북특별자치도 남원시 금지면 갓바위3길 91"
+				,"oldZipcd" : "590952"
+				,"newZipcd" : "55784"
+				,"dongNo" : ""
+				,"flrNo" : "1"
+				,"hoNo" : ""
+				,"lon" : 127.292210487376
+				,"lat" : 35.3570718588504
+				}
+				,{
+				"bizesId" : "MA010120220807421075"
+				,"bizesNm" : "한국이벤트"
+				,"brchNm" : ""
+				,"indsLclsCd" : "N1"
+				,"indsLclsNm" : "시설관리·임대"
+				,"indsMclsCd" : "N108"
+				,"indsMclsNm" : "기타 사업 서비스"
+				,"indsSclsCd" : "N10802"
+				,"indsSclsNm" : "전시/컨벤션/행사 대행 서비스업"
+				,"ksicCd" : "N75992"
+				,"ksicNm" : "전시, 컨벤션 및 행사 대행업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52190"
+				,"signguNm" : "남원시"
+				,"adongCd" : "52190340"
+				,"adongNm" : "주생면"
+				,"ldongCd" : "5219034027"
+				,"ldongNm" : "주생면"
+				,"lnoCd" : "5219034027106430000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 643
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전북특별자치도 남원시 주생면 낙동리 643"
+				,"rdnmCd" : "521904613582"
+				,"rdnm" : "전북특별자치도 남원시 주생면 주생금풍길"
+				,"bldMnno" : 106
+				,"bldSlno" : 65
+				,"bldMngNo" : "4519034027106440003031069"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 남원시 주생면 주생금풍길 106-65"
+				,"oldZipcd" : "590941"
+				,"newZipcd" : "55783"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.294962439856
+				,"lat" : 35.3786248594746
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 1,
+		"totalCount" : 8	}
+}

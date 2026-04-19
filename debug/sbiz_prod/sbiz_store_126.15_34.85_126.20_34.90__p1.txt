@@ -1,0 +1,221 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA0101202302A0066585"
+				,"bizesNm" : "천사대교무지개식당"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20111"
+				,"indsSclsNm" : "횟집"
+				,"ksicCd" : "I56114"
+				,"ksicNm" : "한식 해산물 요리 전문점"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46910"
+				,"signguNm" : "신안군"
+				,"adongCd" : "46910420"
+				,"adongNm" : "암태면"
+				,"ldongCd" : "4691042028"
+				,"ldongNm" : "암태면"
+				,"lnoCd" : "4691042028101570000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 157
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 신안군 암태면 신석리 157"
+				,"rdnmCd" : "469103352306"
+				,"rdnm" : "전라남도 신안군 암태면 천사대교로"
+				,"bldMnno" : 922
+				,"bldSlno" : ""
+				,"bldMngNo" : "4691042028101570000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 신안군 암태면 천사대교로 922"
+				,"oldZipcd" : "535861"
+				,"newZipcd" : "58833"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.150775119319
+				,"lat" : 34.8610515370248
+				}
+				,{
+				"bizesId" : "MA010120220806037738"
+				,"bizesNm" : "신안군관광협의회암태오도지점"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G205"
+				,"indsMclsNm" : "식료품 소매"
+				,"indsSclsCd" : "G20506"
+				,"indsSclsNm" : "채소/과일 소매업"
+				,"ksicCd" : "G47215"
+				,"ksicNm" : "채소, 과실 및 뿌리작물 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46910"
+				,"signguNm" : "신안군"
+				,"adongCd" : "46910420"
+				,"adongNm" : "암태면"
+				,"ldongCd" : "4691042028"
+				,"ldongNm" : "암태면"
+				,"lnoCd" : "4691042028100010004"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 1
+				,"lnoSlno" : 4
+				,"lnoAdr" : "전라남도 신안군 암태면 신석리 1-4"
+				,"rdnmCd" : "469103302001"
+				,"rdnm" : "전라남도 신안군 암태면 박달로"
+				,"bldMnno" : 7
+				,"bldSlno" : ""
+				,"bldMngNo" : "4691042028100010008000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 신안군 암태면 박달로 7"
+				,"oldZipcd" : "535861"
+				,"newZipcd" : "58833"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.157009070159
+				,"lat" : 34.8620503650158
+				}
+				,{
+				"bizesId" : "MA010120220809770908"
+				,"bizesNm" : "꽃피오니&카페"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46910"
+				,"signguNm" : "신안군"
+				,"adongCd" : "46910420"
+				,"adongNm" : "암태면"
+				,"ldongCd" : "4691042029"
+				,"ldongNm" : "암태면"
+				,"lnoCd" : "4691042029101050000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 105
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 신안군 암태면 당사리 105"
+				,"rdnmCd" : "469104706048"
+				,"rdnm" : "전라남도 신안군 암태면 당사도길"
+				,"bldMnno" : 156
+				,"bldSlno" : 1
+				,"bldMngNo" : "4691042029101050000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 신안군 암태면 당사도길 156-1"
+				,"oldZipcd" : "535860"
+				,"newZipcd" : "58832"
+				,"dongNo" : ""
+				,"flrNo" : "1"
+				,"hoNo" : ""
+				,"lon" : 126.178134443266
+				,"lat" : 34.8831518333621
+				}
+				,{
+				"bizesId" : "MA010120220808055329"
+				,"bizesNm" : "작약꽃민박"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55104"
+				,"ksicNm" : "민박업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46910"
+				,"signguNm" : "신안군"
+				,"adongCd" : "46910420"
+				,"adongNm" : "암태면"
+				,"ldongCd" : "4691042029"
+				,"ldongNm" : "암태면"
+				,"lnoCd" : "4691042029101050000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 105
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 신안군 암태면 당사리 105"
+				,"rdnmCd" : "469104706048"
+				,"rdnm" : "전라남도 신안군 암태면 당사도길"
+				,"bldMnno" : 156
+				,"bldSlno" : 1
+				,"bldMngNo" : "4691042029101050000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 신안군 암태면 당사도길 156-1"
+				,"oldZipcd" : "535860"
+				,"newZipcd" : "58832"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.178134443266
+				,"lat" : 34.8831518333621
+				}
+				,{
+				"bizesId" : "MA010120220805932076"
+				,"bizesNm" : "당사도민박"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55104"
+				,"ksicNm" : "민박업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46910"
+				,"signguNm" : "신안군"
+				,"adongCd" : "46910420"
+				,"adongNm" : "암태면"
+				,"ldongCd" : "4691042029"
+				,"ldongNm" : "암태면"
+				,"lnoCd" : "4691042029100670002"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 67
+				,"lnoSlno" : 2
+				,"lnoAdr" : "전라남도 신안군 암태면 당사리 67-2"
+				,"rdnmCd" : "469104706048"
+				,"rdnm" : "전라남도 신안군 암태면 당사도길"
+				,"bldMnno" : 141
+				,"bldSlno" : 19
+				,"bldMngNo" : "4691042029201210000000004"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 신안군 암태면 당사도길 141-19"
+				,"oldZipcd" : "535860"
+				,"newZipcd" : "58832"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.180607005926
+				,"lat" : 34.8842050979316
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 1,
+		"totalCount" : 5	}
+}

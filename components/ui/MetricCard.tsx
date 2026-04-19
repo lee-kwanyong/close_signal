@@ -14,7 +14,7 @@ function getValueToneClass(tone: NonNullable<MetricCardProps["tone"]>) {
     case "warning":
       return "text-amber-600";
     case "success":
-      return "text-emerald-600";
+      return "text-[#1f7a63]";
     case "default":
     default:
       return "text-slate-900";
@@ -28,7 +28,7 @@ export default function MetricCard({
   tone = "default",
 }: MetricCardProps) {
   return (
-    <div className="rounded-2xl border border-slate-200 bg-white p-5">
+    <div className="rounded-[1.5rem] border border-[#d7ece4] bg-white p-5 shadow-[0_10px_24px_rgba(31,122,99,0.04)]">
       <div className="text-sm text-slate-500">{label}</div>
       <div className={`mt-2 text-3xl font-semibold ${getValueToneClass(tone)}`}>
         {value}

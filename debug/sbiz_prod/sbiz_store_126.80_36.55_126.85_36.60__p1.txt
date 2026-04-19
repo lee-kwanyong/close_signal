@@ -1,0 +1,467 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA0101202406A0113945"
+				,"bizesNm" : "휴린"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55104"
+				,"ksicNm" : "민박업"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44810"
+				,"signguNm" : "예산군"
+				,"adongCd" : "44810330"
+				,"adongNm" : "광시면"
+				,"ldongCd" : "4481033031"
+				,"ldongNm" : "광시면"
+				,"lnoCd" : "4481033031102210020"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 221
+				,"lnoSlno" : 20
+				,"lnoAdr" : "충청남도 예산군 광시면 장전리 221-20"
+				,"rdnmCd" : "448103263026"
+				,"rdnm" : "충청남도 예산군 광시면 예당남로"
+				,"bldMnno" : 62
+				,"bldSlno" : 3
+				,"bldMngNo" : ""
+				,"bldNm" : "산"
+				,"rdnmAdr" : "충청남도 예산군 광시면 예당남로 62-3"
+				,"oldZipcd" : "340852"
+				,"newZipcd" : "32455"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.80128876168
+				,"lat" : 36.586268580573
+				}
+				,{
+				"bizesId" : "MA0101202502A0105092"
+				,"bizesNm" : "린"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55104"
+				,"ksicNm" : "민박업"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44810"
+				,"signguNm" : "예산군"
+				,"adongCd" : "44810330"
+				,"adongNm" : "광시면"
+				,"ldongCd" : "4481033031"
+				,"ldongNm" : "광시면"
+				,"lnoCd" : "4481033031102220023"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 222
+				,"lnoSlno" : 23
+				,"lnoAdr" : "충청남도 예산군 광시면 장전리 222-23"
+				,"rdnmCd" : "448103263026"
+				,"rdnm" : "충청남도 예산군 광시면 예당남로"
+				,"bldMnno" : 62
+				,"bldSlno" : 5
+				,"bldMngNo" : "4481033031102220005000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청남도 예산군 광시면 예당남로 62-5"
+				,"oldZipcd" : "340852"
+				,"newZipcd" : "32455"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.801400480233
+				,"lat" : 36.5862777781975
+				}
+				,{
+				"bizesId" : "MA0101202409A0014428"
+				,"bizesNm" : "황새둥지"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55104"
+				,"ksicNm" : "민박업"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44810"
+				,"signguNm" : "예산군"
+				,"adongCd" : "44810330"
+				,"adongNm" : "광시면"
+				,"ldongCd" : "4481033031"
+				,"ldongNm" : "광시면"
+				,"lnoCd" : "4481033031102210013"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 221
+				,"lnoSlno" : 13
+				,"lnoAdr" : "충청남도 예산군 광시면 장전리 221-13"
+				,"rdnmCd" : "448103263026"
+				,"rdnm" : "충청남도 예산군 광시면 예당남로"
+				,"bldMnno" : 62
+				,"bldSlno" : 11
+				,"bldMngNo" : "4481033031102210013028888"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청남도 예산군 광시면 예당남로 62-11"
+				,"oldZipcd" : "340852"
+				,"newZipcd" : "32455"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.801658938532
+				,"lat" : 36.5857104880141
+				}
+				,{
+				"bizesId" : "MA010120220806035652"
+				,"bizesNm" : "예당정원"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55109"
+				,"ksicNm" : "기타 일반 및 생활 숙박시설 운영업"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44810"
+				,"signguNm" : "예산군"
+				,"adongCd" : "44810330"
+				,"adongNm" : "광시면"
+				,"ldongCd" : "4481033031"
+				,"ldongNm" : "광시면"
+				,"lnoCd" : "4481033031103410017"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 341
+				,"lnoSlno" : 17
+				,"lnoAdr" : "충청남도 예산군 광시면 장전리 341-17"
+				,"rdnmCd" : "448103263026"
+				,"rdnm" : "충청남도 예산군 광시면 예당남로"
+				,"bldMnno" : 133
+				,"bldSlno" : 31
+				,"bldMngNo" : "4481033031103410017034678"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청남도 예산군 광시면 예당남로 133-31"
+				,"oldZipcd" : "340852"
+				,"newZipcd" : "32455"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.803080548046
+				,"lat" : 36.5935257562212
+				}
+				,{
+				"bizesId" : "MA0101202303A0011325"
+				,"bizesNm" : "황새둥지식당"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44810"
+				,"signguNm" : "예산군"
+				,"adongCd" : "44810330"
+				,"adongNm" : "광시면"
+				,"ldongCd" : "4481033031"
+				,"ldongNm" : "광시면"
+				,"lnoCd" : "4481033031102110004"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 211
+				,"lnoSlno" : 4
+				,"lnoAdr" : "충청남도 예산군 광시면 장전리 211-4"
+				,"rdnmCd" : "448103263026"
+				,"rdnm" : "충청남도 예산군 광시면 예당남로"
+				,"bldMnno" : 118
+				,"bldSlno" : ""
+				,"bldMngNo" : "4481033031102110004034705"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청남도 예산군 광시면 예당남로 118"
+				,"oldZipcd" : "340852"
+				,"newZipcd" : "32455"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.80520258327
+				,"lat" : 36.5895822373227
+				}
+				,{
+				"bizesId" : "MA010120220804935173"
+				,"bizesNm" : "만덕해물칼국수"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20105"
+				,"indsSclsNm" : "국수/칼국수"
+				,"ksicCd" : "I56112"
+				,"ksicNm" : "한식 면 요리 전문점"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44810"
+				,"signguNm" : "예산군"
+				,"adongCd" : "44810330"
+				,"adongNm" : "광시면"
+				,"ldongCd" : "4481033031"
+				,"ldongNm" : "광시면"
+				,"lnoCd" : "4481033031102110004"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 211
+				,"lnoSlno" : 4
+				,"lnoAdr" : "충청남도 예산군 광시면 장전리 211-4"
+				,"rdnmCd" : "448103263026"
+				,"rdnm" : "충청남도 예산군 광시면 예당남로"
+				,"bldMnno" : 118
+				,"bldSlno" : ""
+				,"bldMngNo" : "4481033031102110004034705"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청남도 예산군 광시면 예당남로 118"
+				,"oldZipcd" : "340852"
+				,"newZipcd" : "32455"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.80520258327
+				,"lat" : 36.5895822373227
+				}
+				,{
+				"bizesId" : "MA010120220802526469"
+				,"bizesNm" : "정자나무낚시터"
+				,"brchNm" : ""
+				,"indsLclsCd" : "R1"
+				,"indsLclsNm" : "예술·스포츠"
+				,"indsMclsCd" : "R104"
+				,"indsMclsNm" : "유원지·오락"
+				,"indsSclsCd" : "R10408"
+				,"indsSclsNm" : "낚시터 운영업"
+				,"ksicCd" : "R91231"
+				,"ksicNm" : "낚시장 운영업"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44810"
+				,"signguNm" : "예산군"
+				,"adongCd" : "44810330"
+				,"adongNm" : "광시면"
+				,"ldongCd" : "4481033031"
+				,"ldongNm" : "광시면"
+				,"lnoCd" : "4481033031101740004"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 174
+				,"lnoSlno" : 4
+				,"lnoAdr" : "충청남도 예산군 광시면 장전리 174-4"
+				,"rdnmCd" : "448103263026"
+				,"rdnm" : "충청남도 예산군 광시면 예당남로"
+				,"bldMnno" : 171
+				,"bldSlno" : 5
+				,"bldMngNo" : "4481033031101740003034863"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청남도 예산군 광시면 예당남로 171-5"
+				,"oldZipcd" : "340852"
+				,"newZipcd" : "32455"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.808469962919
+				,"lat" : 36.5923360186086
+				}
+				,{
+				"bizesId" : "MA010120220806018302"
+				,"bizesNm" : "동심사"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G209"
+				,"indsMclsNm" : "섬유·의복·신발 소매"
+				,"indsSclsCd" : "G20905"
+				,"indsSclsNm" : "기타 의류 소매업"
+				,"ksicCd" : "G47413"
+				,"ksicNm" : "속옷 및 잠옷 소매업"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44810"
+				,"signguNm" : "예산군"
+				,"adongCd" : "44810330"
+				,"adongNm" : "광시면"
+				,"ldongCd" : "4481033033"
+				,"ldongNm" : "광시면"
+				,"lnoCd" : "4481033033106880002"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 688
+				,"lnoSlno" : 2
+				,"lnoAdr" : "충청남도 예산군 광시면 서초정리 688-2"
+				,"rdnmCd" : "448104589271"
+				,"rdnm" : "충청남도 예산군 광시면 서초정2길"
+				,"bldMnno" : 82
+				,"bldSlno" : ""
+				,"bldMngNo" : "4481033033106870000034913"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청남도 예산군 광시면 서초정2길 82"
+				,"oldZipcd" : "340852"
+				,"newZipcd" : "32455"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.818835117361
+				,"lat" : 36.5850529610721
+				}
+				,{
+				"bizesId" : "MA010120220806036133"
+				,"bizesNm" : "전통농촌문화연구소"
+				,"brchNm" : ""
+				,"indsLclsCd" : "R1"
+				,"indsLclsNm" : "예술·스포츠"
+				,"indsMclsCd" : "R104"
+				,"indsMclsNm" : "유원지·오락"
+				,"indsSclsCd" : "R10499"
+				,"indsSclsNm" : "기타 오락관련 서비스업"
+				,"ksicCd" : "R91299"
+				,"ksicNm" : "그 외 기타 분류 안된 오락관련 서비스업"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44810"
+				,"signguNm" : "예산군"
+				,"adongCd" : "44810330"
+				,"adongNm" : "광시면"
+				,"ldongCd" : "4481033034"
+				,"ldongNm" : "광시면"
+				,"lnoCd" : "4481033034101480000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 148
+				,"lnoSlno" : ""
+				,"lnoAdr" : "충청남도 예산군 광시면 신흥리 148"
+				,"rdnmCd" : "448104589482"
+				,"rdnm" : "충청남도 예산군 광시면 장신신흥길"
+				,"bldMnno" : 277
+				,"bldSlno" : ""
+				,"bldMngNo" : "4481033034101480000020624"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청남도 예산군 광시면 장신신흥길 277"
+				,"oldZipcd" : "340851"
+				,"newZipcd" : "32456"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.832610415464
+				,"lat" : 36.5654101004721
+				}
+				,{
+				"bizesId" : "MA010120220806029224"
+				,"bizesNm" : "사람과나무"
+				,"brchNm" : ""
+				,"indsLclsCd" : "N1"
+				,"indsLclsNm" : "시설관리·임대"
+				,"indsMclsCd" : "N103"
+				,"indsMclsNm" : "조경·유지"
+				,"indsSclsCd" : "N10301"
+				,"indsSclsNm" : "조경 유지·관리 서비스업"
+				,"ksicCd" : "N74300"
+				,"ksicNm" : "조경관리 및 유지 서비스업"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44810"
+				,"signguNm" : "예산군"
+				,"adongCd" : "44810330"
+				,"adongNm" : "광시면"
+				,"ldongCd" : "4481033034"
+				,"ldongNm" : "광시면"
+				,"lnoCd" : "4481033034101480003"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 148
+				,"lnoSlno" : 3
+				,"lnoAdr" : "충청남도 예산군 광시면 신흥리 148-3"
+				,"rdnmCd" : "448104589482"
+				,"rdnm" : "충청남도 예산군 광시면 장신신흥길"
+				,"bldMnno" : 277
+				,"bldSlno" : ""
+				,"bldMngNo" : "4481033034101480000020624"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청남도 예산군 광시면 장신신흥길 277"
+				,"oldZipcd" : "340851"
+				,"newZipcd" : "32456"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.832610415464
+				,"lat" : 36.5654101004721
+				}
+				,{
+				"bizesId" : "MA0101202410A0743448"
+				,"bizesNm" : "청양군시니어클럽콩나물"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G205"
+				,"indsMclsNm" : "식료품 소매"
+				,"indsSclsCd" : "G20506"
+				,"indsSclsNm" : "채소/과일 소매업"
+				,"ksicCd" : "G47215"
+				,"ksicNm" : "채소, 과실 및 뿌리작물 소매업"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44790"
+				,"signguNm" : "청양군"
+				,"adongCd" : "44790310"
+				,"adongNm" : "운곡면"
+				,"ldongCd" : "4479031027"
+				,"ldongNm" : "운곡면"
+				,"lnoCd" : "4479031027102270000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 227
+				,"lnoSlno" : ""
+				,"lnoAdr" : "충청남도 청양군 운곡면 미량리 227"
+				,"rdnmCd" : "447903261024"
+				,"rdnm" : "충청남도 청양군 운곡면 청신로"
+				,"bldMnno" : 1293
+				,"bldSlno" : 76
+				,"bldMngNo" : "4479031027102270000011938"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청남도 청양군 운곡면 청신로 1293-76"
+				,"oldZipcd" : "345871"
+				,"newZipcd" : "33313"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.847319035346
+				,"lat" : 36.5616990921228
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 1,
+		"totalCount" : 11	}
+}

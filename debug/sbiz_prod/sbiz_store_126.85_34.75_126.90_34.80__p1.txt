@@ -1,0 +1,262 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA010120220811787444"
+				,"bizesNm" : "유치환경지킴이"
+				,"brchNm" : ""
+				,"indsLclsCd" : "N1"
+				,"indsLclsNm" : "시설관리·임대"
+				,"indsMclsCd" : "N103"
+				,"indsMclsNm" : "조경·유지"
+				,"indsSclsCd" : "N10301"
+				,"indsSclsNm" : "조경 유지·관리 서비스업"
+				,"ksicCd" : "N74300"
+				,"ksicNm" : "조경관리 및 유지 서비스업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46800"
+				,"signguNm" : "장흥군"
+				,"adongCd" : "46800350"
+				,"adongNm" : "유치면"
+				,"ldongCd" : "4680035031"
+				,"ldongNm" : "유치면"
+				,"lnoCd" : "4680035031107720001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 772
+				,"lnoSlno" : 1
+				,"lnoAdr" : "전라남도 장흥군 유치면 용문리 772-1"
+				,"rdnmCd" : "468004676103"
+				,"rdnm" : "전라남도 장흥군 유치면 대삼길"
+				,"bldMnno" : 131
+				,"bldSlno" : ""
+				,"bldMngNo" : "4680035031107720001022039"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 장흥군 유치면 대삼길 131"
+				,"oldZipcd" : "529823"
+				,"newZipcd" : "59300"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.879547470872
+				,"lat" : 34.796856358839
+				}
+				,{
+				"bizesId" : "MA010120220807832234"
+				,"bizesNm" : "유치면번영회영농조합"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G204"
+				,"indsMclsNm" : "종합 소매"
+				,"indsSclsCd" : "G20404"
+				,"indsSclsNm" : "슈퍼마켓"
+				,"ksicCd" : "G47129"
+				,"ksicNm" : "기타 음ㆍ식료품 위주 종합 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46800"
+				,"signguNm" : "장흥군"
+				,"adongCd" : "46800350"
+				,"adongNm" : "유치면"
+				,"ldongCd" : "4680035026"
+				,"ldongNm" : "유치면"
+				,"lnoCd" : "4680035026101720008"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 172
+				,"lnoSlno" : 8
+				,"lnoAdr" : "전라남도 장흥군 유치면 송정리 172-8"
+				,"rdnmCd" : "468002017001"
+				,"rdnm" : "전라남도 장흥군 유치면 장흥대로"
+				,"bldMnno" : 4801
+				,"bldSlno" : ""
+				,"bldMngNo" : "4680035026200540003022057"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 장흥군 유치면 장흥대로 4801"
+				,"oldZipcd" : "529822"
+				,"newZipcd" : "59301"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.882223133291
+				,"lat" : 34.7825715648423
+				}
+				,{
+				"bizesId" : "MA010120220807817473"
+				,"bizesNm" : "심천슈퍼"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G204"
+				,"indsMclsNm" : "종합 소매"
+				,"indsSclsCd" : "G20404"
+				,"indsSclsNm" : "슈퍼마켓"
+				,"ksicCd" : "G47129"
+				,"ksicNm" : "기타 음ㆍ식료품 위주 종합 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46800"
+				,"signguNm" : "장흥군"
+				,"adongCd" : "46800360"
+				,"adongNm" : "부산면"
+				,"ldongCd" : "4680036024"
+				,"ldongNm" : "부산면"
+				,"lnoCd" : "4680036024102290000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 229
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 장흥군 부산면 지천리 229"
+				,"rdnmCd" : "468004676285"
+				,"rdnm" : "전라남도 장흥군 부산면 심천공원길"
+				,"bldMnno" : 96
+				,"bldSlno" : ""
+				,"bldMngNo" : "4680036024102310000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 장흥군 부산면 심천공원길 96"
+				,"oldZipcd" : "529812"
+				,"newZipcd" : "59302"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.895423771828
+				,"lat" : 34.7544954568415
+				}
+				,{
+				"bizesId" : "MA010120220807816307"
+				,"bizesNm" : "깊은내펜션"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55109"
+				,"ksicNm" : "기타 일반 및 생활 숙박시설 운영업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46800"
+				,"signguNm" : "장흥군"
+				,"adongCd" : "46800360"
+				,"adongNm" : "부산면"
+				,"ldongCd" : "4680036024"
+				,"ldongNm" : "부산면"
+				,"lnoCd" : "4680036024102290000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 229
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 장흥군 부산면 지천리 229"
+				,"rdnmCd" : "468004676285"
+				,"rdnm" : "전라남도 장흥군 부산면 심천공원길"
+				,"bldMnno" : 96
+				,"bldSlno" : ""
+				,"bldMngNo" : "4680036024102310000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 장흥군 부산면 심천공원길 96"
+				,"oldZipcd" : "529812"
+				,"newZipcd" : "59302"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.895423771828
+				,"lat" : 34.7544954568415
+				}
+				,{
+				"bizesId" : "MA010120220810360918"
+				,"bizesNm" : "농민농자재"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G210"
+				,"indsMclsNm" : "철물·건설자재 소매"
+				,"indsSclsCd" : "G21001"
+				,"indsSclsNm" : "철물/공구 소매업"
+				,"ksicCd" : "G47512"
+				,"ksicNm" : "공구 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46800"
+				,"signguNm" : "장흥군"
+				,"adongCd" : "46800360"
+				,"adongNm" : "부산면"
+				,"ldongCd" : "4680036024"
+				,"ldongNm" : "부산면"
+				,"lnoCd" : "4680036024102290000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 229
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 장흥군 부산면 지천리 229"
+				,"rdnmCd" : "468004676285"
+				,"rdnm" : "전라남도 장흥군 부산면 심천공원길"
+				,"bldMnno" : 96
+				,"bldSlno" : ""
+				,"bldMngNo" : "4680036024102310000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 장흥군 부산면 심천공원길 96"
+				,"oldZipcd" : "529812"
+				,"newZipcd" : "59302"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.895423771828
+				,"lat" : 34.7544954568415
+				}
+				,{
+				"bizesId" : "MA0101202502A0037203"
+				,"bizesNm" : "점안골민박"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55104"
+				,"ksicNm" : "민박업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46800"
+				,"signguNm" : "장흥군"
+				,"adongCd" : "46800360"
+				,"adongNm" : "부산면"
+				,"ldongCd" : "4680036024"
+				,"ldongNm" : "부산면"
+				,"lnoCd" : "4680036024101000000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 100
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 장흥군 부산면 지천리 100"
+				,"rdnmCd" : "468004676455"
+				,"rdnm" : "전라남도 장흥군 부산면 지천길"
+				,"bldMnno" : 18
+				,"bldSlno" : 107
+				,"bldMngNo" : "4680036024101000000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 장흥군 부산면 지천길 18-107"
+				,"oldZipcd" : "529812"
+				,"newZipcd" : "59310"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.899654772118
+				,"lat" : 34.7599976728531
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 1,
+		"totalCount" : 6	}
+}

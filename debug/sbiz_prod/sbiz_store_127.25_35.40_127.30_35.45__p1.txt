@@ -1,0 +1,221 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA0101202406A0328378"
+				,"bizesNm" : "한겨레클린시스템"
+				,"brchNm" : ""
+				,"indsLclsCd" : "N1"
+				,"indsLclsNm" : "시설관리·임대"
+				,"indsMclsCd" : "N102"
+				,"indsMclsNm" : "청소·방제"
+				,"indsSclsCd" : "N10201"
+				,"indsSclsNm" : "건축물 일반 청소업"
+				,"ksicCd" : "N74211"
+				,"ksicNm" : "건축물 일반 청소업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52190"
+				,"signguNm" : "남원시"
+				,"adongCd" : "52190360"
+				,"adongNm" : "대강면"
+				,"ldongCd" : "5219036021"
+				,"ldongNm" : "대강면"
+				,"lnoCd" : "5219036021105430001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 543
+				,"lnoSlno" : 1
+				,"lnoAdr" : "전북특별자치도 남원시 대강면 풍산리 543-1"
+				,"rdnmCd" : "521904613134"
+				,"rdnm" : "전북특별자치도 남원시 대강면 대강양촌길"
+				,"bldMnno" : 26
+				,"bldSlno" : 5
+				,"bldMngNo" : "4519036021105430001021233"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 남원시 대강면 대강양촌길 26-5"
+				,"oldZipcd" : "590963"
+				,"newZipcd" : "55787"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.258799250322
+				,"lat" : 35.419943156336
+				}
+				,{
+				"bizesId" : "MA010120220807428366"
+				,"bizesNm" : "개미상회"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G204"
+				,"indsMclsNm" : "종합 소매"
+				,"indsSclsCd" : "G20404"
+				,"indsSclsNm" : "슈퍼마켓"
+				,"ksicCd" : "G47129"
+				,"ksicNm" : "기타 음ㆍ식료품 위주 종합 소매업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52190"
+				,"signguNm" : "남원시"
+				,"adongCd" : "52190360"
+				,"adongNm" : "대강면"
+				,"ldongCd" : "5219036021"
+				,"ldongNm" : "대강면"
+				,"lnoCd" : "5219036021104900003"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 490
+				,"lnoSlno" : 3
+				,"lnoAdr" : "전북특별자치도 남원시 대강면 풍산리 490-3"
+				,"rdnmCd" : "521903271041"
+				,"rdnm" : "전북특별자치도 남원시 대강면 비홍로"
+				,"bldMnno" : 322
+				,"bldSlno" : ""
+				,"bldMngNo" : "4519036021104900003032795"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 남원시 대강면 비홍로 322"
+				,"oldZipcd" : "590963"
+				,"newZipcd" : "55787"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.262845032073
+				,"lat" : 35.418032638216
+				}
+				,{
+				"bizesId" : "MA010120220813908235"
+				,"bizesNm" : "욜로와"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I212"
+				,"indsMclsNm" : "비알코올 "
+				,"indsSclsCd" : "I21201"
+				,"indsSclsNm" : "카페"
+				,"ksicCd" : "I56221"
+				,"ksicNm" : "커피 전문점"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52190"
+				,"signguNm" : "남원시"
+				,"adongCd" : "52190360"
+				,"adongNm" : "대강면"
+				,"ldongCd" : "5219036022"
+				,"ldongNm" : "대강면"
+				,"lnoCd" : "5219036022100250004"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 25
+				,"lnoSlno" : 4
+				,"lnoAdr" : "전북특별자치도 남원시 대강면 수홍리 25-4"
+				,"rdnmCd" : "521903271041"
+				,"rdnm" : "전북특별자치도 남원시 대강면 비홍로"
+				,"bldMnno" : 399
+				,"bldSlno" : ""
+				,"bldMngNo" : "4519036022100250008018634"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 남원시 대강면 비홍로 399"
+				,"oldZipcd" : "590963"
+				,"newZipcd" : "55787"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.267023050594
+				,"lat" : 35.4128769458404
+				}
+				,{
+				"bizesId" : "MA0101202409A0099734"
+				,"bizesNm" : "청산별곡"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10104"
+				,"indsSclsNm" : "캠핑/글램핑"
+				,"ksicCd" : "I55109"
+				,"ksicNm" : "기타 일반 및 생활 숙박시설 운영업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52770"
+				,"signguNm" : "순창군"
+				,"adongCd" : "52770320"
+				,"adongNm" : "동계면"
+				,"ldongCd" : "5277032033"
+				,"ldongNm" : "동계면"
+				,"lnoCd" : "5277032033105700004"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 570
+				,"lnoSlno" : 4
+				,"lnoAdr" : "전북특별자치도 순창군 동계면 수장리 570-4"
+				,"rdnmCd" : "527704634165"
+				,"rdnm" : "전북특별자치도 순창군 동계면 수장2길"
+				,"bldMnno" : 38
+				,"bldSlno" : 4
+				,"bldMngNo" : "4577032033005700004000301"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 순창군 동계면 수장2길 38-4"
+				,"oldZipcd" : "595822"
+				,"newZipcd" : "56028"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.267814930817
+				,"lat" : 35.4359128526054
+				}
+				,{
+				"bizesId" : "MA0101202310A0074072"
+				,"bizesNm" : "엘에프에스남원상록골프장점"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52190"
+				,"signguNm" : "남원시"
+				,"adongCd" : "52190370"
+				,"adongNm" : "대산면"
+				,"ldongCd" : "5219037023"
+				,"ldongNm" : "대산면"
+				,"lnoCd" : "5219037023110590001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 1059
+				,"lnoSlno" : 1
+				,"lnoAdr" : "전북특별자치도 남원시 대산면 대곡리 1059-1"
+				,"rdnmCd" : "521904613493"
+				,"rdnm" : "전북특별자치도 남원시 대산면 월계길"
+				,"bldMnno" : 11
+				,"bldSlno" : ""
+				,"bldMngNo" : "4519037023201060000000001"
+				,"bldNm" : "상록골프장"
+				,"rdnmAdr" : "전북특별자치도 남원시 대산면 월계길 11"
+				,"oldZipcd" : "590972"
+				,"newZipcd" : "55780"
+				,"dongNo" : ""
+				,"flrNo" : "1"
+				,"hoNo" : ""
+				,"lon" : 127.297128739254
+				,"lat" : 35.4171599994666
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 1,
+		"totalCount" : 5	}
+}

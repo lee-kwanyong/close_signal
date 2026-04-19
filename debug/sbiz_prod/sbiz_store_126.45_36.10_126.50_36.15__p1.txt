@@ -1,0 +1,221 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA010120220807732066"
+				,"bizesNm" : "서천군장애인종합복지관운영꿈앤카페"
+				,"brchNm" : "2호점"
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I212"
+				,"indsMclsNm" : "비알코올 "
+				,"indsSclsCd" : "I21201"
+				,"indsSclsNm" : "카페"
+				,"ksicCd" : "I56221"
+				,"ksicNm" : "커피 전문점"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44770"
+				,"signguNm" : "서천군"
+				,"adongCd" : "44770410"
+				,"adongNm" : "서면"
+				,"ldongCd" : "4477041022"
+				,"ldongNm" : "서면"
+				,"lnoCd" : "4477041022103130002"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 313
+				,"lnoSlno" : 2
+				,"lnoAdr" : "충청남도 서천군 서면 마량리 313-2"
+				,"rdnmCd" : "447704580376"
+				,"rdnm" : "충청남도 서천군 서면 서인로235번길"
+				,"bldMnno" : 22
+				,"bldSlno" : ""
+				,"bldMngNo" : "4477041022103130002020650"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청남도 서천군 서면 서인로235번길 22"
+				,"oldZipcd" : "325894"
+				,"newZipcd" : "33604"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.496359481346
+				,"lat" : 36.1432480013062
+				}
+				,{
+				"bizesId" : "MA0106202201A0625301"
+				,"bizesNm" : "풀무원푸드앤컬처"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44770"
+				,"signguNm" : "서천군"
+				,"adongCd" : "44770410"
+				,"adongNm" : "서면"
+				,"ldongCd" : "4477041022"
+				,"ldongNm" : "서면"
+				,"lnoCd" : "4477041022103130002"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 313
+				,"lnoSlno" : 2
+				,"lnoAdr" : "충청남도 서천군 서면 마량리 313-2"
+				,"rdnmCd" : "447704580376"
+				,"rdnm" : "충청남도 서천군 서면 서인로235번길"
+				,"bldMnno" : 22
+				,"bldSlno" : ""
+				,"bldMngNo" : "4477041022103130002020650"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청남도 서천군 서면 서인로235번길 22"
+				,"oldZipcd" : "325894"
+				,"newZipcd" : "33604"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.496359481346
+				,"lat" : 36.1432480013062
+				}
+				,{
+				"bizesId" : "MA010120220806144189"
+				,"bizesNm" : "동백정매점"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G204"
+				,"indsMclsNm" : "종합 소매"
+				,"indsSclsCd" : "G20404"
+				,"indsSclsNm" : "슈퍼마켓"
+				,"ksicCd" : "G47129"
+				,"ksicNm" : "기타 음ㆍ식료품 위주 종합 소매업"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44770"
+				,"signguNm" : "서천군"
+				,"adongCd" : "44770410"
+				,"adongNm" : "서면"
+				,"ldongCd" : "4477041022"
+				,"ldongNm" : "서면"
+				,"lnoCd" : "4477041022102750005"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 275
+				,"lnoSlno" : 5
+				,"lnoAdr" : "충청남도 서천군 서면 마량리 275-5"
+				,"rdnmCd" : "447704580376"
+				,"rdnm" : "충청남도 서천군 서면 서인로235번길"
+				,"bldMnno" : 85
+				,"bldSlno" : ""
+				,"bldMngNo" : "4477041022102750005020651"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청남도 서천군 서면 서인로235번길 85"
+				,"oldZipcd" : "325894"
+				,"newZipcd" : "33604"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.496755885764
+				,"lat" : 36.1368511334179
+				}
+				,{
+				"bizesId" : "MA010120220814100677"
+				,"bizesNm" : "마량민박"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55104"
+				,"ksicNm" : "민박업"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44770"
+				,"signguNm" : "서천군"
+				,"adongCd" : "44770410"
+				,"adongNm" : "서면"
+				,"ldongCd" : "4477041022"
+				,"ldongNm" : "서면"
+				,"lnoCd" : "4477041022101700000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 170
+				,"lnoSlno" : ""
+				,"lnoAdr" : "충청남도 서천군 서면 마량리 170"
+				,"rdnmCd" : "447704580370"
+				,"rdnm" : "충청남도 서천군 서면 서인로115번길"
+				,"bldMnno" : 33
+				,"bldSlno" : ""
+				,"bldMngNo" : "4477041022101700000022671"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청남도 서천군 서면 서인로115번길 33"
+				,"oldZipcd" : "325894"
+				,"newZipcd" : "33604"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.499178324564
+				,"lat" : 36.13503184558
+				}
+				,{
+				"bizesId" : "MA010120220806150703"
+				,"bizesNm" : "수명"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10102"
+				,"indsSclsNm" : "여관/모텔"
+				,"ksicCd" : "I55109"
+				,"ksicNm" : "기타 일반 및 생활 숙박시설 운영업"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44770"
+				,"signguNm" : "서천군"
+				,"adongCd" : "44770410"
+				,"adongNm" : "서면"
+				,"ldongCd" : "4477041022"
+				,"ldongNm" : "서면"
+				,"lnoCd" : "4477041022103100000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 310
+				,"lnoSlno" : ""
+				,"lnoAdr" : "충청남도 서천군 서면 마량리 310"
+				,"rdnmCd" : "447703260009"
+				,"rdnm" : "충청남도 서천군 서면 서인로"
+				,"bldMnno" : 231
+				,"bldSlno" : ""
+				,"bldMngNo" : "4477041022103100000022734"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청남도 서천군 서면 서인로 231"
+				,"oldZipcd" : "325894"
+				,"newZipcd" : "33604"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.499835796511
+				,"lat" : 36.143469845935
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 1,
+		"totalCount" : 5	}
+}

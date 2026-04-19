@@ -1,0 +1,98 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA0106202511A0468445"
+				,"bizesNm" : "신바람난찐빵만두"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52740"
+				,"signguNm" : "장수군"
+				,"adongCd" : "52740335"
+				,"adongNm" : "장계면"
+				,"ldongCd" : "5274033521"
+				,"ldongNm" : "장계면"
+				,"lnoCd" : "5274033521102270016"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 227
+				,"lnoSlno" : 16
+				,"lnoAdr" : "전북특별자치도 장수군 장계면 장계리 227-16"
+				,"rdnmCd" : "527403276052"
+				,"rdnm" : "전북특별자치도 장수군 장계면 서동로"
+				,"bldMnno" : 34
+				,"bldSlno" : ""
+				,"bldMngNo" : "4574033521102270016025918"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 장수군 장계면 서동로 34"
+				,"oldZipcd" : "597842"
+				,"newZipcd" : "55614"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.580748390507
+				,"lat" : 35.7309292449723
+				}
+				,{
+				"bizesId" : "MA0106202511A0407028"
+				,"bizesNm" : "솔카페"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52740"
+				,"signguNm" : "장수군"
+				,"adongCd" : "52740335"
+				,"adongNm" : "장계면"
+				,"ldongCd" : "5274033521"
+				,"ldongNm" : "장계면"
+				,"lnoCd" : "5274033521100740004"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 74
+				,"lnoSlno" : 4
+				,"lnoAdr" : "전북특별자치도 장수군 장계면 장계리 74-4"
+				,"rdnmCd" : "527403351452"
+				,"rdnm" : "전북특별자치도 장수군 장계면 북동1로"
+				,"bldMnno" : 41
+				,"bldSlno" : 1
+				,"bldMngNo" : "4574033521100740004000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 장수군 장계면 북동1로 41-1"
+				,"oldZipcd" : "597842"
+				,"newZipcd" : "55612"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.582452164631
+				,"lat" : 35.7356976819792
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 4,
+		"totalCount" : 302	}
+}

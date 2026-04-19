@@ -1,0 +1,262 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA010120220807467699"
+				,"bizesNm" : "기차마을LPG충전소"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G214"
+				,"indsMclsNm" : "연료 소매"
+				,"indsSclsCd" : "G21402"
+				,"indsSclsNm" : "가스 충전소"
+				,"ksicCd" : "G47712"
+				,"ksicNm" : "운송장비용 가스 충전업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46720"
+				,"signguNm" : "곡성군"
+				,"adongCd" : "46720250"
+				,"adongNm" : "곡성읍"
+				,"ldongCd" : "4672025027"
+				,"ldongNm" : "곡성읍"
+				,"lnoCd" : "4672025027108130002"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 813
+				,"lnoSlno" : 2
+				,"lnoAdr" : "전라남도 곡성군 곡성읍 구원리 813-2"
+				,"rdnmCd" : "467203287003"
+				,"rdnm" : "전라남도 곡성군 곡성읍 곡성로"
+				,"bldMnno" : 355
+				,"bldSlno" : ""
+				,"bldMngNo" : "4672025027108120000004835"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 곡성군 곡성읍 곡성로 355"
+				,"oldZipcd" : "516802"
+				,"newZipcd" : "57527"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.259944186979
+				,"lat" : 35.2481290643486
+				}
+				,{
+				"bizesId" : "MA010120220807486250"
+				,"bizesNm" : "목화보일러"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G210"
+				,"indsMclsNm" : "철물·건설자재 소매"
+				,"indsSclsCd" : "G21001"
+				,"indsSclsNm" : "철물/공구 소매업"
+				,"ksicCd" : "G47511"
+				,"ksicNm" : "철물 및 난방용구 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46720"
+				,"signguNm" : "곡성군"
+				,"adongCd" : "46720250"
+				,"adongNm" : "곡성읍"
+				,"ldongCd" : "4672025027"
+				,"ldongNm" : "곡성읍"
+				,"lnoCd" : "4672025027108130002"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 813
+				,"lnoSlno" : 2
+				,"lnoAdr" : "전라남도 곡성군 곡성읍 구원리 813-2"
+				,"rdnmCd" : "467203287003"
+				,"rdnm" : "전라남도 곡성군 곡성읍 곡성로"
+				,"bldMnno" : 355
+				,"bldSlno" : ""
+				,"bldMngNo" : "4672025027108120000004835"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 곡성군 곡성읍 곡성로 355"
+				,"oldZipcd" : "516802"
+				,"newZipcd" : "57527"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.259944186979
+				,"lat" : 35.2481290643486
+				}
+				,{
+				"bizesId" : "MA010120220813790882"
+				,"bizesNm" : "국수"
+				,"brchNm" : "전문점"
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20105"
+				,"indsSclsNm" : "국수/칼국수"
+				,"ksicCd" : "I56112"
+				,"ksicNm" : "한식 면 요리 전문점"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46720"
+				,"signguNm" : "곡성군"
+				,"adongCd" : "46720250"
+				,"adongNm" : "곡성읍"
+				,"ldongCd" : "4672025027"
+				,"ldongNm" : "곡성읍"
+				,"lnoCd" : "4672025027108060003"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 806
+				,"lnoSlno" : 3
+				,"lnoAdr" : "전라남도 곡성군 곡성읍 구원리 806-3"
+				,"rdnmCd" : "467203287003"
+				,"rdnm" : "전라남도 곡성군 곡성읍 곡성로"
+				,"bldMnno" : 357
+				,"bldSlno" : ""
+				,"bldMngNo" : "4672025027108060003000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 곡성군 곡성읍 곡성로 357"
+				,"oldZipcd" : "516802"
+				,"newZipcd" : "57527"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.260132039363
+				,"lat" : 35.2484621577509
+				}
+				,{
+				"bizesId" : "MA010120220807476048"
+				,"bizesNm" : "광명주유소"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G214"
+				,"indsMclsNm" : "연료 소매"
+				,"indsSclsCd" : "G21401"
+				,"indsSclsNm" : "주유소"
+				,"ksicCd" : "G47711"
+				,"ksicNm" : "운송장비용 주유소 운영업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46720"
+				,"signguNm" : "곡성군"
+				,"adongCd" : "46720250"
+				,"adongNm" : "곡성읍"
+				,"ldongCd" : "4672025027"
+				,"ldongNm" : "곡성읍"
+				,"lnoCd" : "4672025027108060000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 806
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 곡성군 곡성읍 구원리 806"
+				,"rdnmCd" : "467203287003"
+				,"rdnm" : "전라남도 곡성군 곡성읍 곡성로"
+				,"bldMnno" : 359
+				,"bldSlno" : ""
+				,"bldMngNo" : "4672025027108060000004790"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 곡성군 곡성읍 곡성로 359"
+				,"oldZipcd" : "516802"
+				,"newZipcd" : "57527"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.26022054436
+				,"lat" : 35.2486512495736
+				}
+				,{
+				"bizesId" : "MA010120220814350478"
+				,"bizesNm" : "산내음황토펜션"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55109"
+				,"ksicNm" : "기타 일반 및 생활 숙박시설 운영업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46720"
+				,"signguNm" : "곡성군"
+				,"adongCd" : "46720310"
+				,"adongNm" : "오곡면"
+				,"ldongCd" : "4672031029"
+				,"ldongNm" : "오곡면"
+				,"lnoCd" : "4672031029104410007"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 441
+				,"lnoSlno" : 7
+				,"lnoAdr" : "전라남도 곡성군 오곡면 구성리 441-7"
+				,"rdnmCd" : "467203287020"
+				,"rdnm" : "전라남도 곡성군 오곡면 오죽로"
+				,"bldMnno" : 1440
+				,"bldSlno" : ""
+				,"bldMngNo" : "4672031029104410007000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 곡성군 오곡면 오죽로 1440"
+				,"oldZipcd" : "516821"
+				,"newZipcd" : "57528"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.282148692264
+				,"lat" : 35.2318821820369
+				}
+				,{
+				"bizesId" : "MA010120220803364809"
+				,"bizesNm" : "에이씨씨"
+				,"brchNm" : ""
+				,"indsLclsCd" : "S2"
+				,"indsLclsNm" : "수리·개인"
+				,"indsMclsCd" : "S206"
+				,"indsMclsNm" : "기타 가정용품 수리"
+				,"indsSclsCd" : "S20699"
+				,"indsSclsNm" : "그 외 기타 개인/가정용품 수리업"
+				,"ksicCd" : "G45213"
+				,"ksicNm" : "자동차 내장용 신품 전기ㆍ전자ㆍ정밀기기 판매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46720"
+				,"signguNm" : "곡성군"
+				,"adongCd" : "46720350"
+				,"adongNm" : "죽곡면"
+				,"ldongCd" : "4672035024"
+				,"ldongNm" : "죽곡면"
+				,"lnoCd" : "4672035024106930002"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 693
+				,"lnoSlno" : 2
+				,"lnoAdr" : "전라남도 곡성군 죽곡면 신풍리 693-2"
+				,"rdnmCd" : "467203287020"
+				,"rdnm" : "전라남도 곡성군 죽곡면 오죽로"
+				,"bldMnno" : 774
+				,"bldSlno" : 5
+				,"bldMngNo" : "4672035024200430002000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 곡성군 죽곡면 오죽로 774-5"
+				,"oldZipcd" : "516832"
+				,"newZipcd" : "57548"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.284814916863
+				,"lat" : 35.2026632706857
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 1,
+		"totalCount" : 6	}
+}

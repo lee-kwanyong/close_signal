@@ -1,0 +1,221 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA0106202509A2324345"
+				,"bizesNm" : "한국렌탈"
+				,"brchNm" : ""
+				,"indsLclsCd" : "N1"
+				,"indsLclsNm" : "시설관리·임대"
+				,"indsMclsCd" : "N111"
+				,"indsMclsNm" : "산업용품 대여"
+				,"indsSclsCd" : "N11199"
+				,"indsSclsNm" : "기타 산업용 기계/장비 대여업"
+				,"ksicCd" : "N76390"
+				,"ksicNm" : "기타 산업용 기계 및 장비 임대업"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44200"
+				,"signguNm" : "아산시"
+				,"adongCd" : "44200410"
+				,"adongNm" : "신창면"
+				,"ldongCd" : "4420041026"
+				,"ldongNm" : "신창면"
+				,"lnoCd" : "4420041026101750016"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 175
+				,"lnoSlno" : 16
+				,"lnoAdr" : "충청남도 아산시 신창면 수장리 175-16"
+				,"rdnmCd" : "442003253045"
+				,"rdnm" : "충청남도 아산시 신창면 수장로"
+				,"bldMnno" : 191
+				,"bldSlno" : ""
+				,"bldMngNo" : "4420041026101750016000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청남도 아산시 신창면 수장로 191"
+				,"oldZipcd" : "336884"
+				,"newZipcd" : "31529"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.963052844976
+				,"lat" : 36.8075023115791
+				}
+				,{
+				"bizesId" : "MA0106202511A1032562"
+				,"bizesNm" : "정겨운한식뷔페"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I207"
+				,"indsMclsNm" : "구내식당·뷔페"
+				,"indsSclsCd" : "I20702"
+				,"indsSclsNm" : "뷔페"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44200"
+				,"signguNm" : "아산시"
+				,"adongCd" : "44200250"
+				,"adongNm" : "염치읍"
+				,"ldongCd" : "4420025023"
+				,"ldongNm" : "염치읍"
+				,"lnoCd" : "4420025023100320049"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 32
+				,"lnoSlno" : 49
+				,"lnoAdr" : "충청남도 아산시 염치읍 서원리 32-49"
+				,"rdnmCd" : "442004559321"
+				,"rdnm" : "충청남도 아산시 염치읍 서원길"
+				,"bldMnno" : 24
+				,"bldSlno" : 1
+				,"bldMngNo" : "4420025023100320049008958"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청남도 아산시 염치읍 서원길 24-1"
+				,"oldZipcd" : "336811"
+				,"newZipcd" : "31441"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.965527084466
+				,"lat" : 36.8377352722042
+				}
+				,{
+				"bizesId" : "MA0106202510A2056730"
+				,"bizesNm" : "원덕계량소"
+				,"brchNm" : ""
+				,"indsLclsCd" : "M1"
+				,"indsLclsNm" : "과학·기술"
+				,"indsMclsCd" : "M115"
+				,"indsMclsNm" : "기타 전문 과학"
+				,"indsSclsCd" : "M11502"
+				,"indsSclsNm" : "번역/통역 서비스업"
+				,"ksicCd" : "M73902"
+				,"ksicNm" : "번역 및 통역 서비스업"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44200"
+				,"signguNm" : "아산시"
+				,"adongCd" : "44200250"
+				,"adongNm" : "염치읍"
+				,"ldongCd" : "4420025023"
+				,"ldongNm" : "염치읍"
+				,"lnoCd" : "4420025023100270006"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 27
+				,"lnoSlno" : 6
+				,"lnoAdr" : "충청남도 아산시 염치읍 서원리 27-6"
+				,"rdnmCd" : "442004559437"
+				,"rdnm" : "충청남도 아산시 염치읍 신수리길"
+				,"bldMnno" : 6
+				,"bldSlno" : 5
+				,"bldMngNo" : "4420025023100270006009275"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청남도 아산시 염치읍 신수리길 6-5"
+				,"oldZipcd" : "336811"
+				,"newZipcd" : "31442"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.967107033345
+				,"lat" : 36.8395109003944
+				}
+				,{
+				"bizesId" : "MA0106202509A2135291"
+				,"bizesNm" : "스타아산선녀주유소"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G214"
+				,"indsMclsNm" : "연료 소매"
+				,"indsSclsCd" : "G21401"
+				,"indsSclsNm" : "주유소"
+				,"ksicCd" : "G47711"
+				,"ksicNm" : "운송장비용 주유소 운영업"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44200"
+				,"signguNm" : "아산시"
+				,"adongCd" : "44200250"
+				,"adongNm" : "염치읍"
+				,"ldongCd" : "4420025023"
+				,"ldongNm" : "염치읍"
+				,"lnoCd" : "4420025023102930003"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 293
+				,"lnoSlno" : 3
+				,"lnoAdr" : "충청남도 아산시 염치읍 서원리 293-3"
+				,"rdnmCd" : "442003253052"
+				,"rdnm" : "충청남도 아산시 염치읍 아산로"
+				,"bldMnno" : 625
+				,"bldSlno" : ""
+				,"bldMngNo" : "4420025023102930003009910"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청남도 아산시 염치읍 아산로 625"
+				,"oldZipcd" : "336811"
+				,"newZipcd" : "31441"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.967257039233
+				,"lat" : 36.8295086483439
+				}
+				,{
+				"bizesId" : "MA0106202509A1021581"
+				,"bizesNm" : "정씨네농장"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G205"
+				,"indsMclsNm" : "식료품 소매"
+				,"indsSclsCd" : "G20502"
+				,"indsSclsNm" : "가축 사료 소매업"
+				,"ksicCd" : "G47211"
+				,"ksicNm" : "곡물, 곡분 및 가축 사료 소매업"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44200"
+				,"signguNm" : "아산시"
+				,"adongCd" : "44200250"
+				,"adongNm" : "염치읍"
+				,"ldongCd" : "4420025030"
+				,"ldongNm" : "염치읍"
+				,"lnoCd" : "4420025030104140001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 414
+				,"lnoSlno" : 1
+				,"lnoAdr" : "충청남도 아산시 염치읍 석정리 414-1"
+				,"rdnmCd" : "442004559330"
+				,"rdnm" : "충청남도 아산시 염치읍 석정길"
+				,"bldMnno" : 159
+				,"bldSlno" : ""
+				,"bldMngNo" : "4420025030104140001000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청남도 아산시 염치읍 석정길 159"
+				,"oldZipcd" : "336814"
+				,"newZipcd" : "31447"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.993893065917
+				,"lat" : 36.8012451645662
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 2,
+		"totalCount" : 105	}
+}

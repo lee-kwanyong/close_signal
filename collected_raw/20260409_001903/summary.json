@@ -1,0 +1,13 @@
+﻿{
+    "sql_file":  ".\\collected_raw\\20260409_001903\\ingest_raw_records.sql",
+    "maxy":  37.6,
+    "miny":  37.55,
+    "collected_count":  0,
+    "max_pages":  3,
+    "run_dir":  ".\\collected_raw\\20260409_001903",
+    "raw_jsonl_file":  ".\\collected_raw\\20260409_001903\\raw_records.jsonl",
+    "total_pages":  0,
+    "maxx":  127.03,
+    "page_size":  100,
+    "minx":  126.97
+}

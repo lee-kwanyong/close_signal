@@ -1,0 +1,467 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA010120220807229440"
+				,"bizesNm" : "풍년홍삼건강원"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G205"
+				,"indsMclsNm" : "식료품 소매"
+				,"indsSclsCd" : "G20508"
+				,"indsSclsNm" : "건강보조식품 소매업"
+				,"ksicCd" : "C10796"
+				,"ksicNm" : "건강 보조용 액화식품 제조업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52720"
+				,"signguNm" : "진안군"
+				,"adongCd" : "52720320"
+				,"adongNm" : "안천면"
+				,"ldongCd" : "5272032022"
+				,"ldongNm" : "안천면"
+				,"lnoCd" : "5272032022114760009"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 1476
+				,"lnoSlno" : 9
+				,"lnoAdr" : "전북특별자치도 진안군 안천면 백화리 1476-9"
+				,"rdnmCd" : "527203274028"
+				,"rdnm" : "전북특별자치도 진안군 안천면 안용로"
+				,"bldMnno" : 42
+				,"bldSlno" : ""
+				,"bldMngNo" : "4572032022114760007029581"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 진안군 안천면 안용로 42"
+				,"oldZipcd" : "567852"
+				,"newZipcd" : "55407"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.556757808261
+				,"lat" : 35.9029826947584
+				}
+				,{
+				"bizesId" : "MA010120220807231518"
+				,"bizesNm" : "안천식당"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52720"
+				,"signguNm" : "진안군"
+				,"adongCd" : "52720320"
+				,"adongNm" : "안천면"
+				,"ldongCd" : "5272032022"
+				,"ldongNm" : "안천면"
+				,"lnoCd" : "5272032022114760002"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 1476
+				,"lnoSlno" : 2
+				,"lnoAdr" : "전북특별자치도 진안군 안천면 백화리 1476-2"
+				,"rdnmCd" : "527203274028"
+				,"rdnm" : "전북특별자치도 진안군 안천면 안용로"
+				,"bldMnno" : 32
+				,"bldSlno" : ""
+				,"bldMngNo" : "4572032022114760002027672"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 진안군 안천면 안용로 32"
+				,"oldZipcd" : "567852"
+				,"newZipcd" : "55407"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.557827963336
+				,"lat" : 35.9023648886756
+				}
+				,{
+				"bizesId" : "MA010120220807247158"
+				,"bizesNm" : "부남가스"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G214"
+				,"indsMclsNm" : "연료 소매"
+				,"indsSclsCd" : "G21403"
+				,"indsSclsNm" : "가정용 연료 소매업"
+				,"ksicCd" : "G47723"
+				,"ksicNm" : "가정용 가스 연료 소매업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52730"
+				,"signguNm" : "무주군"
+				,"adongCd" : "52730350"
+				,"adongNm" : "부남면"
+				,"ldongCd" : "5273035023"
+				,"ldongNm" : "부남면"
+				,"lnoCd" : "5273035023105330002"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 533
+				,"lnoSlno" : 2
+				,"lnoAdr" : "전북특별자치도 무주군 부남면 고창리 533-2"
+				,"rdnmCd" : "527303275024"
+				,"rdnm" : "전북특별자치도 무주군 부남면 부남로"
+				,"bldMnno" : 497
+				,"bldSlno" : ""
+				,"bldMngNo" : "4573035023105330002000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 무주군 부남면 부남로 497"
+				,"oldZipcd" : "568852"
+				,"newZipcd" : "55504"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.565694945413
+				,"lat" : 35.9431268421432
+				}
+				,{
+				"bizesId" : "MA010120220808035950"
+				,"bizesNm" : "태양사"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G204"
+				,"indsMclsNm" : "종합 소매"
+				,"indsSclsCd" : "G20404"
+				,"indsSclsNm" : "슈퍼마켓"
+				,"ksicCd" : "G47129"
+				,"ksicNm" : "기타 음ㆍ식료품 위주 종합 소매업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52730"
+				,"signguNm" : "무주군"
+				,"adongCd" : "52730350"
+				,"adongNm" : "부남면"
+				,"ldongCd" : "5273035023"
+				,"ldongNm" : "부남면"
+				,"lnoCd" : "5273035023103050001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 305
+				,"lnoSlno" : 1
+				,"lnoAdr" : "전북특별자치도 무주군 부남면 고창리 305-1"
+				,"rdnmCd" : "527304625013"
+				,"rdnm" : "전북특별자치도 무주군 부남면 고창길"
+				,"bldMnno" : 13
+				,"bldSlno" : ""
+				,"bldMngNo" : "4573035023103050001000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 무주군 부남면 고창길 13"
+				,"oldZipcd" : "568852"
+				,"newZipcd" : "55504"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.567566524998
+				,"lat" : 35.9429287491008
+				}
+				,{
+				"bizesId" : "MA010120220802785577"
+				,"bizesNm" : "진안풍경소리"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55104"
+				,"ksicNm" : "민박업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52720"
+				,"signguNm" : "진안군"
+				,"adongCd" : "52720320"
+				,"adongNm" : "안천면"
+				,"ldongCd" : "5272032022"
+				,"ldongNm" : "안천면"
+				,"lnoCd" : "5272032022105940000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 594
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전북특별자치도 진안군 안천면 백화리 594"
+				,"rdnmCd" : "527204622151"
+				,"rdnm" : "전북특별자치도 진안군 안천면 상배실길"
+				,"bldMnno" : 36
+				,"bldSlno" : 19
+				,"bldMngNo" : "4572032022105940000029517"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 진안군 안천면 상배실길 36-19"
+				,"oldZipcd" : "567852"
+				,"newZipcd" : "55407"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.571044866195
+				,"lat" : 35.9026272111141
+				}
+				,{
+				"bizesId" : "MA010120220805428565"
+				,"bizesNm" : "천연염색앤푸드아트"
+				,"brchNm" : ""
+				,"indsLclsCd" : "R1"
+				,"indsLclsNm" : "예술·스포츠"
+				,"indsMclsCd" : "R104"
+				,"indsMclsNm" : "유원지·오락"
+				,"indsSclsCd" : "R10499"
+				,"indsSclsNm" : "기타 오락관련 서비스업"
+				,"ksicCd" : "R91299"
+				,"ksicNm" : "그 외 기타 분류 안된 오락관련 서비스업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52720"
+				,"signguNm" : "진안군"
+				,"adongCd" : "52720320"
+				,"adongNm" : "안천면"
+				,"ldongCd" : "5272032022"
+				,"ldongNm" : "안천면"
+				,"lnoCd" : "5272032022105940000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 594
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전북특별자치도 진안군 안천면 백화리 594"
+				,"rdnmCd" : "527204622151"
+				,"rdnm" : "전북특별자치도 진안군 안천면 상배실길"
+				,"bldMnno" : 36
+				,"bldSlno" : 19
+				,"bldMngNo" : "4572032022105940000029517"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 진안군 안천면 상배실길 36-19"
+				,"oldZipcd" : "567852"
+				,"newZipcd" : "55407"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.571044866195
+				,"lat" : 35.9026272111141
+				}
+				,{
+				"bizesId" : "MA010120220808655571"
+				,"bizesNm" : "백화양어장낚시터"
+				,"brchNm" : ""
+				,"indsLclsCd" : "R1"
+				,"indsLclsNm" : "예술·스포츠"
+				,"indsMclsCd" : "R104"
+				,"indsMclsNm" : "유원지·오락"
+				,"indsSclsCd" : "R10408"
+				,"indsSclsNm" : "낚시터 운영업"
+				,"ksicCd" : "R91231"
+				,"ksicNm" : "낚시장 운영업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52720"
+				,"signguNm" : "진안군"
+				,"adongCd" : "52720320"
+				,"adongNm" : "안천면"
+				,"ldongCd" : "5272032022"
+				,"ldongNm" : "안천면"
+				,"lnoCd" : "5272032022103420008"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 342
+				,"lnoSlno" : 8
+				,"lnoAdr" : "전북특별자치도 진안군 안천면 백화리 342-8"
+				,"rdnmCd" : "527203274057"
+				,"rdnm" : "전북특별자치도 진안군 안천면 진무로"
+				,"bldMnno" : 3206
+				,"bldSlno" : ""
+				,"bldMngNo" : "4572032022103420008027336"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 진안군 안천면 진무로 3206"
+				,"oldZipcd" : "567852"
+				,"newZipcd" : "55407"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.574171133284
+				,"lat" : 35.9014406997314
+				}
+				,{
+				"bizesId" : "MA010120220814000010"
+				,"bizesNm" : "법인반딧불옥나래"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G205"
+				,"indsMclsNm" : "식료품 소매"
+				,"indsSclsCd" : "G20509"
+				,"indsSclsNm" : "반찬/식료품 소매업"
+				,"ksicCd" : "G47219"
+				,"ksicNm" : "기타 식료품 소매업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52730"
+				,"signguNm" : "무주군"
+				,"adongCd" : "52730350"
+				,"adongNm" : "부남면"
+				,"ldongCd" : "5273035024"
+				,"ldongNm" : "부남면"
+				,"lnoCd" : "5273035024105760002"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 576
+				,"lnoSlno" : 2
+				,"lnoAdr" : "전북특별자치도 무주군 부남면 장안리 576-2"
+				,"rdnmCd" : "527303275024"
+				,"rdnm" : "전북특별자치도 무주군 부남면 부남로"
+				,"bldMnno" : 195
+				,"bldSlno" : 25
+				,"bldMngNo" : "4573035024105760002000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 무주군 부남면 부남로 195-25"
+				,"oldZipcd" : "568852"
+				,"newZipcd" : "55504"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.577583673297
+				,"lat" : 35.9213686148367
+				}
+				,{
+				"bizesId" : "MA010120220807403745"
+				,"bizesNm" : "장안식당"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52730"
+				,"signguNm" : "무주군"
+				,"adongCd" : "52730350"
+				,"adongNm" : "부남면"
+				,"ldongCd" : "5273035024"
+				,"ldongNm" : "부남면"
+				,"lnoCd" : "5273035024102030002"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 203
+				,"lnoSlno" : 2
+				,"lnoAdr" : "전북특별자치도 무주군 부남면 장안리 203-2"
+				,"rdnmCd" : "527303275040"
+				,"rdnm" : "전북특별자치도 무주군 부남면 장삼재로"
+				,"bldMnno" : 90
+				,"bldSlno" : ""
+				,"bldMngNo" : "4573035024102030002000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 무주군 부남면 장삼재로 90"
+				,"oldZipcd" : "568852"
+				,"newZipcd" : "55504"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.590105548172
+				,"lat" : 35.9081767786757
+				}
+				,{
+				"bizesId" : "MA010120220808692957"
+				,"bizesNm" : "법인장안마루"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52730"
+				,"signguNm" : "무주군"
+				,"adongCd" : "52730350"
+				,"adongNm" : "부남면"
+				,"ldongCd" : "5273035024"
+				,"ldongNm" : "부남면"
+				,"lnoCd" : "5273035024101130005"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 113
+				,"lnoSlno" : 5
+				,"lnoAdr" : "전북특별자치도 무주군 부남면 장안리 113-5"
+				,"rdnmCd" : "527303275010"
+				,"rdnm" : "전북특별자치도 무주군 부남면 노루재로"
+				,"bldMnno" : 524
+				,"bldSlno" : 11
+				,"bldMngNo" : "4573035024101130005000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 무주군 부남면 노루재로 524-11"
+				,"oldZipcd" : "568852"
+				,"newZipcd" : "55504"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.591268718146
+				,"lat" : 35.9051969889528
+				}
+				,{
+				"bizesId" : "MA010120220807805199"
+				,"bizesNm" : "하대곡"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G205"
+				,"indsMclsNm" : "식료품 소매"
+				,"indsSclsCd" : "G20506"
+				,"indsSclsNm" : "채소/과일 소매업"
+				,"ksicCd" : "G47215"
+				,"ksicNm" : "채소, 과실 및 뿌리작물 소매업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52730"
+				,"signguNm" : "무주군"
+				,"adongCd" : "52730350"
+				,"adongNm" : "부남면"
+				,"ldongCd" : "5273035024"
+				,"ldongNm" : "부남면"
+				,"lnoCd" : "5273035024101100006"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 110
+				,"lnoSlno" : 6
+				,"lnoAdr" : "전북특별자치도 무주군 부남면 장안리 110-6"
+				,"rdnmCd" : "527304625209"
+				,"rdnm" : "전북특별자치도 무주군 부남면 장안길"
+				,"bldMnno" : 5
+				,"bldSlno" : 1
+				,"bldMngNo" : "4573035024101100006000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 무주군 부남면 장안길 5-1"
+				,"oldZipcd" : "568852"
+				,"newZipcd" : "55504"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.591419640112
+				,"lat" : 35.9046374813093
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 1,
+		"totalCount" : 11	}
+}

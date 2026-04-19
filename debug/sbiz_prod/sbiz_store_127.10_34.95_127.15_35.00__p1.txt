@@ -1,0 +1,221 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA0101202504A0040114"
+				,"bizesNm" : "화순산악승마"
+				,"brchNm" : ""
+				,"indsLclsCd" : "R1"
+				,"indsLclsNm" : "예술·스포츠"
+				,"indsMclsCd" : "R103"
+				,"indsMclsNm" : "스포츠 서비스"
+				,"indsSclsCd" : "R10314"
+				,"indsSclsNm" : "기타 스포츠시설 운영업"
+				,"ksicCd" : "R91139"
+				,"ksicNm" : "그 외 기타 스포츠시설 운영업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46790"
+				,"signguNm" : "화순군"
+				,"adongCd" : "46790415"
+				,"adongNm" : "사평면"
+				,"ldongCd" : "4679041522"
+				,"ldongNm" : "사평면"
+				,"lnoCd" : "4679041522102710002"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 271
+				,"lnoSlno" : 2
+				,"lnoAdr" : "전라남도 화순군 사평면 대곡리 271-2"
+				,"rdnmCd" : "467904673080"
+				,"rdnm" : "전라남도 화순군 사평면 대곡길"
+				,"bldMnno" : 212
+				,"bldSlno" : ""
+				,"bldMngNo" : ""
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 화순군 사평면 대곡길 212"
+				,"oldZipcd" : "519891"
+				,"newZipcd" : "58144"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.1054773942
+				,"lat" : 34.9815579819891
+				}
+				,{
+				"bizesId" : "MA010120220812353370"
+				,"bizesNm" : "힐링"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55104"
+				,"ksicNm" : "민박업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46790"
+				,"signguNm" : "화순군"
+				,"adongCd" : "46790415"
+				,"adongNm" : "사평면"
+				,"ldongCd" : "4679041522"
+				,"ldongNm" : "사평면"
+				,"lnoCd" : "4679041522103480000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 348
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 화순군 사평면 대곡리 348"
+				,"rdnmCd" : "467904673079"
+				,"rdnm" : "전라남도 화순군 사평면 대곡2길"
+				,"bldMnno" : 96
+				,"bldSlno" : ""
+				,"bldMngNo" : "4679041022103480000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 화순군 사평면 대곡2길 96"
+				,"oldZipcd" : "519891"
+				,"newZipcd" : "58144"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.111770331187
+				,"lat" : 34.986392791329
+				}
+				,{
+				"bizesId" : "MA010120220800464732"
+				,"bizesNm" : "다락방"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G205"
+				,"indsMclsNm" : "식료품 소매"
+				,"indsSclsCd" : "G20509"
+				,"indsSclsNm" : "반찬/식료품 소매업"
+				,"ksicCd" : "G47221"
+				,"ksicNm" : "음료 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46780"
+				,"signguNm" : "보성군"
+				,"adongCd" : "46780360"
+				,"adongNm" : "문덕면"
+				,"ldongCd" : "4678036024"
+				,"ldongNm" : "문덕면"
+				,"lnoCd" : "4678036024108310000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 831
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 보성군 문덕면 죽산리 831"
+				,"rdnmCd" : "467804670390"
+				,"rdnm" : "전라남도 보성군 문덕면 죽산길"
+				,"bldMnno" : 506
+				,"bldSlno" : 8
+				,"bldMngNo" : "4678036024108290000000127"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 보성군 문덕면 죽산길 506-8"
+				,"oldZipcd" : "546842"
+				,"newZipcd" : "59401"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.13334995584
+				,"lat" : 34.9613395051069
+				}
+				,{
+				"bizesId" : "MA010120220807462448"
+				,"bizesNm" : "골망태"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46790"
+				,"signguNm" : "화순군"
+				,"adongCd" : "46790415"
+				,"adongNm" : "사평면"
+				,"ldongCd" : "4679041530"
+				,"ldongNm" : "사평면"
+				,"lnoCd" : "4679041530102930002"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 293
+				,"lnoSlno" : 2
+				,"lnoAdr" : "전라남도 화순군 사평면 주산리 293-2"
+				,"rdnmCd" : "467903291046"
+				,"rdnm" : "전라남도 화순군 사평면 모후로"
+				,"bldMnno" : 609
+				,"bldSlno" : 25
+				,"bldMngNo" : "4679041030102930002000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 화순군 사평면 모후로 609-25"
+				,"oldZipcd" : "519892"
+				,"newZipcd" : "58146"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.143693958422
+				,"lat" : 34.9847277012113
+				}
+				,{
+				"bizesId" : "MA010120220807869474"
+				,"bizesNm" : "연꽃만나고간바람처럼"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46780"
+				,"signguNm" : "보성군"
+				,"adongCd" : "46780360"
+				,"adongNm" : "문덕면"
+				,"ldongCd" : "4678036024"
+				,"ldongNm" : "문덕면"
+				,"lnoCd" : "4678036024106050001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 605
+				,"lnoSlno" : 1
+				,"lnoAdr" : "전라남도 보성군 문덕면 죽산리 605-1"
+				,"rdnmCd" : "467804670390"
+				,"rdnm" : "전라남도 보성군 문덕면 죽산길"
+				,"bldMnno" : 391
+				,"bldSlno" : ""
+				,"bldMngNo" : "4678036024106050001000588"
+				,"bldNm" : "일반음식점"
+				,"rdnmAdr" : "전라남도 보성군 문덕면 죽산길 391"
+				,"oldZipcd" : "546842"
+				,"newZipcd" : "59401"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.144525436829
+				,"lat" : 34.959280569446
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 1,
+		"totalCount" : 5	}
+}

@@ -1,0 +1,98 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA010120220810412507"
+				,"bizesNm" : "섬누리민박"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55104"
+				,"ksicNm" : "민박업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46910"
+				,"signguNm" : "신안군"
+				,"adongCd" : "46910360"
+				,"adongNm" : "흑산면"
+				,"ldongCd" : "4691036032"
+				,"ldongNm" : "흑산면"
+				,"lnoCd" : "4691036032109680001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 968
+				,"lnoSlno" : 1
+				,"lnoAdr" : "전라남도 신안군 흑산면 가거도리 968-1"
+				,"rdnmCd" : "469104706001"
+				,"rdnm" : "전라남도 신안군 흑산면 가거도길"
+				,"bldMnno" : 587
+				,"bldSlno" : ""
+				,"bldMngNo" : "4691036032109680001000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 신안군 흑산면 가거도길 587"
+				,"oldZipcd" : "535915"
+				,"newZipcd" : "58866"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 125.095060011632
+				,"lat" : 34.0744248000404
+				}
+				,{
+				"bizesId" : "MA010120220810410702"
+				,"bizesNm" : "다희네민박"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55104"
+				,"ksicNm" : "민박업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46910"
+				,"signguNm" : "신안군"
+				,"adongCd" : "46910360"
+				,"adongNm" : "흑산면"
+				,"ldongCd" : "4691036032"
+				,"ldongNm" : "흑산면"
+				,"lnoCd" : "4691036032109360007"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 936
+				,"lnoSlno" : 7
+				,"lnoAdr" : "전라남도 신안군 흑산면 가거도리 936-7"
+				,"rdnmCd" : "469104706001"
+				,"rdnm" : "전라남도 신안군 흑산면 가거도길"
+				,"bldMnno" : 585
+				,"bldSlno" : 16
+				,"bldMngNo" : "4691036032200950000000006"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 신안군 흑산면 가거도길 585-16"
+				,"oldZipcd" : "535915"
+				,"newZipcd" : "58866"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 125.095313822142
+				,"lat" : 34.0732479885529
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 1,
+		"totalCount" : 2	}
+}

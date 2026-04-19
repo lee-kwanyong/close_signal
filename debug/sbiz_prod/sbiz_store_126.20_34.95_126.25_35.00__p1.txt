@@ -1,0 +1,262 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA010120220800848153"
+				,"bizesNm" : "맨드라미하우스"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46910"
+				,"signguNm" : "신안군"
+				,"adongCd" : "46910310"
+				,"adongNm" : "증도면"
+				,"ldongCd" : "4691031025"
+				,"ldongNm" : "증도면"
+				,"lnoCd" : "4691031025104540001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 454
+				,"lnoSlno" : 1
+				,"lnoAdr" : "전라남도 신안군 증도면 병풍리 454-1"
+				,"rdnmCd" : "469104706124"
+				,"rdnm" : "전라남도 신안군 증도면 병풍1길"
+				,"bldMnno" : 67
+				,"bldSlno" : 16
+				,"bldMngNo" : "4691031025104540001000002"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 신안군 증도면 병풍1길 67-16"
+				,"oldZipcd" : "535824"
+				,"newZipcd" : "58809"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.211477755339
+				,"lat" : 34.9617734336722
+				}
+				,{
+				"bizesId" : "MA010120220812550989"
+				,"bizesNm" : "병풍섬안애민박"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55104"
+				,"ksicNm" : "민박업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46910"
+				,"signguNm" : "신안군"
+				,"adongCd" : "46910310"
+				,"adongNm" : "증도면"
+				,"ldongCd" : "4691031025"
+				,"ldongNm" : "증도면"
+				,"lnoCd" : "4691031025104750000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 475
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 신안군 증도면 병풍리 475"
+				,"rdnmCd" : "469104706124"
+				,"rdnm" : "전라남도 신안군 증도면 병풍1길"
+				,"bldMnno" : 78
+				,"bldSlno" : 3
+				,"bldMngNo" : "4691031025104750000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 신안군 증도면 병풍1길 78-3"
+				,"oldZipcd" : "535824"
+				,"newZipcd" : "58809"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.212200500887
+				,"lat" : 34.9629048235464
+				}
+				,{
+				"bizesId" : "MA010120220812120478"
+				,"bizesNm" : "정갑"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55104"
+				,"ksicNm" : "민박업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46910"
+				,"signguNm" : "신안군"
+				,"adongCd" : "46910310"
+				,"adongNm" : "증도면"
+				,"ldongCd" : "4691031025"
+				,"ldongNm" : "증도면"
+				,"lnoCd" : "4691031025104880000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 488
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 신안군 증도면 병풍리 488"
+				,"rdnmCd" : "469104706124"
+				,"rdnm" : "전라남도 신안군 증도면 병풍1길"
+				,"bldMnno" : 68
+				,"bldSlno" : 2
+				,"bldMngNo" : "4691031025104880000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 신안군 증도면 병풍1길 68-2"
+				,"oldZipcd" : "535824"
+				,"newZipcd" : "58809"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.212264903914
+				,"lat" : 34.961895718589
+				}
+				,{
+				"bizesId" : "MA010120220803605660"
+				,"bizesNm" : "한화쏠라에너지"
+				,"brchNm" : ""
+				,"indsLclsCd" : "M1"
+				,"indsLclsNm" : "과학·기술"
+				,"indsMclsCd" : "M107"
+				,"indsMclsNm" : "본사·경영 컨설팅"
+				,"indsSclsCd" : "M10703"
+				,"indsSclsNm" : "경영 컨설팅업"
+				,"ksicCd" : "M71531"
+				,"ksicNm" : "경영 컨설팅업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46910"
+				,"signguNm" : "신안군"
+				,"adongCd" : "46910310"
+				,"adongNm" : "증도면"
+				,"ldongCd" : "4691031025"
+				,"ldongNm" : "증도면"
+				,"lnoCd" : "4691031025100420103"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 42
+				,"lnoSlno" : 103
+				,"lnoAdr" : "전라남도 신안군 증도면 병풍리 42-103"
+				,"rdnmCd" : "469104706124"
+				,"rdnm" : "전라남도 신안군 증도면 병풍1길"
+				,"bldMnno" : 207
+				,"bldSlno" : ""
+				,"bldMngNo" : "4691031025100420103000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 신안군 증도면 병풍1길 207"
+				,"oldZipcd" : "535824"
+				,"newZipcd" : "58809"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.213585775876
+				,"lat" : 34.9737661616036
+				}
+				,{
+				"bizesId" : "MA0101202406A0396769"
+				,"bizesNm" : "병풍도해뜰날"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55104"
+				,"ksicNm" : "민박업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46910"
+				,"signguNm" : "신안군"
+				,"adongCd" : "46910310"
+				,"adongNm" : "증도면"
+				,"ldongCd" : "4691031025"
+				,"ldongNm" : "증도면"
+				,"lnoCd" : "4691031025105570004"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 557
+				,"lnoSlno" : 4
+				,"lnoAdr" : "전라남도 신안군 증도면 병풍리 557-4"
+				,"rdnmCd" : "469104706124"
+				,"rdnm" : "전라남도 신안군 증도면 병풍1길"
+				,"bldMnno" : 7
+				,"bldSlno" : ""
+				,"bldMngNo" : "4691031025105570004000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 신안군 증도면 병풍1길 7"
+				,"oldZipcd" : "535824"
+				,"newZipcd" : "58809"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.214577882884
+				,"lat" : 34.9570163133534
+				}
+				,{
+				"bizesId" : "MA0101202409A0074471"
+				,"bizesNm" : "병풍맛집"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46910"
+				,"signguNm" : "신안군"
+				,"adongCd" : "46910310"
+				,"adongNm" : "증도면"
+				,"ldongCd" : "4691031025"
+				,"ldongNm" : "증도면"
+				,"lnoCd" : "4691031025105570004"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 557
+				,"lnoSlno" : 4
+				,"lnoAdr" : "전라남도 신안군 증도면 병풍리 557-4"
+				,"rdnmCd" : "469104706124"
+				,"rdnm" : "전라남도 신안군 증도면 병풍1길"
+				,"bldMnno" : 7
+				,"bldSlno" : ""
+				,"bldMngNo" : "4691031025105570004000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 신안군 증도면 병풍1길 7"
+				,"oldZipcd" : "535824"
+				,"newZipcd" : "58809"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.214577882884
+				,"lat" : 34.9570163133534
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 1,
+		"totalCount" : 6	}
+}

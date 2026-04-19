@@ -1,0 +1,139 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA010120220809369671"
+				,"bizesNm" : "지호택"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55104"
+				,"ksicNm" : "민박업"
+				,"ctprvnCd" : "28"
+				,"ctprvnNm" : "인천광역시"
+				,"signguCd" : "28720"
+				,"signguNm" : "옹진군"
+				,"adongCd" : "28720350"
+				,"adongNm" : "덕적면"
+				,"ldongCd" : "2872035025"
+				,"ldongNm" : "덕적면"
+				,"lnoCd" : "2872035025100560000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 56
+				,"lnoSlno" : ""
+				,"lnoAdr" : "인천광역시 옹진군 덕적면 울도리 56"
+				,"rdnmCd" : "287204274198"
+				,"rdnm" : "인천광역시 옹진군 덕적면 울도로182번길"
+				,"bldMnno" : 13
+				,"bldSlno" : 2
+				,"bldMngNo" : "2872035025100560000002604"
+				,"bldNm" : ""
+				,"rdnmAdr" : "인천광역시 옹진군 덕적면 울도로182번길 13-2"
+				,"oldZipcd" : "409891"
+				,"newZipcd" : "23136"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 125.997319059128
+				,"lat" : 37.0252924897515
+				}
+				,{
+				"bizesId" : "MA010120220806527471"
+				,"bizesNm" : "울도해변민박"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55104"
+				,"ksicNm" : "민박업"
+				,"ctprvnCd" : "28"
+				,"ctprvnNm" : "인천광역시"
+				,"signguCd" : "28720"
+				,"signguNm" : "옹진군"
+				,"adongCd" : "28720350"
+				,"adongNm" : "덕적면"
+				,"ldongCd" : "2872035025"
+				,"ldongNm" : "덕적면"
+				,"lnoCd" : "2872035025100510000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 51
+				,"lnoSlno" : ""
+				,"lnoAdr" : "인천광역시 옹진군 덕적면 울도리 51"
+				,"rdnmCd" : "287204274198"
+				,"rdnm" : "인천광역시 옹진군 덕적면 울도로182번길"
+				,"bldMnno" : 25
+				,"bldSlno" : ""
+				,"bldMngNo" : "2872035025100510000002623"
+				,"bldNm" : ""
+				,"rdnmAdr" : "인천광역시 옹진군 덕적면 울도로182번길 25"
+				,"oldZipcd" : "409891"
+				,"newZipcd" : "23136"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 125.997401740489
+				,"lat" : 37.0249868346983
+				}
+				,{
+				"bizesId" : "MA010120220813017235"
+				,"bizesNm" : "울도민박"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55104"
+				,"ksicNm" : "민박업"
+				,"ctprvnCd" : "28"
+				,"ctprvnNm" : "인천광역시"
+				,"signguCd" : "28720"
+				,"signguNm" : "옹진군"
+				,"adongCd" : "28720350"
+				,"adongNm" : "덕적면"
+				,"ldongCd" : "2872035025"
+				,"ldongNm" : "덕적면"
+				,"lnoCd" : "2872035025100280000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 28
+				,"lnoSlno" : ""
+				,"lnoAdr" : "인천광역시 옹진군 덕적면 울도리 28"
+				,"rdnmCd" : "287203158032"
+				,"rdnm" : "인천광역시 옹진군 덕적면 울도로"
+				,"bldMnno" : 196
+				,"bldSlno" : 3
+				,"bldMngNo" : "2872035025100280000002612"
+				,"bldNm" : ""
+				,"rdnmAdr" : "인천광역시 옹진군 덕적면 울도로 196-3"
+				,"oldZipcd" : "409891"
+				,"newZipcd" : "23136"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 125.99776331869
+				,"lat" : 37.02483671244
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 1,
+		"totalCount" : 3	}
+}

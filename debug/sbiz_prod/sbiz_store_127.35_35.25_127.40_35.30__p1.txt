@@ -1,0 +1,180 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA010120220807462316"
+				,"bizesNm" : "굴바위가든"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46720"
+				,"signguNm" : "곡성군"
+				,"adongCd" : "46720360"
+				,"adongNm" : "고달면"
+				,"ldongCd" : "4672036026"
+				,"ldongNm" : "고달면"
+				,"lnoCd" : "4672036026101440000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 144
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 곡성군 고달면 호곡리 144"
+				,"rdnmCd" : "467204853634"
+				,"rdnm" : "전라남도 곡성군 고달면 호곡도깨비길"
+				,"bldMnno" : 119
+				,"bldSlno" : 59
+				,"bldMngNo" : "4672036026101440000010222"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 곡성군 고달면 호곡도깨비길 119-59"
+				,"oldZipcd" : "516814"
+				,"newZipcd" : "57547"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.36220347381
+				,"lat" : 35.2502097030191
+				}
+				,{
+				"bizesId" : "MA0101202408A0014836"
+				,"bizesNm" : "품안의숲"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G213"
+				,"indsMclsNm" : "오락용품 소매"
+				,"indsSclsCd" : "G21301"
+				,"indsSclsNm" : "서점"
+				,"ksicCd" : "G47611"
+				,"ksicNm" : "서적, 신문 및 잡지류 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46720"
+				,"signguNm" : "곡성군"
+				,"adongCd" : "46720360"
+				,"adongNm" : "고달면"
+				,"ldongCd" : "4672036026"
+				,"ldongNm" : "고달면"
+				,"lnoCd" : "4672036026100750001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 75
+				,"lnoSlno" : 1
+				,"lnoAdr" : "전라남도 곡성군 고달면 호곡리 75-1"
+				,"rdnmCd" : "467204853634"
+				,"rdnm" : "전라남도 곡성군 고달면 호곡도깨비길"
+				,"bldMnno" : 119
+				,"bldSlno" : 111
+				,"bldMngNo" : "4672036026201360001011691"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 곡성군 고달면 호곡도깨비길 119-111"
+				,"oldZipcd" : "516814"
+				,"newZipcd" : "57547"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.36342405733
+				,"lat" : 35.2553436799855
+				}
+				,{
+				"bizesId" : "MA010120220807897584"
+				,"bizesNm" : "법인두레자연나라주"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10102"
+				,"indsSclsNm" : "여관/모텔"
+				,"ksicCd" : "I55109"
+				,"ksicNm" : "기타 일반 및 생활 숙박시설 운영업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46720"
+				,"signguNm" : "곡성군"
+				,"adongCd" : "46720360"
+				,"adongNm" : "고달면"
+				,"ldongCd" : "4672036025"
+				,"ldongNm" : "고달면"
+				,"lnoCd" : "4672036025108600000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 860
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 곡성군 고달면 고달리 860"
+				,"rdnmCd" : "467203287001"
+				,"rdnm" : "전라남도 곡성군 고달면 고산로"
+				,"bldMnno" : 343
+				,"bldSlno" : 23
+				,"bldMngNo" : "4672036025108600000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 곡성군 고달면 고산로 343-23"
+				,"oldZipcd" : "516811"
+				,"newZipcd" : "57546"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.367278155002
+				,"lat" : 35.293665878333
+				}
+				,{
+				"bizesId" : "MA0101202307A0065487"
+				,"bizesNm" : "구례현상점"
+				,"brchNm" : ""
+				,"indsLclsCd" : "M1"
+				,"indsLclsNm" : "과학·기술"
+				,"indsMclsCd" : "M112"
+				,"indsMclsNm" : "전문 디자인"
+				,"indsSclsCd" : "M11203"
+				,"indsSclsNm" : "시각 디자인업"
+				,"ksicCd" : "M73203"
+				,"ksicNm" : "시각 디자인업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46730"
+				,"signguNm" : "구례군"
+				,"adongCd" : "46730370"
+				,"adongNm" : "산동면"
+				,"ldongCd" : "4673037033"
+				,"ldongNm" : "산동면"
+				,"lnoCd" : "4673037033108920004"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 892
+				,"lnoSlno" : 4
+				,"lnoAdr" : "전라남도 구례군 산동면 둔사리 892-4"
+				,"rdnmCd" : "467304664094"
+				,"rdnm" : "전라남도 구례군 산동면 둔기길"
+				,"bldMnno" : 198
+				,"bldSlno" : ""
+				,"bldMngNo" : "4673037033108920004000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 구례군 산동면 둔기길 198"
+				,"oldZipcd" : "542833"
+				,"newZipcd" : "57600"
+				,"dongNo" : ""
+				,"flrNo" : "1"
+				,"hoNo" : ""
+				,"lon" : 127.394493927301
+				,"lat" : 35.2881992177945
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 1,
+		"totalCount" : 4	}
+}

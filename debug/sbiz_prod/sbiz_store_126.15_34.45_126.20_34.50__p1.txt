@@ -1,0 +1,221 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA010120220802954920"
+				,"bizesNm" : "코디스"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G205"
+				,"indsMclsNm" : "식료품 소매"
+				,"indsSclsCd" : "G20504"
+				,"indsSclsNm" : "건어물/젓갈 소매업"
+				,"ksicCd" : "G47213"
+				,"ksicNm" : "건어물 및 젓갈류 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46900"
+				,"signguNm" : "진도군"
+				,"adongCd" : "46900350"
+				,"adongNm" : "지산면"
+				,"ldongCd" : "4690035029"
+				,"ldongNm" : "지산면"
+				,"lnoCd" : "4690035029108060001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 806
+				,"lnoSlno" : 1
+				,"lnoAdr" : "전라남도 진도군 지산면 보전리 806-1"
+				,"rdnmCd" : "469003301014"
+				,"rdnm" : "전라남도 진도군 지산면 보전로"
+				,"bldMnno" : 42
+				,"bldSlno" : ""
+				,"bldMngNo" : "4690035029108060001000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 진도군 지산면 보전로 42"
+				,"oldZipcd" : "539852"
+				,"newZipcd" : "58948"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.161035615219
+				,"lat" : 34.4787677269287
+				}
+				,{
+				"bizesId" : "MA0101202504A0018432"
+				,"bizesNm" : "홍홍단"
+				,"brchNm" : ""
+				,"indsLclsCd" : "R1"
+				,"indsLclsNm" : "예술·스포츠"
+				,"indsMclsCd" : "R104"
+				,"indsMclsNm" : "유원지·오락"
+				,"indsSclsCd" : "R10499"
+				,"indsSclsNm" : "기타 오락관련 서비스업"
+				,"ksicCd" : "R91299"
+				,"ksicNm" : "그 외 기타 분류 안된 오락관련 서비스업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46900"
+				,"signguNm" : "진도군"
+				,"adongCd" : "46900350"
+				,"adongNm" : "지산면"
+				,"ldongCd" : "4690035029"
+				,"ldongNm" : "지산면"
+				,"lnoCd" : "4690035029102850000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 285
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 진도군 지산면 보전리 285"
+				,"rdnmCd" : "469004703144"
+				,"rdnm" : "전라남도 진도군 지산면 상보전길"
+				,"bldMnno" : 22
+				,"bldSlno" : 11
+				,"bldMngNo" : "4690035029102850000015118"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 진도군 지산면 상보전길 22-11"
+				,"oldZipcd" : "539852"
+				,"newZipcd" : "58948"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.163497937734
+				,"lat" : 34.4599988603629
+				}
+				,{
+				"bizesId" : "MA0106202510A2114993"
+				,"bizesNm" : "해안다락쉼터"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I211"
+				,"indsMclsNm" : "주점"
+				,"indsSclsCd" : "I21104"
+				,"indsSclsNm" : "요리 주점"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46900"
+				,"signguNm" : "진도군"
+				,"adongCd" : "46900350"
+				,"adongNm" : "지산면"
+				,"ldongCd" : "4690035028"
+				,"ldongNm" : "지산면"
+				,"lnoCd" : "4690035028103840019"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 384
+				,"lnoSlno" : 19
+				,"lnoAdr" : "전라남도 진도군 지산면 거제리 384-19"
+				,"rdnmCd" : "469003301002"
+				,"rdnm" : "전라남도 진도군 지산면 거제길은로"
+				,"bldMnno" : 1
+				,"bldSlno" : 12
+				,"bldMngNo" : "4690035028103840019000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 진도군 지산면 거제길은로 1-12"
+				,"oldZipcd" : "539852"
+				,"newZipcd" : "58946"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.173009578017
+				,"lat" : 34.4853756666192
+				}
+				,{
+				"bizesId" : "MA010120220807832483"
+				,"bizesNm" : "길은푸르미체험관"
+				,"brchNm" : ""
+				,"indsLclsCd" : "R1"
+				,"indsLclsNm" : "예술·스포츠"
+				,"indsMclsCd" : "R104"
+				,"indsMclsNm" : "유원지·오락"
+				,"indsSclsCd" : "R10499"
+				,"indsSclsNm" : "기타 오락관련 서비스업"
+				,"ksicCd" : "R91299"
+				,"ksicNm" : "그 외 기타 분류 안된 오락관련 서비스업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46900"
+				,"signguNm" : "진도군"
+				,"adongCd" : "46900350"
+				,"adongNm" : "지산면"
+				,"ldongCd" : "4690035026"
+				,"ldongNm" : "지산면"
+				,"lnoCd" : "4690035026104940001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 494
+				,"lnoSlno" : 1
+				,"lnoAdr" : "전라남도 진도군 지산면 길은리 494-1"
+				,"rdnmCd" : "469004703057"
+				,"rdnm" : "전라남도 진도군 지산면 길은길"
+				,"bldMnno" : 66
+				,"bldSlno" : ""
+				,"bldMngNo" : "4690035026104940001014597"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 진도군 지산면 길은길 66"
+				,"oldZipcd" : "539852"
+				,"newZipcd" : "58946"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.18756990795
+				,"lat" : 34.4702121590378
+				}
+				,{
+				"bizesId" : "MA010120220807807878"
+				,"bizesNm" : "업소명없음"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G204"
+				,"indsMclsNm" : "종합 소매"
+				,"indsSclsCd" : "G20404"
+				,"indsSclsNm" : "슈퍼마켓"
+				,"ksicCd" : "G47129"
+				,"ksicNm" : "기타 음ㆍ식료품 위주 종합 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46900"
+				,"signguNm" : "진도군"
+				,"adongCd" : "46900350"
+				,"adongNm" : "지산면"
+				,"ldongCd" : "4690035026"
+				,"ldongNm" : "지산면"
+				,"lnoCd" : "4690035026104370007"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 437
+				,"lnoSlno" : 7
+				,"lnoAdr" : "전라남도 진도군 지산면 길은리 437-7"
+				,"rdnmCd" : "469004703057"
+				,"rdnm" : "전라남도 진도군 지산면 길은길"
+				,"bldMnno" : 12
+				,"bldSlno" : ""
+				,"bldMngNo" : "4690035026104370007014771"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 진도군 지산면 길은길 12"
+				,"oldZipcd" : "539852"
+				,"newZipcd" : "58946"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.190197368394
+				,"lat" : 34.4686340653049
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 1,
+		"totalCount" : 5	}
+}

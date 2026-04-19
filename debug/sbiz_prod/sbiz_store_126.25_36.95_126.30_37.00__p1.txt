@@ -1,0 +1,467 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA010120220806301521"
+				,"bizesNm" : "나오리"
+				,"brchNm" : ""
+				,"indsLclsCd" : "R1"
+				,"indsLclsNm" : "예술·스포츠"
+				,"indsMclsCd" : "R104"
+				,"indsMclsNm" : "유원지·오락"
+				,"indsSclsCd" : "R10499"
+				,"indsSclsNm" : "기타 오락관련 서비스업"
+				,"ksicCd" : "R91299"
+				,"ksicNm" : "그 외 기타 분류 안된 오락관련 서비스업"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44825"
+				,"signguNm" : "태안군"
+				,"adongCd" : "44825360"
+				,"adongNm" : "이원면"
+				,"ldongCd" : "4482536021"
+				,"ldongNm" : "이원면"
+				,"lnoCd" : "4482536021101590000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 159
+				,"lnoSlno" : ""
+				,"lnoAdr" : "충청남도 태안군 이원면 내리 159"
+				,"rdnmCd" : "448253264031"
+				,"rdnm" : "충청남도 태안군 이원면 원이로"
+				,"bldMnno" : 2811
+				,"bldSlno" : 6
+				,"bldMngNo" : "4482536021101590000028946"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청남도 태안군 이원면 원이로 2811-6"
+				,"oldZipcd" : "357922"
+				,"newZipcd" : "32100"
+				,"dongNo" : ""
+				,"flrNo" : "1"
+				,"hoNo" : ""
+				,"lon" : 126.28889897209
+				,"lat" : 36.9634856650459
+				}
+				,{
+				"bizesId" : "MA010120220812549755"
+				,"bizesNm" : "해랑해"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I212"
+				,"indsMclsNm" : "비알코올 "
+				,"indsSclsCd" : "I21201"
+				,"indsSclsNm" : "카페"
+				,"ksicCd" : "I56221"
+				,"ksicNm" : "커피 전문점"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44825"
+				,"signguNm" : "태안군"
+				,"adongCd" : "44825360"
+				,"adongNm" : "이원면"
+				,"ldongCd" : "4482536021"
+				,"ldongNm" : "이원면"
+				,"lnoCd" : "4482536021103120001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 312
+				,"lnoSlno" : 1
+				,"lnoAdr" : "충청남도 태안군 이원면 내리 312-1"
+				,"rdnmCd" : "448253264031"
+				,"rdnm" : "충청남도 태안군 이원면 원이로"
+				,"bldMnno" : 2771
+				,"bldSlno" : 160
+				,"bldMngNo" : "4482536021103120001000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청남도 태안군 이원면 원이로 2771-160"
+				,"oldZipcd" : "357922"
+				,"newZipcd" : "32100"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.289258157468
+				,"lat" : 36.9562522306623
+				}
+				,{
+				"bizesId" : "MA010120220801772280"
+				,"bizesNm" : "블루라군"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10102"
+				,"indsSclsNm" : "여관/모텔"
+				,"ksicCd" : "I55109"
+				,"ksicNm" : "기타 일반 및 생활 숙박시설 운영업"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44825"
+				,"signguNm" : "태안군"
+				,"adongCd" : "44825360"
+				,"adongNm" : "이원면"
+				,"ldongCd" : "4482536021"
+				,"ldongNm" : "이원면"
+				,"lnoCd" : "4482536021103190002"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 319
+				,"lnoSlno" : 2
+				,"lnoAdr" : "충청남도 태안군 이원면 내리 319-2"
+				,"rdnmCd" : "448253264031"
+				,"rdnm" : "충청남도 태안군 이원면 원이로"
+				,"bldMnno" : 2771
+				,"bldSlno" : 226
+				,"bldMngNo" : "4482536021103190002028285"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청남도 태안군 이원면 원이로 2771-226"
+				,"oldZipcd" : "357922"
+				,"newZipcd" : "32100"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.289647400485
+				,"lat" : 36.9542361634126
+				}
+				,{
+				"bizesId" : "MA010120220803105259"
+				,"bizesNm" : "산토리니"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10101"
+				,"indsSclsNm" : "호텔/리조트"
+				,"ksicCd" : "I55109"
+				,"ksicNm" : "기타 일반 및 생활 숙박시설 운영업"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44825"
+				,"signguNm" : "태안군"
+				,"adongCd" : "44825360"
+				,"adongNm" : "이원면"
+				,"ldongCd" : "4482536021"
+				,"ldongNm" : "이원면"
+				,"lnoCd" : "4482536021103100012"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 310
+				,"lnoSlno" : 12
+				,"lnoAdr" : "충청남도 태안군 이원면 내리 310-12"
+				,"rdnmCd" : "448253264031"
+				,"rdnm" : "충청남도 태안군 이원면 원이로"
+				,"bldMnno" : 2771
+				,"bldSlno" : 138
+				,"bldMngNo" : "4482536021103100012028292"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청남도 태안군 이원면 원이로 2771-138"
+				,"oldZipcd" : "357922"
+				,"newZipcd" : "32100"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.289623298329
+				,"lat" : 36.9568311002009
+				}
+				,{
+				"bizesId" : "MA010120220806293806"
+				,"bizesNm" : "메종드메르"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10102"
+				,"indsSclsNm" : "여관/모텔"
+				,"ksicCd" : "I55109"
+				,"ksicNm" : "기타 일반 및 생활 숙박시설 운영업"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44825"
+				,"signguNm" : "태안군"
+				,"adongCd" : "44825360"
+				,"adongNm" : "이원면"
+				,"ldongCd" : "4482536021"
+				,"ldongNm" : "이원면"
+				,"lnoCd" : "4482536021103100011"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 310
+				,"lnoSlno" : 11
+				,"lnoAdr" : "충청남도 태안군 이원면 내리 310-11"
+				,"rdnmCd" : "448253264031"
+				,"rdnm" : "충청남도 태안군 이원면 원이로"
+				,"bldMnno" : 2771
+				,"bldSlno" : 140
+				,"bldMngNo" : "4482536021103100011032369"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청남도 태안군 이원면 원이로 2771-140"
+				,"oldZipcd" : "357922"
+				,"newZipcd" : "32100"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.290015416399
+				,"lat" : 36.9569235523287
+				}
+				,{
+				"bizesId" : "MA0101202311A0078257"
+				,"bizesNm" : "청춘여관"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55109"
+				,"ksicNm" : "기타 일반 및 생활 숙박시설 운영업"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44825"
+				,"signguNm" : "태안군"
+				,"adongCd" : "44825360"
+				,"adongNm" : "이원면"
+				,"ldongCd" : "4482536021"
+				,"ldongNm" : "이원면"
+				,"lnoCd" : "4482536021103240002"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 324
+				,"lnoSlno" : 2
+				,"lnoAdr" : "충청남도 태안군 이원면 내리 324-2"
+				,"rdnmCd" : "448253264031"
+				,"rdnm" : "충청남도 태안군 이원면 원이로"
+				,"bldMnno" : 2771
+				,"bldSlno" : 182
+				,"bldMngNo" : "4482536021103240002000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청남도 태안군 이원면 원이로 2771-182"
+				,"oldZipcd" : "357922"
+				,"newZipcd" : "32100"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.290077722318
+				,"lat" : 36.9550496997908
+				}
+				,{
+				"bizesId" : "MA010120220813856388"
+				,"bizesNm" : "펜션해솔리아"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "L68112"
+				,"ksicNm" : "비주거용 건물 임대업"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44825"
+				,"signguNm" : "태안군"
+				,"adongCd" : "44825360"
+				,"adongNm" : "이원면"
+				,"ldongCd" : "4482536021"
+				,"ldongNm" : "이원면"
+				,"lnoCd" : "4482536021103240002"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 324
+				,"lnoSlno" : 2
+				,"lnoAdr" : "충청남도 태안군 이원면 내리 324-2"
+				,"rdnmCd" : "448253264031"
+				,"rdnm" : "충청남도 태안군 이원면 원이로"
+				,"bldMnno" : 2771
+				,"bldSlno" : 182
+				,"bldMngNo" : "4482536021103240002000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청남도 태안군 이원면 원이로 2771-182"
+				,"oldZipcd" : "357922"
+				,"newZipcd" : "32100"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.290077722318
+				,"lat" : 36.9550496997908
+				}
+				,{
+				"bizesId" : "MA010120220805173206"
+				,"bizesNm" : "행복한집"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55109"
+				,"ksicNm" : "기타 일반 및 생활 숙박시설 운영업"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44825"
+				,"signguNm" : "태안군"
+				,"adongCd" : "44825360"
+				,"adongNm" : "이원면"
+				,"ldongCd" : "4482536021"
+				,"ldongNm" : "이원면"
+				,"lnoCd" : "4482536021103100005"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 310
+				,"lnoSlno" : 5
+				,"lnoAdr" : "충청남도 태안군 이원면 내리 310-5"
+				,"rdnmCd" : "448253264031"
+				,"rdnm" : "충청남도 태안군 이원면 원이로"
+				,"bldMnno" : 2771
+				,"bldSlno" : 152
+				,"bldMngNo" : "4482536021103100005033607"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청남도 태안군 이원면 원이로 2771-152"
+				,"oldZipcd" : "357922"
+				,"newZipcd" : "32100"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.290267266516
+				,"lat" : 36.9564024375089
+				}
+				,{
+				"bizesId" : "MA0101202411A0061711"
+				,"bizesNm" : "씨엔블루"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55109"
+				,"ksicNm" : "기타 일반 및 생활 숙박시설 운영업"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44825"
+				,"signguNm" : "태안군"
+				,"adongCd" : "44825360"
+				,"adongNm" : "이원면"
+				,"ldongCd" : "4482536021"
+				,"ldongNm" : "이원면"
+				,"lnoCd" : "4482536021103100005"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 310
+				,"lnoSlno" : 5
+				,"lnoAdr" : "충청남도 태안군 이원면 내리 310-5"
+				,"rdnmCd" : "448253264031"
+				,"rdnm" : "충청남도 태안군 이원면 원이로"
+				,"bldMnno" : 2771
+				,"bldSlno" : 152
+				,"bldMngNo" : "4482536021103100005033607"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청남도 태안군 이원면 원이로 2771-152"
+				,"oldZipcd" : "357922"
+				,"newZipcd" : "32100"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.290267266516
+				,"lat" : 36.9564024375089
+				}
+				,{
+				"bizesId" : "MA0101202212A0053964"
+				,"bizesNm" : "만대피싱호"
+				,"brchNm" : ""
+				,"indsLclsCd" : "R1"
+				,"indsLclsNm" : "예술·스포츠"
+				,"indsMclsCd" : "R104"
+				,"indsMclsNm" : "유원지·오락"
+				,"indsSclsCd" : "R10409"
+				,"indsSclsNm" : "수상/해양 레저업"
+				,"ksicCd" : "R91239"
+				,"ksicNm" : "기타 수상오락 서비스업"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44825"
+				,"signguNm" : "태안군"
+				,"adongCd" : "44825360"
+				,"adongNm" : "이원면"
+				,"ldongCd" : "4482536021"
+				,"ldongNm" : "이원면"
+				,"lnoCd" : "4482536021101350000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 135
+				,"lnoSlno" : ""
+				,"lnoAdr" : "충청남도 태안군 이원면 내리 135"
+				,"rdnmCd" : "448253264031"
+				,"rdnm" : "충청남도 태안군 이원면 원이로"
+				,"bldMnno" : 2865
+				,"bldSlno" : 26
+				,"bldMngNo" : "4482536021101350000031240"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청남도 태안군 이원면 원이로 2865-26"
+				,"oldZipcd" : "357922"
+				,"newZipcd" : "32100"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.29329282301
+				,"lat" : 36.9679811976729
+				}
+				,{
+				"bizesId" : "MA010120220805310213"
+				,"bizesNm" : "우리건축"
+				,"brchNm" : ""
+				,"indsLclsCd" : "M1"
+				,"indsLclsNm" : "과학·기술"
+				,"indsMclsCd" : "M112"
+				,"indsMclsNm" : "전문 디자인"
+				,"indsSclsCd" : "M11201"
+				,"indsSclsNm" : "인테리어 디자인업"
+				,"ksicCd" : "M73201"
+				,"ksicNm" : "인테리어 디자인업"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44825"
+				,"signguNm" : "태안군"
+				,"adongCd" : "44825360"
+				,"adongNm" : "이원면"
+				,"ldongCd" : "4482536021"
+				,"ldongNm" : "이원면"
+				,"lnoCd" : "4482536021102410000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 241
+				,"lnoSlno" : ""
+				,"lnoAdr" : "충청남도 태안군 이원면 내리 241"
+				,"rdnmCd" : "448253264031"
+				,"rdnm" : "충청남도 태안군 이원면 원이로"
+				,"bldMnno" : 2762
+				,"bldSlno" : 27
+				,"bldMngNo" : "4482536021102410000032337"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청남도 태안군 이원면 원이로 2762-27"
+				,"oldZipcd" : "357922"
+				,"newZipcd" : "32100"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.294448711273
+				,"lat" : 36.9595450573381
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 1,
+		"totalCount" : 11	}
+}

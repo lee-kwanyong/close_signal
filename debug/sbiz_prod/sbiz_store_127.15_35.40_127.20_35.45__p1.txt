@@ -1,0 +1,262 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA0101202303A0093440"
+				,"bizesNm" : "모이라"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I212"
+				,"indsMclsNm" : "비알코올 "
+				,"indsSclsCd" : "I21201"
+				,"indsSclsNm" : "카페"
+				,"ksicCd" : "I56221"
+				,"ksicNm" : "커피 전문점"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52770"
+				,"signguNm" : "순창군"
+				,"adongCd" : "52770310"
+				,"adongNm" : "인계면"
+				,"ldongCd" : "5277031021"
+				,"ldongNm" : "인계면"
+				,"lnoCd" : "5277031021107430000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 743
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전북특별자치도 순창군 인계면 갑동리 743"
+				,"rdnmCd" : "527703278039"
+				,"rdnm" : "전북특별자치도 순창군 인계면 인성로"
+				,"bldMnno" : 133
+				,"bldSlno" : 16
+				,"bldMngNo" : "4577031021107430000000001"
+				,"bldNm" : "모이라카페"
+				,"rdnmAdr" : "전북특별자치도 순창군 인계면 인성로 133-16"
+				,"oldZipcd" : "595911"
+				,"newZipcd" : "56018"
+				,"dongNo" : ""
+				,"flrNo" : "1"
+				,"hoNo" : ""
+				,"lon" : 127.153954435768
+				,"lat" : 35.414407949236
+				}
+				,{
+				"bizesId" : "MA010120220807425233"
+				,"bizesNm" : "순창민속원"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G218"
+				,"indsMclsNm" : "장식품 소매"
+				,"indsSclsCd" : "G21801"
+				,"indsSclsNm" : "예술품 소매업"
+				,"ksicCd" : "G47841"
+				,"ksicNm" : "예술품 및 골동품 소매업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52770"
+				,"signguNm" : "순창군"
+				,"adongCd" : "52770310"
+				,"adongNm" : "인계면"
+				,"ldongCd" : "5277031027"
+				,"ldongNm" : "인계면"
+				,"lnoCd" : "5277031027103870004"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 387
+				,"lnoSlno" : 4
+				,"lnoAdr" : "전북특별자치도 순창군 인계면 마흘리 387-4"
+				,"rdnmCd" : "527704634160"
+				,"rdnm" : "전북특별자치도 순창군 인계면 소마길"
+				,"bldMnno" : 11
+				,"bldSlno" : 16
+				,"bldMngNo" : "4577031027003870004000131"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 순창군 인계면 소마길 11-16"
+				,"oldZipcd" : "595911"
+				,"newZipcd" : "56016"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.169923474166
+				,"lat" : 35.4217413076579
+				}
+				,{
+				"bizesId" : "MA0101202501A0024078"
+				,"bizesNm" : "푸른들"
+				,"brchNm" : ""
+				,"indsLclsCd" : "S2"
+				,"indsLclsNm" : "수리·개인"
+				,"indsMclsCd" : "S210"
+				,"indsMclsNm" : "장례식장 "
+				,"indsSclsCd" : "S21002"
+				,"indsSclsNm" : "화장터/묘지/납골당"
+				,"ksicCd" : "S96922"
+				,"ksicNm" : "화장터 운영, 묘지 분양 및 관리업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52770"
+				,"signguNm" : "순창군"
+				,"adongCd" : "52770310"
+				,"adongNm" : "인계면"
+				,"ldongCd" : "5277031029"
+				,"ldongNm" : "인계면"
+				,"lnoCd" : "5277031029102850000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 285
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전북특별자치도 순창군 인계면 중산리 285"
+				,"rdnmCd" : "527703278040"
+				,"rdnm" : "전북특별자치도 순창군 인계면 인중로"
+				,"bldMnno" : 254
+				,"bldSlno" : 14
+				,"bldMngNo" : "4577031029102850000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 순창군 인계면 인중로 254-14"
+				,"oldZipcd" : "595911"
+				,"newZipcd" : "56019"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.171910068958
+				,"lat" : 35.4083538909128
+				}
+				,{
+				"bizesId" : "MA010120220813023026"
+				,"bizesNm" : "디라프"
+				,"brchNm" : ""
+				,"indsLclsCd" : "P1"
+				,"indsLclsNm" : "교육"
+				,"indsMclsCd" : "P106"
+				,"indsMclsNm" : "기타 교육"
+				,"indsSclsCd" : "P10603"
+				,"indsSclsNm" : "요가/필라테스 학원"
+				,"ksicCd" : "P85612"
+				,"ksicNm" : "기타 스포츠 교육기관"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52770"
+				,"signguNm" : "순창군"
+				,"adongCd" : "52770380"
+				,"adongNm" : "적성면"
+				,"ldongCd" : "5277038022"
+				,"ldongNm" : "적성면"
+				,"lnoCd" : "5277038022103330000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 333
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전북특별자치도 순창군 적성면 대산리 333"
+				,"rdnmCd" : "527704634101"
+				,"rdnm" : "전북특별자치도 순창군 적성면 묘동길"
+				,"bldMnno" : 52
+				,"bldSlno" : 2
+				,"bldMngNo" : "4577038022003330000000009"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 순창군 적성면 묘동길 52-2"
+				,"oldZipcd" : "595812"
+				,"newZipcd" : "56022"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.177446504872
+				,"lat" : 35.4178367883649
+				}
+				,{
+				"bizesId" : "MA0101202412A0055458"
+				,"bizesNm" : "레저아카데미"
+				,"brchNm" : ""
+				,"indsLclsCd" : "P1"
+				,"indsLclsNm" : "교육"
+				,"indsMclsCd" : "P106"
+				,"indsMclsNm" : "기타 교육"
+				,"indsSclsCd" : "P10603"
+				,"indsSclsNm" : "요가/필라테스 학원"
+				,"ksicCd" : "P85612"
+				,"ksicNm" : "기타 스포츠 교육기관"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52770"
+				,"signguNm" : "순창군"
+				,"adongCd" : "52770380"
+				,"adongNm" : "적성면"
+				,"ldongCd" : "5277038022"
+				,"ldongNm" : "적성면"
+				,"lnoCd" : "5277038022103330000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 333
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전북특별자치도 순창군 적성면 대산리 333"
+				,"rdnmCd" : "527704634101"
+				,"rdnm" : "전북특별자치도 순창군 적성면 묘동길"
+				,"bldMnno" : 52
+				,"bldSlno" : 2
+				,"bldMngNo" : "4577038022003330000000009"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 순창군 적성면 묘동길 52-2"
+				,"oldZipcd" : "595812"
+				,"newZipcd" : "56022"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.177446504872
+				,"lat" : 35.4178367883649
+				}
+				,{
+				"bizesId" : "MA0101202412A0004359"
+				,"bizesNm" : "파인렌트카"
+				,"brchNm" : ""
+				,"indsLclsCd" : "N1"
+				,"indsLclsNm" : "시설관리·임대"
+				,"indsMclsCd" : "N109"
+				,"indsMclsNm" : "운송장비 대여"
+				,"indsSclsCd" : "N10901"
+				,"indsSclsNm" : "자동차 대여업"
+				,"ksicCd" : "N76110"
+				,"ksicNm" : "자동차 임대업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52770"
+				,"signguNm" : "순창군"
+				,"adongCd" : "52770380"
+				,"adongNm" : "적성면"
+				,"ldongCd" : "5277038021"
+				,"ldongNm" : "적성면"
+				,"lnoCd" : "5277038021105760000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 576
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전북특별자치도 순창군 적성면 지북리 576"
+				,"rdnmCd" : "527703278039"
+				,"rdnm" : "전북특별자치도 순창군 적성면 인성로"
+				,"bldMnno" : 823
+				,"bldSlno" : ""
+				,"bldMngNo" : "4577038021005760000000256"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 순창군 적성면 인성로 823"
+				,"oldZipcd" : "595812"
+				,"newZipcd" : "56023"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.190902089919
+				,"lat" : 35.4041161974277
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 1,
+		"totalCount" : 6	}
+}

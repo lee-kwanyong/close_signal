@@ -1,0 +1,508 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA0101202412A0018830"
+				,"bizesNm" : "내집처럼종합청소"
+				,"brchNm" : ""
+				,"indsLclsCd" : "N1"
+				,"indsLclsNm" : "시설관리·임대"
+				,"indsMclsCd" : "N102"
+				,"indsMclsNm" : "청소·방제"
+				,"indsSclsCd" : "N10201"
+				,"indsSclsNm" : "건축물 일반 청소업"
+				,"ksicCd" : "N74211"
+				,"ksicNm" : "건축물 일반 청소업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46830"
+				,"signguNm" : "영암군"
+				,"adongCd" : "46830350"
+				,"adongNm" : "도포면"
+				,"ldongCd" : "4683035027"
+				,"ldongNm" : "도포면"
+				,"lnoCd" : "4683035027102630002"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 263
+				,"lnoSlno" : 2
+				,"lnoAdr" : "전라남도 영암군 도포면 성산리 263-2"
+				,"rdnmCd" : "468304685244"
+				,"rdnm" : "전라남도 영암군 도포면 성덕길"
+				,"bldMnno" : 45
+				,"bldSlno" : 3
+				,"bldMngNo" : "4683035027102630002013339"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 영암군 도포면 성덕길 45-3"
+				,"oldZipcd" : "526833"
+				,"newZipcd" : "58431"
+				,"dongNo" : ""
+				,"flrNo" : "1"
+				,"hoNo" : ""
+				,"lon" : 126.681452494647
+				,"lat" : 34.8631579199718
+				}
+				,{
+				"bizesId" : "MA0101202411A0025388"
+				,"bizesNm" : "온담베이커리&카페"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I210"
+				,"indsMclsNm" : "기타 간이"
+				,"indsSclsCd" : "I21001"
+				,"indsSclsNm" : "빵/도넛"
+				,"ksicCd" : "I56191"
+				,"ksicNm" : "제과점업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46830"
+				,"signguNm" : "영암군"
+				,"adongCd" : "46830330"
+				,"adongNm" : "신북면"
+				,"ldongCd" : "4683033030"
+				,"ldongNm" : "신북면"
+				,"lnoCd" : "4683033030101000003"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 100
+				,"lnoSlno" : 3
+				,"lnoAdr" : "전라남도 영암군 신북면 월평리 100-3"
+				,"rdnmCd" : "468303284049"
+				,"rdnm" : "전라남도 영암군 신북면 예향로"
+				,"bldMnno" : 2504
+				,"bldSlno" : ""
+				,"bldMngNo" : "4683033030101000003000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 영암군 신북면 예향로 2504"
+				,"oldZipcd" : "526812"
+				,"newZipcd" : "58401"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.689016174959
+				,"lat" : 34.8845766763632
+				}
+				,{
+				"bizesId" : "MA0106202509A0013066"
+				,"bizesNm" : "희음악홀주점"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I211"
+				,"indsMclsNm" : "주점"
+				,"indsSclsCd" : "I21101"
+				,"indsSclsNm" : "일반 유흥 주점"
+				,"ksicCd" : "I56211"
+				,"ksicNm" : "일반 유흥 주점업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46830"
+				,"signguNm" : "영암군"
+				,"adongCd" : "46830330"
+				,"adongNm" : "신북면"
+				,"ldongCd" : "4683033030"
+				,"ldongNm" : "신북면"
+				,"lnoCd" : "4683033030101080002"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 108
+				,"lnoSlno" : 2
+				,"lnoAdr" : "전라남도 영암군 신북면 월평리 108-2"
+				,"rdnmCd" : "468303284049"
+				,"rdnm" : "전라남도 영암군 신북면 예향로"
+				,"bldMnno" : 2536
+				,"bldSlno" : ""
+				,"bldMngNo" : "4683033030101080002029230"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 영암군 신북면 예향로 2536"
+				,"oldZipcd" : "526812"
+				,"newZipcd" : "58401"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.689869471244
+				,"lat" : 34.8874723366403
+				}
+				,{
+				"bizesId" : "MA0106202511A2437995"
+				,"bizesNm" : "명가한식뷔페"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I207"
+				,"indsMclsNm" : "구내식당·뷔페"
+				,"indsSclsCd" : "I20702"
+				,"indsSclsNm" : "뷔페"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46830"
+				,"signguNm" : "영암군"
+				,"adongCd" : "46830330"
+				,"adongNm" : "신북면"
+				,"ldongCd" : "4683033030"
+				,"ldongNm" : "신북면"
+				,"lnoCd" : "4683033030102360017"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 236
+				,"lnoSlno" : 17
+				,"lnoAdr" : "전라남도 영암군 신북면 월평리 236-17"
+				,"rdnmCd" : "468303284049"
+				,"rdnm" : "전라남도 영암군 신북면 예향로"
+				,"bldMnno" : 2589
+				,"bldSlno" : ""
+				,"bldMngNo" : "4683033030102360017000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 영암군 신북면 예향로 2589"
+				,"oldZipcd" : "526812"
+				,"newZipcd" : "58401"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.691131413236
+				,"lat" : 34.8922709722594
+				}
+				,{
+				"bizesId" : "MA0101202406A0557396"
+				,"bizesNm" : "씨제이유통"
+				,"brchNm" : "영암지점"
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G204"
+				,"indsMclsNm" : "종합 소매"
+				,"indsSclsCd" : "G20404"
+				,"indsSclsNm" : "슈퍼마켓"
+				,"ksicCd" : "G47129"
+				,"ksicNm" : "기타 음ㆍ식료품 위주 종합 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46830"
+				,"signguNm" : "영암군"
+				,"adongCd" : "46830330"
+				,"adongNm" : "신북면"
+				,"ldongCd" : "4683033030"
+				,"ldongNm" : "신북면"
+				,"lnoCd" : "4683033030102350060"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 235
+				,"lnoSlno" : 60
+				,"lnoAdr" : "전라남도 영암군 신북면 월평리 235-60"
+				,"rdnmCd" : "468303284049"
+				,"rdnm" : "전라남도 영암군 신북면 예향로"
+				,"bldMnno" : 2605
+				,"bldSlno" : ""
+				,"bldMngNo" : "4683033030102350000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 영암군 신북면 예향로 2605"
+				,"oldZipcd" : "526812"
+				,"newZipcd" : "58401"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.691140835013
+				,"lat" : 34.8926766238992
+				}
+				,{
+				"bizesId" : "MA0106202506A0993660"
+				,"bizesNm" : "월평리 아메리카노"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46830"
+				,"signguNm" : "영암군"
+				,"adongCd" : "46830330"
+				,"adongNm" : "신북면"
+				,"ldongCd" : "4683033030"
+				,"ldongNm" : "신북면"
+				,"lnoCd" : "4683033030101310027"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 131
+				,"lnoSlno" : 27
+				,"lnoAdr" : "전라남도 영암군 신북면 월평리 131-27"
+				,"rdnmCd" : "468304685473"
+				,"rdnm" : "전라남도 영암군 신북면 황금동1길"
+				,"bldMnno" : 11
+				,"bldSlno" : 4
+				,"bldMngNo" : "4683033030101310010029176"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 영암군 신북면 황금동1길 11-4"
+				,"oldZipcd" : "526812"
+				,"newZipcd" : "58401"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.691210744833
+				,"lat" : 34.8886115093149
+				}
+				,{
+				"bizesId" : "MA0101202408A0060950"
+				,"bizesNm" : "세미플라워"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G219"
+				,"indsMclsNm" : "식물 소매"
+				,"indsSclsCd" : "G21901"
+				,"indsSclsNm" : "꽃집"
+				,"ksicCd" : "G47851"
+				,"ksicNm" : "화초 및 식물 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46830"
+				,"signguNm" : "영암군"
+				,"adongCd" : "46830330"
+				,"adongNm" : "신북면"
+				,"ldongCd" : "4683033030"
+				,"ldongNm" : "신북면"
+				,"lnoCd" : "4683033030101290008"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 129
+				,"lnoSlno" : 8
+				,"lnoAdr" : "전라남도 영암군 신북면 월평리 129-8"
+				,"rdnmCd" : "468303295106"
+				,"rdnm" : "전라남도 영암군 신북면 황금동로"
+				,"bldMnno" : 68
+				,"bldSlno" : ""
+				,"bldMngNo" : "4683033030101290008029340"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 영암군 신북면 황금동로 68"
+				,"oldZipcd" : "526812"
+				,"newZipcd" : "58401"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.691891744216
+				,"lat" : 34.8878740928529
+				}
+				,{
+				"bizesId" : "MA0101202408A0046554"
+				,"bizesNm" : "문드럼음악교습소"
+				,"brchNm" : ""
+				,"indsLclsCd" : "P1"
+				,"indsLclsNm" : "교육"
+				,"indsMclsCd" : "P106"
+				,"indsMclsNm" : "기타 교육"
+				,"indsSclsCd" : "P10609"
+				,"indsSclsNm" : "음악학원"
+				,"ksicCd" : "P85621"
+				,"ksicNm" : "음악학원"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46830"
+				,"signguNm" : "영암군"
+				,"adongCd" : "46830330"
+				,"adongNm" : "신북면"
+				,"ldongCd" : "4683033030"
+				,"ldongNm" : "신북면"
+				,"lnoCd" : "4683033030101290008"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 129
+				,"lnoSlno" : 8
+				,"lnoAdr" : "전라남도 영암군 신북면 월평리 129-8"
+				,"rdnmCd" : "468303295106"
+				,"rdnm" : "전라남도 영암군 신북면 황금동로"
+				,"bldMnno" : 68
+				,"bldSlno" : ""
+				,"bldMngNo" : "4683033030101290008029340"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 영암군 신북면 황금동로 68"
+				,"oldZipcd" : "526812"
+				,"newZipcd" : "58401"
+				,"dongNo" : ""
+				,"flrNo" : "2"
+				,"hoNo" : ""
+				,"lon" : 126.691891744216
+				,"lat" : 34.8878740928529
+				}
+				,{
+				"bizesId" : "MA0106202510A1149137"
+				,"bizesNm" : "한국전복연구소"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G221"
+				,"indsMclsNm" : "기타 상품 소매"
+				,"indsSclsCd" : "G22199"
+				,"indsSclsNm" : "그 외 기타 상품 전문 소매업"
+				,"ksicCd" : "G47859"
+				,"ksicNm" : "그 외 기타 분류 안된 상품 전문 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46830"
+				,"signguNm" : "영암군"
+				,"adongCd" : "46830330"
+				,"adongNm" : "신북면"
+				,"ldongCd" : "4683033030"
+				,"ldongNm" : "신북면"
+				,"lnoCd" : "4683033030101500001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 150
+				,"lnoSlno" : 1
+				,"lnoAdr" : "전라남도 영암군 신북면 월평리 150-1"
+				,"rdnmCd" : "468303295001"
+				,"rdnm" : "전라남도 영암군 신북면 간은정로"
+				,"bldMnno" : 18
+				,"bldSlno" : 1
+				,"bldMngNo" : "4683033030101500001029141"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 영암군 신북면 간은정로 18-1"
+				,"oldZipcd" : "526812"
+				,"newZipcd" : "58401"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.692532124017
+				,"lat" : 34.8892278074443
+				}
+				,{
+				"bizesId" : "MA0101202503A0054153"
+				,"bizesNm" : "모카디자인필름MOKADESIGNFILM"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G210"
+				,"indsMclsNm" : "철물·건설자재 소매"
+				,"indsSclsCd" : "G21002"
+				,"indsSclsNm" : "벽지/장판/마루 소매업"
+				,"ksicCd" : "G47513"
+				,"ksicNm" : "벽지, 마루덮개 및 장판류 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46830"
+				,"signguNm" : "영암군"
+				,"adongCd" : "46830330"
+				,"adongNm" : "신북면"
+				,"ldongCd" : "4683033021"
+				,"ldongNm" : "신북면"
+				,"lnoCd" : "4683033021106610018"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 661
+				,"lnoSlno" : 18
+				,"lnoAdr" : "전라남도 영암군 신북면 모산리 661-18"
+				,"rdnmCd" : "468303295077"
+				,"rdnm" : "전라남도 영암군 신북면 아리랑로"
+				,"bldMnno" : 48
+				,"bldSlno" : 3
+				,"bldMngNo" : "4683033021106610018031837"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 영암군 신북면 아리랑로 48-3"
+				,"oldZipcd" : "526813"
+				,"newZipcd" : "58401"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.693857814277
+				,"lat" : 34.8945854398067
+				}
+				,{
+				"bizesId" : "MA0106202511A2124117"
+				,"bizesNm" : "카페&푸드"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46830"
+				,"signguNm" : "영암군"
+				,"adongCd" : "46830330"
+				,"adongNm" : "신북면"
+				,"ldongCd" : "4683033030"
+				,"ldongNm" : "신북면"
+				,"lnoCd" : "4683033030100090007"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 9
+				,"lnoSlno" : 7
+				,"lnoAdr" : "전라남도 영암군 신북면 월평리 9-7"
+				,"rdnmCd" : "468303295001"
+				,"rdnm" : "전라남도 영암군 신북면 간은정로"
+				,"bldMnno" : 57
+				,"bldSlno" : ""
+				,"bldMngNo" : "4683033030100090007029081"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 영암군 신북면 간은정로 57"
+				,"oldZipcd" : "526812"
+				,"newZipcd" : "58401"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.695271867339
+				,"lat" : 34.8908752455673
+				}
+				,{
+				"bizesId" : "MA0106202511A0863005"
+				,"bizesNm" : "청춘아람"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G205"
+				,"indsMclsNm" : "식료품 소매"
+				,"indsSclsCd" : "G20502"
+				,"indsSclsNm" : "가축 사료 소매업"
+				,"ksicCd" : "G47211"
+				,"ksicNm" : "곡물, 곡분 및 가축 사료 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46830"
+				,"signguNm" : "영암군"
+				,"adongCd" : "46830330"
+				,"adongNm" : "신북면"
+				,"ldongCd" : "4683033029"
+				,"ldongNm" : "신북면"
+				,"lnoCd" : "4683033029103800001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 380
+				,"lnoSlno" : 1
+				,"lnoAdr" : "전라남도 영암군 신북면 이천리 380-1"
+				,"rdnmCd" : "468304685504"
+				,"rdnm" : "전라남도 영암군 신북면 이천양지촌길"
+				,"bldMnno" : 28
+				,"bldSlno" : ""
+				,"bldMngNo" : "4683033029103800001030303"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 영암군 신북면 이천양지촌길 28"
+				,"oldZipcd" : "526813"
+				,"newZipcd" : "58403"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.695866940454
+				,"lat" : 34.8778245183503
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 2,
+		"totalCount" : 112	}
+}

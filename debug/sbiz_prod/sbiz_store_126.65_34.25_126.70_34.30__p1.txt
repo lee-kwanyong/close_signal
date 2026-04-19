@@ -1,0 +1,139 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA010120220812844092"
+				,"bizesNm" : "정도리펜션"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55109"
+				,"ksicNm" : "기타 일반 및 생활 숙박시설 운영업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46890"
+				,"signguNm" : "완도군"
+				,"adongCd" : "46890250"
+				,"adongNm" : "완도읍"
+				,"ldongCd" : "4689025028"
+				,"ldongNm" : "완도읍"
+				,"lnoCd" : "4689025028106740000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 674
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 완도군 완도읍 정도리 674"
+				,"rdnmCd" : "468904854326"
+				,"rdnm" : "전라남도 완도군 완도읍 정도1길"
+				,"bldMnno" : 94
+				,"bldSlno" : 1
+				,"bldMngNo" : "4689025028106740000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 완도군 완도읍 정도1길 94-1"
+				,"oldZipcd" : "537806"
+				,"newZipcd" : "59110"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.699820406161
+				,"lat" : 34.2975682829534
+				}
+				,{
+				"bizesId" : "MA0101202503A0028547"
+				,"bizesNm" : "친구네민박"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55104"
+				,"ksicNm" : "민박업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46890"
+				,"signguNm" : "완도군"
+				,"adongCd" : "46890250"
+				,"adongNm" : "완도읍"
+				,"ldongCd" : "4689025028"
+				,"ldongNm" : "완도읍"
+				,"lnoCd" : "4689025028106770003"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 677
+				,"lnoSlno" : 3
+				,"lnoAdr" : "전라남도 완도군 완도읍 정도리 677-3"
+				,"rdnmCd" : "468904854326"
+				,"rdnm" : "전라남도 완도군 완도읍 정도1길"
+				,"bldMnno" : 94
+				,"bldSlno" : ""
+				,"bldMngNo" : "4689025027106770003000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 완도군 완도읍 정도1길 94"
+				,"oldZipcd" : "537806"
+				,"newZipcd" : "59110"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.699898461042
+				,"lat" : 34.2970005398885
+				}
+				,{
+				"bizesId" : "MA010120220812353207"
+				,"bizesNm" : "산호모텔"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10102"
+				,"indsSclsNm" : "여관/모텔"
+				,"ksicCd" : "I55102"
+				,"ksicNm" : "여관업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46890"
+				,"signguNm" : "완도군"
+				,"adongCd" : "46890250"
+				,"adongNm" : "완도읍"
+				,"ldongCd" : "4689025028"
+				,"ldongNm" : "완도읍"
+				,"lnoCd" : "4689025028106070012"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 607
+				,"lnoSlno" : 12
+				,"lnoAdr" : "전라남도 완도군 완도읍 정도리 607-12"
+				,"rdnmCd" : "468904854326"
+				,"rdnm" : "전라남도 완도군 완도읍 정도1길"
+				,"bldMnno" : 92
+				,"bldSlno" : ""
+				,"bldMngNo" : "4689025027106060001003059"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 완도군 완도읍 정도1길 92"
+				,"oldZipcd" : "537806"
+				,"newZipcd" : "59110"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.699938607788
+				,"lat" : 34.2979291656733
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 1,
+		"totalCount" : 3	}
+}

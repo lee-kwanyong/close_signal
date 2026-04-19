@@ -1,0 +1,303 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA0101202406A0138155"
+				,"bizesNm" : "진가죽공방"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G209"
+				,"indsMclsNm" : "섬유·의복·신발 소매"
+				,"indsSclsCd" : "G20911"
+				,"indsSclsNm" : "가방 소매업"
+				,"ksicCd" : "G47440"
+				,"ksicNm" : "가방 및 기타 가죽제품 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46830"
+				,"signguNm" : "영암군"
+				,"adongCd" : "46830320"
+				,"adongNm" : "금정면"
+				,"ldongCd" : "4683032021"
+				,"ldongNm" : "금정면"
+				,"lnoCd" : "4683032021103080001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 308
+				,"lnoSlno" : 1
+				,"lnoAdr" : "전라남도 영암군 금정면 연보리 308-1"
+				,"rdnmCd" : "468303295078"
+				,"rdnm" : "전라남도 영암군 금정면 여운재로"
+				,"bldMnno" : 830
+				,"bldSlno" : ""
+				,"bldMngNo" : "4683032021103080001000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 영암군 금정면 여운재로 830"
+				,"oldZipcd" : "526913"
+				,"newZipcd" : "58407"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.750752650629
+				,"lat" : 34.8456612375998
+				}
+				,{
+				"bizesId" : "MA010120220807751163"
+				,"bizesNm" : "업소명없음"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G204"
+				,"indsMclsNm" : "종합 소매"
+				,"indsSclsCd" : "G20404"
+				,"indsSclsNm" : "슈퍼마켓"
+				,"ksicCd" : "G47129"
+				,"ksicNm" : "기타 음ㆍ식료품 위주 종합 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46830"
+				,"signguNm" : "영암군"
+				,"adongCd" : "46830320"
+				,"adongNm" : "금정면"
+				,"ldongCd" : "4683032025"
+				,"ldongNm" : "금정면"
+				,"lnoCd" : "4683032025107180011"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 718
+				,"lnoSlno" : 11
+				,"lnoAdr" : "전라남도 영암군 금정면 남송리 718-11"
+				,"rdnmCd" : "468304685060"
+				,"rdnm" : "전라남도 영암군 금정면 남송길"
+				,"bldMnno" : 17
+				,"bldSlno" : 4
+				,"bldMngNo" : "4683032025107180011020222"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 영암군 금정면 남송길 17-4"
+				,"oldZipcd" : "526911"
+				,"newZipcd" : "58406"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.772852845555
+				,"lat" : 34.8485529522951
+				}
+				,{
+				"bizesId" : "MA0101202406A0050016"
+				,"bizesNm" : "금호가든"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46830"
+				,"signguNm" : "영암군"
+				,"adongCd" : "46830320"
+				,"adongNm" : "금정면"
+				,"ldongCd" : "4683032025"
+				,"ldongNm" : "금정면"
+				,"lnoCd" : "4683032025104690000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 469
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 영암군 금정면 남송리 469"
+				,"rdnmCd" : "468303295117"
+				,"rdnm" : "전라남도 영암군 금정면 영나로"
+				,"bldMnno" : 493
+				,"bldSlno" : ""
+				,"bldMngNo" : "4683032025104670000020108"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 영암군 금정면 영나로 493"
+				,"oldZipcd" : "526911"
+				,"newZipcd" : "58405"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.778060790166
+				,"lat" : 34.8391879619942
+				}
+				,{
+				"bizesId" : "MA010120220807744809"
+				,"bizesNm" : "낭주가스"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G214"
+				,"indsMclsNm" : "연료 소매"
+				,"indsSclsCd" : "G21403"
+				,"indsSclsNm" : "가정용 연료 소매업"
+				,"ksicCd" : "G47723"
+				,"ksicNm" : "가정용 가스 연료 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46830"
+				,"signguNm" : "영암군"
+				,"adongCd" : "46830320"
+				,"adongNm" : "금정면"
+				,"ldongCd" : "4683032025"
+				,"ldongNm" : "금정면"
+				,"lnoCd" : "4683032025105560000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 556
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 영암군 금정면 남송리 556"
+				,"rdnmCd" : "468303295021"
+				,"rdnm" : "전라남도 영암군 금정면 내산로"
+				,"bldMnno" : 117
+				,"bldSlno" : ""
+				,"bldMngNo" : "4683032025105560000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 영암군 금정면 내산로 117"
+				,"oldZipcd" : "526911"
+				,"newZipcd" : "58406"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.781739976378
+				,"lat" : 34.8453061423522
+				}
+				,{
+				"bizesId" : "MA010120220803094406"
+				,"bizesNm" : "운성목공예이야기"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G218"
+				,"indsMclsNm" : "장식품 소매"
+				,"indsSclsCd" : "G21802"
+				,"indsSclsNm" : "기념품점"
+				,"ksicCd" : "G47842"
+				,"ksicNm" : "기념품, 관광 민예품 및 장식용품 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46830"
+				,"signguNm" : "영암군"
+				,"adongCd" : "46830320"
+				,"adongNm" : "금정면"
+				,"ldongCd" : "4683032025"
+				,"ldongNm" : "금정면"
+				,"lnoCd" : "4683032025100400002"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 40
+				,"lnoSlno" : 2
+				,"lnoAdr" : "전라남도 영암군 금정면 남송리 40-2"
+				,"rdnmCd" : "468304685395"
+				,"rdnm" : "전라남도 영암군 금정면 인곡길"
+				,"bldMnno" : 164
+				,"bldSlno" : 8
+				,"bldMngNo" : "4683032025100400002000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 영암군 금정면 인곡길 164-8"
+				,"oldZipcd" : "526911"
+				,"newZipcd" : "58406"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.793517158657
+				,"lat" : 34.8446957218775
+				}
+				,{
+				"bizesId" : "MA010120220807739230"
+				,"bizesNm" : "국보옛날두부"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46830"
+				,"signguNm" : "영암군"
+				,"adongCd" : "46830320"
+				,"adongNm" : "금정면"
+				,"ldongCd" : "4683032028"
+				,"ldongNm" : "금정면"
+				,"lnoCd" : "4683032028100890014"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 89
+				,"lnoSlno" : 14
+				,"lnoAdr" : "전라남도 영암군 금정면 연소리 89-14"
+				,"rdnmCd" : "468303295117"
+				,"rdnm" : "전라남도 영암군 금정면 영나로"
+				,"bldMnno" : 23
+				,"bldSlno" : ""
+				,"bldMngNo" : "4683032028100890014020028"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 영암군 금정면 영나로 23"
+				,"oldZipcd" : "526913"
+				,"newZipcd" : "58423"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.798471661245
+				,"lat" : 34.8036719556657
+				}
+				,{
+				"bizesId" : "MA010120220807751109"
+				,"bizesNm" : "업소명없음"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G204"
+				,"indsMclsNm" : "종합 소매"
+				,"indsSclsCd" : "G20404"
+				,"indsSclsNm" : "슈퍼마켓"
+				,"ksicCd" : "G47129"
+				,"ksicNm" : "기타 음ㆍ식료품 위주 종합 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46830"
+				,"signguNm" : "영암군"
+				,"adongCd" : "46830320"
+				,"adongNm" : "금정면"
+				,"ldongCd" : "4683032028"
+				,"ldongNm" : "금정면"
+				,"lnoCd" : "4683032028100890014"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 89
+				,"lnoSlno" : 14
+				,"lnoAdr" : "전라남도 영암군 금정면 연소리 89-14"
+				,"rdnmCd" : "468303295117"
+				,"rdnm" : "전라남도 영암군 금정면 영나로"
+				,"bldMnno" : 23
+				,"bldSlno" : ""
+				,"bldMngNo" : "4683032028100890014020028"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 영암군 금정면 영나로 23"
+				,"oldZipcd" : "526913"
+				,"newZipcd" : "58423"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.798471661245
+				,"lat" : 34.8036719556657
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 1,
+		"totalCount" : 7	}
+}

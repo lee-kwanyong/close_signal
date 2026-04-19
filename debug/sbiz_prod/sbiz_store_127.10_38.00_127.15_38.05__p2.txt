@@ -1,0 +1,139 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA0106202509A1337629"
+				,"bizesNm" : "금강산컴퍼니"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G214"
+				,"indsMclsNm" : "연료 소매"
+				,"indsSclsCd" : "G21401"
+				,"indsSclsNm" : "주유소"
+				,"ksicCd" : "G47711"
+				,"ksicNm" : "운송장비용 주유소 운영업"
+				,"ctprvnCd" : "41"
+				,"ctprvnNm" : "경기도"
+				,"signguCd" : "41800"
+				,"signguNm" : "연천군"
+				,"adongCd" : "41800320"
+				,"adongNm" : "청산면"
+				,"ldongCd" : "4180032024"
+				,"ldongNm" : "청산면"
+				,"lnoCd" : "4180032024104980005"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 498
+				,"lnoSlno" : 5
+				,"lnoAdr" : "경기도 연천군 청산면 궁평리 498-5"
+				,"rdnmCd" : "418003351217"
+				,"rdnm" : "경기도 연천군 청산면 동서로"
+				,"bldMnno" : 1883
+				,"bldSlno" : ""
+				,"bldMngNo" : "4180032024104980005000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "경기도 연천군 청산면 동서로 1883"
+				,"oldZipcd" : "486851"
+				,"newZipcd" : "11020"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.104217131759
+				,"lat" : 38.0293420592608
+				}
+				,{
+				"bizesId" : "MA0106202509A1676297"
+				,"bizesNm" : "신의주찹쌀순대"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20102"
+				,"indsSclsNm" : "국/탕/찌개류"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "41"
+				,"ctprvnNm" : "경기도"
+				,"signguCd" : "41800"
+				,"signguNm" : "연천군"
+				,"adongCd" : "41800320"
+				,"adongNm" : "청산면"
+				,"ldongCd" : "4180032024"
+				,"ldongNm" : "청산면"
+				,"lnoCd" : "4180032024104090006"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 409
+				,"lnoSlno" : 6
+				,"lnoAdr" : "경기도 연천군 청산면 궁평리 409-6"
+				,"rdnmCd" : "418003215065"
+				,"rdnm" : "경기도 연천군 청산면 청창로"
+				,"bldMnno" : 471
+				,"bldSlno" : ""
+				,"bldMngNo" : "4180032024104090006019524"
+				,"bldNm" : ""
+				,"rdnmAdr" : "경기도 연천군 청산면 청창로 471"
+				,"oldZipcd" : "486851"
+				,"newZipcd" : "11020"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.109197560509
+				,"lat" : 38.0237337856409
+				}
+				,{
+				"bizesId" : "MA0106202510A2055530"
+				,"bizesNm" : "이레"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "41"
+				,"ctprvnNm" : "경기도"
+				,"signguCd" : "41800"
+				,"signguNm" : "연천군"
+				,"adongCd" : "41800320"
+				,"adongNm" : "청산면"
+				,"ldongCd" : "4180032024"
+				,"ldongNm" : "청산면"
+				,"lnoCd" : "4180032024100300015"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 30
+				,"lnoSlno" : 15
+				,"lnoAdr" : "경기도 연천군 청산면 궁평리 30-15"
+				,"rdnmCd" : "418004445177"
+				,"rdnm" : "경기도 연천군 청산면 아우라지길"
+				,"bldMnno" : 79
+				,"bldSlno" : ""
+				,"bldMngNo" : "4180032024100300015009780"
+				,"bldNm" : ""
+				,"rdnmAdr" : "경기도 연천군 청산면 아우라지길 79"
+				,"oldZipcd" : "486851"
+				,"newZipcd" : "11020"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.113489546387
+				,"lat" : 38.037423771855
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 2,
+		"totalCount" : 103	}
+}

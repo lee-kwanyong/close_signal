@@ -1,0 +1,139 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA0106202510A0915497"
+				,"bizesNm" : "삼호수산"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G205"
+				,"indsMclsNm" : "식료품 소매"
+				,"indsSclsCd" : "G20502"
+				,"indsSclsNm" : "가축 사료 소매업"
+				,"ksicCd" : "G47211"
+				,"ksicNm" : "곡물, 곡분 및 가축 사료 소매업"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44825"
+				,"signguNm" : "태안군"
+				,"adongCd" : "44825253"
+				,"adongNm" : "안면읍"
+				,"ldongCd" : "4482525323"
+				,"ldongNm" : "안면읍"
+				,"lnoCd" : "4482525323112650029"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 1265
+				,"lnoSlno" : 29
+				,"lnoAdr" : "충청남도 태안군 안면읍 창기리 1265-29"
+				,"rdnmCd" : "448254592118"
+				,"rdnm" : "충청남도 태안군 안면읍 백사장1길"
+				,"bldMnno" : 107
+				,"bldSlno" : ""
+				,"bldMngNo" : "4482525323112650029000290"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청남도 태안군 안면읍 백사장1길 107"
+				,"oldZipcd" : "357965"
+				,"newZipcd" : "32162"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.317407191809
+				,"lat" : 36.5859576091916
+				}
+				,{
+				"bizesId" : "MA0106202510A1220923"
+				,"bizesNm" : "홍일"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44825"
+				,"signguNm" : "태안군"
+				,"adongCd" : "44825253"
+				,"adongNm" : "안면읍"
+				,"ldongCd" : "4482525323"
+				,"ldongNm" : "안면읍"
+				,"lnoCd" : "4482525323112650000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 1265
+				,"lnoSlno" : ""
+				,"lnoAdr" : "충청남도 태안군 안면읍 창기리 1265"
+				,"rdnmCd" : "448254592118"
+				,"rdnm" : "충청남도 태안군 안면읍 백사장1길"
+				,"bldMnno" : 101
+				,"bldSlno" : 1
+				,"bldMngNo" : "4482525323112650025000286"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청남도 태안군 안면읍 백사장1길 101-1"
+				,"oldZipcd" : "357965"
+				,"newZipcd" : "32162"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.317797150348
+				,"lat" : 36.5860859994574
+				}
+				,{
+				"bizesId" : "MA0106202510A0960184"
+				,"bizesNm" : "드리니오션리조트"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10102"
+				,"indsSclsNm" : "여관/모텔"
+				,"ksicCd" : "I55102"
+				,"ksicNm" : "여관업"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44825"
+				,"signguNm" : "태안군"
+				,"adongCd" : "44825320"
+				,"adongNm" : "남면"
+				,"ldongCd" : "4482532028"
+				,"ldongNm" : "남면"
+				,"lnoCd" : "4482532028106970051"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 697
+				,"lnoSlno" : 51
+				,"lnoAdr" : "충청남도 태안군 남면 신온리 697-51"
+				,"rdnmCd" : "448254592091"
+				,"rdnm" : "충청남도 태안군 남면 드르니길"
+				,"bldMnno" : 53
+				,"bldSlno" : ""
+				,"bldMngNo" : "4482532028106970051004483"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청남도 태안군 남면 드르니길 53"
+				,"oldZipcd" : "357953"
+				,"newZipcd" : "32158"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.319320912853
+				,"lat" : 36.5970704236948
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 4,
+		"totalCount" : 303	}
+}

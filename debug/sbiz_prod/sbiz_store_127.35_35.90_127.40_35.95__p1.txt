@@ -1,0 +1,262 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA010120220807960035"
+				,"bizesNm" : "진보산장"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G204"
+				,"indsMclsNm" : "종합 소매"
+				,"indsSclsCd" : "G20404"
+				,"indsSclsNm" : "슈퍼마켓"
+				,"ksicCd" : "G47129"
+				,"ksicNm" : "기타 음ㆍ식료품 위주 종합 소매업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52720"
+				,"signguNm" : "진안군"
+				,"adongCd" : "52720400"
+				,"adongNm" : "주천면"
+				,"ldongCd" : "5272040022"
+				,"ldongNm" : "주천면"
+				,"lnoCd" : "5272040022120580000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 2058
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전북특별자치도 진안군 주천면 대불리 2058"
+				,"rdnmCd" : "527204622061"
+				,"rdnm" : "전북특별자치도 진안군 주천면 내처사길"
+				,"bldMnno" : 74
+				,"bldSlno" : 74
+				,"bldMngNo" : "4572040022120580000016348"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 진안군 주천면 내처사길 74-74"
+				,"oldZipcd" : "567831"
+				,"newZipcd" : "55400"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.354132907099
+				,"lat" : 35.930463948611
+				}
+				,{
+				"bizesId" : "MA0101202309A0052793"
+				,"bizesNm" : "미성"
+				,"brchNm" : ""
+				,"indsLclsCd" : "P1"
+				,"indsLclsNm" : "교육"
+				,"indsMclsCd" : "P107"
+				,"indsMclsNm" : "교육 지원"
+				,"indsSclsCd" : "P10799"
+				,"indsSclsNm" : "기타 교육지원 서비스업"
+				,"ksicCd" : "I55109"
+				,"ksicNm" : "기타 일반 및 생활 숙박시설 운영업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52720"
+				,"signguNm" : "진안군"
+				,"adongCd" : "52720400"
+				,"adongNm" : "주천면"
+				,"ldongCd" : "5272040022"
+				,"ldongNm" : "주천면"
+				,"lnoCd" : "5272040022118720001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 1872
+				,"lnoSlno" : 1
+				,"lnoAdr" : "전북특별자치도 진안군 주천면 대불리 1872-1"
+				,"rdnmCd" : "527203273020"
+				,"rdnm" : "전북특별자치도 진안군 주천면 동상주천로"
+				,"bldMnno" : 1009
+				,"bldSlno" : 5
+				,"bldMngNo" : "4572040022118720001000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 진안군 주천면 동상주천로 1009-5"
+				,"oldZipcd" : "567831"
+				,"newZipcd" : "55400"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.355185423057
+				,"lat" : 35.9403293961122
+				}
+				,{
+				"bizesId" : "MA010120220807170562"
+				,"bizesNm" : "운장산해마루캠핑"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G204"
+				,"indsMclsNm" : "종합 소매"
+				,"indsSclsCd" : "G20499"
+				,"indsSclsNm" : "그 외 기타 종합 소매업"
+				,"ksicCd" : "I55109"
+				,"ksicNm" : "기타 일반 및 생활 숙박시설 운영업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52720"
+				,"signguNm" : "진안군"
+				,"adongCd" : "52720400"
+				,"adongNm" : "주천면"
+				,"ldongCd" : "5272040022"
+				,"ldongNm" : "주천면"
+				,"lnoCd" : "5272040022119320000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 1932
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전북특별자치도 진안군 주천면 대불리 1932"
+				,"rdnmCd" : "527204622061"
+				,"rdnm" : "전북특별자치도 진안군 주천면 내처사길"
+				,"bldMnno" : 64
+				,"bldSlno" : ""
+				,"bldMngNo" : "4572040022119320000013850"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 진안군 주천면 내처사길 64"
+				,"oldZipcd" : "567831"
+				,"newZipcd" : "55400"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.356304257055
+				,"lat" : 35.9352791493798
+				}
+				,{
+				"bizesId" : "MA0101202408A0034175"
+				,"bizesNm" : "명오농원"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G205"
+				,"indsMclsNm" : "식료품 소매"
+				,"indsSclsCd" : "G20506"
+				,"indsSclsNm" : "채소/과일 소매업"
+				,"ksicCd" : "G47215"
+				,"ksicNm" : "채소, 과실 및 뿌리작물 소매업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52720"
+				,"signguNm" : "진안군"
+				,"adongCd" : "52720400"
+				,"adongNm" : "주천면"
+				,"ldongCd" : "5272040022"
+				,"ldongNm" : "주천면"
+				,"lnoCd" : "5272040022118590000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 1859
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전북특별자치도 진안군 주천면 대불리 1859"
+				,"rdnmCd" : "527204853559"
+				,"rdnm" : "전북특별자치도 진안군 주천면 외처사길"
+				,"bldMnno" : 14
+				,"bldSlno" : ""
+				,"bldMngNo" : "4572040022118590000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 진안군 주천면 외처사길 14"
+				,"oldZipcd" : "567831"
+				,"newZipcd" : "55400"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.356785053108
+				,"lat" : 35.9411628028824
+				}
+				,{
+				"bizesId" : "MA010120220807403648"
+				,"bizesNm" : "운장산송어횟집"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20111"
+				,"indsSclsNm" : "횟집"
+				,"ksicCd" : "I56114"
+				,"ksicNm" : "한식 해산물 요리 전문점"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52720"
+				,"signguNm" : "진안군"
+				,"adongCd" : "52720400"
+				,"adongNm" : "주천면"
+				,"ldongCd" : "5272040022"
+				,"ldongNm" : "주천면"
+				,"lnoCd" : "5272040022120350000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 2035
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전북특별자치도 진안군 주천면 대불리 2035"
+				,"rdnmCd" : "527204622061"
+				,"rdnm" : "전북특별자치도 진안군 주천면 내처사길"
+				,"bldMnno" : 122
+				,"bldSlno" : 4
+				,"bldMngNo" : "4572040022120330000017194"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 진안군 주천면 내처사길 122-4"
+				,"oldZipcd" : "567831"
+				,"newZipcd" : "55400"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.361431384397
+				,"lat" : 35.9320193648881
+				}
+				,{
+				"bizesId" : "MA010120220804723057"
+				,"bizesNm" : "하늘아래"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55104"
+				,"ksicNm" : "민박업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52720"
+				,"signguNm" : "진안군"
+				,"adongCd" : "52720390"
+				,"adongNm" : "정천면"
+				,"ldongCd" : "5272039021"
+				,"ldongNm" : "정천면"
+				,"lnoCd" : "5272039021111790000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 1179
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전북특별자치도 진안군 정천면 봉학리 1179"
+				,"rdnmCd" : "527203274020"
+				,"rdnm" : "전북특별자치도 진안군 정천면 봉학로"
+				,"bldMnno" : 742
+				,"bldSlno" : 8
+				,"bldMngNo" : "4572039021111790000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 진안군 정천면 봉학로 742-8"
+				,"oldZipcd" : "567823"
+				,"newZipcd" : "55409"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.376885216908
+				,"lat" : 35.9006717701553
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 1,
+		"totalCount" : 6	}
+}

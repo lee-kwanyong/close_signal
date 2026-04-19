@@ -1,0 +1,180 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA010120220812213672"
+				,"bizesNm" : "사계절민박"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55104"
+				,"ksicNm" : "민박업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46890"
+				,"signguNm" : "완도군"
+				,"adongCd" : "46890350"
+				,"adongNm" : "청산면"
+				,"ldongCd" : "4689035030"
+				,"ldongNm" : "청산면"
+				,"lnoCd" : "4689035030104400001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 440
+				,"lnoSlno" : 1
+				,"lnoAdr" : "전라남도 완도군 청산면 국산리 440-1"
+				,"rdnmCd" : "468904854330"
+				,"rdnm" : "전라남도 완도군 청산면 진산1길"
+				,"bldMnno" : 33
+				,"bldSlno" : 3
+				,"bldMngNo" : "4689035030104460000043300"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 완도군 청산면 진산1길 33-3"
+				,"oldZipcd" : "537821"
+				,"newZipcd" : "59149"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.902030737284
+				,"lat" : 34.2056650231851
+				}
+				,{
+				"bizesId" : "MA010120220813246916"
+				,"bizesNm" : "느루민박"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55104"
+				,"ksicNm" : "민박업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46890"
+				,"signguNm" : "완도군"
+				,"adongCd" : "46890350"
+				,"adongNm" : "청산면"
+				,"ldongCd" : "4689035030"
+				,"ldongNm" : "청산면"
+				,"lnoCd" : "4689035030102830000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 283
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 완도군 청산면 국산리 283"
+				,"rdnmCd" : "468903300023"
+				,"rdnm" : "전라남도 완도군 청산면 청산로"
+				,"bldMnno" : 962
+				,"bldSlno" : 1
+				,"bldMngNo" : "4689035030102830000043289"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 완도군 청산면 청산로 962-1"
+				,"oldZipcd" : "537821"
+				,"newZipcd" : "59149"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.90229398884
+				,"lat" : 34.2032041361419
+				}
+				,{
+				"bizesId" : "MA010120220808570629"
+				,"bizesNm" : "썸하우스"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55104"
+				,"ksicNm" : "민박업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46890"
+				,"signguNm" : "완도군"
+				,"adongCd" : "46890350"
+				,"adongNm" : "청산면"
+				,"ldongCd" : "4689035030"
+				,"ldongNm" : "청산면"
+				,"lnoCd" : "4689035030101920000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 192
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 완도군 청산면 국산리 192"
+				,"rdnmCd" : "468904854331"
+				,"rdnm" : "전라남도 완도군 청산면 진산길"
+				,"bldMnno" : 1
+				,"bldSlno" : ""
+				,"bldMngNo" : "4689035030101920000043302"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 완도군 청산면 진산길 1"
+				,"oldZipcd" : "537821"
+				,"newZipcd" : "59149"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.902804640601
+				,"lat" : 34.2026005361472
+				}
+				,{
+				"bizesId" : "MA0101202505A0053676"
+				,"bizesNm" : "썸하우스"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55104"
+				,"ksicNm" : "민박업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46890"
+				,"signguNm" : "완도군"
+				,"adongCd" : "46890350"
+				,"adongNm" : "청산면"
+				,"ldongCd" : "4689035030"
+				,"ldongNm" : "청산면"
+				,"lnoCd" : "4689035030101920000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 192
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 완도군 청산면 국산리 192"
+				,"rdnmCd" : "468904854331"
+				,"rdnm" : "전라남도 완도군 청산면 진산길"
+				,"bldMnno" : 1
+				,"bldSlno" : ""
+				,"bldMngNo" : "4689035030101920000043302"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 완도군 청산면 진산길 1"
+				,"oldZipcd" : "537821"
+				,"newZipcd" : "59149"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.902804640601
+				,"lat" : 34.2026005361472
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 1,
+		"totalCount" : 4	}
+}

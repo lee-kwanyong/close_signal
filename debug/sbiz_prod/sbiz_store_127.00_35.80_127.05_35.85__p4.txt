@@ -1,0 +1,139 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA0106202509A2406031"
+				,"bizesNm" : "더트리"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52710"
+				,"signguNm" : "완주군"
+				,"adongCd" : "52710330"
+				,"adongNm" : "이서면"
+				,"ldongCd" : "5271033028"
+				,"ldongNm" : "이서면"
+				,"lnoCd" : "5271033028105050000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 505
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전북특별자치도 완주군 이서면 은교리 505"
+				,"rdnmCd" : "527103273075"
+				,"rdnm" : "전북특별자치도 완주군 이서면 팥죽이로"
+				,"bldMnno" : 205
+				,"bldSlno" : 3
+				,"bldMngNo" : "4571033028105050000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 완주군 이서면 팥죽이로 205-3"
+				,"oldZipcd" : "565853"
+				,"newZipcd" : "55367"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.018874083536
+				,"lat" : 35.8020333774919
+				}
+				,{
+				"bizesId" : "MA0106202510A0799264"
+				,"bizesNm" : "소라떡집,소라건강원"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I210"
+				,"indsMclsNm" : "기타 간이"
+				,"indsSclsCd" : "I21002"
+				,"indsSclsNm" : "떡/한과"
+				,"ksicCd" : "G47217"
+				,"ksicNm" : "건강 보조식품 소매업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52710"
+				,"signguNm" : "완주군"
+				,"adongCd" : "52710330"
+				,"adongNm" : "이서면"
+				,"ldongCd" : "5271033026"
+				,"ldongNm" : "이서면"
+				,"lnoCd" : "5271033026105990002"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 599
+				,"lnoSlno" : 2
+				,"lnoAdr" : "전북특별자치도 완주군 이서면 상개리 599-2"
+				,"rdnmCd" : "527103273067"
+				,"rdnm" : "전북특별자치도 완주군 이서면 이서로"
+				,"bldMnno" : 48
+				,"bldSlno" : ""
+				,"bldMngNo" : "4571033026106680023017178"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 완주군 이서면 이서로 48"
+				,"oldZipcd" : "565853"
+				,"newZipcd" : "55366"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.021866100437
+				,"lat" : 35.819949962912
+				}
+				,{
+				"bizesId" : "MA0106202510A0505807"
+				,"bizesNm" : "든든한끼"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52710"
+				,"signguNm" : "완주군"
+				,"adongCd" : "52710330"
+				,"adongNm" : "이서면"
+				,"ldongCd" : "5271033027"
+				,"ldongNm" : "이서면"
+				,"lnoCd" : "5271033027107810003"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 781
+				,"lnoSlno" : 3
+				,"lnoAdr" : "전북특별자치도 완주군 이서면 용서리 781-3"
+				,"rdnmCd" : "527103273026"
+				,"rdnm" : "전북특별자치도 완주군 이서면 반교로"
+				,"bldMnno" : 99
+				,"bldSlno" : ""
+				,"bldMngNo" : "4571033027200540000000002"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 완주군 이서면 반교로 99"
+				,"oldZipcd" : "565854"
+				,"newZipcd" : "55365"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.02425881173
+				,"lat" : 35.8281329466903
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 4,
+		"totalCount" : 303	}
+}

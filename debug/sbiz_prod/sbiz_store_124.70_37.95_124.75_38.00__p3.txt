@@ -1,0 +1,467 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA0101202505A0020816"
+				,"bizesNm" : "느티나무집"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I203"
+				,"indsMclsNm" : "일식"
+				,"indsSclsCd" : "I20301"
+				,"indsSclsNm" : "일식 회/초밥"
+				,"ksicCd" : "I56122"
+				,"ksicNm" : "일식 음식점업"
+				,"ctprvnCd" : "28"
+				,"ctprvnNm" : "인천광역시"
+				,"signguCd" : "28720"
+				,"signguNm" : "옹진군"
+				,"adongCd" : "28720330"
+				,"adongNm" : "백령면"
+				,"ldongCd" : "2872033021"
+				,"ldongNm" : "백령면"
+				,"lnoCd" : "2872033021109430004"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 943
+				,"lnoSlno" : 4
+				,"lnoAdr" : "인천광역시 옹진군 백령면 진촌리 943-4"
+				,"rdnmCd" : "287204274072"
+				,"rdnm" : "인천광역시 옹진군 백령면 백령로316번길"
+				,"bldMnno" : 109
+				,"bldSlno" : 7
+				,"bldMngNo" : "2872033021109430004003989"
+				,"bldNm" : ""
+				,"rdnmAdr" : "인천광역시 옹진군 백령면 백령로316번길 109-7"
+				,"oldZipcd" : "409913"
+				,"newZipcd" : "23101"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 124.716122865372
+				,"lat" : 37.976343080801
+				}
+				,{
+				"bizesId" : "MA0106202511A0729915"
+				,"bizesNm" : "조쉐프의쌀국수"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "28"
+				,"ctprvnNm" : "인천광역시"
+				,"signguCd" : "28720"
+				,"signguNm" : "옹진군"
+				,"adongCd" : "28720330"
+				,"adongNm" : "백령면"
+				,"ldongCd" : "2872033021"
+				,"ldongNm" : "백령면"
+				,"lnoCd" : "2872033021107010004"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 701
+				,"lnoSlno" : 4
+				,"lnoAdr" : "인천광역시 옹진군 백령면 진촌리 701-4"
+				,"rdnmCd" : "287203158013"
+				,"rdnm" : "인천광역시 옹진군 백령면 백령로"
+				,"bldMnno" : 283
+				,"bldSlno" : 1
+				,"bldMngNo" : "2872033021107010004000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "인천광역시 옹진군 백령면 백령로 283-1"
+				,"oldZipcd" : "409913"
+				,"newZipcd" : "23101"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 124.717184980565
+				,"lat" : 37.9714455684593
+				}
+				,{
+				"bizesId" : "MA0101202502A0074205"
+				,"bizesNm" : "더리온"
+				,"brchNm" : ""
+				,"indsLclsCd" : "S2"
+				,"indsLclsNm" : "수리·개인"
+				,"indsMclsCd" : "S207"
+				,"indsMclsNm" : "이용·미용"
+				,"indsSclsCd" : "S20703"
+				,"indsSclsNm" : "네일숍"
+				,"ksicCd" : "S96119"
+				,"ksicNm" : "기타 미용업"
+				,"ctprvnCd" : "28"
+				,"ctprvnNm" : "인천광역시"
+				,"signguCd" : "28720"
+				,"signguNm" : "옹진군"
+				,"adongCd" : "28720330"
+				,"adongNm" : "백령면"
+				,"ldongCd" : "2872033021"
+				,"ldongNm" : "백령면"
+				,"lnoCd" : "2872033021107030003"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 703
+				,"lnoSlno" : 3
+				,"lnoAdr" : "인천광역시 옹진군 백령면 진촌리 703-3"
+				,"rdnmCd" : "287203158013"
+				,"rdnm" : "인천광역시 옹진군 백령면 백령로"
+				,"bldMnno" : 282
+				,"bldSlno" : ""
+				,"bldMngNo" : "2872033021107030002004188"
+				,"bldNm" : ""
+				,"rdnmAdr" : "인천광역시 옹진군 백령면 백령로 282"
+				,"oldZipcd" : "409913"
+				,"newZipcd" : "23101"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 124.717442349744
+				,"lat" : 37.9715856790612
+				}
+				,{
+				"bizesId" : "MA0106202507A2002923"
+				,"bizesNm" : "연한의원"
+				,"brchNm" : ""
+				,"indsLclsCd" : "Q1"
+				,"indsLclsNm" : "보건의료"
+				,"indsMclsCd" : "Q102"
+				,"indsMclsNm" : "의원"
+				,"indsSclsCd" : "Q10211"
+				,"indsSclsNm" : "한의원"
+				,"ksicCd" : "Q86203"
+				,"ksicNm" : "한의원"
+				,"ctprvnCd" : "28"
+				,"ctprvnNm" : "인천광역시"
+				,"signguCd" : "28720"
+				,"signguNm" : "옹진군"
+				,"adongCd" : "28720330"
+				,"adongNm" : "백령면"
+				,"ldongCd" : "2872033021"
+				,"ldongNm" : "백령면"
+				,"lnoCd" : "2872033021107030026"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 703
+				,"lnoSlno" : 26
+				,"lnoAdr" : "인천광역시 옹진군 백령면 진촌리 703-26"
+				,"rdnmCd" : "287204274067"
+				,"rdnm" : "인천광역시 옹진군 백령면 백령로280번길"
+				,"bldMnno" : 4
+				,"bldSlno" : 1
+				,"bldMngNo" : "2872033021107030026004462"
+				,"bldNm" : ""
+				,"rdnmAdr" : "인천광역시 옹진군 백령면 백령로280번길 4-1"
+				,"oldZipcd" : "409913"
+				,"newZipcd" : "23101"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 124.717611254591
+				,"lat" : 37.9716430035557
+				}
+				,{
+				"bizesId" : "MA0106202509A1942888"
+				,"bizesNm" : "7080나LIVE"
+				,"brchNm" : "코리아"
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I211"
+				,"indsMclsNm" : "주점"
+				,"indsSclsCd" : "I21101"
+				,"indsSclsNm" : "일반 유흥 주점"
+				,"ksicCd" : "I56211"
+				,"ksicNm" : "일반 유흥 주점업"
+				,"ctprvnCd" : "28"
+				,"ctprvnNm" : "인천광역시"
+				,"signguCd" : "28720"
+				,"signguNm" : "옹진군"
+				,"adongCd" : "28720330"
+				,"adongNm" : "백령면"
+				,"ldongCd" : "2872033021"
+				,"ldongNm" : "백령면"
+				,"lnoCd" : "2872033021107380001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 738
+				,"lnoSlno" : 1
+				,"lnoAdr" : "인천광역시 옹진군 백령면 진촌리 738-1"
+				,"rdnmCd" : "287204274065"
+				,"rdnm" : "인천광역시 옹진군 백령면 백령로278번길"
+				,"bldMnno" : 12
+				,"bldSlno" : ""
+				,"bldMngNo" : "2872033021107380001003475"
+				,"bldNm" : ""
+				,"rdnmAdr" : "인천광역시 옹진군 백령면 백령로278번길 12"
+				,"oldZipcd" : "409913"
+				,"newZipcd" : "23101"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 124.717910766922
+				,"lat" : 37.9718920222777
+				}
+				,{
+				"bizesId" : "MA0101202503A0067575"
+				,"bizesNm" : "워시팡팡무인셀프빨래방백령도점"
+				,"brchNm" : ""
+				,"indsLclsCd" : "S2"
+				,"indsLclsNm" : "수리·개인"
+				,"indsMclsCd" : "S209"
+				,"indsMclsNm" : "세탁"
+				,"indsSclsCd" : "S20902"
+				,"indsSclsNm" : "셀프 빨래방"
+				,"ksicCd" : "S96912"
+				,"ksicNm" : "가정용 세탁업"
+				,"ctprvnCd" : "28"
+				,"ctprvnNm" : "인천광역시"
+				,"signguCd" : "28720"
+				,"signguNm" : "옹진군"
+				,"adongCd" : "28720330"
+				,"adongNm" : "백령면"
+				,"ldongCd" : "2872033021"
+				,"ldongNm" : "백령면"
+				,"lnoCd" : "2872033021106950005"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 695
+				,"lnoSlno" : 5
+				,"lnoAdr" : "인천광역시 옹진군 백령면 진촌리 695-5"
+				,"rdnmCd" : "287204274065"
+				,"rdnm" : "인천광역시 옹진군 백령면 백령로278번길"
+				,"bldMnno" : 2
+				,"bldSlno" : ""
+				,"bldMngNo" : "2872033021106950005004459"
+				,"bldNm" : ""
+				,"rdnmAdr" : "인천광역시 옹진군 백령면 백령로278번길 2"
+				,"oldZipcd" : "409913"
+				,"newZipcd" : "23101"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 124.718070869639
+				,"lat" : 37.9714987959339
+				}
+				,{
+				"bizesId" : "MA0106202509A1417290"
+				,"bizesNm" : "전복죽있는철판집"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "28"
+				,"ctprvnNm" : "인천광역시"
+				,"signguCd" : "28720"
+				,"signguNm" : "옹진군"
+				,"adongCd" : "28720330"
+				,"adongNm" : "백령면"
+				,"ldongCd" : "2872033021"
+				,"ldongNm" : "백령면"
+				,"lnoCd" : "2872033021106950009"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 695
+				,"lnoSlno" : 9
+				,"lnoAdr" : "인천광역시 옹진군 백령면 진촌리 695-9"
+				,"rdnmCd" : "287203158013"
+				,"rdnm" : "인천광역시 옹진군 백령면 백령로"
+				,"bldMnno" : 276
+				,"bldSlno" : ""
+				,"bldMngNo" : "2872033021106950009003406"
+				,"bldNm" : ""
+				,"rdnmAdr" : "인천광역시 옹진군 백령면 백령로 276"
+				,"oldZipcd" : "409913"
+				,"newZipcd" : "23101"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 124.718125557551
+				,"lat" : 37.9712026069502
+				}
+				,{
+				"bizesId" : "MA0106202511A0089188"
+				,"bizesNm" : "숯대령꿈의농장"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "28"
+				,"ctprvnNm" : "인천광역시"
+				,"signguCd" : "28720"
+				,"signguNm" : "옹진군"
+				,"adongCd" : "28720330"
+				,"adongNm" : "백령면"
+				,"ldongCd" : "2872033021"
+				,"ldongNm" : "백령면"
+				,"lnoCd" : "2872033021106950010"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 695
+				,"lnoSlno" : 10
+				,"lnoAdr" : "인천광역시 옹진군 백령면 진촌리 695-10"
+				,"rdnmCd" : "287203158013"
+				,"rdnm" : "인천광역시 옹진군 백령면 백령로"
+				,"bldMnno" : 274
+				,"bldSlno" : 1
+				,"bldMngNo" : "2872033021106950010003402"
+				,"bldNm" : ""
+				,"rdnmAdr" : "인천광역시 옹진군 백령면 백령로 274-1"
+				,"oldZipcd" : "409913"
+				,"newZipcd" : "23101"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 124.718173553959
+				,"lat" : 37.9711224701657
+				}
+				,{
+				"bizesId" : "MA0101202504A0103141"
+				,"bizesNm" : "이벤트커피&호프소주방"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I211"
+				,"indsMclsNm" : "주점"
+				,"indsSclsCd" : "I21103"
+				,"indsSclsNm" : "생맥주 전문"
+				,"ksicCd" : "I56213"
+				,"ksicNm" : "생맥주 전문점"
+				,"ctprvnCd" : "28"
+				,"ctprvnNm" : "인천광역시"
+				,"signguCd" : "28720"
+				,"signguNm" : "옹진군"
+				,"adongCd" : "28720330"
+				,"adongNm" : "백령면"
+				,"ldongCd" : "2872033021"
+				,"ldongNm" : "백령면"
+				,"lnoCd" : "2872033021106960005"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 696
+				,"lnoSlno" : 5
+				,"lnoAdr" : "인천광역시 옹진군 백령면 진촌리 696-5"
+				,"rdnmCd" : "287204274064"
+				,"rdnm" : "인천광역시 옹진군 백령면 백령로271번길"
+				,"bldMnno" : 1
+				,"bldSlno" : ""
+				,"bldMngNo" : "2872033021106960005003372"
+				,"bldNm" : ""
+				,"rdnmAdr" : "인천광역시 옹진군 백령면 백령로271번길 1"
+				,"oldZipcd" : "409913"
+				,"newZipcd" : "23101"
+				,"dongNo" : ""
+				,"flrNo" : "1"
+				,"hoNo" : ""
+				,"lon" : 124.718245467265
+				,"lat" : 37.9706374560478
+				}
+				,{
+				"bizesId" : "MA0106202507A0507743"
+				,"bizesNm" : "백령농수산물판매장"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G205"
+				,"indsMclsNm" : "식료품 소매"
+				,"indsSclsCd" : "G20502"
+				,"indsSclsNm" : "가축 사료 소매업"
+				,"ksicCd" : "G47211"
+				,"ksicNm" : "곡물, 곡분 및 가축 사료 소매업"
+				,"ctprvnCd" : "28"
+				,"ctprvnNm" : "인천광역시"
+				,"signguCd" : "28720"
+				,"signguNm" : "옹진군"
+				,"adongCd" : "28720330"
+				,"adongNm" : "백령면"
+				,"ldongCd" : "2872033021"
+				,"ldongNm" : "백령면"
+				,"lnoCd" : "2872033021106640001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 664
+				,"lnoSlno" : 1
+				,"lnoAdr" : "인천광역시 옹진군 백령면 진촌리 664-1"
+				,"rdnmCd" : "287203158013"
+				,"rdnm" : "인천광역시 옹진군 백령면 백령로"
+				,"bldMnno" : 244
+				,"bldSlno" : ""
+				,"bldMngNo" : "2872033021106640001000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "인천광역시 옹진군 백령면 백령로 244"
+				,"oldZipcd" : "409913"
+				,"newZipcd" : "23101"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 124.720431257971
+				,"lat" : 37.9691305491529
+				}
+				,{
+				"bizesId" : "MA0101202504A0008032"
+				,"bizesNm" : "백령자전거"
+				,"brchNm" : ""
+				,"indsLclsCd" : "N1"
+				,"indsLclsNm" : "시설관리·임대"
+				,"indsMclsCd" : "N110"
+				,"indsMclsNm" : "가정용품 대여"
+				,"indsSclsCd" : "N11099"
+				,"indsSclsNm" : "기타 개인/가정용품 대여업"
+				,"ksicCd" : "N76299"
+				,"ksicNm" : "그 외 기타 개인 및 가정용품 임대업"
+				,"ctprvnCd" : "28"
+				,"ctprvnNm" : "인천광역시"
+				,"signguCd" : "28720"
+				,"signguNm" : "옹진군"
+				,"adongCd" : "28720330"
+				,"adongNm" : "백령면"
+				,"ldongCd" : "2872033021"
+				,"ldongNm" : "백령면"
+				,"lnoCd" : "2872033021104130071"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 413
+				,"lnoSlno" : 71
+				,"lnoAdr" : "인천광역시 옹진군 백령면 진촌리 413-71"
+				,"rdnmCd" : "287203158013"
+				,"rdnm" : "인천광역시 옹진군 백령면 백령로"
+				,"bldMnno" : 60
+				,"bldSlno" : ""
+				,"bldMngNo" : "2872033021104130071000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "인천광역시 옹진군 백령면 백령로 60"
+				,"oldZipcd" : "409913"
+				,"newZipcd" : "23102"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 124.730682926365
+				,"lat" : 37.9562047625702
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 3,
+		"totalCount" : 211	}
+}

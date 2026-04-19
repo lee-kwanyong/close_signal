@@ -1,0 +1,31 @@
+{
+  "ok": true,
+  "run_id": 161,
+  "tile_key": "SEOUL_CORE",
+  "started_at": "2026-04-04T01:59:09.164Z",
+  "finished_at": "2026-04-04T01:59:15.768Z",
+  "page_count": 1,
+  "total_fetched": 0,
+  "total_unique": 0,
+  "total_ingested": 0,
+  "debug_ingest": false,
+  "page_summaries": [
+    {
+      "page": 1,
+      "url": "https://apis.data.go.kr/B553077/api/open/sdsc2/storeListInRectangle?serviceKey=40062e9e97eecc728094af62a3e777caa3dd99a459d920a3587d5157465f5c5a&pageNo=1&numOfRows=1000&type=json&minx=126.9&miny=37.45&maxx=127.1&maxy=37.65",
+      "http_status": 200,
+      "content_type": "application/json;charset=utf-8",
+      "body_length": 110,
+      "xml_error_code": null,
+      "xml_error_message": null,
+      "json_error_code": "10",
+      "json_error_message": "INVALID_REQUEST_PARAMETER_ERROR",
+      "json_parse_error": null,
+      "extracted_row_count": 0,
+      "unique_row_count": 0,
+      "raw_path": "C:\\work\\close_signal\\debug\\sbiz\\SEOUL_CORE_20260404T015909Z.page-1.raw.txt",
+      "json_path": "C:\\work\\close_signal\\debug\\sbiz\\SEOUL_CORE_20260404T015909Z.page-1.json",
+      "rows_path": null
+    }
+  ]
+}

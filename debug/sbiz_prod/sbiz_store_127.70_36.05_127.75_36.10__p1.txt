@@ -1,0 +1,262 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA0106202509A1600856"
+				,"bizesNm" : "물애담"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G221"
+				,"indsMclsNm" : "기타 상품 소매"
+				,"indsSclsCd" : "G22199"
+				,"indsSclsNm" : "그 외 기타 상품 전문 소매업"
+				,"ksicCd" : "G47859"
+				,"ksicNm" : "그 외 기타 분류 안된 상품 전문 소매업"
+				,"ctprvnCd" : "43"
+				,"ctprvnNm" : "충청북도"
+				,"signguCd" : "43740"
+				,"signguNm" : "영동군"
+				,"adongCd" : "43740380"
+				,"adongNm" : "학산면"
+				,"ldongCd" : "4374038029"
+				,"ldongNm" : "학산면"
+				,"lnoCd" : "4374038029107480001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 748
+				,"lnoSlno" : 1
+				,"lnoAdr" : "충청북도 영동군 학산면 범화리 748-1"
+				,"rdnmCd" : "437403243048"
+				,"rdnm" : "충청북도 영동군 학산면 용화양강로"
+				,"bldMnno" : 1480
+				,"bldSlno" : ""
+				,"bldMngNo" : "4374038029107480001003205"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청북도 영동군 학산면 용화양강로 1480"
+				,"oldZipcd" : "370821"
+				,"newZipcd" : "29167"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.719699053411
+				,"lat" : 36.0929663643171
+				}
+				,{
+				"bizesId" : "MA0101202502A0068867"
+				,"bizesNm" : "물애담"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G206"
+				,"indsMclsNm" : "음료 소매"
+				,"indsSclsCd" : "G20603"
+				,"indsSclsNm" : "생수/음료 소매업"
+				,"ksicCd" : "G47221"
+				,"ksicNm" : "음료 소매업"
+				,"ctprvnCd" : "43"
+				,"ctprvnNm" : "충청북도"
+				,"signguCd" : "43740"
+				,"signguNm" : "영동군"
+				,"adongCd" : "43740380"
+				,"adongNm" : "학산면"
+				,"ldongCd" : "4374038029"
+				,"ldongNm" : "학산면"
+				,"lnoCd" : "4374038029107480001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 748
+				,"lnoSlno" : 1
+				,"lnoAdr" : "충청북도 영동군 학산면 범화리 748-1"
+				,"rdnmCd" : "437403243048"
+				,"rdnm" : "충청북도 영동군 학산면 용화양강로"
+				,"bldMnno" : 1480
+				,"bldSlno" : ""
+				,"bldMngNo" : "4374038029107480001003205"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청북도 영동군 학산면 용화양강로 1480"
+				,"oldZipcd" : "370821"
+				,"newZipcd" : "29167"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.719699053411
+				,"lat" : 36.0929663643171
+				}
+				,{
+				"bizesId" : "MA0101202503A0071291"
+				,"bizesNm" : "가반"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "43"
+				,"ctprvnNm" : "충청북도"
+				,"signguCd" : "43740"
+				,"signguNm" : "영동군"
+				,"adongCd" : "43740380"
+				,"adongNm" : "학산면"
+				,"ldongCd" : "4374038029"
+				,"ldongNm" : "학산면"
+				,"lnoCd" : "4374038029107500003"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 750
+				,"lnoSlno" : 3
+				,"lnoAdr" : "충청북도 영동군 학산면 범화리 750-3"
+				,"rdnmCd" : "437404529351"
+				,"rdnm" : "충청북도 영동군 학산면 상시3길"
+				,"bldMnno" : 12
+				,"bldSlno" : 3
+				,"bldMngNo" : ""
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청북도 영동군 학산면 상시3길 12-3"
+				,"oldZipcd" : "370821"
+				,"newZipcd" : "29167"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.720404964335
+				,"lat" : 36.0924484397325
+				}
+				,{
+				"bizesId" : "MA010120220814296368"
+				,"bizesNm" : "영동산골마을"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55104"
+				,"ksicNm" : "민박업"
+				,"ctprvnCd" : "43"
+				,"ctprvnNm" : "충청북도"
+				,"signguCd" : "43740"
+				,"signguNm" : "영동군"
+				,"adongCd" : "43740380"
+				,"adongNm" : "학산면"
+				,"ldongCd" : "4374038030"
+				,"ldongNm" : "학산면"
+				,"lnoCd" : "4374038030105900004"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 590
+				,"lnoSlno" : 4
+				,"lnoAdr" : "충청북도 영동군 학산면 도덕리 590-4"
+				,"rdnmCd" : "437403243048"
+				,"rdnm" : "충청북도 영동군 학산면 용화양강로"
+				,"bldMnno" : 1371
+				,"bldSlno" : ""
+				,"bldMngNo" : "4374038030105950001000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청북도 영동군 학산면 용화양강로 1371"
+				,"oldZipcd" : "370821"
+				,"newZipcd" : "29167"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.723476382669
+				,"lat" : 36.0834990597239
+				}
+				,{
+				"bizesId" : "MA010120220805650733"
+				,"bizesNm" : "시항골"
+				,"brchNm" : ""
+				,"indsLclsCd" : "R1"
+				,"indsLclsNm" : "예술·스포츠"
+				,"indsMclsCd" : "R104"
+				,"indsMclsNm" : "유원지·오락"
+				,"indsSclsCd" : "R10499"
+				,"indsSclsNm" : "기타 오락관련 서비스업"
+				,"ksicCd" : "R91299"
+				,"ksicNm" : "그 외 기타 분류 안된 오락관련 서비스업"
+				,"ctprvnCd" : "43"
+				,"ctprvnNm" : "충청북도"
+				,"signguCd" : "43740"
+				,"signguNm" : "영동군"
+				,"adongCd" : "43740380"
+				,"adongNm" : "학산면"
+				,"ldongCd" : "4374038030"
+				,"ldongNm" : "학산면"
+				,"lnoCd" : "4374038030105950002"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 595
+				,"lnoSlno" : 2
+				,"lnoAdr" : "충청북도 영동군 학산면 도덕리 595-2"
+				,"rdnmCd" : "437403243048"
+				,"rdnm" : "충청북도 영동군 학산면 용화양강로"
+				,"bldMnno" : 1359
+				,"bldSlno" : ""
+				,"bldMngNo" : "4374038030105950002000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청북도 영동군 학산면 용화양강로 1359"
+				,"oldZipcd" : "370821"
+				,"newZipcd" : "29167"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.723949710243
+				,"lat" : 36.0830546138198
+				}
+				,{
+				"bizesId" : "MA0101202501A0044733"
+				,"bizesNm" : "명품영동곶감"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G205"
+				,"indsMclsNm" : "식료품 소매"
+				,"indsSclsCd" : "G20506"
+				,"indsSclsNm" : "채소/과일 소매업"
+				,"ksicCd" : "G47215"
+				,"ksicNm" : "채소, 과실 및 뿌리작물 소매업"
+				,"ctprvnCd" : "43"
+				,"ctprvnNm" : "충청북도"
+				,"signguCd" : "43740"
+				,"signguNm" : "영동군"
+				,"adongCd" : "43740370"
+				,"adongNm" : "용화면"
+				,"ldongCd" : "4374037027"
+				,"ldongNm" : "용화면"
+				,"lnoCd" : "4374037027106030002"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 603
+				,"lnoSlno" : 2
+				,"lnoAdr" : "충청북도 영동군 용화면 자계리 603-2"
+				,"rdnmCd" : "437404529717"
+				,"rdnm" : "충청북도 영동군 용화면 횡지구백길"
+				,"bldMnno" : 33
+				,"bldSlno" : 43
+				,"bldMngNo" : "4374037027106030000001140"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청북도 영동군 용화면 횡지구백길 33-43"
+				,"oldZipcd" : "370842"
+				,"newZipcd" : "29158"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.745623124042
+				,"lat" : 36.0538309960202
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 1,
+		"totalCount" : 6	}
+}

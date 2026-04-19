@@ -1,0 +1,221 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA010120220805865776"
+				,"bizesNm" : "황금농원복숭아"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G205"
+				,"indsMclsNm" : "식료품 소매"
+				,"indsSclsCd" : "G20506"
+				,"indsSclsNm" : "채소/과일 소매업"
+				,"ksicCd" : "G47215"
+				,"ksicNm" : "채소, 과실 및 뿌리작물 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46790"
+				,"signguNm" : "화순군"
+				,"adongCd" : "46790395"
+				,"adongNm" : "백아면"
+				,"ldongCd" : "4679039528"
+				,"ldongNm" : "백아면"
+				,"lnoCd" : "4679039528104520000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 452
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 화순군 백아면 방리 452"
+				,"rdnmCd" : "467904673297"
+				,"rdnm" : "전라남도 화순군 백아면 양지길"
+				,"bldMnno" : 69
+				,"bldSlno" : ""
+				,"bldMngNo" : "4679039028104520000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 화순군 백아면 양지길 69"
+				,"oldZipcd" : "519923"
+				,"newZipcd" : "58100"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.169392267215
+				,"lat" : 35.1936408811648
+				}
+				,{
+				"bizesId" : "MA010120220807489761"
+				,"bizesNm" : "아산가든"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46790"
+				,"signguNm" : "화순군"
+				,"adongCd" : "46790395"
+				,"adongNm" : "백아면"
+				,"ldongCd" : "4679039535"
+				,"ldongNm" : "백아면"
+				,"lnoCd" : "4679039535103420000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 342
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 화순군 백아면 노치리 342"
+				,"rdnmCd" : "467904673067"
+				,"rdnm" : "전라남도 화순군 백아면 노치길"
+				,"bldMnno" : 7
+				,"bldSlno" : 52
+				,"bldMngNo" : "4679039035103420000012457"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 화순군 백아면 노치길 7-52"
+				,"oldZipcd" : "519921"
+				,"newZipcd" : "58101"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.174031961498
+				,"lat" : 35.150107799093
+				}
+				,{
+				"bizesId" : "MA010120220813443964"
+				,"bizesNm" : "백아산원두막펜션"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55104"
+				,"ksicNm" : "민박업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46790"
+				,"signguNm" : "화순군"
+				,"adongCd" : "46790395"
+				,"adongNm" : "백아면"
+				,"ldongCd" : "4679039527"
+				,"ldongNm" : "백아면"
+				,"lnoCd" : "4679039527103430002"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 343
+				,"lnoSlno" : 2
+				,"lnoAdr" : "전라남도 화순군 백아면 송단리 343-2"
+				,"rdnmCd" : "467904673258"
+				,"rdnm" : "전라남도 화순군 백아면 송단길"
+				,"bldMnno" : 370
+				,"bldSlno" : 77
+				,"bldMngNo" : "4679039027103430002000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 화순군 백아면 송단길 370-77"
+				,"oldZipcd" : "519923"
+				,"newZipcd" : "58100"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.175926566361
+				,"lat" : 35.1788493547796
+				}
+				,{
+				"bizesId" : "MA0101202305A0082188"
+				,"bizesNm" : "백아산펜션"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55104"
+				,"ksicNm" : "민박업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46790"
+				,"signguNm" : "화순군"
+				,"adongCd" : "46790395"
+				,"adongNm" : "백아면"
+				,"ldongCd" : "4679039527"
+				,"ldongNm" : "백아면"
+				,"lnoCd" : "4679039527103450002"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 345
+				,"lnoSlno" : 2
+				,"lnoAdr" : "전라남도 화순군 백아면 송단리 345-2"
+				,"rdnmCd" : "467904673258"
+				,"rdnm" : "전라남도 화순군 백아면 송단길"
+				,"bldMnno" : 370
+				,"bldSlno" : 67
+				,"bldMngNo" : "4679039027103450002000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 화순군 백아면 송단길 370-67"
+				,"oldZipcd" : "519923"
+				,"newZipcd" : "58100"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.176147336173
+				,"lat" : 35.1794078742405
+				}
+				,{
+				"bizesId" : "MA010120220808799847"
+				,"bizesNm" : "백아산소매점"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G204"
+				,"indsMclsNm" : "종합 소매"
+				,"indsSclsCd" : "G20404"
+				,"indsSclsNm" : "슈퍼마켓"
+				,"ksicCd" : "G47129"
+				,"ksicNm" : "기타 음ㆍ식료품 위주 종합 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46790"
+				,"signguNm" : "화순군"
+				,"adongCd" : "46790395"
+				,"adongNm" : "백아면"
+				,"ldongCd" : "4679039527"
+				,"ldongNm" : "백아면"
+				,"lnoCd" : "4679039527103450003"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 345
+				,"lnoSlno" : 3
+				,"lnoAdr" : "전라남도 화순군 백아면 송단리 345-3"
+				,"rdnmCd" : "467904673258"
+				,"rdnm" : "전라남도 화순군 백아면 송단길"
+				,"bldMnno" : 370
+				,"bldSlno" : 71
+				,"bldMngNo" : "4679039027103450003000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 화순군 백아면 송단길 370-71"
+				,"oldZipcd" : "519923"
+				,"newZipcd" : "58100"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.176256710425
+				,"lat" : 35.1792184305162
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 1,
+		"totalCount" : 5	}
+}

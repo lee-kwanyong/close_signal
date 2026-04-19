@@ -1,0 +1,221 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA010120220807681557"
+				,"bizesNm" : "무지개식당"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46910"
+				,"signguNm" : "신안군"
+				,"adongCd" : "46910390"
+				,"adongNm" : "장산면"
+				,"ldongCd" : "4691039023"
+				,"ldongNm" : "장산면"
+				,"lnoCd" : "4691039023106730010"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 673
+				,"lnoSlno" : 10
+				,"lnoAdr" : "전라남도 신안군 장산면 도창리 673-10"
+				,"rdnmCd" : "469104706070"
+				,"rdnm" : "전라남도 신안군 장산면 도창길"
+				,"bldMnno" : 31
+				,"bldSlno" : 16
+				,"bldMngNo" : "4691039023106730010000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 신안군 장산면 도창길 31-16"
+				,"oldZipcd" : "535924"
+				,"newZipcd" : "58860"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.149672959637
+				,"lat" : 34.6424128343623
+				}
+				,{
+				"bizesId" : "MA010120220807697671"
+				,"bizesNm" : "공수건강원"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G205"
+				,"indsMclsNm" : "식료품 소매"
+				,"indsSclsCd" : "G20508"
+				,"indsSclsNm" : "건강보조식품 소매업"
+				,"ksicCd" : "C10796"
+				,"ksicNm" : "건강 보조용 액화식품 제조업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46910"
+				,"signguNm" : "신안군"
+				,"adongCd" : "46910390"
+				,"adongNm" : "장산면"
+				,"ldongCd" : "4691039024"
+				,"ldongNm" : "장산면"
+				,"lnoCd" : "4691039024103260001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 326
+				,"lnoSlno" : 1
+				,"lnoAdr" : "전라남도 신안군 장산면 공수리 326-1"
+				,"rdnmCd" : "469104706304"
+				,"rdnm" : "전라남도 신안군 장산면 중산길"
+				,"bldMnno" : 78
+				,"bldSlno" : ""
+				,"bldMngNo" : "4691039024103260001000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 신안군 장산면 중산길 78"
+				,"oldZipcd" : "535921"
+				,"newZipcd" : "58859"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.169785229208
+				,"lat" : 34.6467519530236
+				}
+				,{
+				"bizesId" : "MA0101202301A0031243"
+				,"bizesNm" : "한옥민박"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55104"
+				,"ksicNm" : "민박업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46910"
+				,"signguNm" : "신안군"
+				,"adongCd" : "46910390"
+				,"adongNm" : "장산면"
+				,"ldongCd" : "4691039025"
+				,"ldongNm" : "장산면"
+				,"lnoCd" : "4691039025107530000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 753
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 신안군 장산면 팽진리 753"
+				,"rdnmCd" : "469104706353"
+				,"rdnm" : "전라남도 신안군 장산면 현터길"
+				,"bldMnno" : 309
+				,"bldSlno" : 31
+				,"bldMngNo" : "4691039025107530000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 신안군 장산면 현터길 309-31"
+				,"oldZipcd" : "535925"
+				,"newZipcd" : "58859"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.175577587329
+				,"lat" : 34.6268521940915
+				}
+				,{
+				"bizesId" : "MA010120220804927230"
+				,"bizesNm" : "해성수산"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G205"
+				,"indsMclsNm" : "식료품 소매"
+				,"indsSclsCd" : "G20505"
+				,"indsSclsNm" : "수산물 소매업"
+				,"ksicCd" : "G47214"
+				,"ksicNm" : "신선, 냉동 및 기타 수산물 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46910"
+				,"signguNm" : "신안군"
+				,"adongCd" : "46910390"
+				,"adongNm" : "장산면"
+				,"ldongCd" : "4691039025"
+				,"ldongNm" : "장산면"
+				,"lnoCd" : "4691039025105110008"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 511
+				,"lnoSlno" : 8
+				,"lnoAdr" : "전라남도 신안군 장산면 팽진리 511-8"
+				,"rdnmCd" : "469104706287"
+				,"rdnm" : "전라남도 신안군 장산면 장산동면길"
+				,"bldMnno" : 425
+				,"bldSlno" : ""
+				,"bldMngNo" : "4691039025105110008000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 신안군 장산면 장산동면길 425"
+				,"oldZipcd" : "535925"
+				,"newZipcd" : "58859"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.184699944869
+				,"lat" : 34.6306904029827
+				}
+				,{
+				"bizesId" : "MA0101202301A0058895"
+				,"bizesNm" : "1004CAFE"
+				,"brchNm" : "장산점"
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I212"
+				,"indsMclsNm" : "비알코올 "
+				,"indsSclsCd" : "I21201"
+				,"indsSclsNm" : "카페"
+				,"ksicCd" : "I56221"
+				,"ksicNm" : "커피 전문점"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46910"
+				,"signguNm" : "신안군"
+				,"adongCd" : "46910390"
+				,"adongNm" : "장산면"
+				,"ldongCd" : "4691039025"
+				,"ldongNm" : "장산면"
+				,"lnoCd" : "4691039025105100009"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 510
+				,"lnoSlno" : 9
+				,"lnoAdr" : "전라남도 신안군 장산면 팽진리 510-9"
+				,"rdnmCd" : "469104706287"
+				,"rdnm" : "전라남도 신안군 장산면 장산동면길"
+				,"bldMnno" : 439
+				,"bldSlno" : ""
+				,"bldMngNo" : "4691039025105100009000001"
+				,"bldNm" : "대합실"
+				,"rdnmAdr" : "전라남도 신안군 장산면 장산동면길 439"
+				,"oldZipcd" : "535925"
+				,"newZipcd" : "58859"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.186250224568
+				,"lat" : 34.6305114609837
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 1,
+		"totalCount" : 5	}
+}

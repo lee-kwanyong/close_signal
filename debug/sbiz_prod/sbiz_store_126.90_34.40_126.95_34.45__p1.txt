@@ -1,0 +1,262 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA010120220807812098"
+				,"bizesNm" : "삭금담배집"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G204"
+				,"indsMclsNm" : "종합 소매"
+				,"indsSclsCd" : "G20404"
+				,"indsSclsNm" : "슈퍼마켓"
+				,"ksicCd" : "G47129"
+				,"ksicNm" : "기타 음ㆍ식료품 위주 종합 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46800"
+				,"signguNm" : "장흥군"
+				,"adongCd" : "46800370"
+				,"adongNm" : "회진면"
+				,"ldongCd" : "4680037021"
+				,"ldongNm" : "회진면"
+				,"lnoCd" : "4680037021101190001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 119
+				,"lnoSlno" : 1
+				,"lnoAdr" : "전라남도 장흥군 회진면 진목리 119-1"
+				,"rdnmCd" : "468003292001"
+				,"rdnm" : "전라남도 장흥군 회진면 가학회진로"
+				,"bldMnno" : 885
+				,"bldSlno" : 5
+				,"bldMngNo" : "4680037021101190001004132"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 장흥군 회진면 가학회진로 885-5"
+				,"oldZipcd" : "529883"
+				,"newZipcd" : "59361"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.927275953991
+				,"lat" : 34.4495066404107
+				}
+				,{
+				"bizesId" : "MA010120220806767740"
+				,"bizesNm" : "충성횟집"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20111"
+				,"indsSclsNm" : "횟집"
+				,"ksicCd" : "I56114"
+				,"ksicNm" : "한식 해산물 요리 전문점"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46800"
+				,"signguNm" : "장흥군"
+				,"adongCd" : "46800370"
+				,"adongNm" : "회진면"
+				,"ldongCd" : "4680037021"
+				,"ldongNm" : "회진면"
+				,"lnoCd" : "4680037021101950040"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 195
+				,"lnoSlno" : 40
+				,"lnoAdr" : "전라남도 장흥군 회진면 진목리 195-40"
+				,"rdnmCd" : "468003292001"
+				,"rdnm" : "전라남도 장흥군 회진면 가학회진로"
+				,"bldMnno" : 901
+				,"bldSlno" : ""
+				,"bldMngNo" : "4680037021101950040004180"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 장흥군 회진면 가학회진로 901"
+				,"oldZipcd" : "529883"
+				,"newZipcd" : "59361"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.927494807939
+				,"lat" : 34.448100485111
+				}
+				,{
+				"bizesId" : "MA0106202506A1674891"
+				,"bizesNm" : "천일호"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G205"
+				,"indsMclsNm" : "식료품 소매"
+				,"indsSclsCd" : "G20502"
+				,"indsSclsNm" : "가축 사료 소매업"
+				,"ksicCd" : "G47211"
+				,"ksicNm" : "곡물, 곡분 및 가축 사료 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46800"
+				,"signguNm" : "장흥군"
+				,"adongCd" : "46800370"
+				,"adongNm" : "회진면"
+				,"ldongCd" : "4680037021"
+				,"ldongNm" : "회진면"
+				,"lnoCd" : "4680037021101270000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 127
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 장흥군 회진면 진목리 127"
+				,"rdnmCd" : "468004676201"
+				,"rdnm" : "전라남도 장흥군 회진면 삭금2길"
+				,"bldMnno" : 12
+				,"bldSlno" : 2
+				,"bldMngNo" : "4680037021101270000004246"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 장흥군 회진면 삭금2길 12-2"
+				,"oldZipcd" : "529883"
+				,"newZipcd" : "59361"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.92778721114
+				,"lat" : 34.4497323096366
+				}
+				,{
+				"bizesId" : "MA0101202212A0094551"
+				,"bizesNm" : "가나호"
+				,"brchNm" : ""
+				,"indsLclsCd" : "R1"
+				,"indsLclsNm" : "예술·스포츠"
+				,"indsMclsCd" : "R104"
+				,"indsMclsNm" : "유원지·오락"
+				,"indsSclsCd" : "R10409"
+				,"indsSclsNm" : "수상/해양 레저업"
+				,"ksicCd" : "R91239"
+				,"ksicNm" : "기타 수상오락 서비스업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46890"
+				,"signguNm" : "완도군"
+				,"adongCd" : "46890340"
+				,"adongNm" : "약산면"
+				,"ldongCd" : "4689034025"
+				,"ldongNm" : "약산면"
+				,"lnoCd" : "4689034025100380006"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 38
+				,"lnoSlno" : 6
+				,"lnoAdr" : "전라남도 완도군 약산면 해동리 38-6"
+				,"rdnmCd" : "468904854401"
+				,"rdnm" : "전라남도 완도군 약산면 어두길"
+				,"bldMnno" : 3
+				,"bldSlno" : ""
+				,"bldMngNo" : "4689034025100370000023214"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 완도군 약산면 어두길 3"
+				,"oldZipcd" : "537882"
+				,"newZipcd" : "59136"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.943454396154
+				,"lat" : 34.4055055169395
+				}
+				,{
+				"bizesId" : "MA010120220807940190"
+				,"bizesNm" : "자연그대로민박"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55104"
+				,"ksicNm" : "민박업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46890"
+				,"signguNm" : "완도군"
+				,"adongCd" : "46890340"
+				,"adongNm" : "약산면"
+				,"ldongCd" : "4689034025"
+				,"ldongNm" : "약산면"
+				,"lnoCd" : "4689034025101930001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 193
+				,"lnoSlno" : 1
+				,"lnoAdr" : "전라남도 완도군 약산면 해동리 193-1"
+				,"rdnmCd" : "468903300018"
+				,"rdnm" : "전라남도 완도군 약산면 약산로"
+				,"bldMnno" : 1020
+				,"bldSlno" : ""
+				,"bldMngNo" : "4689034025101930001023315"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 완도군 약산면 약산로 1020"
+				,"oldZipcd" : "537882"
+				,"newZipcd" : "59136"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.944076327322
+				,"lat" : 34.4025219316859
+				}
+				,{
+				"bizesId" : "MA010120220813200730"
+				,"bizesNm" : "어두상회"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G207"
+				,"indsMclsNm" : "담배 소매"
+				,"indsSclsCd" : "G20701"
+				,"indsSclsNm" : "담배/전자담배 소매업"
+				,"ksicCd" : "G47222"
+				,"ksicNm" : "담배 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46890"
+				,"signguNm" : "완도군"
+				,"adongCd" : "46890340"
+				,"adongNm" : "약산면"
+				,"ldongCd" : "4689034025"
+				,"ldongNm" : "약산면"
+				,"lnoCd" : "4689034025100700000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 70
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 완도군 약산면 해동리 70"
+				,"rdnmCd" : "468904854401"
+				,"rdnm" : "전라남도 완도군 약산면 어두길"
+				,"bldMnno" : 22
+				,"bldSlno" : 1
+				,"bldMngNo" : "4689034025100700000023241"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 완도군 약산면 어두길 22-1"
+				,"oldZipcd" : "537882"
+				,"newZipcd" : "59136"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.945477266004
+				,"lat" : 34.4056777147623
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 1,
+		"totalCount" : 6	}
+}

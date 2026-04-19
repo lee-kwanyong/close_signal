@@ -1,0 +1,262 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA010120220808755138"
+				,"bizesNm" : "명가복떡집"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I210"
+				,"indsMclsNm" : "기타 간이"
+				,"indsSclsCd" : "I21002"
+				,"indsSclsNm" : "떡/한과"
+				,"ksicCd" : "C10711"
+				,"ksicNm" : "떡류 제조업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46800"
+				,"signguNm" : "장흥군"
+				,"adongCd" : "46800360"
+				,"adongNm" : "부산면"
+				,"ldongCd" : "4680036021"
+				,"ldongNm" : "부산면"
+				,"lnoCd" : "4680036021108080001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 808
+				,"lnoSlno" : 1
+				,"lnoAdr" : "전라남도 장흥군 부산면 내안리 808-1"
+				,"rdnmCd" : "468004676076"
+				,"rdnm" : "전라남도 장흥군 부산면 내동2길"
+				,"bldMnno" : 33
+				,"bldSlno" : 9
+				,"bldMngNo" : "4680036021108080001000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 장흥군 부산면 내동2길 33-9"
+				,"oldZipcd" : "529811"
+				,"newZipcd" : "59302"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.880444099665
+				,"lat" : 34.7055073669167
+				}
+				,{
+				"bizesId" : "MA0101202409A0147688"
+				,"bizesNm" : "먹밥"
+				,"brchNm" : ""
+				,"indsLclsCd" : "M1"
+				,"indsLclsNm" : "과학·기술"
+				,"indsMclsCd" : "M112"
+				,"indsMclsNm" : "전문 디자인"
+				,"indsSclsCd" : "M11203"
+				,"indsSclsNm" : "시각 디자인업"
+				,"ksicCd" : "M73203"
+				,"ksicNm" : "시각 디자인업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46800"
+				,"signguNm" : "장흥군"
+				,"adongCd" : "46800360"
+				,"adongNm" : "부산면"
+				,"ldongCd" : "4680036021"
+				,"ldongNm" : "부산면"
+				,"lnoCd" : "4680036021106320001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 632
+				,"lnoSlno" : 1
+				,"lnoAdr" : "전라남도 장흥군 부산면 내안리 632-1"
+				,"rdnmCd" : "468004676076"
+				,"rdnm" : "전라남도 장흥군 부산면 내동2길"
+				,"bldMnno" : 28
+				,"bldSlno" : ""
+				,"bldMngNo" : "4680036021106320001000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 장흥군 부산면 내동2길 28"
+				,"oldZipcd" : "529811"
+				,"newZipcd" : "59302"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.881403324214
+				,"lat" : 34.7064367735076
+				}
+				,{
+				"bizesId" : "MA010120220813106716"
+				,"bizesNm" : "하이브"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20107"
+				,"indsSclsNm" : "돼지고기 구이/찜"
+				,"ksicCd" : "I56113"
+				,"ksicNm" : "한식 육류 요리 전문점"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46800"
+				,"signguNm" : "장흥군"
+				,"adongCd" : "46800360"
+				,"adongNm" : "부산면"
+				,"ldongCd" : "4680036021"
+				,"ldongNm" : "부산면"
+				,"lnoCd" : "4680036021105170001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 517
+				,"lnoSlno" : 1
+				,"lnoAdr" : "전라남도 장흥군 부산면 내안리 517-1"
+				,"rdnmCd" : "468004676287"
+				,"rdnm" : "전라남도 장흥군 부산면 안곡2길"
+				,"bldMnno" : 80
+				,"bldSlno" : 12
+				,"bldMngNo" : "4680036021105170001000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 장흥군 부산면 안곡2길 80-12"
+				,"oldZipcd" : "529811"
+				,"newZipcd" : "59302"
+				,"dongNo" : ""
+				,"flrNo" : "1"
+				,"hoNo" : ""
+				,"lon" : 126.883341902146
+				,"lat" : 34.7017782685774
+				}
+				,{
+				"bizesId" : "MA0101202406A0149138"
+				,"bizesNm" : "강현"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G205"
+				,"indsMclsNm" : "식료품 소매"
+				,"indsSclsCd" : "G20506"
+				,"indsSclsNm" : "채소/과일 소매업"
+				,"ksicCd" : "G47215"
+				,"ksicNm" : "채소, 과실 및 뿌리작물 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46800"
+				,"signguNm" : "장흥군"
+				,"adongCd" : "46800360"
+				,"adongNm" : "부산면"
+				,"ldongCd" : "4680036021"
+				,"ldongNm" : "부산면"
+				,"lnoCd" : "4680036021104240003"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 424
+				,"lnoSlno" : 3
+				,"lnoAdr" : "전라남도 장흥군 부산면 내안리 424-3"
+				,"rdnmCd" : "468004676079"
+				,"rdnm" : "전라남도 장흥군 부산면 내안구룡길"
+				,"bldMnno" : 108
+				,"bldSlno" : 1
+				,"bldMngNo" : "4680036021104240003033803"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 장흥군 부산면 내안구룡길 108-1"
+				,"oldZipcd" : "529811"
+				,"newZipcd" : "59302"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.88871849292
+				,"lat" : 34.7050915337435
+				}
+				,{
+				"bizesId" : "MA010120220814098487"
+				,"bizesNm" : "농어촌성결협동조합분사무소"
+				,"brchNm" : ""
+				,"indsLclsCd" : "P1"
+				,"indsLclsNm" : "교육"
+				,"indsMclsCd" : "P107"
+				,"indsMclsNm" : "교육 지원"
+				,"indsSclsCd" : "P10799"
+				,"indsSclsNm" : "기타 교육지원 서비스업"
+				,"ksicCd" : "G47211"
+				,"ksicNm" : "곡물, 곡분 및 가축 사료 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46800"
+				,"signguNm" : "장흥군"
+				,"adongCd" : "46800360"
+				,"adongNm" : "부산면"
+				,"ldongCd" : "4680036021"
+				,"ldongNm" : "부산면"
+				,"lnoCd" : "4680036021102120000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 212
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 장흥군 부산면 내안리 212"
+				,"rdnmCd" : "468004676079"
+				,"rdnm" : "전라남도 장흥군 부산면 내안구룡길"
+				,"bldMnno" : 71
+				,"bldSlno" : ""
+				,"bldMngNo" : "4680036021102120000032836"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 장흥군 부산면 내안구룡길 71"
+				,"oldZipcd" : "529811"
+				,"newZipcd" : "59302"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.89241025151
+				,"lat" : 34.7032469242088
+				}
+				,{
+				"bizesId" : "MA010120220807812289"
+				,"bizesNm" : "대진카센타"
+				,"brchNm" : ""
+				,"indsLclsCd" : "S2"
+				,"indsLclsNm" : "수리·개인"
+				,"indsMclsCd" : "S203"
+				,"indsMclsNm" : "자동차 수리·세차"
+				,"indsSclsCd" : "S20301"
+				,"indsSclsNm" : "자동차 정비소"
+				,"ksicCd" : "S95212"
+				,"ksicNm" : "자동차 전문 수리업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46800"
+				,"signguNm" : "장흥군"
+				,"adongCd" : "46800360"
+				,"adongNm" : "부산면"
+				,"ldongCd" : "4680036021"
+				,"ldongNm" : "부산면"
+				,"lnoCd" : "4680036021109240010"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 924
+				,"lnoSlno" : 10
+				,"lnoAdr" : "전라남도 장흥군 부산면 내안리 924-10"
+				,"rdnmCd" : "468002017001"
+				,"rdnm" : "전라남도 장흥군 부산면 장흥대로"
+				,"bldMnno" : 3823
+				,"bldSlno" : 15
+				,"bldMngNo" : "4680036021109240010000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 장흥군 부산면 장흥대로 3823-15"
+				,"oldZipcd" : "529811"
+				,"newZipcd" : "59302"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.899187717987
+				,"lat" : 34.7038927327665
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 1,
+		"totalCount" : 6	}
+}

@@ -1,0 +1,139 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA010120220807858837"
+				,"bizesNm" : "은빛파랑"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55104"
+				,"ksicNm" : "민박업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46780"
+				,"signguNm" : "보성군"
+				,"adongCd" : "46780380"
+				,"adongNm" : "득량면"
+				,"ldongCd" : "4678038026"
+				,"ldongNm" : "득량면"
+				,"lnoCd" : "4678038026107860003"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 786
+				,"lnoSlno" : 3
+				,"lnoAdr" : "전라남도 보성군 득량면 비봉리 786-3"
+				,"rdnmCd" : "467803290001"
+				,"rdnm" : "전라남도 보성군 득량면 공룡로"
+				,"bldMnno" : 578
+				,"bldSlno" : 5
+				,"bldMngNo" : "4678038026107860003126098"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 보성군 득량면 공룡로 578-5"
+				,"oldZipcd" : "546922"
+				,"newZipcd" : "59467"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.177651588039
+				,"lat" : 34.6921585038138
+				}
+				,{
+				"bizesId" : "MA010120220801484355"
+				,"bizesNm" : "별바라기"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55104"
+				,"ksicNm" : "민박업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46780"
+				,"signguNm" : "보성군"
+				,"adongCd" : "46780380"
+				,"adongNm" : "득량면"
+				,"ldongCd" : "4678038026"
+				,"ldongNm" : "득량면"
+				,"lnoCd" : "4678038026106720002"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 672
+				,"lnoSlno" : 2
+				,"lnoAdr" : "전라남도 보성군 득량면 비봉리 672-2"
+				,"rdnmCd" : "467803290001"
+				,"rdnm" : "전라남도 보성군 득량면 공룡로"
+				,"bldMnno" : 659
+				,"bldSlno" : 8
+				,"bldMngNo" : "4678038026106720002000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 보성군 득량면 공룡로 659-8"
+				,"oldZipcd" : "546922"
+				,"newZipcd" : "59467"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.18357783928
+				,"lat" : 34.697179684957
+				}
+				,{
+				"bizesId" : "MA0101202406A0305472"
+				,"bizesNm" : "득량만INN"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55104"
+				,"ksicNm" : "민박업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46780"
+				,"signguNm" : "보성군"
+				,"adongCd" : "46780380"
+				,"adongNm" : "득량면"
+				,"ldongCd" : "4678038026"
+				,"ldongNm" : "득량면"
+				,"lnoCd" : "4678038026105770008"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 577
+				,"lnoSlno" : 8
+				,"lnoAdr" : "전라남도 보성군 득량면 비봉리 577-8"
+				,"rdnmCd" : "467803290001"
+				,"rdnm" : "전라남도 보성군 득량면 공룡로"
+				,"bldMnno" : 711
+				,"bldSlno" : ""
+				,"bldMngNo" : "4678038026201330000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 보성군 득량면 공룡로 711"
+				,"oldZipcd" : "546922"
+				,"newZipcd" : "59467"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.186476110165
+				,"lat" : 34.6998525214681
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 1,
+		"totalCount" : 3	}
+}

@@ -1,0 +1,221 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA0101202406A0053576"
+				,"bizesNm" : "제이디글로벌"
+				,"brchNm" : ""
+				,"indsLclsCd" : "P1"
+				,"indsLclsNm" : "교육"
+				,"indsMclsCd" : "P107"
+				,"indsMclsNm" : "교육 지원"
+				,"indsSclsCd" : "P10799"
+				,"indsSclsNm" : "기타 교육지원 서비스업"
+				,"ksicCd" : "P85709"
+				,"ksicNm" : "기타 교육지원 서비스업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52770"
+				,"signguNm" : "순창군"
+				,"adongCd" : "52770400"
+				,"adongNm" : "구림면"
+				,"ldongCd" : "5277040030"
+				,"ldongNm" : "구림면"
+				,"lnoCd" : "5277040030101450000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 145
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전북특별자치도 순창군 구림면 운북리 145"
+				,"rdnmCd" : "527704634237"
+				,"rdnm" : "전북특별자치도 순창군 구림면 운항길"
+				,"bldMnno" : 115
+				,"bldSlno" : 3
+				,"bldMngNo" : "4577040030201450000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 순창군 구림면 운항길 115-3"
+				,"oldZipcd" : "595871"
+				,"newZipcd" : "56013"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.05832758108
+				,"lat" : 35.4698959638127
+				}
+				,{
+				"bizesId" : "MA010120220812888075"
+				,"bizesNm" : "해맑은천상"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10102"
+				,"indsSclsNm" : "여관/모텔"
+				,"ksicCd" : "I55102"
+				,"ksicNm" : "여관업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52770"
+				,"signguNm" : "순창군"
+				,"adongCd" : "52770400"
+				,"adongNm" : "구림면"
+				,"ldongCd" : "5277040028"
+				,"ldongNm" : "구림면"
+				,"lnoCd" : "5277040028101220000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 122
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전북특별자치도 순창군 구림면 금창리 122"
+				,"rdnmCd" : "527704634013"
+				,"rdnm" : "전북특별자치도 순창군 구림면 과촌길"
+				,"bldMnno" : 47
+				,"bldSlno" : 1
+				,"bldMngNo" : "4577040028101220000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 순창군 구림면 과촌길 47-1"
+				,"oldZipcd" : "595873"
+				,"newZipcd" : "56011"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.084046711907
+				,"lat" : 35.4947930357583
+				}
+				,{
+				"bizesId" : "MA010120220812726771"
+				,"bizesNm" : "은혜동산"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55104"
+				,"ksicNm" : "민박업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52770"
+				,"signguNm" : "순창군"
+				,"adongCd" : "52770400"
+				,"adongNm" : "구림면"
+				,"ldongCd" : "5277040028"
+				,"ldongNm" : "구림면"
+				,"lnoCd" : "5277040028101110000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 111
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전북특별자치도 순창군 구림면 금창리 111"
+				,"rdnmCd" : "527704634013"
+				,"rdnm" : "전북특별자치도 순창군 구림면 과촌길"
+				,"bldMnno" : 59
+				,"bldSlno" : 13
+				,"bldMngNo" : "4577040028101110000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 순창군 구림면 과촌길 59-13"
+				,"oldZipcd" : "595873"
+				,"newZipcd" : "56011"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.08442247468
+				,"lat" : 35.4957932266881
+				}
+				,{
+				"bizesId" : "MA010120220805293754"
+				,"bizesNm" : "우리한약방"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G205"
+				,"indsMclsNm" : "식료품 소매"
+				,"indsSclsCd" : "G20508"
+				,"indsSclsNm" : "건강보조식품 소매업"
+				,"ksicCd" : "G47811"
+				,"ksicNm" : "의약품 및 의료용품 소매업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52770"
+				,"signguNm" : "순창군"
+				,"adongCd" : "52770400"
+				,"adongNm" : "구림면"
+				,"ldongCd" : "5277040026"
+				,"ldongNm" : "구림면"
+				,"lnoCd" : "5277040026108200000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 820
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전북특별자치도 순창군 구림면 안정리 820"
+				,"rdnmCd" : "527704634132"
+				,"rdnm" : "전북특별자치도 순창군 구림면 산내길"
+				,"bldMnno" : 263
+				,"bldSlno" : 94
+				,"bldMngNo" : "4577040026108200000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 순창군 구림면 산내길 263-94"
+				,"oldZipcd" : "595873"
+				,"newZipcd" : "56011"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.089987607299
+				,"lat" : 35.4952754584087
+				}
+				,{
+				"bizesId" : "MA010120220807445070"
+				,"bizesNm" : "구림농협주유소"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G214"
+				,"indsMclsNm" : "연료 소매"
+				,"indsSclsCd" : "G21401"
+				,"indsSclsNm" : "주유소"
+				,"ksicCd" : "G47711"
+				,"ksicNm" : "운송장비용 주유소 운영업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52770"
+				,"signguNm" : "순창군"
+				,"adongCd" : "52770400"
+				,"adongNm" : "구림면"
+				,"ldongCd" : "5277040021"
+				,"ldongNm" : "구림면"
+				,"lnoCd" : "5277040021102080001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 208
+				,"lnoSlno" : 1
+				,"lnoAdr" : "전북특별자치도 순창군 구림면 운남리 208-1"
+				,"rdnmCd" : "527703278010"
+				,"rdnm" : "전북특별자치도 순창군 구림면 구림로"
+				,"bldMnno" : 449
+				,"bldSlno" : ""
+				,"bldMngNo" : "4577040021002080001000242"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 순창군 구림면 구림로 449"
+				,"oldZipcd" : "595872"
+				,"newZipcd" : "56012"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.099819247802
+				,"lat" : 35.4513377594425
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 1,
+		"totalCount" : 5	}
+}

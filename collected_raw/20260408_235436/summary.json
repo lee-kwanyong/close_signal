@@ -1,0 +1,9 @@
+﻿{
+    "results_file":  "C:\\work\\close_signal\\collected_raw\\20260408_235436\\results.csv",
+    "failure_count":  0,
+    "run_at":  "2026-04-08T23:54:42",
+    "success_count":  2,
+    "run_dir":  "C:\\work\\close_signal\\collected_raw\\20260408_235436",
+    "failures_file":  "C:\\work\\close_signal\\collected_raw\\20260408_235436\\failures.csv",
+    "raw_jsonl_file":  "C:\\work\\close_signal\\collected_raw\\20260408_235436\\raw_records.jsonl"
+}

@@ -1,0 +1,426 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA010120220805627183"
+				,"bizesNm" : "금호상회"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G204"
+				,"indsMclsNm" : "종합 소매"
+				,"indsSclsCd" : "G20404"
+				,"indsSclsNm" : "슈퍼마켓"
+				,"ksicCd" : "G47129"
+				,"ksicNm" : "기타 음ㆍ식료품 위주 종합 소매업"
+				,"ctprvnCd" : "43"
+				,"ctprvnNm" : "충청북도"
+				,"signguCd" : "43740"
+				,"signguNm" : "영동군"
+				,"adongCd" : "43740400"
+				,"adongNm" : "심천면"
+				,"ldongCd" : "4374040028"
+				,"ldongNm" : "심천면"
+				,"lnoCd" : "4374040028105640000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 564
+				,"lnoSlno" : ""
+				,"lnoAdr" : "충청북도 영동군 심천면 기호리 564"
+				,"rdnmCd" : "437403243035"
+				,"rdnm" : "충청북도 영동군 심천면 양산심천로"
+				,"bldMnno" : 739
+				,"bldSlno" : ""
+				,"bldMngNo" : "4374040028200280000004072"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청북도 영동군 심천면 양산심천로 739"
+				,"oldZipcd" : "370852"
+				,"newZipcd" : "29106"
+				,"dongNo" : ""
+				,"flrNo" : "1"
+				,"hoNo" : ""
+				,"lon" : 127.701309060819
+				,"lat" : 36.17885992312
+				}
+				,{
+				"bizesId" : "MA010120220812025035"
+				,"bizesNm" : "힐링일번지민박"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55104"
+				,"ksicNm" : "민박업"
+				,"ctprvnCd" : "43"
+				,"ctprvnNm" : "충청북도"
+				,"signguCd" : "43740"
+				,"signguNm" : "영동군"
+				,"adongCd" : "43740400"
+				,"adongNm" : "심천면"
+				,"ldongCd" : "4374040029"
+				,"ldongNm" : "심천면"
+				,"lnoCd" : "4374040029104660001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 466
+				,"lnoSlno" : 1
+				,"lnoAdr" : "충청북도 영동군 심천면 명천리 466-1"
+				,"rdnmCd" : "437403000178"
+				,"rdnm" : "충청북도 영동군 심천면 금강로"
+				,"bldMnno" : 2648
+				,"bldSlno" : ""
+				,"bldMngNo" : "4374040029104660001000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청북도 영동군 심천면 금강로 2648"
+				,"oldZipcd" : "370853"
+				,"newZipcd" : "29105"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.703886734449
+				,"lat" : 36.1762403668316
+				}
+				,{
+				"bizesId" : "MA010120220805634351"
+				,"bizesNm" : "다래"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I212"
+				,"indsMclsNm" : "비알코올 "
+				,"indsSclsCd" : "I21201"
+				,"indsSclsNm" : "카페"
+				,"ksicCd" : "I56229"
+				,"ksicNm" : "기타 비알코올 음료점업"
+				,"ctprvnCd" : "43"
+				,"ctprvnNm" : "충청북도"
+				,"signguCd" : "43740"
+				,"signguNm" : "영동군"
+				,"adongCd" : "43740400"
+				,"adongNm" : "심천면"
+				,"ldongCd" : "4374040029"
+				,"ldongNm" : "심천면"
+				,"lnoCd" : "4374040029101840004"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 184
+				,"lnoSlno" : 4
+				,"lnoAdr" : "충청북도 영동군 심천면 명천리 184-4"
+				,"rdnmCd" : "437404529246"
+				,"rdnm" : "충청북도 영동군 심천면 명천길"
+				,"bldMnno" : 54
+				,"bldSlno" : ""
+				,"bldMngNo" : "4374040029101840004004190"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청북도 영동군 심천면 명천길 54"
+				,"oldZipcd" : "370853"
+				,"newZipcd" : "29105"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.707052347343
+				,"lat" : 36.1772220293806
+				}
+				,{
+				"bizesId" : "MA0101202305A0098085"
+				,"bizesNm" : "아임오케이"
+				,"brchNm" : ""
+				,"indsLclsCd" : "M1"
+				,"indsLclsNm" : "과학·기술"
+				,"indsMclsCd" : "M105"
+				,"indsMclsNm" : "광고"
+				,"indsSclsCd" : "M10501"
+				,"indsSclsNm" : "광고 대행업"
+				,"ksicCd" : "M71310"
+				,"ksicNm" : "광고 대행업"
+				,"ctprvnCd" : "43"
+				,"ctprvnNm" : "충청북도"
+				,"signguCd" : "43740"
+				,"signguNm" : "영동군"
+				,"adongCd" : "43740400"
+				,"adongNm" : "심천면"
+				,"ldongCd" : "4374040030"
+				,"ldongNm" : "심천면"
+				,"lnoCd" : "4374040030100420000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 42
+				,"lnoSlno" : ""
+				,"lnoAdr" : "충청북도 영동군 심천면 금정리 42"
+				,"rdnmCd" : "437404529071"
+				,"rdnm" : "충청북도 영동군 심천면 구정길"
+				,"bldMnno" : 31
+				,"bldSlno" : 2
+				,"bldMngNo" : "4374040030100420000003991"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청북도 영동군 심천면 구정길 31-2"
+				,"oldZipcd" : "370853"
+				,"newZipcd" : "29105"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.716755580737
+				,"lat" : 36.1893483445572
+				}
+				,{
+				"bizesId" : "MA0101202307A0045408"
+				,"bizesNm" : "별애드림"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G204"
+				,"indsMclsNm" : "종합 소매"
+				,"indsSclsCd" : "G20404"
+				,"indsSclsNm" : "슈퍼마켓"
+				,"ksicCd" : "I55109"
+				,"ksicNm" : "기타 일반 및 생활 숙박시설 운영업"
+				,"ctprvnCd" : "43"
+				,"ctprvnNm" : "충청북도"
+				,"signguCd" : "43740"
+				,"signguNm" : "영동군"
+				,"adongCd" : "43740400"
+				,"adongNm" : "심천면"
+				,"ldongCd" : "4374040032"
+				,"ldongNm" : "심천면"
+				,"lnoCd" : "4374040032200410003"
+				,"plotSctCd" : "2"
+				,"plotSctNm" : "산"
+				,"lnoMnno" : 41
+				,"lnoSlno" : 3
+				,"lnoAdr" : "충청북도 영동군 심천면 각계리 산 41-3"
+				,"rdnmCd" : "437403243010"
+				,"rdnm" : "충청북도 영동군 심천면 난계로"
+				,"bldMnno" : 712
+				,"bldSlno" : 42
+				,"bldMngNo" : "4374040032200410003000001"
+				,"bldNm" : "관리실별애드림"
+				,"rdnmAdr" : "충청북도 영동군 심천면 난계로 712-42"
+				,"oldZipcd" : "370851"
+				,"newZipcd" : "29105"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.738678236504
+				,"lat" : 36.1999301160161
+				}
+				,{
+				"bizesId" : "MA0101202410A0423754"
+				,"bizesNm" : "다릿골농원"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G205"
+				,"indsMclsNm" : "식료품 소매"
+				,"indsSclsCd" : "G20506"
+				,"indsSclsNm" : "채소/과일 소매업"
+				,"ksicCd" : "G47215"
+				,"ksicNm" : "채소, 과실 및 뿌리작물 소매업"
+				,"ctprvnCd" : "43"
+				,"ctprvnNm" : "충청북도"
+				,"signguCd" : "43740"
+				,"signguNm" : "영동군"
+				,"adongCd" : "43740360"
+				,"adongNm" : "양강면"
+				,"ldongCd" : "4374036021"
+				,"ldongNm" : "양강면"
+				,"lnoCd" : "4374036021107440000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 744
+				,"lnoSlno" : ""
+				,"lnoAdr" : "충청북도 영동군 양강면 괴목리 744"
+				,"rdnmCd" : "437404529060"
+				,"rdnm" : "충청북도 영동군 양강면 교동길"
+				,"bldMnno" : 36
+				,"bldSlno" : 14
+				,"bldMngNo" : "4374036021107440000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청북도 영동군 양강면 교동길 36-14"
+				,"oldZipcd" : "370811"
+				,"newZipcd" : "29155"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.745701453523
+				,"lat" : 36.1514299032908
+				}
+				,{
+				"bizesId" : "MA010120220805561936"
+				,"bizesNm" : "영동장례식장매점"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G204"
+				,"indsMclsNm" : "종합 소매"
+				,"indsSclsCd" : "G20404"
+				,"indsSclsNm" : "슈퍼마켓"
+				,"ksicCd" : "G47129"
+				,"ksicNm" : "기타 음ㆍ식료품 위주 종합 소매업"
+				,"ctprvnCd" : "43"
+				,"ctprvnNm" : "충청북도"
+				,"signguCd" : "43740"
+				,"signguNm" : "영동군"
+				,"adongCd" : "43740250"
+				,"adongNm" : "영동읍"
+				,"ldongCd" : "4374025029"
+				,"ldongNm" : "영동읍"
+				,"lnoCd" : "4374025029107530006"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 753
+				,"lnoSlno" : 6
+				,"lnoAdr" : "충청북도 영동군 영동읍 오탄리 753-6"
+				,"rdnmCd" : "437403243010"
+				,"rdnm" : "충청북도 영동군 영동읍 난계로"
+				,"bldMnno" : 804
+				,"bldSlno" : 46
+				,"bldMngNo" : "4374025029107530006008689"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청북도 영동군 영동읍 난계로 804-46"
+				,"oldZipcd" : "370806"
+				,"newZipcd" : "29136"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.746341791559
+				,"lat" : 36.1978729406758
+				}
+				,{
+				"bizesId" : "MA0101202410A0430875"
+				,"bizesNm" : "영동장례식장"
+				,"brchNm" : ""
+				,"indsLclsCd" : "S2"
+				,"indsLclsNm" : "수리·개인"
+				,"indsMclsCd" : "S210"
+				,"indsMclsNm" : "장례식장 "
+				,"indsSclsCd" : "S21001"
+				,"indsSclsNm" : "장례식장"
+				,"ksicCd" : "S96921"
+				,"ksicNm" : "장례식장 및 장의관련 서비스업"
+				,"ctprvnCd" : "43"
+				,"ctprvnNm" : "충청북도"
+				,"signguCd" : "43740"
+				,"signguNm" : "영동군"
+				,"adongCd" : "43740250"
+				,"adongNm" : "영동읍"
+				,"ldongCd" : "4374025029"
+				,"ldongNm" : "영동읍"
+				,"lnoCd" : "4374025029107530006"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 753
+				,"lnoSlno" : 6
+				,"lnoAdr" : "충청북도 영동군 영동읍 오탄리 753-6"
+				,"rdnmCd" : "437403243010"
+				,"rdnm" : "충청북도 영동군 영동읍 난계로"
+				,"bldMnno" : 804
+				,"bldSlno" : 46
+				,"bldMngNo" : "4374025029107530006008689"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청북도 영동군 영동읍 난계로 804-46"
+				,"oldZipcd" : "370806"
+				,"newZipcd" : "29136"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.746341791559
+				,"lat" : 36.1978729406758
+				}
+				,{
+				"bizesId" : "MA010120220805005272"
+				,"bizesNm" : "말벌주유소"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G214"
+				,"indsMclsNm" : "연료 소매"
+				,"indsSclsCd" : "G21401"
+				,"indsSclsNm" : "주유소"
+				,"ksicCd" : "G47711"
+				,"ksicNm" : "운송장비용 주유소 운영업"
+				,"ctprvnCd" : "43"
+				,"ctprvnNm" : "충청북도"
+				,"signguCd" : "43740"
+				,"signguNm" : "영동군"
+				,"adongCd" : "43740250"
+				,"adongNm" : "영동읍"
+				,"ldongCd" : "4374025029"
+				,"ldongNm" : "영동읍"
+				,"lnoCd" : "4374025029107500006"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 750
+				,"lnoSlno" : 6
+				,"lnoAdr" : "충청북도 영동군 영동읍 오탄리 750-6"
+				,"rdnmCd" : "437403243010"
+				,"rdnm" : "충청북도 영동군 영동읍 난계로"
+				,"bldMnno" : 788
+				,"bldSlno" : ""
+				,"bldMngNo" : "4374025029107500011002027"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청북도 영동군 영동읍 난계로 788"
+				,"oldZipcd" : "370806"
+				,"newZipcd" : "29136"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.746797708384
+				,"lat" : 36.1978791086779
+				}
+				,{
+				"bizesId" : "MA010120220805050894"
+				,"bizesNm" : "양강주유소"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G214"
+				,"indsMclsNm" : "연료 소매"
+				,"indsSclsCd" : "G21401"
+				,"indsSclsNm" : "주유소"
+				,"ksicCd" : "G47711"
+				,"ksicNm" : "운송장비용 주유소 운영업"
+				,"ctprvnCd" : "43"
+				,"ctprvnNm" : "충청북도"
+				,"signguCd" : "43740"
+				,"signguNm" : "영동군"
+				,"adongCd" : "43740360"
+				,"adongNm" : "양강면"
+				,"ldongCd" : "4374036021"
+				,"ldongNm" : "양강면"
+				,"lnoCd" : "4374036021107060007"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 706
+				,"lnoSlno" : 7
+				,"lnoAdr" : "충청북도 영동군 양강면 괴목리 706-7"
+				,"rdnmCd" : "437403243054"
+				,"rdnm" : "충청북도 영동군 양강면 학산영동로"
+				,"bldMnno" : 871
+				,"bldSlno" : ""
+				,"bldMngNo" : "4374036021106980002003617"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청북도 영동군 양강면 학산영동로 871"
+				,"oldZipcd" : "370811"
+				,"newZipcd" : "29155"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.748810613935
+				,"lat" : 36.1500316850254
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 1,
+		"totalCount" : 10	}
+}

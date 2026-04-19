@@ -1,0 +1,303 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA010120220805517215"
+				,"bizesNm" : "안마주민협동조합"
+				,"brchNm" : ""
+				,"indsLclsCd" : "M1"
+				,"indsLclsNm" : "과학·기술"
+				,"indsMclsCd" : "M107"
+				,"indsMclsNm" : "본사·경영 컨설팅"
+				,"indsSclsCd" : "M10703"
+				,"indsSclsNm" : "경영 컨설팅업"
+				,"ksicCd" : "M71531"
+				,"ksicNm" : "경영 컨설팅업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46870"
+				,"signguNm" : "영광군"
+				,"adongCd" : "46870380"
+				,"adongNm" : "낙월면"
+				,"ldongCd" : "4687038025"
+				,"ldongNm" : "낙월면"
+				,"lnoCd" : "4687038025205740000"
+				,"plotSctCd" : "2"
+				,"plotSctNm" : "산"
+				,"lnoMnno" : 574
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 영광군 낙월면 월촌리 산 574"
+				,"rdnmCd" : "468704694237"
+				,"rdnm" : "전라남도 영광군 낙월면 안마길"
+				,"bldMnno" : 1
+				,"bldSlno" : 3
+				,"bldMngNo" : "4687038025205740000026889"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 영광군 낙월면 안마길 1-3"
+				,"oldZipcd" : "513892"
+				,"newZipcd" : "57069"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.0162427397
+				,"lat" : 35.3452737192735
+				}
+				,{
+				"bizesId" : "MA010120220807616556"
+				,"bizesNm" : "안마식당"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46870"
+				,"signguNm" : "영광군"
+				,"adongCd" : "46870380"
+				,"adongNm" : "낙월면"
+				,"ldongCd" : "4687038025"
+				,"ldongNm" : "낙월면"
+				,"lnoCd" : "4687038025205340006"
+				,"plotSctCd" : "2"
+				,"plotSctNm" : "산"
+				,"lnoMnno" : 534
+				,"lnoSlno" : 6
+				,"lnoAdr" : "전라남도 영광군 낙월면 월촌리 산 534-6"
+				,"rdnmCd" : "468704694237"
+				,"rdnm" : "전라남도 영광군 낙월면 안마길"
+				,"bldMnno" : 12
+				,"bldSlno" : ""
+				,"bldMngNo" : "4687038025205740000026166"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 영광군 낙월면 안마길 12"
+				,"oldZipcd" : "513892"
+				,"newZipcd" : "57069"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.017369887209
+				,"lat" : 35.3448502698462
+				}
+				,{
+				"bizesId" : "MA010120220807647977"
+				,"bizesNm" : "해나루하숙"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55104"
+				,"ksicNm" : "민박업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46870"
+				,"signguNm" : "영광군"
+				,"adongCd" : "46870380"
+				,"adongNm" : "낙월면"
+				,"ldongCd" : "4687038025"
+				,"ldongNm" : "낙월면"
+				,"lnoCd" : "4687038025205340006"
+				,"plotSctCd" : "2"
+				,"plotSctNm" : "산"
+				,"lnoMnno" : 534
+				,"lnoSlno" : 6
+				,"lnoAdr" : "전라남도 영광군 낙월면 월촌리 산 534-6"
+				,"rdnmCd" : "468704694237"
+				,"rdnm" : "전라남도 영광군 낙월면 안마길"
+				,"bldMnno" : 12
+				,"bldSlno" : ""
+				,"bldMngNo" : "4687038025205740000026166"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 영광군 낙월면 안마길 12"
+				,"oldZipcd" : "513892"
+				,"newZipcd" : "57069"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.017369887209
+				,"lat" : 35.3448502698462
+				}
+				,{
+				"bizesId" : "MA0101202406A0566972"
+				,"bizesNm" : "안마도주민협동조합"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G218"
+				,"indsMclsNm" : "장식품 소매"
+				,"indsSclsCd" : "G21802"
+				,"indsSclsNm" : "기념품점"
+				,"ksicCd" : "G47842"
+				,"ksicNm" : "기념품, 관광 민예품 및 장식용품 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46870"
+				,"signguNm" : "영광군"
+				,"adongCd" : "46870380"
+				,"adongNm" : "낙월면"
+				,"ldongCd" : "4687038025"
+				,"ldongNm" : "낙월면"
+				,"lnoCd" : "4687038025205370002"
+				,"plotSctCd" : "2"
+				,"plotSctNm" : "산"
+				,"lnoMnno" : 537
+				,"lnoSlno" : 2
+				,"lnoAdr" : "전라남도 영광군 낙월면 월촌리 산 537-2"
+				,"rdnmCd" : "468704694237"
+				,"rdnm" : "전라남도 영광군 낙월면 안마길"
+				,"bldMnno" : 19
+				,"bldSlno" : ""
+				,"bldMngNo" : "4687038025205370002000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 영광군 낙월면 안마길 19"
+				,"oldZipcd" : "513892"
+				,"newZipcd" : "57069"
+				,"dongNo" : ""
+				,"flrNo" : "2"
+				,"hoNo" : ""
+				,"lon" : 126.018237722009
+				,"lat" : 35.3449474507899
+				}
+				,{
+				"bizesId" : "MA010120220812666875"
+				,"bizesNm" : "우정상회"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G204"
+				,"indsMclsNm" : "종합 소매"
+				,"indsSclsCd" : "G20404"
+				,"indsSclsNm" : "슈퍼마켓"
+				,"ksicCd" : "G47129"
+				,"ksicNm" : "기타 음ㆍ식료품 위주 종합 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46870"
+				,"signguNm" : "영광군"
+				,"adongCd" : "46870380"
+				,"adongNm" : "낙월면"
+				,"ldongCd" : "4687038025"
+				,"ldongNm" : "낙월면"
+				,"lnoCd" : "4687038025205200002"
+				,"plotSctCd" : "2"
+				,"plotSctNm" : "산"
+				,"lnoMnno" : 520
+				,"lnoSlno" : 2
+				,"lnoAdr" : "전라남도 영광군 낙월면 월촌리 산 520-2"
+				,"rdnmCd" : "468704694237"
+				,"rdnm" : "전라남도 영광군 낙월면 안마길"
+				,"bldMnno" : 22
+				,"bldSlno" : ""
+				,"bldMngNo" : "4687038025205200002026160"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 영광군 낙월면 안마길 22"
+				,"oldZipcd" : "513892"
+				,"newZipcd" : "57069"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.01846206393
+				,"lat" : 35.3445887576364
+				}
+				,{
+				"bizesId" : "MA010120220807644825"
+				,"bizesNm" : "안마상회"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G204"
+				,"indsMclsNm" : "종합 소매"
+				,"indsSclsCd" : "G20404"
+				,"indsSclsNm" : "슈퍼마켓"
+				,"ksicCd" : "G47129"
+				,"ksicNm" : "기타 음ㆍ식료품 위주 종합 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46870"
+				,"signguNm" : "영광군"
+				,"adongCd" : "46870380"
+				,"adongNm" : "낙월면"
+				,"ldongCd" : "4687038025"
+				,"ldongNm" : "낙월면"
+				,"lnoCd" : "4687038025203430004"
+				,"plotSctCd" : "2"
+				,"plotSctNm" : "산"
+				,"lnoMnno" : 343
+				,"lnoSlno" : 4
+				,"lnoAdr" : "전라남도 영광군 낙월면 월촌리 산 343-4"
+				,"rdnmCd" : "468704694238"
+				,"rdnm" : "전라남도 영광군 낙월면 안마길1길"
+				,"bldMnno" : 26
+				,"bldSlno" : 3
+				,"bldMngNo" : "4687038025203430004026196"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 영광군 낙월면 안마길1길 26-3"
+				,"oldZipcd" : "513892"
+				,"newZipcd" : "57069"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.025549554976
+				,"lat" : 35.3443036153461
+				}
+				,{
+				"bizesId" : "MA0101202409A0266815"
+				,"bizesNm" : "팽나무수산"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G205"
+				,"indsMclsNm" : "식료품 소매"
+				,"indsSclsCd" : "G20505"
+				,"indsSclsNm" : "수산물 소매업"
+				,"ksicCd" : "G47214"
+				,"ksicNm" : "신선, 냉동 및 기타 수산물 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46870"
+				,"signguNm" : "영광군"
+				,"adongCd" : "46870380"
+				,"adongNm" : "낙월면"
+				,"ldongCd" : "4687038025"
+				,"ldongNm" : "낙월면"
+				,"lnoCd" : "4687038025105790002"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 579
+				,"lnoSlno" : 2
+				,"lnoAdr" : "전라남도 영광군 낙월면 월촌리 579-2"
+				,"rdnmCd" : "468704694238"
+				,"rdnm" : "전라남도 영광군 낙월면 안마길1길"
+				,"bldMnno" : 27
+				,"bldSlno" : 29
+				,"bldMngNo" : "4687038025105790002000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 영광군 낙월면 안마길1길 27-29"
+				,"oldZipcd" : "513892"
+				,"newZipcd" : "57069"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.027015965593
+				,"lat" : 35.3449373178708
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 1,
+		"totalCount" : 7	}
+}

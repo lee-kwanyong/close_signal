@@ -1,0 +1,303 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA0106202509A0766074"
+				,"bizesNm" : "황금돼지국밥"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44790"
+				,"signguNm" : "청양군"
+				,"adongCd" : "44790250"
+				,"adongNm" : "청양읍"
+				,"ldongCd" : "4479025021"
+				,"ldongNm" : "청양읍"
+				,"lnoCd" : "4479025021103280000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 328
+				,"lnoSlno" : ""
+				,"lnoAdr" : "충청남도 청양군 청양읍 읍내리 328"
+				,"rdnmCd" : "447904583305"
+				,"rdnm" : "충청남도 청양군 청양읍 칠갑산로4길"
+				,"bldMnno" : 40
+				,"bldSlno" : ""
+				,"bldMngNo" : "4479025021103280000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청남도 청양군 청양읍 칠갑산로4길 40"
+				,"oldZipcd" : "345804"
+				,"newZipcd" : "33332"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.800571953138
+				,"lat" : 36.4476879041711
+				}
+				,{
+				"bizesId" : "MA0106202509A1589744"
+				,"bizesNm" : "발리노래연습장"
+				,"brchNm" : ""
+				,"indsLclsCd" : "R1"
+				,"indsLclsNm" : "예술·스포츠"
+				,"indsMclsCd" : "R104"
+				,"indsMclsNm" : "유원지·오락"
+				,"indsSclsCd" : "R10407"
+				,"indsSclsNm" : "노래방"
+				,"ksicCd" : "R91223"
+				,"ksicNm" : "노래 연습장 운영업"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44790"
+				,"signguNm" : "청양군"
+				,"adongCd" : "44790250"
+				,"adongNm" : "청양읍"
+				,"ldongCd" : "4479025021"
+				,"ldongNm" : "청양읍"
+				,"lnoCd" : "4479025021101770003"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 177
+				,"lnoSlno" : 3
+				,"lnoAdr" : "충청남도 청양군 청양읍 읍내리 177-3"
+				,"rdnmCd" : "447904583305"
+				,"rdnm" : "충청남도 청양군 청양읍 칠갑산로4길"
+				,"bldMnno" : 26
+				,"bldSlno" : ""
+				,"bldMngNo" : "4479025021101770003011025"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청남도 청양군 청양읍 칠갑산로4길 26"
+				,"oldZipcd" : "345804"
+				,"newZipcd" : "33332"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.800803082292
+				,"lat" : 36.4489048621519
+				}
+				,{
+				"bizesId" : "MA0106202509A2187222"
+				,"bizesNm" : "온기푸드"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44790"
+				,"signguNm" : "청양군"
+				,"adongCd" : "44790250"
+				,"adongNm" : "청양읍"
+				,"ldongCd" : "4479025021"
+				,"ldongNm" : "청양읍"
+				,"lnoCd" : "4479025021101820017"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 182
+				,"lnoSlno" : 17
+				,"lnoAdr" : "충청남도 청양군 청양읍 읍내리 182-17"
+				,"rdnmCd" : "447904583269"
+				,"rdnm" : "충청남도 청양군 청양읍 중앙로3길"
+				,"bldMnno" : 10
+				,"bldSlno" : 4
+				,"bldMngNo" : "4479025021101820017011080"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청남도 청양군 청양읍 중앙로3길 10-4"
+				,"oldZipcd" : "345804"
+				,"newZipcd" : "33331"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.801716209091
+				,"lat" : 36.4495101625336
+				}
+				,{
+				"bizesId" : "MA0106202511A0332287"
+				,"bizesNm" : "꾸움"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G221"
+				,"indsMclsNm" : "기타 상품 소매"
+				,"indsSclsCd" : "G22199"
+				,"indsSclsNm" : "그 외 기타 상품 전문 소매업"
+				,"ksicCd" : "G47859"
+				,"ksicNm" : "그 외 기타 분류 안된 상품 전문 소매업"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44790"
+				,"signguNm" : "청양군"
+				,"adongCd" : "44790250"
+				,"adongNm" : "청양읍"
+				,"ldongCd" : "4479025021"
+				,"ldongNm" : "청양읍"
+				,"lnoCd" : "4479025021103750000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 375
+				,"lnoSlno" : ""
+				,"lnoAdr" : "충청남도 청양군 청양읍 읍내리 375"
+				,"rdnmCd" : "447903261022"
+				,"rdnm" : "충청남도 청양군 청양읍 중앙로"
+				,"bldMnno" : 76
+				,"bldSlno" : ""
+				,"bldMngNo" : "4479025021103750000009821"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청남도 청양군 청양읍 중앙로 76"
+				,"oldZipcd" : "345804"
+				,"newZipcd" : "33336"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.801970563965
+				,"lat" : 36.4459870311706
+				}
+				,{
+				"bizesId" : "MA0106202509A1584837"
+				,"bizesNm" : "맑은발걸음"
+				,"brchNm" : ""
+				,"indsLclsCd" : "S2"
+				,"indsLclsNm" : "수리·개인"
+				,"indsMclsCd" : "S209"
+				,"indsMclsNm" : "세탁"
+				,"indsSclsCd" : "S20901"
+				,"indsSclsNm" : "세탁소"
+				,"ksicCd" : "S96912"
+				,"ksicNm" : "가정용 세탁업"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44790"
+				,"signguNm" : "청양군"
+				,"adongCd" : "44790250"
+				,"adongNm" : "청양읍"
+				,"ldongCd" : "4479025021"
+				,"ldongNm" : "청양읍"
+				,"lnoCd" : "4479025021103750004"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 375
+				,"lnoSlno" : 4
+				,"lnoAdr" : "충청남도 청양군 청양읍 읍내리 375-4"
+				,"rdnmCd" : "447903261022"
+				,"rdnm" : "충청남도 청양군 청양읍 중앙로"
+				,"bldMnno" : 78
+				,"bldSlno" : ""
+				,"bldMngNo" : "4479025021103750004009823"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청남도 청양군 청양읍 중앙로 78"
+				,"oldZipcd" : "345804"
+				,"newZipcd" : "33336"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.801980710337
+				,"lat" : 36.4463835605306
+				}
+				,{
+				"bizesId" : "MA0106202509A1035796"
+				,"bizesNm" : "행운카페"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44790"
+				,"signguNm" : "청양군"
+				,"adongCd" : "44790250"
+				,"adongNm" : "청양읍"
+				,"ldongCd" : "4479025021"
+				,"ldongNm" : "청양읍"
+				,"lnoCd" : "4479025021103320002"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 332
+				,"lnoSlno" : 2
+				,"lnoAdr" : "충청남도 청양군 청양읍 읍내리 332-2"
+				,"rdnmCd" : "447903261022"
+				,"rdnm" : "충청남도 청양군 청양읍 중앙로"
+				,"bldMnno" : 104
+				,"bldSlno" : 1
+				,"bldMngNo" : "4479025021103320002011016"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청남도 청양군 청양읍 중앙로 104-1"
+				,"oldZipcd" : "345804"
+				,"newZipcd" : "33333"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.802911269942
+				,"lat" : 36.4489083614843
+				}
+				,{
+				"bizesId" : "MA0106202509A1513273"
+				,"bizesNm" : "아이스크림스토리"
+				,"brchNm" : "청양점"
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G221"
+				,"indsMclsNm" : "기타 상품 소매"
+				,"indsSclsCd" : "G22199"
+				,"indsSclsNm" : "그 외 기타 상품 전문 소매업"
+				,"ksicCd" : "G47859"
+				,"ksicNm" : "그 외 기타 분류 안된 상품 전문 소매업"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44790"
+				,"signguNm" : "청양군"
+				,"adongCd" : "44790250"
+				,"adongNm" : "청양읍"
+				,"ldongCd" : "4479025021"
+				,"ldongNm" : "청양읍"
+				,"lnoCd" : "4479025021103670014"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 367
+				,"lnoSlno" : 14
+				,"lnoAdr" : "충청남도 청양군 청양읍 읍내리 367-14"
+				,"rdnmCd" : "447904583299"
+				,"rdnm" : "충청남도 청양군 청양읍 칠갑산로12길"
+				,"bldMnno" : 39
+				,"bldSlno" : ""
+				,"bldMngNo" : "4479025021103670014000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청남도 청양군 청양읍 칠갑산로12길 39"
+				,"oldZipcd" : "345804"
+				,"newZipcd" : "33334"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.804209441505
+				,"lat" : 36.4472163083379
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 4,
+		"totalCount" : 307	}
+}

@@ -1,0 +1,426 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA010120220812825636"
+				,"bizesNm" : "교동아일랜드"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I102"
+				,"indsMclsNm" : "기타 숙박"
+				,"indsSclsCd" : "I10299"
+				,"indsSclsNm" : "그 외 기타 숙박업"
+				,"ksicCd" : "I55109"
+				,"ksicNm" : "기타 일반 및 생활 숙박시설 운영업"
+				,"ctprvnCd" : "28"
+				,"ctprvnNm" : "인천광역시"
+				,"signguCd" : "28710"
+				,"signguNm" : "강화군"
+				,"adongCd" : "28710400"
+				,"adongNm" : "교동면"
+				,"ldongCd" : "2871040022"
+				,"ldongNm" : "교동면"
+				,"lnoCd" : "2871040022100060005"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 6
+				,"lnoSlno" : 5
+				,"lnoAdr" : "인천광역시 강화군 교동면 읍내리 6-5"
+				,"rdnmCd" : "287103157010"
+				,"rdnm" : "인천광역시 강화군 교동면 교동남로"
+				,"bldMnno" : 275
+				,"bldSlno" : ""
+				,"bldMngNo" : "2871040022100060005000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "인천광역시 강화군 교동면 교동남로 275"
+				,"oldZipcd" : "417921"
+				,"newZipcd" : "23001"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.300842947736
+				,"lat" : 37.772851339292
+				}
+				,{
+				"bizesId" : "MA0101202406A0145229"
+				,"bizesNm" : "광채인"
+				,"brchNm" : ""
+				,"indsLclsCd" : "M1"
+				,"indsLclsNm" : "과학·기술"
+				,"indsMclsCd" : "M107"
+				,"indsMclsNm" : "본사·경영 컨설팅"
+				,"indsSclsCd" : "M10703"
+				,"indsSclsNm" : "경영 컨설팅업"
+				,"ksicCd" : "M71531"
+				,"ksicNm" : "경영 컨설팅업"
+				,"ctprvnCd" : "28"
+				,"ctprvnNm" : "인천광역시"
+				,"signguCd" : "28710"
+				,"signguNm" : "강화군"
+				,"adongCd" : "28710400"
+				,"adongNm" : "교동면"
+				,"ldongCd" : "2871040025"
+				,"ldongNm" : "교동면"
+				,"lnoCd" : "2871040025116910011"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 1691
+				,"lnoSlno" : 11
+				,"lnoAdr" : "인천광역시 강화군 교동면 고구리 1691-11"
+				,"rdnmCd" : "287104271193"
+				,"rdnm" : "인천광역시 강화군 교동면 교동동로293번길"
+				,"bldMnno" : 35
+				,"bldSlno" : 18
+				,"bldMngNo" : "2871040025116910011000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "인천광역시 강화군 교동면 교동동로293번길 35-18"
+				,"oldZipcd" : "417921"
+				,"newZipcd" : "23001"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.304313826398
+				,"lat" : 37.7912601942597
+				}
+				,{
+				"bizesId" : "MA0101202301A0098103"
+				,"bizesNm" : "어노인트교동도점"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I212"
+				,"indsMclsNm" : "비알코올 "
+				,"indsSclsCd" : "I21201"
+				,"indsSclsNm" : "카페"
+				,"ksicCd" : "I56221"
+				,"ksicNm" : "커피 전문점"
+				,"ctprvnCd" : "28"
+				,"ctprvnNm" : "인천광역시"
+				,"signguCd" : "28710"
+				,"signguNm" : "강화군"
+				,"adongCd" : "28710400"
+				,"adongNm" : "교동면"
+				,"ldongCd" : "2871040023"
+				,"ldongNm" : "교동면"
+				,"lnoCd" : "2871040023108770000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 877
+				,"lnoSlno" : ""
+				,"lnoAdr" : "인천광역시 강화군 교동면 상용리 877"
+				,"rdnmCd" : "287103157010"
+				,"rdnm" : "인천광역시 강화군 교동면 교동남로"
+				,"bldMnno" : 341
+				,"bldSlno" : 6
+				,"bldMngNo" : "2871040023108770000000001"
+				,"bldNm" : "어노인트교동도점"
+				,"rdnmAdr" : "인천광역시 강화군 교동면 교동남로 341-6"
+				,"oldZipcd" : "417921"
+				,"newZipcd" : "23001"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.305766899186
+				,"lat" : 37.7767094782827
+				}
+				,{
+				"bizesId" : "MA0101202409A0258882"
+				,"bizesNm" : "행복매장"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G205"
+				,"indsMclsNm" : "식료품 소매"
+				,"indsSclsCd" : "G20506"
+				,"indsSclsNm" : "채소/과일 소매업"
+				,"ksicCd" : "G47215"
+				,"ksicNm" : "채소, 과실 및 뿌리작물 소매업"
+				,"ctprvnCd" : "28"
+				,"ctprvnNm" : "인천광역시"
+				,"signguCd" : "28710"
+				,"signguNm" : "강화군"
+				,"adongCd" : "28710400"
+				,"adongNm" : "교동면"
+				,"ldongCd" : "2871040023"
+				,"ldongNm" : "교동면"
+				,"lnoCd" : "2871040023108760005"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 876
+				,"lnoSlno" : 5
+				,"lnoAdr" : "인천광역시 강화군 교동면 상용리 876-5"
+				,"rdnmCd" : "287103157010"
+				,"rdnm" : "인천광역시 강화군 교동면 교동남로"
+				,"bldMnno" : 339
+				,"bldSlno" : ""
+				,"bldMngNo" : "2871040023108760001000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "인천광역시 강화군 교동면 교동남로 339"
+				,"oldZipcd" : "417921"
+				,"newZipcd" : "23001"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.305815838027
+				,"lat" : 37.7763313688178
+				}
+				,{
+				"bizesId" : "MA010120220814299876"
+				,"bizesNm" : "교동탑공인중개사"
+				,"brchNm" : ""
+				,"indsLclsCd" : "L1"
+				,"indsLclsNm" : "부동산"
+				,"indsMclsCd" : "L102"
+				,"indsMclsNm" : "부동산 서비스"
+				,"indsSclsCd" : "L10203"
+				,"indsSclsNm" : "부동산 중개/대리업"
+				,"ksicCd" : "L68221"
+				,"ksicNm" : "부동산 중개 및 대리업"
+				,"ctprvnCd" : "28"
+				,"ctprvnNm" : "인천광역시"
+				,"signguCd" : "28710"
+				,"signguNm" : "강화군"
+				,"adongCd" : "28710400"
+				,"adongNm" : "교동면"
+				,"ldongCd" : "2871040024"
+				,"ldongNm" : "교동면"
+				,"lnoCd" : "2871040024105730008"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 573
+				,"lnoSlno" : 8
+				,"lnoAdr" : "인천광역시 강화군 교동면 봉소리 573-8"
+				,"rdnmCd" : "287103157011"
+				,"rdnm" : "인천광역시 강화군 교동면 교동동로"
+				,"bldMnno" : 170
+				,"bldSlno" : ""
+				,"bldMngNo" : "2871040024105730008000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "인천광역시 강화군 교동면 교동동로 170"
+				,"oldZipcd" : "417921"
+				,"newZipcd" : "23001"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.312094026779
+				,"lat" : 37.7945672989817
+				}
+				,{
+				"bizesId" : "MA010120220802513499"
+				,"bizesNm" : "교동갯벌숯불구이왕새우"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20107"
+				,"indsSclsNm" : "돼지고기 구이/찜"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "28"
+				,"ctprvnNm" : "인천광역시"
+				,"signguCd" : "28710"
+				,"signguNm" : "강화군"
+				,"adongCd" : "28710400"
+				,"adongNm" : "교동면"
+				,"ldongCd" : "2871040023"
+				,"ldongNm" : "교동면"
+				,"lnoCd" : "2871040023106060002"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 606
+				,"lnoSlno" : 2
+				,"lnoAdr" : "인천광역시 강화군 교동면 상용리 606-2"
+				,"rdnmCd" : "287103157010"
+				,"rdnm" : "인천광역시 강화군 교동면 교동남로"
+				,"bldMnno" : 456
+				,"bldSlno" : ""
+				,"bldMngNo" : "2871040023106060002000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "인천광역시 강화군 교동면 교동남로 456"
+				,"oldZipcd" : "417921"
+				,"newZipcd" : "23001"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.31640384274
+				,"lat" : 37.7753391616083
+				}
+				,{
+				"bizesId" : "MA010120220802499436"
+				,"bizesNm" : "월선포휴게소"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G204"
+				,"indsMclsNm" : "종합 소매"
+				,"indsSclsCd" : "G20404"
+				,"indsSclsNm" : "슈퍼마켓"
+				,"ksicCd" : "G47121"
+				,"ksicNm" : "슈퍼마켓"
+				,"ctprvnCd" : "28"
+				,"ctprvnNm" : "인천광역시"
+				,"signguCd" : "28710"
+				,"signguNm" : "강화군"
+				,"adongCd" : "28710400"
+				,"adongNm" : "교동면"
+				,"ldongCd" : "2871040023"
+				,"ldongNm" : "교동면"
+				,"lnoCd" : "2871040023106050004"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 605
+				,"lnoSlno" : 4
+				,"lnoAdr" : "인천광역시 강화군 교동면 상용리 605-4"
+				,"rdnmCd" : "287103157010"
+				,"rdnm" : "인천광역시 강화군 교동면 교동남로"
+				,"bldMnno" : 468
+				,"bldSlno" : ""
+				,"bldMngNo" : "2871040023106050004046222"
+				,"bldNm" : ""
+				,"rdnmAdr" : "인천광역시 강화군 교동면 교동남로 468"
+				,"oldZipcd" : "417921"
+				,"newZipcd" : "23001"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.316999676843
+				,"lat" : 37.7747299722209
+				}
+				,{
+				"bizesId" : "MA010120220809906375"
+				,"bizesNm" : "교동슈퍼마켓"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G204"
+				,"indsMclsNm" : "종합 소매"
+				,"indsSclsCd" : "G20404"
+				,"indsSclsNm" : "슈퍼마켓"
+				,"ksicCd" : "G47129"
+				,"ksicNm" : "기타 음ㆍ식료품 위주 종합 소매업"
+				,"ctprvnCd" : "28"
+				,"ctprvnNm" : "인천광역시"
+				,"signguCd" : "28710"
+				,"signguNm" : "강화군"
+				,"adongCd" : "28710400"
+				,"adongNm" : "교동면"
+				,"ldongCd" : "2871040023"
+				,"ldongNm" : "교동면"
+				,"lnoCd" : "2871040023111070000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 1107
+				,"lnoSlno" : ""
+				,"lnoAdr" : "인천광역시 강화군 교동면 상용리 1107"
+				,"rdnmCd" : "287103157010"
+				,"rdnm" : "인천광역시 강화군 교동면 교동남로"
+				,"bldMnno" : 455
+				,"bldSlno" : ""
+				,"bldMngNo" : "2871040023106000001046632"
+				,"bldNm" : ""
+				,"rdnmAdr" : "인천광역시 강화군 교동면 교동남로 455"
+				,"oldZipcd" : "417921"
+				,"newZipcd" : "23001"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.317198174456
+				,"lat" : 37.7753617861287
+				}
+				,{
+				"bizesId" : "MA0101202411A0033904"
+				,"bizesNm" : "기념품점"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G218"
+				,"indsMclsNm" : "장식품 소매"
+				,"indsSclsCd" : "G21802"
+				,"indsSclsNm" : "기념품점"
+				,"ksicCd" : "G47842"
+				,"ksicNm" : "기념품, 관광 민예품 및 장식용품 소매업"
+				,"ctprvnCd" : "28"
+				,"ctprvnNm" : "인천광역시"
+				,"signguCd" : "28710"
+				,"signguNm" : "강화군"
+				,"adongCd" : "28710400"
+				,"adongNm" : "교동면"
+				,"ldongCd" : "2871040023"
+				,"ldongNm" : "교동면"
+				,"lnoCd" : "2871040023105300003"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 530
+				,"lnoSlno" : 3
+				,"lnoAdr" : "인천광역시 강화군 교동면 상용리 530-3"
+				,"rdnmCd" : "287104271189"
+				,"rdnm" : "인천광역시 강화군 교동면 교동남로423번길"
+				,"bldMnno" : 61
+				,"bldSlno" : 14
+				,"bldMngNo" : "2871040023105300003000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "인천광역시 강화군 교동면 교동남로423번길 61-14"
+				,"oldZipcd" : "417921"
+				,"newZipcd" : "23001"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.31849706454
+				,"lat" : 37.7822435341007
+				}
+				,{
+				"bizesId" : "MA0101202410A0533738"
+				,"bizesNm" : "민트플라워"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G219"
+				,"indsMclsNm" : "식물 소매"
+				,"indsSclsCd" : "G21901"
+				,"indsSclsNm" : "꽃집"
+				,"ksicCd" : "G47851"
+				,"ksicNm" : "화초 및 식물 소매업"
+				,"ctprvnCd" : "28"
+				,"ctprvnNm" : "인천광역시"
+				,"signguCd" : "28710"
+				,"signguNm" : "강화군"
+				,"adongCd" : "28710400"
+				,"adongNm" : "교동면"
+				,"ldongCd" : "2871040024"
+				,"ldongNm" : "교동면"
+				,"lnoCd" : "2871040024110270001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 1027
+				,"lnoSlno" : 1
+				,"lnoAdr" : "인천광역시 강화군 교동면 봉소리 1027-1"
+				,"rdnmCd" : "287103157011"
+				,"rdnm" : "인천광역시 강화군 교동면 교동동로"
+				,"bldMnno" : 69
+				,"bldSlno" : 24
+				,"bldMngNo" : "2871040024110270001000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "인천광역시 강화군 교동면 교동동로 69-24"
+				,"oldZipcd" : "417921"
+				,"newZipcd" : "23001"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.323267636371
+				,"lat" : 37.7906408229665
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 1,
+		"totalCount" : 10	}
+}

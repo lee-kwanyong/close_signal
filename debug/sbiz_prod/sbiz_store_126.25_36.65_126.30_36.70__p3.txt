@@ -1,0 +1,426 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA0101202503A0041597"
+				,"bizesNm" : "엘플레이트풀빌라"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55109"
+				,"ksicNm" : "기타 일반 및 생활 숙박시설 운영업"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44825"
+				,"signguNm" : "태안군"
+				,"adongCd" : "44825320"
+				,"adongNm" : "남면"
+				,"ldongCd" : "4482532022"
+				,"ldongNm" : "남면"
+				,"lnoCd" : "4482532022106030012"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 603
+				,"lnoSlno" : 12
+				,"lnoAdr" : "충청남도 태안군 남면 몽산리 603-12"
+				,"rdnmCd" : "448253264014"
+				,"rdnm" : "충청남도 태안군 남면 몽대로"
+				,"bldMnno" : 359
+				,"bldSlno" : 3
+				,"bldMngNo" : "4482532022106030012000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청남도 태안군 남면 몽대로 359-3"
+				,"oldZipcd" : "357954"
+				,"newZipcd" : "32152"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.270392302587
+				,"lat" : 36.6838467424093
+				}
+				,{
+				"bizesId" : "MA0101202505A0086318"
+				,"bizesNm" : "제일"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55104"
+				,"ksicNm" : "민박업"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44825"
+				,"signguNm" : "태안군"
+				,"adongCd" : "44825320"
+				,"adongNm" : "남면"
+				,"ldongCd" : "4482532022"
+				,"ldongNm" : "남면"
+				,"lnoCd" : "4482532022106410004"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 641
+				,"lnoSlno" : 4
+				,"lnoAdr" : "충청남도 태안군 남면 몽산리 641-4"
+				,"rdnmCd" : "448253264014"
+				,"rdnm" : "충청남도 태안군 남면 몽대로"
+				,"bldMnno" : 426
+				,"bldSlno" : 23
+				,"bldMngNo" : "4482532022106410004000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청남도 태안군 남면 몽대로 426-23"
+				,"oldZipcd" : "357954"
+				,"newZipcd" : "32152"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.27135877345
+				,"lat" : 36.6762743258734
+				}
+				,{
+				"bizesId" : "MA0106202506A0572146"
+				,"bizesNm" : "아줌마횟집"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20111"
+				,"indsSclsNm" : "횟집"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44825"
+				,"signguNm" : "태안군"
+				,"adongCd" : "44825320"
+				,"adongNm" : "남면"
+				,"ldongCd" : "4482532022"
+				,"ldongNm" : "남면"
+				,"lnoCd" : "4482532022106860002"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 686
+				,"lnoSlno" : 2
+				,"lnoAdr" : "충청남도 태안군 남면 몽산리 686-2"
+				,"rdnmCd" : "448253264014"
+				,"rdnm" : "충청남도 태안군 남면 몽대로"
+				,"bldMnno" : 495
+				,"bldSlno" : 7
+				,"bldMngNo" : "4482532022106860002003788"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청남도 태안군 남면 몽대로 495-7"
+				,"oldZipcd" : "357954"
+				,"newZipcd" : "32152"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.272989194172
+				,"lat" : 36.673013258611
+				}
+				,{
+				"bizesId" : "MA0101202505A0031354"
+				,"bizesNm" : "몽산포몽글몽글"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55109"
+				,"ksicNm" : "기타 일반 및 생활 숙박시설 운영업"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44825"
+				,"signguNm" : "태안군"
+				,"adongCd" : "44825320"
+				,"adongNm" : "남면"
+				,"ldongCd" : "4482532022"
+				,"ldongNm" : "남면"
+				,"lnoCd" : "4482532022106850028"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 685
+				,"lnoSlno" : 28
+				,"lnoAdr" : "충청남도 태안군 남면 몽산리 685-28"
+				,"rdnmCd" : "448253264014"
+				,"rdnm" : "충청남도 태안군 남면 몽대로"
+				,"bldMnno" : 495
+				,"bldSlno" : ""
+				,"bldMngNo" : "4482532022106850028005430"
+				,"bldNm" : "3~4층"
+				,"rdnmAdr" : "충청남도 태안군 남면 몽대로 495"
+				,"oldZipcd" : "357954"
+				,"newZipcd" : "32152"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.273043597635
+				,"lat" : 36.673175790721
+				}
+				,{
+				"bizesId" : "MA0106202506A1965790"
+				,"bizesNm" : "보글보글"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44825"
+				,"signguNm" : "태안군"
+				,"adongCd" : "44825320"
+				,"adongNm" : "남면"
+				,"ldongCd" : "4482532022"
+				,"ldongNm" : "남면"
+				,"lnoCd" : "4482532022106850028"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 685
+				,"lnoSlno" : 28
+				,"lnoAdr" : "충청남도 태안군 남면 몽산리 685-28"
+				,"rdnmCd" : "448253264014"
+				,"rdnm" : "충청남도 태안군 남면 몽대로"
+				,"bldMnno" : 495
+				,"bldSlno" : ""
+				,"bldMngNo" : "4482532022106850028005430"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청남도 태안군 남면 몽대로 495"
+				,"oldZipcd" : "357954"
+				,"newZipcd" : "32152"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.273043597635
+				,"lat" : 36.673175790721
+				}
+				,{
+				"bizesId" : "MA0106202507A0510926"
+				,"bizesNm" : "몽산142"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10102"
+				,"indsSclsNm" : "여관/모텔"
+				,"ksicCd" : "I55102"
+				,"ksicNm" : "여관업"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44825"
+				,"signguNm" : "태안군"
+				,"adongCd" : "44825320"
+				,"adongNm" : "남면"
+				,"ldongCd" : "4482532022"
+				,"ldongNm" : "남면"
+				,"lnoCd" : "4482532022107830022"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 783
+				,"lnoSlno" : 22
+				,"lnoAdr" : "충청남도 태안군 남면 몽산리 783-22"
+				,"rdnmCd" : "448254592105"
+				,"rdnm" : "충청남도 태안군 남면 몽산포길"
+				,"bldMnno" : 142
+				,"bldSlno" : ""
+				,"bldMngNo" : "4482532022107830022005416"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청남도 태안군 남면 몽산포길 142"
+				,"oldZipcd" : "357954"
+				,"newZipcd" : "32152"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.282352635618
+				,"lat" : 36.6753859099551
+				}
+				,{
+				"bizesId" : "MA0106202201A0987242"
+				,"bizesNm" : "몽산포하나마트"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G221"
+				,"indsMclsNm" : "기타 상품 소매"
+				,"indsSclsCd" : "G22199"
+				,"indsSclsNm" : "그 외 기타 상품 전문 소매업"
+				,"ksicCd" : "G47859"
+				,"ksicNm" : "그 외 기타 분류 안된 상품 전문 소매업"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44825"
+				,"signguNm" : "태안군"
+				,"adongCd" : "44825320"
+				,"adongNm" : "남면"
+				,"ldongCd" : "4482532023"
+				,"ldongNm" : "남면"
+				,"lnoCd" : "4482532023103550083"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 355
+				,"lnoSlno" : 83
+				,"lnoAdr" : "충청남도 태안군 남면 신장리 355-83"
+				,"rdnmCd" : "448254592105"
+				,"rdnm" : "충청남도 태안군 남면 몽산포길"
+				,"bldMnno" : 69
+				,"bldSlno" : ""
+				,"bldMngNo" : "4482532023103550006000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청남도 태안군 남면 몽산포길 69"
+				,"oldZipcd" : "357951"
+				,"newZipcd" : "32153"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.288749038311
+				,"lat" : 36.6720090716285
+				}
+				,{
+				"bizesId" : "MA0106202201A0987243"
+				,"bizesNm" : "씨유태안몽산포"
+				,"brchNm" : "행운점"
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G204"
+				,"indsMclsNm" : "종합 소매"
+				,"indsSclsCd" : "G20405"
+				,"indsSclsNm" : "편의점"
+				,"ksicCd" : "G47121"
+				,"ksicNm" : "슈퍼마켓"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44825"
+				,"signguNm" : "태안군"
+				,"adongCd" : "44825320"
+				,"adongNm" : "남면"
+				,"ldongCd" : "4482532023"
+				,"ldongNm" : "남면"
+				,"lnoCd" : "4482532023103550083"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 355
+				,"lnoSlno" : 83
+				,"lnoAdr" : "충청남도 태안군 남면 신장리 355-83"
+				,"rdnmCd" : "448254592105"
+				,"rdnm" : "충청남도 태안군 남면 몽산포길"
+				,"bldMnno" : 69
+				,"bldSlno" : ""
+				,"bldMngNo" : "4482532023103550006000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청남도 태안군 남면 몽산포길 69"
+				,"oldZipcd" : "357951"
+				,"newZipcd" : "32153"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.288749038311
+				,"lat" : 36.6720090716285
+				}
+				,{
+				"bizesId" : "MA0101202503A0060888"
+				,"bizesNm" : "몽산포오페라하우스"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55109"
+				,"ksicNm" : "기타 일반 및 생활 숙박시설 운영업"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44825"
+				,"signguNm" : "태안군"
+				,"adongCd" : "44825320"
+				,"adongNm" : "남면"
+				,"ldongCd" : "4482532023"
+				,"ldongNm" : "남면"
+				,"lnoCd" : "4482532023103430010"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 343
+				,"lnoSlno" : 10
+				,"lnoAdr" : "충청남도 태안군 남면 신장리 343-10"
+				,"rdnmCd" : "448254592186"
+				,"rdnm" : "충청남도 태안군 남면 신장길"
+				,"bldMnno" : 7
+				,"bldSlno" : 28
+				,"bldMngNo" : "4482532023103430010005389"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청남도 태안군 남면 신장길 7-28"
+				,"oldZipcd" : "357951"
+				,"newZipcd" : "32153"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.290738840962
+				,"lat" : 36.6758146204719
+				}
+				,{
+				"bizesId" : "MA0106202201A0933684"
+				,"bizesNm" : "남면농협협동조합"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G214"
+				,"indsMclsNm" : "연료 소매"
+				,"indsSclsCd" : "G21401"
+				,"indsSclsNm" : "주유소"
+				,"ksicCd" : "G47711"
+				,"ksicNm" : "운송장비용 주유소 운영업"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44825"
+				,"signguNm" : "태안군"
+				,"adongCd" : "44825320"
+				,"adongNm" : "남면"
+				,"ldongCd" : "4482532023"
+				,"ldongNm" : "남면"
+				,"lnoCd" : "4482532023103760001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 376
+				,"lnoSlno" : 1
+				,"lnoAdr" : "충청남도 태안군 남면 신장리 376-1"
+				,"rdnmCd" : "448253264040"
+				,"rdnm" : "충청남도 태안군 남면 남면로"
+				,"bldMnno" : 78
+				,"bldSlno" : ""
+				,"bldMngNo" : "4482532023103760001004957"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청남도 태안군 남면 남면로 78"
+				,"oldZipcd" : "357951"
+				,"newZipcd" : "32153"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.294691557945
+				,"lat" : 36.6754055636396
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 3,
+		"totalCount" : 210	}
+}

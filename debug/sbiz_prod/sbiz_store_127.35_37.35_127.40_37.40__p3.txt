@@ -1,0 +1,426 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA0106202509A1285332"
+				,"bizesNm" : "살롱호진"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I212"
+				,"indsMclsNm" : "비알코올 "
+				,"indsSclsCd" : "I21201"
+				,"indsSclsNm" : "카페"
+				,"ksicCd" : "I56221"
+				,"ksicNm" : "커피 전문점"
+				,"ctprvnCd" : "41"
+				,"ctprvnNm" : "경기도"
+				,"signguCd" : "41610"
+				,"signguNm" : "광주시"
+				,"adongCd" : "41610259"
+				,"adongNm" : "곤지암읍"
+				,"ldongCd" : "4161025921"
+				,"ldongNm" : "곤지암읍"
+				,"lnoCd" : "4161025921101370001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 137
+				,"lnoSlno" : 1
+				,"lnoAdr" : "경기도 광주시 곤지암읍 곤지암리 137-1"
+				,"rdnmCd" : "416103012083"
+				,"rdnm" : "경기도 광주시 곤지암읍 광여로"
+				,"bldMnno" : 53
+				,"bldSlno" : ""
+				,"bldMngNo" : "4161025621101370001024229"
+				,"bldNm" : ""
+				,"rdnmAdr" : "경기도 광주시 곤지암읍 광여로 53"
+				,"oldZipcd" : "464872"
+				,"newZipcd" : "12801"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.351709336432
+				,"lat" : 37.3505108272479
+				}
+				,{
+				"bizesId" : "MA0106202410A0262989"
+				,"bizesNm" : "에스피씨지에프에스쿠팡곤지암1센터구내식당"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I207"
+				,"indsMclsNm" : "구내식당·뷔페"
+				,"indsSclsCd" : "I20701"
+				,"indsSclsNm" : "구내식당"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "41"
+				,"ctprvnNm" : "경기도"
+				,"signguCd" : "41610"
+				,"signguNm" : "광주시"
+				,"adongCd" : "41610259"
+				,"adongNm" : "곤지암읍"
+				,"ldongCd" : "4161025934"
+				,"ldongNm" : "곤지암읍"
+				,"lnoCd" : "4161025934105050024"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 505
+				,"lnoSlno" : 24
+				,"lnoAdr" : "경기도 광주시 곤지암읍 열미리 505-24"
+				,"rdnmCd" : "416103012083"
+				,"rdnm" : "경기도 광주시 곤지암읍 광여로"
+				,"bldMnno" : 189
+				,"bldSlno" : 8
+				,"bldMngNo" : "4161025934105050024000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "경기도 광주시 곤지암읍 광여로 189-8"
+				,"oldZipcd" : "464857"
+				,"newZipcd" : "12717"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.364841728769
+				,"lat" : 37.3518045696331
+				}
+				,{
+				"bizesId" : "MA0106202508A0240093"
+				,"bizesNm" : "명품셀프주유소"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G214"
+				,"indsMclsNm" : "연료 소매"
+				,"indsSclsCd" : "G21401"
+				,"indsSclsNm" : "주유소"
+				,"ksicCd" : "G47711"
+				,"ksicNm" : "운송장비용 주유소 운영업"
+				,"ctprvnCd" : "41"
+				,"ctprvnNm" : "경기도"
+				,"signguCd" : "41610"
+				,"signguNm" : "광주시"
+				,"adongCd" : "41610259"
+				,"adongNm" : "곤지암읍"
+				,"ldongCd" : "4161025934"
+				,"ldongNm" : "곤지암읍"
+				,"lnoCd" : "4161025934105030003"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 503
+				,"lnoSlno" : 3
+				,"lnoAdr" : "경기도 광주시 곤지암읍 열미리 503-3"
+				,"rdnmCd" : "416103012083"
+				,"rdnm" : "경기도 광주시 곤지암읍 광여로"
+				,"bldMnno" : 190
+				,"bldSlno" : ""
+				,"bldMngNo" : "4161025634105030003254827"
+				,"bldNm" : ""
+				,"rdnmAdr" : "경기도 광주시 곤지암읍 광여로 190"
+				,"oldZipcd" : "464857"
+				,"newZipcd" : "12717"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.365548450902
+				,"lat" : 37.3509103741555
+				}
+				,{
+				"bizesId" : "MA0106202508A0240094"
+				,"bizesNm" : "명품셀프주유소"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G214"
+				,"indsMclsNm" : "연료 소매"
+				,"indsSclsCd" : "G21401"
+				,"indsSclsNm" : "주유소"
+				,"ksicCd" : "G47711"
+				,"ksicNm" : "운송장비용 주유소 운영업"
+				,"ctprvnCd" : "41"
+				,"ctprvnNm" : "경기도"
+				,"signguCd" : "41610"
+				,"signguNm" : "광주시"
+				,"adongCd" : "41610259"
+				,"adongNm" : "곤지암읍"
+				,"ldongCd" : "4161025934"
+				,"ldongNm" : "곤지암읍"
+				,"lnoCd" : "4161025934105030003"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 503
+				,"lnoSlno" : 3
+				,"lnoAdr" : "경기도 광주시 곤지암읍 열미리 503-3"
+				,"rdnmCd" : "416103012083"
+				,"rdnm" : "경기도 광주시 곤지암읍 광여로"
+				,"bldMnno" : 190
+				,"bldSlno" : ""
+				,"bldMngNo" : "4161025634105030003254827"
+				,"bldNm" : ""
+				,"rdnmAdr" : "경기도 광주시 곤지암읍 광여로 190"
+				,"oldZipcd" : "464857"
+				,"newZipcd" : "12717"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.365548450902
+				,"lat" : 37.3509103741555
+				}
+				,{
+				"bizesId" : "MA0106202509A1284458"
+				,"bizesNm" : "백야당구장"
+				,"brchNm" : ""
+				,"indsLclsCd" : "R1"
+				,"indsLclsNm" : "예술·스포츠"
+				,"indsMclsCd" : "R103"
+				,"indsMclsNm" : "스포츠 서비스"
+				,"indsSclsCd" : "R10310"
+				,"indsSclsNm" : "당구장"
+				,"ksicCd" : "R91135"
+				,"ksicNm" : "당구장 운영업"
+				,"ctprvnCd" : "41"
+				,"ctprvnNm" : "경기도"
+				,"signguCd" : "41610"
+				,"signguNm" : "광주시"
+				,"adongCd" : "41610259"
+				,"adongNm" : "곤지암읍"
+				,"ldongCd" : "4161025934"
+				,"ldongNm" : "곤지암읍"
+				,"lnoCd" : "4161025934104360011"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 436
+				,"lnoSlno" : 11
+				,"lnoAdr" : "경기도 광주시 곤지암읍 열미리 436-11"
+				,"rdnmCd" : "416103012083"
+				,"rdnm" : "경기도 광주시 곤지암읍 광여로"
+				,"bldMnno" : 211
+				,"bldSlno" : ""
+				,"bldMngNo" : "4161025634104360011254780"
+				,"bldNm" : ""
+				,"rdnmAdr" : "경기도 광주시 곤지암읍 광여로 211"
+				,"oldZipcd" : "464857"
+				,"newZipcd" : "12717"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.366009702524
+				,"lat" : 37.3529272413643
+				}
+				,{
+				"bizesId" : "MA0106202210A0838148"
+				,"bizesNm" : "GS25뉴광주열미점"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G204"
+				,"indsMclsNm" : "종합 소매"
+				,"indsSclsCd" : "G20405"
+				,"indsSclsNm" : "편의점"
+				,"ksicCd" : "G47121"
+				,"ksicNm" : "슈퍼마켓"
+				,"ctprvnCd" : "41"
+				,"ctprvnNm" : "경기도"
+				,"signguCd" : "41610"
+				,"signguNm" : "광주시"
+				,"adongCd" : "41610259"
+				,"adongNm" : "곤지암읍"
+				,"ldongCd" : "4161025934"
+				,"ldongNm" : "곤지암읍"
+				,"lnoCd" : "4161025934104730003"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 473
+				,"lnoSlno" : 3
+				,"lnoAdr" : "경기도 광주시 곤지암읍 열미리 473-3"
+				,"rdnmCd" : "416103012083"
+				,"rdnm" : "경기도 광주시 곤지암읍 광여로"
+				,"bldMnno" : 223
+				,"bldSlno" : ""
+				,"bldMngNo" : "4161025634104730003254814"
+				,"bldNm" : ""
+				,"rdnmAdr" : "경기도 광주시 곤지암읍 광여로 223"
+				,"oldZipcd" : "464857"
+				,"newZipcd" : "12717"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.366635112181
+				,"lat" : 37.3538803896707
+				}
+				,{
+				"bizesId" : "MA0106202509A1312713"
+				,"bizesNm" : "알비카페멀티샵"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "41"
+				,"ctprvnNm" : "경기도"
+				,"signguCd" : "41610"
+				,"signguNm" : "광주시"
+				,"adongCd" : "41610259"
+				,"adongNm" : "곤지암읍"
+				,"ldongCd" : "4161025933"
+				,"ldongNm" : "곤지암읍"
+				,"lnoCd" : "4161025933104150005"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 415
+				,"lnoSlno" : 5
+				,"lnoAdr" : "경기도 광주시 곤지암읍 오향리 415-5"
+				,"rdnmCd" : "416103012083"
+				,"rdnm" : "경기도 광주시 곤지암읍 광여로"
+				,"bldMnno" : 302
+				,"bldSlno" : ""
+				,"bldMngNo" : "4161025933104150005000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "경기도 광주시 곤지암읍 광여로 302"
+				,"oldZipcd" : "464944"
+				,"newZipcd" : "12718"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.373901506681
+				,"lat" : 37.3579482896298
+				}
+				,{
+				"bizesId" : "MA0106202511A1957965"
+				,"bizesNm" : "이마트24곤지암광여로점"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G204"
+				,"indsMclsNm" : "종합 소매"
+				,"indsSclsCd" : "G20405"
+				,"indsSclsNm" : "편의점"
+				,"ksicCd" : "G47121"
+				,"ksicNm" : "슈퍼마켓"
+				,"ctprvnCd" : "41"
+				,"ctprvnNm" : "경기도"
+				,"signguCd" : "41610"
+				,"signguNm" : "광주시"
+				,"adongCd" : "41610259"
+				,"adongNm" : "곤지암읍"
+				,"ldongCd" : "4161025933"
+				,"ldongNm" : "곤지암읍"
+				,"lnoCd" : "4161025933102740010"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 274
+				,"lnoSlno" : 10
+				,"lnoAdr" : "경기도 광주시 곤지암읍 오향리 274-10"
+				,"rdnmCd" : "416104433375"
+				,"rdnm" : "경기도 광주시 곤지암읍 오향길"
+				,"bldMnno" : 9
+				,"bldSlno" : 11
+				,"bldMngNo" : "4161025933102740010000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "경기도 광주시 곤지암읍 오향길 9-11"
+				,"oldZipcd" : "464944"
+				,"newZipcd" : "12718"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.376343548846
+				,"lat" : 37.3632565765519
+				}
+				,{
+				"bizesId" : "MA0106202508A2423639"
+				,"bizesNm" : "그린매트리스"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G211"
+				,"indsMclsNm" : "가구 소매"
+				,"indsSclsCd" : "G21101"
+				,"indsSclsNm" : "가구 소매업"
+				,"ksicCd" : "G47520"
+				,"ksicNm" : "가구 소매업"
+				,"ctprvnCd" : "41"
+				,"ctprvnNm" : "경기도"
+				,"signguCd" : "41610"
+				,"signguNm" : "광주시"
+				,"adongCd" : "41610259"
+				,"adongNm" : "곤지암읍"
+				,"ldongCd" : "4161025925"
+				,"ldongNm" : "곤지암읍"
+				,"lnoCd" : "4161025925103190000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 319
+				,"lnoSlno" : ""
+				,"lnoAdr" : "경기도 광주시 곤지암읍 부항리 319"
+				,"rdnmCd" : "416103211016"
+				,"rdnm" : "경기도 광주시 곤지암읍 신만로"
+				,"bldMnno" : 360
+				,"bldSlno" : 6
+				,"bldMngNo" : "4161025925103190000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "경기도 광주시 곤지암읍 신만로 360-6"
+				,"oldZipcd" : "464940"
+				,"newZipcd" : "12723"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.397164739296
+				,"lat" : 37.357872468206
+				}
+				,{
+				"bizesId" : "MA0106202210A2322962"
+				,"bizesNm" : "쏘포유"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G211"
+				,"indsMclsNm" : "가구 소매"
+				,"indsSclsCd" : "G21101"
+				,"indsSclsNm" : "가구 소매업"
+				,"ksicCd" : "G47520"
+				,"ksicNm" : "가구 소매업"
+				,"ctprvnCd" : "41"
+				,"ctprvnNm" : "경기도"
+				,"signguCd" : "41610"
+				,"signguNm" : "광주시"
+				,"adongCd" : "41610259"
+				,"adongNm" : "곤지암읍"
+				,"ldongCd" : "4161025932"
+				,"ldongNm" : "곤지암읍"
+				,"lnoCd" : "4161025932100700009"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 70
+				,"lnoSlno" : 9
+				,"lnoAdr" : "경기도 광주시 곤지암읍 연곡리 70-9"
+				,"rdnmCd" : "416103012083"
+				,"rdnm" : "경기도 광주시 곤지암읍 광여로"
+				,"bldMnno" : 581
+				,"bldSlno" : ""
+				,"bldMngNo" : "4161025632100700009251473"
+				,"bldNm" : ""
+				,"rdnmAdr" : "경기도 광주시 곤지암읍 광여로 581"
+				,"oldZipcd" : "464875"
+				,"newZipcd" : "12722"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.398402540785
+				,"lat" : 37.3678245908935
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 3,
+		"totalCount" : 210	}
+}

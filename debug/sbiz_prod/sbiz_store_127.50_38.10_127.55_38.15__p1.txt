@@ -1,0 +1,221 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA010120220804528096"
+				,"bizesNm" : "명월복지마트"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G204"
+				,"indsMclsNm" : "종합 소매"
+				,"indsSclsCd" : "G20404"
+				,"indsSclsNm" : "슈퍼마켓"
+				,"ksicCd" : "G47121"
+				,"ksicNm" : "슈퍼마켓"
+				,"ctprvnCd" : "51"
+				,"ctprvnNm" : "강원특별자치도"
+				,"signguCd" : "51790"
+				,"signguNm" : "화천군"
+				,"adongCd" : "51790340"
+				,"adongNm" : "사내면"
+				,"ldongCd" : "5179034023"
+				,"ldongNm" : "사내면"
+				,"lnoCd" : "5179034023100190005"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 19
+				,"lnoSlno" : 5
+				,"lnoAdr" : "강원특별자치도 화천군 사내면 명월리 19-5"
+				,"rdnmCd" : "517903013046"
+				,"rdnm" : "강원특별자치도 화천군 사내면 수피령로"
+				,"bldMnno" : 882
+				,"bldSlno" : ""
+				,"bldMngNo" : "4279034023100190005000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "강원특별자치도 화천군 사내면 수피령로 882"
+				,"oldZipcd" : "209833"
+				,"newZipcd" : "24148"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.528903166365
+				,"lat" : 38.1409021413102
+				}
+				,{
+				"bizesId" : "MA010120220804508730"
+				,"bizesNm" : "종서건축인테리어"
+				,"brchNm" : ""
+				,"indsLclsCd" : "M1"
+				,"indsLclsNm" : "과학·기술"
+				,"indsMclsCd" : "M112"
+				,"indsMclsNm" : "전문 디자인"
+				,"indsSclsCd" : "M11201"
+				,"indsSclsNm" : "인테리어 디자인업"
+				,"ksicCd" : "F42412"
+				,"ksicNm" : "도배, 실내 장식 및 내장 목공사업"
+				,"ctprvnCd" : "51"
+				,"ctprvnNm" : "강원특별자치도"
+				,"signguCd" : "51790"
+				,"signguNm" : "화천군"
+				,"adongCd" : "51790340"
+				,"adongNm" : "사내면"
+				,"ldongCd" : "5179034023"
+				,"ldongNm" : "사내면"
+				,"lnoCd" : "5179034023100600000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 60
+				,"lnoSlno" : ""
+				,"lnoAdr" : "강원특별자치도 화천군 사내면 명월리 60"
+				,"rdnmCd" : "517903013046"
+				,"rdnm" : "강원특별자치도 화천군 사내면 수피령로"
+				,"bldMnno" : 930
+				,"bldSlno" : 3
+				,"bldMngNo" : "4279034023000000000007232"
+				,"bldNm" : ""
+				,"rdnmAdr" : "강원특별자치도 화천군 사내면 수피령로 930-3"
+				,"oldZipcd" : "209833"
+				,"newZipcd" : "24148"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.530372690647
+				,"lat" : 38.1453549616256
+				}
+				,{
+				"bizesId" : "MA010120220812488041"
+				,"bizesNm" : "화천흥부자민박"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55104"
+				,"ksicNm" : "민박업"
+				,"ctprvnCd" : "51"
+				,"ctprvnNm" : "강원특별자치도"
+				,"signguCd" : "51790"
+				,"signguNm" : "화천군"
+				,"adongCd" : "51790340"
+				,"adongNm" : "사내면"
+				,"ldongCd" : "5179034023"
+				,"ldongNm" : "사내면"
+				,"lnoCd" : "5179034023103580004"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 358
+				,"lnoSlno" : 4
+				,"lnoAdr" : "강원특별자치도 화천군 사내면 명월리 358-4"
+				,"rdnmCd" : "517904493033"
+				,"rdnm" : "강원특별자치도 화천군 사내면 두류산길"
+				,"bldMnno" : 30
+				,"bldSlno" : ""
+				,"bldMngNo" : "4279034023000000000005023"
+				,"bldNm" : ""
+				,"rdnmAdr" : "강원특별자치도 화천군 사내면 두류산길 30"
+				,"oldZipcd" : "209833"
+				,"newZipcd" : "24148"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.531277962671
+				,"lat" : 38.1112968324552
+				}
+				,{
+				"bizesId" : "MA010120220814018843"
+				,"bizesNm" : "두류산쉼터"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I211"
+				,"indsMclsNm" : "주점"
+				,"indsSclsCd" : "I21104"
+				,"indsSclsNm" : "요리 주점"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "51"
+				,"ctprvnNm" : "강원특별자치도"
+				,"signguCd" : "51790"
+				,"signguNm" : "화천군"
+				,"adongCd" : "51790340"
+				,"adongNm" : "사내면"
+				,"ldongCd" : "5179034023"
+				,"ldongNm" : "사내면"
+				,"lnoCd" : "5179034023103580004"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 358
+				,"lnoSlno" : 4
+				,"lnoAdr" : "강원특별자치도 화천군 사내면 명월리 358-4"
+				,"rdnmCd" : "517904493033"
+				,"rdnm" : "강원특별자치도 화천군 사내면 두류산길"
+				,"bldMnno" : 30
+				,"bldSlno" : ""
+				,"bldMngNo" : "4279034023000000000005023"
+				,"bldNm" : ""
+				,"rdnmAdr" : "강원특별자치도 화천군 사내면 두류산길 30"
+				,"oldZipcd" : "209833"
+				,"newZipcd" : "24148"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.531277962671
+				,"lat" : 38.1112968324552
+				}
+				,{
+				"bizesId" : "MA010120220813862942"
+				,"bizesNm" : "조이드림연구소"
+				,"brchNm" : ""
+				,"indsLclsCd" : "P1"
+				,"indsLclsNm" : "교육"
+				,"indsMclsCd" : "P106"
+				,"indsMclsNm" : "기타 교육"
+				,"indsSclsCd" : "P10629"
+				,"indsSclsNm" : "그 외 기타 교육기관"
+				,"ksicCd" : "P85699"
+				,"ksicNm" : "그 외 기타 분류 안된 교육기관"
+				,"ctprvnCd" : "51"
+				,"ctprvnNm" : "강원특별자치도"
+				,"signguCd" : "51790"
+				,"signguNm" : "화천군"
+				,"adongCd" : "51790340"
+				,"adongNm" : "사내면"
+				,"ldongCd" : "5179034023"
+				,"ldongNm" : "사내면"
+				,"lnoCd" : "5179034023103290001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 329
+				,"lnoSlno" : 1
+				,"lnoAdr" : "강원특별자치도 화천군 사내면 명월리 329-1"
+				,"rdnmCd" : "517903013046"
+				,"rdnm" : "강원특별자치도 화천군 사내면 수피령로"
+				,"bldMnno" : 572
+				,"bldSlno" : ""
+				,"bldMngNo" : "4279034023000000000004997"
+				,"bldNm" : "명성유치원"
+				,"rdnmAdr" : "강원특별자치도 화천군 사내면 수피령로 572"
+				,"oldZipcd" : "209833"
+				,"newZipcd" : "24148"
+				,"dongNo" : ""
+				,"flrNo" : "1"
+				,"hoNo" : ""
+				,"lon" : 127.531382057799
+				,"lat" : 38.1146477201779
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 1,
+		"totalCount" : 5	}
+}

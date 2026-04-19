@@ -1,0 +1,303 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA0101202502A0012768"
+				,"bizesNm" : "남영순농장"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G205"
+				,"indsMclsNm" : "식료품 소매"
+				,"indsSclsCd" : "G20506"
+				,"indsSclsNm" : "채소/과일 소매업"
+				,"ksicCd" : "G47215"
+				,"ksicNm" : "채소, 과실 및 뿌리작물 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46170"
+				,"signguNm" : "나주시"
+				,"adongCd" : "46170380"
+				,"adongNm" : "노안면"
+				,"ldongCd" : "4617038023"
+				,"ldongNm" : "노안면"
+				,"lnoCd" : "4617038023105330009"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 533
+				,"lnoSlno" : 9
+				,"lnoAdr" : "전라남도 나주시 노안면 학산리 533-9"
+				,"rdnmCd" : "461704652606"
+				,"rdnm" : "전라남도 나주시 노안면 학산학림길"
+				,"bldMnno" : 25
+				,"bldSlno" : ""
+				,"bldMngNo" : "4617038023105330009063609"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 나주시 노안면 학산학림길 25"
+				,"oldZipcd" : "520814"
+				,"newZipcd" : "58208"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.754332091036
+				,"lat" : 35.0681037916411
+				}
+				,{
+				"bizesId" : "MA0101202505A0007427"
+				,"bizesNm" : "청정이엔지나주점"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G214"
+				,"indsMclsNm" : "연료 소매"
+				,"indsSclsCd" : "G21401"
+				,"indsSclsNm" : "주유소"
+				,"ksicCd" : "G47711"
+				,"ksicNm" : "운송장비용 주유소 운영업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46170"
+				,"signguNm" : "나주시"
+				,"adongCd" : "46170380"
+				,"adongNm" : "노안면"
+				,"ldongCd" : "4617038023"
+				,"ldongNm" : "노안면"
+				,"lnoCd" : "4617038023102700026"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 270
+				,"lnoSlno" : 26
+				,"lnoAdr" : "전라남도 나주시 노안면 학산리 270-26"
+				,"rdnmCd" : "461703000079"
+				,"rdnm" : "전라남도 나주시 노안면 건재로"
+				,"bldMnno" : 718
+				,"bldSlno" : ""
+				,"bldMngNo" : "4617038023102700026065091"
+				,"bldNm" : "OIL용봉주유소"
+				,"rdnmAdr" : "전라남도 나주시 노안면 건재로 718"
+				,"oldZipcd" : "520814"
+				,"newZipcd" : "58208"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.76437903778
+				,"lat" : 35.0779847124466
+				}
+				,{
+				"bizesId" : "MA0101202504A0040953"
+				,"bizesNm" : "한양식당"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "29"
+				,"ctprvnNm" : "광주광역시"
+				,"signguCd" : "29200"
+				,"signguNm" : "광산구"
+				,"adongCd" : "29200660"
+				,"adongNm" : "동곡동"
+				,"ldongCd" : "2920013800"
+				,"ldongNm" : "하산동"
+				,"lnoCd" : "2920013800100130003"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 13
+				,"lnoSlno" : 3
+				,"lnoAdr" : "광주광역시 광산구 하산동 13-3"
+				,"rdnmCd" : "292003163008"
+				,"rdnm" : "광주광역시 광산구 동곡로"
+				,"bldMnno" : 151
+				,"bldSlno" : 42
+				,"bldMngNo" : "2920013800100130003028280"
+				,"bldNm" : ""
+				,"rdnmAdr" : "광주광역시 광산구 동곡로 151-42"
+				,"oldZipcd" : "506550"
+				,"newZipcd" : "62461"
+				,"dongNo" : ""
+				,"flrNo" : "1"
+				,"hoNo" : ""
+				,"lon" : 126.773147956309
+				,"lat" : 35.0988140165468
+				}
+				,{
+				"bizesId" : "MA0103202309C0032213"
+				,"bizesNm" : "아이캔직업재활센터"
+				,"brchNm" : ""
+				,"indsLclsCd" : "N1"
+				,"indsLclsNm" : "시설관리·임대"
+				,"indsMclsCd" : "N108"
+				,"indsMclsNm" : "기타 사업 서비스"
+				,"indsSclsCd" : "N10805"
+				,"indsSclsNm" : "포장/충전업"
+				,"ksicCd" : "N75994"
+				,"ksicNm" : "포장 및 충전업"
+				,"ctprvnCd" : "29"
+				,"ctprvnNm" : "광주광역시"
+				,"signguCd" : "29200"
+				,"signguNm" : "광산구"
+				,"adongCd" : "29200660"
+				,"adongNm" : "동곡동"
+				,"ldongCd" : "2920013900"
+				,"ldongNm" : "유계동"
+				,"lnoCd" : "2920013900110100000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 1010
+				,"lnoSlno" : ""
+				,"lnoAdr" : "광주광역시 광산구 유계동 1010"
+				,"rdnmCd" : "292004289082"
+				,"rdnm" : "광주광역시 광산구 동곡본촌길"
+				,"bldMnno" : 11
+				,"bldSlno" : ""
+				,"bldMngNo" : "2920013900110100000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "광주광역시 광산구 동곡본촌길 11"
+				,"oldZipcd" : "506829"
+				,"newZipcd" : "62462"
+				,"dongNo" : ""
+				,"flrNo" : "2"
+				,"hoNo" : ""
+				,"lon" : 126.773857222451
+				,"lat" : 35.0921812814754
+				}
+				,{
+				"bizesId" : "MA0101202503A0071661"
+				,"bizesNm" : "대천농기계광주점"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G210"
+				,"indsMclsNm" : "철물·건설자재 소매"
+				,"indsSclsCd" : "G21001"
+				,"indsSclsNm" : "철물/공구 소매업"
+				,"ksicCd" : "G47512"
+				,"ksicNm" : "공구 소매업"
+				,"ctprvnCd" : "29"
+				,"ctprvnNm" : "광주광역시"
+				,"signguCd" : "29200"
+				,"signguNm" : "광산구"
+				,"adongCd" : "29200660"
+				,"adongNm" : "동곡동"
+				,"ldongCd" : "2920013800"
+				,"ldongNm" : "하산동"
+				,"lnoCd" : "2920013800104820005"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 482
+				,"lnoSlno" : 5
+				,"lnoAdr" : "광주광역시 광산구 하산동 482-5"
+				,"rdnmCd" : "292004289078"
+				,"rdnm" : "광주광역시 광산구 동곡로185번길"
+				,"bldMnno" : 8
+				,"bldSlno" : ""
+				,"bldMngNo" : "2920013800104820005026462"
+				,"bldNm" : "대천농기계"
+				,"rdnmAdr" : "광주광역시 광산구 동곡로185번길 8"
+				,"oldZipcd" : "506550"
+				,"newZipcd" : "62461"
+				,"dongNo" : ""
+				,"flrNo" : "1"
+				,"hoNo" : ""
+				,"lon" : 126.774757244257
+				,"lat" : 35.0998806290885
+				}
+				,{
+				"bizesId" : "MA0106202509A2057965"
+				,"bizesNm" : "라탄마루"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "29"
+				,"ctprvnNm" : "광주광역시"
+				,"signguCd" : "29200"
+				,"signguNm" : "광산구"
+				,"adongCd" : "29200660"
+				,"adongNm" : "동곡동"
+				,"ldongCd" : "2920013900"
+				,"ldongNm" : "유계동"
+				,"lnoCd" : "2920013900106080003"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 608
+				,"lnoSlno" : 3
+				,"lnoAdr" : "광주광역시 광산구 유계동 608-3"
+				,"rdnmCd" : "292003163008"
+				,"rdnm" : "광주광역시 광산구 동곡로"
+				,"bldMnno" : 170
+				,"bldSlno" : ""
+				,"bldMngNo" : "2920013900106080003000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "광주광역시 광산구 동곡로 170"
+				,"oldZipcd" : "506829"
+				,"newZipcd" : "62461"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.775673405161
+				,"lat" : 35.0977460892686
+				}
+				,{
+				"bizesId" : "MA0101202505A0055220"
+				,"bizesNm" : "에어마스터"
+				,"brchNm" : ""
+				,"indsLclsCd" : "S2"
+				,"indsLclsNm" : "수리·개인"
+				,"indsMclsCd" : "S205"
+				,"indsMclsNm" : "가전제품 수리"
+				,"indsSclsCd" : "S20501"
+				,"indsSclsNm" : "가전제품 수리업"
+				,"ksicCd" : "S95310"
+				,"ksicNm" : "가전제품 수리업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46170"
+				,"signguNm" : "나주시"
+				,"adongCd" : "46170400"
+				,"adongNm" : "산포면"
+				,"ldongCd" : "4617040029"
+				,"ldongNm" : "산포면"
+				,"lnoCd" : "4617040029106600003"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 660
+				,"lnoSlno" : 3
+				,"lnoAdr" : "전라남도 나주시 산포면 덕례리 660-3"
+				,"rdnmCd" : "461704652129"
+				,"rdnm" : "전라남도 나주시 산포면 덕례덕림길"
+				,"bldMnno" : 41
+				,"bldSlno" : 6
+				,"bldMngNo" : "4617040029106600000072413"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 나주시 산포면 덕례덕림길 41-6"
+				,"oldZipcd" : "520832"
+				,"newZipcd" : "58222"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.796654116134
+				,"lat" : 35.0579064854464
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 2,
+		"totalCount" : 107	}
+}

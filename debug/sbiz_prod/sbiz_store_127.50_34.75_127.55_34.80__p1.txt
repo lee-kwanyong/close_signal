@@ -1,0 +1,139 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA010120220805315779"
+				,"bizesNm" : "바다와꽃"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G219"
+				,"indsMclsNm" : "식물 소매"
+				,"indsSclsCd" : "G21901"
+				,"indsSclsNm" : "꽃집"
+				,"ksicCd" : "G47851"
+				,"ksicNm" : "화초 및 식물 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46130"
+				,"signguNm" : "여수시"
+				,"adongCd" : "46130350"
+				,"adongNm" : "화정면"
+				,"ldongCd" : "4613035030"
+				,"ldongNm" : "화정면"
+				,"lnoCd" : "4613035030104560003"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 456
+				,"lnoSlno" : 3
+				,"lnoAdr" : "전라남도 여수시 화정면 여자리 456-3"
+				,"rdnmCd" : "461304647153"
+				,"rdnm" : "전라남도 여수시 화정면 마파지길"
+				,"bldMnno" : 12
+				,"bldSlno" : ""
+				,"bldMngNo" : "4613035030104560003000591"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 여수시 화정면 마파지길 12"
+				,"oldZipcd" : "556835"
+				,"newZipcd" : "59650"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.501713581743
+				,"lat" : 34.754669660997
+				}
+				,{
+				"bizesId" : "MA0101202301A0017408"
+				,"bizesNm" : "제주댁쉼터"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G204"
+				,"indsMclsNm" : "종합 소매"
+				,"indsSclsCd" : "G20404"
+				,"indsSclsNm" : "슈퍼마켓"
+				,"ksicCd" : "G47129"
+				,"ksicNm" : "기타 음ㆍ식료품 위주 종합 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46130"
+				,"signguNm" : "여수시"
+				,"adongCd" : "46130350"
+				,"adongNm" : "화정면"
+				,"ldongCd" : "4613035030"
+				,"ldongNm" : "화정면"
+				,"lnoCd" : "4613035030103050000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 305
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 여수시 화정면 여자리 305"
+				,"rdnmCd" : "461304647153"
+				,"rdnm" : "전라남도 여수시 화정면 마파지길"
+				,"bldMnno" : 20
+				,"bldSlno" : 34
+				,"bldMngNo" : "4613035030103050000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 여수시 화정면 마파지길 20-34"
+				,"oldZipcd" : "556835"
+				,"newZipcd" : "59650"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.503633145838
+				,"lat" : 34.75603187664
+				}
+				,{
+				"bizesId" : "MA010120220810405802"
+				,"bizesNm" : "여자도휴게소"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G204"
+				,"indsMclsNm" : "종합 소매"
+				,"indsSclsCd" : "G20404"
+				,"indsSclsNm" : "슈퍼마켓"
+				,"ksicCd" : "G47129"
+				,"ksicNm" : "기타 음ㆍ식료품 위주 종합 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46130"
+				,"signguNm" : "여수시"
+				,"adongCd" : "46130350"
+				,"adongNm" : "화정면"
+				,"ldongCd" : "4613035030"
+				,"ldongNm" : "화정면"
+				,"lnoCd" : "4613035030103010000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 301
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 여수시 화정면 여자리 301"
+				,"rdnmCd" : "461304646568"
+				,"rdnm" : "전라남도 여수시 화정면 송여자길"
+				,"bldMnno" : 62
+				,"bldSlno" : ""
+				,"bldMngNo" : "4613035030103010000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 여수시 화정면 송여자길 62"
+				,"oldZipcd" : "556835"
+				,"newZipcd" : "59650"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.510004576926
+				,"lat" : 34.7584571854317
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 1,
+		"totalCount" : 3	}
+}

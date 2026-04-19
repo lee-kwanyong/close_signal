@@ -1,0 +1,98 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA0106202510A1830267"
+				,"bizesNm" : "대나루컴퍼니"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G205"
+				,"indsMclsNm" : "식료품 소매"
+				,"indsSclsCd" : "G20502"
+				,"indsSclsNm" : "가축 사료 소매업"
+				,"ksicCd" : "G47211"
+				,"ksicNm" : "곡물, 곡분 및 가축 사료 소매업"
+				,"ctprvnCd" : "28"
+				,"ctprvnNm" : "인천광역시"
+				,"signguCd" : "28720"
+				,"signguNm" : "옹진군"
+				,"adongCd" : "28720380"
+				,"adongNm" : "연평면"
+				,"ldongCd" : "2872038021"
+				,"ldongNm" : "연평면"
+				,"lnoCd" : "2872038021110550000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 1055
+				,"lnoSlno" : ""
+				,"lnoAdr" : "인천광역시 옹진군 연평면 연평리 1055"
+				,"rdnmCd" : "287204274106"
+				,"rdnm" : "인천광역시 옹진군 연평면 소연평로19번길"
+				,"bldMnno" : 21
+				,"bldSlno" : 2
+				,"bldMngNo" : "2872038021110540000007340"
+				,"bldNm" : ""
+				,"rdnmAdr" : "인천광역시 옹진군 연평면 소연평로19번길 21-2"
+				,"oldZipcd" : "409840"
+				,"newZipcd" : "23109"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 125.709154753081
+				,"lat" : 37.6109148671849
+				}
+				,{
+				"bizesId" : "MA0101202410A0181387"
+				,"bizesNm" : "해덕수산"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G205"
+				,"indsMclsNm" : "식료품 소매"
+				,"indsSclsCd" : "G20505"
+				,"indsSclsNm" : "수산물 소매업"
+				,"ksicCd" : "G47214"
+				,"ksicNm" : "신선, 냉동 및 기타 수산물 소매업"
+				,"ctprvnCd" : "28"
+				,"ctprvnNm" : "인천광역시"
+				,"signguCd" : "28720"
+				,"signguNm" : "옹진군"
+				,"adongCd" : "28720380"
+				,"adongNm" : "연평면"
+				,"ldongCd" : "2872038021"
+				,"ldongNm" : "연평면"
+				,"lnoCd" : "2872038021111660003"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 1166
+				,"lnoSlno" : 3
+				,"lnoAdr" : "인천광역시 옹진군 연평면 연평리 1166-3"
+				,"rdnmCd" : "287203158019"
+				,"rdnm" : "인천광역시 옹진군 연평면 소연평로"
+				,"bldMnno" : 161
+				,"bldSlno" : 37
+				,"bldMngNo" : "2872038021200210001007362"
+				,"bldNm" : ""
+				,"rdnmAdr" : "인천광역시 옹진군 연평면 소연평로 161-37"
+				,"oldZipcd" : "409840"
+				,"newZipcd" : "23109"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 125.717891506768
+				,"lat" : 37.6139111214262
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 1,
+		"totalCount" : 2	}
+}

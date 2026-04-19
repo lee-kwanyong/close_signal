@@ -1,0 +1,385 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA010120220811824663"
+				,"bizesNm" : "카페흰구름가는길"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I212"
+				,"indsMclsNm" : "비알코올 "
+				,"indsSclsCd" : "I21201"
+				,"indsSclsNm" : "카페"
+				,"ksicCd" : "I56221"
+				,"ksicNm" : "커피 전문점"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46730"
+				,"signguNm" : "구례군"
+				,"adongCd" : "46730340"
+				,"adongNm" : "마산면"
+				,"ldongCd" : "4673034024"
+				,"ldongNm" : "마산면"
+				,"lnoCd" : "4673034024200200045"
+				,"plotSctCd" : "2"
+				,"plotSctNm" : "산"
+				,"lnoMnno" : 20
+				,"lnoSlno" : 45
+				,"lnoAdr" : "전라남도 구례군 마산면 황전리 산 20-45"
+				,"rdnmCd" : "467304664229"
+				,"rdnm" : "전라남도 구례군 마산면 연기암길"
+				,"bldMnno" : 393
+				,"bldSlno" : ""
+				,"bldMngNo" : "4673034024200200001005658"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 구례군 마산면 연기암길 393"
+				,"oldZipcd" : "542853"
+				,"newZipcd" : "57616"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.504577085645
+				,"lat" : 35.2687630287228
+				}
+				,{
+				"bizesId" : "MA0101202409A0169201"
+				,"bizesNm" : "적중"
+				,"brchNm" : ""
+				,"indsLclsCd" : "M1"
+				,"indsLclsNm" : "과학·기술"
+				,"indsMclsCd" : "M109"
+				,"indsMclsNm" : "기술 서비스"
+				,"indsSclsCd" : "M10903"
+				,"indsSclsNm" : "건물 및 토목 엔지니어링 서비스업"
+				,"ksicCd" : "M72121"
+				,"ksicNm" : "건물 및 토목 엔지니어링 서비스업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46730"
+				,"signguNm" : "구례군"
+				,"adongCd" : "46730330"
+				,"adongNm" : "토지면"
+				,"ldongCd" : "4673033029"
+				,"ldongNm" : "토지면"
+				,"lnoCd" : "4673033029103730000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 373
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 구례군 토지면 문수리 373"
+				,"rdnmCd" : "467304664113"
+				,"rdnm" : "전라남도 구례군 토지면 밤재길"
+				,"bldMnno" : 35
+				,"bldSlno" : 37
+				,"bldMngNo" : "4673033029103730000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 구례군 토지면 밤재길 35-37"
+				,"oldZipcd" : "542862"
+				,"newZipcd" : "57624"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.526978810189
+				,"lat" : 35.254047929985
+				}
+				,{
+				"bizesId" : "MA010120220807851695"
+				,"bizesNm" : "쌍둥이산장"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G204"
+				,"indsMclsNm" : "종합 소매"
+				,"indsSclsCd" : "G20404"
+				,"indsSclsNm" : "슈퍼마켓"
+				,"ksicCd" : "I55109"
+				,"ksicNm" : "기타 일반 및 생활 숙박시설 운영업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46730"
+				,"signguNm" : "구례군"
+				,"adongCd" : "46730330"
+				,"adongNm" : "토지면"
+				,"ldongCd" : "4673033029"
+				,"ldongNm" : "토지면"
+				,"lnoCd" : "4673033029101370000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 137
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 구례군 토지면 문수리 137"
+				,"rdnmCd" : "467304664113"
+				,"rdnm" : "전라남도 구례군 토지면 밤재길"
+				,"bldMnno" : 2
+				,"bldSlno" : ""
+				,"bldMngNo" : "4673033029101370000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 구례군 토지면 밤재길 2"
+				,"oldZipcd" : "542862"
+				,"newZipcd" : "57624"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.529853658286
+				,"lat" : 35.258487958052
+				}
+				,{
+				"bizesId" : "MA010120220807867316"
+				,"bizesNm" : "머물고싶은곳"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55104"
+				,"ksicNm" : "민박업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46730"
+				,"signguNm" : "구례군"
+				,"adongCd" : "46730330"
+				,"adongNm" : "토지면"
+				,"ldongCd" : "4673033029"
+				,"ldongNm" : "토지면"
+				,"lnoCd" : "4673033029100900002"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 90
+				,"lnoSlno" : 2
+				,"lnoAdr" : "전라남도 구례군 토지면 문수리 90-2"
+				,"rdnmCd" : "467304664108"
+				,"rdnm" : "전라남도 구례군 토지면 문수길"
+				,"bldMnno" : 550
+				,"bldSlno" : ""
+				,"bldMngNo" : "4673033029201270000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 구례군 토지면 문수길 550"
+				,"oldZipcd" : "542862"
+				,"newZipcd" : "57624"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.530126490285
+				,"lat" : 35.2514473563283
+				}
+				,{
+				"bizesId" : "MA010120220812184441"
+				,"bizesNm" : "문수계곡마틸다"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46730"
+				,"signguNm" : "구례군"
+				,"adongCd" : "46730330"
+				,"adongNm" : "토지면"
+				,"ldongCd" : "4673033029"
+				,"ldongNm" : "토지면"
+				,"lnoCd" : "4673033029100920004"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 92
+				,"lnoSlno" : 4
+				,"lnoAdr" : "전라남도 구례군 토지면 문수리 92-4"
+				,"rdnmCd" : "467304664108"
+				,"rdnm" : "전라남도 구례군 토지면 문수길"
+				,"bldMnno" : 567
+				,"bldSlno" : ""
+				,"bldMngNo" : "4673033029201230030000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 구례군 토지면 문수길 567"
+				,"oldZipcd" : "542862"
+				,"newZipcd" : "57624"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.530181121185
+				,"lat" : 35.2530875428479
+				}
+				,{
+				"bizesId" : "MA010120220809864161"
+				,"bizesNm" : "문수계곡마틸다매점"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G204"
+				,"indsMclsNm" : "종합 소매"
+				,"indsSclsCd" : "G20404"
+				,"indsSclsNm" : "슈퍼마켓"
+				,"ksicCd" : "G47129"
+				,"ksicNm" : "기타 음ㆍ식료품 위주 종합 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46730"
+				,"signguNm" : "구례군"
+				,"adongCd" : "46730330"
+				,"adongNm" : "토지면"
+				,"ldongCd" : "4673033029"
+				,"ldongNm" : "토지면"
+				,"lnoCd" : "4673033029100920004"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 92
+				,"lnoSlno" : 4
+				,"lnoAdr" : "전라남도 구례군 토지면 문수리 92-4"
+				,"rdnmCd" : "467304664108"
+				,"rdnm" : "전라남도 구례군 토지면 문수길"
+				,"bldMnno" : 567
+				,"bldSlno" : ""
+				,"bldMngNo" : "4673033029201230030000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 구례군 토지면 문수길 567"
+				,"oldZipcd" : "542862"
+				,"newZipcd" : "57624"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.530181121185
+				,"lat" : 35.2530875428479
+				}
+				,{
+				"bizesId" : "MA010120220804834638"
+				,"bizesNm" : "황부자"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46730"
+				,"signguNm" : "구례군"
+				,"adongCd" : "46730330"
+				,"adongNm" : "토지면"
+				,"ldongCd" : "4673033029"
+				,"ldongNm" : "토지면"
+				,"lnoCd" : "4673033029101160001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 116
+				,"lnoSlno" : 1
+				,"lnoAdr" : "전라남도 구례군 토지면 문수리 116-1"
+				,"rdnmCd" : "467304664108"
+				,"rdnm" : "전라남도 구례군 토지면 문수길"
+				,"bldMnno" : 600
+				,"bldSlno" : ""
+				,"bldMngNo" : "4673033029101160001000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 구례군 토지면 문수길 600"
+				,"oldZipcd" : "542862"
+				,"newZipcd" : "57624"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.53051709134
+				,"lat" : 35.2557450014504
+				}
+				,{
+				"bizesId" : "MA010120220800852004"
+				,"bizesNm" : "산들애"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10102"
+				,"indsSclsNm" : "여관/모텔"
+				,"ksicCd" : "I55109"
+				,"ksicNm" : "기타 일반 및 생활 숙박시설 운영업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46730"
+				,"signguNm" : "구례군"
+				,"adongCd" : "46730330"
+				,"adongNm" : "토지면"
+				,"ldongCd" : "4673033029"
+				,"ldongNm" : "토지면"
+				,"lnoCd" : "4673033029101000003"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 100
+				,"lnoSlno" : 3
+				,"lnoAdr" : "전라남도 구례군 토지면 문수리 100-3"
+				,"rdnmCd" : "467304664108"
+				,"rdnm" : "전라남도 구례군 토지면 문수길"
+				,"bldMnno" : 574
+				,"bldSlno" : 7
+				,"bldMngNo" : "4673033029101000003000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 구례군 토지면 문수길 574-7"
+				,"oldZipcd" : "542862"
+				,"newZipcd" : "57624"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.5309425699
+				,"lat" : 35.253588950687
+				}
+				,{
+				"bizesId" : "MA010120220808467296"
+				,"bizesNm" : "윤석산장민박"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46730"
+				,"signguNm" : "구례군"
+				,"adongCd" : "46730330"
+				,"adongNm" : "토지면"
+				,"ldongCd" : "4673033029"
+				,"ldongNm" : "토지면"
+				,"lnoCd" : "4673033029101000004"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 100
+				,"lnoSlno" : 4
+				,"lnoAdr" : "전라남도 구례군 토지면 문수리 100-4"
+				,"rdnmCd" : "467304664108"
+				,"rdnm" : "전라남도 구례군 토지면 문수길"
+				,"bldMnno" : 574
+				,"bldSlno" : 8
+				,"bldMngNo" : "4673033029101000004000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 구례군 토지면 문수길 574-8"
+				,"oldZipcd" : "542862"
+				,"newZipcd" : "57624"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.531028180269
+				,"lat" : 35.253237055295
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 1,
+		"totalCount" : 9	}
+}

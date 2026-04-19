@@ -1,0 +1,180 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA0101202210A0084475"
+				,"bizesNm" : "한서수산"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G205"
+				,"indsMclsNm" : "식료품 소매"
+				,"indsSclsCd" : "G20505"
+				,"indsSclsNm" : "수산물 소매업"
+				,"ksicCd" : "G47214"
+				,"ksicNm" : "신선, 냉동 및 기타 수산물 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46910"
+				,"signguNm" : "신안군"
+				,"adongCd" : "46910420"
+				,"adongNm" : "암태면"
+				,"ldongCd" : "4691042022"
+				,"ldongNm" : "암태면"
+				,"lnoCd" : "4691042022111460001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 1146
+				,"lnoSlno" : 1
+				,"lnoAdr" : "전라남도 신안군 암태면 수곡리 1146-1"
+				,"rdnmCd" : "469104706326"
+				,"rdnm" : "전라남도 신안군 암태면 추엽길"
+				,"bldMnno" : 134
+				,"bldSlno" : 28
+				,"bldMngNo" : "4691042022111460001000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 신안군 암태면 추엽길 134-28"
+				,"oldZipcd" : "535862"
+				,"newZipcd" : "58835"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.071290220326
+				,"lat" : 34.802233140312
+				}
+				,{
+				"bizesId" : "MA010120220804942119"
+				,"bizesNm" : "또바기"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G204"
+				,"indsMclsNm" : "종합 소매"
+				,"indsSclsCd" : "G20404"
+				,"indsSclsNm" : "슈퍼마켓"
+				,"ksicCd" : "G47129"
+				,"ksicNm" : "기타 음ㆍ식료품 위주 종합 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46910"
+				,"signguNm" : "신안군"
+				,"adongCd" : "46910420"
+				,"adongNm" : "암태면"
+				,"ldongCd" : "4691042022"
+				,"ldongNm" : "암태면"
+				,"lnoCd" : "4691042022100830008"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 83
+				,"lnoSlno" : 8
+				,"lnoAdr" : "전라남도 신안군 암태면 수곡리 83-8"
+				,"rdnmCd" : "469103302004"
+				,"rdnm" : "전라남도 신안군 암태면 승봉로"
+				,"bldMnno" : 282
+				,"bldSlno" : ""
+				,"bldMngNo" : "4691042022100830008000002"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 신안군 암태면 승봉로 282"
+				,"oldZipcd" : "535862"
+				,"newZipcd" : "58835"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.08453864358
+				,"lat" : 34.8226053584407
+				}
+				,{
+				"bizesId" : "MA010120220807682890"
+				,"bizesNm" : "서부슈퍼"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G204"
+				,"indsMclsNm" : "종합 소매"
+				,"indsSclsCd" : "G20404"
+				,"indsSclsNm" : "슈퍼마켓"
+				,"ksicCd" : "G47129"
+				,"ksicNm" : "기타 음ㆍ식료품 위주 종합 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46910"
+				,"signguNm" : "신안군"
+				,"adongCd" : "46910420"
+				,"adongNm" : "암태면"
+				,"ldongCd" : "4691042021"
+				,"ldongNm" : "암태면"
+				,"lnoCd" : "4691042021104470001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 447
+				,"lnoSlno" : 1
+				,"lnoAdr" : "전라남도 신안군 암태면 도창리 447-1"
+				,"rdnmCd" : "469104706190"
+				,"rdnm" : "전라남도 신안군 암태면 신기도창길"
+				,"bldMnno" : 309
+				,"bldSlno" : ""
+				,"bldMngNo" : "4691042021104470001000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 신안군 암태면 신기도창길 309"
+				,"oldZipcd" : "535862"
+				,"newZipcd" : "58835"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.092786428882
+				,"lat" : 34.8220271682519
+				}
+				,{
+				"bizesId" : "MA0101202406A0388848"
+				,"bizesNm" : "지오스테이션"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55104"
+				,"ksicNm" : "민박업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46910"
+				,"signguNm" : "신안군"
+				,"adongCd" : "46910420"
+				,"adongNm" : "암태면"
+				,"ldongCd" : "4691042023"
+				,"ldongNm" : "암태면"
+				,"lnoCd" : "4691042023116410001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 1641
+				,"lnoSlno" : 1
+				,"lnoAdr" : "전라남도 신안군 암태면 와촌리 1641-1"
+				,"rdnmCd" : "469104706197"
+				,"rdnm" : "전라남도 신안군 암태면 신흥길"
+				,"bldMnno" : 226
+				,"bldSlno" : 5
+				,"bldMngNo" : "4691042023116430002000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 신안군 암태면 신흥길 226-5"
+				,"oldZipcd" : "535862"
+				,"newZipcd" : "58836"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.098970399381
+				,"lat" : 34.8092105494197
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 1,
+		"totalCount" : 4	}
+}

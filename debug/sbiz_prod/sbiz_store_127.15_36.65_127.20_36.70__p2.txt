@@ -1,0 +1,426 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA0106202509A2190639"
+				,"bizesNm" : "천안당호두과자풍세IC점"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I210"
+				,"indsMclsNm" : "기타 간이"
+				,"indsSclsCd" : "I21001"
+				,"indsSclsNm" : "빵/도넛"
+				,"ksicCd" : "I56191"
+				,"ksicNm" : "제과점업"
+				,"ctprvnCd" : "36"
+				,"ctprvnNm" : "세종특별자치시"
+				,"signguCd" : "36110"
+				,"signguNm" : "세종특별자치시"
+				,"adongCd" : "36110390"
+				,"adongNm" : "소정면"
+				,"ldongCd" : "3611039022"
+				,"ldongNm" : "소정면"
+				,"lnoCd" : "3611039022101310003"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 131
+				,"lnoSlno" : 3
+				,"lnoAdr" : "세종특별자치시 세종특별자치시 소정면 운당리 131-3"
+				,"rdnmCd" : "361104856619"
+				,"rdnm" : "세종특별자치시 세종특별자치시 소정면 운당9길"
+				,"bldMnno" : 56
+				,"bldSlno" : ""
+				,"bldMngNo" : "4473037023101310003002389"
+				,"bldNm" : ""
+				,"rdnmAdr" : "세종특별자치시 세종특별자치시 소정면 운당9길 56"
+				,"oldZipcd" : "339872"
+				,"newZipcd" : "30000"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.150938958459
+				,"lat" : 36.6996114064507
+				}
+				,{
+				"bizesId" : "MA0106202201A1349766"
+				,"bizesNm" : "초원웰빙한식뷔페"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I207"
+				,"indsMclsNm" : "구내식당·뷔페"
+				,"indsSclsCd" : "I20702"
+				,"indsSclsNm" : "뷔페"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "36"
+				,"ctprvnNm" : "세종특별자치시"
+				,"signguCd" : "36110"
+				,"signguNm" : "세종특별자치시"
+				,"adongCd" : "36110390"
+				,"adongNm" : "소정면"
+				,"ldongCd" : "3611039022"
+				,"ldongNm" : "소정면"
+				,"lnoCd" : "3611039022101320004"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 132
+				,"lnoSlno" : 4
+				,"lnoAdr" : "세종특별자치시 세종특별자치시 소정면 운당리 132-4"
+				,"rdnmCd" : "361104856619"
+				,"rdnm" : "세종특별자치시 세종특별자치시 소정면 운당9길"
+				,"bldMnno" : 58
+				,"bldSlno" : ""
+				,"bldMngNo" : "3611039022101320004000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "세종특별자치시 세종특별자치시 소정면 운당9길 58"
+				,"oldZipcd" : "339872"
+				,"newZipcd" : "30000"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.151095097431
+				,"lat" : 36.6993408702544
+				}
+				,{
+				"bizesId" : "MA0101202504A0088563"
+				,"bizesNm" : "올레찹쌀꽈배기"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I210"
+				,"indsMclsNm" : "기타 간이"
+				,"indsSclsCd" : "I21001"
+				,"indsSclsNm" : "빵/도넛"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "36"
+				,"ctprvnNm" : "세종특별자치시"
+				,"signguCd" : "36110"
+				,"signguNm" : "세종특별자치시"
+				,"adongCd" : "36110390"
+				,"adongNm" : "소정면"
+				,"ldongCd" : "3611039022"
+				,"ldongNm" : "소정면"
+				,"lnoCd" : "3611039022101320005"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 132
+				,"lnoSlno" : 5
+				,"lnoAdr" : "세종특별자치시 세종특별자치시 소정면 운당리 132-5"
+				,"rdnmCd" : "361104574098"
+				,"rdnm" : "세종특별자치시 세종특별자치시 소정면 도래말길"
+				,"bldMnno" : 6
+				,"bldSlno" : ""
+				,"bldMngNo" : "3611039022101320005000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "세종특별자치시 세종특별자치시 소정면 도래말길 6"
+				,"oldZipcd" : "339872"
+				,"newZipcd" : "30000"
+				,"dongNo" : ""
+				,"flrNo" : "1"
+				,"hoNo" : ""
+				,"lon" : 127.151184286439
+				,"lat" : 36.6991695428681
+				}
+				,{
+				"bizesId" : "MA0106202506A0442316"
+				,"bizesNm" : "GS25 세종소정점"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G204"
+				,"indsMclsNm" : "종합 소매"
+				,"indsSclsCd" : "G20405"
+				,"indsSclsNm" : "편의점"
+				,"ksicCd" : "G47121"
+				,"ksicNm" : "슈퍼마켓"
+				,"ctprvnCd" : "36"
+				,"ctprvnNm" : "세종특별자치시"
+				,"signguCd" : "36110"
+				,"signguNm" : "세종특별자치시"
+				,"adongCd" : "36110390"
+				,"adongNm" : "소정면"
+				,"ldongCd" : "3611039022"
+				,"ldongNm" : "소정면"
+				,"lnoCd" : "3611039022100270003"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 27
+				,"lnoSlno" : 3
+				,"lnoAdr" : "세종특별자치시 세종특별자치시 소정면 운당리 27-3"
+				,"rdnmCd" : "361103000189"
+				,"rdnm" : "세종특별자치시 세종특별자치시 소정면 세종로"
+				,"bldMnno" : 4282
+				,"bldSlno" : ""
+				,"bldMngNo" : "4473037023100270003002673"
+				,"bldNm" : ""
+				,"rdnmAdr" : "세종특별자치시 세종특별자치시 소정면 세종로 4282"
+				,"oldZipcd" : "339872"
+				,"newZipcd" : "30000"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.152816228174
+				,"lat" : 36.6982212758019
+				}
+				,{
+				"bizesId" : "MA0101202505A0060055"
+				,"bizesNm" : "온마이포레스트"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44131"
+				,"signguNm" : "천안시 동남구"
+				,"adongCd" : "44131320"
+				,"adongNm" : "광덕면"
+				,"ldongCd" : "4413132030"
+				,"ldongNm" : "광덕면"
+				,"lnoCd" : "4413132030100450021"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 45
+				,"lnoSlno" : 21
+				,"lnoAdr" : "충청남도 천안시 동남구 광덕면 대평리 45-21"
+				,"rdnmCd" : "441313249070"
+				,"rdnm" : "충청남도 천안시 동남구 광덕면 차령고개로"
+				,"bldMnno" : 995
+				,"bldSlno" : 29
+				,"bldMngNo" : "4413132030100450021000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청남도 천안시 동남구 광덕면 차령고개로 995-29"
+				,"oldZipcd" : "330922"
+				,"newZipcd" : "31223"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.153523440709
+				,"lat" : 36.6824506170079
+				}
+				,{
+				"bizesId" : "MA0106202203A0283721"
+				,"bizesNm" : "에스피씨지에프에스한솔제지천안직원식당"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44131"
+				,"signguNm" : "천안시 동남구"
+				,"adongCd" : "44131320"
+				,"adongNm" : "광덕면"
+				,"ldongCd" : "4413132029"
+				,"ldongNm" : "광덕면"
+				,"lnoCd" : "4413132029100400001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 40
+				,"lnoSlno" : 1
+				,"lnoAdr" : "충청남도 천안시 동남구 광덕면 행정리 40-1"
+				,"rdnmCd" : "441313000189"
+				,"rdnm" : "충청남도 천안시 동남구 광덕면 세종로"
+				,"bldMnno" : 4186
+				,"bldSlno" : ""
+				,"bldMngNo" : "4413132029100380004072987"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청남도 천안시 동남구 광덕면 세종로 4186"
+				,"oldZipcd" : "330922"
+				,"newZipcd" : "31223"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.160295611589
+				,"lat" : 36.6894614891225
+				}
+				,{
+				"bizesId" : "MA0106202508A0402723"
+				,"bizesNm" : "별빛고등어"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20112"
+				,"indsSclsNm" : "해산물 구이/찜"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "36"
+				,"ctprvnNm" : "세종특별자치시"
+				,"signguCd" : "36110"
+				,"signguNm" : "세종특별자치시"
+				,"adongCd" : "36110370"
+				,"adongNm" : "전의면"
+				,"ldongCd" : "3611037026"
+				,"ldongNm" : "전의면"
+				,"lnoCd" : "3611037026100760001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 76
+				,"lnoSlno" : 1
+				,"lnoAdr" : "세종특별자치시 세종특별자치시 전의면 유천리 76-1"
+				,"rdnmCd" : "361103000195"
+				,"rdnm" : "세종특별자치시 세종특별자치시 전의면 운주산로"
+				,"bldMnno" : 1610
+				,"bldSlno" : ""
+				,"bldMngNo" : "3611037026100760001000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "세종특별자치시 세종특별자치시 전의면 운주산로 1610"
+				,"oldZipcd" : "339851"
+				,"newZipcd" : "30005"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.160909134599
+				,"lat" : 36.6885595329903
+				}
+				,{
+				"bizesId" : "MA0101202504A0099383"
+				,"bizesNm" : "솥내음세종전의베어트리파크"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "36"
+				,"ctprvnNm" : "세종특별자치시"
+				,"signguCd" : "36110"
+				,"signguNm" : "세종특별자치시"
+				,"adongCd" : "36110370"
+				,"adongNm" : "전의면"
+				,"ldongCd" : "3611037026"
+				,"ldongNm" : "전의면"
+				,"lnoCd" : "3611037026105300004"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 530
+				,"lnoSlno" : 4
+				,"lnoAdr" : "세종특별자치시 세종특별자치시 전의면 유천리 530-4"
+				,"rdnmCd" : "361103000195"
+				,"rdnm" : "세종특별자치시 세종특별자치시 전의면 운주산로"
+				,"bldMnno" : 1402
+				,"bldSlno" : 6
+				,"bldMngNo" : "3611037026105300004000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "세종특별자치시 세종특별자치시 전의면 운주산로 1402-6"
+				,"oldZipcd" : "339851"
+				,"newZipcd" : "30005"
+				,"dongNo" : ""
+				,"flrNo" : "1"
+				,"hoNo" : ""
+				,"lon" : 127.183037138551
+				,"lat" : 36.6822196721618
+				}
+				,{
+				"bizesId" : "MA0106202511A0569450"
+				,"bizesNm" : "세종대왕주유소"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G214"
+				,"indsMclsNm" : "연료 소매"
+				,"indsSclsCd" : "G21401"
+				,"indsSclsNm" : "주유소"
+				,"ksicCd" : "G47711"
+				,"ksicNm" : "운송장비용 주유소 운영업"
+				,"ctprvnCd" : "36"
+				,"ctprvnNm" : "세종특별자치시"
+				,"signguCd" : "36110"
+				,"signguNm" : "세종특별자치시"
+				,"adongCd" : "36110370"
+				,"adongNm" : "전의면"
+				,"ldongCd" : "3611037026"
+				,"ldongNm" : "전의면"
+				,"lnoCd" : "3611037026105870005"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 587
+				,"lnoSlno" : 5
+				,"lnoAdr" : "세종특별자치시 세종특별자치시 전의면 유천리 587-5"
+				,"rdnmCd" : "361103000189"
+				,"rdnm" : "세종특별자치시 세종특별자치시 전의면 세종로"
+				,"bldMnno" : 3907
+				,"bldSlno" : ""
+				,"bldMngNo" : "4473035026105870005002571"
+				,"bldNm" : ""
+				,"rdnmAdr" : "세종특별자치시 세종특별자치시 전의면 세종로 3907"
+				,"oldZipcd" : "339851"
+				,"newZipcd" : "30005"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.184931145008
+				,"lat" : 36.6788915777238
+				}
+				,{
+				"bizesId" : "MA0101202505A0079320"
+				,"bizesNm" : "발효명가쌀빵"
+				,"brchNm" : ""
+				,"indsLclsCd" : "P1"
+				,"indsLclsNm" : "교육"
+				,"indsMclsCd" : "P107"
+				,"indsMclsNm" : "교육 지원"
+				,"indsSclsCd" : "P10799"
+				,"indsSclsNm" : "기타 교육지원 서비스업"
+				,"ksicCd" : "P85709"
+				,"ksicNm" : "기타 교육지원 서비스업"
+				,"ctprvnCd" : "36"
+				,"ctprvnNm" : "세종특별자치시"
+				,"signguCd" : "36110"
+				,"signguNm" : "세종특별자치시"
+				,"adongCd" : "36110370"
+				,"adongNm" : "전의면"
+				,"ldongCd" : "3611037030"
+				,"ldongNm" : "전의면"
+				,"lnoCd" : "3611037030104130008"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 413
+				,"lnoSlno" : 8
+				,"lnoAdr" : "세종특별자치시 세종특별자치시 전의면 신방리 413-8"
+				,"rdnmCd" : "361104574341"
+				,"rdnm" : "세종특별자치시 세종특별자치시 전의면 신암골길"
+				,"bldMnno" : 29
+				,"bldSlno" : 16
+				,"bldMngNo" : "4473035034104130008007706"
+				,"bldNm" : ""
+				,"rdnmAdr" : "세종특별자치시 세종특별자치시 전의면 신암골길 29-16"
+				,"oldZipcd" : "339852"
+				,"newZipcd" : "30006"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.186552710045
+				,"lat" : 36.6508187889172
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 2,
+		"totalCount" : 110	}
+}

@@ -1,30 +1,53 @@
-import { cookies } from 'next/headers'
-import { createServerClient } from '@supabase/ssr'
+import { cookies } from "next/headers";
+import { createServerClient, type CookieMethodsServer } from "@supabase/ssr";
 
-export async function createClient() {
-  const cookieStore = await cookies()
-
-  const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL
-  const supabaseAnonKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY
+function requireEnv() {
+  const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL;
+  const supabaseAnonKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
 
   if (!supabaseUrl || !supabaseAnonKey) {
-    throw new Error('Supabase environment variables are missing.')
+    throw new Error("Supabase environment variables are missing.");
   }
 
-  return createServerClient(supabaseUrl, supabaseAnonKey, {
-    cookies: {
-      getAll() {
-        return cookieStore.getAll()
-      },
-      setAll(cookiesToSet) {
-        try {
-          cookiesToSet.forEach(({ name, value, options }) => {
-            cookieStore.set(name, value, options)
-          })
-        } catch {
-          // Server Component에서 set 시도 시 무시
-        }
-      },
+  return { supabaseUrl, supabaseAnonKey };
+}
+
+async function createCookieAdapter(): Promise<CookieMethodsServer> {
+  const cookieStore = await cookies();
+
+  return {
+    getAll() {
+      return cookieStore.getAll();
     },
-  })
+    setAll(cookiesToSet) {
+      try {
+        cookiesToSet.forEach(({ name, value, options }) => {
+          cookieStore.set(name, value, options);
+        });
+      } catch {
+        // Server Component에서는 쿠키 set이 실패할 수 있으므로 무시
+      }
+    },
+  };
+}
+
+export async function createClient() {
+  const { supabaseUrl, supabaseAnonKey } = requireEnv();
+  const cookieAdapter = await createCookieAdapter();
+
+  return createServerClient(supabaseUrl, supabaseAnonKey, {
+    cookies: cookieAdapter,
+  });
+}
+
+export async function supabaseServer() {
+  return createClient();
+}
+
+export async function createServerSupabaseClient() {
+  return createClient();
+}
+
+export async function createSupabaseServerClient() {
+  return createClient();
 }

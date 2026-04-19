@@ -1,0 +1,303 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA0101202504A0104580"
+				,"bizesNm" : "퍼펙트월드케어"
+				,"brchNm" : ""
+				,"indsLclsCd" : "S2"
+				,"indsLclsNm" : "수리·개인"
+				,"indsMclsCd" : "S205"
+				,"indsMclsNm" : "가전제품 수리"
+				,"indsSclsCd" : "S20501"
+				,"indsSclsNm" : "가전제품 수리업"
+				,"ksicCd" : "S95310"
+				,"ksicNm" : "가전제품 수리업"
+				,"ctprvnCd" : "41"
+				,"ctprvnNm" : "경기도"
+				,"signguCd" : "41570"
+				,"signguNm" : "김포시"
+				,"adongCd" : "41570350"
+				,"adongNm" : "월곶면"
+				,"ldongCd" : "4157035028"
+				,"ldongNm" : "월곶면"
+				,"lnoCd" : "4157035028102420000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 242
+				,"lnoSlno" : ""
+				,"lnoAdr" : "경기도 김포시 월곶면 용강리 242"
+				,"rdnmCd" : "415704427426"
+				,"rdnm" : "경기도 김포시 월곶면 용강로437번길"
+				,"bldMnno" : 127
+				,"bldSlno" : ""
+				,"bldMngNo" : "4157035028102420000017881"
+				,"bldNm" : ""
+				,"rdnmAdr" : "경기도 김포시 월곶면 용강로437번길 127"
+				,"oldZipcd" : "415878"
+				,"newZipcd" : "10001"
+				,"dongNo" : ""
+				,"flrNo" : "2"
+				,"hoNo" : ""
+				,"lon" : 126.552159550682
+				,"lat" : 37.7597672570081
+				}
+				,{
+				"bizesId" : "MA010120220802598554"
+				,"bizesNm" : "매화미르"
+				,"brchNm" : ""
+				,"indsLclsCd" : "R1"
+				,"indsLclsNm" : "예술·스포츠"
+				,"indsMclsCd" : "R104"
+				,"indsMclsNm" : "유원지·오락"
+				,"indsSclsCd" : "R10499"
+				,"indsSclsNm" : "기타 오락관련 서비스업"
+				,"ksicCd" : "R91299"
+				,"ksicNm" : "그 외 기타 분류 안된 오락관련 서비스업"
+				,"ctprvnCd" : "41"
+				,"ctprvnNm" : "경기도"
+				,"signguCd" : "41570"
+				,"signguNm" : "김포시"
+				,"adongCd" : "41570350"
+				,"adongNm" : "월곶면"
+				,"ldongCd" : "4157035028"
+				,"ldongNm" : "월곶면"
+				,"lnoCd" : "4157035028102670002"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 267
+				,"lnoSlno" : 2
+				,"lnoAdr" : "경기도 김포시 월곶면 용강리 267-2"
+				,"rdnmCd" : "415704427426"
+				,"rdnm" : "경기도 김포시 월곶면 용강로437번길"
+				,"bldMnno" : 98
+				,"bldSlno" : ""
+				,"bldMngNo" : "4157035028102670002018109"
+				,"bldNm" : ""
+				,"rdnmAdr" : "경기도 김포시 월곶면 용강로437번길 98"
+				,"oldZipcd" : "415878"
+				,"newZipcd" : "10001"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.552733516738
+				,"lat" : 37.758679275688
+				}
+				,{
+				"bizesId" : "MA0101202308A0071992"
+				,"bizesNm" : "수피아공방"
+				,"brchNm" : ""
+				,"indsLclsCd" : "P1"
+				,"indsLclsNm" : "교육"
+				,"indsMclsCd" : "P106"
+				,"indsMclsNm" : "기타 교육"
+				,"indsSclsCd" : "P10625"
+				,"indsSclsNm" : "기타 기술/직업 훈련학원"
+				,"ksicCd" : "P85669"
+				,"ksicNm" : "기타 기술 및 직업 훈련학원"
+				,"ctprvnCd" : "41"
+				,"ctprvnNm" : "경기도"
+				,"signguCd" : "41570"
+				,"signguNm" : "김포시"
+				,"adongCd" : "41570350"
+				,"adongNm" : "월곶면"
+				,"ldongCd" : "4157035028"
+				,"ldongNm" : "월곶면"
+				,"lnoCd" : "4157035028103270002"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 327
+				,"lnoSlno" : 2
+				,"lnoAdr" : "경기도 김포시 월곶면 용강리 327-2"
+				,"rdnmCd" : "415704427426"
+				,"rdnm" : "경기도 김포시 월곶면 용강로437번길"
+				,"bldMnno" : 11
+				,"bldSlno" : ""
+				,"bldMngNo" : "4157035028103270002018085"
+				,"bldNm" : ""
+				,"rdnmAdr" : "경기도 김포시 월곶면 용강로437번길 11"
+				,"oldZipcd" : "415878"
+				,"newZipcd" : "10001"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.556250076432
+				,"lat" : 37.7570077740685
+				}
+				,{
+				"bizesId" : "MA0101202410A0889567"
+				,"bizesNm" : "그린농원"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G205"
+				,"indsMclsNm" : "식료품 소매"
+				,"indsSclsCd" : "G20506"
+				,"indsSclsNm" : "채소/과일 소매업"
+				,"ksicCd" : "G47215"
+				,"ksicNm" : "채소, 과실 및 뿌리작물 소매업"
+				,"ctprvnCd" : "41"
+				,"ctprvnNm" : "경기도"
+				,"signguCd" : "41570"
+				,"signguNm" : "김포시"
+				,"adongCd" : "41570350"
+				,"adongNm" : "월곶면"
+				,"ldongCd" : "4157035028"
+				,"ldongNm" : "월곶면"
+				,"lnoCd" : "4157035028102990014"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 299
+				,"lnoSlno" : 14
+				,"lnoAdr" : "경기도 김포시 월곶면 용강리 299-14"
+				,"rdnmCd" : "415703209091"
+				,"rdnm" : "경기도 김포시 월곶면 용강로"
+				,"bldMnno" : 438
+				,"bldSlno" : 9
+				,"bldMngNo" : "4157035028102990007044272"
+				,"bldNm" : ""
+				,"rdnmAdr" : "경기도 김포시 월곶면 용강로 438-9"
+				,"oldZipcd" : "415878"
+				,"newZipcd" : "10001"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.557292447776
+				,"lat" : 37.7572819821939
+				}
+				,{
+				"bizesId" : "MA0106202405A0350607"
+				,"bizesNm" : "GS25N용강리중"
+				,"brchNm" : "본점"
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G204"
+				,"indsMclsNm" : "종합 소매"
+				,"indsSclsCd" : "G20405"
+				,"indsSclsNm" : "편의점"
+				,"ksicCd" : "G47121"
+				,"ksicNm" : "슈퍼마켓"
+				,"ctprvnCd" : "41"
+				,"ctprvnNm" : "경기도"
+				,"signguCd" : "41570"
+				,"signguNm" : "김포시"
+				,"adongCd" : "41570350"
+				,"adongNm" : "월곶면"
+				,"ldongCd" : "4157035028"
+				,"ldongNm" : "월곶면"
+				,"lnoCd" : "4157035028103150155"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 315
+				,"lnoSlno" : 155
+				,"lnoAdr" : "경기도 김포시 월곶면 용강리 315-155"
+				,"rdnmCd" : "415703209091"
+				,"rdnm" : "경기도 김포시 월곶면 용강로"
+				,"bldMnno" : 377
+				,"bldSlno" : ""
+				,"bldMngNo" : "4157035028103150001017614"
+				,"bldNm" : ""
+				,"rdnmAdr" : "경기도 김포시 월곶면 용강로 377"
+				,"oldZipcd" : "415878"
+				,"newZipcd" : "10001"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.55943303422
+				,"lat" : 37.7522446254136
+				}
+				,{
+				"bizesId" : "MA010120220802533469"
+				,"bizesNm" : "애기봉휴게소"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G204"
+				,"indsMclsNm" : "종합 소매"
+				,"indsSclsCd" : "G20405"
+				,"indsSclsNm" : "편의점"
+				,"ksicCd" : "G47122"
+				,"ksicNm" : "체인화 편의점"
+				,"ctprvnCd" : "41"
+				,"ctprvnNm" : "경기도"
+				,"signguCd" : "41570"
+				,"signguNm" : "김포시"
+				,"adongCd" : "41570350"
+				,"adongNm" : "월곶면"
+				,"ldongCd" : "4157035029"
+				,"ldongNm" : "월곶면"
+				,"lnoCd" : "4157035029200030000"
+				,"plotSctCd" : "2"
+				,"plotSctNm" : "산"
+				,"lnoMnno" : 3
+				,"lnoSlno" : ""
+				,"lnoAdr" : "경기도 김포시 월곶면 조강리 산 3"
+				,"rdnmCd" : "415703209120"
+				,"rdnm" : "경기도 김포시 월곶면 평화공원로"
+				,"bldMnno" : 291
+				,"bldSlno" : ""
+				,"bldMngNo" : "4157035029200030000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "경기도 김포시 월곶면 평화공원로 291"
+				,"oldZipcd" : "415879"
+				,"newZipcd" : "10002"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.593038032564
+				,"lat" : 37.7552845667268
+				}
+				,{
+				"bizesId" : "MA0106202411A2476446"
+				,"bizesNm" : "김포애기봉생태공원"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I212"
+				,"indsMclsNm" : "비알코올 "
+				,"indsSclsCd" : "I21201"
+				,"indsSclsNm" : "카페"
+				,"ksicCd" : "I56221"
+				,"ksicNm" : "커피 전문점"
+				,"ctprvnCd" : "41"
+				,"ctprvnNm" : "경기도"
+				,"signguCd" : "41570"
+				,"signguNm" : "김포시"
+				,"adongCd" : "41570350"
+				,"adongNm" : "월곶면"
+				,"ldongCd" : "4157035029"
+				,"ldongNm" : "월곶면"
+				,"lnoCd" : "4157035029100010009"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 1
+				,"lnoSlno" : 9
+				,"lnoAdr" : "경기도 김포시 월곶면 조강리 1-9"
+				,"rdnmCd" : "415703209120"
+				,"rdnm" : "경기도 김포시 월곶면 평화공원로"
+				,"bldMnno" : 289
+				,"bldSlno" : ""
+				,"bldMngNo" : "4157035029100010009000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "경기도 김포시 월곶면 평화공원로 289"
+				,"oldZipcd" : "415879"
+				,"newZipcd" : "10004"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.594241074682
+				,"lat" : 37.753171455181
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 1,
+		"totalCount" : 7	}
+}

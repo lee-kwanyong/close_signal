@@ -1,0 +1,221 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA0106202507A1934382"
+				,"bizesNm" : "누리홈"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G209"
+				,"indsMclsNm" : "섬유·의복·신발 소매"
+				,"indsSclsCd" : "G20906"
+				,"indsSclsNm" : "침구류/커튼 소매업"
+				,"ksicCd" : "G47421"
+				,"ksicNm" : "가정용 직물제품 소매업"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44800"
+				,"signguNm" : "홍성군"
+				,"adongCd" : "44800320"
+				,"adongNm" : "금마면"
+				,"ldongCd" : "4480032030"
+				,"ldongNm" : "금마면"
+				,"lnoCd" : "4480032030103460000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 346
+				,"lnoSlno" : ""
+				,"lnoAdr" : "충청남도 홍성군 금마면 신곡리 346"
+				,"rdnmCd" : "448003252053"
+				,"rdnm" : "충청남도 홍성군 금마면 충서로"
+				,"bldMnno" : 1895
+				,"bldSlno" : ""
+				,"bldMngNo" : "4480032030103460000009737"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청남도 홍성군 금마면 충서로 1895"
+				,"oldZipcd" : "350824"
+				,"newZipcd" : "32282"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.700486347127
+				,"lat" : 36.6093884270882
+				}
+				,{
+				"bizesId" : "MA0106202201A2093776"
+				,"bizesNm" : "세븐일레븐홍성대로점"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G204"
+				,"indsMclsNm" : "종합 소매"
+				,"indsSclsCd" : "G20405"
+				,"indsSclsNm" : "편의점"
+				,"ksicCd" : "G47121"
+				,"ksicNm" : "슈퍼마켓"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44800"
+				,"signguNm" : "홍성군"
+				,"adongCd" : "44800320"
+				,"adongNm" : "금마면"
+				,"ldongCd" : "4480032030"
+				,"ldongNm" : "금마면"
+				,"lnoCd" : "4480032030103650003"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 365
+				,"lnoSlno" : 3
+				,"lnoAdr" : "충청남도 홍성군 금마면 신곡리 365-3"
+				,"rdnmCd" : "448003252053"
+				,"rdnm" : "충청남도 홍성군 금마면 충서로"
+				,"bldMnno" : 1898
+				,"bldSlno" : ""
+				,"bldMngNo" : "4480032030103450001049568"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청남도 홍성군 금마면 충서로 1898"
+				,"oldZipcd" : "350824"
+				,"newZipcd" : "32282"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.701416816632
+				,"lat" : 36.6086788628495
+				}
+				,{
+				"bizesId" : "MA0101202505A0052973"
+				,"bizesNm" : "정섭이가"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44800"
+				,"signguNm" : "홍성군"
+				,"adongCd" : "44800320"
+				,"adongNm" : "금마면"
+				,"ldongCd" : "4480032031"
+				,"ldongNm" : "금마면"
+				,"lnoCd" : "4480032031101500000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 150
+				,"lnoSlno" : ""
+				,"lnoAdr" : "충청남도 홍성군 금마면 죽림리 150"
+				,"rdnmCd" : "448004586476"
+				,"rdnm" : "충청남도 홍성군 금마면 충서로2036번길"
+				,"bldMnno" : 31
+				,"bldSlno" : ""
+				,"bldMngNo" : "4480032031101500000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청남도 홍성군 금마면 충서로2036번길 31"
+				,"oldZipcd" : "350824"
+				,"newZipcd" : "32280"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.712820707975
+				,"lat" : 36.6169342787612
+				}
+				,{
+				"bizesId" : "MA0101202412A0070383"
+				,"bizesNm" : "굿모닝베이커리"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I210"
+				,"indsMclsNm" : "기타 간이"
+				,"indsSclsCd" : "I21001"
+				,"indsSclsNm" : "빵/도넛"
+				,"ksicCd" : "I56191"
+				,"ksicNm" : "제과점업"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44800"
+				,"signguNm" : "홍성군"
+				,"adongCd" : "44800320"
+				,"adongNm" : "금마면"
+				,"ldongCd" : "4480032024"
+				,"ldongNm" : "금마면"
+				,"lnoCd" : "4480032024104640000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 464
+				,"lnoSlno" : ""
+				,"lnoAdr" : "충청남도 홍성군 금마면 가산리 464"
+				,"rdnmCd" : "448003262027"
+				,"rdnm" : "충청남도 홍성군 금마면 봉수산로"
+				,"bldMnno" : 852
+				,"bldSlno" : ""
+				,"bldMngNo" : "4480032024104640000040294"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청남도 홍성군 금마면 봉수산로 852"
+				,"oldZipcd" : "350821"
+				,"newZipcd" : "32280"
+				,"dongNo" : ""
+				,"flrNo" : "1"
+				,"hoNo" : ""
+				,"lon" : 126.736867441599
+				,"lat" : 36.6263526198406
+				}
+				,{
+				"bizesId" : "MA0101202504A0022331"
+				,"bizesNm" : "미래에너지산업"
+				,"brchNm" : "홍성지점"
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G214"
+				,"indsMclsNm" : "연료 소매"
+				,"indsSclsCd" : "G21402"
+				,"indsSclsNm" : "가스 충전소"
+				,"ksicCd" : "G47712"
+				,"ksicNm" : "운송장비용 가스 충전업"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44800"
+				,"signguNm" : "홍성군"
+				,"adongCd" : "44800256"
+				,"adongNm" : "홍북읍"
+				,"ldongCd" : "4480025633"
+				,"ldongNm" : "홍북읍"
+				,"lnoCd" : "4480025633100310007"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 31
+				,"lnoSlno" : 7
+				,"lnoAdr" : "충청남도 홍성군 홍북읍 대인리 31-7"
+				,"rdnmCd" : "448003252053"
+				,"rdnm" : "충청남도 홍성군 홍북읍 충서로"
+				,"bldMnno" : 2414
+				,"bldSlno" : ""
+				,"bldMngNo" : "4480031033100310007041331"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청남도 홍성군 홍북읍 충서로 2414"
+				,"oldZipcd" : "350833"
+				,"newZipcd" : "32279"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.74397771564
+				,"lat" : 36.6365509443075
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 2,
+		"totalCount" : 105	}
+}

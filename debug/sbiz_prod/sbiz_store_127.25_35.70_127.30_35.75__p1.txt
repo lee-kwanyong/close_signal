@@ -1,0 +1,385 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA010120220807423428"
+				,"bizesNm" : "스마일홈케어"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G208"
+				,"indsMclsNm" : "가전·통신 소매"
+				,"indsSclsCd" : "G20803"
+				,"indsSclsNm" : "가전제품 소매업"
+				,"ksicCd" : "G47320"
+				,"ksicNm" : "가전제품 소매업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52750"
+				,"signguNm" : "임실군"
+				,"adongCd" : "52750380"
+				,"adongNm" : "관촌면"
+				,"ldongCd" : "5275038030"
+				,"ldongNm" : "관촌면"
+				,"lnoCd" : "5275038030101920000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 192
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전북특별자치도 임실군 관촌면 상월리 192"
+				,"rdnmCd" : "527503277016"
+				,"rdnm" : "전북특별자치도 임실군 관촌면 상월로"
+				,"bldMnno" : 780
+				,"bldSlno" : ""
+				,"bldMngNo" : "4575038030101850002113954"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 임실군 관촌면 상월로 780"
+				,"oldZipcd" : "566813"
+				,"newZipcd" : "55907"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.258085942519
+				,"lat" : 35.7439326902426
+				}
+				,{
+				"bizesId" : "MA0101202502A0015429"
+				,"bizesNm" : "그린바이오"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G210"
+				,"indsMclsNm" : "철물·건설자재 소매"
+				,"indsSclsCd" : "G21002"
+				,"indsSclsNm" : "벽지/장판/마루 소매업"
+				,"ksicCd" : "G47513"
+				,"ksicNm" : "벽지, 마루덮개 및 장판류 소매업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52750"
+				,"signguNm" : "임실군"
+				,"adongCd" : "52750380"
+				,"adongNm" : "관촌면"
+				,"ldongCd" : "5275038029"
+				,"ldongNm" : "관촌면"
+				,"lnoCd" : "5275038029106800000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 680
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전북특별자치도 임실군 관촌면 신전리 680"
+				,"rdnmCd" : "527504631195"
+				,"rdnm" : "전북특별자치도 임실군 관촌면 신전2길"
+				,"bldMnno" : 13
+				,"bldSlno" : ""
+				,"bldMngNo" : "4575038029106800000114811"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 임실군 관촌면 신전2길 13"
+				,"oldZipcd" : "566813"
+				,"newZipcd" : "55907"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.265136909376
+				,"lat" : 35.7098853370511
+				}
+				,{
+				"bizesId" : "MA0106202510A0862087"
+				,"bizesNm" : "다락골신전마을"
+				,"brchNm" : ""
+				,"indsLclsCd" : "P1"
+				,"indsLclsNm" : "교육"
+				,"indsMclsCd" : "P106"
+				,"indsMclsNm" : "기타 교육"
+				,"indsSclsCd" : "P10607"
+				,"indsSclsNm" : "청소년 수련시설"
+				,"ksicCd" : "P85614"
+				,"ksicNm" : "청소년 수련시설 운영업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52750"
+				,"signguNm" : "임실군"
+				,"adongCd" : "52750380"
+				,"adongNm" : "관촌면"
+				,"ldongCd" : "5275038029"
+				,"ldongNm" : "관촌면"
+				,"lnoCd" : "5275038029108240001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 824
+				,"lnoSlno" : 1
+				,"lnoAdr" : "전북특별자치도 임실군 관촌면 신전리 824-1"
+				,"rdnmCd" : "527503277016"
+				,"rdnm" : "전북특별자치도 임실군 관촌면 상월로"
+				,"bldMnno" : 478
+				,"bldSlno" : ""
+				,"bldMngNo" : "4575038029100330004000232"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 임실군 관촌면 상월로 478"
+				,"oldZipcd" : "566813"
+				,"newZipcd" : "55907"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.268651295724
+				,"lat" : 35.7198546410437
+				}
+				,{
+				"bizesId" : "MA0101202303A0091407"
+				,"bizesNm" : "육미관포동식당"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52720"
+				,"signguNm" : "진안군"
+				,"adongCd" : "52720360"
+				,"adongNm" : "성수면"
+				,"ldongCd" : "5272036025"
+				,"ldongNm" : "성수면"
+				,"lnoCd" : "5272036025103790004"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 379
+				,"lnoSlno" : 4
+				,"lnoAdr" : "전북특별자치도 진안군 성수면 용포리 379-4"
+				,"rdnmCd" : "527204622357"
+				,"rdnm" : "전북특별자치도 진안군 성수면 포동길"
+				,"bldMnno" : 13
+				,"bldSlno" : 20
+				,"bldMngNo" : "4572036025103790001013761"
+				,"bldNm" : "농업인건강관리실"
+				,"rdnmAdr" : "전북특별자치도 진안군 성수면 포동길 13-20"
+				,"oldZipcd" : "567893"
+				,"newZipcd" : "55457"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.294238031129
+				,"lat" : 35.7112417234747
+				}
+				,{
+				"bizesId" : "MA0101202311A0096773"
+				,"bizesNm" : "화니핀"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G219"
+				,"indsMclsNm" : "식물 소매"
+				,"indsSclsCd" : "G21901"
+				,"indsSclsNm" : "꽃집"
+				,"ksicCd" : "G47851"
+				,"ksicNm" : "화초 및 식물 소매업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52720"
+				,"signguNm" : "진안군"
+				,"adongCd" : "52720360"
+				,"adongNm" : "성수면"
+				,"ldongCd" : "5272036025"
+				,"ldongNm" : "성수면"
+				,"lnoCd" : "5272036025103720006"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 372
+				,"lnoSlno" : 6
+				,"lnoAdr" : "전북특별자치도 진안군 성수면 용포리 372-6"
+				,"rdnmCd" : "527203274034"
+				,"rdnm" : "전북특별자치도 진안군 성수면 용포로"
+				,"bldMnno" : 21
+				,"bldSlno" : 5
+				,"bldMngNo" : "4572036025103720006000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 진안군 성수면 용포로 21-5"
+				,"oldZipcd" : "567893"
+				,"newZipcd" : "55457"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.294522520529
+				,"lat" : 35.7134761851527
+				}
+				,{
+				"bizesId" : "MA010120220814028882"
+				,"bizesNm" : "고원기획"
+				,"brchNm" : ""
+				,"indsLclsCd" : "M1"
+				,"indsLclsNm" : "과학·기술"
+				,"indsMclsCd" : "M109"
+				,"indsMclsNm" : "기술 서비스"
+				,"indsSclsCd" : "M10901"
+				,"indsSclsNm" : "건축 설계 및 관련 서비스업"
+				,"ksicCd" : "M72111"
+				,"ksicNm" : "건축 설계 및 관련 서비스업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52720"
+				,"signguNm" : "진안군"
+				,"adongCd" : "52720360"
+				,"adongNm" : "성수면"
+				,"ldongCd" : "5272036025"
+				,"ldongNm" : "성수면"
+				,"lnoCd" : "5272036025103720006"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 372
+				,"lnoSlno" : 6
+				,"lnoAdr" : "전북특별자치도 진안군 성수면 용포리 372-6"
+				,"rdnmCd" : "527203274034"
+				,"rdnm" : "전북특별자치도 진안군 성수면 용포로"
+				,"bldMnno" : 21
+				,"bldSlno" : 5
+				,"bldMngNo" : "4572036025103720006000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 진안군 성수면 용포로 21-5"
+				,"oldZipcd" : "567893"
+				,"newZipcd" : "55457"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.294522520529
+				,"lat" : 35.7134761851527
+				}
+				,{
+				"bizesId" : "MA010120220810311362"
+				,"bizesNm" : "포동슈퍼"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G204"
+				,"indsMclsNm" : "종합 소매"
+				,"indsSclsCd" : "G20404"
+				,"indsSclsNm" : "슈퍼마켓"
+				,"ksicCd" : "G47129"
+				,"ksicNm" : "기타 음ㆍ식료품 위주 종합 소매업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52720"
+				,"signguNm" : "진안군"
+				,"adongCd" : "52720360"
+				,"adongNm" : "성수면"
+				,"ldongCd" : "5272036025"
+				,"ldongNm" : "성수면"
+				,"lnoCd" : "5272036025103850003"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 385
+				,"lnoSlno" : 3
+				,"lnoAdr" : "전북특별자치도 진안군 성수면 용포리 385-3"
+				,"rdnmCd" : "527204622357"
+				,"rdnm" : "전북특별자치도 진안군 성수면 포동길"
+				,"bldMnno" : 13
+				,"bldSlno" : 16
+				,"bldMngNo" : "4572036025103850001012841"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 진안군 성수면 포동길 13-16"
+				,"oldZipcd" : "567893"
+				,"newZipcd" : "55457"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.294757079737
+				,"lat" : 35.7111503260736
+				}
+				,{
+				"bizesId" : "MA010120220807403576"
+				,"bizesNm" : "냉천매점"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G204"
+				,"indsMclsNm" : "종합 소매"
+				,"indsSclsCd" : "G20404"
+				,"indsSclsNm" : "슈퍼마켓"
+				,"ksicCd" : "G47129"
+				,"ksicNm" : "기타 음ㆍ식료품 위주 종합 소매업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52720"
+				,"signguNm" : "진안군"
+				,"adongCd" : "52720360"
+				,"adongNm" : "성수면"
+				,"ldongCd" : "5272036027"
+				,"ldongNm" : "성수면"
+				,"lnoCd" : "5272036027113990003"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 1399
+				,"lnoSlno" : 3
+				,"lnoAdr" : "전북특별자치도 진안군 성수면 좌포리 1399-3"
+				,"rdnmCd" : "527203016052"
+				,"rdnm" : "전북특별자치도 진안군 성수면 관마로"
+				,"bldMnno" : 836
+				,"bldSlno" : 40
+				,"bldMngNo" : "4572036027113990003012614"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 진안군 성수면 관마로 836-40"
+				,"oldZipcd" : "567892"
+				,"newZipcd" : "55458"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.299243313096
+				,"lat" : 35.7317423266988
+				}
+				,{
+				"bizesId" : "MA010120220813970544"
+				,"bizesNm" : "씨에이치산업"
+				,"brchNm" : ""
+				,"indsLclsCd" : "N1"
+				,"indsLclsNm" : "시설관리·임대"
+				,"indsMclsCd" : "N104"
+				,"indsMclsNm" : "고용 알선"
+				,"indsSclsCd" : "N10402"
+				,"indsSclsNm" : "임시/일용 인력 공급업"
+				,"ksicCd" : "N75121"
+				,"ksicNm" : "임시 및 일용 인력 공급업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52720"
+				,"signguNm" : "진안군"
+				,"adongCd" : "52720360"
+				,"adongNm" : "성수면"
+				,"ldongCd" : "5272036027"
+				,"ldongNm" : "성수면"
+				,"lnoCd" : "5272036027113990003"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 1399
+				,"lnoSlno" : 3
+				,"lnoAdr" : "전북특별자치도 진안군 성수면 좌포리 1399-3"
+				,"rdnmCd" : "527203016052"
+				,"rdnm" : "전북특별자치도 진안군 성수면 관마로"
+				,"bldMnno" : 836
+				,"bldSlno" : 40
+				,"bldMngNo" : "4572036027113990003012614"
+				,"bldNm" : "팬션"
+				,"rdnmAdr" : "전북특별자치도 진안군 성수면 관마로 836-40"
+				,"oldZipcd" : "567892"
+				,"newZipcd" : "55458"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.299243313096
+				,"lat" : 35.7317423266988
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 1,
+		"totalCount" : 9	}
+}

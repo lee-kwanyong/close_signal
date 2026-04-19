@@ -1,0 +1,344 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA010120220814162586"
+				,"bizesNm" : "볼소리펜션"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55109"
+				,"ksicNm" : "기타 일반 및 생활 숙박시설 운영업"
+				,"ctprvnCd" : "28"
+				,"ctprvnNm" : "인천광역시"
+				,"signguCd" : "28710"
+				,"signguNm" : "강화군"
+				,"adongCd" : "28710420"
+				,"adongNm" : "서도면"
+				,"ldongCd" : "2871042024"
+				,"ldongNm" : "서도면"
+				,"lnoCd" : "2871042024100580008"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 58
+				,"lnoSlno" : 8
+				,"lnoAdr" : "인천광역시 강화군 서도면 볼음도리 58-8"
+				,"rdnmCd" : "287104271359"
+				,"rdnm" : "인천광역시 강화군 서도면 볼음도길"
+				,"bldMnno" : 93
+				,"bldSlno" : ""
+				,"bldMngNo" : "2871042024100580008000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "인천광역시 강화군 서도면 볼음도길 93"
+				,"oldZipcd" : "417932"
+				,"newZipcd" : "23010"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.201945223225
+				,"lat" : 37.6611448217153
+				}
+				,{
+				"bizesId" : "MA0101202406A0354418"
+				,"bizesNm" : "가나민박"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55104"
+				,"ksicNm" : "민박업"
+				,"ctprvnCd" : "28"
+				,"ctprvnNm" : "인천광역시"
+				,"signguCd" : "28710"
+				,"signguNm" : "강화군"
+				,"adongCd" : "28710420"
+				,"adongNm" : "서도면"
+				,"ldongCd" : "2871042024"
+				,"ldongNm" : "서도면"
+				,"lnoCd" : "2871042024100600001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 60
+				,"lnoSlno" : 1
+				,"lnoAdr" : "인천광역시 강화군 서도면 볼음도리 60-1"
+				,"rdnmCd" : "287104271359"
+				,"rdnm" : "인천광역시 강화군 서도면 볼음도길"
+				,"bldMnno" : 97
+				,"bldSlno" : 4
+				,"bldMngNo" : "2871042024100600001000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "인천광역시 강화군 서도면 볼음도길 97-4"
+				,"oldZipcd" : "417932"
+				,"newZipcd" : "23010"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.202053434797
+				,"lat" : 37.6616230621255
+				}
+				,{
+				"bizesId" : "MA010120220809964262"
+				,"bizesNm" : "고센펜션"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55109"
+				,"ksicNm" : "기타 일반 및 생활 숙박시설 운영업"
+				,"ctprvnCd" : "28"
+				,"ctprvnNm" : "인천광역시"
+				,"signguCd" : "28710"
+				,"signguNm" : "강화군"
+				,"adongCd" : "28710420"
+				,"adongNm" : "서도면"
+				,"ldongCd" : "2871042024"
+				,"ldongNm" : "서도면"
+				,"lnoCd" : "2871042024100580004"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 58
+				,"lnoSlno" : 4
+				,"lnoAdr" : "인천광역시 강화군 서도면 볼음도리 58-4"
+				,"rdnmCd" : "287104271359"
+				,"rdnm" : "인천광역시 강화군 서도면 볼음도길"
+				,"bldMnno" : 97
+				,"bldSlno" : 1
+				,"bldMngNo" : "2871042024100580006000001"
+				,"bldNm" : "주"
+				,"rdnmAdr" : "인천광역시 강화군 서도면 볼음도길 97-1"
+				,"oldZipcd" : "417932"
+				,"newZipcd" : "23010"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.202256111127
+				,"lat" : 37.6606874355981
+				}
+				,{
+				"bizesId" : "MA010120220802568290"
+				,"bizesNm" : "흙집민박"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55104"
+				,"ksicNm" : "민박업"
+				,"ctprvnCd" : "28"
+				,"ctprvnNm" : "인천광역시"
+				,"signguCd" : "28710"
+				,"signguNm" : "강화군"
+				,"adongCd" : "28710420"
+				,"adongNm" : "서도면"
+				,"ldongCd" : "2871042024"
+				,"ldongNm" : "서도면"
+				,"lnoCd" : "2871042024100450000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 45
+				,"lnoSlno" : ""
+				,"lnoAdr" : "인천광역시 강화군 서도면 볼음도리 45"
+				,"rdnmCd" : "287104271359"
+				,"rdnm" : "인천광역시 강화군 서도면 볼음도길"
+				,"bldMnno" : 90
+				,"bldSlno" : ""
+				,"bldMngNo" : "2871042024100450000034836"
+				,"bldNm" : ""
+				,"rdnmAdr" : "인천광역시 강화군 서도면 볼음도길 90"
+				,"oldZipcd" : "417932"
+				,"newZipcd" : "23010"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.203363980828
+				,"lat" : 37.664127576979
+				}
+				,{
+				"bizesId" : "MA010120220814354453"
+				,"bizesNm" : "마루터기펜션"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55109"
+				,"ksicNm" : "기타 일반 및 생활 숙박시설 운영업"
+				,"ctprvnCd" : "28"
+				,"ctprvnNm" : "인천광역시"
+				,"signguCd" : "28710"
+				,"signguNm" : "강화군"
+				,"adongCd" : "28710420"
+				,"adongNm" : "서도면"
+				,"ldongCd" : "2871042022"
+				,"ldongNm" : "서도면"
+				,"lnoCd" : "2871042022101430001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 143
+				,"lnoSlno" : 1
+				,"lnoAdr" : "인천광역시 강화군 서도면 아차도리 143-1"
+				,"rdnmCd" : "287104271493"
+				,"rdnm" : "인천광역시 강화군 서도면 아차도길"
+				,"bldMnno" : 90
+				,"bldSlno" : 2
+				,"bldMngNo" : "2871042022101430000034046"
+				,"bldNm" : ""
+				,"rdnmAdr" : "인천광역시 강화군 서도면 아차도길 90-2"
+				,"oldZipcd" : "417931"
+				,"newZipcd" : "23008"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.227356212862
+				,"lat" : 37.6620257728913
+				}
+				,{
+				"bizesId" : "MA010120220802541827"
+				,"bizesNm" : "선양식당"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "28"
+				,"ctprvnNm" : "인천광역시"
+				,"signguCd" : "28710"
+				,"signguNm" : "강화군"
+				,"adongCd" : "28710420"
+				,"adongNm" : "서도면"
+				,"ldongCd" : "2871042021"
+				,"ldongNm" : "서도면"
+				,"lnoCd" : "2871042021108860007"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 886
+				,"lnoSlno" : 7
+				,"lnoAdr" : "인천광역시 강화군 서도면 주문도리 886-7"
+				,"rdnmCd" : "287104271584"
+				,"rdnm" : "인천광역시 강화군 서도면 주문도길"
+				,"bldMnno" : 12
+				,"bldSlno" : ""
+				,"bldMngNo" : "2871042021108860007034262"
+				,"bldNm" : ""
+				,"rdnmAdr" : "인천광역시 강화군 서도면 주문도길 12"
+				,"oldZipcd" : "417933"
+				,"newZipcd" : "23008"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.235507345449
+				,"lat" : 37.6540423099764
+				}
+				,{
+				"bizesId" : "MA010120220812586107"
+				,"bizesNm" : "돌섬넷"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G204"
+				,"indsMclsNm" : "종합 소매"
+				,"indsSclsCd" : "G20404"
+				,"indsSclsNm" : "슈퍼마켓"
+				,"ksicCd" : "G47129"
+				,"ksicNm" : "기타 음ㆍ식료품 위주 종합 소매업"
+				,"ctprvnCd" : "28"
+				,"ctprvnNm" : "인천광역시"
+				,"signguCd" : "28710"
+				,"signguNm" : "강화군"
+				,"adongCd" : "28710420"
+				,"adongNm" : "서도면"
+				,"ldongCd" : "2871042021"
+				,"ldongNm" : "서도면"
+				,"lnoCd" : "2871042021108860007"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 886
+				,"lnoSlno" : 7
+				,"lnoAdr" : "인천광역시 강화군 서도면 주문도리 886-7"
+				,"rdnmCd" : "287104271584"
+				,"rdnm" : "인천광역시 강화군 서도면 주문도길"
+				,"bldMnno" : 12
+				,"bldSlno" : ""
+				,"bldMngNo" : "2871042021108860007034262"
+				,"bldNm" : ""
+				,"rdnmAdr" : "인천광역시 강화군 서도면 주문도길 12"
+				,"oldZipcd" : "417933"
+				,"newZipcd" : "23008"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.235507345449
+				,"lat" : 37.6540423099764
+				}
+				,{
+				"bizesId" : "MA010120220806771158"
+				,"bizesNm" : "대박민박"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55104"
+				,"ksicNm" : "민박업"
+				,"ctprvnCd" : "28"
+				,"ctprvnNm" : "인천광역시"
+				,"signguCd" : "28710"
+				,"signguNm" : "강화군"
+				,"adongCd" : "28710420"
+				,"adongNm" : "서도면"
+				,"ldongCd" : "2871042021"
+				,"ldongNm" : "서도면"
+				,"lnoCd" : "2871042021108250000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 825
+				,"lnoSlno" : ""
+				,"lnoAdr" : "인천광역시 강화군 서도면 주문도리 825"
+				,"rdnmCd" : "287104271584"
+				,"rdnm" : "인천광역시 강화군 서도면 주문도길"
+				,"bldMnno" : 54
+				,"bldSlno" : ""
+				,"bldMngNo" : "2871042021108290000034210"
+				,"bldNm" : ""
+				,"rdnmAdr" : "인천광역시 강화군 서도면 주문도길 54"
+				,"oldZipcd" : "417933"
+				,"newZipcd" : "23008"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.239190328379
+				,"lat" : 37.6518137158699
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 1,
+		"totalCount" : 8	}
+}

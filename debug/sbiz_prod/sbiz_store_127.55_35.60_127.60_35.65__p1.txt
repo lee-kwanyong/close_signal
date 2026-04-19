@@ -1,0 +1,139 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA010120220807428547"
+				,"bizesNm" : "청산별곡"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52740"
+				,"signguNm" : "장수군"
+				,"adongCd" : "52740250"
+				,"adongNm" : "장수읍"
+				,"ldongCd" : "5274025026"
+				,"ldongNm" : "장수읍"
+				,"lnoCd" : "5274025026100440001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 44
+				,"lnoSlno" : 1
+				,"lnoAdr" : "전북특별자치도 장수군 장수읍 덕산리 44-1"
+				,"rdnmCd" : "527403276045"
+				,"rdnm" : "전북특별자치도 장수군 장수읍 덕산로"
+				,"bldMnno" : 763
+				,"bldSlno" : 48
+				,"bldMngNo" : "4574025026100440001001028"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 장수군 장수읍 덕산로 763-48"
+				,"oldZipcd" : "597802"
+				,"newZipcd" : "55639"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.559946195062
+				,"lat" : 35.6234344268287
+				}
+				,{
+				"bizesId" : "MA0101202406A0025076"
+				,"bizesNm" : "장안산민박"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55104"
+				,"ksicNm" : "민박업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52740"
+				,"signguNm" : "장수군"
+				,"adongCd" : "52740250"
+				,"adongNm" : "장수읍"
+				,"ldongCd" : "5274025026"
+				,"ldongNm" : "장수읍"
+				,"lnoCd" : "5274025026100430000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 43
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전북특별자치도 장수군 장수읍 덕산리 43"
+				,"rdnmCd" : "527403276045"
+				,"rdnm" : "전북특별자치도 장수군 장수읍 덕산로"
+				,"bldMnno" : 763
+				,"bldSlno" : 66
+				,"bldMngNo" : "4574025026100430000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 장수군 장수읍 덕산로 763-66"
+				,"oldZipcd" : "597802"
+				,"newZipcd" : "55639"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.560542163122
+				,"lat" : 35.6249998760923
+				}
+				,{
+				"bizesId" : "MA010120220809803104"
+				,"bizesNm" : "한울림명상교실"
+				,"brchNm" : ""
+				,"indsLclsCd" : "P1"
+				,"indsLclsNm" : "교육"
+				,"indsMclsCd" : "P106"
+				,"indsMclsNm" : "기타 교육"
+				,"indsSclsCd" : "P10601"
+				,"indsSclsNm" : "태권도/무술학원"
+				,"ksicCd" : "P85611"
+				,"ksicNm" : "태권도 및 무술 교육기관"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52740"
+				,"signguNm" : "장수군"
+				,"adongCd" : "52740250"
+				,"adongNm" : "장수읍"
+				,"ldongCd" : "5274025026"
+				,"ldongNm" : "장수읍"
+				,"lnoCd" : "5274025026100220000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 22
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전북특별자치도 장수군 장수읍 덕산리 22"
+				,"rdnmCd" : "527403276045"
+				,"rdnm" : "전북특별자치도 장수군 장수읍 덕산로"
+				,"bldMnno" : 763
+				,"bldSlno" : 314
+				,"bldMngNo" : "4574025026100220000000005"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 장수군 장수읍 덕산로 763-314"
+				,"oldZipcd" : "597802"
+				,"newZipcd" : "55639"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.573374340507
+				,"lat" : 35.6288149701194
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 1,
+		"totalCount" : 3	}
+}

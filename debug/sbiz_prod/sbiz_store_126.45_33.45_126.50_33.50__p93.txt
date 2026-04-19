@@ -1,0 +1,262 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA0106202511A2409772"
+				,"bizesNm" : "수풀네일스튜디오"
+				,"brchNm" : ""
+				,"indsLclsCd" : "S2"
+				,"indsLclsNm" : "수리·개인"
+				,"indsMclsCd" : "S207"
+				,"indsMclsNm" : "이용·미용"
+				,"indsSclsCd" : "S20702"
+				,"indsSclsNm" : "피부 관리실"
+				,"ksicCd" : "S96113"
+				,"ksicNm" : "피부 미용업"
+				,"ctprvnCd" : "50"
+				,"ctprvnNm" : "제주특별자치도"
+				,"signguCd" : "50110"
+				,"signguNm" : "제주시"
+				,"adongCd" : "50110660"
+				,"adongNm" : "노형동"
+				,"ldongCd" : "5011012200"
+				,"ldongNm" : "노형동"
+				,"lnoCd" : "5011012200137960011"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 3796
+				,"lnoSlno" : 11
+				,"lnoAdr" : "제주특별자치도 제주시 노형동 3796-11"
+				,"rdnmCd" : "501104849222"
+				,"rdnm" : "제주특별자치도 제주시 노형5길"
+				,"bldMnno" : 7
+				,"bldSlno" : ""
+				,"bldMngNo" : "5011012200137960011000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "제주특별자치도 제주시 노형5길 7"
+				,"oldZipcd" : "690805"
+				,"newZipcd" : "63088"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.476763695164
+				,"lat" : 33.4815983644065
+				}
+				,{
+				"bizesId" : "MA0106202511A2419810"
+				,"bizesNm" : "마카오"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I211"
+				,"indsMclsNm" : "주점"
+				,"indsSclsCd" : "I21101"
+				,"indsSclsNm" : "일반 유흥 주점"
+				,"ksicCd" : "I56211"
+				,"ksicNm" : "일반 유흥 주점업"
+				,"ctprvnCd" : "50"
+				,"ctprvnNm" : "제주특별자치도"
+				,"signguCd" : "50110"
+				,"signguNm" : "제주시"
+				,"adongCd" : "50110660"
+				,"adongNm" : "노형동"
+				,"ldongCd" : "5011012200"
+				,"ldongNm" : "노형동"
+				,"lnoCd" : "5011012200109280007"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 928
+				,"lnoSlno" : 7
+				,"lnoAdr" : "제주특별자치도 제주시 노형동 928-7"
+				,"rdnmCd" : "501104848493"
+				,"rdnm" : "제주특별자치도 제주시 원노형4길"
+				,"bldMnno" : 11
+				,"bldSlno" : ""
+				,"bldMngNo" : "5011012200109280007009731"
+				,"bldNm" : ""
+				,"rdnmAdr" : "제주특별자치도 제주시 원노형4길 11"
+				,"oldZipcd" : "690802"
+				,"newZipcd" : "63082"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.482541744758
+				,"lat" : 33.4851568653431
+				}
+				,{
+				"bizesId" : "MA0106202511A2400211"
+				,"bizesNm" : "청아기프트샵"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G218"
+				,"indsMclsNm" : "장식품 소매"
+				,"indsSclsCd" : "G21802"
+				,"indsSclsNm" : "기념품점"
+				,"ksicCd" : "G47842"
+				,"ksicNm" : "기념품, 관광 민예품 및 장식용품 소매업"
+				,"ctprvnCd" : "50"
+				,"ctprvnNm" : "제주특별자치도"
+				,"signguCd" : "50110"
+				,"signguNm" : "제주시"
+				,"adongCd" : "50110650"
+				,"adongNm" : "연동"
+				,"ldongCd" : "5011013700"
+				,"ldongNm" : "연동"
+				,"lnoCd" : "5011013700123240005"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 2324
+				,"lnoSlno" : 5
+				,"lnoAdr" : "제주특별자치도 제주시 연동 2324-5"
+				,"rdnmCd" : "501103349052"
+				,"rdnm" : "제주특별자치도 제주시 도령로"
+				,"bldMnno" : 87
+				,"bldSlno" : ""
+				,"bldMngNo" : "5011013700123240005006100"
+				,"bldNm" : ""
+				,"rdnmAdr" : "제주특별자치도 제주시 도령로 87"
+				,"oldZipcd" : "690725"
+				,"newZipcd" : "63127"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.487274627167
+				,"lat" : 33.4908655816036
+				}
+				,{
+				"bizesId" : "MA0106202511A2417794"
+				,"bizesNm" : "천왕아로마"
+				,"brchNm" : ""
+				,"indsLclsCd" : "S2"
+				,"indsLclsNm" : "수리·개인"
+				,"indsMclsCd" : "S208"
+				,"indsMclsNm" : "욕탕·신체관리"
+				,"indsSclsCd" : "S20803"
+				,"indsSclsNm" : "체형/비만 관리"
+				,"ksicCd" : "S96129"
+				,"ksicNm" : "체형 등 기타 신체 관리 서비스업"
+				,"ctprvnCd" : "50"
+				,"ctprvnNm" : "제주특별자치도"
+				,"signguCd" : "50110"
+				,"signguNm" : "제주시"
+				,"adongCd" : "50110650"
+				,"adongNm" : "연동"
+				,"ldongCd" : "5011013700"
+				,"ldongNm" : "연동"
+				,"lnoCd" : "5011013700102500005"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 250
+				,"lnoSlno" : 5
+				,"lnoAdr" : "제주특별자치도 제주시 연동 250-5"
+				,"rdnmCd" : "501103349083"
+				,"rdnm" : "제주특별자치도 제주시 삼무로"
+				,"bldMnno" : 11
+				,"bldSlno" : ""
+				,"bldMngNo" : "5011013700102500005007614"
+				,"bldNm" : ""
+				,"rdnmAdr" : "제주특별자치도 제주시 삼무로 11"
+				,"oldZipcd" : "690813"
+				,"newZipcd" : "63125"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.487977906441
+				,"lat" : 33.4902103275864
+				}
+				,{
+				"bizesId" : "MA0106202511A2388686"
+				,"bizesNm" : "감성포차"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "50"
+				,"ctprvnNm" : "제주특별자치도"
+				,"signguCd" : "50110"
+				,"signguNm" : "제주시"
+				,"adongCd" : "50110650"
+				,"adongNm" : "연동"
+				,"ldongCd" : "5011013700"
+				,"ldongNm" : "연동"
+				,"lnoCd" : "5011013700102830062"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 283
+				,"lnoSlno" : 62
+				,"lnoAdr" : "제주특별자치도 제주시 연동 283-62"
+				,"rdnmCd" : "501104848090"
+				,"rdnm" : "제주특별자치도 제주시 신대로16길"
+				,"bldMnno" : 32
+				,"bldSlno" : 1
+				,"bldMngNo" : "5011013700102830062010524"
+				,"bldNm" : ""
+				,"rdnmAdr" : "제주특별자치도 제주시 신대로16길 32-1"
+				,"oldZipcd" : "690814"
+				,"newZipcd" : "63123"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.49309716826
+				,"lat" : 33.4869676101073
+				}
+				,{
+				"bizesId" : "MA0106202511A2360827"
+				,"bizesNm" : "제주등갈비회관"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20107"
+				,"indsSclsNm" : "돼지고기 구이/찜"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "50"
+				,"ctprvnNm" : "제주특별자치도"
+				,"signguCd" : "50110"
+				,"signguNm" : "제주시"
+				,"adongCd" : "50110650"
+				,"adongNm" : "연동"
+				,"ldongCd" : "5011013700"
+				,"ldongNm" : "연동"
+				,"lnoCd" : "5011013700102920021"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 292
+				,"lnoSlno" : 21
+				,"lnoAdr" : "제주특별자치도 제주시 연동 292-21"
+				,"rdnmCd" : "501104848086"
+				,"rdnm" : "제주특별자치도 제주시 신대로12길"
+				,"bldMnno" : 25
+				,"bldSlno" : ""
+				,"bldMngNo" : "5011013700102920021009206"
+				,"bldNm" : ""
+				,"rdnmAdr" : "제주특별자치도 제주시 신대로12길 25"
+				,"oldZipcd" : "690814"
+				,"newZipcd" : "63124"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.493916167275
+				,"lat" : 33.488602839472
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 93,
+		"totalCount" : 9206	}
+}

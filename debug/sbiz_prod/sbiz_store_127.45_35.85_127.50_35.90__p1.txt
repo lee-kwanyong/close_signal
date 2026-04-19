@@ -1,0 +1,303 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA0101202309A0010084"
+				,"bizesNm" : "무거농장"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G205"
+				,"indsMclsNm" : "식료품 소매"
+				,"indsSclsCd" : "G20506"
+				,"indsSclsNm" : "채소/과일 소매업"
+				,"ksicCd" : "G47215"
+				,"ksicNm" : "채소, 과실 및 뿌리작물 소매업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52720"
+				,"signguNm" : "진안군"
+				,"adongCd" : "52720390"
+				,"adongNm" : "정천면"
+				,"ldongCd" : "5272039022"
+				,"ldongNm" : "정천면"
+				,"lnoCd" : "5272039022110390001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 1039
+				,"lnoSlno" : 1
+				,"lnoAdr" : "전북특별자치도 진안군 정천면 갈용리 1039-1"
+				,"rdnmCd" : "527204622108"
+				,"rdnm" : "전북특별자치도 진안군 정천면 무거길"
+				,"bldMnno" : 88
+				,"bldSlno" : 1
+				,"bldMngNo" : "4572039022110390001000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 진안군 정천면 무거길 88-1"
+				,"oldZipcd" : "567821"
+				,"newZipcd" : "55410"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.451933374215
+				,"lat" : 35.8912201428787
+				}
+				,{
+				"bizesId" : "MA0101202406A0185219"
+				,"bizesNm" : "산들엄니밥상"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52720"
+				,"signguNm" : "진안군"
+				,"adongCd" : "52720340"
+				,"adongNm" : "상전면"
+				,"ldongCd" : "5272034024"
+				,"ldongNm" : "상전면"
+				,"lnoCd" : "5272034024115660004"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 1566
+				,"lnoSlno" : 4
+				,"lnoAdr" : "전북특별자치도 진안군 상전면 월포리 1566-4"
+				,"rdnmCd" : "527204622049"
+				,"rdnm" : "전북특별자치도 진안군 상전면 금지2길"
+				,"bldMnno" : 4
+				,"bldSlno" : 4
+				,"bldMngNo" : "4572034024115660004000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 진안군 상전면 금지2길 4-4"
+				,"oldZipcd" : "567813"
+				,"newZipcd" : "55411"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.475475422543
+				,"lat" : 35.8607753986794
+				}
+				,{
+				"bizesId" : "MA010120220807235437"
+				,"bizesNm" : "금강참붕어"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52720"
+				,"signguNm" : "진안군"
+				,"adongCd" : "52720340"
+				,"adongNm" : "상전면"
+				,"ldongCd" : "5272034024"
+				,"ldongNm" : "상전면"
+				,"lnoCd" : "5272034024110090006"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 1009
+				,"lnoSlno" : 6
+				,"lnoAdr" : "전북특별자치도 진안군 상전면 월포리 1009-6"
+				,"rdnmCd" : "527204622048"
+				,"rdnm" : "전북특별자치도 진안군 상전면 금지1길"
+				,"bldMnno" : 18
+				,"bldSlno" : 20
+				,"bldMngNo" : "4572034024110090006022990"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 진안군 상전면 금지1길 18-20"
+				,"oldZipcd" : "567813"
+				,"newZipcd" : "55411"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.476347328617
+				,"lat" : 35.8621688743544
+				}
+				,{
+				"bizesId" : "MA010120220806898227"
+				,"bizesNm" : "흙집광수생각"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55109"
+				,"ksicNm" : "기타 일반 및 생활 숙박시설 운영업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52720"
+				,"signguNm" : "진안군"
+				,"adongCd" : "52720340"
+				,"adongNm" : "상전면"
+				,"ldongCd" : "5272034024"
+				,"ldongNm" : "상전면"
+				,"lnoCd" : "5272034024112200030"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 1220
+				,"lnoSlno" : 30
+				,"lnoAdr" : "전북특별자치도 진안군 상전면 월포리 1220-30"
+				,"rdnmCd" : "527203274057"
+				,"rdnm" : "전북특별자치도 진안군 상전면 진무로"
+				,"bldMnno" : 2191
+				,"bldSlno" : 16
+				,"bldMngNo" : "4572034024112200030022981"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 진안군 상전면 진무로 2191-16"
+				,"oldZipcd" : "567813"
+				,"newZipcd" : "55411"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.477153814414
+				,"lat" : 35.8674199279975
+				}
+				,{
+				"bizesId" : "MA010120220811918046"
+				,"bizesNm" : "해바유"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55109"
+				,"ksicNm" : "기타 일반 및 생활 숙박시설 운영업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52720"
+				,"signguNm" : "진안군"
+				,"adongCd" : "52720340"
+				,"adongNm" : "상전면"
+				,"ldongCd" : "5272034024"
+				,"ldongNm" : "상전면"
+				,"lnoCd" : "5272034024112370065"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 1237
+				,"lnoSlno" : 65
+				,"lnoAdr" : "전북특별자치도 진안군 상전면 월포리 1237-65"
+				,"rdnmCd" : "527204622293"
+				,"rdnm" : "전북특별자치도 진안군 상전면 월포양지길"
+				,"bldMnno" : 76
+				,"bldSlno" : ""
+				,"bldMngNo" : "4572034024112370065022818"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 진안군 상전면 월포양지길 76"
+				,"oldZipcd" : "567813"
+				,"newZipcd" : "55411"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.479845125768
+				,"lat" : 35.8657058577356
+				}
+				,{
+				"bizesId" : "MA010120220806415215"
+				,"bizesNm" : "토담"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55109"
+				,"ksicNm" : "기타 일반 및 생활 숙박시설 운영업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52720"
+				,"signguNm" : "진안군"
+				,"adongCd" : "52720340"
+				,"adongNm" : "상전면"
+				,"ldongCd" : "5272034024"
+				,"ldongNm" : "상전면"
+				,"lnoCd" : "5272034024108840021"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 884
+				,"lnoSlno" : 21
+				,"lnoAdr" : "전북특별자치도 진안군 상전면 월포리 884-21"
+				,"rdnmCd" : "527203274057"
+				,"rdnm" : "전북특별자치도 진안군 상전면 진무로"
+				,"bldMnno" : 2224
+				,"bldSlno" : 3
+				,"bldMngNo" : "4572034024108840021000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 진안군 상전면 진무로 2224-3"
+				,"oldZipcd" : "567813"
+				,"newZipcd" : "55411"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.480328002983
+				,"lat" : 35.8704985441307
+				}
+				,{
+				"bizesId" : "MA010120220813232851"
+				,"bizesNm" : "하늘과호수사이민박"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55104"
+				,"ksicNm" : "민박업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52720"
+				,"signguNm" : "진안군"
+				,"adongCd" : "52720340"
+				,"adongNm" : "상전면"
+				,"ldongCd" : "5272034024"
+				,"ldongNm" : "상전면"
+				,"lnoCd" : "5272034024101920009"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 192
+				,"lnoSlno" : 9
+				,"lnoAdr" : "전북특별자치도 진안군 상전면 월포리 192-9"
+				,"rdnmCd" : "527203274057"
+				,"rdnm" : "전북특별자치도 진안군 상전면 진무로"
+				,"bldMnno" : 2410
+				,"bldSlno" : 20
+				,"bldMngNo" : "4572034024101920009031206"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 진안군 상전면 진무로 2410-20"
+				,"oldZipcd" : "567813"
+				,"newZipcd" : "55411"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.49753377853
+				,"lat" : 35.875610660232
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 1,
+		"totalCount" : 7	}
+}

@@ -1,0 +1,139 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA0101202308A0067498"
+				,"bizesNm" : "크로바농장"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G205"
+				,"indsMclsNm" : "식료품 소매"
+				,"indsSclsCd" : "G20506"
+				,"indsSclsNm" : "채소/과일 소매업"
+				,"ksicCd" : "G47215"
+				,"ksicNm" : "채소, 과실 및 뿌리작물 소매업"
+				,"ctprvnCd" : "48"
+				,"ctprvnNm" : "경상남도"
+				,"signguCd" : "48870"
+				,"signguNm" : "함양군"
+				,"adongCd" : "48870380"
+				,"adongNm" : "서상면"
+				,"ldongCd" : "4887038021"
+				,"ldongNm" : "서상면"
+				,"lnoCd" : "4887038021109410000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 941
+				,"lnoSlno" : ""
+				,"lnoAdr" : "경상남도 함양군 서상면 대남리 941"
+				,"rdnmCd" : "488703346004"
+				,"rdnm" : "경상남도 함양군 서상면 대남로"
+				,"bldMnno" : 211
+				,"bldSlno" : ""
+				,"bldMngNo" : "4887038021109410000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "경상남도 함양군 서상면 대남로 211"
+				,"oldZipcd" : "676841"
+				,"newZipcd" : "50001"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.7029338539
+				,"lat" : 35.6959666913715
+				}
+				,{
+				"bizesId" : "MA010120220810822027"
+				,"bizesNm" : "리웨이함양협동조합"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G205"
+				,"indsMclsNm" : "식료품 소매"
+				,"indsSclsCd" : "G20506"
+				,"indsSclsNm" : "채소/과일 소매업"
+				,"ksicCd" : "G47215"
+				,"ksicNm" : "채소, 과실 및 뿌리작물 소매업"
+				,"ctprvnCd" : "48"
+				,"ctprvnNm" : "경상남도"
+				,"signguCd" : "48870"
+				,"signguNm" : "함양군"
+				,"adongCd" : "48870370"
+				,"adongNm" : "서하면"
+				,"ldongCd" : "4887037021"
+				,"ldongNm" : "서하면"
+				,"lnoCd" : "4887037021101970003"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 197
+				,"lnoSlno" : 3
+				,"lnoAdr" : "경상남도 함양군 서하면 송계리 197-3"
+				,"rdnmCd" : "488703346013"
+				,"rdnm" : "경상남도 함양군 서하면 서하송계로"
+				,"bldMnno" : 162
+				,"bldSlno" : 24
+				,"bldMngNo" : "4887037021101970002000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "경상남도 함양군 서하면 서하송계로 162-24"
+				,"oldZipcd" : "676832"
+				,"newZipcd" : "50003"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.708357822017
+				,"lat" : 35.6583793871459
+				}
+				,{
+				"bizesId" : "MA0101202503A0063596"
+				,"bizesNm" : "티웰"
+				,"brchNm" : ""
+				,"indsLclsCd" : "N1"
+				,"indsLclsNm" : "시설관리·임대"
+				,"indsMclsCd" : "N101"
+				,"indsMclsNm" : "시설관리"
+				,"indsSclsCd" : "N10101"
+				,"indsSclsNm" : "사업시설 유지·관리 서비스업"
+				,"ksicCd" : "N74100"
+				,"ksicNm" : "사업시설 유지ㆍ관리 서비스업"
+				,"ctprvnCd" : "48"
+				,"ctprvnNm" : "경상남도"
+				,"signguCd" : "48870"
+				,"signguNm" : "함양군"
+				,"adongCd" : "48870380"
+				,"adongNm" : "서상면"
+				,"ldongCd" : "4887038021"
+				,"ldongNm" : "서상면"
+				,"lnoCd" : "4887038021104920005"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 492
+				,"lnoSlno" : 5
+				,"lnoAdr" : "경상남도 함양군 서상면 대남리 492-5"
+				,"rdnmCd" : "488704838255"
+				,"rdnm" : "경상남도 함양군 서상면 소로길"
+				,"bldMnno" : 226
+				,"bldSlno" : ""
+				,"bldMngNo" : "4887038021104920005000001"
+				,"bldNm" : "관리동"
+				,"rdnmAdr" : "경상남도 함양군 서상면 소로길 226"
+				,"oldZipcd" : "676841"
+				,"newZipcd" : "50001"
+				,"dongNo" : ""
+				,"flrNo" : "1"
+				,"hoNo" : ""
+				,"lon" : 127.71700296209
+				,"lat" : 35.6878264686982
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 1,
+		"totalCount" : 3	}
+}

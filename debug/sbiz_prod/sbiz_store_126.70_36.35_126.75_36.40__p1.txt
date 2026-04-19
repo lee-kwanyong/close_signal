@@ -1,0 +1,344 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA0101202502A0104821"
+				,"bizesNm" : "소리골민박"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55104"
+				,"ksicNm" : "민박업"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44180"
+				,"signguNm" : "보령시"
+				,"adongCd" : "44180350"
+				,"adongNm" : "청라면"
+				,"ldongCd" : "4418035022"
+				,"ldongNm" : "청라면"
+				,"lnoCd" : "4418035022105830002"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 583
+				,"lnoSlno" : 2
+				,"lnoAdr" : "충청남도 보령시 청라면 소양리 583-2"
+				,"rdnmCd" : "441804556316"
+				,"rdnm" : "충청남도 보령시 청라면 소리골길"
+				,"bldMnno" : 98
+				,"bldSlno" : 38
+				,"bldMngNo" : "4418035022105830002041035"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청남도 보령시 청라면 소리골길 98-38"
+				,"oldZipcd" : "355892"
+				,"newZipcd" : "33424"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.701430374183
+				,"lat" : 36.3987550455254
+				}
+				,{
+				"bizesId" : "MA0101202408A0053866"
+				,"bizesNm" : "정아네다육농원"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G219"
+				,"indsMclsNm" : "식물 소매"
+				,"indsSclsCd" : "G21901"
+				,"indsSclsNm" : "꽃집"
+				,"ksicCd" : "G47851"
+				,"ksicNm" : "화초 및 식물 소매업"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44760"
+				,"signguNm" : "부여군"
+				,"adongCd" : "44760330"
+				,"adongNm" : "외산면"
+				,"ldongCd" : "4476033023"
+				,"ldongNm" : "외산면"
+				,"lnoCd" : "4476033023102320000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 232
+				,"lnoSlno" : ""
+				,"lnoAdr" : "충청남도 부여군 외산면 지선리 232"
+				,"rdnmCd" : "447604577632"
+				,"rdnm" : "충청남도 부여군 외산면 지선로150번길"
+				,"bldMnno" : 72
+				,"bldSlno" : ""
+				,"bldMngNo" : "4476033023102320000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청남도 부여군 외산면 지선로150번길 72"
+				,"oldZipcd" : "323893"
+				,"newZipcd" : "33100"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.715837877298
+				,"lat" : 36.3636264245977
+				}
+				,{
+				"bizesId" : "MA010120220803752924"
+				,"bizesNm" : "벅스파노라마"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G220"
+				,"indsMclsNm" : "애완동물·용품 소매"
+				,"indsSclsCd" : "G22001"
+				,"indsSclsNm" : "애완동물/애완용품 소매업"
+				,"ksicCd" : "G47852"
+				,"ksicNm" : "애완용 동물 및 관련용품 소매업"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44760"
+				,"signguNm" : "부여군"
+				,"adongCd" : "44760330"
+				,"adongNm" : "외산면"
+				,"ldongCd" : "4476033023"
+				,"ldongNm" : "외산면"
+				,"lnoCd" : "4476033023101620003"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 162
+				,"lnoSlno" : 3
+				,"lnoAdr" : "충청남도 부여군 외산면 지선리 162-3"
+				,"rdnmCd" : "447604577632"
+				,"rdnm" : "충청남도 부여군 외산면 지선로150번길"
+				,"bldMnno" : 5
+				,"bldSlno" : ""
+				,"bldMngNo" : "4476033023101620003000103"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청남도 부여군 외산면 지선로150번길 5"
+				,"oldZipcd" : "323893"
+				,"newZipcd" : "33100"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.719626875644
+				,"lat" : 36.3603460837966
+				}
+				,{
+				"bizesId" : "MA010120220810117436"
+				,"bizesNm" : "부여곤충"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G220"
+				,"indsMclsNm" : "애완동물·용품 소매"
+				,"indsSclsCd" : "G22001"
+				,"indsSclsNm" : "애완동물/애완용품 소매업"
+				,"ksicCd" : "G47852"
+				,"ksicNm" : "애완용 동물 및 관련용품 소매업"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44760"
+				,"signguNm" : "부여군"
+				,"adongCd" : "44760330"
+				,"adongNm" : "외산면"
+				,"ldongCd" : "4476033023"
+				,"ldongNm" : "외산면"
+				,"lnoCd" : "4476033023101620003"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 162
+				,"lnoSlno" : 3
+				,"lnoAdr" : "충청남도 부여군 외산면 지선리 162-3"
+				,"rdnmCd" : "447604577632"
+				,"rdnm" : "충청남도 부여군 외산면 지선로150번길"
+				,"bldMnno" : 5
+				,"bldSlno" : ""
+				,"bldMngNo" : "4476033023101620003000103"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청남도 부여군 외산면 지선로150번길 5"
+				,"oldZipcd" : "323893"
+				,"newZipcd" : "33100"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.719626875644
+				,"lat" : 36.3603460837966
+				}
+				,{
+				"bizesId" : "MA010120220811503494"
+				,"bizesNm" : "신기유통"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G221"
+				,"indsMclsNm" : "기타 상품 소매"
+				,"indsSclsCd" : "G22199"
+				,"indsSclsNm" : "그 외 기타 상품 전문 소매업"
+				,"ksicCd" : "G47859"
+				,"ksicNm" : "그 외 기타 분류 안된 상품 전문 소매업"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44760"
+				,"signguNm" : "부여군"
+				,"adongCd" : "44760330"
+				,"adongNm" : "외산면"
+				,"ldongCd" : "4476033029"
+				,"ldongNm" : "외산면"
+				,"lnoCd" : "4476033029100930000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 93
+				,"lnoSlno" : ""
+				,"lnoAdr" : "충청남도 부여군 외산면 수신리 93"
+				,"rdnmCd" : "447604577180"
+				,"rdnm" : "충청남도 부여군 외산면 만수로신근남길"
+				,"bldMnno" : 20
+				,"bldSlno" : 10
+				,"bldMngNo" : "4476033029100930000000078"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청남도 부여군 외산면 만수로신근남길 20-10"
+				,"oldZipcd" : "323893"
+				,"newZipcd" : "33100"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.737159678324
+				,"lat" : 36.3616565973686
+				}
+				,{
+				"bizesId" : "MA010120220805870046"
+				,"bizesNm" : "반고개가든"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20107"
+				,"indsSclsNm" : "돼지고기 구이/찜"
+				,"ksicCd" : "I56113"
+				,"ksicNm" : "한식 육류 요리 전문점"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44790"
+				,"signguNm" : "청양군"
+				,"adongCd" : "44790370"
+				,"adongNm" : "남양면"
+				,"ldongCd" : "4479037026"
+				,"ldongNm" : "남양면"
+				,"lnoCd" : "4479037026105460000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 546
+				,"lnoSlno" : ""
+				,"lnoAdr" : "충청남도 청양군 남양면 흥산리 546"
+				,"rdnmCd" : "447903252048"
+				,"rdnm" : "충청남도 청양군 남양면 만수로"
+				,"bldMnno" : 1090
+				,"bldSlno" : ""
+				,"bldMngNo" : "4479037026105460000008443"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청남도 청양군 남양면 만수로 1090"
+				,"oldZipcd" : "345853"
+				,"newZipcd" : "33308"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.741459081213
+				,"lat" : 36.3654509178693
+				}
+				,{
+				"bizesId" : "MA010120220808793454"
+				,"bizesNm" : "남양임업"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G214"
+				,"indsMclsNm" : "연료 소매"
+				,"indsSclsCd" : "G21403"
+				,"indsSclsNm" : "가정용 연료 소매업"
+				,"ksicCd" : "G47721"
+				,"ksicNm" : "가정용 고체 연료 소매업"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44790"
+				,"signguNm" : "청양군"
+				,"adongCd" : "44790370"
+				,"adongNm" : "남양면"
+				,"ldongCd" : "4479037026"
+				,"ldongNm" : "남양면"
+				,"lnoCd" : "4479037026104540005"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 454
+				,"lnoSlno" : 5
+				,"lnoAdr" : "충청남도 청양군 남양면 흥산리 454-5"
+				,"rdnmCd" : "447903252048"
+				,"rdnm" : "충청남도 청양군 남양면 만수로"
+				,"bldMnno" : 1167
+				,"bldSlno" : 15
+				,"bldMngNo" : "4479037026104540005000597"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청남도 청양군 남양면 만수로 1167-15"
+				,"oldZipcd" : "345853"
+				,"newZipcd" : "33308"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.745192905658
+				,"lat" : 36.3719564144627
+				}
+				,{
+				"bizesId" : "MA010120220803049064"
+				,"bizesNm" : "알프스글램핑"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55109"
+				,"ksicNm" : "기타 일반 및 생활 숙박시설 운영업"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44790"
+				,"signguNm" : "청양군"
+				,"adongCd" : "44790370"
+				,"adongNm" : "남양면"
+				,"ldongCd" : "4479037026"
+				,"ldongNm" : "남양면"
+				,"lnoCd" : "4479037026104760001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 476
+				,"lnoSlno" : 1
+				,"lnoAdr" : "충청남도 청양군 남양면 흥산리 476-1"
+				,"rdnmCd" : "447903252048"
+				,"rdnm" : "충청남도 청양군 남양면 만수로"
+				,"bldMnno" : 1202
+				,"bldSlno" : 20
+				,"bldMngNo" : "4479037026200380002000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청남도 청양군 남양면 만수로 1202-20"
+				,"oldZipcd" : "345853"
+				,"newZipcd" : "33308"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.749004902063
+				,"lat" : 36.371667096151
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 1,
+		"totalCount" : 8	}
+}

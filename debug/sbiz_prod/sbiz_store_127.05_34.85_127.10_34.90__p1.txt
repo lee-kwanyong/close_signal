@@ -1,0 +1,180 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA0101202408A0021568"
+				,"bizesNm" : "정운기"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G205"
+				,"indsMclsNm" : "식료품 소매"
+				,"indsSclsCd" : "G20506"
+				,"indsSclsNm" : "채소/과일 소매업"
+				,"ksicCd" : "G47215"
+				,"ksicNm" : "채소, 과실 및 뿌리작물 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46790"
+				,"signguNm" : "화순군"
+				,"adongCd" : "46790340"
+				,"adongNm" : "이양면"
+				,"ldongCd" : "4679034037"
+				,"ldongNm" : "이양면"
+				,"lnoCd" : "4679034037108720002"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 872
+				,"lnoSlno" : 2
+				,"lnoAdr" : "전라남도 화순군 이양면 증리 872-2"
+				,"rdnmCd" : "467904673203"
+				,"rdnm" : "전라남도 화순군 이양면 사은동길"
+				,"bldMnno" : 46
+				,"bldSlno" : 2
+				,"bldMngNo" : "4679034037108730000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 화순군 이양면 사은동길 46-2"
+				,"oldZipcd" : "519862"
+				,"newZipcd" : "58165"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.05236979968
+				,"lat" : 34.8750387162584
+				}
+				,{
+				"bizesId" : "MA0101202504A0015331"
+				,"bizesNm" : "정란희"
+				,"brchNm" : ""
+				,"indsLclsCd" : "P1"
+				,"indsLclsNm" : "교육"
+				,"indsMclsCd" : "P105"
+				,"indsMclsNm" : "일반 교육"
+				,"indsSclsCd" : "P10501"
+				,"indsSclsNm" : "입시·교과학원"
+				,"ksicCd" : "P85501"
+				,"ksicNm" : "일반 교과학원"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46790"
+				,"signguNm" : "화순군"
+				,"adongCd" : "46790340"
+				,"adongNm" : "이양면"
+				,"ldongCd" : "4679034037"
+				,"ldongNm" : "이양면"
+				,"lnoCd" : "4679034037108760000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 876
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 화순군 이양면 증리 876"
+				,"rdnmCd" : "467904673203"
+				,"rdnm" : "전라남도 화순군 이양면 사은동길"
+				,"bldMnno" : 46
+				,"bldSlno" : 3
+				,"bldMngNo" : "4679034037108760000023407"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 화순군 이양면 사은동길 46-3"
+				,"oldZipcd" : "519862"
+				,"newZipcd" : "58165"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.052544699885
+				,"lat" : 34.8748763884545
+				}
+				,{
+				"bizesId" : "MA010120220807479205"
+				,"bizesNm" : "무량광도예"
+				,"brchNm" : ""
+				,"indsLclsCd" : "P1"
+				,"indsLclsNm" : "교육"
+				,"indsMclsCd" : "P106"
+				,"indsMclsNm" : "기타 교육"
+				,"indsSclsCd" : "P10613"
+				,"indsSclsNm" : "기타 예술/스포츠 교육기관"
+				,"ksicCd" : "P85629"
+				,"ksicNm" : "기타 예술학원"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46790"
+				,"signguNm" : "화순군"
+				,"adongCd" : "46790340"
+				,"adongNm" : "이양면"
+				,"ldongCd" : "4679034037"
+				,"ldongNm" : "이양면"
+				,"lnoCd" : "4679034037104560000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 456
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 화순군 이양면 증리 456"
+				,"rdnmCd" : "467903291014"
+				,"rdnm" : "전라남도 화순군 이양면 쌍산의로"
+				,"bldMnno" : 464
+				,"bldSlno" : 14
+				,"bldMngNo" : "4679034037104560000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 화순군 이양면 쌍산의로 464-14"
+				,"oldZipcd" : "519862"
+				,"newZipcd" : "58165"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.06320727935
+				,"lat" : 34.8869771282925
+				}
+				,{
+				"bizesId" : "MA010120220807847976"
+				,"bizesNm" : "천지농어장"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46780"
+				,"signguNm" : "보성군"
+				,"adongCd" : "46780350"
+				,"adongNm" : "복내면"
+				,"ldongCd" : "4678035031"
+				,"ldongNm" : "복내면"
+				,"lnoCd" : "4678035031111640000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 1164
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 보성군 복내면 장천리 1164"
+				,"rdnmCd" : "467804670389"
+				,"rdnm" : "전라남도 보성군 복내면 죽동길"
+				,"bldMnno" : 89
+				,"bldSlno" : 187
+				,"bldMngNo" : "4678035031111640000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 보성군 복내면 죽동길 89-187"
+				,"oldZipcd" : "546831"
+				,"newZipcd" : "59406"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.088656837599
+				,"lat" : 34.8506437221403
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 1,
+		"totalCount" : 4	}
+}

@@ -1,0 +1,262 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA0106202511A2234408"
+				,"bizesNm" : "킬리만자로의표범주유소"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G214"
+				,"indsMclsNm" : "연료 소매"
+				,"indsSclsCd" : "G21401"
+				,"indsSclsNm" : "주유소"
+				,"ksicCd" : "G47711"
+				,"ksicNm" : "운송장비용 주유소 운영업"
+				,"ctprvnCd" : "41"
+				,"ctprvnNm" : "경기도"
+				,"signguCd" : "41590"
+				,"signguNm" : "화성시"
+				,"adongCd" : "41590410"
+				,"adongNm" : "정남면"
+				,"ldongCd" : "4159041038"
+				,"ldongNm" : "정남면"
+				,"lnoCd" : "4159041038100310000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 31
+				,"lnoSlno" : ""
+				,"lnoAdr" : "경기도 화성시 정남면 고지리 31"
+				,"rdnmCd" : "415903198002"
+				,"rdnm" : "경기도 화성시 정남면 가장로"
+				,"bldMnno" : 319
+				,"bldSlno" : ""
+				,"bldMngNo" : "4159041038100310000013987"
+				,"bldNm" : ""
+				,"rdnmAdr" : "경기도 화성시 정남면 가장로 319"
+				,"oldZipcd" : "445962"
+				,"newZipcd" : "18512"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.014940077641
+				,"lat" : 37.1628408281739
+				}
+				,{
+				"bizesId" : "MA0106202511A1739383"
+				,"bizesNm" : "태산기업"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G221"
+				,"indsMclsNm" : "기타 상품 소매"
+				,"indsSclsCd" : "G22199"
+				,"indsSclsNm" : "그 외 기타 상품 전문 소매업"
+				,"ksicCd" : "G47859"
+				,"ksicNm" : "그 외 기타 분류 안된 상품 전문 소매업"
+				,"ctprvnCd" : "41"
+				,"ctprvnNm" : "경기도"
+				,"signguCd" : "41370"
+				,"signguNm" : "오산시"
+				,"adongCd" : "41370550"
+				,"adongNm" : "세마동"
+				,"ldongCd" : "4137011200"
+				,"ldongNm" : "양산동"
+				,"lnoCd" : "4137011200103790001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 379
+				,"lnoSlno" : 1
+				,"lnoAdr" : "경기도 오산시 양산동 379-1"
+				,"rdnmCd" : "413703198027"
+				,"rdnm" : "경기도 오산시 양산로"
+				,"bldMnno" : 347
+				,"bldSlno" : ""
+				,"bldMngNo" : "4137011200103790001003629"
+				,"bldNm" : ""
+				,"rdnmAdr" : "경기도 오산시 양산로 347"
+				,"oldZipcd" : "447270"
+				,"newZipcd" : "18101"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.023630796681
+				,"lat" : 37.1961964713114
+				}
+				,{
+				"bizesId" : "MA0106202511A1814487"
+				,"bizesNm" : "창과방주관사"
+				,"brchNm" : ""
+				,"indsLclsCd" : "R1"
+				,"indsLclsNm" : "예술·스포츠"
+				,"indsMclsCd" : "R104"
+				,"indsMclsNm" : "유원지·오락"
+				,"indsSclsCd" : "R10499"
+				,"indsSclsNm" : "기타 오락관련 서비스업"
+				,"ksicCd" : "R91299"
+				,"ksicNm" : "그 외 기타 분류 안된 오락관련 서비스업"
+				,"ctprvnCd" : "41"
+				,"ctprvnNm" : "경기도"
+				,"signguCd" : "41370"
+				,"signguNm" : "오산시"
+				,"adongCd" : "41370550"
+				,"adongNm" : "세마동"
+				,"ldongCd" : "4137011400"
+				,"ldongNm" : "지곶동"
+				,"lnoCd" : "4137011400100870002"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 87
+				,"lnoSlno" : 2
+				,"lnoAdr" : "경기도 오산시 지곶동 87-2"
+				,"rdnmCd" : "413704394053"
+				,"rdnm" : "경기도 오산시 독산성로269번길"
+				,"bldMnno" : 5
+				,"bldSlno" : ""
+				,"bldMngNo" : "4137011400100870002000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "경기도 오산시 독산성로269번길 5"
+				,"oldZipcd" : "447250"
+				,"newZipcd" : "18102"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.028006183107
+				,"lat" : 37.1796521710255
+				}
+				,{
+				"bizesId" : "MA0106202511A2241139"
+				,"bizesNm" : "경담온누리약국"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G215"
+				,"indsMclsNm" : "의약·화장품 소매"
+				,"indsSclsCd" : "G21501"
+				,"indsSclsNm" : "약국"
+				,"ksicCd" : "G47811"
+				,"ksicNm" : "의약품 및 의료용품 소매업"
+				,"ctprvnCd" : "41"
+				,"ctprvnNm" : "경기도"
+				,"signguCd" : "41370"
+				,"signguNm" : "오산시"
+				,"adongCd" : "41370550"
+				,"adongNm" : "세마동"
+				,"ldongCd" : "4137011300"
+				,"ldongNm" : "세교동"
+				,"lnoCd" : "4137011300106010001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 601
+				,"lnoSlno" : 1
+				,"lnoAdr" : "경기도 오산시 세교동 601-1"
+				,"rdnmCd" : "413703198025"
+				,"rdnm" : "경기도 오산시 수목원로"
+				,"bldMnno" : 600
+				,"bldSlno" : ""
+				,"bldMngNo" : "4137011300106010001000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "경기도 오산시 수목원로 600"
+				,"oldZipcd" : "447240"
+				,"newZipcd" : "18106"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.042558469747
+				,"lat" : 37.18506317576
+				}
+				,{
+				"bizesId" : "MA0106202511A1674563"
+				,"bizesNm" : "참다운정육"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G205"
+				,"indsMclsNm" : "식료품 소매"
+				,"indsSclsCd" : "G20503"
+				,"indsSclsNm" : "정육점"
+				,"ksicCd" : "G47212"
+				,"ksicNm" : "육류 소매업"
+				,"ctprvnCd" : "41"
+				,"ctprvnNm" : "경기도"
+				,"signguCd" : "41370"
+				,"signguNm" : "오산시"
+				,"adongCd" : "41370550"
+				,"adongNm" : "세마동"
+				,"ldongCd" : "4137011300"
+				,"ldongNm" : "세교동"
+				,"lnoCd" : "4137011300101730001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 173
+				,"lnoSlno" : 1
+				,"lnoAdr" : "경기도 오산시 세교동 173-1"
+				,"rdnmCd" : "413702012013"
+				,"rdnm" : "경기도 오산시 경기대로"
+				,"bldMnno" : 868
+				,"bldSlno" : 6
+				,"bldMngNo" : "4137011300101730001000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "경기도 오산시 경기대로 868-6"
+				,"oldZipcd" : "447240"
+				,"newZipcd" : "18111"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.044039232084
+				,"lat" : 37.194469632351
+				}
+				,{
+				"bizesId" : "MA0106202511A1752565"
+				,"bizesNm" : "퍼스트미래엔영어수학학원"
+				,"brchNm" : ""
+				,"indsLclsCd" : "P1"
+				,"indsLclsNm" : "교육"
+				,"indsMclsCd" : "P105"
+				,"indsMclsNm" : "일반 교육"
+				,"indsSclsCd" : "P10501"
+				,"indsSclsNm" : "입시·교과학원"
+				,"ksicCd" : "P85501"
+				,"ksicNm" : "일반 교과학원"
+				,"ctprvnCd" : "41"
+				,"ctprvnNm" : "경기도"
+				,"signguCd" : "41590"
+				,"signguNm" : "화성시"
+				,"adongCd" : "41590520"
+				,"adongNm" : "진안동"
+				,"ldongCd" : "4159011800"
+				,"ldongNm" : "능동"
+				,"lnoCd" : "4159011800110410000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 1041
+				,"lnoSlno" : ""
+				,"lnoAdr" : "경기도 화성시 능동 1041"
+				,"rdnmCd" : "415903210001"
+				,"rdnm" : "경기도 화성시 10용사로"
+				,"bldMnno" : 284
+				,"bldSlno" : ""
+				,"bldMngNo" : "4159011800010410000025753"
+				,"bldNm" : ""
+				,"rdnmAdr" : "경기도 화성시 10용사로 284"
+				,"oldZipcd" : "445990"
+				,"newZipcd" : "18418"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.04921206533
+				,"lat" : 37.1991080160873
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 22,
+		"totalCount" : 2106	}
+}

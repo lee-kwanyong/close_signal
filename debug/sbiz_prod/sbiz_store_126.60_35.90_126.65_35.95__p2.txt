@@ -1,0 +1,180 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA0101202503A0054385"
+				,"bizesNm" : "티비피노이레스토랑"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I205"
+				,"indsMclsNm" : "동남아시아"
+				,"indsSclsCd" : "I20501"
+				,"indsSclsNm" : "베트남식 전문"
+				,"ksicCd" : "I56129"
+				,"ksicNm" : "기타 외국식 음식점업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52130"
+				,"signguNm" : "군산시"
+				,"adongCd" : "52130400"
+				,"adongNm" : "옥서면"
+				,"ldongCd" : "5213040022"
+				,"ldongNm" : "옥서면"
+				,"lnoCd" : "5213040022117520008"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 1752
+				,"lnoSlno" : 8
+				,"lnoAdr" : "전북특별자치도 군산시 옥서면 선연리 1752-8"
+				,"rdnmCd" : "521304604692"
+				,"rdnm" : "전북특별자치도 군산시 옥서면 신장원길"
+				,"bldMnno" : 25
+				,"bldSlno" : ""
+				,"bldMngNo" : "4513040022017520008200202"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 군산시 옥서면 신장원길 25"
+				,"oldZipcd" : "573951"
+				,"newZipcd" : "54168"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.631838303461
+				,"lat" : 35.9209136736967
+				}
+				,{
+				"bizesId" : "MA0106202511A2244064"
+				,"bizesNm" : "군산부대찌개"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52130"
+				,"signguNm" : "군산시"
+				,"adongCd" : "52130400"
+				,"adongNm" : "옥서면"
+				,"ldongCd" : "5213040022"
+				,"ldongNm" : "옥서면"
+				,"lnoCd" : "5213040022117490007"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 1749
+				,"lnoSlno" : 7
+				,"lnoAdr" : "전북특별자치도 군산시 옥서면 선연리 1749-7"
+				,"rdnmCd" : "521304604692"
+				,"rdnm" : "전북특별자치도 군산시 옥서면 신장원길"
+				,"bldMnno" : 19
+				,"bldSlno" : ""
+				,"bldMngNo" : "4513040022017460000200029"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 군산시 옥서면 신장원길 19"
+				,"oldZipcd" : "573951"
+				,"newZipcd" : "54170"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.632571645134
+				,"lat" : 35.9204653001967
+				}
+				,{
+				"bizesId" : "MA0101202501A0048309"
+				,"bizesNm" : "삼거리식당"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52130"
+				,"signguNm" : "군산시"
+				,"adongCd" : "52130400"
+				,"adongNm" : "옥서면"
+				,"ldongCd" : "5213040021"
+				,"ldongNm" : "옥서면"
+				,"lnoCd" : "5213040021113090016"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 1309
+				,"lnoSlno" : 16
+				,"lnoAdr" : "전북특별자치도 군산시 옥서면 옥봉리 1309-16"
+				,"rdnmCd" : "521304604788"
+				,"rdnm" : "전북특별자치도 군산시 옥서면 옥봉들3길"
+				,"bldMnno" : 7
+				,"bldSlno" : ""
+				,"bldMngNo" : "4513040021013090016201664"
+				,"bldNm" : "삼거리식당"
+				,"rdnmAdr" : "전북특별자치도 군산시 옥서면 옥봉들3길 7"
+				,"oldZipcd" : "573952"
+				,"newZipcd" : "54170"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.644113057792
+				,"lat" : 35.9237625537806
+				}
+				,{
+				"bizesId" : "MA0101202505A0086208"
+				,"bizesNm" : "지구자원"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G222"
+				,"indsMclsNm" : "중고 상품 소매"
+				,"indsSclsCd" : "G22201"
+				,"indsSclsNm" : "중고 상품 소매업"
+				,"ksicCd" : "G47869"
+				,"ksicNm" : "기타 중고 상품 소매업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52130"
+				,"signguNm" : "군산시"
+				,"adongCd" : "52130720"
+				,"adongNm" : "미성동"
+				,"ldongCd" : "5213015000"
+				,"ldongNm" : "개사동"
+				,"lnoCd" : "5213015000106960000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 696
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전북특별자치도 군산시 개사동 696"
+				,"rdnmCd" : "521304604288"
+				,"rdnm" : "전북특별자치도 군산시 뒷고지길"
+				,"bldMnno" : 61
+				,"bldSlno" : ""
+				,"bldMngNo" : "4513015000106960000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 군산시 뒷고지길 61"
+				,"oldZipcd" : "573520"
+				,"newZipcd" : "54159"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.648154180258
+				,"lat" : 35.9469813474764
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 2,
+		"totalCount" : 104	}
+}

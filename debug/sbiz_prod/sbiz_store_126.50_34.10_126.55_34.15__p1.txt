@@ -1,0 +1,385 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA010120220807437899"
+				,"bizesNm" : "어촌댁"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G205"
+				,"indsMclsNm" : "식료품 소매"
+				,"indsSclsCd" : "G20505"
+				,"indsSclsNm" : "수산물 소매업"
+				,"ksicCd" : "G47214"
+				,"ksicNm" : "신선, 냉동 및 기타 수산물 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46890"
+				,"signguNm" : "완도군"
+				,"adongCd" : "46890380"
+				,"adongNm" : "보길면"
+				,"ldongCd" : "4689038024"
+				,"ldongNm" : "보길면"
+				,"lnoCd" : "4689038024107700001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 770
+				,"lnoSlno" : 1
+				,"lnoAdr" : "전라남도 완도군 보길면 정자리 770-1"
+				,"rdnmCd" : "468904854260"
+				,"rdnm" : "전라남도 완도군 보길면 선창1길"
+				,"bldMnno" : 15
+				,"bldSlno" : 8
+				,"bldMngNo" : "4689038024107700001028968"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 완도군 보길면 선창1길 15-8"
+				,"oldZipcd" : "537852"
+				,"newZipcd" : "59160"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.508442380583
+				,"lat" : 34.14751954054
+				}
+				,{
+				"bizesId" : "MA010120220807817132"
+				,"bizesNm" : "오우해민박"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55104"
+				,"ksicNm" : "민박업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46890"
+				,"signguNm" : "완도군"
+				,"adongCd" : "46890380"
+				,"adongNm" : "보길면"
+				,"ldongCd" : "4689038024"
+				,"ldongNm" : "보길면"
+				,"lnoCd" : "4689038024108260001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 826
+				,"lnoSlno" : 1
+				,"lnoAdr" : "전라남도 완도군 보길면 정자리 826-1"
+				,"rdnmCd" : "468904854258"
+				,"rdnm" : "전라남도 완도군 보길면 선창3길"
+				,"bldMnno" : 15
+				,"bldSlno" : 11
+				,"bldMngNo" : "4689038024108260001000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 완도군 보길면 선창3길 15-11"
+				,"oldZipcd" : "537852"
+				,"newZipcd" : "59160"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.510390683547
+				,"lat" : 34.1443540547328
+				}
+				,{
+				"bizesId" : "MA010120220807819351"
+				,"bizesNm" : "공룡알팬션횟집"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20111"
+				,"indsSclsNm" : "횟집"
+				,"ksicCd" : "I56114"
+				,"ksicNm" : "한식 해산물 요리 전문점"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46890"
+				,"signguNm" : "완도군"
+				,"adongCd" : "46890380"
+				,"adongNm" : "보길면"
+				,"ldongCd" : "4689038023"
+				,"ldongNm" : "보길면"
+				,"lnoCd" : "4689038023105070001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 507
+				,"lnoSlno" : 1
+				,"lnoAdr" : "전라남도 완도군 보길면 부황리 507-1"
+				,"rdnmCd" : "468903300012"
+				,"rdnm" : "전라남도 완도군 보길면 보길로"
+				,"bldMnno" : 1172
+				,"bldSlno" : 33
+				,"bldMngNo" : "4689038023105070001029449"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 완도군 보길면 보길로 1172-33"
+				,"oldZipcd" : "537852"
+				,"newZipcd" : "59160"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.514852495244
+				,"lat" : 34.1282078868808
+				}
+				,{
+				"bizesId" : "MA010120220808411600"
+				,"bizesNm" : "뾰족산팬션식당"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20111"
+				,"indsSclsNm" : "횟집"
+				,"ksicCd" : "I56114"
+				,"ksicNm" : "한식 해산물 요리 전문점"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46890"
+				,"signguNm" : "완도군"
+				,"adongCd" : "46890380"
+				,"adongNm" : "보길면"
+				,"ldongCd" : "4689038023"
+				,"ldongNm" : "보길면"
+				,"lnoCd" : "4689038023105160008"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 516
+				,"lnoSlno" : 8
+				,"lnoAdr" : "전라남도 완도군 보길면 부황리 516-8"
+				,"rdnmCd" : "468903300012"
+				,"rdnm" : "전라남도 완도군 보길면 보길로"
+				,"bldMnno" : 1206
+				,"bldSlno" : 41
+				,"bldMngNo" : "4689038023105160008000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 완도군 보길면 보길로 1206-41"
+				,"oldZipcd" : "537852"
+				,"newZipcd" : "59160"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.515092730111
+				,"lat" : 34.1279023256171
+				}
+				,{
+				"bizesId" : "MA010120220812180293"
+				,"bizesNm" : "뾰족산펜션"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55109"
+				,"ksicNm" : "기타 일반 및 생활 숙박시설 운영업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46890"
+				,"signguNm" : "완도군"
+				,"adongCd" : "46890380"
+				,"adongNm" : "보길면"
+				,"ldongCd" : "4689038023"
+				,"ldongNm" : "보길면"
+				,"lnoCd" : "4689038023105160008"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 516
+				,"lnoSlno" : 8
+				,"lnoAdr" : "전라남도 완도군 보길면 부황리 516-8"
+				,"rdnmCd" : "468903300012"
+				,"rdnm" : "전라남도 완도군 보길면 보길로"
+				,"bldMnno" : 1206
+				,"bldSlno" : 41
+				,"bldMngNo" : "4689038023105160008000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 완도군 보길면 보길로 1206-41"
+				,"oldZipcd" : "537852"
+				,"newZipcd" : "59160"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.515092730111
+				,"lat" : 34.1279023256171
+				}
+				,{
+				"bizesId" : "MA010120220811728364"
+				,"bizesNm" : "뾰족산슈퍼"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G204"
+				,"indsMclsNm" : "종합 소매"
+				,"indsSclsCd" : "G20404"
+				,"indsSclsNm" : "슈퍼마켓"
+				,"ksicCd" : "G47129"
+				,"ksicNm" : "기타 음ㆍ식료품 위주 종합 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46890"
+				,"signguNm" : "완도군"
+				,"adongCd" : "46890380"
+				,"adongNm" : "보길면"
+				,"ldongCd" : "4689038023"
+				,"ldongNm" : "보길면"
+				,"lnoCd" : "4689038023105160008"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 516
+				,"lnoSlno" : 8
+				,"lnoAdr" : "전라남도 완도군 보길면 부황리 516-8"
+				,"rdnmCd" : "468903300012"
+				,"rdnm" : "전라남도 완도군 보길면 보길로"
+				,"bldMnno" : 1206
+				,"bldSlno" : 41
+				,"bldMngNo" : "4689038023105160008000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 완도군 보길면 보길로 1206-41"
+				,"oldZipcd" : "537852"
+				,"newZipcd" : "59160"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.515092730111
+				,"lat" : 34.1279023256171
+				}
+				,{
+				"bizesId" : "MA010120220807819051"
+				,"bizesNm" : "광웅상회"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G204"
+				,"indsMclsNm" : "종합 소매"
+				,"indsSclsCd" : "G20404"
+				,"indsSclsNm" : "슈퍼마켓"
+				,"ksicCd" : "G47129"
+				,"ksicNm" : "기타 음ㆍ식료품 위주 종합 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46890"
+				,"signguNm" : "완도군"
+				,"adongCd" : "46890380"
+				,"adongNm" : "보길면"
+				,"ldongCd" : "4689038023"
+				,"ldongNm" : "보길면"
+				,"lnoCd" : "4689038023105390000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 539
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 완도군 보길면 부황리 539"
+				,"rdnmCd" : "468903300012"
+				,"rdnm" : "전라남도 완도군 보길면 보길로"
+				,"bldMnno" : 1193
+				,"bldSlno" : ""
+				,"bldMngNo" : "4689038023105390000029486"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 완도군 보길면 보길로 1193"
+				,"oldZipcd" : "537852"
+				,"newZipcd" : "59160"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.516693228978
+				,"lat" : 34.1285847605237
+				}
+				,{
+				"bizesId" : "MA010120220813625906"
+				,"bizesNm" : "청정수산"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G205"
+				,"indsMclsNm" : "식료품 소매"
+				,"indsSclsCd" : "G20505"
+				,"indsSclsNm" : "수산물 소매업"
+				,"ksicCd" : "G47214"
+				,"ksicNm" : "신선, 냉동 및 기타 수산물 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46890"
+				,"signguNm" : "완도군"
+				,"adongCd" : "46890380"
+				,"adongNm" : "보길면"
+				,"ldongCd" : "4689038023"
+				,"ldongNm" : "보길면"
+				,"lnoCd" : "4689038023105450008"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 545
+				,"lnoSlno" : 8
+				,"lnoAdr" : "전라남도 완도군 보길면 부황리 545-8"
+				,"rdnmCd" : "468903300012"
+				,"rdnm" : "전라남도 완도군 보길면 보길로"
+				,"bldMnno" : 1203
+				,"bldSlno" : ""
+				,"bldMngNo" : "4689038023106190000029464"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 완도군 보길면 보길로 1203"
+				,"oldZipcd" : "537852"
+				,"newZipcd" : "59160"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.517239700784
+				,"lat" : 34.1278026046765
+				}
+				,{
+				"bizesId" : "MA010120220808469987"
+				,"bizesNm" : "부용상회"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G204"
+				,"indsMclsNm" : "종합 소매"
+				,"indsSclsCd" : "G20404"
+				,"indsSclsNm" : "슈퍼마켓"
+				,"ksicCd" : "G47129"
+				,"ksicNm" : "기타 음ㆍ식료품 위주 종합 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46890"
+				,"signguNm" : "완도군"
+				,"adongCd" : "46890380"
+				,"adongNm" : "보길면"
+				,"ldongCd" : "4689038023"
+				,"ldongNm" : "보길면"
+				,"lnoCd" : "4689038023104450001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 445
+				,"lnoSlno" : 1
+				,"lnoAdr" : "전라남도 완도군 보길면 부황리 445-1"
+				,"rdnmCd" : "468904854550"
+				,"rdnm" : "전라남도 완도군 보길면 부용길"
+				,"bldMnno" : 34
+				,"bldSlno" : ""
+				,"bldMngNo" : "4689038023104450001029945"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 완도군 보길면 부용길 34"
+				,"oldZipcd" : "537852"
+				,"newZipcd" : "59161"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.543467462954
+				,"lat" : 34.1490881680615
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 1,
+		"totalCount" : 9	}
+}

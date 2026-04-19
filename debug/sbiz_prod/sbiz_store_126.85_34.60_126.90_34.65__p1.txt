@@ -1,0 +1,303 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA010120220807832864"
+				,"bizesNm" : "탐진사인"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55104"
+				,"ksicNm" : "민박업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46810"
+				,"signguNm" : "강진군"
+				,"adongCd" : "46810310"
+				,"adongNm" : "군동면"
+				,"ldongCd" : "4681031027"
+				,"ldongNm" : "군동면"
+				,"lnoCd" : "4681031027103670005"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 367
+				,"lnoSlno" : 5
+				,"lnoAdr" : "전라남도 강진군 군동면 풍동리 367-5"
+				,"rdnmCd" : "468104679405"
+				,"rdnm" : "전라남도 강진군 군동면 풍동길"
+				,"bldMnno" : 67
+				,"bldSlno" : ""
+				,"bldMngNo" : "4681031027103670005000002"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 강진군 군동면 풍동길 67"
+				,"oldZipcd" : "527851"
+				,"newZipcd" : "59219"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.855763656263
+				,"lat" : 34.649348585006
+				}
+				,{
+				"bizesId" : "MA0101202502A0099737"
+				,"bizesNm" : "마동욱사진방"
+				,"brchNm" : ""
+				,"indsLclsCd" : "M1"
+				,"indsLclsNm" : "과학·기술"
+				,"indsMclsCd" : "M113"
+				,"indsMclsNm" : "사진 촬영"
+				,"indsSclsCd" : "M11301"
+				,"indsSclsNm" : "사진촬영업"
+				,"ksicCd" : "M73302"
+				,"ksicNm" : "상업용 사진 촬영업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46800"
+				,"signguNm" : "장흥군"
+				,"adongCd" : "46800250"
+				,"adongNm" : "장흥읍"
+				,"ldongCd" : "4680025033"
+				,"ldongNm" : "장흥읍"
+				,"lnoCd" : "4680025033104410001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 441
+				,"lnoSlno" : 1
+				,"lnoAdr" : "전라남도 장흥군 장흥읍 평장리 441-1"
+				,"rdnmCd" : "468004676486"
+				,"rdnm" : "전라남도 장흥군 장흥읍 평장길"
+				,"bldMnno" : 16
+				,"bldSlno" : 8
+				,"bldMngNo" : "4680025033104410001004718"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 장흥군 장흥읍 평장길 16-8"
+				,"oldZipcd" : "529806"
+				,"newZipcd" : "59336"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.881028219128
+				,"lat" : 34.6481769424614
+				}
+				,{
+				"bizesId" : "MA010120220807499681"
+				,"bizesNm" : "성우"
+				,"brchNm" : ""
+				,"indsLclsCd" : "M1"
+				,"indsLclsNm" : "과학·기술"
+				,"indsMclsCd" : "M109"
+				,"indsMclsNm" : "기술 서비스"
+				,"indsSclsCd" : "M10999"
+				,"indsSclsNm" : "기타 엔지니어링 서비스업"
+				,"ksicCd" : "M72129"
+				,"ksicNm" : "기타 엔지니어링 서비스업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46800"
+				,"signguNm" : "장흥군"
+				,"adongCd" : "46800250"
+				,"adongNm" : "장흥읍"
+				,"ldongCd" : "4680025034"
+				,"ldongNm" : "장흥읍"
+				,"lnoCd" : "4680025034105050005"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 505
+				,"lnoSlno" : 5
+				,"lnoAdr" : "전라남도 장흥군 장흥읍 덕제리 505-5"
+				,"rdnmCd" : "468004676102"
+				,"rdnm" : "전라남도 장흥군 장흥읍 대반길"
+				,"bldMnno" : 12
+				,"bldSlno" : ""
+				,"bldMngNo" : "4680025034105050005000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 장흥군 장흥읍 대반길 12"
+				,"oldZipcd" : "529806"
+				,"newZipcd" : "59336"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.88274301811
+				,"lat" : 34.6465650344755
+				}
+				,{
+				"bizesId" : "MA0101202503A0055893"
+				,"bizesNm" : "천관아그로"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G221"
+				,"indsMclsNm" : "기타 상품 소매"
+				,"indsSclsCd" : "G22199"
+				,"indsSclsNm" : "그 외 기타 상품 전문 소매업"
+				,"ksicCd" : "G47859"
+				,"ksicNm" : "그 외 기타 분류 안된 상품 전문 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46800"
+				,"signguNm" : "장흥군"
+				,"adongCd" : "46800250"
+				,"adongNm" : "장흥읍"
+				,"ldongCd" : "4680025034"
+				,"ldongNm" : "장흥읍"
+				,"lnoCd" : "4680025034101410000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 141
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 장흥군 장흥읍 덕제리 141"
+				,"rdnmCd" : "468004676115"
+				,"rdnm" : "전라남도 장흥군 장흥읍 덕제길"
+				,"bldMnno" : 25
+				,"bldSlno" : 1
+				,"bldMngNo" : "4680025034101410000004854"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 장흥군 장흥읍 덕제길 25-1"
+				,"oldZipcd" : "529806"
+				,"newZipcd" : "59336"
+				,"dongNo" : ""
+				,"flrNo" : "2"
+				,"hoNo" : ""
+				,"lon" : 126.886482791538
+				,"lat" : 34.6476953670464
+				}
+				,{
+				"bizesId" : "MA010120220807831284"
+				,"bizesNm" : "천관자동차운전전문학원"
+				,"brchNm" : ""
+				,"indsLclsCd" : "P1"
+				,"indsLclsNm" : "교육"
+				,"indsMclsCd" : "P106"
+				,"indsMclsNm" : "기타 교육"
+				,"indsSclsCd" : "P10623"
+				,"indsSclsNm" : "운전학원"
+				,"ksicCd" : "P85661"
+				,"ksicNm" : "운전학원"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46800"
+				,"signguNm" : "장흥군"
+				,"adongCd" : "46800250"
+				,"adongNm" : "장흥읍"
+				,"ldongCd" : "4680025034"
+				,"ldongNm" : "장흥읍"
+				,"lnoCd" : "4680025034101390000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 139
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 장흥군 장흥읍 덕제리 139"
+				,"rdnmCd" : "468002017001"
+				,"rdnm" : "전라남도 장흥군 장흥읍 장흥대로"
+				,"bldMnno" : 3083
+				,"bldSlno" : ""
+				,"bldMngNo" : "4680025034101250000004876"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 장흥군 장흥읍 장흥대로 3083"
+				,"oldZipcd" : "529806"
+				,"newZipcd" : "59336"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.887453131083
+				,"lat" : 34.648029797444
+				}
+				,{
+				"bizesId" : "MA010120220807818132"
+				,"bizesNm" : "장흥골프랜드덕제태양광발전소"
+				,"brchNm" : ""
+				,"indsLclsCd" : "R1"
+				,"indsLclsNm" : "예술·스포츠"
+				,"indsMclsCd" : "R103"
+				,"indsMclsNm" : "스포츠 서비스"
+				,"indsSclsCd" : "R10311"
+				,"indsSclsNm" : "골프 연습장"
+				,"ksicCd" : "R91136"
+				,"ksicNm" : "골프 연습장 운영업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46800"
+				,"signguNm" : "장흥군"
+				,"adongCd" : "46800250"
+				,"adongNm" : "장흥읍"
+				,"ldongCd" : "4680025034"
+				,"ldongNm" : "장흥읍"
+				,"lnoCd" : "4680025034106090001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 609
+				,"lnoSlno" : 1
+				,"lnoAdr" : "전라남도 장흥군 장흥읍 덕제리 609-1"
+				,"rdnmCd" : "468002017001"
+				,"rdnm" : "전라남도 장흥군 장흥읍 장흥대로"
+				,"bldMnno" : 3027
+				,"bldSlno" : 65
+				,"bldMngNo" : "4680025034200820002000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 장흥군 장흥읍 장흥대로 3027-65"
+				,"oldZipcd" : "529806"
+				,"newZipcd" : "59336"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.888912092054
+				,"lat" : 34.6418653159321
+				}
+				,{
+				"bizesId" : "MA0101202212A0014113"
+				,"bizesNm" : "보경농장"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G205"
+				,"indsMclsNm" : "식료품 소매"
+				,"indsSclsCd" : "G20501"
+				,"indsSclsNm" : "곡물/곡분 소매업"
+				,"ksicCd" : "G47211"
+				,"ksicNm" : "곡물, 곡분 및 가축 사료 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46800"
+				,"signguNm" : "장흥군"
+				,"adongCd" : "46800250"
+				,"adongNm" : "장흥읍"
+				,"ldongCd" : "4680025034"
+				,"ldongNm" : "장흥읍"
+				,"lnoCd" : "4680025034100280001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 28
+				,"lnoSlno" : 1
+				,"lnoAdr" : "전라남도 장흥군 장흥읍 덕제리 28-1"
+				,"rdnmCd" : "468002017001"
+				,"rdnm" : "전라남도 장흥군 장흥읍 장흥대로"
+				,"bldMnno" : 3046
+				,"bldSlno" : 39
+				,"bldMngNo" : "4680025034100280001000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 장흥군 장흥읍 장흥대로 3046-39"
+				,"oldZipcd" : "529806"
+				,"newZipcd" : "59336"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.892297290433
+				,"lat" : 34.6471868229052
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 1,
+		"totalCount" : 7	}
+}

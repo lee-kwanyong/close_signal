@@ -1,0 +1,139 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA010120220807769047"
+				,"bizesNm" : "도화대중탕"
+				,"brchNm" : ""
+				,"indsLclsCd" : "S2"
+				,"indsLclsNm" : "수리·개인"
+				,"indsMclsCd" : "S208"
+				,"indsMclsNm" : "욕탕·신체관리"
+				,"indsSclsCd" : "S20801"
+				,"indsSclsNm" : "목욕탕/사우나"
+				,"ksicCd" : "S96121"
+				,"ksicNm" : "욕탕업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46770"
+				,"signguNm" : "고흥군"
+				,"adongCd" : "46770340"
+				,"adongNm" : "도화면"
+				,"ldongCd" : "4677034021"
+				,"ldongNm" : "도화면"
+				,"lnoCd" : "4677034021109580000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 958
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 고흥군 도화면 가화리 958"
+				,"rdnmCd" : "467704667711"
+				,"rdnm" : "전라남도 고흥군 도화면 화옥길"
+				,"bldMnno" : 183
+				,"bldSlno" : ""
+				,"bldMngNo" : "4677034021109580000009135"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 고흥군 도화면 화옥길 183"
+				,"oldZipcd" : "548891"
+				,"newZipcd" : "59530"
+				,"dongNo" : ""
+				,"flrNo" : "1"
+				,"hoNo" : ""
+				,"lon" : 127.270103062561
+				,"lat" : 34.4841073677681
+				}
+				,{
+				"bizesId" : "MA010120220805407296"
+				,"bizesNm" : "바위식당"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46770"
+				,"signguNm" : "고흥군"
+				,"adongCd" : "46770340"
+				,"adongNm" : "도화면"
+				,"ldongCd" : "4677034022"
+				,"ldongNm" : "도화면"
+				,"lnoCd" : "4677034022108060005"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 806
+				,"lnoSlno" : 5
+				,"lnoAdr" : "전라남도 고흥군 도화면 구암리 806-5"
+				,"rdnmCd" : "467704667046"
+				,"rdnm" : "전라남도 고흥군 도화면 구암선창길"
+				,"bldMnno" : 52
+				,"bldSlno" : ""
+				,"bldMngNo" : "4677034022108060004007608"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 고흥군 도화면 구암선창길 52"
+				,"oldZipcd" : "548891"
+				,"newZipcd" : "59531"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.295346038415
+				,"lat" : 34.4710229218637
+				}
+				,{
+				"bizesId" : "MA010120220813409186"
+				,"bizesNm" : "해뜨는집"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46770"
+				,"signguNm" : "고흥군"
+				,"adongCd" : "46770340"
+				,"adongNm" : "도화면"
+				,"ldongCd" : "4677034022"
+				,"ldongNm" : "도화면"
+				,"lnoCd" : "4677034022108060016"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 806
+				,"lnoSlno" : 16
+				,"lnoAdr" : "전라남도 고흥군 도화면 구암리 806-16"
+				,"rdnmCd" : "467704667046"
+				,"rdnm" : "전라남도 고흥군 도화면 구암선창길"
+				,"bldMnno" : 40
+				,"bldSlno" : ""
+				,"bldMngNo" : "4677034022108060016007613"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 고흥군 도화면 구암선창길 40"
+				,"oldZipcd" : "548891"
+				,"newZipcd" : "59531"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.296349237294
+				,"lat" : 34.4715343244933
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 1,
+		"totalCount" : 3	}
+}

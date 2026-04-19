@@ -1,0 +1,180 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA010120220813622510"
+				,"bizesNm" : "툇골바위집"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20107"
+				,"indsSclsNm" : "돼지고기 구이/찜"
+				,"ksicCd" : "I56113"
+				,"ksicNm" : "한식 육류 요리 전문점"
+				,"ctprvnCd" : "51"
+				,"ctprvnNm" : "강원특별자치도"
+				,"signguCd" : "51110"
+				,"signguNm" : "춘천시"
+				,"adongCd" : "51110350"
+				,"adongNm" : "서면"
+				,"ldongCd" : "5111035024"
+				,"ldongNm" : "서면"
+				,"lnoCd" : "5111035024109040000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 904
+				,"lnoSlno" : ""
+				,"lnoAdr" : "강원특별자치도 춘천시 서면 서상리 904"
+				,"rdnmCd" : "511104454734"
+				,"rdnm" : "강원특별자치도 춘천시 서면 툇골길"
+				,"bldMnno" : 711
+				,"bldSlno" : 12
+				,"bldMngNo" : "4211035024109040000057499"
+				,"bldNm" : ""
+				,"rdnmAdr" : "강원특별자치도 춘천시 서면 툇골길 711-12"
+				,"oldZipcd" : "200835"
+				,"newZipcd" : "24460"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.640702747756
+				,"lat" : 37.9316226433026
+				}
+				,{
+				"bizesId" : "MA010120220810373744"
+				,"bizesNm" : "툇골퇴골집오리숯불구이"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20110"
+				,"indsSclsNm" : "닭/오리고기 구이/찜"
+				,"ksicCd" : "I56113"
+				,"ksicNm" : "한식 육류 요리 전문점"
+				,"ctprvnCd" : "51"
+				,"ctprvnNm" : "강원특별자치도"
+				,"signguCd" : "51110"
+				,"signguNm" : "춘천시"
+				,"adongCd" : "51110350"
+				,"adongNm" : "서면"
+				,"ldongCd" : "5111035024"
+				,"ldongNm" : "서면"
+				,"lnoCd" : "5111035024109020000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 902
+				,"lnoSlno" : ""
+				,"lnoAdr" : "강원특별자치도 춘천시 서면 서상리 902"
+				,"rdnmCd" : "511104454734"
+				,"rdnm" : "강원특별자치도 춘천시 서면 툇골길"
+				,"bldMnno" : 711
+				,"bldSlno" : 3
+				,"bldMngNo" : "4211035024109020000036071"
+				,"bldNm" : ""
+				,"rdnmAdr" : "강원특별자치도 춘천시 서면 툇골길 711-3"
+				,"oldZipcd" : "200835"
+				,"newZipcd" : "24460"
+				,"dongNo" : ""
+				,"flrNo" : "1"
+				,"hoNo" : ""
+				,"lon" : 127.641399328502
+				,"lat" : 37.9306278297291
+				}
+				,{
+				"bizesId" : "MA0101202503A0017786"
+				,"bizesNm" : "춘천캠핑월드"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10104"
+				,"indsSclsNm" : "캠핑/글램핑"
+				,"ksicCd" : "I55109"
+				,"ksicNm" : "기타 일반 및 생활 숙박시설 운영업"
+				,"ctprvnCd" : "51"
+				,"ctprvnNm" : "강원특별자치도"
+				,"signguCd" : "51110"
+				,"signguNm" : "춘천시"
+				,"adongCd" : "51110350"
+				,"adongNm" : "서면"
+				,"ldongCd" : "5111035024"
+				,"ldongNm" : "서면"
+				,"lnoCd" : "5111035024108970000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 897
+				,"lnoSlno" : ""
+				,"lnoAdr" : "강원특별자치도 춘천시 서면 서상리 897"
+				,"rdnmCd" : "511104454734"
+				,"rdnm" : "강원특별자치도 춘천시 서면 툇골길"
+				,"bldMnno" : 693
+				,"bldSlno" : 12
+				,"bldMngNo" : "4211035024108970000000001"
+				,"bldNm" : "툇골"
+				,"rdnmAdr" : "강원특별자치도 춘천시 서면 툇골길 693-12"
+				,"oldZipcd" : "200835"
+				,"newZipcd" : "24460"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.641628549543
+				,"lat" : 37.9295184407562
+				}
+				,{
+				"bizesId" : "MA010120220804505896"
+				,"bizesNm" : "새들의천국"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "51"
+				,"ctprvnNm" : "강원특별자치도"
+				,"signguCd" : "51110"
+				,"signguNm" : "춘천시"
+				,"adongCd" : "51110350"
+				,"adongNm" : "서면"
+				,"ldongCd" : "5111035024"
+				,"ldongNm" : "서면"
+				,"lnoCd" : "5111035024108560000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 856
+				,"lnoSlno" : ""
+				,"lnoAdr" : "강원특별자치도 춘천시 서면 서상리 856"
+				,"rdnmCd" : "511104454734"
+				,"rdnm" : "강원특별자치도 춘천시 서면 툇골길"
+				,"bldMnno" : 550
+				,"bldSlno" : 14
+				,"bldMngNo" : "4211035024108560000036287"
+				,"bldNm" : ""
+				,"rdnmAdr" : "강원특별자치도 춘천시 서면 툇골길 550-14"
+				,"oldZipcd" : "200835"
+				,"newZipcd" : "24460"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.64684928174
+				,"lat" : 37.9373008830106
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 1,
+		"totalCount" : 4	}
+}

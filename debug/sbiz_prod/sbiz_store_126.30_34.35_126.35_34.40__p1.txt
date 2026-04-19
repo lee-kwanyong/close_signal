@@ -1,0 +1,303 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA0101202211A0013139"
+				,"bizesNm" : "대동양식기자재"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G213"
+				,"indsMclsNm" : "오락용품 소매"
+				,"indsSclsCd" : "G21306"
+				,"indsSclsNm" : "장난감 소매업"
+				,"ksicCd" : "G47640"
+				,"ksicNm" : "게임용구, 인형 및 장난감 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46900"
+				,"signguNm" : "진도군"
+				,"adongCd" : "46900330"
+				,"adongNm" : "의신면"
+				,"ldongCd" : "4690033034"
+				,"ldongNm" : "의신면"
+				,"lnoCd" : "4690033034107570001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 757
+				,"lnoSlno" : 1
+				,"lnoAdr" : "전라남도 진도군 의신면 금갑리 757-1"
+				,"rdnmCd" : "469004703181"
+				,"rdnm" : "전라남도 진도군 의신면 수품길"
+				,"bldMnno" : 52
+				,"bldSlno" : 4
+				,"bldMngNo" : "4690033034107570001024681"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 진도군 의신면 수품길 52-4"
+				,"oldZipcd" : "539831"
+				,"newZipcd" : "58939"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.304954144311
+				,"lat" : 34.3798631032827
+				}
+				,{
+				"bizesId" : "MA0101202503A0009992"
+				,"bizesNm" : "알비티축구클럽"
+				,"brchNm" : ""
+				,"indsLclsCd" : "P1"
+				,"indsLclsNm" : "교육"
+				,"indsMclsCd" : "P106"
+				,"indsMclsNm" : "기타 교육"
+				,"indsSclsCd" : "P10603"
+				,"indsSclsNm" : "요가/필라테스 학원"
+				,"ksicCd" : "P85612"
+				,"ksicNm" : "기타 스포츠 교육기관"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46900"
+				,"signguNm" : "진도군"
+				,"adongCd" : "46900330"
+				,"adongNm" : "의신면"
+				,"ldongCd" : "4690033034"
+				,"ldongNm" : "의신면"
+				,"lnoCd" : "4690033034106520000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 652
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 진도군 의신면 금갑리 652"
+				,"rdnmCd" : "469004703181"
+				,"rdnm" : "전라남도 진도군 의신면 수품길"
+				,"bldMnno" : 52
+				,"bldSlno" : ""
+				,"bldMngNo" : "4690033034106520000024684"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 진도군 의신면 수품길 52"
+				,"oldZipcd" : "539831"
+				,"newZipcd" : "58939"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.305172703692
+				,"lat" : 34.3797291267501
+				}
+				,{
+				"bizesId" : "MA0101202409A0051705"
+				,"bizesNm" : "수품구판장"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46900"
+				,"signguNm" : "진도군"
+				,"adongCd" : "46900330"
+				,"adongNm" : "의신면"
+				,"ldongCd" : "4690033034"
+				,"ldongNm" : "의신면"
+				,"lnoCd" : "4690033034106510000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 651
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 진도군 의신면 금갑리 651"
+				,"rdnmCd" : "469004703181"
+				,"rdnm" : "전라남도 진도군 의신면 수품길"
+				,"bldMnno" : 52
+				,"bldSlno" : 2
+				,"bldMngNo" : "4690033034106510009024680"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 진도군 의신면 수품길 52-2"
+				,"oldZipcd" : "539831"
+				,"newZipcd" : "58939"
+				,"dongNo" : ""
+				,"flrNo" : "1"
+				,"hoNo" : ""
+				,"lon" : 126.305182012286
+				,"lat" : 34.3799184843435
+				}
+				,{
+				"bizesId" : "MA010120220807694205"
+				,"bizesNm" : "접도낚시편의점"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G213"
+				,"indsMclsNm" : "오락용품 소매"
+				,"indsSclsCd" : "G21306"
+				,"indsSclsNm" : "장난감 소매업"
+				,"ksicCd" : "G47640"
+				,"ksicNm" : "게임용구, 인형 및 장난감 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46900"
+				,"signguNm" : "진도군"
+				,"adongCd" : "46900330"
+				,"adongNm" : "의신면"
+				,"ldongCd" : "4690033034"
+				,"ldongNm" : "의신면"
+				,"lnoCd" : "4690033034106490051"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 649
+				,"lnoSlno" : 51
+				,"lnoAdr" : "전라남도 진도군 의신면 금갑리 649-51"
+				,"rdnmCd" : "469004703181"
+				,"rdnm" : "전라남도 진도군 의신면 수품길"
+				,"bldMnno" : 18
+				,"bldSlno" : ""
+				,"bldMngNo" : "4690033034106490051000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 진도군 의신면 수품길 18"
+				,"oldZipcd" : "539831"
+				,"newZipcd" : "58939"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.305252015226
+				,"lat" : 34.3819741900412
+				}
+				,{
+				"bizesId" : "MA010120220800714197"
+				,"bizesNm" : "만물슈퍼"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G204"
+				,"indsMclsNm" : "종합 소매"
+				,"indsSclsCd" : "G20404"
+				,"indsSclsNm" : "슈퍼마켓"
+				,"ksicCd" : "G47129"
+				,"ksicNm" : "기타 음ㆍ식료품 위주 종합 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46900"
+				,"signguNm" : "진도군"
+				,"adongCd" : "46900330"
+				,"adongNm" : "의신면"
+				,"ldongCd" : "4690033034"
+				,"ldongNm" : "의신면"
+				,"lnoCd" : "4690033034201230304"
+				,"plotSctCd" : "2"
+				,"plotSctNm" : "산"
+				,"lnoMnno" : 123
+				,"lnoSlno" : 304
+				,"lnoAdr" : "전라남도 진도군 의신면 금갑리 산 123-304"
+				,"rdnmCd" : "469004703181"
+				,"rdnm" : "전라남도 진도군 의신면 수품길"
+				,"bldMnno" : 21
+				,"bldSlno" : ""
+				,"bldMngNo" : "4690033034201230304024608"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 진도군 의신면 수품길 21"
+				,"oldZipcd" : "539831"
+				,"newZipcd" : "58939"
+				,"dongNo" : ""
+				,"flrNo" : "1"
+				,"hoNo" : ""
+				,"lon" : 126.305934150187
+				,"lat" : 34.382320612188
+				}
+				,{
+				"bizesId" : "MA010120220812815292"
+				,"bizesNm" : "까페수품항"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I212"
+				,"indsMclsNm" : "비알코올 "
+				,"indsSclsCd" : "I21201"
+				,"indsSclsNm" : "카페"
+				,"ksicCd" : "I56221"
+				,"ksicNm" : "커피 전문점"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46900"
+				,"signguNm" : "진도군"
+				,"adongCd" : "46900330"
+				,"adongNm" : "의신면"
+				,"ldongCd" : "4690033034"
+				,"ldongNm" : "의신면"
+				,"lnoCd" : "4690033034106650003"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 665
+				,"lnoSlno" : 3
+				,"lnoAdr" : "전라남도 진도군 의신면 금갑리 665-3"
+				,"rdnmCd" : "469004703181"
+				,"rdnm" : "전라남도 진도군 의신면 수품길"
+				,"bldMnno" : 35
+				,"bldSlno" : ""
+				,"bldMngNo" : "4690033034106650003024805"
+				,"bldNm" : "1~2층"
+				,"rdnmAdr" : "전라남도 진도군 의신면 수품길 35"
+				,"oldZipcd" : "539831"
+				,"newZipcd" : "58939"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.306216741874
+				,"lat" : 34.3810151107855
+				}
+				,{
+				"bizesId" : "MA010120220808547973"
+				,"bizesNm" : "접도가든"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46900"
+				,"signguNm" : "진도군"
+				,"adongCd" : "46900330"
+				,"adongNm" : "의신면"
+				,"ldongCd" : "4690033034"
+				,"ldongNm" : "의신면"
+				,"lnoCd" : "4690033034106690001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 669
+				,"lnoSlno" : 1
+				,"lnoAdr" : "전라남도 진도군 의신면 금갑리 669-1"
+				,"rdnmCd" : "469004703181"
+				,"rdnm" : "전라남도 진도군 의신면 수품길"
+				,"bldMnno" : 31
+				,"bldSlno" : ""
+				,"bldMngNo" : "4690033034106690001024653"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 진도군 의신면 수품길 31"
+				,"oldZipcd" : "539831"
+				,"newZipcd" : "58939"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.306678900565
+				,"lat" : 34.3816667748156
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 1,
+		"totalCount" : 7	}
+}

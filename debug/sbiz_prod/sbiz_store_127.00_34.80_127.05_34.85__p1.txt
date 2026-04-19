@@ -1,0 +1,221 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA010120220809231313"
+				,"bizesNm" : "정남진부동산"
+				,"brchNm" : ""
+				,"indsLclsCd" : "S2"
+				,"indsLclsNm" : "수리·개인"
+				,"indsMclsCd" : "S210"
+				,"indsMclsNm" : "장례식장 "
+				,"indsSclsCd" : "S21002"
+				,"indsSclsNm" : "화장터/묘지/납골당"
+				,"ksicCd" : "S96922"
+				,"ksicNm" : "화장터 운영, 묘지 분양 및 관리업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46800"
+				,"signguNm" : "장흥군"
+				,"adongCd" : "46800340"
+				,"adongNm" : "장평면"
+				,"ldongCd" : "4680034032"
+				,"ldongNm" : "장평면"
+				,"lnoCd" : "4680034032103980000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 398
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 장흥군 장평면 녹양리 398"
+				,"rdnmCd" : "468003290020"
+				,"rdnm" : "전라남도 장흥군 장평면 평동로"
+				,"bldMnno" : 513
+				,"bldSlno" : ""
+				,"bldMngNo" : "4680034032103980000016542"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 장흥군 장평면 평동로 513"
+				,"oldZipcd" : "529841"
+				,"newZipcd" : "59304"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.002502677981
+				,"lat" : 34.8070117610042
+				}
+				,{
+				"bizesId" : "MA0101202504A0052813"
+				,"bizesNm" : "아몬드디자인"
+				,"brchNm" : ""
+				,"indsLclsCd" : "M1"
+				,"indsLclsNm" : "과학·기술"
+				,"indsMclsCd" : "M112"
+				,"indsMclsNm" : "전문 디자인"
+				,"indsSclsCd" : "M11203"
+				,"indsSclsNm" : "시각 디자인업"
+				,"ksicCd" : "M73203"
+				,"ksicNm" : "시각 디자인업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46800"
+				,"signguNm" : "장흥군"
+				,"adongCd" : "46800340"
+				,"adongNm" : "장평면"
+				,"ldongCd" : "4680034038"
+				,"ldongNm" : "장평면"
+				,"lnoCd" : "4680034038107460000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 746
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 장흥군 장평면 두봉리 746"
+				,"rdnmCd" : "468004676139"
+				,"rdnm" : "전라남도 장흥군 장평면 두봉진산길"
+				,"bldMnno" : 95
+				,"bldSlno" : 110
+				,"bldMngNo" : "4680034038107460000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 장흥군 장평면 두봉진산길 95-110"
+				,"oldZipcd" : "529841"
+				,"newZipcd" : "59304"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.004470390239
+				,"lat" : 34.8170444135245
+				}
+				,{
+				"bizesId" : "MA010120220807499177"
+				,"bizesNm" : "동원건설"
+				,"brchNm" : ""
+				,"indsLclsCd" : "M1"
+				,"indsLclsNm" : "과학·기술"
+				,"indsMclsCd" : "M109"
+				,"indsMclsNm" : "기술 서비스"
+				,"indsSclsCd" : "M10903"
+				,"indsSclsNm" : "건물 및 토목 엔지니어링 서비스업"
+				,"ksicCd" : "M72121"
+				,"ksicNm" : "건물 및 토목 엔지니어링 서비스업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46800"
+				,"signguNm" : "장흥군"
+				,"adongCd" : "46800340"
+				,"adongNm" : "장평면"
+				,"ldongCd" : "4680034038"
+				,"ldongNm" : "장평면"
+				,"lnoCd" : "4680034038102000000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 200
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 장흥군 장평면 두봉리 200"
+				,"rdnmCd" : "468004676139"
+				,"rdnm" : "전라남도 장흥군 장평면 두봉진산길"
+				,"bldMnno" : 26
+				,"bldSlno" : 13
+				,"bldMngNo" : "4680034038102000000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 장흥군 장평면 두봉진산길 26-13"
+				,"oldZipcd" : "529841"
+				,"newZipcd" : "59304"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.015694696144
+				,"lat" : 34.8125364285618
+				}
+				,{
+				"bizesId" : "MA010120220808225824"
+				,"bizesNm" : "한상엔터테인먼트카라예술단"
+				,"brchNm" : ""
+				,"indsLclsCd" : "N1"
+				,"indsLclsNm" : "시설관리·임대"
+				,"indsMclsCd" : "N108"
+				,"indsMclsNm" : "기타 사업 서비스"
+				,"indsSclsCd" : "N10802"
+				,"indsSclsNm" : "전시/컨벤션/행사 대행 서비스업"
+				,"ksicCd" : "N75992"
+				,"ksicNm" : "전시, 컨벤션 및 행사 대행업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46780"
+				,"signguNm" : "보성군"
+				,"adongCd" : "46780310"
+				,"adongNm" : "노동면"
+				,"ldongCd" : "4678031025"
+				,"ldongNm" : "노동면"
+				,"lnoCd" : "4678031025102200000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 220
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 보성군 노동면 옥마리 220"
+				,"rdnmCd" : "467804670059"
+				,"rdnm" : "전라남도 보성군 노동면 노동마산길"
+				,"bldMnno" : 26
+				,"bldSlno" : 1
+				,"bldMngNo" : "4678031025102200000601143"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 보성군 노동면 노동마산길 26-1"
+				,"oldZipcd" : "546811"
+				,"newZipcd" : "59445"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.029136410124
+				,"lat" : 34.8082342191465
+				}
+				,{
+				"bizesId" : "MA010120220807204752"
+				,"bizesNm" : "보물창고"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G204"
+				,"indsMclsNm" : "종합 소매"
+				,"indsSclsCd" : "G20404"
+				,"indsSclsNm" : "슈퍼마켓"
+				,"ksicCd" : "G47129"
+				,"ksicNm" : "기타 음ㆍ식료품 위주 종합 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46780"
+				,"signguNm" : "보성군"
+				,"adongCd" : "46780310"
+				,"adongNm" : "노동면"
+				,"ldongCd" : "4678031027"
+				,"ldongNm" : "노동면"
+				,"lnoCd" : "4678031027106360001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 636
+				,"lnoSlno" : 1
+				,"lnoAdr" : "전라남도 보성군 노동면 거석리 636-1"
+				,"rdnmCd" : "467804670014"
+				,"rdnm" : "전라남도 보성군 노동면 거석길"
+				,"bldMnno" : 270
+				,"bldSlno" : ""
+				,"bldMngNo" : "4678031027106360001600784"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 보성군 노동면 거석길 270"
+				,"oldZipcd" : "546812"
+				,"newZipcd" : "59444"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.044706272805
+				,"lat" : 34.8214351648393
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 1,
+		"totalCount" : 5	}
+}

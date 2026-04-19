@@ -1,0 +1,98 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA0101202502A0024659"
+				,"bizesNm" : "삼성웰스토리골프존카운티송도"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I207"
+				,"indsMclsNm" : "구내식당·뷔페"
+				,"indsSclsCd" : "I20701"
+				,"indsSclsNm" : "구내식당"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "28"
+				,"ctprvnNm" : "인천광역시"
+				,"signguCd" : "28185"
+				,"signguNm" : "연수구"
+				,"adongCd" : "28185840"
+				,"adongNm" : "송도3동"
+				,"ldongCd" : "2818510600"
+				,"ldongNm" : "송도동"
+				,"lnoCd" : "2818510600103470000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 347
+				,"lnoSlno" : ""
+				,"lnoAdr" : "인천광역시 연수구 송도동 347"
+				,"rdnmCd" : "281852152008"
+				,"rdnm" : "인천광역시 연수구 인천신항대로"
+				,"bldMnno" : 1120
+				,"bldSlno" : ""
+				,"bldMngNo" : "2818510600103470000000001"
+				,"bldNm" : "오렌지듄스골프장"
+				,"rdnmAdr" : "인천광역시 연수구 인천신항대로 1120"
+				,"oldZipcd" : "406083"
+				,"newZipcd" : "21993"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.592110648304
+				,"lat" : 37.3539705882329
+				}
+				,{
+				"bizesId" : "MA010120220811492972"
+				,"bizesNm" : "에코그린푸드지점"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "28"
+				,"ctprvnNm" : "인천광역시"
+				,"signguCd" : "28185"
+				,"signguNm" : "연수구"
+				,"adongCd" : "28185840"
+				,"adongNm" : "송도3동"
+				,"ldongCd" : "2818510600"
+				,"ldongNm" : "송도동"
+				,"lnoCd" : "2818510600103480000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 348
+				,"lnoSlno" : ""
+				,"lnoAdr" : "인천광역시 연수구 송도동 348"
+				,"rdnmCd" : "281852152008"
+				,"rdnm" : "인천광역시 연수구 인천신항대로"
+				,"bldMnno" : 1100
+				,"bldSlno" : ""
+				,"bldMngNo" : "2818510600103480000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "인천광역시 연수구 인천신항대로 1100"
+				,"oldZipcd" : "406083"
+				,"newZipcd" : "21993"
+				,"dongNo" : ""
+				,"flrNo" : "1"
+				,"hoNo" : ""
+				,"lon" : 126.594812678513
+				,"lat" : 37.3510425405327
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 1,
+		"totalCount" : 2	}
+}

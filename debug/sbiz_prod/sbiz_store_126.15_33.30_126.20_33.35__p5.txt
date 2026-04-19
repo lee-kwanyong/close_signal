@@ -1,0 +1,262 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA0106202510A1117000"
+				,"bizesNm" : "까페노을숲"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "50"
+				,"ctprvnNm" : "제주특별자치도"
+				,"signguCd" : "50110"
+				,"signguNm" : "제주시"
+				,"adongCd" : "50110310"
+				,"adongNm" : "한경면"
+				,"ldongCd" : "5011031022"
+				,"ldongNm" : "한경면"
+				,"lnoCd" : "5011031022140430001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 4043
+				,"lnoSlno" : 1
+				,"lnoAdr" : "제주특별자치도 제주시 한경면 용수리 4043-1"
+				,"rdnmCd" : "501103349206"
+				,"rdnm" : "제주특별자치도 제주시 한경면 한경해안로"
+				,"bldMnno" : 240
+				,"bldSlno" : ""
+				,"bldMngNo" : "5011031022140430001000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "제주특별자치도 제주시 한경면 한경해안로 240"
+				,"oldZipcd" : "695946"
+				,"newZipcd" : "63009"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.164195939879
+				,"lat" : 33.3284371523695
+				}
+				,{
+				"bizesId" : "MA0106202511A0784416"
+				,"bizesNm" : "차귀도부산슈퍼"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G221"
+				,"indsMclsNm" : "기타 상품 소매"
+				,"indsSclsCd" : "G22199"
+				,"indsSclsNm" : "그 외 기타 상품 전문 소매업"
+				,"ksicCd" : "G47859"
+				,"ksicNm" : "그 외 기타 분류 안된 상품 전문 소매업"
+				,"ctprvnCd" : "50"
+				,"ctprvnNm" : "제주특별자치도"
+				,"signguCd" : "50110"
+				,"signguNm" : "제주시"
+				,"adongCd" : "50110310"
+				,"adongNm" : "한경면"
+				,"ldongCd" : "5011031023"
+				,"ldongNm" : "한경면"
+				,"lnoCd" : "5011031023136110001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 3611
+				,"lnoSlno" : 1
+				,"lnoAdr" : "제주특별자치도 제주시 한경면 고산리 3611-1"
+				,"rdnmCd" : "501103349230"
+				,"rdnm" : "제주특별자치도 제주시 한경면 노을해안로"
+				,"bldMnno" : 1162
+				,"bldSlno" : ""
+				,"bldMngNo" : "5011031023036110001020059"
+				,"bldNm" : ""
+				,"rdnmAdr" : "제주특별자치도 제주시 한경면 노을해안로 1162"
+				,"oldZipcd" : "695941"
+				,"newZipcd" : "63008"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.165059247433
+				,"lat" : 33.3088603684596
+				}
+				,{
+				"bizesId" : "MA0106202511A1357585"
+				,"bizesNm" : "제피로스"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "50"
+				,"ctprvnNm" : "제주특별자치도"
+				,"signguCd" : "50110"
+				,"signguNm" : "제주시"
+				,"adongCd" : "50110310"
+				,"adongNm" : "한경면"
+				,"ldongCd" : "5011031022"
+				,"ldongNm" : "한경면"
+				,"lnoCd" : "5011031022145300000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 4530
+				,"lnoSlno" : ""
+				,"lnoAdr" : "제주특별자치도 제주시 한경면 용수리 4530"
+				,"rdnmCd" : "501103349206"
+				,"rdnm" : "제주특별자치도 제주시 한경면 한경해안로"
+				,"bldMnno" : 93
+				,"bldSlno" : 32
+				,"bldMngNo" : "5011031022145300000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "제주특별자치도 제주시 한경면 한경해안로 93-32"
+				,"oldZipcd" : "695946"
+				,"newZipcd" : "63009"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.169013811741
+				,"lat" : 33.3175872584215
+				}
+				,{
+				"bizesId" : "MA0106202511A0613329"
+				,"bizesNm" : "엘케이서비스"
+				,"brchNm" : ""
+				,"indsLclsCd" : "M1"
+				,"indsLclsNm" : "과학·기술"
+				,"indsMclsCd" : "M115"
+				,"indsMclsNm" : "기타 전문 과학"
+				,"indsSclsCd" : "M11502"
+				,"indsSclsNm" : "번역/통역 서비스업"
+				,"ksicCd" : "M73902"
+				,"ksicNm" : "번역 및 통역 서비스업"
+				,"ctprvnCd" : "50"
+				,"ctprvnNm" : "제주특별자치도"
+				,"signguCd" : "50110"
+				,"signguNm" : "제주시"
+				,"adongCd" : "50110310"
+				,"adongNm" : "한경면"
+				,"ldongCd" : "5011031023"
+				,"ldongNm" : "한경면"
+				,"lnoCd" : "5011031023128260006"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 2826
+				,"lnoSlno" : 6
+				,"lnoAdr" : "제주특별자치도 제주시 한경면 고산리 2826-6"
+				,"rdnmCd" : "501104847102"
+				,"rdnm" : "제주특별자치도 제주시 한경면 고산서2길"
+				,"bldMnno" : 12
+				,"bldSlno" : ""
+				,"bldMngNo" : "5011031023028260006015734"
+				,"bldNm" : ""
+				,"rdnmAdr" : "제주특별자치도 제주시 한경면 고산서2길 12"
+				,"oldZipcd" : "695941"
+				,"newZipcd" : "63008"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.178395354793
+				,"lat" : 33.3008529396348
+				}
+				,{
+				"bizesId" : "MA0106202511A2006464"
+				,"bizesNm" : "모두아"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "50"
+				,"ctprvnNm" : "제주특별자치도"
+				,"signguCd" : "50110"
+				,"signguNm" : "제주시"
+				,"adongCd" : "50110310"
+				,"adongNm" : "한경면"
+				,"ldongCd" : "5011031023"
+				,"ldongNm" : "한경면"
+				,"lnoCd" : "5011031023122000000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 2200
+				,"lnoSlno" : ""
+				,"lnoAdr" : "제주특별자치도 제주시 한경면 고산리 2200"
+				,"rdnmCd" : "501103349008"
+				,"rdnm" : "제주특별자치도 제주시 한경면 고산로"
+				,"bldMnno" : 18
+				,"bldSlno" : 1
+				,"bldMngNo" : "5011031023022000000020416"
+				,"bldNm" : ""
+				,"rdnmAdr" : "제주특별자치도 제주시 한경면 고산로 18-1"
+				,"oldZipcd" : "695941"
+				,"newZipcd" : "63008"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.179655807914
+				,"lat" : 33.3026915073826
+				}
+				,{
+				"bizesId" : "MA0106202511A1659651"
+				,"bizesNm" : "띠크"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I210"
+				,"indsMclsNm" : "기타 간이"
+				,"indsSclsCd" : "I21001"
+				,"indsSclsNm" : "빵/도넛"
+				,"ksicCd" : "I56191"
+				,"ksicNm" : "제과점업"
+				,"ctprvnCd" : "50"
+				,"ctprvnNm" : "제주특별자치도"
+				,"signguCd" : "50110"
+				,"signguNm" : "제주시"
+				,"adongCd" : "50110310"
+				,"adongNm" : "한경면"
+				,"ldongCd" : "5011031028"
+				,"ldongNm" : "한경면"
+				,"lnoCd" : "5011031028102670000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 267
+				,"lnoSlno" : ""
+				,"lnoAdr" : "제주특별자치도 제주시 한경면 신창리 267"
+				,"rdnmCd" : "501103349060"
+				,"rdnm" : "제주특별자치도 제주시 한경면 두신로"
+				,"bldMnno" : 73
+				,"bldSlno" : ""
+				,"bldMngNo" : "5011031028002690003017924"
+				,"bldNm" : ""
+				,"rdnmAdr" : "제주특별자치도 제주시 한경면 두신로 73"
+				,"oldZipcd" : "695944"
+				,"newZipcd" : "63002"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.182738582723
+				,"lat" : 33.3497208830518
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 5,
+		"totalCount" : 406	}
+}

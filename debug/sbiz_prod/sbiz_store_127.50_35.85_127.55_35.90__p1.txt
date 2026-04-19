@@ -1,0 +1,549 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA010120220807965551"
+				,"bizesNm" : "용평호수마을"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52720"
+				,"signguNm" : "진안군"
+				,"adongCd" : "52720340"
+				,"adongNm" : "상전면"
+				,"ldongCd" : "5272034026"
+				,"ldongNm" : "상전면"
+				,"lnoCd" : "5272034026101650000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 165
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전북특별자치도 진안군 상전면 용평리 165"
+				,"rdnmCd" : "527204622209"
+				,"rdnm" : "전북특별자치도 진안군 상전면 신연길"
+				,"bldMnno" : 3
+				,"bldSlno" : 6
+				,"bldMngNo" : "4572034026101650000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 진안군 상전면 신연길 3-6"
+				,"oldZipcd" : "567812"
+				,"newZipcd" : "55411"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.505570858109
+				,"lat" : 35.8770010647755
+				}
+				,{
+				"bizesId" : "MA0101202307A0001352"
+				,"bizesNm" : "글로벌아카데미협동조합"
+				,"brchNm" : ""
+				,"indsLclsCd" : "P1"
+				,"indsLclsNm" : "교육"
+				,"indsMclsCd" : "P107"
+				,"indsMclsNm" : "교육 지원"
+				,"indsSclsCd" : "P10799"
+				,"indsSclsNm" : "기타 교육지원 서비스업"
+				,"ksicCd" : "P85709"
+				,"ksicNm" : "기타 교육지원 서비스업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52720"
+				,"signguNm" : "진안군"
+				,"adongCd" : "52720320"
+				,"adongNm" : "안천면"
+				,"ldongCd" : "5272032023"
+				,"ldongNm" : "안천면"
+				,"lnoCd" : "5272032023109140005"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 914
+				,"lnoSlno" : 5
+				,"lnoAdr" : "전북특별자치도 진안군 안천면 신괴리 914-5"
+				,"rdnmCd" : "527203274057"
+				,"rdnm" : "전북특별자치도 진안군 안천면 진무로"
+				,"bldMnno" : 2744
+				,"bldSlno" : 20
+				,"bldMngNo" : "4572032023109140004000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 진안군 안천면 진무로 2744-20"
+				,"oldZipcd" : "567851"
+				,"newZipcd" : "55408"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.532381630105
+				,"lat" : 35.8821935339157
+				}
+				,{
+				"bizesId" : "MA0101202212A0051350"
+				,"bizesNm" : "함께따로여행사"
+				,"brchNm" : ""
+				,"indsLclsCd" : "N1"
+				,"indsLclsNm" : "시설관리·임대"
+				,"indsMclsCd" : "N105"
+				,"indsMclsNm" : "여행사·보조"
+				,"indsSclsCd" : "N10501"
+				,"indsSclsNm" : "여행사"
+				,"ksicCd" : "N75210"
+				,"ksicNm" : "여행사업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52720"
+				,"signguNm" : "진안군"
+				,"adongCd" : "52720320"
+				,"adongNm" : "안천면"
+				,"ldongCd" : "5272032023"
+				,"ldongNm" : "안천면"
+				,"lnoCd" : "5272032023109140005"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 914
+				,"lnoSlno" : 5
+				,"lnoAdr" : "전북특별자치도 진안군 안천면 신괴리 914-5"
+				,"rdnmCd" : "527203274057"
+				,"rdnm" : "전북특별자치도 진안군 안천면 진무로"
+				,"bldMnno" : 2744
+				,"bldSlno" : 20
+				,"bldMngNo" : "4572032023109140004000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 진안군 안천면 진무로 2744-20"
+				,"oldZipcd" : "567851"
+				,"newZipcd" : "55408"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.532381630105
+				,"lat" : 35.8821935339157
+				}
+				,{
+				"bizesId" : "MA0101202301A0094768"
+				,"bizesNm" : "부뚜막로컬푸드"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G205"
+				,"indsMclsNm" : "식료품 소매"
+				,"indsSclsCd" : "G20506"
+				,"indsSclsNm" : "채소/과일 소매업"
+				,"ksicCd" : "G47215"
+				,"ksicNm" : "채소, 과실 및 뿌리작물 소매업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52720"
+				,"signguNm" : "진안군"
+				,"adongCd" : "52720320"
+				,"adongNm" : "안천면"
+				,"ldongCd" : "5272032023"
+				,"ldongNm" : "안천면"
+				,"lnoCd" : "5272032023109080003"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 908
+				,"lnoSlno" : 3
+				,"lnoAdr" : "전북특별자치도 진안군 안천면 신괴리 908-3"
+				,"rdnmCd" : "527203274057"
+				,"rdnm" : "전북특별자치도 진안군 안천면 진무로"
+				,"bldMnno" : 2744
+				,"bldSlno" : 12
+				,"bldMngNo" : "4572032023109080003031417"
+				,"bldNm" : "부뚜막"
+				,"rdnmAdr" : "전북특별자치도 진안군 안천면 진무로 2744-12"
+				,"oldZipcd" : "567851"
+				,"newZipcd" : "55408"
+				,"dongNo" : ""
+				,"flrNo" : "1"
+				,"hoNo" : ""
+				,"lon" : 127.533488124654
+				,"lat" : 35.8820534387044
+				}
+				,{
+				"bizesId" : "MA010120220807229256"
+				,"bizesNm" : "부뚜막"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52720"
+				,"signguNm" : "진안군"
+				,"adongCd" : "52720320"
+				,"adongNm" : "안천면"
+				,"ldongCd" : "5272032023"
+				,"ldongNm" : "안천면"
+				,"lnoCd" : "5272032023109080003"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 908
+				,"lnoSlno" : 3
+				,"lnoAdr" : "전북특별자치도 진안군 안천면 신괴리 908-3"
+				,"rdnmCd" : "527203274057"
+				,"rdnm" : "전북특별자치도 진안군 안천면 진무로"
+				,"bldMnno" : 2744
+				,"bldSlno" : 12
+				,"bldMngNo" : "4572032023109080003031417"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 진안군 안천면 진무로 2744-12"
+				,"oldZipcd" : "567851"
+				,"newZipcd" : "55408"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.533488124654
+				,"lat" : 35.8820534387044
+				}
+				,{
+				"bizesId" : "MA010120220803426296"
+				,"bizesNm" : "제청농원"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G205"
+				,"indsMclsNm" : "식료품 소매"
+				,"indsSclsCd" : "G20506"
+				,"indsSclsNm" : "채소/과일 소매업"
+				,"ksicCd" : "G47215"
+				,"ksicNm" : "채소, 과실 및 뿌리작물 소매업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52720"
+				,"signguNm" : "진안군"
+				,"adongCd" : "52720320"
+				,"adongNm" : "안천면"
+				,"ldongCd" : "5272032023"
+				,"ldongNm" : "안천면"
+				,"lnoCd" : "5272032023103760003"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 376
+				,"lnoSlno" : 3
+				,"lnoAdr" : "전북특별자치도 진안군 안천면 신괴리 376-3"
+				,"rdnmCd" : "527204622339"
+				,"rdnm" : "전북특별자치도 진안군 안천면 직동길"
+				,"bldMnno" : 11
+				,"bldSlno" : 54
+				,"bldMngNo" : "4572032023103760003027258"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 진안군 안천면 직동길 11-54"
+				,"oldZipcd" : "567851"
+				,"newZipcd" : "55408"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.538240817294
+				,"lat" : 35.8905038763291
+				}
+				,{
+				"bizesId" : "MA010120220810095097"
+				,"bizesNm" : "일루미네이션"
+				,"brchNm" : ""
+				,"indsLclsCd" : "N1"
+				,"indsLclsNm" : "시설관리·임대"
+				,"indsMclsCd" : "N108"
+				,"indsMclsNm" : "기타 사업 서비스"
+				,"indsSclsCd" : "N10802"
+				,"indsSclsNm" : "전시/컨벤션/행사 대행 서비스업"
+				,"ksicCd" : "N75992"
+				,"ksicNm" : "전시, 컨벤션 및 행사 대행업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52720"
+				,"signguNm" : "진안군"
+				,"adongCd" : "52720320"
+				,"adongNm" : "안천면"
+				,"ldongCd" : "5272032023"
+				,"ldongNm" : "안천면"
+				,"lnoCd" : "5272032023104410000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 441
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전북특별자치도 진안군 안천면 신괴리 441"
+				,"rdnmCd" : "527204622339"
+				,"rdnm" : "전북특별자치도 진안군 안천면 직동길"
+				,"bldMnno" : 11
+				,"bldSlno" : 18
+				,"bldMngNo" : "4572032023104410000000002"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 진안군 안천면 직동길 11-18"
+				,"oldZipcd" : "567851"
+				,"newZipcd" : "55408"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.538693215664
+				,"lat" : 35.8886182610152
+				}
+				,{
+				"bizesId" : "MA010120220809649426"
+				,"bizesNm" : "청송가든"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52720"
+				,"signguNm" : "진안군"
+				,"adongCd" : "52720320"
+				,"adongNm" : "안천면"
+				,"ldongCd" : "5272032023"
+				,"ldongNm" : "안천면"
+				,"lnoCd" : "5272032023105130006"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 513
+				,"lnoSlno" : 6
+				,"lnoAdr" : "전북특별자치도 진안군 안천면 신괴리 513-6"
+				,"rdnmCd" : "527204622339"
+				,"rdnm" : "전북특별자치도 진안군 안천면 직동길"
+				,"bldMnno" : 8
+				,"bldSlno" : ""
+				,"bldMngNo" : "4572032023105130006027273"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 진안군 안천면 직동길 8"
+				,"oldZipcd" : "567851"
+				,"newZipcd" : "55408"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.540726032996
+				,"lat" : 35.8878791236852
+				}
+				,{
+				"bizesId" : "MA0101202308A0046222"
+				,"bizesNm" : "안용건설"
+				,"brchNm" : ""
+				,"indsLclsCd" : "N1"
+				,"indsLclsNm" : "시설관리·임대"
+				,"indsMclsCd" : "N103"
+				,"indsMclsNm" : "조경·유지"
+				,"indsSclsCd" : "N10301"
+				,"indsSclsNm" : "조경 유지·관리 서비스업"
+				,"ksicCd" : "N74300"
+				,"ksicNm" : "조경관리 및 유지 서비스업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52720"
+				,"signguNm" : "진안군"
+				,"adongCd" : "52720320"
+				,"adongNm" : "안천면"
+				,"ldongCd" : "5272032021"
+				,"ldongNm" : "안천면"
+				,"lnoCd" : "5272032021111630029"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 1163
+				,"lnoSlno" : 29
+				,"lnoAdr" : "전북특별자치도 진안군 안천면 노성리 1163-29"
+				,"rdnmCd" : "527203274057"
+				,"rdnm" : "전북특별자치도 진안군 안천면 진무로"
+				,"bldMnno" : 2926
+				,"bldSlno" : ""
+				,"bldMngNo" : "4572032021111630027031037"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 진안군 안천면 진무로 2926"
+				,"oldZipcd" : "567851"
+				,"newZipcd" : "55407"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.546444982912
+				,"lat" : 35.8933237513425
+				}
+				,{
+				"bizesId" : "MA0101202411A0037035"
+				,"bizesNm" : "노성휴게소"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I210"
+				,"indsMclsNm" : "기타 간이"
+				,"indsSclsCd" : "I21099"
+				,"indsSclsNm" : "그 외 기타 간이 음식점"
+				,"ksicCd" : "I56199"
+				,"ksicNm" : "간이 음식 포장 판매 전문점"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52720"
+				,"signguNm" : "진안군"
+				,"adongCd" : "52720320"
+				,"adongNm" : "안천면"
+				,"ldongCd" : "5272032021"
+				,"ldongNm" : "안천면"
+				,"lnoCd" : "5272032021111630002"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 1163
+				,"lnoSlno" : 2
+				,"lnoAdr" : "전북특별자치도 진안군 안천면 노성리 1163-2"
+				,"rdnmCd" : "527203274057"
+				,"rdnm" : "전북특별자치도 진안군 안천면 진무로"
+				,"bldMnno" : 2928
+				,"bldSlno" : ""
+				,"bldMngNo" : "4572032021111630002028328"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 진안군 안천면 진무로 2928"
+				,"oldZipcd" : "567851"
+				,"newZipcd" : "55407"
+				,"dongNo" : ""
+				,"flrNo" : "1"
+				,"hoNo" : ""
+				,"lon" : 127.546712654617
+				,"lat" : 35.8935929042284
+				}
+				,{
+				"bizesId" : "MA0101202310A0063524"
+				,"bizesNm" : "고향마루"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I202"
+				,"indsMclsNm" : "중식"
+				,"indsSclsCd" : "I20201"
+				,"indsSclsNm" : "중국집"
+				,"ksicCd" : "I56121"
+				,"ksicNm" : "중식 음식점업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52720"
+				,"signguNm" : "진안군"
+				,"adongCd" : "52720320"
+				,"adongNm" : "안천면"
+				,"ldongCd" : "5272032021"
+				,"ldongNm" : "안천면"
+				,"lnoCd" : "5272032021111850000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 1185
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전북특별자치도 진안군 안천면 노성리 1185"
+				,"rdnmCd" : "527203274057"
+				,"rdnm" : "전북특별자치도 진안군 안천면 진무로"
+				,"bldMnno" : 2936
+				,"bldSlno" : 2
+				,"bldMngNo" : "4572032021111850000028411"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 진안군 안천면 진무로 2936-2"
+				,"oldZipcd" : "567851"
+				,"newZipcd" : "55407"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.547236927827
+				,"lat" : 35.894131258594
+				}
+				,{
+				"bizesId" : "MA010120220807240616"
+				,"bizesNm" : "포라미용실"
+				,"brchNm" : ""
+				,"indsLclsCd" : "S2"
+				,"indsLclsNm" : "수리·개인"
+				,"indsMclsCd" : "S207"
+				,"indsMclsNm" : "이용·미용"
+				,"indsSclsCd" : "S20701"
+				,"indsSclsNm" : "미용실"
+				,"ksicCd" : "S96112"
+				,"ksicNm" : "두발 미용업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52720"
+				,"signguNm" : "진안군"
+				,"adongCd" : "52720320"
+				,"adongNm" : "안천면"
+				,"ldongCd" : "5272032021"
+				,"ldongNm" : "안천면"
+				,"lnoCd" : "5272032021112030045"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 1203
+				,"lnoSlno" : 45
+				,"lnoAdr" : "전북특별자치도 진안군 안천면 노성리 1203-45"
+				,"rdnmCd" : "527204622212"
+				,"rdnm" : "전북특별자치도 진안군 안천면 안기길"
+				,"bldMnno" : 10
+				,"bldSlno" : ""
+				,"bldMngNo" : "4572032021112030045027542"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 진안군 안천면 안기길 10"
+				,"oldZipcd" : "567851"
+				,"newZipcd" : "55407"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.548627974697
+				,"lat" : 35.8950802229996
+				}
+				,{
+				"bizesId" : "MA010120220807225548"
+				,"bizesNm" : "보아양봉건강원"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G205"
+				,"indsMclsNm" : "식료품 소매"
+				,"indsSclsCd" : "G20508"
+				,"indsSclsNm" : "건강보조식품 소매업"
+				,"ksicCd" : "C10796"
+				,"ksicNm" : "건강 보조용 액화식품 제조업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52720"
+				,"signguNm" : "진안군"
+				,"adongCd" : "52720320"
+				,"adongNm" : "안천면"
+				,"ldongCd" : "5272032021"
+				,"ldongNm" : "안천면"
+				,"lnoCd" : "5272032021116450007"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 1645
+				,"lnoSlno" : 7
+				,"lnoAdr" : "전북특별자치도 진안군 안천면 노성리 1645-7"
+				,"rdnmCd" : "527204622127"
+				,"rdnm" : "전북특별자치도 진안군 안천면 보한1길"
+				,"bldMnno" : 10
+				,"bldSlno" : 6
+				,"bldMngNo" : "4572032021116450007027871"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 진안군 안천면 보한1길 10-6"
+				,"oldZipcd" : "567851"
+				,"newZipcd" : "55407"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.549368884563
+				,"lat" : 35.8981140023811
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 1,
+		"totalCount" : 13	}
+}

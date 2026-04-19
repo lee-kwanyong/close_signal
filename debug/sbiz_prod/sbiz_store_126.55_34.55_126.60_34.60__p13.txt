@@ -1,0 +1,139 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA0106202511A1701656"
+				,"bizesNm" : "헤어지"
+				,"brchNm" : ""
+				,"indsLclsCd" : "S2"
+				,"indsLclsNm" : "수리·개인"
+				,"indsMclsCd" : "S207"
+				,"indsMclsNm" : "이용·미용"
+				,"indsSclsCd" : "S20701"
+				,"indsSclsNm" : "미용실"
+				,"ksicCd" : "S96111"
+				,"ksicNm" : "이용업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46820"
+				,"signguNm" : "해남군"
+				,"adongCd" : "46820250"
+				,"adongNm" : "해남읍"
+				,"ldongCd" : "4682025036"
+				,"ldongNm" : "해남읍"
+				,"lnoCd" : "4682025036100910010"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 91
+				,"lnoSlno" : 10
+				,"lnoAdr" : "전라남도 해남군 해남읍 구교리 91-10"
+				,"rdnmCd" : "468204682046"
+				,"rdnm" : "전라남도 해남군 해남읍 구교3길"
+				,"bldMnno" : 11
+				,"bldSlno" : ""
+				,"bldMngNo" : "4682025036100910000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 해남군 해남읍 구교3길 11"
+				,"oldZipcd" : "536803"
+				,"newZipcd" : "59023"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.59229427853
+				,"lat" : 34.5777554880104
+				}
+				,{
+				"bizesId" : "MA0106202511A1657236"
+				,"bizesNm" : "수연가"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46820"
+				,"signguNm" : "해남군"
+				,"adongCd" : "46820250"
+				,"adongNm" : "해남읍"
+				,"ldongCd" : "4682025036"
+				,"ldongNm" : "해남읍"
+				,"lnoCd" : "4682025036103230000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 323
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 해남군 해남읍 구교리 323"
+				,"rdnmCd" : "468203294009"
+				,"rdnm" : "전라남도 해남군 해남읍 북부순환로"
+				,"bldMnno" : 158
+				,"bldSlno" : ""
+				,"bldMngNo" : "4682025036103230016000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 해남군 해남읍 북부순환로 158"
+				,"oldZipcd" : "536803"
+				,"newZipcd" : "59023"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.595279098422
+				,"lat" : 34.5757912720266
+				}
+				,{
+				"bizesId" : "MA0106202511A1302830"
+				,"bizesNm" : "차오름학원"
+				,"brchNm" : ""
+				,"indsLclsCd" : "P1"
+				,"indsLclsNm" : "교육"
+				,"indsMclsCd" : "P105"
+				,"indsMclsNm" : "일반 교육"
+				,"indsSclsCd" : "P10501"
+				,"indsSclsNm" : "입시·교과학원"
+				,"ksicCd" : "P85501"
+				,"ksicNm" : "일반 교과학원"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46820"
+				,"signguNm" : "해남군"
+				,"adongCd" : "46820250"
+				,"adongNm" : "해남읍"
+				,"ldongCd" : "4682025027"
+				,"ldongNm" : "해남읍"
+				,"lnoCd" : "4682025027102150006"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 215
+				,"lnoSlno" : 6
+				,"lnoAdr" : "전라남도 해남군 해남읍 수성리 215-6"
+				,"rdnmCd" : "468203294009"
+				,"rdnm" : "전라남도 해남군 해남읍 북부순환로"
+				,"bldMnno" : 143
+				,"bldSlno" : ""
+				,"bldMngNo" : "4682025027102150006000003"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 해남군 해남읍 북부순환로 143"
+				,"oldZipcd" : "536807"
+				,"newZipcd" : "59029"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.596481200289
+				,"lat" : 34.5751101587601
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 13,
+		"totalCount" : 1203	}
+}

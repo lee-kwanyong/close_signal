@@ -1,0 +1,262 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA010120220800557935"
+				,"bizesNm" : "화담"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52720"
+				,"signguNm" : "진안군"
+				,"adongCd" : "52720310"
+				,"adongNm" : "용담면"
+				,"ldongCd" : "5272031024"
+				,"ldongNm" : "용담면"
+				,"lnoCd" : "5272031024104230014"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 423
+				,"lnoSlno" : 14
+				,"lnoAdr" : "전북특별자치도 진안군 용담면 월계리 423-14"
+				,"rdnmCd" : "527203274045"
+				,"rdnm" : "전북특별자치도 진안군 용담면 진용로"
+				,"bldMnno" : 2627
+				,"bldSlno" : ""
+				,"bldMngNo" : "4572031024104230009031309"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 진안군 용담면 진용로 2627"
+				,"oldZipcd" : "567842"
+				,"newZipcd" : "55404"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.512591008318
+				,"lat" : 35.9421847528705
+				}
+				,{
+				"bizesId" : "MA010120220807277331"
+				,"bizesNm" : "용담댐우안매점"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G204"
+				,"indsMclsNm" : "종합 소매"
+				,"indsSclsCd" : "G20404"
+				,"indsSclsNm" : "슈퍼마켓"
+				,"ksicCd" : "G47129"
+				,"ksicNm" : "기타 음ㆍ식료품 위주 종합 소매업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52720"
+				,"signguNm" : "진안군"
+				,"adongCd" : "52720320"
+				,"adongNm" : "안천면"
+				,"ldongCd" : "5272032024"
+				,"ldongNm" : "안천면"
+				,"lnoCd" : "5272032024111380002"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 1138
+				,"lnoSlno" : 2
+				,"lnoAdr" : "전북특별자치도 진안군 안천면 삼락리 1138-2"
+				,"rdnmCd" : "527203274028"
+				,"rdnm" : "전북특별자치도 진안군 안천면 안용로"
+				,"bldMnno" : 747
+				,"bldSlno" : ""
+				,"bldMngNo" : "4572032024111360003031794"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 진안군 안천면 안용로 747"
+				,"oldZipcd" : "567852"
+				,"newZipcd" : "55406"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.528491337879
+				,"lat" : 35.9450087486277
+				}
+				,{
+				"bizesId" : "MA010120220807396556"
+				,"bizesNm" : "용담하늘팬션앤오토캠핑장"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10104"
+				,"indsSclsNm" : "캠핑/글램핑"
+				,"ksicCd" : "I55109"
+				,"ksicNm" : "기타 일반 및 생활 숙박시설 운영업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52720"
+				,"signguNm" : "진안군"
+				,"adongCd" : "52720320"
+				,"adongNm" : "안천면"
+				,"ldongCd" : "5272032024"
+				,"ldongNm" : "안천면"
+				,"lnoCd" : "5272032024110580002"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 1058
+				,"lnoSlno" : 2
+				,"lnoAdr" : "전북특별자치도 진안군 안천면 삼락리 1058-2"
+				,"rdnmCd" : "527203274028"
+				,"rdnm" : "전북특별자치도 진안군 안천면 안용로"
+				,"bldMnno" : 539
+				,"bldSlno" : ""
+				,"bldMngNo" : "4572032024110580002027432"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 진안군 안천면 안용로 539"
+				,"oldZipcd" : "567852"
+				,"newZipcd" : "55406"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.529710406158
+				,"lat" : 35.9366940287925
+				}
+				,{
+				"bizesId" : "MA010120220807960742"
+				,"bizesNm" : "승금가든"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52720"
+				,"signguNm" : "진안군"
+				,"adongCd" : "52720320"
+				,"adongNm" : "안천면"
+				,"ldongCd" : "5272032024"
+				,"ldongNm" : "안천면"
+				,"lnoCd" : "5272032024100870001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 87
+				,"lnoSlno" : 1
+				,"lnoAdr" : "전북특별자치도 진안군 안천면 삼락리 87-1"
+				,"rdnmCd" : "527203274028"
+				,"rdnm" : "전북특별자치도 진안군 안천면 안용로"
+				,"bldMnno" : 370
+				,"bldSlno" : ""
+				,"bldMngNo" : "4572032024100870001030861"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 진안군 안천면 안용로 370"
+				,"oldZipcd" : "567852"
+				,"newZipcd" : "55406"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.534867296389
+				,"lat" : 35.9224497204419
+				}
+				,{
+				"bizesId" : "MA010120220807966446"
+				,"bizesNm" : "미리못"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52720"
+				,"signguNm" : "진안군"
+				,"adongCd" : "52720320"
+				,"adongNm" : "안천면"
+				,"ldongCd" : "5272032024"
+				,"ldongNm" : "안천면"
+				,"lnoCd" : "5272032024111190003"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 1119
+				,"lnoSlno" : 3
+				,"lnoAdr" : "전북특별자치도 진안군 안천면 삼락리 1119-3"
+				,"rdnmCd" : "527204622338"
+				,"rdnm" : "전북특별자치도 진안군 안천면 지장산길"
+				,"bldMnno" : 25
+				,"bldSlno" : 4
+				,"bldMngNo" : "4572032024111190003027494"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 진안군 안천면 지장산길 25-4"
+				,"oldZipcd" : "567852"
+				,"newZipcd" : "55406"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.538424298881
+				,"lat" : 35.9404764780329
+				}
+				,{
+				"bizesId" : "MA010120220813718229"
+				,"bizesNm" : "사람과세상"
+				,"brchNm" : ""
+				,"indsLclsCd" : "M1"
+				,"indsLclsNm" : "과학·기술"
+				,"indsMclsCd" : "M112"
+				,"indsMclsNm" : "전문 디자인"
+				,"indsSclsCd" : "M11203"
+				,"indsSclsNm" : "시각 디자인업"
+				,"ksicCd" : "M73203"
+				,"ksicNm" : "시각 디자인업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52720"
+				,"signguNm" : "진안군"
+				,"adongCd" : "52720320"
+				,"adongNm" : "안천면"
+				,"ldongCd" : "5272032024"
+				,"ldongNm" : "안천면"
+				,"lnoCd" : "5272032024103770000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 377
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전북특별자치도 진안군 안천면 삼락리 377"
+				,"rdnmCd" : "527203274028"
+				,"rdnm" : "전북특별자치도 진안군 안천면 안용로"
+				,"bldMnno" : 253
+				,"bldSlno" : ""
+				,"bldMngNo" : "4572032024103770000031435"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 진안군 안천면 안용로 253"
+				,"oldZipcd" : "567852"
+				,"newZipcd" : "55406"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.538601188172
+				,"lat" : 35.9126366180903
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 1,
+		"totalCount" : 6	}
+}

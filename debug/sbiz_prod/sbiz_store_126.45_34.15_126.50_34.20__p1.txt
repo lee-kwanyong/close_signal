@@ -1,0 +1,221 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA010120220806038948"
+				,"bizesNm" : "청정파래"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G205"
+				,"indsMclsNm" : "식료품 소매"
+				,"indsSclsCd" : "G20504"
+				,"indsSclsNm" : "건어물/젓갈 소매업"
+				,"ksicCd" : "G47213"
+				,"ksicNm" : "건어물 및 젓갈류 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46890"
+				,"signguNm" : "완도군"
+				,"adongCd" : "46890256"
+				,"adongNm" : "노화읍"
+				,"ldongCd" : "4689025630"
+				,"ldongNm" : "노화읍"
+				,"lnoCd" : "4689025630103810000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 381
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 완도군 노화읍 방서리 381"
+				,"rdnmCd" : "468904700245"
+				,"rdnm" : "전라남도 완도군 노화읍 서넙도30번길"
+				,"bldMnno" : 26
+				,"bldSlno" : 4
+				,"bldMngNo" : "4689025630103810000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 완도군 노화읍 서넙도30번길 26-4"
+				,"oldZipcd" : "537843"
+				,"newZipcd" : "59159"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.483293158261
+				,"lat" : 34.1874155119911
+				}
+				,{
+				"bizesId" : "MA010120220807724473"
+				,"bizesNm" : "땡기네식품"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G205"
+				,"indsMclsNm" : "식료품 소매"
+				,"indsSclsCd" : "G20509"
+				,"indsSclsNm" : "반찬/식료품 소매업"
+				,"ksicCd" : "G47218"
+				,"ksicNm" : "조리 반찬류 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46890"
+				,"signguNm" : "완도군"
+				,"adongCd" : "46890256"
+				,"adongNm" : "노화읍"
+				,"ldongCd" : "4689025630"
+				,"ldongNm" : "노화읍"
+				,"lnoCd" : "4689025630104080002"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 408
+				,"lnoSlno" : 2
+				,"lnoAdr" : "전라남도 완도군 노화읍 방서리 408-2"
+				,"rdnmCd" : "468904700245"
+				,"rdnm" : "전라남도 완도군 노화읍 서넙도30번길"
+				,"bldMnno" : 23
+				,"bldSlno" : ""
+				,"bldMngNo" : "4689025630104080002000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 완도군 노화읍 서넙도30번길 23"
+				,"oldZipcd" : "537843"
+				,"newZipcd" : "59159"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.483671950037
+				,"lat" : 34.1875613449872
+				}
+				,{
+				"bizesId" : "MA010120220813194846"
+				,"bizesNm" : "블루"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G204"
+				,"indsMclsNm" : "종합 소매"
+				,"indsSclsCd" : "G20404"
+				,"indsSclsNm" : "슈퍼마켓"
+				,"ksicCd" : "G47129"
+				,"ksicNm" : "기타 음ㆍ식료품 위주 종합 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46890"
+				,"signguNm" : "완도군"
+				,"adongCd" : "46890256"
+				,"adongNm" : "노화읍"
+				,"ldongCd" : "4689025630"
+				,"ldongNm" : "노화읍"
+				,"lnoCd" : "4689025630103470000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 347
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 완도군 노화읍 방서리 347"
+				,"rdnmCd" : "468904700245"
+				,"rdnm" : "전라남도 완도군 노화읍 서넙도30번길"
+				,"bldMnno" : 11
+				,"bldSlno" : ""
+				,"bldMngNo" : "4689025630103470000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 완도군 노화읍 서넙도30번길 11"
+				,"oldZipcd" : "537843"
+				,"newZipcd" : "59159"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.484372610578
+				,"lat" : 34.188294498409
+				}
+				,{
+				"bizesId" : "MA010120220807809827"
+				,"bizesNm" : "마을슈퍼"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G204"
+				,"indsMclsNm" : "종합 소매"
+				,"indsSclsCd" : "G20404"
+				,"indsSclsNm" : "슈퍼마켓"
+				,"ksicCd" : "G47129"
+				,"ksicNm" : "기타 음ㆍ식료품 위주 종합 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46890"
+				,"signguNm" : "완도군"
+				,"adongCd" : "46890256"
+				,"adongNm" : "노화읍"
+				,"ldongCd" : "4689025630"
+				,"ldongNm" : "노화읍"
+				,"lnoCd" : "4689025630101400000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 140
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 완도군 노화읍 방서리 140"
+				,"rdnmCd" : "468904700103"
+				,"rdnm" : "전라남도 완도군 노화읍 넙도길"
+				,"bldMnno" : 392
+				,"bldSlno" : 1
+				,"bldMngNo" : "4689025630101400000029070"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 완도군 노화읍 넙도길 392-1"
+				,"oldZipcd" : "537843"
+				,"newZipcd" : "59159"
+				,"dongNo" : ""
+				,"flrNo" : "1"
+				,"hoNo" : ""
+				,"lon" : 126.494840495226
+				,"lat" : 34.1829290967555
+				}
+				,{
+				"bizesId" : "MA010120220807807785"
+				,"bizesNm" : "방축상회"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G204"
+				,"indsMclsNm" : "종합 소매"
+				,"indsSclsCd" : "G20404"
+				,"indsSclsNm" : "슈퍼마켓"
+				,"ksicCd" : "G47129"
+				,"ksicNm" : "기타 음ㆍ식료품 위주 종합 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46890"
+				,"signguNm" : "완도군"
+				,"adongCd" : "46890256"
+				,"adongNm" : "노화읍"
+				,"ldongCd" : "4689025630"
+				,"ldongNm" : "노화읍"
+				,"lnoCd" : "4689025630101400000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 140
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 완도군 노화읍 방서리 140"
+				,"rdnmCd" : "468904700103"
+				,"rdnm" : "전라남도 완도군 노화읍 넙도길"
+				,"bldMnno" : 392
+				,"bldSlno" : 1
+				,"bldMngNo" : "4689025630101400000029070"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 완도군 노화읍 넙도길 392-1"
+				,"oldZipcd" : "537843"
+				,"newZipcd" : "59159"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.494840495226
+				,"lat" : 34.1829290967555
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 1,
+		"totalCount" : 5	}
+}

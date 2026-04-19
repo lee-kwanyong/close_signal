@@ -1,0 +1,344 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA010120220811891780"
+				,"bizesNm" : "키즈봉봉"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G209"
+				,"indsMclsNm" : "섬유·의복·신발 소매"
+				,"indsSclsCd" : "G20905"
+				,"indsSclsNm" : "기타 의류 소매업"
+				,"ksicCd" : "G47419"
+				,"ksicNm" : "기타 의복 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46150"
+				,"signguNm" : "순천시"
+				,"adongCd" : "46150400"
+				,"adongNm" : "상사면"
+				,"ldongCd" : "4615040024"
+				,"ldongNm" : "상사면"
+				,"lnoCd" : "4615040024103190002"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 319
+				,"lnoSlno" : 2
+				,"lnoAdr" : "전라남도 순천시 상사면 도월리 319-2"
+				,"rdnmCd" : "461504649339"
+				,"rdnm" : "전라남도 순천시 상사면 미곡길"
+				,"bldMnno" : 87
+				,"bldSlno" : ""
+				,"bldMngNo" : "4615040024103190002070647"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 순천시 상사면 미곡길 87"
+				,"oldZipcd" : "540861"
+				,"newZipcd" : "57919"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.400643485396
+				,"lat" : 34.9800234205494
+				}
+				,{
+				"bizesId" : "MA010120220802587565"
+				,"bizesNm" : "상사호매점"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G204"
+				,"indsMclsNm" : "종합 소매"
+				,"indsSclsCd" : "G20404"
+				,"indsSclsNm" : "슈퍼마켓"
+				,"ksicCd" : "G47129"
+				,"ksicNm" : "기타 음ㆍ식료품 위주 종합 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46150"
+				,"signguNm" : "순천시"
+				,"adongCd" : "46150400"
+				,"adongNm" : "상사면"
+				,"ldongCd" : "4615040023"
+				,"ldongNm" : "상사면"
+				,"lnoCd" : "4615040023106100002"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 610
+				,"lnoSlno" : 2
+				,"lnoAdr" : "전라남도 순천시 상사면 용계리 610-2"
+				,"rdnmCd" : "461504649452"
+				,"rdnm" : "전라남도 순천시 상사면 상사호길"
+				,"bldMnno" : 553
+				,"bldSlno" : ""
+				,"bldMngNo" : "4615040023106100003026129"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 순천시 상사면 상사호길 553"
+				,"oldZipcd" : "540861"
+				,"newZipcd" : "57919"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.416563733028
+				,"lat" : 34.9512428565639
+				}
+				,{
+				"bizesId" : "MA010120220807845581"
+				,"bizesNm" : "여주도예"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G212"
+				,"indsMclsNm" : "기타 생활용품 소매"
+				,"indsSclsCd" : "G21202"
+				,"indsSclsNm" : "주방/가정용품 소매업"
+				,"ksicCd" : "G47592"
+				,"ksicNm" : "주방용품 및 가정용 유리, 요업제품 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46150"
+				,"signguNm" : "순천시"
+				,"adongCd" : "46150400"
+				,"adongNm" : "상사면"
+				,"ldongCd" : "4615040023"
+				,"ldongNm" : "상사면"
+				,"lnoCd" : "4615040023101690000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 169
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 순천시 상사면 용계리 169"
+				,"rdnmCd" : "461504649742"
+				,"rdnm" : "전라남도 순천시 상사면 용계길"
+				,"bldMnno" : 58
+				,"bldSlno" : ""
+				,"bldMngNo" : "4615040023101690000049032"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 순천시 상사면 용계길 58"
+				,"oldZipcd" : "540861"
+				,"newZipcd" : "57919"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.423615935758
+				,"lat" : 34.9537333229982
+				}
+				,{
+				"bizesId" : "MA0101202210A0098292"
+				,"bizesNm" : "케이워터기술주암댐사업소"
+				,"brchNm" : ""
+				,"indsLclsCd" : "N1"
+				,"indsLclsNm" : "시설관리·임대"
+				,"indsMclsCd" : "N101"
+				,"indsMclsNm" : "시설관리"
+				,"indsSclsCd" : "N10101"
+				,"indsSclsNm" : "사업시설 유지·관리 서비스업"
+				,"ksicCd" : "N74100"
+				,"ksicNm" : "사업시설 유지ㆍ관리 서비스업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46150"
+				,"signguNm" : "순천시"
+				,"adongCd" : "46150400"
+				,"adongNm" : "상사면"
+				,"ldongCd" : "4615040023"
+				,"ldongNm" : "상사면"
+				,"lnoCd" : "4615040023201090001"
+				,"plotSctCd" : "2"
+				,"plotSctNm" : "산"
+				,"lnoMnno" : 109
+				,"lnoSlno" : 1
+				,"lnoAdr" : "전라남도 순천시 상사면 용계리 산 109-1"
+				,"rdnmCd" : "461504649742"
+				,"rdnm" : "전라남도 순천시 상사면 용계길"
+				,"bldMnno" : 8
+				,"bldSlno" : ""
+				,"bldMngNo" : "4615040023201090001035771"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 순천시 상사면 용계길 8"
+				,"oldZipcd" : "540861"
+				,"newZipcd" : "57919"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.424454832166
+				,"lat" : 34.9529371783981
+				}
+				,{
+				"bizesId" : "MA010120220812965520"
+				,"bizesNm" : "청산양봉원"
+				,"brchNm" : ""
+				,"indsLclsCd" : "N1"
+				,"indsLclsNm" : "시설관리·임대"
+				,"indsMclsCd" : "N107"
+				,"indsMclsNm" : "사무 지원"
+				,"indsSclsCd" : "N10799"
+				,"indsSclsNm" : "기타 사무 지원 서비스업"
+				,"ksicCd" : "N75919"
+				,"ksicNm" : "기타 사무 지원 서비스업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46150"
+				,"signguNm" : "순천시"
+				,"adongCd" : "46150515"
+				,"adongNm" : "향동"
+				,"ldongCd" : "4615010100"
+				,"ldongNm" : "삼거동"
+				,"lnoCd" : "4615010100101220001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 122
+				,"lnoSlno" : 1
+				,"lnoAdr" : "전라남도 순천시 삼거동 122-1"
+				,"rdnmCd" : "461504649756"
+				,"rdnm" : "전라남도 순천시 용수동길"
+				,"bldMnno" : 598
+				,"bldSlno" : 57
+				,"bldMngNo" : "4615010100101220001000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 순천시 용수동길 598-57"
+				,"oldZipcd" : "540020"
+				,"newZipcd" : "57921"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.428083723361
+				,"lat" : 34.9833910704088
+				}
+				,{
+				"bizesId" : "MA010120220809954850"
+				,"bizesNm" : "청운가든"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46150"
+				,"signguNm" : "순천시"
+				,"adongCd" : "46150400"
+				,"adongNm" : "상사면"
+				,"ldongCd" : "4615040021"
+				,"ldongNm" : "상사면"
+				,"lnoCd" : "4615040021107230002"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 723
+				,"lnoSlno" : 2
+				,"lnoAdr" : "전라남도 순천시 상사면 흘산리 723-2"
+				,"rdnmCd" : "461504649452"
+				,"rdnm" : "전라남도 순천시 상사면 상사호길"
+				,"bldMnno" : 452
+				,"bldSlno" : ""
+				,"bldMngNo" : "4615040021107230001048493"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 순천시 상사면 상사호길 452"
+				,"oldZipcd" : "540861"
+				,"newZipcd" : "57919"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.440281754393
+				,"lat" : 34.9501766971117
+				}
+				,{
+				"bizesId" : "MA010120220807868562"
+				,"bizesNm" : "소나무산장상회"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20107"
+				,"indsSclsNm" : "돼지고기 구이/찜"
+				,"ksicCd" : "I56113"
+				,"ksicNm" : "한식 육류 요리 전문점"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46150"
+				,"signguNm" : "순천시"
+				,"adongCd" : "46150515"
+				,"adongNm" : "향동"
+				,"ldongCd" : "4615010200"
+				,"ldongNm" : "와룡동"
+				,"lnoCd" : "4615010200105790000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 579
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 순천시 와룡동 579"
+				,"rdnmCd" : "461504649756"
+				,"rdnm" : "전라남도 순천시 용수동길"
+				,"bldMnno" : 345
+				,"bldSlno" : ""
+				,"bldMngNo" : "4615010200105790000008814"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 순천시 용수동길 345"
+				,"oldZipcd" : "540010"
+				,"newZipcd" : "57921"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.442716542437
+				,"lat" : 34.9693221755156
+				}
+				,{
+				"bizesId" : "MA010120220808268751"
+				,"bizesNm" : "워너필"
+				,"brchNm" : ""
+				,"indsLclsCd" : "P1"
+				,"indsLclsNm" : "교육"
+				,"indsMclsCd" : "P106"
+				,"indsMclsNm" : "기타 교육"
+				,"indsSclsCd" : "P10603"
+				,"indsSclsNm" : "요가/필라테스 학원"
+				,"ksicCd" : "P85612"
+				,"ksicNm" : "기타 스포츠 교육기관"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46150"
+				,"signguNm" : "순천시"
+				,"adongCd" : "46150515"
+				,"adongNm" : "향동"
+				,"ldongCd" : "4615010200"
+				,"ldongNm" : "와룡동"
+				,"lnoCd" : "4615010200105850001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 585
+				,"lnoSlno" : 1
+				,"lnoAdr" : "전라남도 순천시 와룡동 585-1"
+				,"rdnmCd" : "461504649756"
+				,"rdnm" : "전라남도 순천시 용수동길"
+				,"bldMnno" : 335
+				,"bldSlno" : 2
+				,"bldMngNo" : "4615010200105850000076195"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 순천시 용수동길 335-2"
+				,"oldZipcd" : "540010"
+				,"newZipcd" : "57921"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.443163741164
+				,"lat" : 34.9689960480799
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 1,
+		"totalCount" : 8	}
+}

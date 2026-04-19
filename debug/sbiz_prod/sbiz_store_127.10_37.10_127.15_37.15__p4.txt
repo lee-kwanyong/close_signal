@@ -1,0 +1,303 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA0106202510A1712094"
+				,"bizesNm" : "갓고다"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G219"
+				,"indsMclsNm" : "식물 소매"
+				,"indsSclsCd" : "G21901"
+				,"indsSclsNm" : "꽃집"
+				,"ksicCd" : "G47851"
+				,"ksicNm" : "화초 및 식물 소매업"
+				,"ctprvnCd" : "41"
+				,"ctprvnNm" : "경기도"
+				,"signguCd" : "41461"
+				,"signguNm" : "용인시 처인구"
+				,"adongCd" : "41461259"
+				,"adongNm" : "남사읍"
+				,"ldongCd" : "4146125924"
+				,"ldongNm" : "남사읍"
+				,"lnoCd" : "4146125924107570227"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 757
+				,"lnoSlno" : 227
+				,"lnoAdr" : "경기도 용인시 처인구 남사읍 봉명리 757-227"
+				,"rdnmCd" : "414613203124"
+				,"rdnm" : "경기도 용인시 처인구 남사읍 통삼로"
+				,"bldMnno" : 16
+				,"bldSlno" : 18
+				,"bldMngNo" : "4146132024107570227000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "경기도 용인시 처인구 남사읍 통삼로 16-18"
+				,"oldZipcd" : "449882"
+				,"newZipcd" : "17118"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.117945161749
+				,"lat" : 37.1053223890209
+				}
+				,{
+				"bizesId" : "MA0106202510A0790795"
+				,"bizesNm" : "런던로스트볼장지ic점"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G213"
+				,"indsMclsNm" : "오락용품 소매"
+				,"indsSclsCd" : "G21304"
+				,"indsSclsNm" : "운동용품 소매업"
+				,"ksicCd" : "G47631"
+				,"ksicNm" : "운동 및 경기용품 소매업"
+				,"ctprvnCd" : "41"
+				,"ctprvnNm" : "경기도"
+				,"signguCd" : "41461"
+				,"signguNm" : "용인시 처인구"
+				,"adongCd" : "41461259"
+				,"adongNm" : "남사읍"
+				,"ldongCd" : "4146125923"
+				,"ldongNm" : "남사읍"
+				,"lnoCd" : "4146125923106290006"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 629
+				,"lnoSlno" : 6
+				,"lnoAdr" : "경기도 용인시 처인구 남사읍 통삼리 629-6"
+				,"rdnmCd" : "414613012069"
+				,"rdnm" : "경기도 용인시 처인구 남사읍 경기동로"
+				,"bldMnno" : 27
+				,"bldSlno" : ""
+				,"bldMngNo" : "4146132023106290006000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "경기도 용인시 처인구 남사읍 경기동로 27"
+				,"oldZipcd" : "449884"
+				,"newZipcd" : "17118"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.132667535782
+				,"lat" : 37.1482244347535
+				}
+				,{
+				"bizesId" : "MA0106202510A1603947"
+				,"bizesNm" : "남사꽃도매"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G219"
+				,"indsMclsNm" : "식물 소매"
+				,"indsSclsCd" : "G21901"
+				,"indsSclsNm" : "꽃집"
+				,"ksicCd" : "G47851"
+				,"ksicNm" : "화초 및 식물 소매업"
+				,"ctprvnCd" : "41"
+				,"ctprvnNm" : "경기도"
+				,"signguCd" : "41461"
+				,"signguNm" : "용인시 처인구"
+				,"adongCd" : "41461259"
+				,"adongNm" : "남사읍"
+				,"ldongCd" : "4146125925"
+				,"ldongNm" : "남사읍"
+				,"lnoCd" : "4146125925101350000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 135
+				,"lnoSlno" : ""
+				,"lnoAdr" : "경기도 용인시 처인구 남사읍 진목리 135"
+				,"rdnmCd" : "414613012056"
+				,"rdnm" : "경기도 용인시 처인구 남사읍 천덕산로"
+				,"bldMnno" : 295
+				,"bldSlno" : ""
+				,"bldMngNo" : "4146125925101350000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "경기도 용인시 처인구 남사읍 천덕산로 295"
+				,"oldZipcd" : "449881"
+				,"newZipcd" : "17124"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.136877740724
+				,"lat" : 37.1046622891208
+				}
+				,{
+				"bizesId" : "MA0106202509A2145389"
+				,"bizesNm" : "남사들꽃농원"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G219"
+				,"indsMclsNm" : "식물 소매"
+				,"indsSclsCd" : "G21901"
+				,"indsSclsNm" : "꽃집"
+				,"ksicCd" : "G47851"
+				,"ksicNm" : "화초 및 식물 소매업"
+				,"ctprvnCd" : "41"
+				,"ctprvnNm" : "경기도"
+				,"signguCd" : "41461"
+				,"signguNm" : "용인시 처인구"
+				,"adongCd" : "41461259"
+				,"adongNm" : "남사읍"
+				,"ldongCd" : "4146125925"
+				,"ldongNm" : "남사읍"
+				,"lnoCd" : "4146125925101440002"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 144
+				,"lnoSlno" : 2
+				,"lnoAdr" : "경기도 용인시 처인구 남사읍 진목리 144-2"
+				,"rdnmCd" : "414613012056"
+				,"rdnm" : "경기도 용인시 처인구 남사읍 천덕산로"
+				,"bldMnno" : 310
+				,"bldSlno" : 3
+				,"bldMngNo" : "4146125925101440002000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "경기도 용인시 처인구 남사읍 천덕산로 310-3"
+				,"oldZipcd" : "449881"
+				,"newZipcd" : "17124"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.136908474084
+				,"lat" : 37.1029862710967
+				}
+				,{
+				"bizesId" : "MA0106202510A2457638"
+				,"bizesNm" : "태강타이어"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G202"
+				,"indsMclsNm" : "자동차 부품 소매"
+				,"indsSclsCd" : "G20202"
+				,"indsSclsNm" : "자동차 부품 소매업"
+				,"ksicCd" : "G45219"
+				,"ksicNm" : "기타 자동차 신품 부품 및 내장품 판매업"
+				,"ctprvnCd" : "41"
+				,"ctprvnNm" : "경기도"
+				,"signguCd" : "41461"
+				,"signguNm" : "용인시 처인구"
+				,"adongCd" : "41461259"
+				,"adongNm" : "남사읍"
+				,"ldongCd" : "4146125922"
+				,"ldongNm" : "남사읍"
+				,"lnoCd" : "4146125922106960006"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 696
+				,"lnoSlno" : 6
+				,"lnoAdr" : "경기도 용인시 처인구 남사읍 북리 696-6"
+				,"rdnmCd" : "414613012069"
+				,"rdnm" : "경기도 용인시 처인구 남사읍 경기동로"
+				,"bldMnno" : 81
+				,"bldSlno" : ""
+				,"bldMngNo" : "4146132022106960006006560"
+				,"bldNm" : ""
+				,"rdnmAdr" : "경기도 용인시 처인구 남사읍 경기동로 81"
+				,"oldZipcd" : "449884"
+				,"newZipcd" : "17118"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.137199363751
+				,"lat" : 37.1457413625236
+				}
+				,{
+				"bizesId" : "MA0106202510A2358232"
+				,"bizesNm" : "북리이서방양념통닭"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I210"
+				,"indsMclsNm" : "기타 간이"
+				,"indsSclsCd" : "I21006"
+				,"indsSclsNm" : "치킨"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "41"
+				,"ctprvnNm" : "경기도"
+				,"signguCd" : "41461"
+				,"signguNm" : "용인시 처인구"
+				,"adongCd" : "41461259"
+				,"adongNm" : "남사읍"
+				,"ldongCd" : "4146125922"
+				,"ldongNm" : "남사읍"
+				,"lnoCd" : "4146125922106800015"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 680
+				,"lnoSlno" : 15
+				,"lnoAdr" : "경기도 용인시 처인구 남사읍 북리 680-15"
+				,"rdnmCd" : "414613012069"
+				,"rdnm" : "경기도 용인시 처인구 남사읍 경기동로"
+				,"bldMnno" : 125
+				,"bldSlno" : ""
+				,"bldMngNo" : "4146132022106800015007565"
+				,"bldNm" : ""
+				,"rdnmAdr" : "경기도 용인시 처인구 남사읍 경기동로 125"
+				,"oldZipcd" : "449884"
+				,"newZipcd" : "17118"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.141633744492
+				,"lat" : 37.1454838500785
+				}
+				,{
+				"bizesId" : "MA0106202511A0788424"
+				,"bizesNm" : "대동공업엔진총판"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G205"
+				,"indsMclsNm" : "식료품 소매"
+				,"indsSclsCd" : "G20502"
+				,"indsSclsNm" : "가축 사료 소매업"
+				,"ksicCd" : "G47211"
+				,"ksicNm" : "곡물, 곡분 및 가축 사료 소매업"
+				,"ctprvnCd" : "41"
+				,"ctprvnNm" : "경기도"
+				,"signguCd" : "41461"
+				,"signguNm" : "용인시 처인구"
+				,"adongCd" : "41461259"
+				,"adongNm" : "남사읍"
+				,"ldongCd" : "4146125922"
+				,"ldongNm" : "남사읍"
+				,"lnoCd" : "4146125922105600002"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 560
+				,"lnoSlno" : 2
+				,"lnoAdr" : "경기도 용인시 처인구 남사읍 북리 560-2"
+				,"rdnmCd" : "414613203027"
+				,"rdnm" : "경기도 용인시 처인구 남사읍 당하로"
+				,"bldMnno" : 59
+				,"bldSlno" : ""
+				,"bldMngNo" : "4146125922105600002000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "경기도 용인시 처인구 남사읍 당하로 59"
+				,"oldZipcd" : "449884"
+				,"newZipcd" : "17118"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.148504757106
+				,"lat" : 37.147980385267
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 4,
+		"totalCount" : 307	}
+}

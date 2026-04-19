@@ -1,0 +1,426 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA0106202511A1920899"
+				,"bizesNm" : "귤대장"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G205"
+				,"indsMclsNm" : "식료품 소매"
+				,"indsSclsCd" : "G20502"
+				,"indsSclsNm" : "가축 사료 소매업"
+				,"ksicCd" : "G47211"
+				,"ksicNm" : "곡물, 곡분 및 가축 사료 소매업"
+				,"ctprvnCd" : "50"
+				,"ctprvnNm" : "제주특별자치도"
+				,"signguCd" : "50130"
+				,"signguNm" : "서귀포시"
+				,"adongCd" : "50130320"
+				,"adongNm" : "표선면"
+				,"ldongCd" : "5013032025"
+				,"ldongNm" : "표선면"
+				,"lnoCd" : "5013032025101280005"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 128
+				,"lnoSlno" : 5
+				,"lnoAdr" : "제주특별자치도 서귀포시 표선면 세화리 128-5"
+				,"rdnmCd" : "501303349235"
+				,"rdnm" : "제주특별자치도 서귀포시 표선면 일주동로"
+				,"bldMnno" : 6208
+				,"bldSlno" : ""
+				,"bldMngNo" : "5013032025101280005000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "제주특별자치도 서귀포시 표선면 일주동로 6208"
+				,"oldZipcd" : "699913"
+				,"newZipcd" : "63625"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.80803734564
+				,"lat" : 33.3077575754362
+				}
+				,{
+				"bizesId" : "MA0106202510A0911311"
+				,"bizesNm" : "너구리정원"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "50"
+				,"ctprvnNm" : "제주특별자치도"
+				,"signguCd" : "50130"
+				,"signguNm" : "서귀포시"
+				,"adongCd" : "50130320"
+				,"adongNm" : "표선면"
+				,"ldongCd" : "5013032021"
+				,"ldongNm" : "표선면"
+				,"lnoCd" : "5013032021120880011"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 2088
+				,"lnoSlno" : 11
+				,"lnoAdr" : "제주특별자치도 서귀포시 표선면 표선리 2088-11"
+				,"rdnmCd" : "501303350061"
+				,"rdnm" : "제주특별자치도 서귀포시 표선면 돈오름로"
+				,"bldMnno" : 198
+				,"bldSlno" : 23
+				,"bldMngNo" : "5013032021120880003000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "제주특별자치도 서귀포시 표선면 돈오름로 198-23"
+				,"oldZipcd" : "699915"
+				,"newZipcd" : "63628"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.820118460008
+				,"lat" : 33.3282246001338
+				}
+				,{
+				"bizesId" : "MA0106202511A1561169"
+				,"bizesNm" : "마나식당"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "50"
+				,"ctprvnNm" : "제주특별자치도"
+				,"signguCd" : "50130"
+				,"signguNm" : "서귀포시"
+				,"adongCd" : "50130320"
+				,"adongNm" : "표선면"
+				,"ldongCd" : "5013032021"
+				,"ldongNm" : "표선면"
+				,"lnoCd" : "5013032021105440007"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 544
+				,"lnoSlno" : 7
+				,"lnoAdr" : "제주특별자치도 서귀포시 표선면 표선리 544-7"
+				,"rdnmCd" : "501303350283"
+				,"rdnm" : "제주특별자치도 서귀포시 표선면 표선관정로"
+				,"bldMnno" : 39
+				,"bldSlno" : 37
+				,"bldMngNo" : "5013032021105440007000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "제주특별자치도 서귀포시 표선면 표선관정로 39-37"
+				,"oldZipcd" : "699914"
+				,"newZipcd" : "63629"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.829475294423
+				,"lat" : 33.3272550225605
+				}
+				,{
+				"bizesId" : "MA0106202510A0388101"
+				,"bizesNm" : "뽀빠이노래텔"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I211"
+				,"indsMclsNm" : "주점"
+				,"indsSclsCd" : "I21101"
+				,"indsSclsNm" : "일반 유흥 주점"
+				,"ksicCd" : "I56211"
+				,"ksicNm" : "일반 유흥 주점업"
+				,"ctprvnCd" : "50"
+				,"ctprvnNm" : "제주특별자치도"
+				,"signguCd" : "50130"
+				,"signguNm" : "서귀포시"
+				,"adongCd" : "50130320"
+				,"adongNm" : "표선면"
+				,"ldongCd" : "5013032021"
+				,"ldongNm" : "표선면"
+				,"lnoCd" : "5013032021106660005"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 666
+				,"lnoSlno" : 5
+				,"lnoAdr" : "제주특별자치도 서귀포시 표선면 표선리 666-5"
+				,"rdnmCd" : "501303350285"
+				,"rdnm" : "제주특별자치도 서귀포시 표선면 표선동서로"
+				,"bldMnno" : 225
+				,"bldSlno" : ""
+				,"bldMngNo" : "5013032021106660005000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "제주특별자치도 서귀포시 표선면 표선동서로 225"
+				,"oldZipcd" : "699914"
+				,"newZipcd" : "63629"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.831618392708
+				,"lat" : 33.3242555239546
+				}
+				,{
+				"bizesId" : "MA0106202511A0708202"
+				,"bizesNm" : "디와이영어"
+				,"brchNm" : ""
+				,"indsLclsCd" : "P1"
+				,"indsLclsNm" : "교육"
+				,"indsMclsCd" : "P105"
+				,"indsMclsNm" : "일반 교육"
+				,"indsSclsCd" : "P10501"
+				,"indsSclsNm" : "입시·교과학원"
+				,"ksicCd" : "P85501"
+				,"ksicNm" : "일반 교과학원"
+				,"ctprvnCd" : "50"
+				,"ctprvnNm" : "제주특별자치도"
+				,"signguCd" : "50130"
+				,"signguNm" : "서귀포시"
+				,"adongCd" : "50130320"
+				,"adongNm" : "표선면"
+				,"ldongCd" : "5013032021"
+				,"ldongNm" : "표선면"
+				,"lnoCd" : "5013032021105670000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 567
+				,"lnoSlno" : ""
+				,"lnoAdr" : "제주특별자치도 서귀포시 표선면 표선리 567"
+				,"rdnmCd" : "501304851033"
+				,"rdnm" : "제주특별자치도 서귀포시 표선면 표선중앙로59번길"
+				,"bldMnno" : 4
+				,"bldSlno" : ""
+				,"bldMngNo" : "5013032021105670000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "제주특별자치도 서귀포시 표선면 표선중앙로59번길 4"
+				,"oldZipcd" : "699914"
+				,"newZipcd" : "63629"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.831891173893
+				,"lat" : 33.3276189665708
+				}
+				,{
+				"bizesId" : "MA0106202510A2292751"
+				,"bizesNm" : "설탕가요방"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I211"
+				,"indsMclsNm" : "주점"
+				,"indsSclsCd" : "I21101"
+				,"indsSclsNm" : "일반 유흥 주점"
+				,"ksicCd" : "I56211"
+				,"ksicNm" : "일반 유흥 주점업"
+				,"ctprvnCd" : "50"
+				,"ctprvnNm" : "제주특별자치도"
+				,"signguCd" : "50130"
+				,"signguNm" : "서귀포시"
+				,"adongCd" : "50130320"
+				,"adongNm" : "표선면"
+				,"ldongCd" : "5013032021"
+				,"ldongNm" : "표선면"
+				,"lnoCd" : "5013032021106330002"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 633
+				,"lnoSlno" : 2
+				,"lnoAdr" : "제주특별자치도 서귀포시 표선면 표선리 633-2"
+				,"rdnmCd" : "501303350285"
+				,"rdnm" : "제주특별자치도 서귀포시 표선면 표선동서로"
+				,"bldMnno" : 236
+				,"bldSlno" : ""
+				,"bldMngNo" : "5013032021106330002000005"
+				,"bldNm" : ""
+				,"rdnmAdr" : "제주특별자치도 서귀포시 표선면 표선동서로 236"
+				,"oldZipcd" : "699914"
+				,"newZipcd" : "63629"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.832487173096
+				,"lat" : 33.3248607894978
+				}
+				,{
+				"bizesId" : "MA0106202510A2340944"
+				,"bizesNm" : "제주독앤캣"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G220"
+				,"indsMclsNm" : "애완동물·용품 소매"
+				,"indsSclsCd" : "G22001"
+				,"indsSclsNm" : "애완동물/애완용품 소매업"
+				,"ksicCd" : "G47852"
+				,"ksicNm" : "애완용 동물 및 관련용품 소매업"
+				,"ctprvnCd" : "50"
+				,"ctprvnNm" : "제주특별자치도"
+				,"signguCd" : "50130"
+				,"signguNm" : "서귀포시"
+				,"adongCd" : "50130320"
+				,"adongNm" : "표선면"
+				,"ldongCd" : "5013032021"
+				,"ldongNm" : "표선면"
+				,"lnoCd" : "5013032021105990001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 599
+				,"lnoSlno" : 1
+				,"lnoAdr" : "제주특별자치도 서귀포시 표선면 표선리 599-1"
+				,"rdnmCd" : "501303350287"
+				,"rdnm" : "제주특별자치도 서귀포시 표선면 표선중앙로"
+				,"bldMnno" : 73
+				,"bldSlno" : 6
+				,"bldMngNo" : "5013032021105990001000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "제주특별자치도 서귀포시 표선면 표선중앙로 73-6"
+				,"oldZipcd" : "699914"
+				,"newZipcd" : "63629"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.832633896656
+				,"lat" : 33.3267634228263
+				}
+				,{
+				"bizesId" : "MA0106202509A2085216"
+				,"bizesNm" : "경필이네"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "50"
+				,"ctprvnNm" : "제주특별자치도"
+				,"signguCd" : "50130"
+				,"signguNm" : "서귀포시"
+				,"adongCd" : "50130320"
+				,"adongNm" : "표선면"
+				,"ldongCd" : "5013032021"
+				,"ldongNm" : "표선면"
+				,"lnoCd" : "5013032021108510000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 851
+				,"lnoSlno" : ""
+				,"lnoAdr" : "제주특별자치도 서귀포시 표선면 표선리 851"
+				,"rdnmCd" : "501303350287"
+				,"rdnm" : "제주특별자치도 서귀포시 표선면 표선중앙로"
+				,"bldMnno" : 104
+				,"bldSlno" : ""
+				,"bldMngNo" : "5013032021108510000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "제주특별자치도 서귀포시 표선면 표선중앙로 104"
+				,"oldZipcd" : "699914"
+				,"newZipcd" : "63629"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.834859443792
+				,"lat" : 33.3255401869336
+				}
+				,{
+				"bizesId" : "MA0106202510A0747429"
+				,"bizesNm" : "표선수산마트"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G205"
+				,"indsMclsNm" : "식료품 소매"
+				,"indsSclsCd" : "G20502"
+				,"indsSclsNm" : "가축 사료 소매업"
+				,"ksicCd" : "G47211"
+				,"ksicNm" : "곡물, 곡분 및 가축 사료 소매업"
+				,"ctprvnCd" : "50"
+				,"ctprvnNm" : "제주특별자치도"
+				,"signguCd" : "50130"
+				,"signguNm" : "서귀포시"
+				,"adongCd" : "50130320"
+				,"adongNm" : "표선면"
+				,"ldongCd" : "5013032021"
+				,"ldongNm" : "표선면"
+				,"lnoCd" : "5013032021108430000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 843
+				,"lnoSlno" : ""
+				,"lnoAdr" : "제주특별자치도 서귀포시 표선면 표선리 843"
+				,"rdnmCd" : "501304851028"
+				,"rdnm" : "제주특별자치도 서귀포시 표선면 표선중앙로110번길"
+				,"bldMnno" : 3
+				,"bldSlno" : 4
+				,"bldMngNo" : "5013032021108430000000002"
+				,"bldNm" : ""
+				,"rdnmAdr" : "제주특별자치도 서귀포시 표선면 표선중앙로110번길 3-4"
+				,"oldZipcd" : "699914"
+				,"newZipcd" : "63629"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.83599821659
+				,"lat" : 33.3253703861408
+				}
+				,{
+				"bizesId" : "MA0106202511A2219050"
+				,"bizesNm" : "표선바당스테이"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10102"
+				,"indsSclsNm" : "여관/모텔"
+				,"ksicCd" : "I55102"
+				,"ksicNm" : "여관업"
+				,"ctprvnCd" : "50"
+				,"ctprvnNm" : "제주특별자치도"
+				,"signguCd" : "50130"
+				,"signguNm" : "서귀포시"
+				,"adongCd" : "50130320"
+				,"adongNm" : "표선면"
+				,"ldongCd" : "5013032021"
+				,"ldongNm" : "표선면"
+				,"lnoCd" : "5013032021100400056"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 40
+				,"lnoSlno" : 56
+				,"lnoAdr" : "제주특별자치도 서귀포시 표선면 표선리 40-56"
+				,"rdnmCd" : "501303350090"
+				,"rdnm" : "제주특별자치도 서귀포시 표선면 민속해안로"
+				,"bldMnno" : 578
+				,"bldSlno" : 4
+				,"bldMngNo" : "5013032021100400056000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "제주특별자치도 서귀포시 표선면 민속해안로 578-4"
+				,"oldZipcd" : "699914"
+				,"newZipcd" : "63629"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.844376099308
+				,"lat" : 33.325038544998
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 9,
+		"totalCount" : 810	}
+}

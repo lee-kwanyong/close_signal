@@ -1,0 +1,221 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA0106202510A2119064"
+				,"bizesNm" : "장흥계곡펜션"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55102"
+				,"ksicNm" : "여관업"
+				,"ctprvnCd" : "41"
+				,"ctprvnNm" : "경기도"
+				,"signguCd" : "41630"
+				,"signguNm" : "양주시"
+				,"adongCd" : "41630340"
+				,"adongNm" : "장흥면"
+				,"ldongCd" : "4163034024"
+				,"ldongNm" : "장흥면"
+				,"lnoCd" : "4163034024103270003"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 327
+				,"lnoSlno" : 3
+				,"lnoAdr" : "경기도 양주시 장흥면 석현리 327-3"
+				,"rdnmCd" : "416304436097"
+				,"rdnm" : "경기도 양주시 장흥면 권율로309번길"
+				,"bldMnno" : 160
+				,"bldSlno" : ""
+				,"bldMngNo" : "4163034024103270003000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "경기도 양주시 장흥면 권율로309번길 160"
+				,"oldZipcd" : "482812"
+				,"newZipcd" : "11519"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.951359210056
+				,"lat" : 37.7448501945675
+				}
+				,{
+				"bizesId" : "MA0106202510A1110021"
+				,"bizesNm" : "오토담"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G202"
+				,"indsMclsNm" : "자동차 부품 소매"
+				,"indsSclsCd" : "G20202"
+				,"indsSclsNm" : "자동차 부품 소매업"
+				,"ksicCd" : "G45219"
+				,"ksicNm" : "기타 자동차 신품 부품 및 내장품 판매업"
+				,"ctprvnCd" : "41"
+				,"ctprvnNm" : "경기도"
+				,"signguCd" : "41630"
+				,"signguNm" : "양주시"
+				,"adongCd" : "41630340"
+				,"adongNm" : "장흥면"
+				,"ldongCd" : "4163034023"
+				,"ldongNm" : "장흥면"
+				,"lnoCd" : "4163034023101240028"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 124
+				,"lnoSlno" : 28
+				,"lnoAdr" : "경기도 양주시 장흥면 부곡리 124-28"
+				,"rdnmCd" : "416303212001"
+				,"rdnm" : "경기도 양주시 장흥면 가마골로"
+				,"bldMnno" : 287
+				,"bldSlno" : ""
+				,"bldMngNo" : "4163034023101240028048762"
+				,"bldNm" : ""
+				,"rdnmAdr" : "경기도 양주시 장흥면 가마골로 287"
+				,"oldZipcd" : "482812"
+				,"newZipcd" : "11521"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.975390816039
+				,"lat" : 37.7432269082946
+				}
+				,{
+				"bizesId" : "MA0106202509A2017288"
+				,"bizesNm" : "송추당구클럽"
+				,"brchNm" : ""
+				,"indsLclsCd" : "R1"
+				,"indsLclsNm" : "예술·스포츠"
+				,"indsMclsCd" : "R103"
+				,"indsMclsNm" : "스포츠 서비스"
+				,"indsSclsCd" : "R10310"
+				,"indsSclsNm" : "당구장"
+				,"ksicCd" : "R91135"
+				,"ksicNm" : "당구장 운영업"
+				,"ctprvnCd" : "41"
+				,"ctprvnNm" : "경기도"
+				,"signguCd" : "41630"
+				,"signguNm" : "양주시"
+				,"adongCd" : "41630340"
+				,"adongNm" : "장흥면"
+				,"ldongCd" : "4163034022"
+				,"ldongNm" : "장흥면"
+				,"lnoCd" : "4163034022103850025"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 385
+				,"lnoSlno" : 25
+				,"lnoAdr" : "경기도 양주시 장흥면 울대리 385-25"
+				,"rdnmCd" : "416303000136"
+				,"rdnm" : "경기도 양주시 장흥면 호국로"
+				,"bldMnno" : 568
+				,"bldSlno" : ""
+				,"bldMngNo" : "4163034022103850025000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "경기도 양주시 장흥면 호국로 568"
+				,"oldZipcd" : "482811"
+				,"newZipcd" : "11522"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.976771372843
+				,"lat" : 37.7185586089158
+				}
+				,{
+				"bizesId" : "MA0106202510A1359656"
+				,"bizesNm" : "넘버25호텔양주송추점"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10102"
+				,"indsSclsNm" : "여관/모텔"
+				,"ksicCd" : "I55102"
+				,"ksicNm" : "여관업"
+				,"ctprvnCd" : "41"
+				,"ctprvnNm" : "경기도"
+				,"signguCd" : "41630"
+				,"signguNm" : "양주시"
+				,"adongCd" : "41630340"
+				,"adongNm" : "장흥면"
+				,"ldongCd" : "4163034023"
+				,"ldongNm" : "장흥면"
+				,"lnoCd" : "4163034023104770010"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 477
+				,"lnoSlno" : 10
+				,"lnoAdr" : "경기도 양주시 장흥면 부곡리 477-10"
+				,"rdnmCd" : "416303212001"
+				,"rdnm" : "경기도 양주시 장흥면 가마골로"
+				,"bldMnno" : 74
+				,"bldSlno" : 1
+				,"bldMngNo" : "4163034023104770010048286"
+				,"bldNm" : ""
+				,"rdnmAdr" : "경기도 양주시 장흥면 가마골로 74-1"
+				,"oldZipcd" : "482812"
+				,"newZipcd" : "11521"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.977449913419
+				,"lat" : 37.7251088082065
+				}
+				,{
+				"bizesId" : "MA0106202509A1106295"
+				,"bizesNm" : "현학주유소"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G214"
+				,"indsMclsNm" : "연료 소매"
+				,"indsSclsCd" : "G21401"
+				,"indsSclsNm" : "주유소"
+				,"ksicCd" : "G47711"
+				,"ksicNm" : "운송장비용 주유소 운영업"
+				,"ctprvnCd" : "41"
+				,"ctprvnNm" : "경기도"
+				,"signguCd" : "41630"
+				,"signguNm" : "양주시"
+				,"adongCd" : "41630340"
+				,"adongNm" : "장흥면"
+				,"ldongCd" : "4163034022"
+				,"ldongNm" : "장흥면"
+				,"lnoCd" : "4163034022103190003"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 319
+				,"lnoSlno" : 3
+				,"lnoAdr" : "경기도 양주시 장흥면 울대리 319-3"
+				,"rdnmCd" : "416303000136"
+				,"rdnm" : "경기도 양주시 장흥면 호국로"
+				,"bldMnno" : 674
+				,"bldSlno" : ""
+				,"bldMngNo" : "4163034022103190003038501"
+				,"bldNm" : ""
+				,"rdnmAdr" : "경기도 양주시 장흥면 호국로 674"
+				,"oldZipcd" : "482811"
+				,"newZipcd" : "11522"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.987783916952
+				,"lat" : 37.7224434552273
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 5,
+		"totalCount" : 405	}
+}

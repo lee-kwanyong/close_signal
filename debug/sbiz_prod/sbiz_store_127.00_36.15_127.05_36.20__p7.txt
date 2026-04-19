@@ -1,0 +1,303 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA0106202509A1580207"
+				,"bizesNm" : "아호푸드"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44230"
+				,"signguNm" : "논산시"
+				,"adongCd" : "44230250"
+				,"adongNm" : "강경읍"
+				,"ldongCd" : "4423025030"
+				,"ldongNm" : "강경읍"
+				,"lnoCd" : "4423025030101980000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 198
+				,"lnoSlno" : ""
+				,"lnoAdr" : "충청남도 논산시 강경읍 황산리 198"
+				,"rdnmCd" : "442303251043"
+				,"rdnm" : "충청남도 논산시 강경읍 금백로"
+				,"bldMnno" : 45
+				,"bldSlno" : ""
+				,"bldMngNo" : "4423025030101980000051515"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청남도 논산시 강경읍 금백로 45"
+				,"oldZipcd" : "320902"
+				,"newZipcd" : "32930"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.009801742365
+				,"lat" : 36.1575543570739
+				}
+				,{
+				"bizesId" : "MA0106202509A1687741"
+				,"bizesNm" : "토라"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44230"
+				,"signguNm" : "논산시"
+				,"adongCd" : "44230250"
+				,"adongNm" : "강경읍"
+				,"ldongCd" : "4423025030"
+				,"ldongNm" : "강경읍"
+				,"lnoCd" : "4423025030101980000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 198
+				,"lnoSlno" : ""
+				,"lnoAdr" : "충청남도 논산시 강경읍 황산리 198"
+				,"rdnmCd" : "442303251043"
+				,"rdnm" : "충청남도 논산시 강경읍 금백로"
+				,"bldMnno" : 45
+				,"bldSlno" : ""
+				,"bldMngNo" : "4423025030101980000051515"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청남도 논산시 강경읍 금백로 45"
+				,"oldZipcd" : "320902"
+				,"newZipcd" : "32930"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.009801742365
+				,"lat" : 36.1575543570739
+				}
+				,{
+				"bizesId" : "MA0106202509A2008931"
+				,"bizesNm" : "아가페반찬"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G221"
+				,"indsMclsNm" : "기타 상품 소매"
+				,"indsSclsCd" : "G22199"
+				,"indsSclsNm" : "그 외 기타 상품 전문 소매업"
+				,"ksicCd" : "G47859"
+				,"ksicNm" : "그 외 기타 분류 안된 상품 전문 소매업"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44230"
+				,"signguNm" : "논산시"
+				,"adongCd" : "44230250"
+				,"adongNm" : "강경읍"
+				,"ldongCd" : "4423025029"
+				,"ldongNm" : "강경읍"
+				,"lnoCd" : "4423025029100160033"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 16
+				,"lnoSlno" : 33
+				,"lnoAdr" : "충청남도 논산시 강경읍 대흥리 16-33"
+				,"rdnmCd" : "442303255043"
+				,"rdnm" : "충청남도 논산시 강경읍 대흥로"
+				,"bldMnno" : 25
+				,"bldSlno" : 1
+				,"bldMngNo" : "4423025029100160033000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청남도 논산시 강경읍 대흥로 25-1"
+				,"oldZipcd" : "320902"
+				,"newZipcd" : "32930"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.013324310179
+				,"lat" : 36.1558957902439
+				}
+				,{
+				"bizesId" : "MA0106202510A0697190"
+				,"bizesNm" : "강경정육점"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G205"
+				,"indsMclsNm" : "식료품 소매"
+				,"indsSclsCd" : "G20503"
+				,"indsSclsNm" : "정육점"
+				,"ksicCd" : "G47212"
+				,"ksicNm" : "육류 소매업"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44230"
+				,"signguNm" : "논산시"
+				,"adongCd" : "44230250"
+				,"adongNm" : "강경읍"
+				,"ldongCd" : "4423025029"
+				,"ldongNm" : "강경읍"
+				,"lnoCd" : "4423025029100610004"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 61
+				,"lnoSlno" : 4
+				,"lnoAdr" : "충청남도 논산시 강경읍 대흥리 61-4"
+				,"rdnmCd" : "442303255043"
+				,"rdnm" : "충청남도 논산시 강경읍 대흥로"
+				,"bldMnno" : 28
+				,"bldSlno" : 1
+				,"bldMngNo" : "4423025029100610004051916"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청남도 논산시 강경읍 대흥로 28-1"
+				,"oldZipcd" : "320902"
+				,"newZipcd" : "32936"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.013591099506
+				,"lat" : 36.1563643895906
+				}
+				,{
+				"bizesId" : "MA0106202509A2049663"
+				,"bizesNm" : "그때그집"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44230"
+				,"signguNm" : "논산시"
+				,"adongCd" : "44230250"
+				,"adongNm" : "강경읍"
+				,"ldongCd" : "4423025025"
+				,"ldongNm" : "강경읍"
+				,"lnoCd" : "4423025025100350001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 35
+				,"lnoSlno" : 1
+				,"lnoAdr" : "충청남도 논산시 강경읍 홍교리 35-1"
+				,"rdnmCd" : "442303251043"
+				,"rdnm" : "충청남도 논산시 강경읍 금백로"
+				,"bldMnno" : 135
+				,"bldSlno" : ""
+				,"bldMngNo" : "4423025025100320010049938"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청남도 논산시 강경읍 금백로 135"
+				,"oldZipcd" : "320903"
+				,"newZipcd" : "32932"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.0154373103
+				,"lat" : 36.1638442058823
+				}
+				,{
+				"bizesId" : "MA0106202509A2079201"
+				,"bizesNm" : "담미"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I204"
+				,"indsMclsNm" : "서양식"
+				,"indsSclsCd" : "I20401"
+				,"indsSclsNm" : "경양식"
+				,"ksicCd" : "I56123"
+				,"ksicNm" : "서양식 음식점업"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44230"
+				,"signguNm" : "논산시"
+				,"adongCd" : "44230250"
+				,"adongNm" : "강경읍"
+				,"ldongCd" : "4423025026"
+				,"ldongNm" : "강경읍"
+				,"lnoCd" : "4423025026100260001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 26
+				,"lnoSlno" : 1
+				,"lnoAdr" : "충청남도 논산시 강경읍 중앙리 26-1"
+				,"rdnmCd" : "442303255031"
+				,"rdnm" : "충청남도 논산시 강경읍 옥녀봉로"
+				,"bldMnno" : 39
+				,"bldSlno" : 1
+				,"bldMngNo" : "4423025026100260001050383"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청남도 논산시 강경읍 옥녀봉로 39-1"
+				,"oldZipcd" : "320901"
+				,"newZipcd" : "32935"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.016859547738
+				,"lat" : 36.1622038133279
+				}
+				,{
+				"bizesId" : "MA0106202509A2447909"
+				,"bizesNm" : "청년카케어"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G202"
+				,"indsMclsNm" : "자동차 부품 소매"
+				,"indsSclsCd" : "G20202"
+				,"indsSclsNm" : "자동차 부품 소매업"
+				,"ksicCd" : "G45219"
+				,"ksicNm" : "기타 자동차 신품 부품 및 내장품 판매업"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44230"
+				,"signguNm" : "논산시"
+				,"adongCd" : "44230250"
+				,"adongNm" : "강경읍"
+				,"ldongCd" : "4423025028"
+				,"ldongNm" : "강경읍"
+				,"lnoCd" : "4423025028100340009"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 34
+				,"lnoSlno" : 9
+				,"lnoAdr" : "충청남도 논산시 강경읍 태평리 34-9"
+				,"rdnmCd" : "442304565056"
+				,"rdnm" : "충청남도 논산시 강경읍 계백로167번길"
+				,"bldMnno" : 13
+				,"bldSlno" : 1
+				,"bldMngNo" : "4423025028100340009000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청남도 논산시 강경읍 계백로167번길 13-1"
+				,"oldZipcd" : "320901"
+				,"newZipcd" : "32937"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.017225684142
+				,"lat" : 36.1593829753595
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 7,
+		"totalCount" : 607	}
+}

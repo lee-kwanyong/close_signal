@@ -1,0 +1,221 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA0106202508A1248372"
+				,"bizesNm" : "중고가전사고팔고"
+				,"brchNm" : ""
+				,"indsLclsCd" : "S2"
+				,"indsLclsNm" : "수리·개인"
+				,"indsMclsCd" : "S206"
+				,"indsMclsNm" : "기타 가정용품 수리"
+				,"indsSclsCd" : "S20699"
+				,"indsSclsNm" : "그 외 기타 개인/가정용품 수리업"
+				,"ksicCd" : "S95399"
+				,"ksicNm" : "그 외 기타 개인 및 가정용품 수리업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46780"
+				,"signguNm" : "보성군"
+				,"adongCd" : "46780380"
+				,"adongNm" : "득량면"
+				,"ldongCd" : "4678038024"
+				,"ldongNm" : "득량면"
+				,"lnoCd" : "4678038024108990008"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 899
+				,"lnoSlno" : 8
+				,"lnoAdr" : "전라남도 보성군 득량면 오봉리 899-8"
+				,"rdnmCd" : "467803290019"
+				,"rdnm" : "전라남도 보성군 득량면 충의로"
+				,"bldMnno" : 1525
+				,"bldSlno" : ""
+				,"bldMngNo" : "4678038024108990003123032"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 보성군 득량면 충의로 1525"
+				,"oldZipcd" : "546921"
+				,"newZipcd" : "59437"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.164959548235
+				,"lat" : 34.763839435526
+				}
+				,{
+				"bizesId" : "MA0106202506A2171304"
+				,"bizesNm" : "만리장성"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I202"
+				,"indsMclsNm" : "중식"
+				,"indsSclsCd" : "I20201"
+				,"indsSclsNm" : "중국집"
+				,"ksicCd" : "I56121"
+				,"ksicNm" : "중식 음식점업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46780"
+				,"signguNm" : "보성군"
+				,"adongCd" : "46780380"
+				,"adongNm" : "득량면"
+				,"ldongCd" : "4678038024"
+				,"ldongNm" : "득량면"
+				,"lnoCd" : "4678038024109070002"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 907
+				,"lnoSlno" : 2
+				,"lnoAdr" : "전라남도 보성군 득량면 오봉리 907-2"
+				,"rdnmCd" : "467803290019"
+				,"rdnm" : "전라남도 보성군 득량면 충의로"
+				,"bldMnno" : 1501
+				,"bldSlno" : ""
+				,"bldMngNo" : "4678038024109070002123551"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 보성군 득량면 충의로 1501"
+				,"oldZipcd" : "546921"
+				,"newZipcd" : "59437"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.166671087198
+				,"lat" : 34.7621604685341
+				}
+				,{
+				"bizesId" : "MA0101202504A0018342"
+				,"bizesNm" : "서울식당"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46780"
+				,"signguNm" : "보성군"
+				,"adongCd" : "46780380"
+				,"adongNm" : "득량면"
+				,"ldongCd" : "4678038024"
+				,"ldongNm" : "득량면"
+				,"lnoCd" : "4678038024109110013"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 911
+				,"lnoSlno" : 13
+				,"lnoAdr" : "전라남도 보성군 득량면 오봉리 911-13"
+				,"rdnmCd" : "467803290019"
+				,"rdnm" : "전라남도 보성군 득량면 충의로"
+				,"bldMnno" : 1492
+				,"bldSlno" : ""
+				,"bldMngNo" : "4678038024109110013123446"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 보성군 득량면 충의로 1492"
+				,"oldZipcd" : "546921"
+				,"newZipcd" : "59438"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.167270821057
+				,"lat" : 34.761654852358
+				}
+				,{
+				"bizesId" : "MA0106202510A1588101"
+				,"bizesNm" : "차이나고"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I202"
+				,"indsMclsNm" : "중식"
+				,"indsSclsCd" : "I20201"
+				,"indsSclsNm" : "중국집"
+				,"ksicCd" : "I56121"
+				,"ksicNm" : "중식 음식점업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46780"
+				,"signguNm" : "보성군"
+				,"adongCd" : "46780380"
+				,"adongNm" : "득량면"
+				,"ldongCd" : "4678038023"
+				,"ldongNm" : "득량면"
+				,"lnoCd" : "4678038023111150010"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 1115
+				,"lnoSlno" : 10
+				,"lnoAdr" : "전라남도 보성군 득량면 예당리 1115-10"
+				,"rdnmCd" : "467804670272"
+				,"rdnm" : "전라남도 보성군 득량면 예당길"
+				,"bldMnno" : 23
+				,"bldSlno" : ""
+				,"bldMngNo" : "4678038023111150010121227"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 보성군 득량면 예당길 23"
+				,"oldZipcd" : "546924"
+				,"newZipcd" : "59436"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.185100609774
+				,"lat" : 34.7780798961311
+				}
+				,{
+				"bizesId" : "MA0106202507A1983039"
+				,"bizesNm" : "미꾸미꾸"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46780"
+				,"signguNm" : "보성군"
+				,"adongCd" : "46780380"
+				,"adongNm" : "득량면"
+				,"ldongCd" : "4678038023"
+				,"ldongNm" : "득량면"
+				,"lnoCd" : "4678038023109080005"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 908
+				,"lnoSlno" : 5
+				,"lnoAdr" : "전라남도 보성군 득량면 예당리 908-5"
+				,"rdnmCd" : "467804670272"
+				,"rdnm" : "전라남도 보성군 득량면 예당길"
+				,"bldMnno" : 78
+				,"bldSlno" : ""
+				,"bldMngNo" : "4678038023109080002000002"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 보성군 득량면 예당길 78"
+				,"oldZipcd" : "546924"
+				,"newZipcd" : "59436"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.190307954413
+				,"lat" : 34.7764132639764
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 2,
+		"totalCount" : 105	}
+}

@@ -1,3 +1,4 @@
+import type { ReactNode } from "react";
 import Link from "next/link";
 import { createClient } from "@/lib/supabase/server";
 import { mutateWatchlistAction } from "@/app/watchlist/actions";
@@ -5,41 +6,41 @@ import { mutateWatchlistAction } from "@/app/watchlist/actions";
 type SearchParams = Promise<{
   regionCode?: string;
   categoryId?: string;
-  sort?: string;
   page?: string;
+  sort?: string;
   success?: string;
   error?: string;
 }>;
 
-type RankingRow = {
+type IntegratedRankingRow = {
+  snapshot_date: string | null;
   region_code: string;
   region_name: string | null;
   category_id: number;
   category_name: string | null;
-  score_date: string | null;
-  risk_score: number | null;
-  risk_grade: string | null;
-  business_count: number | null;
-  close_count_7d?: number | null;
-  open_count_7d?: number | null;
-  pause_count_7d?: number | null;
-  resume_count_7d?: number | null;
-  close_rate_7d: number | null;
-  open_rate_7d: number | null;
-  pause_rate_7d?: number | null;
-  resume_rate_7d?: number | null;
-  net_change_7d: number | null;
-  close_count_30d?: number | null;
-  open_count_30d?: number | null;
-  pause_count_30d?: number | null;
-  resume_count_30d?: number | null;
-  close_rate_30d?: number | null;
-  open_rate_30d?: number | null;
-  pause_rate_30d?: number | null;
-  resume_rate_30d?: number | null;
-  net_change_30d?: number | null;
-  risk_delta_7d?: number | null;
-  risk_delta_30d?: number | null;
+  smallbiz_risk_score: number | null;
+  smallbiz_close_rate_7d: number | null;
+  smallbiz_close_rate_30d: number | null;
+  smallbiz_open_rate_7d: number | null;
+  smallbiz_open_rate_30d: number | null;
+  smallbiz_net_change_7d: number | null;
+  smallbiz_net_change_30d: number | null;
+  smallbiz_risk_delta_7d: number | null;
+  smallbiz_risk_delta_30d: number | null;
+  kosis_pressure_score: number | null;
+  kosis_pressure_grade: string | null;
+  kosis_pressure_label: string | null;
+  kosis_closed_total: number | null;
+  kosis_national_share_pct: number | null;
+  kosis_yoy_closed_delta_pct: number | null;
+  nts_business_score: number | null;
+  nts_label: string | null;
+  integrated_market_score: number | null;
+  integrated_final_score: number | null;
+  integrated_severity: string | null;
+  reason_codes: string[] | null;
+  summary_text: string | null;
+  recovery_direction: string | null;
 };
 
 type WatchlistRow = {
@@ -50,187 +51,20 @@ type WatchlistRow = {
 
 const PAGE_SIZE = 20;
 
+function num(value: number | null | undefined, fallback = 0) {
+  return value === null || value === undefined || Number.isNaN(value)
+    ? fallback
+    : Number(value);
+}
+
 function formatNumber(value: number | null | undefined) {
   if (value === null || value === undefined) return "-";
   return new Intl.NumberFormat("ko-KR").format(value);
 }
 
-function formatPercent(value: number | null | undefined, digits = 1) {
+function formatScore(value: number | null | undefined, digits = 0) {
   if (value === null || value === undefined) return "-";
-  return `${value.toFixed(digits)}%`;
-}
-
-function formatScore(value: number | null | undefined, digits = 1) {
-  if (value === null || value === undefined) return "-";
-  return value.toFixed(digits);
-}
-
-function formatSigned(value: number | null | undefined, digits = 0) {
-  if (value === null || value === undefined) return "-";
-  if (value > 0) return `+${value.toFixed(digits)}`;
-  if (value < 0) return value.toFixed(digits);
-  return digits > 0 ? `0.${"0".repeat(digits)}` : "0";
-}
-
-function formatDate(value: string | null | undefined) {
-  if (!value) return "-";
-  const d = new Date(value);
-  if (Number.isNaN(d.getTime())) return value;
-  return new Intl.DateTimeFormat("ko-KR", {
-    year: "numeric",
-    month: "2-digit",
-    day: "2-digit",
-  }).format(d);
-}
-
-function riskTone(score: number | null | undefined) {
-  if (score === null || score === undefined) {
-    return "bg-slate-100 text-slate-600 border-slate-200";
-  }
-  if (score >= 80) return "bg-red-50 text-red-700 border-red-200";
-  if (score >= 65) return "bg-amber-50 text-amber-700 border-amber-200";
-  if (score >= 45) return "bg-yellow-50 text-yellow-700 border-yellow-200";
-  return "bg-emerald-50 text-emerald-700 border-emerald-200";
-}
-
-function deltaTone(value: number | null | undefined) {
-  if (value === null || value === undefined) {
-    return "text-slate-500";
-  }
-  if (value > 0) return "text-red-600";
-  if (value < 0) return "text-emerald-600";
-  return "text-slate-500";
-}
-
-function toPositiveInt(value: string | undefined, fallback: number) {
-  const n = Number(value);
-  return Number.isFinite(n) && n > 0 ? Math.floor(n) : fallback;
-}
-
-async function getInternalUserId() {
-  const supabase = await createClient();
-  const {
-    data: { user },
-  } = await supabase.auth.getUser();
-
-  if (!user?.id) return 1;
-
-  const { data, error } = await supabase
-    .from("users")
-    .select("id")
-    .eq("auth_user_id", user.id)
-    .single();
-
-  if (error || !data?.id) {
-    console.error("getInternalUserId error", error);
-    return 1;
-  }
-
-  return data.id as number;
-}
-
-async function getRankings(params: {
-  page: number;
-  regionCode?: string;
-  categoryId?: number;
-}) {
-  const supabase = await createClient();
-
-  const offset = (params.page - 1) * PAGE_SIZE;
-
-  const { data, error } = await supabase.rpc("get_risk_rankings", {
-    p_limit: PAGE_SIZE,
-    p_offset: offset,
-    p_region_code: params.regionCode || null,
-    p_category_id: params.categoryId ?? null,
-  });
-
-  if (error) {
-    console.error("get_risk_rankings error", error);
-    return [] as RankingRow[];
-  }
-
-  return (data ?? []) as RankingRow[];
-}
-
-async function getWatchlistMap(userId: number) {
-  const supabase = await createClient();
-
-  const { data, error } = await supabase.rpc("get_my_watchlists", {
-    p_user_id: userId,
-  });
-
-  if (error) {
-    console.error("get_my_watchlists error", error);
-    return new Map<string, number>();
-  }
-
-  const map = new Map<string, number>();
-  for (const row of (data ?? []) as WatchlistRow[]) {
-    map.set(`${row.region_code}:${row.category_id}`, row.watchlist_id);
-  }
-  return map;
-}
-
-function FilterChip({
-  href,
-  active,
-  children,
-}: {
-  href: string;
-  active: boolean;
-  children: React.ReactNode;
-}) {
-  return (
-    <Link
-      href={href}
-      className={[
-        "inline-flex h-10 items-center rounded-xl border px-4 text-sm font-medium transition",
-        active
-          ? "border-slate-900 bg-slate-900 text-white"
-          : "border-slate-200 bg-white text-slate-700 hover:bg-slate-50",
-      ].join(" ")}
-    >
-      {children}
-    </Link>
-  );
-}
-
-function MessageBanner({
-  success,
-  error,
-}: {
-  success?: string;
-  error?: string;
-}) {
-  if (!success && !error) return null;
-
-  const message =
-    success === "added"
-      ? "관심목록에 추가되었습니다."
-      : success === "removed"
-      ? "관심목록에서 제거되었습니다."
-      : error === "missing_required_fields"
-      ? "필수 값이 누락되었습니다."
-      : error === "invalid_user"
-      ? "사용자 정보를 확인할 수 없습니다."
-      : error === "watchlist_lookup_failed"
-      ? "관심목록 조회에 실패했습니다."
-      : error === "watchlist_not_found"
-      ? "해당 관심 항목을 찾지 못했습니다."
-      : error === "remove_failed"
-      ? "관심목록 해제에 실패했습니다."
-      : error === "add_failed"
-      ? "관심목록 추가에 실패했습니다."
-      : "요청을 처리하지 못했습니다.";
-
-  const tone = success
-    ? "border-emerald-200 bg-emerald-50 text-emerald-700"
-    : "border-red-200 bg-red-50 text-red-700";
-
-  return (
-    <div className={`rounded-2xl border px-4 py-3 text-sm ${tone}`}>{message}</div>
-  );
+  return Number(value).toFixed(digits);
 }
 
 function buildQueryString(params: Record<string, string | number | undefined | null>) {
@@ -245,43 +79,309 @@ function buildQueryString(params: Record<string, string | number | undefined | n
   return str ? `?${str}` : "";
 }
 
+function toPositiveInt(value: string | undefined, fallback: number) {
+  const n = Number(value);
+  return Number.isFinite(n) && n > 0 ? Math.floor(n) : fallback;
+}
+
+function getMessageText(success?: string, error?: string) {
+  if (success === "added") return "관심목록에 추가되었습니다.";
+  if (success === "removed") return "관심목록에서 제거되었습니다.";
+  if (error === "missing_required_fields") return "필수 값이 누락되었습니다.";
+  if (error === "watchlist_lookup_failed") return "관심 상태 조회에 실패했습니다.";
+  if (error === "watchlist_not_found") return "관심목록 항목을 찾지 못했습니다.";
+  if (error === "remove_failed") return "관심목록 해제에 실패했습니다.";
+  if (error === "add_failed") return "관심목록 추가에 실패했습니다.";
+  if (error === "invalid_user") return "사용자 확인에 실패했습니다.";
+  return "";
+}
+
+function MessageBanner({
+  success,
+  error,
+}: {
+  success?: string;
+  error?: string;
+}) {
+  const message = getMessageText(success, error);
+
+  if (!message) return null;
+
+  const tone = success
+    ? "border-emerald-200 bg-emerald-50 text-emerald-700"
+    : "border-red-200 bg-red-50 text-red-700";
+
+  return <div className={`rounded-2xl border px-4 py-3 text-sm ${tone}`}>{message}</div>;
+}
+
+function FilterChip({
+  href,
+  active,
+  children,
+}: {
+  href: string;
+  active: boolean;
+  children: ReactNode;
+}) {
+  return (
+    <Link
+      href={href}
+      className={[
+        "inline-flex h-10 items-center justify-center rounded-full px-4 text-sm font-medium transition",
+        active
+          ? "border border-sky-600 bg-sky-600 text-white shadow-sm hover:bg-sky-700"
+          : "border border-sky-100 bg-sky-50 text-sky-700 hover:border-sky-200 hover:bg-sky-100",
+      ].join(" ")}
+    >
+      {children}
+    </Link>
+  );
+}
+
+function scoreTone(score: number | null | undefined) {
+  const n = num(score, 0);
+
+  if (score === null || score === undefined) {
+    return "border-slate-200 bg-slate-100 text-slate-600";
+  }
+  if (n >= 80) return "border-red-200 bg-red-50 text-red-700";
+  if (n >= 65) return "border-amber-200 bg-amber-50 text-amber-700";
+  if (n >= 45) return "border-yellow-200 bg-yellow-50 text-yellow-700";
+  return "border-emerald-200 bg-emerald-50 text-emerald-700";
+}
+
+function pressureTone(grade: string | null | undefined) {
+  const value = String(grade || "").toLowerCase();
+
+  if (value === "critical") return "border-red-200 bg-red-50 text-red-700";
+  if (value === "high") return "border-orange-200 bg-orange-50 text-orange-700";
+  if (value === "moderate") return "border-amber-200 bg-amber-50 text-amber-700";
+  return "border-sky-200 bg-sky-50 text-sky-700";
+}
+
+function ntsTone(score: number | null | undefined) {
+  const n = num(score, 0);
+
+  if (score === null || score === undefined) {
+    return "border-slate-200 bg-slate-100 text-slate-500";
+  }
+  if (n >= 70) return "border-red-200 bg-red-50 text-red-700";
+  if (n >= 50) return "border-orange-200 bg-orange-50 text-orange-700";
+  if (n >= 35) return "border-amber-200 bg-amber-50 text-amber-700";
+  return "border-emerald-200 bg-emerald-50 text-emerald-700";
+}
+
+function severityLabel(severity: string | null | undefined) {
+  const value = String(severity || "").toLowerCase();
+
+  if (value === "critical") return "치명";
+  if (value === "high") return "높음";
+  if (value === "moderate") return "주의";
+  return "관찰";
+}
+
+function normalizeRegionCode(code?: string | null) {
+  const raw = String(code || "").trim().toUpperCase();
+  if (!raw) return "";
+
+  const aliasMap: Record<string, string> = {
+    "11": "KR-11",
+    "26": "KR-26",
+    "27": "KR-27",
+    "28": "KR-28",
+    "29": "KR-29",
+    "30": "KR-30",
+    "31": "KR-31",
+    "36": "KR-36",
+    "41": "KR-41",
+    "42": "KR-42",
+    "43": "KR-43",
+    "44": "KR-44",
+    "45": "KR-45",
+    "46": "KR-46",
+    "47": "KR-47",
+    "48": "KR-48",
+    "50": "KR-50",
+    "A01": "KR-11",
+    "A02": "KR-26",
+    "A03": "KR-41",
+    "A04": "KR-27",
+    "A05": "KR-28",
+    "A06": "KR-29",
+    "A07": "KR-30",
+    "A08": "KR-31",
+    "A09": "KR-36",
+    "A10": "KR-42",
+    "A11": "KR-43",
+    "A12": "KR-44",
+    "A13": "KR-45",
+    "A14": "KR-46",
+    "A15": "KR-47",
+    "A16": "KR-48",
+    "A17": "KR-50",
+  };
+
+  if (aliasMap[raw]) return aliasMap[raw];
+  if (/^KR-\d{2}$/.test(raw)) return raw;
+  return raw;
+}
+
+function candidateRegionCodes(input?: string | null) {
+  const raw = String(input || "").trim();
+  if (!raw) return [];
+
+  const normalized = normalizeRegionCode(raw);
+  const set = new Set<string>([raw, raw.toUpperCase(), normalized]);
+
+  if (/^KR-\d{2}$/i.test(normalized)) {
+    set.add(normalized.slice(3));
+  }
+
+  return Array.from(set).filter(Boolean);
+}
+
+async function getInternalUserId() {
+  try {
+    const supabase = await createClient();
+    const {
+      data: { user },
+    } = await supabase.auth.getUser();
+
+    if (!user?.id) return null;
+
+    const { data } = await supabase
+      .from("users")
+      .select("id")
+      .eq("auth_user_id", user.id)
+      .single();
+
+    if (!data?.id) return null;
+    return data.id as number;
+  } catch {
+    return null;
+  }
+}
+
+async function getWatchlistMap(userId: number | null) {
+  if (!userId) return new Map<string, number>();
+
+  try {
+    const supabase = await createClient();
+
+    const { data } = await supabase.rpc("get_my_watchlists", {
+      p_user_id: userId,
+    });
+
+    const map = new Map<string, number>();
+    for (const row of (data ?? []) as WatchlistRow[]) {
+      map.set(`${row.region_code}:${row.category_id}`, row.watchlist_id);
+    }
+    return map;
+  } catch {
+    return new Map<string, number>();
+  }
+}
+
+async function getIntegratedRankings(params: {
+  page: number;
+  regionCode?: string;
+  categoryId?: number;
+  sort?: string;
+}) {
+  try {
+    const supabase = await createClient();
+    const offset = (params.page - 1) * PAGE_SIZE;
+    const sort = params.sort || "final";
+
+    let query = supabase
+      .from("integrated_region_category_baselines")
+      .select("*")
+      .range(offset, offset + PAGE_SIZE - 1);
+
+    if (params.regionCode) {
+      query = query.in("region_code", candidateRegionCodes(params.regionCode));
+    }
+
+    if (params.categoryId) {
+      query = query.eq("category_id", params.categoryId);
+    }
+
+    if (sort === "market") {
+      query = query
+        .order("integrated_market_score", { ascending: false })
+        .order("integrated_final_score", { ascending: false });
+    } else if (sort === "kosis") {
+      query = query
+        .order("kosis_pressure_score", { ascending: false })
+        .order("integrated_final_score", { ascending: false });
+    } else if (sort === "nts") {
+      query = query
+        .order("nts_business_score", { ascending: false })
+        .order("integrated_final_score", { ascending: false });
+    } else if (sort === "smallbiz") {
+      query = query
+        .order("smallbiz_risk_score", { ascending: false })
+        .order("integrated_final_score", { ascending: false });
+    } else {
+      query = query
+        .order("integrated_final_score", { ascending: false })
+        .order("integrated_market_score", { ascending: false });
+    }
+
+    const { data } = await query;
+    return (data ?? []) as IntegratedRankingRow[];
+  } catch {
+    return [] as IntegratedRankingRow[];
+  }
+}
+
 export default async function RankingsPage({
   searchParams,
 }: {
   searchParams: SearchParams;
 }) {
   const resolved = await searchParams;
+
   const regionCode = resolved.regionCode?.trim() || undefined;
   const categoryId =
     resolved.categoryId && Number.isFinite(Number(resolved.categoryId))
       ? Number(resolved.categoryId)
       : undefined;
   const page = toPositiveInt(resolved.page, 1);
+  const sort = resolved.sort?.trim() || "final";
 
   const userId = await getInternalUserId();
 
   const [rows, watchlistMap] = await Promise.all([
-    getRankings({ page, regionCode, categoryId }),
+    getIntegratedRankings({ page, regionCode, categoryId, sort }),
     getWatchlistMap(userId),
   ]);
 
   const prevHref = buildQueryString({
     regionCode,
     categoryId,
+    sort,
     page: page > 1 ? page - 1 : undefined,
   });
 
   const nextHref = buildQueryString({
     regionCode,
     categoryId,
+    sort,
     page: rows.length === PAGE_SIZE ? page + 1 : undefined,
   });
 
-  const summaryHighRisk = rows.filter((row) => (row.risk_score ?? 0) >= 65).length;
+  const summaryHighRisk = rows.filter((row) => num(row.integrated_final_score, 0) >= 65).length;
   const summaryAvgRisk =
     rows.length > 0
-      ? rows.reduce((sum, row) => sum + (row.risk_score ?? 0), 0) / rows.length
+      ? rows.reduce((sum, row) => sum + num(row.integrated_final_score, 0), 0) / rows.length
       : null;
+
+  const externalCriticalCount = rows.filter(
+    (row) => String(row.kosis_pressure_grade || "").toLowerCase() === "critical",
+  ).length;
+
+  const ntsWarningCount = rows.filter((row) => num(row.nts_business_score, 0) >= 50).length;
 
   return (
     <main className="min-h-screen bg-slate-50">
@@ -289,36 +389,37 @@ export default async function RankingsPage({
         <section className="rounded-3xl border border-slate-200 bg-white p-6 shadow-sm">
           <div className="flex flex-col gap-4 lg:flex-row lg:items-end lg:justify-between">
             <div>
-              <div className="mb-2 text-sm font-medium text-slate-500">RANKINGS</div>
+              <div className="mb-2 text-sm font-medium text-sky-700">INTEGRATED RISK</div>
               <h1 className="text-2xl font-semibold tracking-tight text-slate-950 sm:text-3xl">
-                지역·업종 위험도 랭킹
+                통합 위험관리 랭킹
               </h1>
               <p className="mt-2 text-sm text-slate-500">
-                지역과 업종 조합별 위험 점수, 폐업률, 순증감을 한 화면에서 비교합니다.
+                랭킹 페이지는 위험 점수 중심으로만 보여주고, 핵심 사유 / DB 요약 / 기준일은
+                상세 페이지에서 확인합니다.
               </p>
             </div>
 
-            <div className="grid grid-cols-2 gap-3 sm:grid-cols-3">
-              <div className="rounded-2xl border border-slate-200 bg-slate-50 p-4">
-                <div className="text-xs uppercase tracking-wide text-slate-500">
-                  현재 페이지
-                </div>
+            <div className="grid grid-cols-2 gap-3 sm:grid-cols-4">
+              <div className="rounded-2xl border border-sky-100 bg-sky-50 p-4">
+                <div className="text-xs uppercase tracking-wide text-sky-700">현재 페이지</div>
                 <div className="mt-2 text-xl font-semibold text-slate-950">{page}</div>
               </div>
-              <div className="rounded-2xl border border-slate-200 bg-slate-50 p-4">
-                <div className="text-xs uppercase tracking-wide text-slate-500">
-                  고위험 항목
-                </div>
+              <div className="rounded-2xl border border-sky-100 bg-sky-50 p-4">
+                <div className="text-xs uppercase tracking-wide text-sky-700">고위험 항목</div>
                 <div className="mt-2 text-xl font-semibold text-slate-950">
                   {formatNumber(summaryHighRisk)}
                 </div>
               </div>
-              <div className="rounded-2xl border border-slate-200 bg-slate-50 p-4 col-span-2 sm:col-span-1">
-                <div className="text-xs uppercase tracking-wide text-slate-500">
-                  평균 위험도
-                </div>
+              <div className="rounded-2xl border border-sky-100 bg-sky-50 p-4">
+                <div className="text-xs uppercase tracking-wide text-sky-700">외부 치명</div>
                 <div className="mt-2 text-xl font-semibold text-slate-950">
-                  {formatScore(summaryAvgRisk)}
+                  {formatNumber(externalCriticalCount)}
+                </div>
+              </div>
+              <div className="rounded-2xl border border-sky-100 bg-sky-50 p-4">
+                <div className="text-xs uppercase tracking-wide text-sky-700">NTS 경고</div>
+                <div className="mt-2 text-xl font-semibold text-slate-950">
+                  {formatNumber(ntsWarningCount)}
                 </div>
               </div>
             </div>
@@ -330,14 +431,35 @@ export default async function RankingsPage({
         <section className="rounded-3xl border border-slate-200 bg-white p-5 shadow-sm">
           <div className="flex flex-col gap-4 lg:flex-row lg:items-center lg:justify-between">
             <div className="flex flex-wrap gap-2">
-              <FilterChip href="/rankings" active={!regionCode && !categoryId}>
-                전체
+              <FilterChip
+                href={`/rankings${buildQueryString({ regionCode, categoryId, sort: "final" })}`}
+                active={sort === "final"}
+              >
+                통합위험순
               </FilterChip>
-              <FilterChip href="/signals" active={false}>
-                시그널 보기
+              <FilterChip
+                href={`/rankings${buildQueryString({ regionCode, categoryId, sort: "market" })}`}
+                active={sort === "market"}
+              >
+                시장위험순
               </FilterChip>
-              <FilterChip href="/watchlist" active={false}>
-                관심목록
+              <FilterChip
+                href={`/rankings${buildQueryString({ regionCode, categoryId, sort: "kosis" })}`}
+                active={sort === "kosis"}
+              >
+                외부폐업순
+              </FilterChip>
+              <FilterChip
+                href={`/rankings${buildQueryString({ regionCode, categoryId, sort: "nts" })}`}
+                active={sort === "nts"}
+              >
+                NTS순
+              </FilterChip>
+              <FilterChip
+                href={`/rankings${buildQueryString({ regionCode, categoryId, sort: "smallbiz" })}`}
+                active={sort === "smallbiz"}
+              >
+                소상공인순
               </FilterChip>
             </div>
 
@@ -361,20 +483,29 @@ export default async function RankingsPage({
         </section>
 
         <section className="overflow-hidden rounded-3xl border border-slate-200 bg-white shadow-sm">
-          <div className="overflow-x-auto">
-            <table className="min-w-full text-left">
+          <div className="overflow-x-auto pb-2">
+            <table className="min-w-[1260px] text-left">
+              <colgroup>
+                <col style={{ width: "72px" }} />
+                <col style={{ width: "280px" }} />
+                <col style={{ width: "120px" }} />
+                <col style={{ width: "120px" }} />
+                <col style={{ width: "140px" }} />
+                <col style={{ width: "130px" }} />
+                <col style={{ width: "130px" }} />
+                <col style={{ width: "120px" }} />
+              </colgroup>
+
               <thead className="border-b border-slate-200 bg-slate-50">
                 <tr className="text-sm text-slate-500">
-                  <th className="px-5 py-4 font-medium">순위</th>
-                  <th className="px-5 py-4 font-medium">지역 · 업종</th>
-                  <th className="px-5 py-4 font-medium">위험도</th>
-                  <th className="px-5 py-4 font-medium">7일 폐업률</th>
-                  <th className="px-5 py-4 font-medium">7일 개업률</th>
-                  <th className="px-5 py-4 font-medium">7일 순증감</th>
-                  <th className="px-5 py-4 font-medium">7일 변화</th>
-                  <th className="px-5 py-4 font-medium">사업장 수</th>
-                  <th className="px-5 py-4 font-medium">기준일</th>
-                  <th className="px-5 py-4 font-medium text-right">관심</th>
+                  <th className="whitespace-nowrap px-5 py-4 font-medium">순위</th>
+                  <th className="whitespace-nowrap px-5 py-4 font-medium">지역 · 업종</th>
+                  <th className="whitespace-nowrap px-5 py-4 font-medium">통합위험</th>
+                  <th className="whitespace-nowrap px-5 py-4 font-medium">시장위험</th>
+                  <th className="whitespace-nowrap px-5 py-4 font-medium">소상공인위험</th>
+                  <th className="whitespace-nowrap px-5 py-4 font-medium">외부폐업압력</th>
+                  <th className="whitespace-nowrap px-5 py-4 font-medium">NTS위험</th>
+                  <th className="whitespace-nowrap px-5 py-4 text-right font-medium">관심</th>
                 </tr>
               </thead>
 
@@ -382,10 +513,10 @@ export default async function RankingsPage({
                 {rows.length === 0 ? (
                   <tr>
                     <td
-                      colSpan={10}
+                      colSpan={8}
                       className="px-5 py-16 text-center text-sm text-slate-500"
                     >
-                      표시할 랭킹 데이터가 없습니다.
+                      표시할 통합 랭킹 데이터가 없습니다.
                     </td>
                   </tr>
                 ) : (
@@ -397,42 +528,44 @@ export default async function RankingsPage({
                     const next = buildQueryString({
                       regionCode,
                       categoryId,
+                      sort,
                       page,
                     });
+
                     const detailHref = `/regions/${encodeURIComponent(
-                      row.region_code
-                    )}/${row.category_id}`;
+                      row.region_code,
+                    )}/${row.category_id}#db-insight`;
 
                     return (
                       <tr
-                        key={`${row.region_code}-${row.category_id}-${rank}`}
+                        key={`${row.region_code}-${row.category_id}-${row.snapshot_date}-${rank}`}
                         className="border-b border-slate-100 align-top last:border-b-0"
                       >
-                        <td className="px-5 py-5">
+                        <td className="whitespace-nowrap px-5 py-5">
                           <div className="text-base font-semibold text-slate-950">{rank}</div>
                         </td>
 
                         <td className="px-5 py-5">
-                          <div className="flex flex-col gap-2">
+                          <div className="flex min-w-[240px] flex-col gap-2">
                             <Link
                               href={detailHref}
-                              className="text-base font-semibold tracking-tight text-slate-950 transition hover:text-slate-700"
+                              className="text-base font-semibold tracking-tight text-slate-950 transition hover:text-sky-700"
                             >
-                              {row.region_name ?? row.region_code} ·{" "}
-                              {row.category_name ?? row.category_id}
+                              {row.region_name ?? row.region_code} · {row.category_name ?? row.category_id}
                             </Link>
+
                             <div className="flex flex-wrap gap-2">
                               <Link
                                 href={detailHref}
-                                className="text-sm font-medium text-slate-600 transition hover:text-slate-950"
+                                className="text-sm font-medium text-sky-700 transition hover:text-sky-800"
                               >
                                 상세 보기
                               </Link>
                               <Link
                                 href={`/signals?regionCode=${encodeURIComponent(
-                                  row.region_code
+                                  row.region_code,
                                 )}&categoryId=${row.category_id}`}
-                                className="text-sm font-medium text-slate-600 transition hover:text-slate-950"
+                                className="text-sm font-medium text-sky-700 transition hover:text-sky-800"
                               >
                                 관련 시그널
                               </Link>
@@ -440,83 +573,108 @@ export default async function RankingsPage({
                           </div>
                         </td>
 
-                        <td className="px-5 py-5">
+                        <td className="whitespace-nowrap px-5 py-5">
                           <span
-                            className={`inline-flex items-center rounded-full border px-3 py-1 text-sm font-medium ${riskTone(
-                              row.risk_score
+                            className={`inline-flex w-fit items-center rounded-full border px-3 py-1 text-sm font-medium ${scoreTone(
+                              row.integrated_final_score,
                             )}`}
                           >
-                            {formatScore(row.risk_score)}
+                            {severityLabel(row.integrated_severity)} ·{" "}
+                            {formatScore(row.integrated_final_score, 0)}
                           </span>
                         </td>
 
-                        <td className="px-5 py-5 text-sm font-medium text-slate-900">
-                          {formatPercent(row.close_rate_7d)}
-                        </td>
-
-                        <td className="px-5 py-5 text-sm font-medium text-slate-900">
-                          {formatPercent(row.open_rate_7d)}
-                        </td>
-
-                        <td className="px-5 py-5">
+                        <td className="whitespace-nowrap px-5 py-5">
                           <span
-                            className={`text-sm font-semibold ${deltaTone(row.net_change_7d)}`}
+                            className={`inline-flex w-fit items-center rounded-full border px-3 py-1 text-sm font-medium ${scoreTone(
+                              row.integrated_market_score,
+                            )}`}
                           >
-                            {formatSigned(row.net_change_7d, 0)}
+                            {formatScore(row.integrated_market_score, 0)}
                           </span>
                         </td>
 
-                        <td className="px-5 py-5">
+                        <td className="whitespace-nowrap px-5 py-5">
                           <span
-                            className={`text-sm font-semibold ${deltaTone(row.risk_delta_7d)}`}
+                            className={`inline-flex w-fit items-center rounded-full border px-3 py-1 text-sm font-medium ${scoreTone(
+                              row.smallbiz_risk_score,
+                            )}`}
                           >
-                            {formatSigned(row.risk_delta_7d, 1)}
+                            {formatScore(row.smallbiz_risk_score, 1)}
                           </span>
                         </td>
 
-                        <td className="px-5 py-5 text-sm text-slate-700">
-                          {formatNumber(row.business_count)}
-                        </td>
-
-                        <td className="px-5 py-5 text-sm text-slate-700">
-                          {formatDate(row.score_date)}
+                        <td className="px-5 py-5">
+                          <div className="flex min-w-[110px] flex-col gap-2">
+                            <span
+                              className={`inline-flex w-fit items-center rounded-full border px-3 py-1 text-sm font-medium ${pressureTone(
+                                row.kosis_pressure_grade,
+                              )}`}
+                            >
+                              {(row.kosis_pressure_label ||
+                                severityLabel(row.kosis_pressure_grade))}{" "}
+                              · {formatScore(row.kosis_pressure_score, 0)}
+                            </span>
+                          </div>
                         </td>
 
                         <td className="px-5 py-5">
+                          <div className="flex min-w-[110px] flex-col gap-2">
+                            <span
+                              className={`inline-flex w-fit items-center rounded-full border px-3 py-1 text-sm font-medium ${ntsTone(
+                                row.nts_business_score,
+                              )}`}
+                            >
+                              {(row.nts_label || "없음")} ·{" "}
+                              {formatScore(row.nts_business_score, 0)}
+                            </span>
+                          </div>
+                        </td>
+
+                        <td className="whitespace-nowrap px-5 py-5">
                           <div className="flex justify-end">
-                            <form action={mutateWatchlistAction}>
-                              <input type="hidden" name="user_id" value={String(userId)} />
-                              <input type="hidden" name="region_code" value={row.region_code} />
-                              <input
-                                type="hidden"
-                                name="category_id"
-                                value={String(row.category_id)}
-                              />
-                              <input
-                                type="hidden"
-                                name="intent"
-                                value={isWatching ? "remove" : "add"}
-                              />
-                              {watchlistId ? (
+                            {userId ? (
+                              <form action={mutateWatchlistAction}>
+                                <input type="hidden" name="user_id" value={String(userId)} />
+                                <input type="hidden" name="region_code" value={row.region_code} />
                                 <input
                                   type="hidden"
-                                  name="watchlist_id"
-                                  value={String(watchlistId)}
+                                  name="category_id"
+                                  value={String(row.category_id)}
                                 />
-                              ) : null}
-                              <input type="hidden" name="next" value={`/rankings${next}`} />
-                              <button
-                                type="submit"
-                                className={[
-                                  "inline-flex h-10 items-center justify-center rounded-xl px-4 text-sm font-medium transition",
-                                  isWatching
-                                    ? "border border-slate-200 bg-white text-slate-700 hover:bg-slate-50"
-                                    : "bg-slate-950 text-white hover:bg-slate-800",
-                                ].join(" ")}
+                                <input
+                                  type="hidden"
+                                  name="intent"
+                                  value={isWatching ? "remove" : "add"}
+                                />
+                                {watchlistId ? (
+                                  <input
+                                    type="hidden"
+                                    name="watchlist_id"
+                                    value={String(watchlistId)}
+                                  />
+                                ) : null}
+                                <input type="hidden" name="next" value={`/rankings${next}`} />
+                                <button
+                                  type="submit"
+                                  className={[
+                                    "inline-flex h-10 min-w-[72px] whitespace-nowrap items-center justify-center rounded-xl px-4 text-sm font-medium transition",
+                                    isWatching
+                                      ? "border border-sky-200 bg-sky-50 text-sky-700 hover:bg-sky-100"
+                                      : "bg-sky-600 text-white shadow-sm hover:bg-sky-700",
+                                  ].join(" ")}
+                                >
+                                  {isWatching ? "저장됨" : "추가"}
+                                </button>
+                              </form>
+                            ) : (
+                              <Link
+                                href={`/auth/login?next=${encodeURIComponent(`/rankings${next}`)}`}
+                                className="inline-flex h-10 min-w-[72px] items-center justify-center rounded-xl bg-sky-600 px-4 text-sm font-medium text-white shadow-sm transition hover:bg-sky-700"
                               >
-                                {isWatching ? "저장됨" : "추가"}
-                              </button>
-                            </form>
+                                모니터링추가
+                              </Link>
+                            )}
                           </div>
                         </td>
                       </tr>
@@ -534,7 +692,7 @@ export default async function RankingsPage({
             className={[
               "inline-flex h-11 items-center justify-center rounded-xl px-4 text-sm font-medium transition",
               page > 1
-                ? "border border-slate-200 bg-white text-slate-700 hover:bg-slate-50"
+                ? "border border-sky-200 bg-sky-50 text-sky-700 hover:bg-sky-100"
                 : "cursor-default border border-slate-100 bg-slate-100 text-slate-400",
             ].join(" ")}
           >
@@ -543,6 +701,14 @@ export default async function RankingsPage({
 
           <div className="text-sm text-slate-500">
             페이지 <span className="font-medium text-slate-900">{page}</span>
+            {summaryAvgRisk !== null ? (
+              <span className="ml-3">
+                평균 통합위험{" "}
+                <span className="font-medium text-slate-900">
+                  {formatScore(summaryAvgRisk, 1)}
+                </span>
+              </span>
+            ) : null}
           </div>
 
           <Link
@@ -550,7 +716,7 @@ export default async function RankingsPage({
             className={[
               "inline-flex h-11 items-center justify-center rounded-xl px-4 text-sm font-medium transition",
               rows.length === PAGE_SIZE
-                ? "border border-slate-200 bg-white text-slate-700 hover:bg-slate-50"
+                ? "border border-sky-200 bg-sky-50 text-sky-700 hover:bg-sky-100"
                 : "cursor-default border border-slate-100 bg-slate-100 text-slate-400",
             ].join(" ")}
           >

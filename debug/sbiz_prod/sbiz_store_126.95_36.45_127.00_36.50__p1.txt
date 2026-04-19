@@ -1,0 +1,385 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA010120220810033231"
+				,"bizesNm" : "솔티가든"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44790"
+				,"signguNm" : "청양군"
+				,"adongCd" : "44790330"
+				,"adongNm" : "정산면"
+				,"ldongCd" : "4479033026"
+				,"ldongNm" : "정산면"
+				,"lnoCd" : "4479033026101390002"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 139
+				,"lnoSlno" : 2
+				,"lnoAdr" : "충청남도 청양군 정산면 송학리 139-2"
+				,"rdnmCd" : "447903251049"
+				,"rdnm" : "충청남도 청양군 정산면 충의로"
+				,"bldMnno" : 1863
+				,"bldSlno" : ""
+				,"bldMngNo" : "4479033026101390002006375"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청남도 청양군 정산면 충의로 1863"
+				,"oldZipcd" : "345812"
+				,"newZipcd" : "33346"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.951878379281
+				,"lat" : 36.4507104965851
+				}
+				,{
+				"bizesId" : "MA010120220809139890"
+				,"bizesNm" : "아모레"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G215"
+				,"indsMclsNm" : "의약·화장품 소매"
+				,"indsSclsCd" : "G21503"
+				,"indsSclsNm" : "화장품 소매업"
+				,"ksicCd" : "G47813"
+				,"ksicNm" : "화장품, 비누 및 방향제 소매업"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44150"
+				,"signguNm" : "공주시"
+				,"adongCd" : "44150400"
+				,"adongNm" : "신풍면"
+				,"ldongCd" : "4415040029"
+				,"ldongNm" : "신풍면"
+				,"lnoCd" : "4415040029103390000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 339
+				,"lnoSlno" : ""
+				,"lnoAdr" : "충청남도 공주시 신풍면 입동리 339"
+				,"rdnmCd" : "441503251028"
+				,"rdnm" : "충청남도 공주시 신풍면 용봉입동로"
+				,"bldMnno" : 1080
+				,"bldSlno" : ""
+				,"bldMngNo" : "4415040029103390000032453"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청남도 공주시 신풍면 용봉입동로 1080"
+				,"oldZipcd" : "314881"
+				,"newZipcd" : "32525"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.952461839209
+				,"lat" : 36.4999321952828
+				}
+				,{
+				"bizesId" : "MA010120220812564119"
+				,"bizesNm" : "미호"
+				,"brchNm" : ""
+				,"indsLclsCd" : "R1"
+				,"indsLclsNm" : "예술·스포츠"
+				,"indsMclsCd" : "R104"
+				,"indsMclsNm" : "유원지·오락"
+				,"indsSclsCd" : "R10499"
+				,"indsSclsNm" : "기타 오락관련 서비스업"
+				,"ksicCd" : "R91299"
+				,"ksicNm" : "그 외 기타 분류 안된 오락관련 서비스업"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44150"
+				,"signguNm" : "공주시"
+				,"adongCd" : "44150400"
+				,"adongNm" : "신풍면"
+				,"ldongCd" : "4415040029"
+				,"ldongNm" : "신풍면"
+				,"lnoCd" : "4415040029102210001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 221
+				,"lnoSlno" : 1
+				,"lnoAdr" : "충청남도 공주시 신풍면 입동리 221-1"
+				,"rdnmCd" : "441504553990"
+				,"rdnm" : "충청남도 공주시 신풍면 음지말길"
+				,"bldMnno" : 100
+				,"bldSlno" : ""
+				,"bldMngNo" : "4415040029102210001032248"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청남도 공주시 신풍면 음지말길 100"
+				,"oldZipcd" : "314881"
+				,"newZipcd" : "32525"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.953503287039
+				,"lat" : 36.4942462946531
+				}
+				,{
+				"bizesId" : "MA010120220805873916"
+				,"bizesNm" : "안터사슴목장"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G205"
+				,"indsMclsNm" : "식료품 소매"
+				,"indsSclsCd" : "G20508"
+				,"indsSclsNm" : "건강보조식품 소매업"
+				,"ksicCd" : "G47217"
+				,"ksicNm" : "건강 보조식품 소매업"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44150"
+				,"signguNm" : "공주시"
+				,"adongCd" : "44150400"
+				,"adongNm" : "신풍면"
+				,"ldongCd" : "4415040029"
+				,"ldongNm" : "신풍면"
+				,"lnoCd" : "4415040029101130001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 113
+				,"lnoSlno" : 1
+				,"lnoAdr" : "충청남도 공주시 신풍면 입동리 113-1"
+				,"rdnmCd" : "441503251028"
+				,"rdnm" : "충청남도 공주시 신풍면 용봉입동로"
+				,"bldMnno" : 942
+				,"bldSlno" : 23
+				,"bldMngNo" : "4415040029101130001000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청남도 공주시 신풍면 용봉입동로 942-23"
+				,"oldZipcd" : "314881"
+				,"newZipcd" : "32525"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.960190678002
+				,"lat" : 36.4904277974976
+				}
+				,{
+				"bizesId" : "MA0101202410A0450213"
+				,"bizesNm" : "장락농원"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G219"
+				,"indsMclsNm" : "식물 소매"
+				,"indsSclsCd" : "G21901"
+				,"indsSclsNm" : "꽃집"
+				,"ksicCd" : "G47851"
+				,"ksicNm" : "화초 및 식물 소매업"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44150"
+				,"signguNm" : "공주시"
+				,"adongCd" : "44150400"
+				,"adongNm" : "신풍면"
+				,"ldongCd" : "4415040029"
+				,"ldongNm" : "신풍면"
+				,"lnoCd" : "4415040029100060000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 6
+				,"lnoSlno" : ""
+				,"lnoAdr" : "충청남도 공주시 신풍면 입동리 6"
+				,"rdnmCd" : "441503251028"
+				,"rdnm" : "충청남도 공주시 신풍면 용봉입동로"
+				,"bldMnno" : 830
+				,"bldSlno" : 18
+				,"bldMngNo" : "4415040029100060000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청남도 공주시 신풍면 용봉입동로 830-18"
+				,"oldZipcd" : "314881"
+				,"newZipcd" : "32525"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.966589286725
+				,"lat" : 36.4818777490833
+				}
+				,{
+				"bizesId" : "MA010120220808081314"
+				,"bizesNm" : "구름빵문구"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G213"
+				,"indsMclsNm" : "오락용품 소매"
+				,"indsSclsCd" : "G21302"
+				,"indsSclsNm" : "문구/회화용품 소매업"
+				,"ksicCd" : "G47612"
+				,"ksicNm" : "문구용품 및 회화용품 소매업"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44790"
+				,"signguNm" : "청양군"
+				,"adongCd" : "44790330"
+				,"adongNm" : "정산면"
+				,"ldongCd" : "4479033025"
+				,"ldongNm" : "정산면"
+				,"lnoCd" : "4479033025103310000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 331
+				,"lnoSlno" : ""
+				,"lnoAdr" : "충청남도 청양군 정산면 남천리 331"
+				,"rdnmCd" : "447904583043"
+				,"rdnm" : "충청남도 청양군 정산면 남천새울길"
+				,"bldMnno" : 63
+				,"bldSlno" : 10
+				,"bldMngNo" : "4479033025103310000017157"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청남도 청양군 정산면 남천새울길 63-10"
+				,"oldZipcd" : "345812"
+				,"newZipcd" : "33346"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.969407679782
+				,"lat" : 36.4659279338946
+				}
+				,{
+				"bizesId" : "MA0101202504A0075936"
+				,"bizesNm" : "예울림물레방아농촌체험휴양마을운영위원회"
+				,"brchNm" : ""
+				,"indsLclsCd" : "R1"
+				,"indsLclsNm" : "예술·스포츠"
+				,"indsMclsCd" : "R104"
+				,"indsMclsNm" : "유원지·오락"
+				,"indsSclsCd" : "R10499"
+				,"indsSclsNm" : "기타 오락관련 서비스업"
+				,"ksicCd" : "R91299"
+				,"ksicNm" : "그 외 기타 분류 안된 오락관련 서비스업"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44150"
+				,"signguNm" : "공주시"
+				,"adongCd" : "44150380"
+				,"adongNm" : "우성면"
+				,"ldongCd" : "4415038039"
+				,"ldongNm" : "우성면"
+				,"lnoCd" : "4415038039102410002"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 241
+				,"lnoSlno" : 2
+				,"lnoAdr" : "충청남도 공주시 우성면 봉현리 241-2"
+				,"rdnmCd" : "441504553386"
+				,"rdnm" : "충청남도 공주시 우성면 무재길"
+				,"bldMnno" : 23
+				,"bldSlno" : 6
+				,"bldMngNo" : "4415038039102410002027425"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청남도 공주시 우성면 무재길 23-6"
+				,"oldZipcd" : "314865"
+				,"newZipcd" : "32534"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.986745451218
+				,"lat" : 36.4665619330266
+				}
+				,{
+				"bizesId" : "MA010120220805905156"
+				,"bizesNm" : "충남교육연구소"
+				,"brchNm" : ""
+				,"indsLclsCd" : "P1"
+				,"indsLclsNm" : "교육"
+				,"indsMclsCd" : "P107"
+				,"indsMclsNm" : "교육 지원"
+				,"indsSclsCd" : "P10799"
+				,"indsSclsNm" : "기타 교육지원 서비스업"
+				,"ksicCd" : "P85709"
+				,"ksicNm" : "기타 교육지원 서비스업"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44150"
+				,"signguNm" : "공주시"
+				,"adongCd" : "44150380"
+				,"adongNm" : "우성면"
+				,"ldongCd" : "4415038039"
+				,"ldongNm" : "우성면"
+				,"lnoCd" : "4415038039102620001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 262
+				,"lnoSlno" : 1
+				,"lnoAdr" : "충청남도 공주시 우성면 봉현리 262-1"
+				,"rdnmCd" : "441503251028"
+				,"rdnm" : "충청남도 공주시 우성면 용봉입동로"
+				,"bldMnno" : 524
+				,"bldSlno" : ""
+				,"bldMngNo" : "4415038039102620001026705"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청남도 공주시 우성면 용봉입동로 524"
+				,"oldZipcd" : "314865"
+				,"newZipcd" : "32534"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.986946681068
+				,"lat" : 36.4641558485842
+				}
+				,{
+				"bizesId" : "MA010120220814019965"
+				,"bizesNm" : "법인동심농촌체험원"
+				,"brchNm" : ""
+				,"indsLclsCd" : "R1"
+				,"indsLclsNm" : "예술·스포츠"
+				,"indsMclsCd" : "R104"
+				,"indsMclsNm" : "유원지·오락"
+				,"indsSclsCd" : "R10499"
+				,"indsSclsNm" : "기타 오락관련 서비스업"
+				,"ksicCd" : "R91299"
+				,"ksicNm" : "그 외 기타 분류 안된 오락관련 서비스업"
+				,"ctprvnCd" : "44"
+				,"ctprvnNm" : "충청남도"
+				,"signguCd" : "44150"
+				,"signguNm" : "공주시"
+				,"adongCd" : "44150400"
+				,"adongNm" : "신풍면"
+				,"ldongCd" : "4415040031"
+				,"ldongNm" : "신풍면"
+				,"lnoCd" : "4415040031101910005"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 191
+				,"lnoSlno" : 5
+				,"lnoAdr" : "충청남도 공주시 신풍면 선학리 191-5"
+				,"rdnmCd" : "441504553629"
+				,"rdnm" : "충청남도 공주시 신풍면 선학리길"
+				,"bldMnno" : 143
+				,"bldSlno" : ""
+				,"bldMngNo" : "4415040031101910005031306"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청남도 공주시 신풍면 선학리길 143"
+				,"oldZipcd" : "314883"
+				,"newZipcd" : "32526"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.989308047146
+				,"lat" : 36.4921912205778
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 1,
+		"totalCount" : 9	}
+}

@@ -1,0 +1,262 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA010120220809635618"
+				,"bizesNm" : "풍차민박"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55104"
+				,"ksicNm" : "민박업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46910"
+				,"signguNm" : "신안군"
+				,"adongCd" : "46910330"
+				,"adongNm" : "자은면"
+				,"ldongCd" : "4691033028"
+				,"ldongNm" : "자은면"
+				,"lnoCd" : "4691033028104820001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 482
+				,"lnoSlno" : 1
+				,"lnoAdr" : "전라남도 신안군 자은면 고장리 482-1"
+				,"rdnmCd" : "469104706040"
+				,"rdnm" : "전라남도 신안군 자은면 내기길"
+				,"bldMnno" : 44
+				,"bldSlno" : 94
+				,"bldMngNo" : "4691033028104820001000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 신안군 자은면 내기길 44-94"
+				,"oldZipcd" : "535871"
+				,"newZipcd" : "58829"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.032862151291
+				,"lat" : 34.9018496206679
+				}
+				,{
+				"bizesId" : "MA010120220811962275"
+				,"bizesNm" : "해안누리"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55109"
+				,"ksicNm" : "기타 일반 및 생활 숙박시설 운영업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46910"
+				,"signguNm" : "신안군"
+				,"adongCd" : "46910330"
+				,"adongNm" : "자은면"
+				,"ldongCd" : "4691033028"
+				,"ldongNm" : "자은면"
+				,"lnoCd" : "4691033028104250003"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 425
+				,"lnoSlno" : 3
+				,"lnoAdr" : "전라남도 신안군 자은면 고장리 425-3"
+				,"rdnmCd" : "469104706141"
+				,"rdnm" : "전라남도 신안군 자은면 사월포길"
+				,"bldMnno" : 183
+				,"bldSlno" : ""
+				,"bldMngNo" : "4691033028104250003000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 신안군 자은면 사월포길 183"
+				,"oldZipcd" : "535871"
+				,"newZipcd" : "58828"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.038935292563
+				,"lat" : 34.9139669136665
+				}
+				,{
+				"bizesId" : "MA010120220806393796"
+				,"bizesNm" : "사월포수산"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G205"
+				,"indsMclsNm" : "식료품 소매"
+				,"indsSclsCd" : "G20505"
+				,"indsSclsNm" : "수산물 소매업"
+				,"ksicCd" : "G47214"
+				,"ksicNm" : "신선, 냉동 및 기타 수산물 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46910"
+				,"signguNm" : "신안군"
+				,"adongCd" : "46910330"
+				,"adongNm" : "자은면"
+				,"ldongCd" : "4691033028"
+				,"ldongNm" : "자은면"
+				,"lnoCd" : "4691033028104260014"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 426
+				,"lnoSlno" : 14
+				,"lnoAdr" : "전라남도 신안군 자은면 고장리 426-14"
+				,"rdnmCd" : "469104706141"
+				,"rdnm" : "전라남도 신안군 자은면 사월포길"
+				,"bldMnno" : 207
+				,"bldSlno" : ""
+				,"bldMngNo" : "4691033028104260000000002"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 신안군 자은면 사월포길 207"
+				,"oldZipcd" : "535871"
+				,"newZipcd" : "58828"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.039623489285
+				,"lat" : 34.9159463156096
+				}
+				,{
+				"bizesId" : "MA0101202409A0054479"
+				,"bizesNm" : "사월포민박"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55104"
+				,"ksicNm" : "민박업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46910"
+				,"signguNm" : "신안군"
+				,"adongCd" : "46910330"
+				,"adongNm" : "자은면"
+				,"ldongCd" : "4691033028"
+				,"ldongNm" : "자은면"
+				,"lnoCd" : "4691033028104260012"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 426
+				,"lnoSlno" : 12
+				,"lnoAdr" : "전라남도 신안군 자은면 고장리 426-12"
+				,"rdnmCd" : "469104706141"
+				,"rdnm" : "전라남도 신안군 자은면 사월포길"
+				,"bldMnno" : 211
+				,"bldSlno" : ""
+				,"bldMngNo" : "4691033028200870001000003"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 신안군 자은면 사월포길 211"
+				,"oldZipcd" : "535871"
+				,"newZipcd" : "58828"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.039730071055
+				,"lat" : 34.9161905229397
+				}
+				,{
+				"bizesId" : "MA010120220803365554"
+				,"bizesNm" : "해변민박"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55104"
+				,"ksicNm" : "민박업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46910"
+				,"signguNm" : "신안군"
+				,"adongCd" : "46910330"
+				,"adongNm" : "자은면"
+				,"ldongCd" : "4691033028"
+				,"ldongNm" : "자은면"
+				,"lnoCd" : "4691033028104230002"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 423
+				,"lnoSlno" : 2
+				,"lnoAdr" : "전라남도 신안군 자은면 고장리 423-2"
+				,"rdnmCd" : "469104706141"
+				,"rdnm" : "전라남도 신안군 자은면 사월포길"
+				,"bldMnno" : 198
+				,"bldSlno" : ""
+				,"bldMngNo" : "4691033028200850004000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 신안군 자은면 사월포길 198"
+				,"oldZipcd" : "535871"
+				,"newZipcd" : "58828"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.040075109408
+				,"lat" : 34.9147510858616
+				}
+				,{
+				"bizesId" : "MA010120220808778611"
+				,"bizesNm" : "시원테크"
+				,"brchNm" : ""
+				,"indsLclsCd" : "S2"
+				,"indsLclsNm" : "수리·개인"
+				,"indsMclsCd" : "S206"
+				,"indsMclsNm" : "기타 가정용품 수리"
+				,"indsSclsCd" : "S20699"
+				,"indsSclsNm" : "그 외 기타 개인/가정용품 수리업"
+				,"ksicCd" : "S95399"
+				,"ksicNm" : "그 외 기타 개인 및 가정용품 수리업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46910"
+				,"signguNm" : "신안군"
+				,"adongCd" : "46910330"
+				,"adongNm" : "자은면"
+				,"ldongCd" : "4691033028"
+				,"ldongNm" : "자은면"
+				,"lnoCd" : "4691033028103270000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 327
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 신안군 자은면 고장리 327"
+				,"rdnmCd" : "469104706016"
+				,"rdnm" : "전라남도 신안군 자은면 고장길"
+				,"bldMnno" : 66
+				,"bldSlno" : ""
+				,"bldMngNo" : "4691033028103270000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 신안군 자은면 고장길 66"
+				,"oldZipcd" : "535871"
+				,"newZipcd" : "58829"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.040609011317
+				,"lat" : 34.9008384088773
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 1,
+		"totalCount" : 6	}
+}

@@ -1,0 +1,713 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA010120220807872408"
+				,"bizesNm" : "선우기업"
+				,"brchNm" : ""
+				,"indsLclsCd" : "S2"
+				,"indsLclsNm" : "수리·개인"
+				,"indsMclsCd" : "S206"
+				,"indsMclsNm" : "기타 가정용품 수리"
+				,"indsSclsCd" : "S20699"
+				,"indsSclsNm" : "그 외 기타 개인/가정용품 수리업"
+				,"ksicCd" : "S95399"
+				,"ksicNm" : "그 외 기타 개인 및 가정용품 수리업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46780"
+				,"signguNm" : "보성군"
+				,"adongCd" : "46780390"
+				,"adongNm" : "회천면"
+				,"ldongCd" : "4678039028"
+				,"ldongNm" : "회천면"
+				,"lnoCd" : "4678039028113350005"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 1335
+				,"lnoSlno" : 5
+				,"lnoAdr" : "전라남도 보성군 회천면 군농리 1335-5"
+				,"rdnmCd" : "467803290019"
+				,"rdnm" : "전라남도 보성군 회천면 충의로"
+				,"bldMnno" : 181
+				,"bldSlno" : 12
+				,"bldMngNo" : "4678039028113350005000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 보성군 회천면 충의로 181-12"
+				,"oldZipcd" : "546872"
+				,"newZipcd" : "59471"
+				,"dongNo" : ""
+				,"flrNo" : "1"
+				,"hoNo" : ""
+				,"lon" : 127.10201375884
+				,"lat" : 34.6778674816473
+				}
+				,{
+				"bizesId" : "MA0101202212A0003926"
+				,"bizesNm" : "신금수산"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G205"
+				,"indsMclsNm" : "식료품 소매"
+				,"indsSclsCd" : "G20505"
+				,"indsSclsNm" : "수산물 소매업"
+				,"ksicCd" : "G47214"
+				,"ksicNm" : "신선, 냉동 및 기타 수산물 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46780"
+				,"signguNm" : "보성군"
+				,"adongCd" : "46780390"
+				,"adongNm" : "회천면"
+				,"ldongCd" : "4678039028"
+				,"ldongNm" : "회천면"
+				,"lnoCd" : "4678039028113350008"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 1335
+				,"lnoSlno" : 8
+				,"lnoAdr" : "전라남도 보성군 회천면 군농리 1335-8"
+				,"rdnmCd" : "467803290019"
+				,"rdnm" : "전라남도 보성군 회천면 충의로"
+				,"bldMnno" : 181
+				,"bldSlno" : 6
+				,"bldMngNo" : "4678039028113350008000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 보성군 회천면 충의로 181-6"
+				,"oldZipcd" : "546872"
+				,"newZipcd" : "59471"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.102253207167
+				,"lat" : 34.677371494072
+				}
+				,{
+				"bizesId" : "MA010120220812235841"
+				,"bizesNm" : "우정농수산"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G205"
+				,"indsMclsNm" : "식료품 소매"
+				,"indsSclsCd" : "G20506"
+				,"indsSclsNm" : "채소/과일 소매업"
+				,"ksicCd" : "G47215"
+				,"ksicNm" : "채소, 과실 및 뿌리작물 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46780"
+				,"signguNm" : "보성군"
+				,"adongCd" : "46780390"
+				,"adongNm" : "회천면"
+				,"ldongCd" : "4678039028"
+				,"ldongNm" : "회천면"
+				,"lnoCd" : "4678039028111110000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 1111
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 보성군 회천면 군농리 1111"
+				,"rdnmCd" : "467804670305"
+				,"rdnm" : "전라남도 보성군 회천면 우암길"
+				,"bldMnno" : 186
+				,"bldSlno" : ""
+				,"bldMngNo" : "4678039028111110000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 보성군 회천면 우암길 186"
+				,"oldZipcd" : "546872"
+				,"newZipcd" : "59471"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.102601512791
+				,"lat" : 34.6766680852966
+				}
+				,{
+				"bizesId" : "MA010120220804541581"
+				,"bizesNm" : "장군쟁이휴게소"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G204"
+				,"indsMclsNm" : "종합 소매"
+				,"indsSclsCd" : "G20404"
+				,"indsSclsNm" : "슈퍼마켓"
+				,"ksicCd" : "G47129"
+				,"ksicNm" : "기타 음ㆍ식료품 위주 종합 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46780"
+				,"signguNm" : "보성군"
+				,"adongCd" : "46780390"
+				,"adongNm" : "회천면"
+				,"ldongCd" : "4678039028"
+				,"ldongNm" : "회천면"
+				,"lnoCd" : "4678039028111110000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 1111
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 보성군 회천면 군농리 1111"
+				,"rdnmCd" : "467804670305"
+				,"rdnm" : "전라남도 보성군 회천면 우암길"
+				,"bldMnno" : 186
+				,"bldSlno" : ""
+				,"bldMngNo" : "4678039028111110000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 보성군 회천면 우암길 186"
+				,"oldZipcd" : "546872"
+				,"newZipcd" : "59471"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.102601512791
+				,"lat" : 34.6766680852966
+				}
+				,{
+				"bizesId" : "MA010120220808515930"
+				,"bizesNm" : "달"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55104"
+				,"ksicNm" : "민박업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46780"
+				,"signguNm" : "보성군"
+				,"adongCd" : "46780390"
+				,"adongNm" : "회천면"
+				,"ldongCd" : "4678039028"
+				,"ldongNm" : "회천면"
+				,"lnoCd" : "4678039028110920004"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 1092
+				,"lnoSlno" : 4
+				,"lnoAdr" : "전라남도 보성군 회천면 군농리 1092-4"
+				,"rdnmCd" : "467803290019"
+				,"rdnm" : "전라남도 보성군 회천면 충의로"
+				,"bldMnno" : 216
+				,"bldSlno" : ""
+				,"bldMngNo" : ""
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 보성군 회천면 충의로 216"
+				,"oldZipcd" : "546872"
+				,"newZipcd" : "59470"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.105799309421
+				,"lat" : 34.6772242389818
+				}
+				,{
+				"bizesId" : "MA010120220810405186"
+				,"bizesNm" : "플라밍고"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55104"
+				,"ksicNm" : "민박업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46780"
+				,"signguNm" : "보성군"
+				,"adongCd" : "46780390"
+				,"adongNm" : "회천면"
+				,"ldongCd" : "4678039028"
+				,"ldongNm" : "회천면"
+				,"lnoCd" : "4678039028110920003"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 1092
+				,"lnoSlno" : 3
+				,"lnoAdr" : "전라남도 보성군 회천면 군농리 1092-3"
+				,"rdnmCd" : "467803290019"
+				,"rdnm" : "전라남도 보성군 회천면 충의로"
+				,"bldMnno" : 216
+				,"bldSlno" : 1
+				,"bldMngNo" : ""
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 보성군 회천면 충의로 216-1"
+				,"oldZipcd" : "546872"
+				,"newZipcd" : "59470"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.106083172683
+				,"lat" : 34.6773501925976
+				}
+				,{
+				"bizesId" : "MA010120220804983563"
+				,"bizesNm" : "빛그린민박"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55104"
+				,"ksicNm" : "민박업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46780"
+				,"signguNm" : "보성군"
+				,"adongCd" : "46780390"
+				,"adongNm" : "회천면"
+				,"ldongCd" : "4678039028"
+				,"ldongNm" : "회천면"
+				,"lnoCd" : "4678039028110920002"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 1092
+				,"lnoSlno" : 2
+				,"lnoAdr" : "전라남도 보성군 회천면 군농리 1092-2"
+				,"rdnmCd" : "467803290019"
+				,"rdnm" : "전라남도 보성군 회천면 충의로"
+				,"bldMnno" : 216
+				,"bldSlno" : 2
+				,"bldMngNo" : ""
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 보성군 회천면 충의로 216-2"
+				,"oldZipcd" : "546872"
+				,"newZipcd" : "59470"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.10610478903
+				,"lat" : 34.6771879162337
+				}
+				,{
+				"bizesId" : "MA0101202406A0288682"
+				,"bizesNm" : "풀라밍고"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46780"
+				,"signguNm" : "보성군"
+				,"adongCd" : "46780390"
+				,"adongNm" : "회천면"
+				,"ldongCd" : "4678039028"
+				,"ldongNm" : "회천면"
+				,"lnoCd" : "4678039028110920005"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 1092
+				,"lnoSlno" : 5
+				,"lnoAdr" : "전라남도 보성군 회천면 군농리 1092-5"
+				,"rdnmCd" : "467803290019"
+				,"rdnm" : "전라남도 보성군 회천면 충의로"
+				,"bldMnno" : 216
+				,"bldSlno" : 4
+				,"bldMngNo" : "4678039028201710004000004"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 보성군 회천면 충의로 216-4"
+				,"oldZipcd" : "546872"
+				,"newZipcd" : "59470"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.106159174607
+				,"lat" : 34.6770526542544
+				}
+				,{
+				"bizesId" : "MA0101202406A0148615"
+				,"bizesNm" : "밍고"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I212"
+				,"indsMclsNm" : "비알코올 "
+				,"indsSclsCd" : "I21201"
+				,"indsSclsNm" : "카페"
+				,"ksicCd" : "I56229"
+				,"ksicNm" : "기타 비알코올 음료점업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46780"
+				,"signguNm" : "보성군"
+				,"adongCd" : "46780390"
+				,"adongNm" : "회천면"
+				,"ldongCd" : "4678039028"
+				,"ldongNm" : "회천면"
+				,"lnoCd" : "4678039028110920005"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 1092
+				,"lnoSlno" : 5
+				,"lnoAdr" : "전라남도 보성군 회천면 군농리 1092-5"
+				,"rdnmCd" : "467803290019"
+				,"rdnm" : "전라남도 보성군 회천면 충의로"
+				,"bldMnno" : 216
+				,"bldSlno" : 4
+				,"bldMngNo" : "4678039028201710004000004"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 보성군 회천면 충의로 216-4"
+				,"oldZipcd" : "546872"
+				,"newZipcd" : "59470"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.106159174607
+				,"lat" : 34.6770526542544
+				}
+				,{
+				"bizesId" : "MA010120220812589987"
+				,"bizesNm" : "풀라밍고"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I212"
+				,"indsMclsNm" : "비알코올 "
+				,"indsSclsCd" : "I21201"
+				,"indsSclsNm" : "카페"
+				,"ksicCd" : "I56221"
+				,"ksicNm" : "커피 전문점"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46780"
+				,"signguNm" : "보성군"
+				,"adongCd" : "46780390"
+				,"adongNm" : "회천면"
+				,"ldongCd" : "4678039028"
+				,"ldongNm" : "회천면"
+				,"lnoCd" : "4678039028110920005"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 1092
+				,"lnoSlno" : 5
+				,"lnoAdr" : "전라남도 보성군 회천면 군농리 1092-5"
+				,"rdnmCd" : "467803290019"
+				,"rdnm" : "전라남도 보성군 회천면 충의로"
+				,"bldMnno" : 216
+				,"bldSlno" : 4
+				,"bldMngNo" : "4678039028201710004000004"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 보성군 회천면 충의로 216-4"
+				,"oldZipcd" : "546872"
+				,"newZipcd" : "59470"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.106159174607
+				,"lat" : 34.6770526542544
+				}
+				,{
+				"bizesId" : "MA0101202212A0099164"
+				,"bizesNm" : "햇살"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55104"
+				,"ksicNm" : "민박업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46780"
+				,"signguNm" : "보성군"
+				,"adongCd" : "46780390"
+				,"adongNm" : "회천면"
+				,"ldongCd" : "4678039028"
+				,"ldongNm" : "회천면"
+				,"lnoCd" : "4678039028108580004"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 858
+				,"lnoSlno" : 4
+				,"lnoAdr" : "전라남도 보성군 회천면 군농리 858-4"
+				,"rdnmCd" : "467803290019"
+				,"rdnm" : "전라남도 보성군 회천면 충의로"
+				,"bldMnno" : 252
+				,"bldSlno" : ""
+				,"bldMngNo" : "4678039028108610004000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 보성군 회천면 충의로 252"
+				,"oldZipcd" : "546872"
+				,"newZipcd" : "59470"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.10881379562
+				,"lat" : 34.6794210761683
+				}
+				,{
+				"bizesId" : "MA0101202212A0058312"
+				,"bizesNm" : "햇살1"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55104"
+				,"ksicNm" : "민박업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46780"
+				,"signguNm" : "보성군"
+				,"adongCd" : "46780390"
+				,"adongNm" : "회천면"
+				,"ldongCd" : "4678039028"
+				,"ldongNm" : "회천면"
+				,"lnoCd" : "4678039028108610004"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 861
+				,"lnoSlno" : 4
+				,"lnoAdr" : "전라남도 보성군 회천면 군농리 861-4"
+				,"rdnmCd" : "467803290019"
+				,"rdnm" : "전라남도 보성군 회천면 충의로"
+				,"bldMnno" : 254
+				,"bldSlno" : ""
+				,"bldMngNo" : "4678039028108610004000002"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 보성군 회천면 충의로 254"
+				,"oldZipcd" : "546872"
+				,"newZipcd" : "59470"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.108879432292
+				,"lat" : 34.6795472178255
+				}
+				,{
+				"bizesId" : "MA0101202406A0163156"
+				,"bizesNm" : "아시아마트"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G204"
+				,"indsMclsNm" : "종합 소매"
+				,"indsSclsCd" : "G20404"
+				,"indsSclsNm" : "슈퍼마켓"
+				,"ksicCd" : "G47129"
+				,"ksicNm" : "기타 음ㆍ식료품 위주 종합 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46780"
+				,"signguNm" : "보성군"
+				,"adongCd" : "46780390"
+				,"adongNm" : "회천면"
+				,"ldongCd" : "4678039028"
+				,"ldongNm" : "회천면"
+				,"lnoCd" : "4678039028106190006"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 619
+				,"lnoSlno" : 6
+				,"lnoAdr" : "전라남도 보성군 회천면 군농리 619-6"
+				,"rdnmCd" : "467803290019"
+				,"rdnm" : "전라남도 보성군 회천면 충의로"
+				,"bldMnno" : 387
+				,"bldSlno" : 1
+				,"bldMngNo" : "4678039028106190006501055"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 보성군 회천면 충의로 387-1"
+				,"oldZipcd" : "546872"
+				,"newZipcd" : "59470"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.111098283848
+				,"lat" : 34.6905066000691
+				}
+				,{
+				"bizesId" : "MA0101202503A0018857"
+				,"bizesNm" : "아시아마트"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G204"
+				,"indsMclsNm" : "종합 소매"
+				,"indsSclsCd" : "G20404"
+				,"indsSclsNm" : "슈퍼마켓"
+				,"ksicCd" : "G47129"
+				,"ksicNm" : "기타 음ㆍ식료품 위주 종합 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46780"
+				,"signguNm" : "보성군"
+				,"adongCd" : "46780390"
+				,"adongNm" : "회천면"
+				,"ldongCd" : "4678039028"
+				,"ldongNm" : "회천면"
+				,"lnoCd" : "4678039028106190006"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 619
+				,"lnoSlno" : 6
+				,"lnoAdr" : "전라남도 보성군 회천면 군농리 619-6"
+				,"rdnmCd" : "467803290019"
+				,"rdnm" : "전라남도 보성군 회천면 충의로"
+				,"bldMnno" : 387
+				,"bldSlno" : 1
+				,"bldMngNo" : "4678039028106190006501055"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 보성군 회천면 충의로 387-1"
+				,"oldZipcd" : "546872"
+				,"newZipcd" : "59470"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.111098283848
+				,"lat" : 34.6905066000691
+				}
+				,{
+				"bizesId" : "MA010120220807848509"
+				,"bizesNm" : "지중해횟집"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20111"
+				,"indsSclsNm" : "횟집"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46780"
+				,"signguNm" : "보성군"
+				,"adongCd" : "46780390"
+				,"adongNm" : "회천면"
+				,"ldongCd" : "4678039031"
+				,"ldongNm" : "회천면"
+				,"lnoCd" : "4678039031100340001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 34
+				,"lnoSlno" : 1
+				,"lnoAdr" : "전라남도 보성군 회천면 서당리 34-1"
+				,"rdnmCd" : "467803290001"
+				,"rdnm" : "전라남도 보성군 회천면 공룡로"
+				,"bldMnno" : 206
+				,"bldSlno" : 38
+				,"bldMngNo" : "4678039031100340001501113"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 보성군 회천면 공룡로 206-38"
+				,"oldZipcd" : "546871"
+				,"newZipcd" : "59468"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.143090726866
+				,"lat" : 34.6936011943956
+				}
+				,{
+				"bizesId" : "MA010120220807858489"
+				,"bizesNm" : "지중해숙박"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55104"
+				,"ksicNm" : "민박업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46780"
+				,"signguNm" : "보성군"
+				,"adongCd" : "46780390"
+				,"adongNm" : "회천면"
+				,"ldongCd" : "4678039031"
+				,"ldongNm" : "회천면"
+				,"lnoCd" : "4678039031100340001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 34
+				,"lnoSlno" : 1
+				,"lnoAdr" : "전라남도 보성군 회천면 서당리 34-1"
+				,"rdnmCd" : "467803290001"
+				,"rdnm" : "전라남도 보성군 회천면 공룡로"
+				,"bldMnno" : 206
+				,"bldSlno" : 38
+				,"bldMngNo" : "4678039031100340001501113"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 보성군 회천면 공룡로 206-38"
+				,"oldZipcd" : "546871"
+				,"newZipcd" : "59468"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.143090726866
+				,"lat" : 34.6936011943956
+				}
+				,{
+				"bizesId" : "MA010120220813075215"
+				,"bizesNm" : "보성지중해야영장"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10104"
+				,"indsSclsNm" : "캠핑/글램핑"
+				,"ksicCd" : "I55109"
+				,"ksicNm" : "기타 일반 및 생활 숙박시설 운영업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46780"
+				,"signguNm" : "보성군"
+				,"adongCd" : "46780390"
+				,"adongNm" : "회천면"
+				,"ldongCd" : "4678039031"
+				,"ldongNm" : "회천면"
+				,"lnoCd" : "4678039031100350001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 35
+				,"lnoSlno" : 1
+				,"lnoAdr" : "전라남도 보성군 회천면 서당리 35-1"
+				,"rdnmCd" : "467803290001"
+				,"rdnm" : "전라남도 보성군 회천면 공룡로"
+				,"bldMnno" : 206
+				,"bldSlno" : 42
+				,"bldMngNo" : "4678039031100350001501106"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 보성군 회천면 공룡로 206-42"
+				,"oldZipcd" : "546871"
+				,"newZipcd" : "59468"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.143974335706
+				,"lat" : 34.6933657824844
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 1,
+		"totalCount" : 17	}
+}

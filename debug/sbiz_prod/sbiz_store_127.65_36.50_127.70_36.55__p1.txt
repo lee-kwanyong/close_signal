@@ -1,0 +1,467 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA0101202406A0125637"
+				,"bizesNm" : "물레길쉼터"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I212"
+				,"indsMclsNm" : "비알코올 "
+				,"indsSclsCd" : "I21201"
+				,"indsSclsNm" : "카페"
+				,"ksicCd" : "I56221"
+				,"ksicNm" : "커피 전문점"
+				,"ctprvnCd" : "43"
+				,"ctprvnNm" : "충청북도"
+				,"signguCd" : "43720"
+				,"signguNm" : "보은군"
+				,"adongCd" : "43720390"
+				,"adongNm" : "내북면"
+				,"ldongCd" : "4372039035"
+				,"ldongNm" : "내북면"
+				,"lnoCd" : "4372039035103620008"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 362
+				,"lnoSlno" : 8
+				,"lnoAdr" : "충청북도 보은군 내북면 상궁리 362-8"
+				,"rdnmCd" : "437203241013"
+				,"rdnm" : "충청북도 보은군 내북면 산척상궁로"
+				,"bldMnno" : 370
+				,"bldSlno" : 105
+				,"bldMngNo" : "4372039035103620008000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청북도 보은군 내북면 산척상궁로 370-105"
+				,"oldZipcd" : "376811"
+				,"newZipcd" : "28905"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.65032740984
+				,"lat" : 36.5172373544342
+				}
+				,{
+				"bizesId" : "MA010120220805629721"
+				,"bizesNm" : "강성식당"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20107"
+				,"indsSclsNm" : "돼지고기 구이/찜"
+				,"ksicCd" : "I56113"
+				,"ksicNm" : "한식 육류 요리 전문점"
+				,"ctprvnCd" : "43"
+				,"ctprvnNm" : "충청북도"
+				,"signguCd" : "43720"
+				,"signguNm" : "보은군"
+				,"adongCd" : "43720390"
+				,"adongNm" : "내북면"
+				,"ldongCd" : "4372039035"
+				,"ldongNm" : "내북면"
+				,"lnoCd" : "4372039035103620009"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 362
+				,"lnoSlno" : 9
+				,"lnoAdr" : "충청북도 보은군 내북면 상궁리 362-9"
+				,"rdnmCd" : "437203241013"
+				,"rdnm" : "충청북도 보은군 내북면 산척상궁로"
+				,"bldMnno" : 370
+				,"bldSlno" : 107
+				,"bldMngNo" : "4372039035103620009000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청북도 보은군 내북면 산척상궁로 370-107"
+				,"oldZipcd" : "376811"
+				,"newZipcd" : "28905"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.650539517794
+				,"lat" : 36.5172361978199
+				}
+				,{
+				"bizesId" : "MA0101202305A0174357"
+				,"bizesNm" : "노리터음향기획"
+				,"brchNm" : ""
+				,"indsLclsCd" : "N1"
+				,"indsLclsNm" : "시설관리·임대"
+				,"indsMclsCd" : "N111"
+				,"indsMclsNm" : "산업용품 대여"
+				,"indsSclsCd" : "N11199"
+				,"indsSclsNm" : "기타 산업용 기계/장비 대여업"
+				,"ksicCd" : "R90199"
+				,"ksicNm" : "그 외 기타 창작 및 예술관련 서비스업"
+				,"ctprvnCd" : "43"
+				,"ctprvnNm" : "충청북도"
+				,"signguCd" : "43720"
+				,"signguNm" : "보은군"
+				,"adongCd" : "43720390"
+				,"adongNm" : "내북면"
+				,"ldongCd" : "4372039035"
+				,"ldongNm" : "내북면"
+				,"lnoCd" : "4372039035100560001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 56
+				,"lnoSlno" : 1
+				,"lnoAdr" : "충청북도 보은군 내북면 상궁리 56-1"
+				,"rdnmCd" : "437203240090"
+				,"rdnm" : "충청북도 보은군 내북면 남부로"
+				,"bldMnno" : 5831
+				,"bldSlno" : 51
+				,"bldMngNo" : "4372039035100560001000001"
+				,"bldNm" : "단독주택"
+				,"rdnmAdr" : "충청북도 보은군 내북면 남부로 5831-51"
+				,"oldZipcd" : "376811"
+				,"newZipcd" : "28905"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.65149527195
+				,"lat" : 36.5420122398674
+				}
+				,{
+				"bizesId" : "MA010120220809981497"
+				,"bizesNm" : "궁뜰펜션식당"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55109"
+				,"ksicNm" : "기타 일반 및 생활 숙박시설 운영업"
+				,"ctprvnCd" : "43"
+				,"ctprvnNm" : "충청북도"
+				,"signguCd" : "43720"
+				,"signguNm" : "보은군"
+				,"adongCd" : "43720390"
+				,"adongNm" : "내북면"
+				,"ldongCd" : "4372039035"
+				,"ldongNm" : "내북면"
+				,"lnoCd" : "4372039035103640003"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 364
+				,"lnoSlno" : 3
+				,"lnoAdr" : "충청북도 보은군 내북면 상궁리 364-3"
+				,"rdnmCd" : "437203241013"
+				,"rdnm" : "충청북도 보은군 내북면 산척상궁로"
+				,"bldMnno" : 370
+				,"bldSlno" : 149
+				,"bldMngNo" : "4372039035103640006000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청북도 보은군 내북면 산척상궁로 370-149"
+				,"oldZipcd" : "376811"
+				,"newZipcd" : "28905"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.652629794462
+				,"lat" : 36.5162155043072
+				}
+				,{
+				"bizesId" : "MA010120220805412597"
+				,"bizesNm" : "키즈드림캠핑장"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10104"
+				,"indsSclsNm" : "캠핑/글램핑"
+				,"ksicCd" : "I55109"
+				,"ksicNm" : "기타 일반 및 생활 숙박시설 운영업"
+				,"ctprvnCd" : "43"
+				,"ctprvnNm" : "충청북도"
+				,"signguCd" : "43720"
+				,"signguNm" : "보은군"
+				,"adongCd" : "43720390"
+				,"adongNm" : "내북면"
+				,"ldongCd" : "4372039035"
+				,"ldongNm" : "내북면"
+				,"lnoCd" : "4372039035100460002"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 46
+				,"lnoSlno" : 2
+				,"lnoAdr" : "충청북도 보은군 내북면 상궁리 46-2"
+				,"rdnmCd" : "437203240090"
+				,"rdnm" : "충청북도 보은군 내북면 남부로"
+				,"bldMnno" : 5825
+				,"bldSlno" : 6
+				,"bldMngNo" : "4372039035100460002108258"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청북도 보은군 내북면 남부로 5825-6"
+				,"oldZipcd" : "376811"
+				,"newZipcd" : "28905"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.653972077766
+				,"lat" : 36.544377677777
+				}
+				,{
+				"bizesId" : "MA010120220805627973"
+				,"bizesNm" : "상궁가든식당"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "43"
+				,"ctprvnNm" : "충청북도"
+				,"signguCd" : "43720"
+				,"signguNm" : "보은군"
+				,"adongCd" : "43720390"
+				,"adongNm" : "내북면"
+				,"ldongCd" : "4372039035"
+				,"ldongNm" : "내북면"
+				,"lnoCd" : "4372039035102200001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 220
+				,"lnoSlno" : 1
+				,"lnoAdr" : "충청북도 보은군 내북면 상궁리 220-1"
+				,"rdnmCd" : "437203241013"
+				,"rdnm" : "충청북도 보은군 내북면 산척상궁로"
+				,"bldMnno" : 713
+				,"bldSlno" : 6
+				,"bldMngNo" : "4372039035102200001108123"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청북도 보은군 내북면 산척상궁로 713-6"
+				,"oldZipcd" : "376811"
+				,"newZipcd" : "28905"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.656030735515
+				,"lat" : 36.5342466240935
+				}
+				,{
+				"bizesId" : "MA010120220808669122"
+				,"bizesNm" : "단이네농장"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G205"
+				,"indsMclsNm" : "식료품 소매"
+				,"indsSclsCd" : "G20505"
+				,"indsSclsNm" : "수산물 소매업"
+				,"ksicCd" : "G47214"
+				,"ksicNm" : "신선, 냉동 및 기타 수산물 소매업"
+				,"ctprvnCd" : "43"
+				,"ctprvnNm" : "충청북도"
+				,"signguCd" : "43720"
+				,"signguNm" : "보은군"
+				,"adongCd" : "43720250"
+				,"adongNm" : "보은읍"
+				,"ldongCd" : "4372025045"
+				,"ldongNm" : "보은읍"
+				,"lnoCd" : "4372025045102380000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 238
+				,"lnoSlno" : ""
+				,"lnoAdr" : "충청북도 보은군 보은읍 노티리 238"
+				,"rdnmCd" : "437204523084"
+				,"rdnm" : "충청북도 보은군 보은읍 노티2길"
+				,"bldMnno" : 32
+				,"bldSlno" : ""
+				,"bldMngNo" : "4372025045102380000009535"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청북도 보은군 보은읍 노티2길 32"
+				,"oldZipcd" : "376805"
+				,"newZipcd" : "28917"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.670703211484
+				,"lat" : 36.5083384267789
+				}
+				,{
+				"bizesId" : "MA0101202410A0431107"
+				,"bizesNm" : "동보개발"
+				,"brchNm" : ""
+				,"indsLclsCd" : "S2"
+				,"indsLclsNm" : "수리·개인"
+				,"indsMclsCd" : "S210"
+				,"indsMclsNm" : "장례식장 "
+				,"indsSclsCd" : "S21001"
+				,"indsSclsNm" : "장례식장"
+				,"ksicCd" : "S96921"
+				,"ksicNm" : "장례식장 및 장의관련 서비스업"
+				,"ctprvnCd" : "43"
+				,"ctprvnNm" : "충청북도"
+				,"signguCd" : "43720"
+				,"signguNm" : "보은군"
+				,"adongCd" : "43720250"
+				,"adongNm" : "보은읍"
+				,"ldongCd" : "4372025045"
+				,"ldongNm" : "보은읍"
+				,"lnoCd" : "4372025045101970000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 197
+				,"lnoSlno" : ""
+				,"lnoAdr" : "충청북도 보은군 보은읍 노티리 197"
+				,"rdnmCd" : "437204523084"
+				,"rdnm" : "충청북도 보은군 보은읍 노티2길"
+				,"bldMnno" : 14
+				,"bldSlno" : 5
+				,"bldMngNo" : "4372025045101970000008117"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청북도 보은군 보은읍 노티2길 14-5"
+				,"oldZipcd" : "376805"
+				,"newZipcd" : "28917"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.67259243833
+				,"lat" : 36.5086521998143
+				}
+				,{
+				"bizesId" : "MA010120220804403570"
+				,"bizesNm" : "산골식당"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "43"
+				,"ctprvnNm" : "충청북도"
+				,"signguCd" : "43720"
+				,"signguNm" : "보은군"
+				,"adongCd" : "43720390"
+				,"adongNm" : "내북면"
+				,"ldongCd" : "4372039021"
+				,"ldongNm" : "내북면"
+				,"lnoCd" : "4372039021104960009"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 496
+				,"lnoSlno" : 9
+				,"lnoAdr" : "충청북도 보은군 내북면 이원리 496-9"
+				,"rdnmCd" : "437204523346"
+				,"rdnm" : "충청북도 보은군 내북면 이원곰골2길"
+				,"bldMnno" : 6
+				,"bldSlno" : ""
+				,"bldMngNo" : "4372039021104960009111493"
+				,"bldNm" : "약방"
+				,"rdnmAdr" : "충청북도 보은군 내북면 이원곰골2길 6"
+				,"oldZipcd" : "376811"
+				,"newZipcd" : "28904"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.677076565589
+				,"lat" : 36.5428609849358
+				}
+				,{
+				"bizesId" : "MA010120220805640187"
+				,"bizesNm" : "협동상회"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G204"
+				,"indsMclsNm" : "종합 소매"
+				,"indsSclsCd" : "G20404"
+				,"indsSclsNm" : "슈퍼마켓"
+				,"ksicCd" : "G47129"
+				,"ksicNm" : "기타 음ㆍ식료품 위주 종합 소매업"
+				,"ctprvnCd" : "43"
+				,"ctprvnNm" : "충청북도"
+				,"signguCd" : "43720"
+				,"signguNm" : "보은군"
+				,"adongCd" : "43720390"
+				,"adongNm" : "내북면"
+				,"ldongCd" : "4372039021"
+				,"ldongNm" : "내북면"
+				,"lnoCd" : "4372039021102380003"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 238
+				,"lnoSlno" : 3
+				,"lnoAdr" : "충청북도 보은군 내북면 이원리 238-3"
+				,"rdnmCd" : "437203240090"
+				,"rdnm" : "충청북도 보은군 내북면 남부로"
+				,"bldMnno" : 5552
+				,"bldSlno" : ""
+				,"bldMngNo" : "4372039021102380003111379"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청북도 보은군 내북면 남부로 5552"
+				,"oldZipcd" : "376811"
+				,"newZipcd" : "28904"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.678226944346
+				,"lat" : 36.5428724703557
+				}
+				,{
+				"bizesId" : "MA010120220802945315"
+				,"bizesNm" : "보은산업개발"
+				,"brchNm" : ""
+				,"indsLclsCd" : "N1"
+				,"indsLclsNm" : "시설관리·임대"
+				,"indsMclsCd" : "N110"
+				,"indsMclsNm" : "가정용품 대여"
+				,"indsSclsCd" : "N11001"
+				,"indsSclsNm" : "스포츠/레크리에이션 용품 대여업"
+				,"ksicCd" : "N76210"
+				,"ksicNm" : "스포츠 및 레크리에이션 용품 임대업"
+				,"ctprvnCd" : "43"
+				,"ctprvnNm" : "충청북도"
+				,"signguCd" : "43720"
+				,"signguNm" : "보은군"
+				,"adongCd" : "43720250"
+				,"adongNm" : "보은읍"
+				,"ldongCd" : "4372025044"
+				,"ldongNm" : "보은읍"
+				,"lnoCd" : "4372025044200070001"
+				,"plotSctCd" : "2"
+				,"plotSctNm" : "산"
+				,"lnoMnno" : 7
+				,"lnoSlno" : 1
+				,"lnoAdr" : "충청북도 보은군 보은읍 중초리 산 7-1"
+				,"rdnmCd" : "437203241030"
+				,"rdnm" : "충청북도 보은군 보은읍 장속중초로"
+				,"bldMnno" : 386
+				,"bldSlno" : ""
+				,"bldMngNo" : "4372025044200070001000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "충청북도 보은군 보은읍 장속중초로 386"
+				,"oldZipcd" : "376805"
+				,"newZipcd" : "28917"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.69054028454
+				,"lat" : 36.5096850889151
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 1,
+		"totalCount" : 11	}
+}

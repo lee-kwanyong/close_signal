@@ -1,0 +1,262 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA010120220808111757"
+				,"bizesNm" : "드론스쿨인터네셔널"
+				,"brchNm" : ""
+				,"indsLclsCd" : "P1"
+				,"indsLclsNm" : "교육"
+				,"indsMclsCd" : "P106"
+				,"indsMclsNm" : "기타 교육"
+				,"indsSclsCd" : "P10629"
+				,"indsSclsNm" : "그 외 기타 교육기관"
+				,"ksicCd" : "P85699"
+				,"ksicNm" : "그 외 기타 분류 안된 교육기관"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46770"
+				,"signguNm" : "고흥군"
+				,"adongCd" : "46770250"
+				,"adongNm" : "고흥읍"
+				,"ldongCd" : "4677025021"
+				,"ldongNm" : "고흥읍"
+				,"lnoCd" : "4677025021111710000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 1171
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 고흥군 고흥읍 고소리 1171"
+				,"rdnmCd" : "467703354227"
+				,"rdnm" : "전라남도 고흥군 고흥읍 첨단미래로"
+				,"bldMnno" : 291
+				,"bldSlno" : ""
+				,"bldMngNo" : "4677025021111700000000001"
+				,"bldNm" : "고흥드론특화지식산업센터"
+				,"rdnmAdr" : "전라남도 고흥군 고흥읍 첨단미래로 291"
+				,"oldZipcd" : "548801"
+				,"newZipcd" : "59572"
+				,"dongNo" : ""
+				,"flrNo" : "2"
+				,"hoNo" : ""
+				,"lon" : 127.208573737092
+				,"lat" : 34.6153525095687
+				}
+				,{
+				"bizesId" : "MA010120220813851341"
+				,"bizesNm" : "백향"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G215"
+				,"indsMclsNm" : "의약·화장품 소매"
+				,"indsSclsCd" : "G21503"
+				,"indsSclsNm" : "화장품 소매업"
+				,"ksicCd" : "G47813"
+				,"ksicNm" : "화장품, 비누 및 방향제 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46770"
+				,"signguNm" : "고흥군"
+				,"adongCd" : "46770250"
+				,"adongNm" : "고흥읍"
+				,"ldongCd" : "4677025022"
+				,"ldongNm" : "고흥읍"
+				,"lnoCd" : "4677025022118870000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 1887
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 고흥군 고흥읍 호동리 1887"
+				,"rdnmCd" : "467703354227"
+				,"rdnm" : "전라남도 고흥군 고흥읍 첨단미래로"
+				,"bldMnno" : 46
+				,"bldSlno" : ""
+				,"bldMngNo" : "4677025022118870000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 고흥군 고흥읍 첨단미래로 46"
+				,"oldZipcd" : "548801"
+				,"newZipcd" : "59572"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.233639427777
+				,"lat" : 34.6148203046718
+				}
+				,{
+				"bizesId" : "MA010120220807863454"
+				,"bizesNm" : "할매슈퍼"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46770"
+				,"signguNm" : "고흥군"
+				,"adongCd" : "46770250"
+				,"adongNm" : "고흥읍"
+				,"ldongCd" : "4677025022"
+				,"ldongNm" : "고흥읍"
+				,"lnoCd" : "4677025022113220001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 1322
+				,"lnoSlno" : 1
+				,"lnoAdr" : "전라남도 고흥군 고흥읍 호동리 1322-1"
+				,"rdnmCd" : "467703289035"
+				,"rdnm" : "전라남도 고흥군 고흥읍 호산로"
+				,"bldMnno" : 502
+				,"bldSlno" : ""
+				,"bldMngNo" : "4677025022113270001000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 고흥군 고흥읍 호산로 502"
+				,"oldZipcd" : "548801"
+				,"newZipcd" : "59532"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.240884134469
+				,"lat" : 34.6127148792565
+				}
+				,{
+				"bizesId" : "MA010120220814349099"
+				,"bizesNm" : "자담꽃몰"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G205"
+				,"indsMclsNm" : "식료품 소매"
+				,"indsSclsCd" : "G20509"
+				,"indsSclsNm" : "반찬/식료품 소매업"
+				,"ksicCd" : "G47219"
+				,"ksicNm" : "기타 식료품 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46770"
+				,"signguNm" : "고흥군"
+				,"adongCd" : "46770250"
+				,"adongNm" : "고흥읍"
+				,"ldongCd" : "4677025021"
+				,"ldongNm" : "고흥읍"
+				,"lnoCd" : "4677025021100250002"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 25
+				,"lnoSlno" : 2
+				,"lnoAdr" : "전라남도 고흥군 고흥읍 고소리 25-2"
+				,"rdnmCd" : "467704667331"
+				,"rdnm" : "전라남도 고흥군 고흥읍 사동길"
+				,"bldMnno" : 37
+				,"bldSlno" : ""
+				,"bldMngNo" : "4677025021100250002026119"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 고흥군 고흥읍 사동길 37"
+				,"oldZipcd" : "548801"
+				,"newZipcd" : "59532"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.241621382577
+				,"lat" : 34.5999851024501
+				}
+				,{
+				"bizesId" : "MA010120220807729572"
+				,"bizesNm" : "글로벌푸드법인"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G221"
+				,"indsMclsNm" : "기타 상품 소매"
+				,"indsSclsCd" : "G22199"
+				,"indsSclsNm" : "그 외 기타 상품 전문 소매업"
+				,"ksicCd" : "G47859"
+				,"ksicNm" : "그 외 기타 분류 안된 상품 전문 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46770"
+				,"signguNm" : "고흥군"
+				,"adongCd" : "46770420"
+				,"adongNm" : "두원면"
+				,"ldongCd" : "4677042021"
+				,"ldongNm" : "두원면"
+				,"lnoCd" : "4677042021109960000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 996
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 고흥군 두원면 학곡리 996"
+				,"rdnmCd" : "467703289004"
+				,"rdnm" : "전라남도 고흥군 두원면 고흥만로"
+				,"bldMnno" : 1448
+				,"bldSlno" : 237
+				,"bldMngNo" : "4677042021109960000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 고흥군 두원면 고흥만로 1448-237"
+				,"oldZipcd" : "548871"
+				,"newZipcd" : "59514"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.245120355464
+				,"lat" : 34.6406419411313
+				}
+				,{
+				"bizesId" : "MA010120220812527299"
+				,"bizesNm" : "아산방충망"
+				,"brchNm" : ""
+				,"indsLclsCd" : "S2"
+				,"indsLclsNm" : "수리·개인"
+				,"indsMclsCd" : "S206"
+				,"indsMclsNm" : "기타 가정용품 수리"
+				,"indsSclsCd" : "S20699"
+				,"indsSclsNm" : "그 외 기타 개인/가정용품 수리업"
+				,"ksicCd" : "S95399"
+				,"ksicNm" : "그 외 기타 개인 및 가정용품 수리업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46770"
+				,"signguNm" : "고흥군"
+				,"adongCd" : "46770420"
+				,"adongNm" : "두원면"
+				,"ldongCd" : "4677042021"
+				,"ldongNm" : "두원면"
+				,"lnoCd" : "4677042021110690000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 1069
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 고흥군 두원면 학곡리 1069"
+				,"rdnmCd" : "467704667218"
+				,"rdnm" : "전라남도 고흥군 두원면 두곡길"
+				,"bldMnno" : 311
+				,"bldSlno" : ""
+				,"bldMngNo" : "4677042021110690000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 고흥군 두원면 두곡길 311"
+				,"oldZipcd" : "548871"
+				,"newZipcd" : "59514"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.247507428153
+				,"lat" : 34.6438011518906
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 1,
+		"totalCount" : 6	}
+}

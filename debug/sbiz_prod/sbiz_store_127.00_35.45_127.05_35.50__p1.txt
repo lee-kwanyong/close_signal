@@ -1,0 +1,426 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA010120220807421029"
+				,"bizesNm" : "터미널식당"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52770"
+				,"signguNm" : "순창군"
+				,"adongCd" : "52770360"
+				,"adongNm" : "쌍치면"
+				,"ldongCd" : "5277036033"
+				,"ldongNm" : "쌍치면"
+				,"lnoCd" : "5277036033104470007"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 447
+				,"lnoSlno" : 7
+				,"lnoAdr" : "전북특별자치도 순창군 쌍치면 쌍계리 447-7"
+				,"rdnmCd" : "527703278031"
+				,"rdnm" : "전북특별자치도 순창군 쌍치면 쌍계로"
+				,"bldMnno" : 6
+				,"bldSlno" : 7
+				,"bldMngNo" : "4577036033004470007000320"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 순창군 쌍치면 쌍계로 6-7"
+				,"oldZipcd" : "595893"
+				,"newZipcd" : "56008"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.000143282772
+				,"lat" : 35.499743455234
+				}
+				,{
+				"bizesId" : "MA0101202305A0015429"
+				,"bizesNm" : "써니네"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52770"
+				,"signguNm" : "순창군"
+				,"adongCd" : "52770360"
+				,"adongNm" : "쌍치면"
+				,"ldongCd" : "5277036033"
+				,"ldongNm" : "쌍치면"
+				,"lnoCd" : "5277036033104470022"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 447
+				,"lnoSlno" : 22
+				,"lnoAdr" : "전북특별자치도 순창군 쌍치면 쌍계리 447-22"
+				,"rdnmCd" : "527703278031"
+				,"rdnm" : "전북특별자치도 순창군 쌍치면 쌍계로"
+				,"bldMnno" : 6
+				,"bldSlno" : 10
+				,"bldMngNo" : "4577036033104470022000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 순창군 쌍치면 쌍계로 6-10"
+				,"oldZipcd" : "595893"
+				,"newZipcd" : "56008"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.000176347239
+				,"lat" : 35.4993829316238
+				}
+				,{
+				"bizesId" : "MA010120220807517654"
+				,"bizesNm" : "태양반점"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I202"
+				,"indsMclsNm" : "중식"
+				,"indsSclsCd" : "I20201"
+				,"indsSclsNm" : "중국집"
+				,"ksicCd" : "I56121"
+				,"ksicNm" : "중식 음식점업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52770"
+				,"signguNm" : "순창군"
+				,"adongCd" : "52770360"
+				,"adongNm" : "쌍치면"
+				,"ldongCd" : "5277036033"
+				,"ldongNm" : "쌍치면"
+				,"lnoCd" : "5277036033104470006"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 447
+				,"lnoSlno" : 6
+				,"lnoAdr" : "전북특별자치도 순창군 쌍치면 쌍계리 447-6"
+				,"rdnmCd" : "527703278031"
+				,"rdnm" : "전북특별자치도 순창군 쌍치면 쌍계로"
+				,"bldMnno" : 14
+				,"bldSlno" : ""
+				,"bldMngNo" : "4577036033004470006000319"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 순창군 쌍치면 쌍계로 14"
+				,"oldZipcd" : "595893"
+				,"newZipcd" : "56008"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.000198391929
+				,"lat" : 35.4999056907538
+				}
+				,{
+				"bizesId" : "MA010120220807359303"
+				,"bizesNm" : "산천가든"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52770"
+				,"signguNm" : "순창군"
+				,"adongCd" : "52770360"
+				,"adongNm" : "쌍치면"
+				,"ldongCd" : "5277036033"
+				,"ldongNm" : "쌍치면"
+				,"lnoCd" : "5277036033104430009"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 443
+				,"lnoSlno" : 9
+				,"lnoAdr" : "전북특별자치도 순창군 쌍치면 쌍계리 443-9"
+				,"rdnmCd" : "527703270062"
+				,"rdnm" : "전북특별자치도 순창군 쌍치면 청정로"
+				,"bldMnno" : 182
+				,"bldSlno" : 6
+				,"bldMngNo" : "4577036033004430009000304"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 순창군 쌍치면 청정로 182-6"
+				,"oldZipcd" : "595893"
+				,"newZipcd" : "56008"
+				,"dongNo" : ""
+				,"flrNo" : "1"
+				,"hoNo" : ""
+				,"lon" : 127.000275540252
+				,"lat" : 35.4987069496928
+				}
+				,{
+				"bizesId" : "MA0101202310A0058517"
+				,"bizesNm" : "은희미용실"
+				,"brchNm" : ""
+				,"indsLclsCd" : "S2"
+				,"indsLclsNm" : "수리·개인"
+				,"indsMclsCd" : "S207"
+				,"indsMclsNm" : "이용·미용"
+				,"indsSclsCd" : "S20701"
+				,"indsSclsNm" : "미용실"
+				,"ksicCd" : "S96112"
+				,"ksicNm" : "두발 미용업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52770"
+				,"signguNm" : "순창군"
+				,"adongCd" : "52770360"
+				,"adongNm" : "쌍치면"
+				,"ldongCd" : "5277036033"
+				,"ldongNm" : "쌍치면"
+				,"lnoCd" : "5277036033102950034"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 295
+				,"lnoSlno" : 34
+				,"lnoAdr" : "전북특별자치도 순창군 쌍치면 쌍계리 295-34"
+				,"rdnmCd" : "527703278031"
+				,"rdnm" : "전북특별자치도 순창군 쌍치면 쌍계로"
+				,"bldMnno" : 30
+				,"bldSlno" : 3
+				,"bldMngNo" : "4577036033002950034000292"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 순창군 쌍치면 쌍계로 30-3"
+				,"oldZipcd" : "595893"
+				,"newZipcd" : "56008"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.001917785431
+				,"lat" : 35.4997704793443
+				}
+				,{
+				"bizesId" : "MA010120220812667859"
+				,"bizesNm" : "행복미니슈퍼"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G204"
+				,"indsMclsNm" : "종합 소매"
+				,"indsSclsCd" : "G20404"
+				,"indsSclsNm" : "슈퍼마켓"
+				,"ksicCd" : "G47129"
+				,"ksicNm" : "기타 음ㆍ식료품 위주 종합 소매업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52770"
+				,"signguNm" : "순창군"
+				,"adongCd" : "52770360"
+				,"adongNm" : "쌍치면"
+				,"ldongCd" : "5277036033"
+				,"ldongNm" : "쌍치면"
+				,"lnoCd" : "5277036033102950029"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 295
+				,"lnoSlno" : 29
+				,"lnoAdr" : "전북특별자치도 순창군 쌍치면 쌍계리 295-29"
+				,"rdnmCd" : "527703278031"
+				,"rdnm" : "전북특별자치도 순창군 쌍치면 쌍계로"
+				,"bldMnno" : 30
+				,"bldSlno" : 1
+				,"bldMngNo" : "4577036033002950029000291"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 순창군 쌍치면 쌍계로 30-1"
+				,"oldZipcd" : "595893"
+				,"newZipcd" : "56008"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.001928811711
+				,"lat" : 35.4999597540314
+				}
+				,{
+				"bizesId" : "MA0101202409A0019175"
+				,"bizesNm" : "쌍치옛날대성통닭"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I210"
+				,"indsMclsNm" : "기타 간이"
+				,"indsSclsCd" : "I21006"
+				,"indsSclsNm" : "치킨"
+				,"ksicCd" : "I56193"
+				,"ksicNm" : "치킨 전문점"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52770"
+				,"signguNm" : "순창군"
+				,"adongCd" : "52770360"
+				,"adongNm" : "쌍치면"
+				,"ldongCd" : "5277036033"
+				,"ldongNm" : "쌍치면"
+				,"lnoCd" : "5277036033102950028"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 295
+				,"lnoSlno" : 28
+				,"lnoAdr" : "전북특별자치도 순창군 쌍치면 쌍계리 295-28"
+				,"rdnmCd" : "527703278031"
+				,"rdnm" : "전북특별자치도 순창군 쌍치면 쌍계로"
+				,"bldMnno" : 32
+				,"bldSlno" : ""
+				,"bldMngNo" : "4577036033002950028000277"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 순창군 쌍치면 쌍계로 32"
+				,"oldZipcd" : "595893"
+				,"newZipcd" : "56008"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.002039030434
+				,"lat" : 35.4999958045733
+				}
+				,{
+				"bizesId" : "MA010120220802987501"
+				,"bizesNm" : "쌍치가스"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G214"
+				,"indsMclsNm" : "연료 소매"
+				,"indsSclsCd" : "G21403"
+				,"indsSclsNm" : "가정용 연료 소매업"
+				,"ksicCd" : "G47723"
+				,"ksicNm" : "가정용 가스 연료 소매업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52770"
+				,"signguNm" : "순창군"
+				,"adongCd" : "52770360"
+				,"adongNm" : "쌍치면"
+				,"ldongCd" : "5277036034"
+				,"ldongNm" : "쌍치면"
+				,"lnoCd" : "5277036034103400008"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 340
+				,"lnoSlno" : 8
+				,"lnoAdr" : "전북특별자치도 순창군 쌍치면 전암리 340-8"
+				,"rdnmCd" : "527704634136"
+				,"rdnm" : "전북특별자치도 순창군 쌍치면 삼암길"
+				,"bldMnno" : 99
+				,"bldSlno" : ""
+				,"bldMngNo" : "4577036034103400008000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 순창군 쌍치면 삼암길 99"
+				,"oldZipcd" : "595892"
+				,"newZipcd" : "56008"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.010072424077
+				,"lat" : 35.4880710735259
+				}
+				,{
+				"bizesId" : "MA0101202409A0210506"
+				,"bizesNm" : "박세진"
+				,"brchNm" : ""
+				,"indsLclsCd" : "P1"
+				,"indsLclsNm" : "교육"
+				,"indsMclsCd" : "P105"
+				,"indsMclsNm" : "일반 교육"
+				,"indsSclsCd" : "P10501"
+				,"indsSclsNm" : "입시·교과학원"
+				,"ksicCd" : "P85501"
+				,"ksicNm" : "일반 교과학원"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52770"
+				,"signguNm" : "순창군"
+				,"adongCd" : "52770360"
+				,"adongNm" : "쌍치면"
+				,"ldongCd" : "5277036035"
+				,"ldongNm" : "쌍치면"
+				,"lnoCd" : "5277036035101710001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 171
+				,"lnoSlno" : 1
+				,"lnoAdr" : "전북특별자치도 순창군 쌍치면 양신리 171-1"
+				,"rdnmCd" : "527704634202"
+				,"rdnm" : "전북특별자치도 순창군 쌍치면 양사길"
+				,"bldMnno" : 32
+				,"bldSlno" : 7
+				,"bldMngNo" : "4577036035001710001000011"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 순창군 쌍치면 양사길 32-7"
+				,"oldZipcd" : "595892"
+				,"newZipcd" : "56008"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.01709092471
+				,"lat" : 35.4817430796972
+				}
+				,{
+				"bizesId" : "MA0101202504A0006977"
+				,"bizesNm" : "행복한삶"
+				,"brchNm" : ""
+				,"indsLclsCd" : "M1"
+				,"indsLclsNm" : "과학·기술"
+				,"indsMclsCd" : "M105"
+				,"indsMclsNm" : "광고"
+				,"indsSclsCd" : "M10501"
+				,"indsSclsNm" : "광고 대행업"
+				,"ksicCd" : "M71310"
+				,"ksicNm" : "광고 대행업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52770"
+				,"signguNm" : "순창군"
+				,"adongCd" : "52770400"
+				,"adongNm" : "구림면"
+				,"ldongCd" : "5277040031"
+				,"ldongNm" : "구림면"
+				,"lnoCd" : "5277040031100770002"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 77
+				,"lnoSlno" : 2
+				,"lnoAdr" : "전북특별자치도 순창군 구림면 월정리 77-2"
+				,"rdnmCd" : "527704634246"
+				,"rdnm" : "전북특별자치도 순창군 구림면 유사길"
+				,"bldMnno" : 26
+				,"bldSlno" : 20
+				,"bldMngNo" : "4577040031100770002000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 순창군 구림면 유사길 26-20"
+				,"oldZipcd" : "595871"
+				,"newZipcd" : "56013"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.047663005612
+				,"lat" : 35.4521267227514
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 1,
+		"totalCount" : 10	}
+}

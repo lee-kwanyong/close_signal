@@ -1,0 +1,426 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA010120220807808571"
+				,"bizesNm" : "영춘떡방앗간"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I210"
+				,"indsMclsNm" : "기타 간이"
+				,"indsSclsCd" : "I21002"
+				,"indsSclsNm" : "떡/한과"
+				,"ksicCd" : "C10711"
+				,"ksicNm" : "떡류 제조업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46820"
+				,"signguNm" : "해남군"
+				,"adongCd" : "46820370"
+				,"adongNm" : "옥천면"
+				,"ldongCd" : "4682037021"
+				,"ldongNm" : "옥천면"
+				,"lnoCd" : "4682037021106000001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 600
+				,"lnoSlno" : 1
+				,"lnoAdr" : "전라남도 해남군 옥천면 영춘리 600-1"
+				,"rdnmCd" : "468203293064"
+				,"rdnm" : "전라남도 해남군 옥천면 해강로"
+				,"bldMnno" : 39
+				,"bldSlno" : 4
+				,"bldMngNo" : "4682037021106000001000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 해남군 옥천면 해강로 39-4"
+				,"oldZipcd" : "536824"
+				,"newZipcd" : "59021"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.651832012089
+				,"lat" : 34.5675462266354
+				}
+				,{
+				"bizesId" : "MA0101202408A0047928"
+				,"bizesNm" : "아이짐예체능교육센터"
+				,"brchNm" : ""
+				,"indsLclsCd" : "P1"
+				,"indsLclsNm" : "교육"
+				,"indsMclsCd" : "P105"
+				,"indsMclsNm" : "일반 교육"
+				,"indsSclsCd" : "P10501"
+				,"indsSclsNm" : "입시·교과학원"
+				,"ksicCd" : "P85501"
+				,"ksicNm" : "일반 교과학원"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46820"
+				,"signguNm" : "해남군"
+				,"adongCd" : "46820370"
+				,"adongNm" : "옥천면"
+				,"ldongCd" : "4682037033"
+				,"ldongNm" : "옥천면"
+				,"lnoCd" : "4682037033100370001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 37
+				,"lnoSlno" : 1
+				,"lnoAdr" : "전라남도 해남군 옥천면 송산리 37-1"
+				,"rdnmCd" : "468204682627"
+				,"rdnm" : "전라남도 해남군 옥천면 향촌길"
+				,"bldMnno" : 24
+				,"bldSlno" : ""
+				,"bldMngNo" : "4682037033100370001000001"
+				,"bldNm" : "마을회관"
+				,"rdnmAdr" : "전라남도 해남군 옥천면 향촌길 24"
+				,"oldZipcd" : "536822"
+				,"newZipcd" : "59021"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.660986458991
+				,"lat" : 34.5673556467334
+				}
+				,{
+				"bizesId" : "MA010120220807570233"
+				,"bizesNm" : "해남범퍼"
+				,"brchNm" : ""
+				,"indsLclsCd" : "S2"
+				,"indsLclsNm" : "수리·개인"
+				,"indsMclsCd" : "S203"
+				,"indsMclsNm" : "자동차 수리·세차"
+				,"indsSclsCd" : "S20301"
+				,"indsSclsNm" : "자동차 정비소"
+				,"ksicCd" : "S95212"
+				,"ksicNm" : "자동차 전문 수리업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46820"
+				,"signguNm" : "해남군"
+				,"adongCd" : "46820370"
+				,"adongNm" : "옥천면"
+				,"ldongCd" : "4682037021"
+				,"ldongNm" : "옥천면"
+				,"lnoCd" : "4682037021104130000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 413
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 해남군 옥천면 영춘리 413"
+				,"rdnmCd" : "468203293064"
+				,"rdnm" : "전라남도 해남군 옥천면 해강로"
+				,"bldMnno" : 151
+				,"bldSlno" : ""
+				,"bldMngNo" : "4682037021104130000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 해남군 옥천면 해강로 151"
+				,"oldZipcd" : "536824"
+				,"newZipcd" : "59021"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.662381981613
+				,"lat" : 34.5698835514448
+				}
+				,{
+				"bizesId" : "MA010120220812878921"
+				,"bizesNm" : "서당골조경"
+				,"brchNm" : ""
+				,"indsLclsCd" : "N1"
+				,"indsLclsNm" : "시설관리·임대"
+				,"indsMclsCd" : "N103"
+				,"indsMclsNm" : "조경·유지"
+				,"indsSclsCd" : "N10301"
+				,"indsSclsNm" : "조경 유지·관리 서비스업"
+				,"ksicCd" : "N74300"
+				,"ksicNm" : "조경관리 및 유지 서비스업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46820"
+				,"signguNm" : "해남군"
+				,"adongCd" : "46820370"
+				,"adongNm" : "옥천면"
+				,"ldongCd" : "4682037028"
+				,"ldongNm" : "옥천면"
+				,"lnoCd" : "4682037028102230000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 223
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 해남군 옥천면 성산리 223"
+				,"rdnmCd" : "468203294028"
+				,"rdnm" : "전라남도 해남군 옥천면 옥천로"
+				,"bldMnno" : 872
+				,"bldSlno" : 20
+				,"bldMngNo" : "4682037028102230000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 해남군 옥천면 옥천로 872-20"
+				,"oldZipcd" : "536821"
+				,"newZipcd" : "59021"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.671682281898
+				,"lat" : 34.5880909769746
+				}
+				,{
+				"bizesId" : "MA0101202302A0036216"
+				,"bizesNm" : "티하우스명유당"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I212"
+				,"indsMclsNm" : "비알코올 "
+				,"indsSclsCd" : "I21201"
+				,"indsSclsNm" : "카페"
+				,"ksicCd" : "I56229"
+				,"ksicNm" : "기타 비알코올 음료점업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46820"
+				,"signguNm" : "해남군"
+				,"adongCd" : "46820370"
+				,"adongNm" : "옥천면"
+				,"ldongCd" : "4682037028"
+				,"ldongNm" : "옥천면"
+				,"lnoCd" : "4682037028102790000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 279
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 해남군 옥천면 성산리 279"
+				,"rdnmCd" : "468204682160"
+				,"rdnm" : "전라남도 해남군 옥천면 만년2길"
+				,"bldMnno" : 11
+				,"bldSlno" : 5
+				,"bldMngNo" : "4682037028102790000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 해남군 옥천면 만년2길 11-5"
+				,"oldZipcd" : "536821"
+				,"newZipcd" : "59021"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.67202868431
+				,"lat" : 34.5831520190523
+				}
+				,{
+				"bizesId" : "MA010120220812912278"
+				,"bizesNm" : "가나장의사"
+				,"brchNm" : ""
+				,"indsLclsCd" : "S2"
+				,"indsLclsNm" : "수리·개인"
+				,"indsMclsCd" : "S210"
+				,"indsMclsNm" : "장례식장 "
+				,"indsSclsCd" : "S21001"
+				,"indsSclsNm" : "장례식장"
+				,"ksicCd" : "S96921"
+				,"ksicNm" : "장례식장 및 장의관련 서비스업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46820"
+				,"signguNm" : "해남군"
+				,"adongCd" : "46820370"
+				,"adongNm" : "옥천면"
+				,"ldongCd" : "4682037028"
+				,"ldongNm" : "옥천면"
+				,"lnoCd" : "4682037028103870001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 387
+				,"lnoSlno" : 1
+				,"lnoAdr" : "전라남도 해남군 옥천면 성산리 387-1"
+				,"rdnmCd" : "468204682159"
+				,"rdnm" : "전라남도 해남군 옥천면 만년1길"
+				,"bldMnno" : 28
+				,"bldSlno" : 9
+				,"bldMngNo" : "4682037028103870001000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 해남군 옥천면 만년1길 28-9"
+				,"oldZipcd" : "536821"
+				,"newZipcd" : "59021"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.672928678393
+				,"lat" : 34.5787734339827
+				}
+				,{
+				"bizesId" : "MA0101202406A0525174"
+				,"bizesNm" : "사거리상회"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G204"
+				,"indsMclsNm" : "종합 소매"
+				,"indsSclsCd" : "G20404"
+				,"indsSclsNm" : "슈퍼마켓"
+				,"ksicCd" : "G47129"
+				,"ksicNm" : "기타 음ㆍ식료품 위주 종합 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46820"
+				,"signguNm" : "해남군"
+				,"adongCd" : "46820370"
+				,"adongNm" : "옥천면"
+				,"ldongCd" : "4682037028"
+				,"ldongNm" : "옥천면"
+				,"lnoCd" : "4682037028100690001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 69
+				,"lnoSlno" : 1
+				,"lnoAdr" : "전라남도 해남군 옥천면 성산리 69-1"
+				,"rdnmCd" : "468203294028"
+				,"rdnm" : "전라남도 해남군 옥천면 옥천로"
+				,"bldMnno" : 712
+				,"bldSlno" : ""
+				,"bldMngNo" : "4682037028105620003000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 해남군 옥천면 옥천로 712"
+				,"oldZipcd" : "536821"
+				,"newZipcd" : "59022"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.677123611676
+				,"lat" : 34.5734120132513
+				}
+				,{
+				"bizesId" : "MA010120220811656880"
+				,"bizesNm" : "금강가스"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G214"
+				,"indsMclsNm" : "연료 소매"
+				,"indsSclsCd" : "G21403"
+				,"indsSclsNm" : "가정용 연료 소매업"
+				,"ksicCd" : "G47723"
+				,"ksicNm" : "가정용 가스 연료 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46820"
+				,"signguNm" : "해남군"
+				,"adongCd" : "46820370"
+				,"adongNm" : "옥천면"
+				,"ldongCd" : "4682037028"
+				,"ldongNm" : "옥천면"
+				,"lnoCd" : "4682037028100180000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 18
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 해남군 옥천면 성산리 18"
+				,"rdnmCd" : "468203294028"
+				,"rdnm" : "전라남도 해남군 옥천면 옥천로"
+				,"bldMnno" : 710
+				,"bldSlno" : 2
+				,"bldMngNo" : "4682037028100180000000003"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 해남군 옥천면 옥천로 710-2"
+				,"oldZipcd" : "536821"
+				,"newZipcd" : "59022"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.67734181331
+				,"lat" : 34.5733494893115
+				}
+				,{
+				"bizesId" : "MA0101202409A0017826"
+				,"bizesNm" : "별맞이민박"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55104"
+				,"ksicNm" : "민박업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46810"
+				,"signguNm" : "강진군"
+				,"adongCd" : "46810340"
+				,"adongNm" : "도암면"
+				,"ldongCd" : "4681034024"
+				,"ldongNm" : "도암면"
+				,"lnoCd" : "4681034024103890002"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 389
+				,"lnoSlno" : 2
+				,"lnoAdr" : "전라남도 강진군 도암면 강정리 389-2"
+				,"rdnmCd" : "468103350690"
+				,"rdnm" : "전라남도 강진군 도암면 지석로"
+				,"bldMnno" : 480
+				,"bldSlno" : 11
+				,"bldMngNo" : "4681034024103890002503163"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 강진군 도암면 지석로 480-11"
+				,"oldZipcd" : "527881"
+				,"newZipcd" : "59246"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.67840976305
+				,"lat" : 34.5988269961535
+				}
+				,{
+				"bizesId" : "MA0101202504A0042052"
+				,"bizesNm" : "봄민박"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55104"
+				,"ksicNm" : "민박업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46810"
+				,"signguNm" : "강진군"
+				,"adongCd" : "46810340"
+				,"adongNm" : "도암면"
+				,"ldongCd" : "4681034024"
+				,"ldongNm" : "도암면"
+				,"lnoCd" : "4681034024104000000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 400
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 강진군 도암면 강정리 400"
+				,"rdnmCd" : "468103350690"
+				,"rdnm" : "전라남도 강진군 도암면 지석로"
+				,"bldMnno" : 480
+				,"bldSlno" : 7
+				,"bldMngNo" : "4681034024104000000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 강진군 도암면 지석로 480-7"
+				,"oldZipcd" : "527881"
+				,"newZipcd" : "59246"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.678694131819
+				,"lat" : 34.5985843570221
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 1,
+		"totalCount" : 10	}
+}

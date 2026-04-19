@@ -1,0 +1,344 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA0103202502C0056520"
+				,"bizesNm" : "남도석유"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G214"
+				,"indsMclsNm" : "연료 소매"
+				,"indsSclsCd" : "G21403"
+				,"indsSclsNm" : "가정용 연료 소매업"
+				,"ksicCd" : "G47722"
+				,"ksicNm" : "가정용 액체 연료 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46170"
+				,"signguNm" : "나주시"
+				,"adongCd" : "46170320"
+				,"adongNm" : "왕곡면"
+				,"ldongCd" : "4617032023"
+				,"ldongNm" : "왕곡면"
+				,"lnoCd" : "4617032023100640041"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 64
+				,"lnoSlno" : 41
+				,"lnoAdr" : "전라남도 나주시 왕곡면 옥곡리 64-41"
+				,"rdnmCd" : "461703284012"
+				,"rdnm" : "전라남도 나주시 왕곡면 나주서부로"
+				,"bldMnno" : 510
+				,"bldSlno" : ""
+				,"bldMngNo" : "4617032023100640041036395"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 나주시 왕곡면 나주서부로 510"
+				,"oldZipcd" : "520882"
+				,"newZipcd" : "58296"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.65814707741
+				,"lat" : 34.9662497758505
+				}
+				,{
+				"bizesId" : "MA0106202201A1236049"
+				,"bizesNm" : "에코왕곡"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10102"
+				,"indsSclsNm" : "여관/모텔"
+				,"ksicCd" : "I55102"
+				,"ksicNm" : "여관업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46170"
+				,"signguNm" : "나주시"
+				,"adongCd" : "46170320"
+				,"adongNm" : "왕곡면"
+				,"ldongCd" : "4617032021"
+				,"ldongNm" : "왕곡면"
+				,"lnoCd" : "4617032021105420035"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 542
+				,"lnoSlno" : 35
+				,"lnoAdr" : "전라남도 나주시 왕곡면 덕산리 542-35"
+				,"rdnmCd" : "461703284012"
+				,"rdnm" : "전라남도 나주시 왕곡면 나주서부로"
+				,"bldMnno" : 371
+				,"bldSlno" : 14
+				,"bldMngNo" : "4617032021105420035000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 나주시 왕곡면 나주서부로 371-14"
+				,"oldZipcd" : "520881"
+				,"newZipcd" : "58296"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.67314279079
+				,"lat" : 34.9676251077321
+				}
+				,{
+				"bizesId" : "MA0106202511A0591792"
+				,"bizesNm" : "풀무원푸드앤컬처정다운나주공장"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G214"
+				,"indsMclsNm" : "연료 소매"
+				,"indsSclsCd" : "G21401"
+				,"indsSclsNm" : "주유소"
+				,"ksicCd" : "G47711"
+				,"ksicNm" : "운송장비용 주유소 운영업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46170"
+				,"signguNm" : "나주시"
+				,"adongCd" : "46170600"
+				,"adongNm" : "이창동"
+				,"ldongCd" : "4617013100"
+				,"ldongNm" : "동수동"
+				,"lnoCd" : "4617013100103270000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 327
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 나주시 동수동 327"
+				,"rdnmCd" : "461704652155"
+				,"rdnm" : "전라남도 나주시 동수농공단지길"
+				,"bldMnno" : 147
+				,"bldSlno" : ""
+				,"bldMngNo" : "4617013100103270000019209"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 나주시 동수농공단지길 147"
+				,"oldZipcd" : "520952"
+				,"newZipcd" : "58277"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.677733984548
+				,"lat" : 34.986386122429
+				}
+				,{
+				"bizesId" : "MA0106202507A1233354"
+				,"bizesNm" : "우정정미소"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G205"
+				,"indsMclsNm" : "식료품 소매"
+				,"indsSclsCd" : "G20502"
+				,"indsSclsNm" : "가축 사료 소매업"
+				,"ksicCd" : "G47211"
+				,"ksicNm" : "곡물, 곡분 및 가축 사료 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46170"
+				,"signguNm" : "나주시"
+				,"adongCd" : "46170600"
+				,"adongNm" : "이창동"
+				,"ldongCd" : "4617013000"
+				,"ldongNm" : "운곡동"
+				,"lnoCd" : "4617013000101750020"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 175
+				,"lnoSlno" : 20
+				,"lnoAdr" : "전라남도 나주시 운곡동 175-20"
+				,"rdnmCd" : "461704652155"
+				,"rdnm" : "전라남도 나주시 동수농공단지길"
+				,"bldMnno" : 100
+				,"bldSlno" : 27
+				,"bldMngNo" : "4617013000101750019019025"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 나주시 동수농공단지길 100-27"
+				,"oldZipcd" : "520952"
+				,"newZipcd" : "58277"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.68120238112
+				,"lat" : 34.9872966593925
+				}
+				,{
+				"bizesId" : "MA0106202509A1994053"
+				,"bizesNm" : "현대그린푸드팔도점"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G221"
+				,"indsMclsNm" : "기타 상품 소매"
+				,"indsSclsCd" : "G22199"
+				,"indsSclsNm" : "그 외 기타 상품 전문 소매업"
+				,"ksicCd" : "G47859"
+				,"ksicNm" : "그 외 기타 분류 안된 상품 전문 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46170"
+				,"signguNm" : "나주시"
+				,"adongCd" : "46170600"
+				,"adongNm" : "이창동"
+				,"ldongCd" : "4617013000"
+				,"ldongNm" : "운곡동"
+				,"lnoCd" : "4617013000102440003"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 244
+				,"lnoSlno" : 3
+				,"lnoAdr" : "전라남도 나주시 운곡동 244-3"
+				,"rdnmCd" : "461704652155"
+				,"rdnm" : "전라남도 나주시 동수농공단지길"
+				,"bldMnno" : 62
+				,"bldSlno" : 107
+				,"bldMngNo" : "4617013000102440003000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 나주시 동수농공단지길 62-107"
+				,"oldZipcd" : "520952"
+				,"newZipcd" : "58275"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.685390394285
+				,"lat" : 34.9862169128698
+				}
+				,{
+				"bizesId" : "MA0106202509A0448349"
+				,"bizesNm" : "뷔페포브나주혁신"
+				,"brchNm" : "산단점"
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I207"
+				,"indsMclsNm" : "구내식당·뷔페"
+				,"indsSclsCd" : "I20702"
+				,"indsSclsNm" : "뷔페"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46170"
+				,"signguNm" : "나주시"
+				,"adongCd" : "46170320"
+				,"adongNm" : "왕곡면"
+				,"ldongCd" : "4617032021"
+				,"ldongNm" : "왕곡면"
+				,"lnoCd" : "4617032021108090006"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 809
+				,"lnoSlno" : 6
+				,"lnoAdr" : "전라남도 나주시 왕곡면 덕산리 809-6"
+				,"rdnmCd" : "461704853724"
+				,"rdnm" : "전라남도 나주시 왕곡면 혁신산단중앙길"
+				,"bldMnno" : 24
+				,"bldSlno" : ""
+				,"bldMngNo" : "4617032021108090006000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 나주시 왕곡면 혁신산단중앙길 24"
+				,"oldZipcd" : "520881"
+				,"newZipcd" : "58296"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.689342869579
+				,"lat" : 34.9720753927696
+				}
+				,{
+				"bizesId" : "MA0106202210A1226518"
+				,"bizesNm" : "마더네이처"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G221"
+				,"indsMclsNm" : "기타 상품 소매"
+				,"indsSclsCd" : "G22199"
+				,"indsSclsNm" : "그 외 기타 상품 전문 소매업"
+				,"ksicCd" : "G47859"
+				,"ksicNm" : "그 외 기타 분류 안된 상품 전문 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46170"
+				,"signguNm" : "나주시"
+				,"adongCd" : "46170600"
+				,"adongNm" : "이창동"
+				,"ldongCd" : "4617013100"
+				,"ldongNm" : "동수동"
+				,"lnoCd" : "4617013100103850005"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 385
+				,"lnoSlno" : 5
+				,"lnoAdr" : "전라남도 나주시 동수동 385-5"
+				,"rdnmCd" : "461704652155"
+				,"rdnm" : "전라남도 나주시 동수농공단지길"
+				,"bldMnno" : 30
+				,"bldSlno" : 5
+				,"bldMngNo" : "4617013100200150012023837"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 나주시 동수농공단지길 30-5"
+				,"oldZipcd" : "520952"
+				,"newZipcd" : "58275"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.689424593531
+				,"lat" : 34.9852357799729
+				}
+				,{
+				"bizesId" : "MA0106202201A2054425"
+				,"bizesNm" : "푸디스트나주농협축산물공판장점"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46170"
+				,"signguNm" : "나주시"
+				,"adongCd" : "46170320"
+				,"adongNm" : "왕곡면"
+				,"ldongCd" : "4617032021"
+				,"ldongNm" : "왕곡면"
+				,"lnoCd" : "4617032021108010001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 801
+				,"lnoSlno" : 1
+				,"lnoAdr" : "전라남도 나주시 왕곡면 덕산리 801-1"
+				,"rdnmCd" : "461704853731"
+				,"rdnm" : "전라남도 나주시 왕곡면 혁신산단2길"
+				,"bldMnno" : 13
+				,"bldSlno" : ""
+				,"bldMngNo" : "4617032021108010001000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 나주시 왕곡면 혁신산단2길 13"
+				,"oldZipcd" : "520881"
+				,"newZipcd" : "58296"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.693867734671
+				,"lat" : 34.9744034380438
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 2,
+		"totalCount" : 108	}
+}

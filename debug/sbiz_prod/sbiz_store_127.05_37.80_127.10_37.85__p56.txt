@@ -1,0 +1,303 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA0106202511A2442019"
+				,"bizesNm" : "더벤티덕계역점"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I212"
+				,"indsMclsNm" : "비알코올 "
+				,"indsSclsCd" : "I21201"
+				,"indsSclsNm" : "카페"
+				,"ksicCd" : "I56221"
+				,"ksicNm" : "커피 전문점"
+				,"ctprvnCd" : "41"
+				,"ctprvnNm" : "경기도"
+				,"signguCd" : "41630"
+				,"signguNm" : "양주시"
+				,"adongCd" : "41630540"
+				,"adongNm" : "회천2동"
+				,"ldongCd" : "4163011600"
+				,"ldongNm" : "덕계동"
+				,"lnoCd" : "4163011600108920000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 892
+				,"lnoSlno" : ""
+				,"lnoAdr" : "경기도 양주시 덕계동 892"
+				,"rdnmCd" : "416303353001"
+				,"rdnm" : "경기도 양주시 회천중앙로"
+				,"bldMnno" : 248
+				,"bldSlno" : ""
+				,"bldMngNo" : "4163011600108920000000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "경기도 양주시 회천중앙로 248"
+				,"oldZipcd" : "482050"
+				,"newZipcd" : "11444"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.053539505238
+				,"lat" : 37.8196460039687
+				}
+				,{
+				"bizesId" : "MA0106202511A2431706"
+				,"bizesNm" : "유자꽃스튜디오"
+				,"brchNm" : ""
+				,"indsLclsCd" : "M1"
+				,"indsLclsNm" : "과학·기술"
+				,"indsMclsCd" : "M113"
+				,"indsMclsNm" : "사진 촬영"
+				,"indsSclsCd" : "M11301"
+				,"indsSclsNm" : "사진촬영업"
+				,"ksicCd" : "M73301"
+				,"ksicNm" : "인물 사진 및 행사용 영상 촬영업"
+				,"ctprvnCd" : "41"
+				,"ctprvnNm" : "경기도"
+				,"signguCd" : "41630"
+				,"signguNm" : "양주시"
+				,"adongCd" : "41630530"
+				,"adongNm" : "회천1동"
+				,"ldongCd" : "4163011000"
+				,"ldongNm" : "덕정동"
+				,"lnoCd" : "4163011000103650032"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 365
+				,"lnoSlno" : 32
+				,"lnoAdr" : "경기도 양주시 덕정동 365-32"
+				,"rdnmCd" : "416304436428"
+				,"rdnm" : "경기도 양주시 화합로1325번길"
+				,"bldMnno" : 22
+				,"bldSlno" : 52
+				,"bldMngNo" : "4163011000103650032013870"
+				,"bldNm" : ""
+				,"rdnmAdr" : "경기도 양주시 화합로1325번길 22-52"
+				,"oldZipcd" : "482060"
+				,"newZipcd" : "11449"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.062558254416
+				,"lat" : 37.8475621519134
+				}
+				,{
+				"bizesId" : "MA0106202511A2297479"
+				,"bizesNm" : "누구나식물"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G219"
+				,"indsMclsNm" : "식물 소매"
+				,"indsSclsCd" : "G21901"
+				,"indsSclsNm" : "꽃집"
+				,"ksicCd" : "G47851"
+				,"ksicNm" : "화초 및 식물 소매업"
+				,"ctprvnCd" : "41"
+				,"ctprvnNm" : "경기도"
+				,"signguCd" : "41630"
+				,"signguNm" : "양주시"
+				,"adongCd" : "41630530"
+				,"adongNm" : "회천1동"
+				,"ldongCd" : "4163011000"
+				,"ldongNm" : "덕정동"
+				,"lnoCd" : "4163011000102860035"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 286
+				,"lnoSlno" : 35
+				,"lnoAdr" : "경기도 양주시 덕정동 286-35"
+				,"rdnmCd" : "416303212010"
+				,"rdnm" : "경기도 양주시 독바위로"
+				,"bldMnno" : 31
+				,"bldSlno" : ""
+				,"bldMngNo" : "4163011000102860035013717"
+				,"bldNm" : ""
+				,"rdnmAdr" : "경기도 양주시 독바위로 31"
+				,"oldZipcd" : "482060"
+				,"newZipcd" : "11451"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.062914140606
+				,"lat" : 37.8385073800976
+				}
+				,{
+				"bizesId" : "MA0106202511A2424977"
+				,"bizesNm" : "오늘의찬"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G221"
+				,"indsMclsNm" : "기타 상품 소매"
+				,"indsSclsCd" : "G22199"
+				,"indsSclsNm" : "그 외 기타 상품 전문 소매업"
+				,"ksicCd" : "G47859"
+				,"ksicNm" : "그 외 기타 분류 안된 상품 전문 소매업"
+				,"ctprvnCd" : "41"
+				,"ctprvnNm" : "경기도"
+				,"signguCd" : "41630"
+				,"signguNm" : "양주시"
+				,"adongCd" : "41630550"
+				,"adongNm" : "회천3동"
+				,"ldongCd" : "4163011000"
+				,"ldongNm" : "덕정동"
+				,"lnoCd" : "4163011000102080006"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 208
+				,"lnoSlno" : 6
+				,"lnoAdr" : "경기도 양주시 덕정동 208-6"
+				,"rdnmCd" : "416303212025"
+				,"rdnm" : "경기도 양주시 회정로"
+				,"bldMnno" : 134
+				,"bldSlno" : ""
+				,"bldMngNo" : "4163011000102080006012500"
+				,"bldNm" : ""
+				,"rdnmAdr" : "경기도 양주시 회정로 134"
+				,"oldZipcd" : "482060"
+				,"newZipcd" : "11456"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.068331830784
+				,"lat" : 37.8371619395568
+				}
+				,{
+				"bizesId" : "MA0106202511A2432640"
+				,"bizesNm" : "제이제이검도관"
+				,"brchNm" : ""
+				,"indsLclsCd" : "P1"
+				,"indsLclsNm" : "교육"
+				,"indsMclsCd" : "P105"
+				,"indsMclsNm" : "일반 교육"
+				,"indsSclsCd" : "P10501"
+				,"indsSclsNm" : "입시·교과학원"
+				,"ksicCd" : "P85501"
+				,"ksicNm" : "일반 교과학원"
+				,"ctprvnCd" : "41"
+				,"ctprvnNm" : "경기도"
+				,"signguCd" : "41630"
+				,"signguNm" : "양주시"
+				,"adongCd" : "41630580"
+				,"adongNm" : "옥정2동"
+				,"ldongCd" : "4163011400"
+				,"ldongNm" : "옥정동"
+				,"lnoCd" : "4163011400109630010"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 963
+				,"lnoSlno" : 10
+				,"lnoAdr" : "경기도 양주시 옥정동 963-10"
+				,"rdnmCd" : "416303350561"
+				,"rdnm" : "경기도 양주시 옥정로"
+				,"bldMnno" : 204
+				,"bldSlno" : ""
+				,"bldMngNo" : "4163011400109630010000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "경기도 양주시 옥정로 204"
+				,"oldZipcd" : "482130"
+				,"newZipcd" : "11473"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.092144071898
+				,"lat" : 37.8198473704205
+				}
+				,{
+				"bizesId" : "MA0106202511A2256894"
+				,"bizesNm" : "빈티지온도"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G209"
+				,"indsMclsNm" : "섬유·의복·신발 소매"
+				,"indsSclsCd" : "G20905"
+				,"indsSclsNm" : "기타 의류 소매업"
+				,"ksicCd" : "G47419"
+				,"ksicNm" : "기타 의복 소매업"
+				,"ctprvnCd" : "41"
+				,"ctprvnNm" : "경기도"
+				,"signguCd" : "41630"
+				,"signguNm" : "양주시"
+				,"adongCd" : "41630580"
+				,"adongNm" : "옥정2동"
+				,"ldongCd" : "4163011400"
+				,"ldongNm" : "옥정동"
+				,"lnoCd" : "4163011400109630015"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 963
+				,"lnoSlno" : 15
+				,"lnoAdr" : "경기도 양주시 옥정동 963-15"
+				,"rdnmCd" : "416303350563"
+				,"rdnm" : "경기도 양주시 회천남로"
+				,"bldMnno" : 88
+				,"bldSlno" : ""
+				,"bldMngNo" : "4163011400109630015000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "경기도 양주시 회천남로 88"
+				,"oldZipcd" : "482130"
+				,"newZipcd" : "11473"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.092801186646
+				,"lat" : 37.8185494765437
+				}
+				,{
+				"bizesId" : "MA0106202511A2470643"
+				,"bizesNm" : "오바"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "41"
+				,"ctprvnNm" : "경기도"
+				,"signguCd" : "41630"
+				,"signguNm" : "양주시"
+				,"adongCd" : "41630580"
+				,"adongNm" : "옥정2동"
+				,"ldongCd" : "4163011400"
+				,"ldongNm" : "옥정동"
+				,"lnoCd" : "4163011400109660001"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 966
+				,"lnoSlno" : 1
+				,"lnoAdr" : "경기도 양주시 옥정동 966-1"
+				,"rdnmCd" : "416304852470"
+				,"rdnm" : "경기도 양주시 옥정동로7다길"
+				,"bldMnno" : 62
+				,"bldSlno" : ""
+				,"bldMngNo" : "4163011400109660001000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "경기도 양주시 옥정동로7다길 62"
+				,"oldZipcd" : "482130"
+				,"newZipcd" : "11473"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.092826011234
+				,"lat" : 37.8202342464249
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 56,
+		"totalCount" : 5507	}
+}

@@ -1,0 +1,98 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA0101202409A0027921"
+				,"bizesNm" : "행복한더블유케이"
+				,"brchNm" : ""
+				,"indsLclsCd" : "M1"
+				,"indsLclsNm" : "과학·기술"
+				,"indsMclsCd" : "M107"
+				,"indsMclsNm" : "본사·경영 컨설팅"
+				,"indsSclsCd" : "M10703"
+				,"indsSclsNm" : "경영 컨설팅업"
+				,"ksicCd" : "M71531"
+				,"ksicNm" : "경영 컨설팅업"
+				,"ctprvnCd" : "28"
+				,"ctprvnNm" : "인천광역시"
+				,"signguCd" : "28710"
+				,"signguNm" : "강화군"
+				,"adongCd" : "28710380"
+				,"adongNm" : "양사면"
+				,"ldongCd" : "2871038024"
+				,"ldongNm" : "양사면"
+				,"lnoCd" : "2871038024102870004"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 287
+				,"lnoSlno" : 4
+				,"lnoAdr" : "인천광역시 강화군 양사면 교산리 287-4"
+				,"rdnmCd" : "287104271450"
+				,"rdnm" : "인천광역시 강화군 양사면 서사길227번길"
+				,"bldMnno" : 99
+				,"bldSlno" : ""
+				,"bldMngNo" : "2871038024102870004000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "인천광역시 강화군 양사면 서사길227번길 99"
+				,"oldZipcd" : "417881"
+				,"newZipcd" : "23011"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.382851301995
+				,"lat" : 37.8011396989544
+				}
+				,{
+				"bizesId" : "MA010120220802509752"
+				,"bizesNm" : "샬롬슈퍼"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G204"
+				,"indsMclsNm" : "종합 소매"
+				,"indsSclsCd" : "G20404"
+				,"indsSclsNm" : "슈퍼마켓"
+				,"ksicCd" : "G47129"
+				,"ksicNm" : "기타 음ㆍ식료품 위주 종합 소매업"
+				,"ctprvnCd" : "28"
+				,"ctprvnNm" : "인천광역시"
+				,"signguCd" : "28710"
+				,"signguNm" : "강화군"
+				,"adongCd" : "28710380"
+				,"adongNm" : "양사면"
+				,"ldongCd" : "2871038024"
+				,"ldongNm" : "양사면"
+				,"lnoCd" : "2871038024104720003"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 472
+				,"lnoSlno" : 3
+				,"lnoAdr" : "인천광역시 강화군 양사면 교산리 472-3"
+				,"rdnmCd" : "287104271448"
+				,"rdnm" : "인천광역시 강화군 양사면 서사길"
+				,"bldMnno" : 247
+				,"bldSlno" : ""
+				,"bldMngNo" : "2871038024104720003035076"
+				,"bldNm" : ""
+				,"rdnmAdr" : "인천광역시 강화군 양사면 서사길 247"
+				,"oldZipcd" : "417881"
+				,"newZipcd" : "23011"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.392957312264
+				,"lat" : 37.8010840935891
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 1,
+		"totalCount" : 2	}
+}

@@ -1,0 +1,98 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA0101202307A0043155"
+				,"bizesNm" : "보율"
+				,"brchNm" : ""
+				,"indsLclsCd" : "N1"
+				,"indsLclsNm" : "시설관리·임대"
+				,"indsMclsCd" : "N103"
+				,"indsMclsNm" : "조경·유지"
+				,"indsSclsCd" : "N10301"
+				,"indsSclsNm" : "조경 유지·관리 서비스업"
+				,"ksicCd" : "N74300"
+				,"ksicNm" : "조경관리 및 유지 서비스업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46780"
+				,"signguNm" : "보성군"
+				,"adongCd" : "46780340"
+				,"adongNm" : "율어면"
+				,"ldongCd" : "4678034025"
+				,"ldongNm" : "율어면"
+				,"lnoCd" : "4678034025102300000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 230
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 보성군 율어면 칠음리 230"
+				,"rdnmCd" : "467804670418"
+				,"rdnm" : "전라남도 보성군 율어면 칠음길"
+				,"bldMnno" : 24
+				,"bldSlno" : ""
+				,"bldMngNo" : "4678034025102300000300840"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 보성군 율어면 칠음길 24"
+				,"oldZipcd" : "546851"
+				,"newZipcd" : "59407"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.200484827256
+				,"lat" : 34.8781297472578
+				}
+				,{
+				"bizesId" : "MA010120220807775514"
+				,"bizesNm" : "업소명없음"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G204"
+				,"indsMclsNm" : "종합 소매"
+				,"indsSclsCd" : "G20404"
+				,"indsSclsNm" : "슈퍼마켓"
+				,"ksicCd" : "G47129"
+				,"ksicNm" : "기타 음ㆍ식료품 위주 종합 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46780"
+				,"signguNm" : "보성군"
+				,"adongCd" : "46780340"
+				,"adongNm" : "율어면"
+				,"ldongCd" : "4678034027"
+				,"ldongNm" : "율어면"
+				,"lnoCd" : "4678034027101970004"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 197
+				,"lnoSlno" : 4
+				,"lnoAdr" : "전라남도 보성군 율어면 이동리 197-4"
+				,"rdnmCd" : "467804670050"
+				,"rdnm" : "전라남도 보성군 율어면 깃발길"
+				,"bldMnno" : 9
+				,"bldSlno" : ""
+				,"bldMngNo" : "4678034027101970003300533"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 보성군 율어면 깃발길 9"
+				,"oldZipcd" : "546853"
+				,"newZipcd" : "59407"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 127.220304464084
+				,"lat" : 34.8821517457764
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 1,
+		"totalCount" : 2	}
+}

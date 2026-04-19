@@ -1,0 +1,221 @@
+{
+	"header" : {
+		"description" : "소상공인시장진흥공단 사각형내 상가업소정보"
+		,"columns" : ["상가업소번호","상호명","지점명","상권업종대분류코드","상권업종대분류명","상권업종중분류코드","상권업종중분류명","상권업종소분류코드","상권업종소분류명","표준산업분류코드","표준산업분류명","시도코드","시도명","시군구코드","시군구명","행정동코드","행정동명","법정동코드","법정동명","PNU코드","대지구분코드","대지구분명","지번본번지","지번부번지","지번주소","도로명코드","도로명","건물본번지","건물부번지","건물관리번호","건물명","도로명주소","구우편번호","신우편번호","동정보","층정보","호정보","경도","위도"]
+		,"stdrYm" : "202512"
+		,"resultCode" : "00"
+		,"resultMsg" : "NORMAL SERVICE"
+	},
+	"body" : {
+			"items" : [
+				{
+				"bizesId" : "MA0106202201A0824647"
+				,"bizesNm" : "씨앤코컴퍼니한빛원자력본부점"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I2"
+				,"indsLclsNm" : "음식"
+				,"indsMclsCd" : "I201"
+				,"indsMclsNm" : "한식"
+				,"indsSclsCd" : "I20101"
+				,"indsSclsNm" : "백반/한정식"
+				,"ksicCd" : "I56111"
+				,"ksicNm" : "한식 일반 음식점업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46870"
+				,"signguNm" : "영광군"
+				,"adongCd" : "46870256"
+				,"adongNm" : "홍농읍"
+				,"ldongCd" : "4687025624"
+				,"ldongNm" : "홍농읍"
+				,"lnoCd" : "4687025624107430000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 743
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 영광군 홍농읍 성산리 743"
+				,"rdnmCd" : "468703298041"
+				,"rdnm" : "전라남도 영광군 홍농읍 홍농로"
+				,"bldMnno" : 846
+				,"bldSlno" : ""
+				,"bldMngNo" : "4687025623109520000028537"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 영광군 홍농읍 홍농로 846"
+				,"oldZipcd" : "513886"
+				,"newZipcd" : "57001"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.426240811877
+				,"lat" : 35.4210476963573
+				}
+				,{
+				"bizesId" : "MA0101202502A0039924"
+				,"bizesNm" : "햇빛테라365"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G209"
+				,"indsMclsNm" : "섬유·의복·신발 소매"
+				,"indsSclsCd" : "G20906"
+				,"indsSclsNm" : "침구류/커튼 소매업"
+				,"ksicCd" : "G47421"
+				,"ksicNm" : "가정용 직물제품 소매업"
+				,"ctprvnCd" : "46"
+				,"ctprvnNm" : "전라남도"
+				,"signguCd" : "46870"
+				,"signguNm" : "영광군"
+				,"adongCd" : "46870256"
+				,"adongNm" : "홍농읍"
+				,"ldongCd" : "4687025624"
+				,"ldongNm" : "홍농읍"
+				,"lnoCd" : "4687025624104210000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 421
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전라남도 영광군 홍농읍 성산리 421"
+				,"rdnmCd" : "468704694438"
+				,"rdnm" : "전라남도 영광군 홍농읍 홍농로6길"
+				,"bldMnno" : 27
+				,"bldSlno" : 2
+				,"bldMngNo" : "4687025624104210000010339"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전라남도 영광군 홍농읍 홍농로6길 27-2"
+				,"oldZipcd" : "513886"
+				,"newZipcd" : "57003"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.433117915554
+				,"lat" : 35.4122834204025
+				}
+				,{
+				"bizesId" : "MA0106202509A0490955"
+				,"bizesNm" : "파도소리펜션"
+				,"brchNm" : ""
+				,"indsLclsCd" : "I1"
+				,"indsLclsNm" : "숙박"
+				,"indsMclsCd" : "I101"
+				,"indsMclsNm" : "일반 숙박"
+				,"indsSclsCd" : "I10103"
+				,"indsSclsNm" : "펜션"
+				,"ksicCd" : "I55102"
+				,"ksicNm" : "여관업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52790"
+				,"signguNm" : "고창군"
+				,"adongCd" : "52790350"
+				,"adongNm" : "상하면"
+				,"ldongCd" : "5279035024"
+				,"ldongNm" : "상하면"
+				,"lnoCd" : "5279035024105290036"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 529
+				,"lnoSlno" : 36
+				,"lnoAdr" : "전북특별자치도 고창군 상하면 자룡리 529-36"
+				,"rdnmCd" : "527904637092"
+				,"rdnm" : "전북특별자치도 고창군 상하면 구시포안길"
+				,"bldMnno" : 34
+				,"bldSlno" : 8
+				,"bldMngNo" : "4579035024201040146000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 고창군 상하면 구시포안길 34-8"
+				,"oldZipcd" : "585912"
+				,"newZipcd" : "56408"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.435316102533
+				,"lat" : 35.4427938859627
+				}
+				,{
+				"bizesId" : "MA0101202504A0028596"
+				,"bizesNm" : "주말바다마트"
+				,"brchNm" : ""
+				,"indsLclsCd" : "G2"
+				,"indsLclsNm" : "소매"
+				,"indsMclsCd" : "G204"
+				,"indsMclsNm" : "종합 소매"
+				,"indsSclsCd" : "G20404"
+				,"indsSclsNm" : "슈퍼마켓"
+				,"ksicCd" : "G47129"
+				,"ksicNm" : "기타 음ㆍ식료품 위주 종합 소매업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52790"
+				,"signguNm" : "고창군"
+				,"adongCd" : "52790350"
+				,"adongNm" : "상하면"
+				,"ldongCd" : "5279035024"
+				,"ldongNm" : "상하면"
+				,"lnoCd" : "5279035024105230000"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 523
+				,"lnoSlno" : ""
+				,"lnoAdr" : "전북특별자치도 고창군 상하면 자룡리 523"
+				,"rdnmCd" : "527903279056"
+				,"rdnm" : "전북특별자치도 고창군 상하면 진암구시포로"
+				,"bldMnno" : 544
+				,"bldSlno" : ""
+				,"bldMngNo" : "4579035024105230000011304"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 고창군 상하면 진암구시포로 544"
+				,"oldZipcd" : "585912"
+				,"newZipcd" : "56408"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.436099591665
+				,"lat" : 35.4457357949003
+				}
+				,{
+				"bizesId" : "MA0106202201A1581286"
+				,"bizesNm" : "강선달마을회"
+				,"brchNm" : ""
+				,"indsLclsCd" : "P1"
+				,"indsLclsNm" : "교육"
+				,"indsMclsCd" : "P106"
+				,"indsMclsNm" : "기타 교육"
+				,"indsSclsCd" : "P10607"
+				,"indsSclsNm" : "청소년 수련시설"
+				,"ksicCd" : "P85614"
+				,"ksicNm" : "청소년 수련시설 운영업"
+				,"ctprvnCd" : "52"
+				,"ctprvnNm" : "전북특별자치도"
+				,"signguCd" : "52790"
+				,"signguNm" : "고창군"
+				,"adongCd" : "52790350"
+				,"adongNm" : "상하면"
+				,"ldongCd" : "5279035024"
+				,"ldongNm" : "상하면"
+				,"lnoCd" : "5279035024104340020"
+				,"plotSctCd" : "1"
+				,"plotSctNm" : "대지"
+				,"lnoMnno" : 434
+				,"lnoSlno" : 20
+				,"lnoAdr" : "전북특별자치도 고창군 상하면 자룡리 434-20"
+				,"rdnmCd" : "527903279056"
+				,"rdnm" : "전북특별자치도 고창군 상하면 진암구시포로"
+				,"bldMnno" : 495
+				,"bldSlno" : ""
+				,"bldMngNo" : "4579035024104340020000001"
+				,"bldNm" : ""
+				,"rdnmAdr" : "전북특별자치도 고창군 상하면 진암구시포로 495"
+				,"oldZipcd" : "585912"
+				,"newZipcd" : "56408"
+				,"dongNo" : ""
+				,"flrNo" : ""
+				,"hoNo" : ""
+				,"lon" : 126.440205326802
+				,"lat" : 35.4429248106908
+				}
+			]
+,
+		"numOfRows" : 100,
+		"pageNo" : 2,
+		"totalCount" : 105	}
+}
