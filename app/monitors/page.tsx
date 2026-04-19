@@ -1,10 +1,9 @@
 import Link from "next/link";
 import type { ReactNode } from "react";
 import { createClient } from "@/lib/supabase/server";
+import { deleteMonitorAction } from "@/app/monitors/actions";
 
 type AnyRow = Record<string, unknown>;
-
-const FETCH_LIMIT = 100;
 
 function asString(...values: unknown[]) {
   for (const value of values) {
@@ -18,8 +17,8 @@ function asNumber(...values: unknown[]) {
   for (const value of values) {
     if (typeof value === "number" && Number.isFinite(value)) return value;
     if (typeof value === "string" && value.trim() !== "") {
-      const n = Number(value);
-      if (Number.isFinite(n)) return n;
+      const parsed = Number(value);
+      if (Number.isFinite(parsed)) return parsed;
     }
   }
   return null;
@@ -61,8 +60,7 @@ function formatRelativeDays(value: unknown) {
 
   if (!date || Number.isNaN(date.getTime())) return "갱신 기록 없음";
 
-  const now = Date.now();
-  const diff = Math.max(0, now - date.getTime());
+  const diff = Math.max(0, Date.now() - date.getTime());
   const days = Math.floor(diff / (1000 * 60 * 60 * 24));
 
   if (days <= 0) return "오늘 갱신";
@@ -71,24 +69,23 @@ function formatRelativeDays(value: unknown) {
 }
 
 function formatScore(value: number | null | undefined, digits = 1) {
-  if (value === null || value === undefined || Number.isNaN(value)) return "-";
+  if (value == null || Number.isNaN(value)) return "-";
   return Number(value).toFixed(digits);
 }
 
 function formatCount(value: number | null | undefined) {
-  if (value === null || value === undefined || Number.isNaN(value)) return "0";
+  if (value == null || Number.isNaN(value)) return "0";
   return new Intl.NumberFormat("ko-KR").format(value);
 }
 
-function normalizeStage(value: string | null | undefined) {
-  const raw = String(value || "").toLowerCase();
+function normalizeStage(value: unknown) {
+  const raw = String(value ?? "").toLowerCase();
 
   if (
     raw.includes("critical") ||
-    raw.includes("high") ||
-    raw.includes("danger") ||
     raw.includes("urgent") ||
-    raw.includes("red")
+    raw.includes("danger") ||
+    raw.includes("high")
   ) {
     return "critical";
   }
@@ -96,37 +93,24 @@ function normalizeStage(value: string | null | undefined) {
   if (
     raw.includes("caution") ||
     raw.includes("warning") ||
-    raw.includes("moderate") ||
-    raw.includes("orange") ||
-    raw.includes("amber")
+    raw.includes("moderate")
   ) {
     return "caution";
   }
 
-  if (
-    raw.includes("stable") ||
-    raw.includes("safe") ||
-    raw.includes("healthy") ||
-    raw.includes("green")
-  ) {
+  if (raw.includes("stable") || raw.includes("safe")) {
     return "stable";
   }
 
-  if (
-    raw.includes("observe") ||
-    raw.includes("watch") ||
-    raw.includes("normal") ||
-    raw.includes("blue")
-  ) {
+  if (raw.includes("observe") || raw.includes("watch") || raw.includes("normal")) {
     return "observe";
   }
 
   return "unknown";
 }
 
-function stageLabel(stage: string | null | undefined) {
+function stageLabel(stage: unknown) {
   const normalized = normalizeStage(stage);
-
   if (normalized === "critical") return "최우선";
   if (normalized === "caution") return "집중개입";
   if (normalized === "stable") return "안정";
@@ -134,9 +118,8 @@ function stageLabel(stage: string | null | undefined) {
   return "미확인";
 }
 
-function stageGroupLabel(stage: string | null | undefined) {
+function stageGroupLabel(stage: unknown) {
   const normalized = normalizeStage(stage);
-
   if (normalized === "critical") return "최종 관리군";
   if (normalized === "caution") return "집중 관리군";
   if (normalized === "stable") return "안정군";
@@ -144,26 +127,19 @@ function stageGroupLabel(stage: string | null | undefined) {
   return "미분류";
 }
 
-function stageTone(stage: string | null | undefined) {
+function stageTone(stage: unknown) {
   const normalized = normalizeStage(stage);
 
-  if (normalized === "critical") {
-    return "border-red-200 bg-red-50 text-red-700";
-  }
-  if (normalized === "caution") {
-    return "border-amber-200 bg-amber-50 text-amber-700";
-  }
-  if (normalized === "stable") {
-    return "border-emerald-200 bg-emerald-50 text-emerald-700";
-  }
-  if (normalized === "observe") {
-    return "border-sky-200 bg-sky-50 text-sky-700";
-  }
+  if (normalized === "critical") return "border-red-200 bg-red-50 text-red-700";
+  if (normalized === "caution") return "border-amber-200 bg-amber-50 text-amber-700";
+  if (normalized === "stable") return "border-emerald-200 bg-emerald-50 text-emerald-700";
+  if (normalized === "observe") return "border-sky-200 bg-sky-50 text-sky-700";
+
   return "border-slate-200 bg-slate-50 text-slate-600";
 }
 
 function scoreTone(score: number | null | undefined, invert = false) {
-  if (score === null || score === undefined || Number.isNaN(score)) {
+  if (score == null || Number.isNaN(score)) {
     return "border-slate-200 bg-slate-50 text-slate-500";
   }
 
@@ -183,25 +159,7 @@ function scoreTone(score: number | null | undefined, invert = false) {
 }
 
 function monitorIdOf(row: AnyRow) {
-  return asNumber(row.monitor_id, row.id, row.business_monitor_id);
-}
-
-function snapshotIdOf(row: AnyRow) {
-  return asNumber(row.snapshot_id, row.id);
-}
-
-function regionCodeOf(row: AnyRow) {
-  return asString(
-    row.region_code,
-    row.regionCode,
-    row.sido_code,
-    row.region_name,
-    row.regionName,
-  );
-}
-
-function categoryIdOf(row: AnyRow) {
-  return asNumber(row.category_id, row.categoryId, row.business_category_id);
+  return asNumber(row.id, row.monitor_id, row.business_monitor_id);
 }
 
 function monitorNameOf(row: AnyRow) {
@@ -302,18 +260,13 @@ function deriveOwnerFocus(
   recoverability: number | null,
 ) {
   const structurePressure =
-    recoverability === null || recoverability === undefined
-      ? null
-      : Math.max(0, 100 - recoverability);
+    recoverability == null ? null : Math.max(0, 100 - recoverability);
 
   const candidates = [
     { label: "시장", value: marketRisk },
     { label: "사업장", value: businessRisk },
     { label: "구조", value: structurePressure },
-  ].filter((item) => item.value !== null && item.value !== undefined) as Array<{
-    label: string;
-    value: number;
-  }>;
+  ].filter((item) => item.value != null) as Array<{ label: string; value: number }>;
 
   if (candidates.length === 0) return "미분류";
 
@@ -324,12 +277,12 @@ function deriveOwnerFocus(
 function summaryLineOf(input: {
   finalRisk: number | null;
   recoverability: number | null;
-  stage: string | null;
+  stage: unknown;
   whySummary: string | null;
 }) {
   const bits = [
-    input.finalRisk !== null ? `최종 폐업위험 ${formatScore(input.finalRisk, 1)}점` : null,
-    input.recoverability !== null ? `구조가능성 ${formatScore(input.recoverability, 0)}점` : null,
+    input.finalRisk != null ? `최종 폐업위험 ${formatScore(input.finalRisk, 1)}점` : null,
+    input.recoverability != null ? `구조가능성 ${formatScore(input.recoverability, 0)}점` : null,
     input.stage ? `${stageLabel(input.stage)} 단계` : null,
     input.stage ? stageGroupLabel(input.stage) : null,
     input.whySummary,
@@ -338,48 +291,20 @@ function summaryLineOf(input: {
   return bits.length > 0 ? bits.join(" · ") : "실제 데이터가 아직 쌓이지 않았습니다.";
 }
 
-async function getMonitorRows() {
+async function getTargets() {
   const supabase = (await createClient()) as any;
 
-  for (const tableName of [
-    "external_intel_targets",
-    "monitors",
-    "business_monitors",
-    "monitor_targets",
-  ]) {
-    try {
-      const { data, error } = await supabase
-        .from(tableName)
-        .select("*")
-        .limit(FETCH_LIMIT);
+  const { data, error } = await supabase
+    .from("external_intel_targets")
+    .select("*")
+    .order("id", { ascending: false })
+    .limit(200);
 
-      if (!error && Array.isArray(data) && data.length > 0) {
-        return [...data].sort((a: AnyRow, b: AnyRow) => {
-          const ta =
-            asDateValue(
-              a.updated_at,
-              a.last_refreshed_at,
-              a.created_at,
-            )?.getTime() ??
-            asNumber(a.id) ??
-            0;
-
-          const tb =
-            asDateValue(
-              b.updated_at,
-              b.last_refreshed_at,
-              b.created_at,
-            )?.getTime() ??
-            asNumber(b.id) ??
-            0;
-
-          return tb - ta;
-        }) as AnyRow[];
-      }
-    } catch {}
+  if (error) {
+    throw new Error(`external_intel_targets 조회 실패: ${error.message}`);
   }
 
-  return [] as AnyRow[];
+  return (Array.isArray(data) ? data : []) as AnyRow[];
 }
 
 async function getLastChanceRows(monitorIds: number[]) {
@@ -482,8 +407,8 @@ function ScorePanel({
 }
 
 export default async function MonitorsPage() {
-  const monitorRows = await getMonitorRows();
-  const monitorIds = monitorRows
+  const targets = await getTargets();
+  const monitorIds = targets
     .map((row) => monitorIdOf(row))
     .filter((value): value is number => value !== null);
 
@@ -494,8 +419,8 @@ export default async function MonitorsPage() {
 
   const lastChanceMap = new Map<number, AnyRow>();
   for (const row of lastChanceRows) {
-    const monitorId = monitorIdOf(row);
-    if (monitorId === null) continue;
+    const monitorId = asNumber(row.monitor_id);
+    if (monitorId == null) continue;
 
     const prev = lastChanceMap.get(monitorId);
     const prevTime = asDateValue(prev?.updated_at, prev?.created_at)?.getTime() ?? 0;
@@ -509,88 +434,60 @@ export default async function MonitorsPage() {
   const snapshotMap = new Map<number, AnyRow>();
   for (const row of snapshotRows) {
     const monitorId = asNumber(row.monitor_id);
-    if (monitorId === null) continue;
+    if (monitorId == null) continue;
     if (!snapshotMap.has(monitorId)) {
       snapshotMap.set(monitorId, row);
     }
   }
 
-  const cards = monitorRows.map((monitorRow) => {
-    const monitorId = monitorIdOf(monitorRow);
-    const cardRow = monitorId !== null ? lastChanceMap.get(monitorId) : undefined;
-    const snapshotRow = monitorId !== null ? snapshotMap.get(monitorId) : undefined;
-
-    const regionCode = regionCodeOf(monitorRow) ?? regionCodeOf(cardRow ?? {}) ?? null;
-    const categoryId = categoryIdOf(monitorRow) ?? categoryIdOf(cardRow ?? {}) ?? null;
+  const cards = targets.map((target) => {
+    const monitorId = monitorIdOf(target);
+    const cardRow = monitorId != null ? lastChanceMap.get(monitorId) : undefined;
+    const snapshotRow = monitorId != null ? snapshotMap.get(monitorId) : undefined;
 
     const marketRisk = asNumber(
       cardRow?.market_risk_score,
-      cardRow?.marketRiskScore,
       snapshotRow?.market_risk_score,
-      snapshotRow?.marketRiskScore,
+      target.latest_market_risk_score,
     );
 
     const businessRisk = asNumber(
       cardRow?.business_risk_score,
-      cardRow?.businessRiskScore,
       snapshotRow?.business_risk_score,
-      snapshotRow?.businessRiskScore,
-      snapshotRow?.business_score,
+      target.latest_business_risk_score,
     );
 
     const recoverability = asNumber(
       cardRow?.recoverability_score,
-      cardRow?.recoverabilityScore,
+      cardRow?.rescue_chance_score,
       snapshotRow?.recoverability_score,
-      snapshotRow?.recoverabilityScore,
-      snapshotRow?.structural_recoverability_score,
+      snapshotRow?.rescue_chance_score,
+      target.latest_rescue_chance_score,
     );
 
     const finalRisk = asNumber(
       cardRow?.final_close_risk_score,
-      cardRow?.finalCloseRiskScore,
-      cardRow?.final_risk_score,
-      snapshotRow?.final_close_risk_score,
-      snapshotRow?.finalCloseRiskScore,
-      snapshotRow?.final_risk_score,
-      snapshotRow?.close_risk_score,
+      cardRow?.closing_risk_score,
+      snapshotRow?.final_closing_risk_score,
+      snapshotRow?.closing_risk_score,
+      target.latest_closing_risk_score,
     );
 
-    const stage = asString(
-      cardRow?.stage,
-      snapshotRow?.stage,
-      monitorRow.stage,
-      cardRow?.risk_stage,
-      snapshotRow?.risk_stage,
-    );
+    const stage =
+      asString(cardRow?.stage, snapshotRow?.stage, target.latest_stage, target.stage) ?? "observe";
 
-    const whySummary = whySummaryOf(cardRow, snapshotRow, monitorRow);
-    const actionSummary = actionSummaryOf(cardRow, snapshotRow, monitorRow);
-    const updatedAt = updatedAtOf(cardRow, snapshotRow, monitorRow);
+    const whySummary = whySummaryOf(cardRow, snapshotRow, target);
+    const actionSummary = actionSummaryOf(cardRow, snapshotRow, target);
+    const updatedAt = updatedAtOf(cardRow, snapshotRow, target);
 
     const ownerFocus = deriveOwnerFocus(marketRisk, businessRisk, recoverability);
 
-    const title = monitorNameOf(monitorRow);
-    const regionName = regionNameOf(monitorRow) ?? regionNameOf(cardRow ?? {}) ?? regionCode;
-    const categoryName =
-      categoryNameOf(monitorRow) ??
-      categoryNameOf(cardRow ?? {}) ??
-      (categoryId ? String(categoryId) : null);
-    const address = addressOf(monitorRow) ?? addressOf(cardRow ?? {}) ?? null;
-
-    const detailHref =
-      regionCode && categoryId
-        ? `/regions/${encodeURIComponent(regionCode)}/${categoryId}`
-        : monitorId !== null
-          ? `/monitors/${monitorId}`
-          : "#";
-
     return {
       monitorId,
-      title,
-      regionName,
-      categoryName,
-      address,
+      title: monitorNameOf(target),
+      regionName: regionNameOf(target),
+      categoryName: categoryNameOf(target),
+      address: addressOf(target),
       stage,
       ownerFocus,
       whySummary,
@@ -600,7 +497,7 @@ export default async function MonitorsPage() {
       businessRisk,
       recoverability,
       finalRisk,
-      detailHref,
+      detailHref: monitorId != null ? `/monitors/${monitorId}` : "#",
       summaryLine: summaryLineOf({
         finalRisk,
         recoverability,
@@ -640,8 +537,7 @@ export default async function MonitorsPage() {
                 사업장 위험 모니터
               </h1>
               <p className="mt-3 text-sm leading-6 text-slate-500">
-                가짜 데이터 없이 현재 DB에 실제로 있는 모니터, 마지막 기회 카드, 건강 스냅샷만
-                보여줍니다.
+                등록/삭제 기준 테이블인 external_intel_targets 기준으로 바로 보여줍니다.
               </p>
 
               <div className="mt-4 flex flex-wrap gap-2">
@@ -693,13 +589,16 @@ export default async function MonitorsPage() {
                 검색 결과 {formatCount(totalCount)}곳
               </h2>
               <p className="mt-1 text-sm text-slate-500">
-                사업장별 탐지 → 개입 → 추적 흐름을 실제 데이터 기준으로 바로 확인합니다.
+                모니터 추가 후 이 페이지에서 바로 보이고, 삭제도 같은 기준으로 처리합니다.
               </p>
             </div>
 
-            <div className="text-sm text-slate-500">
-              데이터 없음인 항목은 아직 해당 단계 결과가 생성되지 않은 것입니다.
-            </div>
+            <Link
+              href="/monitors/new"
+              className="inline-flex h-11 items-center justify-center rounded-xl bg-[#0B5CAB] px-4 text-sm font-semibold text-white transition hover:bg-[#084298]"
+            >
+              새 모니터 등록
+            </Link>
           </div>
         </section>
 
@@ -707,8 +606,7 @@ export default async function MonitorsPage() {
           <section className="rounded-[28px] border border-dashed border-sky-200 bg-white px-6 py-14 text-center shadow-sm">
             <div className="text-xl font-semibold text-slate-950">표시할 모니터가 없습니다.</div>
             <p className="mt-2 text-sm leading-6 text-slate-500">
-              현재 DB에 저장된 monitor row가 없거나, 실제 테이블에 연결된 모니터 대상 데이터가
-              아직 없습니다.
+              현재 external_intel_targets에 저장된 모니터 대상 데이터가 없습니다.
             </p>
           </section>
         ) : (
@@ -755,6 +653,18 @@ export default async function MonitorsPage() {
                             >
                               상세 보기
                             </Link>
+
+                            {card.monitorId != null ? (
+                              <form action={deleteMonitorAction}>
+                                <input type="hidden" name="monitorId" value={String(card.monitorId)} />
+                                <button
+                                  type="submit"
+                                  className="inline-flex h-11 items-center justify-center rounded-xl border border-red-200 bg-red-50 px-4 text-sm font-semibold text-red-700 transition hover:bg-red-100"
+                                >
+                                  삭제
+                                </button>
+                              </form>
+                            ) : null}
                           </div>
                         </div>
 

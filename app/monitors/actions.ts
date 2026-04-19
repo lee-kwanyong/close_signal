@@ -26,8 +26,8 @@ function splitKeywords(value: string): string[] {
       value
         .split(/\r?\n|,/g)
         .map((item) => item.trim())
-        .filter(Boolean)
-    )
+        .filter(Boolean),
+    ),
   );
 }
 
@@ -45,9 +45,39 @@ function readOptionalInteger(formData: FormData, key: string): number | null {
   return Number.isInteger(parsed) ? parsed : null;
 }
 
+function errorCodeOf(error: unknown) {
+  if (typeof error === "object" && error !== null && "code" in error) {
+    return String((error as { code?: unknown }).code ?? "");
+  }
+  return "";
+}
+
+function errorMessageOf(error: unknown) {
+  if (typeof error === "object" && error !== null && "message" in error) {
+    return String((error as { message?: unknown }).message ?? "알 수 없는 오류");
+  }
+  return "알 수 없는 오류";
+}
+
+function isIgnorableSchemaError(error: unknown) {
+  const code = errorCodeOf(error);
+  const message = errorMessageOf(error).toLowerCase();
+
+  if (["42P01", "42703", "PGRST204", "PGRST205"].includes(code)) {
+    return true;
+  }
+
+  return (
+    message.includes("could not find the table") ||
+    message.includes("does not exist") ||
+    message.includes("schema cache") ||
+    message.includes("could not find the relation")
+  );
+}
+
 async function tryUpdateColumns(
   monitorId: number,
-  payload: UnknownRecord
+  payload: UnknownRecord,
 ): Promise<boolean> {
   const entries = Object.entries(payload).filter(([, value]) => {
     if (value == null) return false;
@@ -149,10 +179,7 @@ async function saveOptionalFields(args: {
   ];
 
   if (score != null) {
-    scalarCandidates.push(
-      { latest_score_hint: score },
-      { intake_score_hint: score }
-    );
+    scalarCandidates.push({ latest_score_hint: score }, { intake_score_hint: score });
   }
 
   for (const payload of scalarCandidates) {
@@ -210,6 +237,102 @@ async function saveOptionalFields(args: {
   }
 }
 
+async function deleteEq(
+  tableName: string,
+  column: string,
+  value: string | number,
+): Promise<number> {
+  const { data, error } = await supabaseAdmin()
+    .from(tableName)
+    .delete()
+    .eq(column, value)
+    .select("id");
+
+  if (error) {
+    if (isIgnorableSchemaError(error)) return 0;
+    throw new Error(`[${tableName}.${column}] ${errorMessageOf(error)}`);
+  }
+
+  return Array.isArray(data) ? data.length : 0;
+}
+
+async function deleteIn(
+  tableName: string,
+  column: string,
+  values: number[],
+): Promise<number> {
+  if (values.length === 0) return 0;
+
+  const { data, error } = await supabaseAdmin()
+    .from(tableName)
+    .delete()
+    .in(column, values)
+    .select("id");
+
+  if (error) {
+    if (isIgnorableSchemaError(error)) return 0;
+    throw new Error(`[${tableName}.${column}] ${errorMessageOf(error)}`);
+  }
+
+  return Array.isArray(data) ? data.length : 0;
+}
+
+async function selectIds(tableName: string, column: string, value: number): Promise<number[]> {
+  const { data, error } = await supabaseAdmin()
+    .from(tableName)
+    .select("id")
+    .eq(column, value);
+
+  if (error) {
+    if (isIgnorableSchemaError(error)) return [];
+    throw new Error(`[${tableName}.${column}] ${errorMessageOf(error)}`);
+  }
+
+  return (data ?? [])
+    .map((row) => {
+      const raw = row?.id;
+      if (typeof raw === "number") return raw;
+      if (typeof raw === "string") return Number(raw);
+      return NaN;
+    })
+    .filter((value) => Number.isFinite(value) && value > 0);
+}
+
+async function deleteMonitorCascade(monitorId: number) {
+  const snapshotIds = await selectIds("business_health_snapshots", "monitor_id", monitorId);
+
+  if (snapshotIds.length > 0) {
+    await deleteIn("business_snapshot_reasons", "snapshot_id", snapshotIds);
+    await deleteIn("business_snapshot_reasons", "business_health_snapshot_id", snapshotIds);
+    await deleteIn("snapshot_recommended_actions", "snapshot_id", snapshotIds);
+    await deleteIn(
+      "snapshot_recommended_actions",
+      "business_health_snapshot_id",
+      snapshotIds,
+    );
+  }
+
+  const taskIds = await selectIds("intervention_tasks", "monitor_id", monitorId);
+
+  if (taskIds.length > 0) {
+    await deleteIn("intervention_outcomes", "task_id", taskIds);
+    await deleteIn("intervention_outcomes", "intervention_task_id", taskIds);
+  }
+
+  await deleteEq("intervention_outcomes", "monitor_id", monitorId);
+  await deleteEq("intervention_tasks", "monitor_id", monitorId);
+  await deleteEq("snapshot_recommended_actions", "monitor_id", monitorId);
+  await deleteEq("business_snapshot_reasons", "monitor_id", monitorId);
+  await deleteEq("business_health_snapshots", "monitor_id", monitorId);
+
+  await deleteEq("external_intel_records", "monitor_id", monitorId);
+  await deleteEq("external_intel_signals", "monitor_id", monitorId);
+  await deleteEq("external_intel_snapshots", "monitor_id", monitorId);
+  await deleteEq("external_intel_events", "monitor_id", monitorId);
+
+  await deleteEq("external_intel_targets", "id", monitorId);
+}
+
 export async function createMonitorAction(formData: FormData) {
   const businessName = requireFormValue(formData, "businessName", "상호명");
   const categoryName = requireFormValue(formData, "categoryName", "업종");
@@ -256,8 +379,8 @@ export async function createMonitorAction(formData: FormData) {
     typeof data?.id === "number"
       ? data.id
       : typeof data?.id === "string"
-      ? Number(data.id)
-      : NaN;
+        ? Number(data.id)
+        : NaN;
 
   if (!Number.isFinite(monitorId) || monitorId <= 0) {
     throw new Error("모니터 등록 후 ID를 확인하지 못했습니다.");
@@ -288,5 +411,26 @@ export async function createMonitorAction(formData: FormData) {
 
   revalidatePath("/monitors");
   revalidatePath(`/monitors/${monitorId}`);
-  redirect(`/monitors/${monitorId}`);
+  revalidatePath("/signals");
+  revalidatePath("/rankings");
+
+  redirect("/monitors");
+}
+
+export async function deleteMonitorAction(formData: FormData) {
+  const rawMonitorId = readFormValue(formData, "monitorId");
+  const monitorId = Number(rawMonitorId);
+
+  if (!Number.isFinite(monitorId) || monitorId <= 0) {
+    throw new Error("삭제할 모니터 ID가 올바르지 않습니다.");
+  }
+
+  await deleteMonitorCascade(monitorId);
+
+  revalidatePath("/monitors");
+  revalidatePath(`/monitors/${monitorId}`);
+  revalidatePath("/signals");
+  revalidatePath("/rankings");
+
+  redirect("/monitors");
 }
