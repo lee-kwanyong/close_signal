@@ -513,7 +513,7 @@ export default async function RegionCategoryDetailPage({
               </h1>
 
               <p className="mt-2 text-sm leading-6 text-slate-500">
-                외부 폐업압력, 소상공인 흐름, 국세청/NTS 체력을 통합한 위험관리 화면입니다.
+                핵심 사유, DB 요약, 기준일은 이 상세 페이지에서 확인합니다.
               </p>
 
               <div className="mt-4 flex flex-wrap items-center gap-2">
@@ -624,7 +624,7 @@ export default async function RegionCategoryDetailPage({
         >
           <SectionTitle
             title="랭킹 기준 정보"
-            description="랭킹 페이지에서 보던 핵심 사유, DB 요약, 기준일을 이 화면에서 바로 확인합니다."
+            description="랭킹에서 제거한 기준일, 핵심 사유, DB 요약은 여기서 확인합니다."
           />
 
           <div className="grid grid-cols-1 gap-4 xl:grid-cols-[0.9fr_1.1fr_1.4fr]">
@@ -714,17 +714,13 @@ export default async function RegionCategoryDetailPage({
                       latest.kosis_pressure_grade,
                     )}`}
                   >
-                    {(latest.kosis_pressure_label || severityLabel(latest.kosis_pressure_grade))} · {formatScore(
-                      latest.kosis_pressure_score,
-                      0,
-                    )}
+                    {(latest.kosis_pressure_label || severityLabel(latest.kosis_pressure_grade))} ·{" "}
+                    {formatScore(latest.kosis_pressure_score, 0)}
                   </span>
                 </div>
                 <div className="text-sm text-slate-500">
-                  폐업자 {formatNumber(latest.kosis_closed_total)}명 · 전국비중 {formatPercent(
-                    latest.kosis_national_share_pct,
-                    2,
-                  )}
+                  폐업자 {formatNumber(latest.kosis_closed_total)}명 · 전국비중{" "}
+                  {formatPercent(latest.kosis_national_share_pct, 2)}
                 </div>
               </div>
 
@@ -819,10 +815,8 @@ export default async function RegionCategoryDetailPage({
                           row.kosis_pressure_grade,
                         )}`}
                       >
-                        {(row.kosis_pressure_label || severityLabel(row.kosis_pressure_grade))} · {formatScore(
-                          row.kosis_pressure_score,
-                          0,
-                        )}
+                        {(row.kosis_pressure_label || severityLabel(row.kosis_pressure_grade))} ·{" "}
+                        {formatScore(row.kosis_pressure_score, 0)}
                       </span>
                     </td>
                     <td className="whitespace-nowrap px-4 py-4">

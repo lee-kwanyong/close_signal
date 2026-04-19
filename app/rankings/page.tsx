@@ -394,7 +394,7 @@ export default async function RankingsPage({
                 통합 위험관리 랭킹
               </h1>
               <p className="mt-2 text-sm text-slate-500">
-                랭킹 페이지는 위험 점수 중심으로만 보여주고, 핵심 사유 / DB 요약 / 기준일은
+                랭킹 페이지는 점수 중심으로 간결하게 보여주고, 핵심 사유 / DB 요약 / 기준일은
                 상세 페이지에서 확인합니다.
               </p>
             </div>
@@ -483,29 +483,29 @@ export default async function RankingsPage({
         </section>
 
         <section className="overflow-hidden rounded-3xl border border-slate-200 bg-white shadow-sm">
-          <div className="overflow-x-auto pb-2">
-            <table className="min-w-[1260px] text-left">
+          <div className="overflow-x-auto">
+            <table className="w-full min-w-[1080px] table-fixed text-left">
               <colgroup>
-                <col style={{ width: "72px" }} />
-                <col style={{ width: "280px" }} />
-                <col style={{ width: "120px" }} />
-                <col style={{ width: "120px" }} />
-                <col style={{ width: "140px" }} />
-                <col style={{ width: "130px" }} />
-                <col style={{ width: "130px" }} />
-                <col style={{ width: "120px" }} />
+                <col style={{ width: "6%" }} />
+                <col style={{ width: "24%" }} />
+                <col style={{ width: "11%" }} />
+                <col style={{ width: "11%" }} />
+                <col style={{ width: "11%" }} />
+                <col style={{ width: "12%" }} />
+                <col style={{ width: "11%" }} />
+                <col style={{ width: "14%" }} />
               </colgroup>
 
               <thead className="border-b border-slate-200 bg-slate-50">
                 <tr className="text-sm text-slate-500">
-                  <th className="whitespace-nowrap px-5 py-4 font-medium">순위</th>
-                  <th className="whitespace-nowrap px-5 py-4 font-medium">지역 · 업종</th>
-                  <th className="whitespace-nowrap px-5 py-4 font-medium">통합위험</th>
-                  <th className="whitespace-nowrap px-5 py-4 font-medium">시장위험</th>
-                  <th className="whitespace-nowrap px-5 py-4 font-medium">소상공인위험</th>
-                  <th className="whitespace-nowrap px-5 py-4 font-medium">외부폐업압력</th>
-                  <th className="whitespace-nowrap px-5 py-4 font-medium">NTS위험</th>
-                  <th className="whitespace-nowrap px-5 py-4 text-right font-medium">관심</th>
+                  <th className="whitespace-nowrap px-4 py-4 font-medium">순위</th>
+                  <th className="whitespace-nowrap px-4 py-4 font-medium">지역 · 업종</th>
+                  <th className="whitespace-nowrap px-4 py-4 font-medium">통합위험</th>
+                  <th className="whitespace-nowrap px-4 py-4 font-medium">시장위험</th>
+                  <th className="whitespace-nowrap px-4 py-4 font-medium">소상공인위험</th>
+                  <th className="whitespace-nowrap px-4 py-4 font-medium">외부폐업압력</th>
+                  <th className="whitespace-nowrap px-4 py-4 font-medium">NTS위험</th>
+                  <th className="whitespace-nowrap px-4 py-4 text-right font-medium">관심</th>
                 </tr>
               </thead>
 
@@ -514,7 +514,7 @@ export default async function RankingsPage({
                   <tr>
                     <td
                       colSpan={8}
-                      className="px-5 py-16 text-center text-sm text-slate-500"
+                      className="px-4 py-16 text-center text-sm text-slate-500"
                     >
                       표시할 통합 랭킹 데이터가 없습니다.
                     </td>
@@ -541,23 +541,24 @@ export default async function RankingsPage({
                         key={`${row.region_code}-${row.category_id}-${row.snapshot_date}-${rank}`}
                         className="border-b border-slate-100 align-top last:border-b-0"
                       >
-                        <td className="whitespace-nowrap px-5 py-5">
+                        <td className="whitespace-nowrap px-4 py-4">
                           <div className="text-base font-semibold text-slate-950">{rank}</div>
                         </td>
 
-                        <td className="px-5 py-5">
-                          <div className="flex min-w-[240px] flex-col gap-2">
+                        <td className="px-4 py-4">
+                          <div className="min-w-0">
                             <Link
                               href={detailHref}
-                              className="text-base font-semibold tracking-tight text-slate-950 transition hover:text-sky-700"
+                              className="block truncate text-[15px] font-semibold tracking-tight text-slate-950 transition hover:text-sky-700"
+                              title={`${row.region_name ?? row.region_code} · ${row.category_name ?? row.category_id}`}
                             >
                               {row.region_name ?? row.region_code} · {row.category_name ?? row.category_id}
                             </Link>
 
-                            <div className="flex flex-wrap gap-2">
+                            <div className="mt-2 flex flex-wrap gap-3 text-sm">
                               <Link
                                 href={detailHref}
-                                className="text-sm font-medium text-sky-700 transition hover:text-sky-800"
+                                className="font-medium text-sky-700 transition hover:text-sky-800"
                               >
                                 상세 보기
                               </Link>
@@ -565,7 +566,7 @@ export default async function RankingsPage({
                                 href={`/signals?regionCode=${encodeURIComponent(
                                   row.region_code,
                                 )}&categoryId=${row.category_id}`}
-                                className="text-sm font-medium text-sky-700 transition hover:text-sky-800"
+                                className="font-medium text-sky-700 transition hover:text-sky-800"
                               >
                                 관련 시그널
                               </Link>
@@ -573,20 +574,19 @@ export default async function RankingsPage({
                           </div>
                         </td>
 
-                        <td className="whitespace-nowrap px-5 py-5">
+                        <td className="whitespace-nowrap px-4 py-4">
                           <span
-                            className={`inline-flex w-fit items-center rounded-full border px-3 py-1 text-sm font-medium ${scoreTone(
+                            className={`inline-flex h-9 items-center rounded-full border px-3 text-sm font-medium ${scoreTone(
                               row.integrated_final_score,
                             )}`}
                           >
-                            {severityLabel(row.integrated_severity)} ·{" "}
-                            {formatScore(row.integrated_final_score, 0)}
+                            {severityLabel(row.integrated_severity)} · {formatScore(row.integrated_final_score, 0)}
                           </span>
                         </td>
 
-                        <td className="whitespace-nowrap px-5 py-5">
+                        <td className="whitespace-nowrap px-4 py-4">
                           <span
-                            className={`inline-flex w-fit items-center rounded-full border px-3 py-1 text-sm font-medium ${scoreTone(
+                            className={`inline-flex h-9 items-center rounded-full border px-3 text-sm font-medium ${scoreTone(
                               row.integrated_market_score,
                             )}`}
                           >
@@ -594,9 +594,9 @@ export default async function RankingsPage({
                           </span>
                         </td>
 
-                        <td className="whitespace-nowrap px-5 py-5">
+                        <td className="whitespace-nowrap px-4 py-4">
                           <span
-                            className={`inline-flex w-fit items-center rounded-full border px-3 py-1 text-sm font-medium ${scoreTone(
+                            className={`inline-flex h-9 items-center rounded-full border px-3 text-sm font-medium ${scoreTone(
                               row.smallbiz_risk_score,
                             )}`}
                           >
@@ -604,34 +604,30 @@ export default async function RankingsPage({
                           </span>
                         </td>
 
-                        <td className="px-5 py-5">
-                          <div className="flex min-w-[110px] flex-col gap-2">
-                            <span
-                              className={`inline-flex w-fit items-center rounded-full border px-3 py-1 text-sm font-medium ${pressureTone(
-                                row.kosis_pressure_grade,
-                              )}`}
-                            >
-                              {(row.kosis_pressure_label ||
-                                severityLabel(row.kosis_pressure_grade))}{" "}
-                              · {formatScore(row.kosis_pressure_score, 0)}
-                            </span>
-                          </div>
+                        <td className="whitespace-nowrap px-4 py-4">
+                          <span
+                            className={`inline-flex h-9 items-center rounded-full border px-3 text-sm font-medium ${pressureTone(
+                              row.kosis_pressure_grade,
+                            )}`}
+                          >
+                            {(row.kosis_pressure_label || severityLabel(row.kosis_pressure_grade))} · {formatScore(
+                              row.kosis_pressure_score,
+                              0,
+                            )}
+                          </span>
                         </td>
 
-                        <td className="px-5 py-5">
-                          <div className="flex min-w-[110px] flex-col gap-2">
-                            <span
-                              className={`inline-flex w-fit items-center rounded-full border px-3 py-1 text-sm font-medium ${ntsTone(
-                                row.nts_business_score,
-                              )}`}
-                            >
-                              {(row.nts_label || "없음")} ·{" "}
-                              {formatScore(row.nts_business_score, 0)}
-                            </span>
-                          </div>
+                        <td className="whitespace-nowrap px-4 py-4">
+                          <span
+                            className={`inline-flex h-9 items-center rounded-full border px-3 text-sm font-medium ${ntsTone(
+                              row.nts_business_score,
+                            )}`}
+                          >
+                            {(row.nts_label || "없음")} · {formatScore(row.nts_business_score, 0)}
+                          </span>
                         </td>
 
-                        <td className="whitespace-nowrap px-5 py-5">
+                        <td className="whitespace-nowrap px-4 py-4">
                           <div className="flex justify-end">
                             {userId ? (
                               <form action={mutateWatchlistAction}>
@@ -658,19 +654,19 @@ export default async function RankingsPage({
                                 <button
                                   type="submit"
                                   className={[
-                                    "inline-flex h-10 min-w-[72px] whitespace-nowrap items-center justify-center rounded-xl px-4 text-sm font-medium transition",
+                                    "inline-flex h-10 min-w-[92px] items-center justify-center rounded-xl px-4 text-sm font-medium transition",
                                     isWatching
                                       ? "border border-sky-200 bg-sky-50 text-sky-700 hover:bg-sky-100"
                                       : "bg-sky-600 text-white shadow-sm hover:bg-sky-700",
                                   ].join(" ")}
                                 >
-                                  {isWatching ? "저장됨" : "추가"}
+                                  {isWatching ? "저장됨" : "모니터링추가"}
                                 </button>
                               </form>
                             ) : (
                               <Link
                                 href={`/auth/login?next=${encodeURIComponent(`/rankings${next}`)}`}
-                                className="inline-flex h-10 min-w-[72px] items-center justify-center rounded-xl bg-sky-600 px-4 text-sm font-medium text-white shadow-sm transition hover:bg-sky-700"
+                                className="inline-flex h-10 min-w-[92px] items-center justify-center rounded-xl bg-sky-600 px-4 text-sm font-medium text-white shadow-sm transition hover:bg-sky-700"
                               >
                                 모니터링추가
                               </Link>
