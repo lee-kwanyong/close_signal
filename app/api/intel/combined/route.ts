@@ -1,7 +1,9 @@
 import { NextResponse } from "next/server";
 import { createSupabaseAdmin } from "@/lib/close-signal/supabase-admin";
+import { buildCombinedIntelResult } from "@/lib/close-signal/intel-kosis";
 
 export const dynamic = "force-dynamic";
+export const runtime = "nodejs";
 
 type IntegratedBaselineRow = {
   snapshot_date: string | null;
@@ -46,6 +48,35 @@ type SignalRow = {
   message?: string | null;
   risk_score?: number | null;
 };
+
+type CombinedPostBody = {
+  groupName?: unknown;
+  query?: unknown;
+  businessName?: unknown;
+  regionName?: unknown;
+  categoryName?: unknown;
+  address?: unknown;
+  keywords?: unknown;
+};
+
+function asArray<T = unknown>(value: unknown): T[] {
+  return Array.isArray(value) ? (value as T[]) : [];
+}
+
+function text(...values: unknown[]) {
+  for (const value of values) {
+    if (typeof value === "string") {
+      const trimmed = value.trim();
+      if (trimmed) return trimmed;
+    }
+
+    if (typeof value === "number" && Number.isFinite(value)) {
+      return String(value);
+    }
+  }
+
+  return null;
+}
 
 function num(value: number | null | undefined, fallback = 0) {
   return value === null || value === undefined || Number.isNaN(value)
@@ -295,6 +326,70 @@ export async function GET(request: Request) {
       {
         ok: false,
         error: error instanceof Error ? error.message : "Unknown error",
+      },
+      { status: 500 },
+    );
+  }
+}
+
+export async function POST(request: Request) {
+  try {
+    const body = ((await request.json().catch(() => ({}))) ?? {}) as CombinedPostBody;
+
+    const query = text(body.query);
+    const businessName = text(body.businessName);
+    const regionName = text(body.regionName);
+    const categoryName = text(body.categoryName);
+    const address = text(body.address);
+    const groupName =
+      text(body.groupName, businessName, categoryName, query) || "monitor";
+
+    const keywords = Array.from(
+      new Set(
+        [
+          ...asArray(body.keywords),
+          query,
+          businessName,
+          categoryName,
+          [regionName, categoryName].filter(Boolean).join(" "),
+        ]
+          .map((value) => text(value))
+          .filter((value): value is string => Boolean(value)),
+      ),
+    );
+
+    if (!query && !businessName && !regionName && !categoryName && !address) {
+      return NextResponse.json(
+        {
+          ok: false,
+          error: "query, businessName, regionName, categoryName, address 중 하나는 필요합니다.",
+        },
+        { status: 400 },
+      );
+    }
+
+    const result = await buildCombinedIntelResult({
+      groupName,
+      query,
+      businessName,
+      regionName,
+      categoryName,
+      address,
+      keywords,
+    });
+
+    return NextResponse.json({
+      ok: true,
+      result,
+    });
+  } catch (error) {
+    return NextResponse.json(
+      {
+        ok: false,
+        error:
+          error instanceof Error
+            ? error.message
+            : "combined 처리 중 오류가 발생했습니다.",
       },
       { status: 500 },
     );
