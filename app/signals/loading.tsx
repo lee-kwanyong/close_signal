@@ -1,141 +1,127 @@
-function PulseBlock({
-  className = "",
-}: {
-  className?: string;
-}) {
-  return <div className={`animate-pulse rounded-2xl bg-slate-200/80 ${className}`} />;
-}
-
-function HeroSkeleton() {
+export default function SignalsLoadingPage() {
   return (
-    <section className="overflow-hidden rounded-[34px] border border-slate-200 bg-white shadow-[0_18px_54px_rgba(15,23,42,0.06)]">
-      <div className="bg-[linear-gradient(135deg,#eef5ff_0%,#f8fbff_46%,#ffffff_100%)] px-6 py-6 sm:px-8">
-        <div className="grid grid-cols-1 gap-8 xl:grid-cols-[1.1fr_0.9fr]">
-          <div className="min-w-0">
-            <PulseBlock className="h-8 w-36 rounded-full" />
-            <PulseBlock className="mt-5 h-12 w-full max-w-[420px]" />
-            <PulseBlock className="mt-3 h-12 w-full max-w-[360px]" />
+    <main className="min-h-screen bg-sky-50 text-slate-900">
+      <section className="mx-auto max-w-7xl px-3 py-4 sm:px-4 sm:py-5">
+        <div className="space-y-4 animate-pulse">
+          <section className="rounded-[24px] border border-sky-100 bg-sky-50 p-4 shadow-[0_10px_26px_rgba(14,165,233,0.08)] sm:p-5">
+            <div className="flex flex-col gap-3 xl:flex-row xl:items-end xl:justify-between">
+              <div className="min-w-0 flex-1">
+                <div className="h-3 w-36 rounded-full bg-slate-200" />
+                <div className="mt-3 h-8 w-64 rounded-full bg-slate-200" />
+                <div className="mt-2 h-4 w-full max-w-xl rounded-full bg-slate-200" />
+              </div>
 
-            <div className="mt-5 space-y-3">
-              <PulseBlock className="h-4 w-full max-w-[700px]" />
-              <PulseBlock className="h-4 w-full max-w-[640px]" />
-              <PulseBlock className="h-4 w-full max-w-[520px]" />
+              <div className="flex gap-2">
+                <div className="h-9 w-24 rounded-xl bg-slate-200" />
+                <div className="h-9 w-24 rounded-xl bg-slate-200" />
+              </div>
             </div>
-          </div>
 
-          <div className="rounded-[30px] border border-slate-200 bg-white p-6 shadow-[0_14px_36px_rgba(15,23,42,0.05)]">
-            <PulseBlock className="h-4 w-32" />
-            <div className="mt-5 grid grid-cols-2 gap-3">
-              <PulseBlock className="h-28 w-full" />
-              <PulseBlock className="h-28 w-full" />
-              <PulseBlock className="h-28 w-full" />
-              <PulseBlock className="h-28 w-full" />
+            <div className="mt-4 grid gap-2 sm:grid-cols-2 xl:grid-cols-4">
+              {Array.from({ length: 4 }).map((_, index) => (
+                <div
+                  key={`metric-skeleton-${index}`}
+                  className="rounded-2xl border border-slate-200 bg-white p-3"
+                >
+                  <div className="h-3 w-24 rounded-full bg-slate-200" />
+                  <div className="mt-2 h-6 w-20 rounded-full bg-slate-200" />
+                  <div className="mt-2 h-3 w-full rounded-full bg-slate-200" />
+                </div>
+              ))}
             </div>
-            <PulseBlock className="mt-4 h-24 w-full" />
+          </section>
+
+          <section className="rounded-[22px] border border-sky-100 bg-sky-50 p-3.5 shadow-[0_10px_24px_rgba(14,165,233,0.08)] sm:p-4">
+            <div className="h-10 w-full rounded-xl bg-white" />
+            <div className="mt-2 flex flex-wrap gap-2">
+              {Array.from({ length: 5 }).map((_, index) => (
+                <div key={`chip-1-${index}`} className="h-9 w-24 rounded-full bg-white" />
+              ))}
+            </div>
+            <div className="mt-2 flex flex-wrap gap-2">
+              {Array.from({ length: 3 }).map((_, index) => (
+                <div key={`chip-2-${index}`} className="h-9 w-20 rounded-full bg-white" />
+              ))}
+            </div>
+          </section>
+
+          <div className="grid gap-4 xl:grid-cols-[minmax(0,1fr)_280px]">
+            <section className="rounded-[24px] border border-sky-100 bg-sky-50 p-3.5 shadow-[0_10px_24px_rgba(14,165,233,0.08)] sm:p-4">
+              <div className="mb-3 flex items-center justify-between gap-3">
+                <div>
+                  <div className="h-3 w-24 rounded-full bg-slate-200" />
+                  <div className="mt-2 h-6 w-40 rounded-full bg-slate-200" />
+                </div>
+                <div className="h-3 w-40 rounded-full bg-slate-200" />
+              </div>
+
+              <div className="space-y-2.5">
+                {Array.from({ length: 5 }).map((_, index) => (
+                  <div
+                    key={`row-skeleton-${index}`}
+                    className="rounded-[18px] border border-sky-100 bg-white p-3"
+                  >
+                    <div className="flex flex-col gap-3 xl:flex-row xl:items-start xl:justify-between">
+                      <div className="min-w-0 flex-1">
+                        <div className="flex flex-wrap gap-1.5">
+                          <div className="h-5 w-20 rounded-full bg-slate-200" />
+                          <div className="h-5 w-24 rounded-full bg-slate-200" />
+                          <div className="h-5 w-24 rounded-full bg-slate-200" />
+                          <div className="h-5 w-20 rounded-full bg-slate-200" />
+                        </div>
+
+                        <div className="mt-2 h-6 w-72 rounded-full bg-slate-200" />
+                        <div className="mt-2 grid gap-2 sm:grid-cols-2 xl:grid-cols-4">
+                          {Array.from({ length: 4 }).map((__, metricIndex) => (
+                            <div
+                              key={`metric-box-${index}-${metricIndex}`}
+                              className="rounded-xl border border-sky-100 bg-sky-50 px-2.5 py-2"
+                            >
+                              <div className="h-3 w-16 rounded-full bg-slate-200" />
+                              <div className="mt-2 h-4 w-20 rounded-full bg-slate-200" />
+                            </div>
+                          ))}
+                        </div>
+
+                        <div className="mt-2 h-10 rounded-xl bg-slate-100" />
+                      </div>
+
+                      <div className="grid grid-cols-2 gap-2 xl:w-[220px] xl:grid-cols-1">
+                        <div className="h-9 rounded-xl bg-slate-200" />
+                        <div className="h-9 rounded-xl bg-slate-200" />
+                        <div className="h-9 rounded-xl bg-slate-200" />
+                        <div className="h-9 rounded-xl bg-slate-200" />
+                      </div>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </section>
+
+            <aside className="space-y-4">
+              <div className="rounded-[24px] border border-sky-100 bg-sky-50 p-4 shadow-[0_10px_24px_rgba(14,165,233,0.08)]">
+                <div className="h-3 w-24 rounded-full bg-slate-200" />
+                <div className="mt-2 h-6 w-28 rounded-full bg-slate-200" />
+                <div className="mt-3 space-y-2">
+                  <div className="h-14 rounded-xl bg-white" />
+                  <div className="h-14 rounded-xl bg-white" />
+                  <div className="h-14 rounded-xl bg-white" />
+                </div>
+              </div>
+
+              <div className="rounded-[24px] border border-sky-100 bg-sky-50 p-4 shadow-[0_10px_24px_rgba(14,165,233,0.08)]">
+                <div className="h-3 w-20 rounded-full bg-slate-200" />
+                <div className="mt-2 h-6 w-24 rounded-full bg-slate-200" />
+                <div className="mt-3 space-y-2">
+                  {Array.from({ length: 6 }).map((_, index) => (
+                    <div key={`spotlight-${index}`} className="h-14 rounded-xl bg-white" />
+                  ))}
+                </div>
+              </div>
+            </aside>
           </div>
         </div>
-      </div>
-    </section>
-  );
-}
-
-function FilterSkeleton() {
-  return (
-    <section className="rounded-[32px] border border-slate-200 bg-white p-6 shadow-[0_14px_38px_rgba(15,23,42,0.05)] sm:p-7">
-      <PulseBlock className="h-4 w-24" />
-      <PulseBlock className="mt-3 h-8 w-56" />
-      <PulseBlock className="mt-3 h-4 w-full max-w-[620px]" />
-
-      <div className="mt-5 grid grid-cols-1 gap-3 lg:grid-cols-[1fr_auto]">
-        <PulseBlock className="h-12 w-full" />
-        <PulseBlock className="h-12 w-36" />
-      </div>
-
-      <div className="mt-4 flex flex-wrap gap-2">
-        <PulseBlock className="h-11 w-20 rounded-2xl" />
-        <PulseBlock className="h-11 w-24 rounded-2xl" />
-        <PulseBlock className="h-11 w-24 rounded-2xl" />
-        <PulseBlock className="h-11 w-20 rounded-2xl" />
-      </div>
-    </section>
-  );
-}
-
-function StatBoxSkeleton() {
-  return (
-    <div className="rounded-[18px] border border-slate-200 bg-white px-3 py-3">
-      <PulseBlock className="h-3 w-14" />
-      <PulseBlock className="mt-2 h-5 w-24" />
-    </div>
-  );
-}
-
-function SignalCardSkeleton() {
-  return (
-    <article className="overflow-hidden rounded-[32px] border border-slate-200 bg-white shadow-[0_16px_40px_rgba(15,23,42,0.05)]">
-      <div className="border-b border-slate-200 bg-[linear-gradient(180deg,#fcfdff_0%,#f7fbff_100%)] px-6 py-4">
-        <div className="flex flex-wrap items-center gap-2">
-          <PulseBlock className="h-7 w-14 rounded-full" />
-          <PulseBlock className="h-7 w-20 rounded-full" />
-          <PulseBlock className="h-7 w-20 rounded-full" />
-          <PulseBlock className="h-7 w-20 rounded-full" />
-        </div>
-      </div>
-
-      <div className="grid items-start gap-6 px-6 py-6 xl:grid-cols-[minmax(0,1.18fr)_minmax(0,0.92fr)_160px]">
-        <div className="min-w-0">
-          <PulseBlock className="h-5 w-40" />
-          <PulseBlock className="mt-4 h-10 w-full max-w-[460px]" />
-
-          <div className="mt-4 space-y-2">
-            <PulseBlock className="h-4 w-full" />
-            <PulseBlock className="h-4 w-full" />
-            <PulseBlock className="h-4 w-4/5" />
-          </div>
-
-          <div className="mt-4 flex flex-wrap gap-2">
-            <PulseBlock className="h-7 w-28 rounded-full" />
-            <PulseBlock className="h-7 w-24 rounded-full" />
-            <PulseBlock className="h-7 w-20 rounded-full" />
-          </div>
-
-          <PulseBlock className="mt-5 h-28 w-full" />
-        </div>
-
-        <div className="grid gap-3">
-          <div className="grid grid-cols-2 gap-2">
-            <StatBoxSkeleton />
-            <StatBoxSkeleton />
-            <StatBoxSkeleton />
-            <StatBoxSkeleton />
-          </div>
-          <PulseBlock className="h-28 w-full" />
-        </div>
-
-        <div className="flex flex-col gap-2">
-          <PulseBlock className="h-32 w-full" />
-          <PulseBlock className="h-10 w-full" />
-          <PulseBlock className="h-10 w-full" />
-          <PulseBlock className="h-10 w-full" />
-        </div>
-      </div>
-    </article>
-  );
-}
-
-export default function SignalsLoading() {
-  return (
-    <main className="mx-auto max-w-7xl px-4 pb-14 pt-6 sm:px-6" aria-busy="true" aria-live="polite">
-      <div className="space-y-6">
-        <HeroSkeleton />
-        <FilterSkeleton />
-
-        <section className="space-y-4">
-          <SignalCardSkeleton />
-          <SignalCardSkeleton />
-          <SignalCardSkeleton />
-        </section>
-      </div>
+      </section>
     </main>
   );
 }
