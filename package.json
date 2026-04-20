@@ -10,15 +10,22 @@
     "collect:source": "tsx workers/run-source.ts",
     "collect:all": "tsx workers/run-all-sources.ts",
     "collect:store": "tsx collector/close-signal-collector.ts",
+
     "collect:population": "tsx collector/population-region-collector.ts",
     "collect:household": "tsx collector/household-region-collector.ts",
     "collect:living-population": "tsx collector/living-population-region-collector.ts",
     "collect:demographics": "tsx collector/run-demographic-collectors.ts",
+
     "collect:competition": "tsx collector/competition-region-category-collector.ts",
     "collect:spending": "tsx collector/spending-region-category-collector.ts",
     "collect:rent": "tsx collector/rent-region-collector.ts",
     "collect:search-trend": "tsx collector/search-trend-region-category-collector.ts",
-    "collect:market": "tsx collector/run-market-snapshot-collectors.ts"
+    "collect:market": "tsx collector/run-market-snapshot-collectors.ts",
+
+    "collect:review": "tsx collector/review-region-category-collector.ts",
+    "collect:accessibility": "tsx collector/accessibility-region-collector.ts",
+    "collect:tourism": "tsx collector/tourism-region-collector.ts",
+    "collect:quality": "tsx collector/run-quality-snapshot-collectors.ts"
   },
   "dependencies": {
     "@supabase/ssr": "^0.5.2",

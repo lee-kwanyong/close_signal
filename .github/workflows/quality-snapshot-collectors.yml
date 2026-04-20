@@ -1,0 +1,93 @@
+name: quality-snapshot-collectors
+
+on:
+  workflow_dispatch:
+    inputs:
+      collector_keys:
+        description: "review,accessibility,tourism 중 선택. 비우면 전체 실행"
+        required: false
+        default: ""
+  schedule:
+    - cron: "10 4 * * *"
+
+jobs:
+  collect-quality-snapshots:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run quality collectors
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+
+          COLLECTOR_KEYS: ${{ github.event.inputs.collector_keys }}
+
+          REVIEW_SOURCE_KEY: review_region_category_daily
+          REVIEW_SOURCE_DATA_URL: ${{ secrets.REVIEW_SOURCE_DATA_URL }}
+          REVIEW_REQUEST_TIMEOUT_MS: "60000"
+          REVIEW_BATCH_SIZE: "500"
+          REVIEW_PAGE_SIZE: "500"
+          REVIEW_MAX_PAGES: "200"
+          REVIEW_ENABLE_PAGINATION: "true"
+          REVIEW_PAGE_PARAM: ${{ secrets.REVIEW_PAGE_PARAM }}
+          REVIEW_SIZE_PARAM: ${{ secrets.REVIEW_SIZE_PARAM }}
+          REVIEW_RESULT_PATH: ${{ secrets.REVIEW_RESULT_PATH }}
+          REVIEW_TOTAL_COUNT_PATH: ${{ secrets.REVIEW_TOTAL_COUNT_PATH }}
+          REVIEW_DATE_PARAM: ${{ secrets.REVIEW_DATE_PARAM }}
+          REVIEW_DATE_VALUE: ${{ secrets.REVIEW_DATE_VALUE }}
+          REVIEW_AUTH_HEADER: ${{ secrets.REVIEW_AUTH_HEADER }}
+          REVIEW_AUTH_SCHEME: ${{ secrets.REVIEW_AUTH_SCHEME }}
+          REVIEW_AUTH_TOKEN: ${{ secrets.REVIEW_AUTH_TOKEN }}
+          REVIEW_REGION_LEVEL: ${{ secrets.REVIEW_REGION_LEVEL }}
+          REVIEW_EXTRA_QUERY_JSON: ${{ secrets.REVIEW_EXTRA_QUERY_JSON }}
+
+          ACCESSIBILITY_SOURCE_KEY: accessibility_region_daily
+          ACCESSIBILITY_SOURCE_DATA_URL: ${{ secrets.ACCESSIBILITY_SOURCE_DATA_URL }}
+          ACCESSIBILITY_REQUEST_TIMEOUT_MS: "60000"
+          ACCESSIBILITY_BATCH_SIZE: "500"
+          ACCESSIBILITY_PAGE_SIZE: "500"
+          ACCESSIBILITY_MAX_PAGES: "200"
+          ACCESSIBILITY_ENABLE_PAGINATION: "true"
+          ACCESSIBILITY_PAGE_PARAM: ${{ secrets.ACCESSIBILITY_PAGE_PARAM }}
+          ACCESSIBILITY_SIZE_PARAM: ${{ secrets.ACCESSIBILITY_SIZE_PARAM }}
+          ACCESSIBILITY_RESULT_PATH: ${{ secrets.ACCESSIBILITY_RESULT_PATH }}
+          ACCESSIBILITY_TOTAL_COUNT_PATH: ${{ secrets.ACCESSIBILITY_TOTAL_COUNT_PATH }}
+          ACCESSIBILITY_DATE_PARAM: ${{ secrets.ACCESSIBILITY_DATE_PARAM }}
+          ACCESSIBILITY_DATE_VALUE: ${{ secrets.ACCESSIBILITY_DATE_VALUE }}
+          ACCESSIBILITY_AUTH_HEADER: ${{ secrets.ACCESSIBILITY_AUTH_HEADER }}
+          ACCESSIBILITY_AUTH_SCHEME: ${{ secrets.ACCESSIBILITY_AUTH_SCHEME }}
+          ACCESSIBILITY_AUTH_TOKEN: ${{ secrets.ACCESSIBILITY_AUTH_TOKEN }}
+          ACCESSIBILITY_REGION_LEVEL: ${{ secrets.ACCESSIBILITY_REGION_LEVEL }}
+          ACCESSIBILITY_EXTRA_QUERY_JSON: ${{ secrets.ACCESSIBILITY_EXTRA_QUERY_JSON }}
+
+          TOURISM_SOURCE_KEY: tourism_region_daily
+          TOURISM_SOURCE_DATA_URL: ${{ secrets.TOURISM_SOURCE_DATA_URL }}
+          TOURISM_REQUEST_TIMEOUT_MS: "60000"
+          TOURISM_BATCH_SIZE: "500"
+          TOURISM_PAGE_SIZE: "500"
+          TOURISM_MAX_PAGES: "200"
+          TOURISM_ENABLE_PAGINATION: "true"
+          TOURISM_PAGE_PARAM: ${{ secrets.TOURISM_PAGE_PARAM }}
+          TOURISM_SIZE_PARAM: ${{ secrets.TOURISM_SIZE_PARAM }}
+          TOURISM_RESULT_PATH: ${{ secrets.TOURISM_RESULT_PATH }}
+          TOURISM_TOTAL_COUNT_PATH: ${{ secrets.TOURISM_TOTAL_COUNT_PATH }}
+          TOURISM_DATE_PARAM: ${{ secrets.TOURISM_DATE_PARAM }}
+          TOURISM_DATE_VALUE: ${{ secrets.TOURISM_DATE_VALUE }}
+          TOURISM_AUTH_HEADER: ${{ secrets.TOURISM_AUTH_HEADER }}
+          TOURISM_AUTH_SCHEME: ${{ secrets.TOURISM_AUTH_SCHEME }}
+          TOURISM_AUTH_TOKEN: ${{ secrets.TOURISM_AUTH_TOKEN }}
+          TOURISM_REGION_LEVEL: ${{ secrets.TOURISM_REGION_LEVEL }}
+          TOURISM_EXTRA_QUERY_JSON: ${{ secrets.TOURISM_EXTRA_QUERY_JSON }}
+
+        run: npm run collect:quality
