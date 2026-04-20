@@ -169,296 +169,296 @@ export default async function HQRegionsPage({
   });
 
   return (
-    <main className="min-h-screen">
-      <div className="mx-auto flex w-full max-w-7xl flex-col gap-6 px-4 py-8 sm:px-6 lg:px-8">
-        <section className="rounded-[28px] border border-slate-200 bg-white p-6 shadow-sm">
-          <div className="flex flex-col gap-6 lg:flex-row lg:items-end lg:justify-between">
-            <div>
-              <div className="text-sm font-semibold uppercase tracking-[0.18em] text-sky-700">
-                HQ REGION GROWTH
-              </div>
-              <h1 className="mt-2 text-3xl font-semibold tracking-tight text-slate-950">
-                {direction === "decline" ? "감소 지역 레이더" : "성장 지역 레이더"}
-              </h1>
-              <p className="mt-2 text-sm leading-6 text-slate-500">
-                어느 지역에 차리면 좋을지, 어느 지역은 보수적으로 접근해야 하는지
-                인구 변화와 상권열기 기준으로 봅니다.
-              </p>
+    <main className="page-shell py-8">
+      <section className="overflow-hidden rounded-[32px] border border-sky-100 bg-white shadow-[0_24px_80px_rgba(56,189,248,0.08)]">
+        <div className="flex flex-col gap-6 px-6 py-7 sm:px-8 sm:py-8 lg:flex-row lg:items-end lg:justify-between lg:px-10 lg:py-10">
+          <div>
+            <div className="inline-flex items-center rounded-full border border-sky-200 bg-sky-50 px-3 py-1 text-[11px] font-semibold uppercase tracking-[0.22em] text-sky-700">
+              HQ Region Intelligence
             </div>
-
-            <div className="flex flex-wrap gap-2">
-              <Link
-                href="/hq"
-                className="inline-flex h-11 items-center justify-center rounded-xl border border-slate-300 bg-white px-4 text-sm font-semibold text-slate-700 transition hover:bg-slate-50"
-              >
-                HQ 대시보드
-              </Link>
-              <Link
-                href={buildHref("/hq/regions", {
-                  brandId: selectedBrandId ?? undefined,
-                  categoryId: selectedCategoryId ?? undefined,
-                  direction: direction === "growth" ? "decline" : "growth",
-                })}
-                className="inline-flex h-11 items-center justify-center rounded-xl bg-slate-950 px-4 text-sm font-semibold text-white transition hover:bg-slate-800"
-              >
-                {direction === "growth" ? "감소 지역 보기" : "성장 지역 보기"}
-              </Link>
-            </div>
-          </div>
-        </section>
-
-        <section className="grid grid-cols-1 gap-4 md:grid-cols-3">
-          <div className="rounded-3xl border border-slate-200 bg-white p-5 shadow-sm">
-            <div className="text-xs font-semibold uppercase tracking-[0.16em] text-slate-500">
-              현재 페이지 지역 수
-            </div>
-            <div className="mt-3 text-3xl font-semibold tracking-tight text-slate-950">
-              {formatNumber(rows.length)}
-            </div>
+            <h1 className="mt-4 text-3xl font-semibold tracking-tight text-slate-950 sm:text-4xl">
+              {direction === "decline" ? "감소 지역을 먼저 피하고" : "성장 지역을 먼저 선점하고"}
+              <br />
+              상권 열기를 지역 단위로 읽습니다
+            </h1>
+            <p className="mt-4 max-w-3xl text-sm leading-7 text-slate-600 sm:text-base">
+              인구 증가, 생활인구 변화, 경쟁 증가, 포화지수, 관광수요를 같이 보면서
+              어느 지역을 확장해야 하고 어느 지역은 보수적으로 접근해야 하는지 판단합니다.
+            </p>
           </div>
 
-          <div className="rounded-3xl border border-sky-200 bg-sky-50 p-5 shadow-sm">
-            <div className="text-xs font-semibold uppercase tracking-[0.16em] text-sky-700">
-              평균 출점 적합도
-            </div>
-            <div className="mt-3 text-3xl font-semibold tracking-tight text-sky-700">
-              {formatScore(avgOpeningFit)}
-            </div>
+          <div className="flex flex-wrap gap-2">
+            <Link
+              href="/hq"
+              className="inline-flex h-11 items-center justify-center rounded-xl border border-sky-200 bg-sky-50 px-4 text-sm font-semibold text-sky-700 transition hover:bg-sky-100"
+            >
+              HQ 대시보드
+            </Link>
+            <Link
+              href={buildHref("/hq/regions", {
+                brandId: selectedBrandId ?? undefined,
+                categoryId: selectedCategoryId ?? undefined,
+                direction: direction === "growth" ? "decline" : "growth",
+              })}
+              className="inline-flex h-11 items-center justify-center rounded-xl bg-sky-500 px-4 text-sm font-semibold text-white transition hover:bg-sky-600"
+            >
+              {direction === "growth" ? "감소 지역 보기" : "성장 지역 보기"}
+            </Link>
           </div>
+        </div>
+      </section>
 
+      <section className="mt-6 grid grid-cols-1 gap-4 md:grid-cols-3">
+        <div className="rounded-3xl border border-slate-200 bg-white p-5 shadow-sm">
+          <div className="text-xs font-semibold uppercase tracking-[0.16em] text-slate-500">
+            현재 페이지 지역 수
+          </div>
+          <div className="mt-3 text-3xl font-semibold tracking-tight text-slate-950">
+            {formatNumber(rows.length)}
+          </div>
+        </div>
+
+        <div className="rounded-3xl border border-sky-200 bg-sky-50 p-5 shadow-sm">
+          <div className="text-xs font-semibold uppercase tracking-[0.16em] text-sky-700">
+            평균 출점 적합도
+          </div>
+          <div className="mt-3 text-3xl font-semibold tracking-tight text-sky-700">
+            {formatScore(avgOpeningFit)}
+          </div>
+        </div>
+
+        <div
+          className={`rounded-3xl p-5 shadow-sm ${
+            direction === "growth"
+              ? "border border-emerald-200 bg-emerald-50"
+              : "border border-orange-200 bg-orange-50"
+          }`}
+        >
           <div
-            className={`rounded-3xl p-5 shadow-sm ${
-              direction === "growth"
-                ? "border border-emerald-200 bg-emerald-50"
-                : "border border-orange-200 bg-orange-50"
+            className={`text-xs font-semibold uppercase tracking-[0.16em] ${
+              direction === "growth" ? "text-emerald-700" : "text-orange-700"
             }`}
           >
-            <div
-              className={`text-xs font-semibold uppercase tracking-[0.16em] ${
-                direction === "growth" ? "text-emerald-700" : "text-orange-700"
-              }`}
-            >
-              {direction === "growth" ? "증가 지역 수" : "감소 지역 수"}
-            </div>
-            <div
-              className={`mt-3 text-3xl font-semibold tracking-tight ${
-                direction === "growth" ? "text-emerald-700" : "text-orange-700"
-              }`}
-            >
-              {formatNumber(positiveCount)}
-            </div>
+            {direction === "growth" ? "증가 지역 수" : "감소 지역 수"}
           </div>
-        </section>
+          <div
+            className={`mt-3 text-3xl font-semibold tracking-tight ${
+              direction === "growth" ? "text-emerald-700" : "text-orange-700"
+            }`}
+          >
+            {formatNumber(positiveCount)}
+          </div>
+        </div>
+      </section>
 
-        <section className="rounded-[28px] border border-slate-200 bg-white p-6 shadow-sm">
-          <form className="grid grid-cols-1 gap-4 md:grid-cols-4">
-            <div>
-              <label className="mb-2 block text-xs font-semibold uppercase tracking-wide text-slate-500">
-                브랜드
-              </label>
-              <select
-                name="brandId"
-                defaultValue={selectedBrandId ? String(selectedBrandId) : ""}
-                className="w-full rounded-2xl border border-slate-300 bg-white px-4 py-3 text-sm outline-none"
-              >
-                <option value="">전체 브랜드</option>
-                {brands.map((brand) => (
-                  <option key={brand.id} value={brand.id}>
-                    {brand.brand_name}
-                  </option>
-                ))}
-              </select>
-            </div>
+      <section className="mt-6 rounded-[28px] border border-sky-100 bg-white p-6 shadow-sm">
+        <form className="grid grid-cols-1 gap-4 md:grid-cols-4">
+          <div>
+            <label className="mb-2 block text-xs font-semibold uppercase tracking-wide text-slate-500">
+              브랜드
+            </label>
+            <select
+              name="brandId"
+              defaultValue={selectedBrandId ? String(selectedBrandId) : ""}
+              className="w-full rounded-2xl border border-sky-200 bg-white px-4 py-3 text-sm outline-none transition focus:border-sky-400"
+            >
+              <option value="">전체 브랜드</option>
+              {brands.map((brand) => (
+                <option key={brand.id} value={brand.id}>
+                  {brand.brand_name}
+                </option>
+              ))}
+            </select>
+          </div>
 
-            <div>
-              <label className="mb-2 block text-xs font-semibold uppercase tracking-wide text-slate-500">
-                카테고리 ID
-              </label>
-              <input
-                name="categoryId"
-                defaultValue={selectedCategoryId ? String(selectedCategoryId) : ""}
-                placeholder="예: 101"
-                className="w-full rounded-2xl border border-slate-300 bg-white px-4 py-3 text-sm outline-none"
-              />
-            </div>
+          <div>
+            <label className="mb-2 block text-xs font-semibold uppercase tracking-wide text-slate-500">
+              카테고리 ID
+            </label>
+            <input
+              name="categoryId"
+              defaultValue={selectedCategoryId ? String(selectedCategoryId) : ""}
+              placeholder="예: 101"
+              className="w-full rounded-2xl border border-sky-200 bg-white px-4 py-3 text-sm outline-none transition focus:border-sky-400"
+            />
+          </div>
 
-            <input type="hidden" name="direction" value={direction} />
+          <input type="hidden" name="direction" value={direction} />
 
-            <div className="md:col-span-2 flex items-end gap-2">
-              <button
-                type="submit"
-                className="inline-flex h-[50px] flex-1 items-center justify-center rounded-2xl bg-slate-950 px-4 text-sm font-semibold text-white transition hover:bg-slate-800"
-              >
-                적용
-              </button>
-              <Link
-                href={buildHref("/hq/regions", { direction })}
-                className="inline-flex h-[50px] flex-1 items-center justify-center rounded-2xl border border-slate-300 bg-white px-4 text-sm font-semibold text-slate-700 transition hover:bg-slate-50"
-              >
-                초기화
-              </Link>
-            </div>
-          </form>
-        </section>
+          <div className="md:col-span-2 flex items-end gap-2">
+            <button
+              type="submit"
+              className="inline-flex h-[50px] flex-1 items-center justify-center rounded-2xl bg-sky-500 px-4 text-sm font-semibold text-white transition hover:bg-sky-600"
+            >
+              적용
+            </button>
+            <Link
+              href={buildHref("/hq/regions", { direction })}
+              className="inline-flex h-[50px] flex-1 items-center justify-center rounded-2xl border border-sky-200 bg-sky-50 px-4 text-sm font-semibold text-sky-700 transition hover:bg-sky-100"
+            >
+              초기화
+            </Link>
+          </div>
+        </form>
+      </section>
 
-        <section className="grid gap-4">
-          {rows.length === 0 ? (
-            <div className="rounded-[28px] border border-slate-200 bg-white px-6 py-10 text-sm text-slate-500 shadow-sm">
-              표시할 지역이 없습니다.
-            </div>
-          ) : (
-            rows.map((row, index) => (
-              <div
-                key={`${row.region_code}-${row.category_id}-${index}`}
-                className="rounded-[28px] border border-slate-200 bg-white p-6 shadow-sm"
-              >
-                <div className="flex flex-col gap-4 xl:flex-row xl:items-start xl:justify-between">
-                  <div className="min-w-0 flex-1">
-                    <div className="flex flex-wrap items-center gap-2">
-                      <h2 className="text-lg font-semibold tracking-tight text-slate-950">
-                        {row.region_name || row.region_code}
-                      </h2>
-                      <span className="inline-flex items-center rounded-full border border-slate-200 bg-slate-50 px-3 py-1 text-xs font-semibold text-slate-700">
-                        {row.category_name || row.category_id || "-"}
-                      </span>
-                      <span
-                        className={`inline-flex items-center rounded-full border px-3 py-1 text-xs font-semibold ${growthTone(
-                          direction,
-                          row.resident_population_change_12m,
-                        )}`}
-                      >
-                        {gradeLabel(row.growth_grade)}
-                      </span>
+      <section className="mt-6 grid gap-4">
+        {rows.length === 0 ? (
+          <div className="rounded-[28px] border border-slate-200 bg-white px-6 py-10 text-sm text-slate-500 shadow-sm">
+            표시할 지역이 없습니다.
+          </div>
+        ) : (
+          rows.map((row, index) => (
+            <div
+              key={`${row.region_code}-${row.category_id}-${index}`}
+              className="rounded-[28px] border border-slate-200 bg-white p-6 shadow-sm transition hover:border-sky-200 hover:bg-sky-50/30"
+            >
+              <div className="flex flex-col gap-4 xl:flex-row xl:items-start xl:justify-between">
+                <div className="min-w-0 flex-1">
+                  <div className="flex flex-wrap items-center gap-2">
+                    <h2 className="text-lg font-semibold tracking-tight text-slate-950">
+                      {row.region_name || row.region_code}
+                    </h2>
+                    <span className="inline-flex items-center rounded-full border border-slate-200 bg-slate-50 px-3 py-1 text-xs font-semibold text-slate-700">
+                      {row.category_name || row.category_id || "-"}
+                    </span>
+                    <span
+                      className={`inline-flex items-center rounded-full border px-3 py-1 text-xs font-semibold ${growthTone(
+                        direction,
+                        row.resident_population_change_12m,
+                      )}`}
+                    >
+                      {gradeLabel(row.growth_grade)}
+                    </span>
+                  </div>
+
+                  <div className="mt-2 text-sm text-slate-500">
+                    지역코드 {row.region_code} · 기준월 {formatDate(row.snapshot_month)}
+                  </div>
+                </div>
+
+                <div className="grid min-w-full grid-cols-2 gap-3 sm:min-w-[360px] sm:grid-cols-3 xl:min-w-[520px]">
+                  <div className="rounded-2xl border border-slate-200 bg-white px-4 py-3">
+                    <div className="text-[11px] uppercase tracking-wide text-slate-500">
+                      출점적합
                     </div>
-
-                    <div className="mt-2 text-sm text-slate-500">
-                      지역코드 {row.region_code} · 기준월 {formatDate(row.snapshot_month)}
+                    <div className="mt-1 text-lg font-semibold text-slate-950">
+                      {formatScore(row.opening_fit_score)}
                     </div>
                   </div>
 
-                  <div className="grid min-w-full grid-cols-2 gap-3 sm:min-w-[360px] sm:grid-cols-3 xl:min-w-[520px]">
-                    <div className="rounded-2xl border border-slate-200 bg-slate-50 px-4 py-3">
-                      <div className="text-[11px] uppercase tracking-wide text-slate-500">
-                        출점적합
-                      </div>
-                      <div className="mt-1 text-lg font-semibold text-slate-950">
-                        {formatScore(row.opening_fit_score)}
-                      </div>
+                  <div className="rounded-2xl border border-slate-200 bg-white px-4 py-3">
+                    <div className="text-[11px] uppercase tracking-wide text-slate-500">
+                      상권열기
                     </div>
-
-                    <div className="rounded-2xl border border-slate-200 bg-slate-50 px-4 py-3">
-                      <div className="text-[11px] uppercase tracking-wide text-slate-500">
-                        상권열기
-                      </div>
-                      <div className="mt-1 text-lg font-semibold text-slate-950">
-                        {formatScore(row.market_heat_score)}
-                      </div>
+                    <div className="mt-1 text-lg font-semibold text-slate-950">
+                      {formatScore(row.market_heat_score)}
                     </div>
+                  </div>
 
-                    <div className="rounded-2xl border border-slate-200 bg-slate-50 px-4 py-3">
-                      <div className="text-[11px] uppercase tracking-wide text-slate-500">
-                        매출지수
-                      </div>
-                      <div className="mt-1 text-lg font-semibold text-slate-950">
-                        {formatScore(row.estimated_sales_index)}
-                      </div>
+                  <div className="rounded-2xl border border-slate-200 bg-white px-4 py-3">
+                    <div className="text-[11px] uppercase tracking-wide text-slate-500">
+                      매출지수
                     </div>
-
-                    <div className="rounded-2xl border border-slate-200 bg-slate-50 px-4 py-3">
-                      <div className="text-[11px] uppercase tracking-wide text-slate-500">
-                        인구 3M
-                      </div>
-                      <div className="mt-1 text-lg font-semibold text-slate-950">
-                        {formatSignedPercent(row.resident_population_change_3m)}
-                      </div>
+                    <div className="mt-1 text-lg font-semibold text-slate-950">
+                      {formatScore(row.estimated_sales_index)}
                     </div>
+                  </div>
 
-                    <div className="rounded-2xl border border-slate-200 bg-slate-50 px-4 py-3">
-                      <div className="text-[11px] uppercase tracking-wide text-slate-500">
-                        인구 12M
-                      </div>
-                      <div className="mt-1 text-lg font-semibold text-slate-950">
-                        {formatSignedPercent(row.resident_population_change_12m)}
-                      </div>
+                  <div className="rounded-2xl border border-slate-200 bg-white px-4 py-3">
+                    <div className="text-[11px] uppercase tracking-wide text-slate-500">
+                      인구 3M
                     </div>
-
-                    <div className="rounded-2xl border border-slate-200 bg-slate-50 px-4 py-3">
-                      <div className="text-[11px] uppercase tracking-wide text-slate-500">
-                        생활 3M
-                      </div>
-                      <div className="mt-1 text-lg font-semibold text-slate-950">
-                        {formatSignedPercent(row.living_population_change_3m)}
-                      </div>
+                    <div className="mt-1 text-lg font-semibold text-slate-950">
+                      {formatSignedPercent(row.resident_population_change_3m)}
                     </div>
+                  </div>
 
-                    <div className="rounded-2xl border border-slate-200 bg-slate-50 px-4 py-3">
-                      <div className="text-[11px] uppercase tracking-wide text-slate-500">
-                        경쟁 증가
-                      </div>
-                      <div className="mt-1 text-lg font-semibold text-slate-950">
-                        {formatPercent(row.competitor_growth_90d)}
-                      </div>
+                  <div className="rounded-2xl border border-slate-200 bg-white px-4 py-3">
+                    <div className="text-[11px] uppercase tracking-wide text-slate-500">
+                      인구 12M
                     </div>
-
-                    <div className="rounded-2xl border border-slate-200 bg-slate-50 px-4 py-3">
-                      <div className="text-[11px] uppercase tracking-wide text-slate-500">
-                        포화지수
-                      </div>
-                      <div className="mt-1 text-lg font-semibold text-slate-950">
-                        {formatScore(row.saturation_index)}
-                      </div>
+                    <div className="mt-1 text-lg font-semibold text-slate-950">
+                      {formatSignedPercent(row.resident_population_change_12m)}
                     </div>
+                  </div>
 
-                    <div className="rounded-2xl border border-slate-200 bg-slate-50 px-4 py-3">
-                      <div className="text-[11px] uppercase tracking-wide text-slate-500">
-                        관광수요
-                      </div>
-                      <div className="mt-1 text-lg font-semibold text-slate-950">
-                        {formatScore(row.tourism_demand_score)}
-                      </div>
+                  <div className="rounded-2xl border border-slate-200 bg-white px-4 py-3">
+                    <div className="text-[11px] uppercase tracking-wide text-slate-500">
+                      생활 3M
                     </div>
+                    <div className="mt-1 text-lg font-semibold text-slate-950">
+                      {formatSignedPercent(row.living_population_change_3m)}
+                    </div>
+                  </div>
 
-                    <div className="rounded-2xl border border-slate-200 bg-slate-50 px-4 py-3 sm:col-span-3">
-                      <div className="text-[11px] uppercase tracking-wide text-slate-500">
-                        동일업종 점포 수
-                      </div>
-                      <div className="mt-1 text-lg font-semibold text-slate-950">
-                        {formatNumber(row.same_category_poi_count)}
-                      </div>
+                  <div className="rounded-2xl border border-slate-200 bg-white px-4 py-3">
+                    <div className="text-[11px] uppercase tracking-wide text-slate-500">
+                      경쟁 증가
+                    </div>
+                    <div className="mt-1 text-lg font-semibold text-slate-950">
+                      {formatPercent(row.competitor_growth_90d)}
+                    </div>
+                  </div>
+
+                  <div className="rounded-2xl border border-slate-200 bg-white px-4 py-3">
+                    <div className="text-[11px] uppercase tracking-wide text-slate-500">
+                      포화지수
+                    </div>
+                    <div className="mt-1 text-lg font-semibold text-slate-950">
+                      {formatScore(row.saturation_index)}
+                    </div>
+                  </div>
+
+                  <div className="rounded-2xl border border-slate-200 bg-white px-4 py-3">
+                    <div className="text-[11px] uppercase tracking-wide text-slate-500">
+                      관광수요
+                    </div>
+                    <div className="mt-1 text-lg font-semibold text-slate-950">
+                      {formatScore(row.tourism_demand_score)}
+                    </div>
+                  </div>
+
+                  <div className="rounded-2xl border border-slate-200 bg-white px-4 py-3 sm:col-span-3">
+                    <div className="text-[11px] uppercase tracking-wide text-slate-500">
+                      동일업종 점포 수
+                    </div>
+                    <div className="mt-1 text-lg font-semibold text-slate-950">
+                      {formatNumber(row.same_category_poi_count)}
                     </div>
                   </div>
                 </div>
               </div>
-            ))
-          )}
-        </section>
+            </div>
+          ))
+        )}
+      </section>
 
-        <section className="flex items-center justify-between gap-3">
-          <Link
-            href={prevHref}
-            aria-disabled={page <= 1}
-            className={`inline-flex h-11 items-center justify-center rounded-xl px-4 text-sm font-semibold transition ${
-              page <= 1
-                ? "pointer-events-none border border-slate-200 text-slate-300"
-                : "border border-slate-300 bg-white text-slate-700 hover:bg-slate-50"
-            }`}
-          >
-            이전
-          </Link>
-          <div className="text-sm text-slate-500">페이지 {page}</div>
-          <Link
-            href={nextHref}
-            aria-disabled={rows.length < PAGE_SIZE}
-            className={`inline-flex h-11 items-center justify-center rounded-xl px-4 text-sm font-semibold transition ${
-              rows.length < PAGE_SIZE
-                ? "pointer-events-none border border-slate-200 text-slate-300"
-                : "border border-slate-300 bg-white text-slate-700 hover:bg-slate-50"
-            }`}
-          >
-            다음
-          </Link>
-        </section>
-      </div>
+      <section className="mt-6 flex items-center justify-between gap-3">
+        <Link
+          href={prevHref}
+          aria-disabled={page <= 1}
+          className={`inline-flex h-11 items-center justify-center rounded-xl px-4 text-sm font-semibold transition ${
+            page <= 1
+              ? "pointer-events-none border border-slate-200 text-slate-300"
+              : "border border-sky-200 bg-sky-50 text-sky-700 hover:bg-sky-100"
+          }`}
+        >
+          이전
+        </Link>
+        <div className="text-sm text-slate-500">페이지 {page}</div>
+        <Link
+          href={nextHref}
+          aria-disabled={rows.length < PAGE_SIZE}
+          className={`inline-flex h-11 items-center justify-center rounded-xl px-4 text-sm font-semibold transition ${
+            rows.length < PAGE_SIZE
+              ? "pointer-events-none border border-slate-200 text-slate-300"
+              : "border border-sky-200 bg-sky-50 text-sky-700 hover:bg-sky-100"
+          }`}
+        >
+          다음
+        </Link>
+      </section>
     </main>
   );
 }
