@@ -1,7 +1,7 @@
 import type { ReactNode } from "react";
 import Link from "next/link";
 import { createClient } from "@/lib/supabase/server";
-import { mutateWatchlistAction } from "@/app/watchlist/actions";
+import { createMonitorFromRankingAction } from "@/app/monitors/actions";
 
 type SearchParams = Promise<{
   regionCode?: string;
@@ -43,10 +43,10 @@ type IntegratedRankingRow = {
   recovery_direction: string | null;
 };
 
-type WatchlistRow = {
-  watchlist_id: number;
-  region_code: string;
-  category_id: number;
+type MonitorTargetRow = {
+  id: number;
+  region_code: string | null;
+  category_id: number | null;
 };
 
 const PAGE_SIZE = 20;
@@ -85,14 +85,11 @@ function toPositiveInt(value: string | undefined, fallback: number) {
 }
 
 function getMessageText(success?: string, error?: string) {
-  if (success === "added") return "관심목록에 추가되었습니다.";
-  if (success === "removed") return "관심목록에서 제거되었습니다.";
-  if (error === "missing_required_fields") return "필수 값이 누락되었습니다.";
-  if (error === "watchlist_lookup_failed") return "관심 상태 조회에 실패했습니다.";
-  if (error === "watchlist_not_found") return "관심목록 항목을 찾지 못했습니다.";
-  if (error === "remove_failed") return "관심목록 해제에 실패했습니다.";
-  if (error === "add_failed") return "관심목록 추가에 실패했습니다.";
-  if (error === "invalid_user") return "사용자 확인에 실패했습니다.";
+  if (success === "monitor_added") return "모니터가 생성되었습니다.";
+  if (success === "monitor_exists") return "이미 등록된 모니터입니다.";
+  if (error === "monitor_missing_category") return "업종 정보가 누락되어 모니터를 생성하지 못했습니다.";
+  if (error === "monitor_lookup_failed") return "기존 모니터 조회에 실패했습니다.";
+  if (error === "monitor_add_failed") return "모니터 생성에 실패했습니다.";
   return "";
 }
 
@@ -240,46 +237,8 @@ function candidateRegionCodes(input?: string | null) {
   return Array.from(set).filter(Boolean);
 }
 
-async function getInternalUserId() {
-  try {
-    const supabase = await createClient();
-    const {
-      data: { user },
-    } = await supabase.auth.getUser();
-
-    if (!user?.id) return null;
-
-    const { data } = await supabase
-      .from("users")
-      .select("id")
-      .eq("auth_user_id", user.id)
-      .single();
-
-    if (!data?.id) return null;
-    return data.id as number;
-  } catch {
-    return null;
-  }
-}
-
-async function getWatchlistMap(userId: number | null) {
-  if (!userId) return new Map<string, number>();
-
-  try {
-    const supabase = await createClient();
-
-    const { data } = await supabase.rpc("get_my_watchlists", {
-      p_user_id: userId,
-    });
-
-    const map = new Map<string, number>();
-    for (const row of (data ?? []) as WatchlistRow[]) {
-      map.set(`${row.region_code}:${row.category_id}`, row.watchlist_id);
-    }
-    return map;
-  } catch {
-    return new Map<string, number>();
-  }
+function monitorTargetKey(regionCode: string, categoryId: number) {
+  return `${normalizeRegionCode(regionCode)}:${categoryId}`;
 }
 
 async function getIntegratedRankings(params: {
@@ -335,6 +294,54 @@ async function getIntegratedRankings(params: {
   }
 }
 
+async function getMonitorTargetMap(rows: IntegratedRankingRow[]) {
+  if (rows.length === 0) return new Map<string, number>();
+
+  const regionCodes = Array.from(
+    new Set(rows.flatMap((row) => candidateRegionCodes(row.region_code))),
+  );
+
+  const categoryIds = Array.from(
+    new Set(
+      rows
+        .map((row) => row.category_id)
+        .filter((value) => Number.isFinite(value)),
+    ),
+  );
+
+  if (regionCodes.length === 0 || categoryIds.length === 0) {
+    return new Map<string, number>();
+  }
+
+  try {
+    const supabase = await createClient();
+
+    const { data } = await supabase
+      .from("external_intel_targets")
+      .select("id, region_code, category_id")
+      .in("region_code", regionCodes)
+      .in("category_id", categoryIds)
+      .limit(1000);
+
+    const map = new Map<string, number>();
+
+    for (const row of (data ?? []) as MonitorTargetRow[]) {
+      if (!row.region_code || row.category_id == null) continue;
+
+      const key = monitorTargetKey(row.region_code, row.category_id);
+      const prev = map.get(key);
+
+      if (!prev || row.id > prev) {
+        map.set(key, row.id);
+      }
+    }
+
+    return map;
+  } catch {
+    return new Map<string, number>();
+  }
+}
+
 export default async function RankingsPage({
   searchParams,
 }: {
@@ -350,12 +357,8 @@ export default async function RankingsPage({
   const page = toPositiveInt(resolved.page, 1);
   const sort = resolved.sort?.trim() || "final";
 
-  const userId = await getInternalUserId();
-
-  const [rows, watchlistMap] = await Promise.all([
-    getIntegratedRankings({ page, regionCode, categoryId, sort }),
-    getWatchlistMap(userId),
-  ]);
+  const rows = await getIntegratedRankings({ page, regionCode, categoryId, sort });
+  const monitorTargetMap = await getMonitorTargetMap(rows);
 
   const prevHref = buildQueryString({
     regionCode,
@@ -394,8 +397,7 @@ export default async function RankingsPage({
                 통합 위험관리 랭킹
               </h1>
               <p className="mt-2 text-sm text-slate-500">
-                랭킹 페이지는 점수 중심으로 간결하게 보여주고, 핵심 사유 / DB 요약 / 기준일은
-                상세 페이지에서 확인합니다.
+                랭킹에서 바로 모니터를 생성하고, 생성된 항목은 모니터 페이지에서 계속 추적합니다.
               </p>
             </div>
 
@@ -505,7 +507,7 @@ export default async function RankingsPage({
                   <th className="whitespace-nowrap px-4 py-4 font-medium">소상공인위험</th>
                   <th className="whitespace-nowrap px-4 py-4 font-medium">외부폐업압력</th>
                   <th className="whitespace-nowrap px-4 py-4 font-medium">NTS위험</th>
-                  <th className="whitespace-nowrap px-4 py-4 text-right font-medium">관심</th>
+                  <th className="whitespace-nowrap px-4 py-4 text-right font-medium">모니터</th>
                 </tr>
               </thead>
 
@@ -522,19 +524,18 @@ export default async function RankingsPage({
                 ) : (
                   rows.map((row, index) => {
                     const rank = (page - 1) * PAGE_SIZE + index + 1;
-                    const watchKey = `${row.region_code}:${row.category_id}`;
-                    const watchlistId = watchlistMap.get(watchKey);
-                    const isWatching = !!watchlistId;
-                    const next = buildQueryString({
+                    const next = `/rankings${buildQueryString({
                       regionCode,
                       categoryId,
                       sort,
                       page,
-                    });
-
+                    })}`;
                     const detailHref = `/regions/${encodeURIComponent(
                       row.region_code,
                     )}/${row.category_id}#db-insight`;
+                    const monitorId = monitorTargetMap.get(
+                      monitorTargetKey(row.region_code, row.category_id),
+                    );
 
                     return (
                       <tr
@@ -552,7 +553,8 @@ export default async function RankingsPage({
                               className="block truncate text-[15px] font-semibold tracking-tight text-slate-950 transition hover:text-sky-700"
                               title={`${row.region_name ?? row.region_code} · ${row.category_name ?? row.category_id}`}
                             >
-                              {row.region_name ?? row.region_code} · {row.category_name ?? row.category_id}
+                              {row.region_name ?? row.region_code} ·{" "}
+                              {row.category_name ?? row.category_id}
                             </Link>
 
                             <div className="mt-2 flex flex-wrap gap-3 text-sm">
@@ -580,7 +582,8 @@ export default async function RankingsPage({
                               row.integrated_final_score,
                             )}`}
                           >
-                            {severityLabel(row.integrated_severity)} · {formatScore(row.integrated_final_score, 0)}
+                            {severityLabel(row.integrated_severity)} ·{" "}
+                            {formatScore(row.integrated_final_score, 0)}
                           </span>
                         </td>
 
@@ -610,10 +613,9 @@ export default async function RankingsPage({
                               row.kosis_pressure_grade,
                             )}`}
                           >
-                            {(row.kosis_pressure_label || severityLabel(row.kosis_pressure_grade))} · {formatScore(
-                              row.kosis_pressure_score,
-                              0,
-                            )}
+                            {(row.kosis_pressure_label ||
+                              severityLabel(row.kosis_pressure_grade))}{" "}
+                            · {formatScore(row.kosis_pressure_score, 0)}
                           </span>
                         </td>
 
@@ -629,47 +631,59 @@ export default async function RankingsPage({
 
                         <td className="whitespace-nowrap px-4 py-4">
                           <div className="flex justify-end">
-                            {userId ? (
-                              <form action={mutateWatchlistAction}>
-                                <input type="hidden" name="user_id" value={String(userId)} />
-                                <input type="hidden" name="region_code" value={row.region_code} />
+                            {monitorId ? (
+                              <Link
+                                href={`/monitors/${monitorId}`}
+                                className="inline-flex h-10 min-w-[108px] items-center justify-center rounded-xl border border-sky-200 bg-sky-50 px-4 text-sm font-medium text-sky-700 transition hover:bg-sky-100"
+                              >
+                                등록됨
+                              </Link>
+                            ) : (
+                              <form action={createMonitorFromRankingAction}>
+                                <input type="hidden" name="regionCode" value={row.region_code} />
                                 <input
                                   type="hidden"
-                                  name="category_id"
+                                  name="regionName"
+                                  value={row.region_name ?? row.region_code}
+                                />
+                                <input
+                                  type="hidden"
+                                  name="categoryId"
                                   value={String(row.category_id)}
                                 />
                                 <input
                                   type="hidden"
-                                  name="intent"
-                                  value={isWatching ? "remove" : "add"}
+                                  name="categoryName"
+                                  value={row.category_name ?? String(row.category_id)}
                                 />
-                                {watchlistId ? (
-                                  <input
-                                    type="hidden"
-                                    name="watchlist_id"
-                                    value={String(watchlistId)}
-                                  />
-                                ) : null}
-                                <input type="hidden" name="next" value={`/rankings${next}`} />
+                                <input
+                                  type="hidden"
+                                  name="severity"
+                                  value={row.integrated_severity ?? ""}
+                                />
+                                <input
+                                  type="hidden"
+                                  name="summaryText"
+                                  value={row.summary_text ?? ""}
+                                />
+                                <input
+                                  type="hidden"
+                                  name="recoveryDirection"
+                                  value={row.recovery_direction ?? ""}
+                                />
+                                <input
+                                  type="hidden"
+                                  name="integratedFinalScore"
+                                  value={String(row.integrated_final_score ?? "")}
+                                />
+                                <input type="hidden" name="next" value={next} />
                                 <button
                                   type="submit"
-                                  className={[
-                                    "inline-flex h-10 min-w-[92px] items-center justify-center rounded-xl px-4 text-sm font-medium transition",
-                                    isWatching
-                                      ? "border border-sky-200 bg-sky-50 text-sky-700 hover:bg-sky-100"
-                                      : "bg-sky-600 text-white shadow-sm hover:bg-sky-700",
-                                  ].join(" ")}
+                                  className="inline-flex h-10 min-w-[108px] items-center justify-center rounded-xl bg-sky-600 px-4 text-sm font-medium text-white shadow-sm transition hover:bg-sky-700"
                                 >
-                                  {isWatching ? "저장됨" : "모니터링추가"}
+                                  모니터 생성
                                 </button>
                               </form>
-                            ) : (
-                              <Link
-                                href={`/auth/login?next=${encodeURIComponent(`/rankings${next}`)}`}
-                                className="inline-flex h-10 min-w-[92px] items-center justify-center rounded-xl bg-sky-600 px-4 text-sm font-medium text-white shadow-sm transition hover:bg-sky-700"
-                              >
-                                모니터링추가
-                              </Link>
                             )}
                           </div>
                         </td>

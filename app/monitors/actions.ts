@@ -75,6 +75,31 @@ function isIgnorableSchemaError(error: unknown) {
   );
 }
 
+function appendStatusToPath(
+  path: string,
+  status: Record<string, string | number | undefined | null>,
+) {
+  const safePath = path.trim() || "/rankings";
+  const [pathname, search = ""] = safePath.split("?");
+  const params = new URLSearchParams(search);
+
+  Object.entries(status).forEach(([key, value]) => {
+    if (value === undefined || value === null || value === "") return;
+    params.set(key, String(value));
+  });
+
+  const qs = params.toString();
+  return qs ? `${pathname}?${qs}` : pathname;
+}
+
+function stageFromSeverity(value: string) {
+  const raw = value.trim().toLowerCase();
+
+  if (raw === "critical" || raw === "high") return "critical";
+  if (raw === "moderate" || raw === "warning" || raw === "caution") return "caution";
+  return "observe";
+}
+
 async function tryUpdateColumns(
   monitorId: number,
   payload: UnknownRecord,
@@ -415,6 +440,125 @@ export async function createMonitorAction(formData: FormData) {
   revalidatePath("/rankings");
 
   redirect("/monitors");
+}
+
+export async function createMonitorFromRankingAction(formData: FormData) {
+  const regionCode = requireFormValue(formData, "regionCode", "지역 코드");
+  const regionName = requireFormValue(formData, "regionName", "지역명");
+  const categoryId = readOptionalInteger(formData, "categoryId");
+  const categoryName = requireFormValue(formData, "categoryName", "업종명");
+  const severity = readFormValue(formData, "severity");
+  const summaryText = readFormValue(formData, "summaryText");
+  const recoveryDirection = readFormValue(formData, "recoveryDirection");
+  const integratedFinalScore = readOptionalNumber(formData, "integratedFinalScore");
+  const next = readFormValue(formData, "next") || "/rankings";
+
+  if (categoryId === null) {
+    redirect(appendStatusToPath(next, { error: "monitor_missing_category" }));
+  }
+
+  const supabase = supabaseAdmin();
+
+  const { data: existing, error: existingError } = await supabase
+    .from("external_intel_targets")
+    .select("id")
+    .eq("region_code", regionCode)
+    .eq("category_id", categoryId)
+    .order("id", { ascending: false })
+    .limit(1)
+    .maybeSingle();
+
+  if (existingError && !isIgnorableSchemaError(existingError)) {
+    redirect(
+      appendStatusToPath(next, {
+        error: "monitor_lookup_failed",
+      }),
+    );
+  }
+
+  if (existing?.id) {
+    revalidatePath("/monitors");
+    revalidatePath("/rankings");
+    redirect(
+      appendStatusToPath(next, {
+        success: "monitor_exists",
+      }),
+    );
+  }
+
+  const businessName = `${regionName} · ${categoryName}`;
+  const address = regionName;
+  const stage = stageFromSeverity(severity || "observe");
+
+  const basePayload: UnknownRecord = {
+    business_name: businessName,
+    category_name: categoryName,
+    region_name: regionName,
+    address,
+  };
+
+  const { data, error } = await supabase
+    .from("external_intel_targets")
+    .insert(basePayload)
+    .select("id")
+    .single();
+
+  if (error) {
+    redirect(
+      appendStatusToPath(next, {
+        error: "monitor_add_failed",
+      }),
+    );
+  }
+
+  const monitorId =
+    typeof data?.id === "number"
+      ? data.id
+      : typeof data?.id === "string"
+        ? Number(data.id)
+        : NaN;
+
+  if (!Number.isFinite(monitorId) || monitorId <= 0) {
+    redirect(
+      appendStatusToPath(next, {
+        error: "monitor_add_failed",
+      }),
+    );
+  }
+
+  await saveOptionalFields({
+    monitorId,
+    phone: "",
+    businessNumber: "",
+    primaryKeyword: businessName,
+    secondaryKeyword: categoryName,
+    brandKeyword: regionName,
+    placeQuery: businessName,
+    extraKeywords: [regionName, categoryName].filter(Boolean),
+    note: recoveryDirection || summaryText,
+    businessName,
+    categoryName,
+    regionName,
+    address,
+    from: "ranking",
+    regionCode,
+    categoryId,
+    stage,
+    reason: "ranking_monitor_created",
+    score: integratedFinalScore,
+    query: businessName,
+  });
+
+  revalidatePath("/monitors");
+  revalidatePath(`/monitors/${monitorId}`);
+  revalidatePath("/signals");
+  revalidatePath("/rankings");
+
+  redirect(
+    appendStatusToPath(next, {
+      success: "monitor_added",
+    }),
+  );
 }
 
 export async function deleteMonitorAction(formData: FormData) {
