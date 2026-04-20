@@ -67,15 +67,6 @@ function num(value: number | null | undefined, fallback = 0) {
     : Number(value);
 }
 
-function text(value: unknown) {
-  if (typeof value === "string") {
-    const trimmed = value.trim();
-    return trimmed.length > 0 ? trimmed : "";
-  }
-  if (typeof value === "number" && Number.isFinite(value)) return String(value);
-  return "";
-}
-
 function formatNumber(value: number | null | undefined) {
   if (value == null || !Number.isFinite(value)) return "-";
   return new Intl.NumberFormat("ko-KR").format(value);
@@ -89,13 +80,6 @@ function formatScore(value: number | null | undefined, digits = 1) {
 function formatPercent(value: number | null | undefined, digits = 2) {
   if (value == null || !Number.isFinite(value)) return "-";
   return `${Number(value).toFixed(digits)}%`;
-}
-
-function formatMonth(value?: string | null) {
-  if (!value) return "-";
-  const match = String(value).match(/^(\d{4})-(\d{2})-(\d{2})$/);
-  if (match) return `${match[1]}.${match[2]}.${match[3]}`;
-  return String(value);
 }
 
 function normalizeRegionCode(code?: string | null) {
@@ -171,7 +155,7 @@ function statusTone(score: number | null | undefined) {
   if (n >= 80) return "border-rose-200 bg-rose-50 text-rose-700";
   if (n >= 65) return "border-orange-200 bg-orange-50 text-orange-700";
   if (n >= 45) return "border-amber-200 bg-amber-50 text-amber-700";
-  return "border-sky-200 bg-sky-50 text-sky-700";
+  return "border-sky-200 bg-[#F2FAFF] text-[#0A6FD6]";
 }
 
 function pressureTone(grade: string | null | undefined) {
@@ -179,7 +163,7 @@ function pressureTone(grade: string | null | undefined) {
   if (value === "critical") return "border-rose-200 bg-rose-50 text-rose-700";
   if (value === "high") return "border-orange-200 bg-orange-50 text-orange-700";
   if (value === "moderate") return "border-amber-200 bg-amber-50 text-amber-700";
-  if (value === "observe") return "border-sky-200 bg-sky-50 text-sky-700";
+  if (value === "observe") return "border-sky-200 bg-[#F2FAFF] text-[#0A6FD6]";
   return "border-slate-200 bg-slate-50 text-slate-600";
 }
 
@@ -278,7 +262,7 @@ function MetricCard({
       : tone === "warning"
         ? "border-amber-200 bg-amber-50"
         : tone === "observe"
-          ? "border-sky-200 bg-sky-50"
+          ? "border-sky-200 bg-[#F2FAFF]"
           : "border-slate-200 bg-white";
 
   return (
@@ -346,21 +330,21 @@ export default async function HomePage() {
           <section className="rounded-[24px] border border-slate-200 bg-white p-5 shadow-sm">
             <div className="flex flex-col gap-3 xl:flex-row xl:items-end xl:justify-between">
               <div className="min-w-0">
-                <div className="text-[11px] font-black uppercase tracking-[0.18em] text-sky-700">
+                <div className="text-[11px] font-black uppercase tracking-[0.18em] text-[#0A6FD6]">
                   Close Signal Dashboard
                 </div>
                 <h1 className="mt-1 text-2xl font-black tracking-[-0.05em] text-slate-950 sm:text-3xl">
                   통합 위험 대시보드
                 </h1>
                 <p className="mt-2 text-sm leading-6 text-slate-600">
-                  지금 위험한 지역·업종이 무엇인지 먼저 보이도록 정리했습니다.
+                  지금 위험한 지역·업종이 먼저 보이도록 정리했습니다.
                 </p>
               </div>
 
               <div className="flex flex-wrap gap-2">
                 <Link
                   href="/rankings"
-                  className="inline-flex h-9 items-center rounded-xl bg-slate-950 px-3 text-sm font-semibold text-white transition hover:bg-slate-800"
+                  className="inline-flex h-9 items-center rounded-xl bg-[#169BF4] px-3 text-sm font-semibold text-white transition hover:bg-[#0A84E0]"
                 >
                   위험 랭킹
                 </Link>
@@ -401,7 +385,7 @@ export default async function HomePage() {
             <MetricCard
               title="조인 누락"
               value={formatNumber(gapRows.length)}
-              description="외부 압력 연결 보정 필요"
+              description="외부 압력 연결 상태"
               tone="observe"
             />
           </section>
@@ -431,7 +415,7 @@ export default async function HomePage() {
                       return (
                         <article
                           key={`${topIdentity(row)}-${index}`}
-                          className="rounded-[18px] border border-slate-200 bg-slate-50 p-4 transition hover:border-sky-300 hover:bg-white"
+                          className="rounded-[18px] border border-slate-200 bg-slate-50 p-4 transition hover:border-[#BFE3FF] hover:bg-white"
                         >
                           <div className="flex flex-col gap-3 xl:flex-row xl:items-start xl:justify-between">
                             <div className="min-w-0 flex-1">
@@ -458,7 +442,7 @@ export default async function HomePage() {
                               <div className="mt-2">
                                 <Link
                                   href={detailHref}
-                                  className="text-lg font-black tracking-[-0.03em] text-slate-950 transition hover:text-sky-700"
+                                  className="text-lg font-black tracking-[-0.03em] text-slate-950 transition hover:text-[#0A6FD6]"
                                 >
                                   {row.region_name ?? regionCode} · {row.category_name ?? row.category_id}
                                 </Link>
@@ -501,7 +485,7 @@ export default async function HomePage() {
                               </Link>
                               <Link
                                 href="/signals"
-                                className="inline-flex h-9 items-center justify-center rounded-xl bg-slate-950 px-3 text-sm font-semibold text-white transition hover:bg-slate-800"
+                                className="inline-flex h-9 items-center justify-center rounded-xl bg-[#169BF4] px-3 text-sm font-semibold text-white transition hover:bg-[#0A84E0]"
                               >
                                 신호 보기
                               </Link>
@@ -577,7 +561,7 @@ export default async function HomePage() {
             </div>
 
             <aside className="space-y-4">
-              <SectionCard title="위험 분포" subtitle="레드/옐로우 중심으로 먼저 봅니다.">
+              <SectionCard title="위험 분포" subtitle="시그니처 블루는 정보성 강조에만 사용합니다.">
                 <div className="grid gap-2">
                   <div className="rounded-xl border border-rose-200 bg-rose-50 px-3 py-2.5">
                     <div className="text-[11px] font-semibold text-rose-700">치명</div>
@@ -597,31 +581,23 @@ export default async function HomePage() {
                       {formatNumber(distribution?.medium_count)}
                     </div>
                   </div>
-                  <div className="rounded-xl border border-sky-200 bg-sky-50 px-3 py-2.5">
-                    <div className="text-[11px] font-semibold text-sky-700">관찰</div>
-                    <div className="mt-1 text-xl font-black text-sky-700">
+                  <div className="rounded-xl border border-sky-200 bg-[#F2FAFF] px-3 py-2.5">
+                    <div className="text-[11px] font-semibold text-[#0A6FD6]">관찰</div>
+                    <div className="mt-1 text-xl font-black text-[#0A6FD6]">
                       {formatNumber(distribution?.low_count)}
                     </div>
                   </div>
                 </div>
               </SectionCard>
 
-              <SectionCard title="데이터 상태" subtitle="조인 누락은 정보 카드로만 간단히 보여줍니다.">
-                <div className="rounded-xl border border-slate-200 bg-slate-50 px-3 py-3">
-                  <div className="text-xs font-semibold text-slate-500">외부 압력 연결 상태</div>
-                  <div className="mt-2 text-2xl font-black tracking-[-0.04em] text-slate-950">
+              <SectionCard title="데이터 상태" subtitle="헤더 시그니처 블루와 맞춘 정보 카드입니다.">
+                <div className="rounded-xl border border-sky-200 bg-[#F2FAFF] px-3 py-3">
+                  <div className="text-xs font-semibold text-[#0A6FD6]">조인 누락</div>
+                  <div className="mt-1 text-2xl font-black tracking-[-0.04em] text-slate-950">
                     {formatNumber(gapRows.length)}
                   </div>
-                  <div className="mt-1 text-xs leading-5 text-slate-600">
-                    현재 외부 폐업압력 조인 누락 행 수
-                  </div>
-                  <div className="mt-3">
-                    <Link
-                      href="/signals"
-                      className="inline-flex h-9 items-center rounded-xl border border-slate-300 bg-white px-3 text-sm font-semibold text-slate-700 transition hover:bg-slate-50"
-                    >
-                      신호 인박스에서 보기
-                    </Link>
+                  <div className="mt-1 text-xs text-slate-600">
+                    외부 폐업압력 연결 누락 행 수
                   </div>
                 </div>
               </SectionCard>

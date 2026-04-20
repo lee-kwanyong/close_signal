@@ -197,7 +197,7 @@ function statusTone(score: number | null | undefined) {
   if (n >= 80) return "border-rose-200 bg-rose-50 text-rose-700";
   if (n >= 65) return "border-orange-200 bg-orange-50 text-orange-700";
   if (n >= 45) return "border-amber-200 bg-amber-50 text-amber-700";
-  return "border-sky-200 bg-sky-50 text-sky-700";
+  return "border-sky-200 bg-[#F2FAFF] text-[#0A6FD6]";
 }
 
 function pressureTone(grade: string | null | undefined) {
@@ -205,7 +205,7 @@ function pressureTone(grade: string | null | undefined) {
   if (value === "critical") return "border-rose-200 bg-rose-50 text-rose-700";
   if (value === "high") return "border-orange-200 bg-orange-50 text-orange-700";
   if (value === "moderate") return "border-amber-200 bg-amber-50 text-amber-700";
-  if (value === "observe") return "border-sky-200 bg-sky-50 text-sky-700";
+  if (value === "observe") return "border-sky-200 bg-[#F2FAFF] text-[#0A6FD6]";
   return "border-slate-200 bg-slate-50 text-slate-600";
 }
 
@@ -217,7 +217,7 @@ function internalTone(score: number | null | undefined) {
   if (n >= 80) return "border-rose-200 bg-rose-50 text-rose-700";
   if (n >= 60) return "border-orange-200 bg-orange-50 text-orange-700";
   if (n >= 40) return "border-amber-200 bg-amber-50 text-amber-700";
-  return "border-sky-200 bg-sky-50 text-sky-700";
+  return "border-sky-200 bg-[#F2FAFF] text-[#0A6FD6]";
 }
 
 function normalizeBand(value?: string): ActionBand | "all" {
@@ -289,7 +289,7 @@ function bandTone(band: ActionBand) {
     case "review_today":
       return "border-amber-200 bg-amber-50 text-amber-700";
     case "watch":
-      return "border-sky-200 bg-sky-50 text-sky-700";
+      return "border-sky-200 bg-[#F2FAFF] text-[#0A6FD6]";
     case "archive":
       return "border-slate-200 bg-slate-50 text-slate-600";
   }
@@ -471,7 +471,7 @@ function FilterLink({
       href={href}
       className={`inline-flex h-9 items-center rounded-full border px-3 text-xs font-semibold transition ${
         active
-          ? "border-slate-950 bg-slate-950 text-white"
+          ? "border-[#169BF4] bg-[#169BF4] text-white"
           : "border-slate-300 bg-white text-slate-700 hover:bg-slate-50"
       }`}
     >
@@ -497,7 +497,7 @@ function MetricCard({
       : tone === "warning"
         ? "border-amber-200 bg-amber-50"
         : tone === "observe"
-          ? "border-sky-200 bg-sky-50"
+          ? "border-sky-200 bg-[#F2FAFF]"
           : "border-slate-200 bg-white";
 
   return (
@@ -524,13 +524,22 @@ function SmallStateCard({
       : tone === "warning"
         ? "border-amber-200 bg-amber-50"
         : tone === "observe"
-          ? "border-sky-200 bg-sky-50"
+          ? "border-sky-200 bg-[#F2FAFF]"
           : "border-slate-200 bg-white";
+
+  const textClass =
+    tone === "observe"
+      ? "text-[#0A6FD6]"
+      : tone === "danger"
+        ? "text-rose-700"
+        : tone === "warning"
+          ? "text-amber-700"
+          : "text-slate-900";
 
   return (
     <div className={`rounded-xl border px-3 py-2 ${toneClass}`}>
       <div className="text-[10px] font-semibold text-slate-500">{title}</div>
-      <div className="mt-1 text-sm font-bold text-slate-900">{value}</div>
+      <div className={`mt-1 text-sm font-bold ${textClass}`}>{value}</div>
     </div>
   );
 }
@@ -583,7 +592,7 @@ export default async function SignalsPage({
           <section className="rounded-[24px] border border-slate-200 bg-white p-5 shadow-sm">
             <div className="flex flex-col gap-3 xl:flex-row xl:items-end xl:justify-between">
               <div className="min-w-0">
-                <div className="text-[11px] font-black uppercase tracking-[0.18em] text-sky-700">
+                <div className="text-[11px] font-black uppercase tracking-[0.18em] text-[#0A6FD6]">
                   Signals Inbox
                 </div>
                 <h1 className="mt-1 text-2xl font-black tracking-[-0.05em] text-slate-950 sm:text-3xl">
@@ -603,7 +612,7 @@ export default async function SignalsPage({
                 </Link>
                 <Link
                   href="/rankings"
-                  className="inline-flex h-9 items-center rounded-xl bg-slate-950 px-3 text-sm font-semibold text-white transition hover:bg-slate-800"
+                  className="inline-flex h-9 items-center rounded-xl bg-[#169BF4] px-3 text-sm font-semibold text-white transition hover:bg-[#0A84E0]"
                 >
                   랭킹 보기
                 </Link>
@@ -645,7 +654,7 @@ export default async function SignalsPage({
                   name="q"
                   defaultValue={query}
                   placeholder="지역, 업종, 위험등급, 외부압력으로 검색"
-                  className="h-10 min-w-0 flex-1 rounded-xl border border-slate-300 bg-white px-3.5 text-sm outline-none placeholder:text-slate-400 focus:border-slate-500"
+                  className="h-10 min-w-0 flex-1 rounded-xl border border-slate-300 bg-white px-3.5 text-sm outline-none placeholder:text-slate-400 focus:border-[#169BF4]"
                 />
 
                 {selectedBand !== "all" ? <input type="hidden" name="band" value={selectedBand} /> : null}
@@ -656,7 +665,7 @@ export default async function SignalsPage({
 
                 <button
                   type="submit"
-                  className="inline-flex h-10 items-center justify-center rounded-xl bg-slate-950 px-4 text-sm font-semibold text-white transition hover:bg-slate-800"
+                  className="inline-flex h-10 items-center justify-center rounded-xl bg-[#169BF4] px-4 text-sm font-semibold text-white transition hover:bg-[#0A84E0]"
                 >
                   검색 적용
                 </button>
@@ -719,7 +728,7 @@ export default async function SignalsPage({
             <section className="rounded-[24px] border border-slate-200 bg-white p-4 shadow-sm">
               <div className="mb-4 flex flex-col gap-2 lg:flex-row lg:items-center lg:justify-between">
                 <div>
-                  <div className="text-[11px] font-black uppercase tracking-[0.18em] text-sky-700">
+                  <div className="text-[11px] font-black uppercase tracking-[0.18em] text-[#0A6FD6]">
                     Action Queue
                   </div>
                   <div className="mt-1 text-lg font-black tracking-[-0.03em] text-slate-950">
@@ -773,7 +782,7 @@ export default async function SignalsPage({
                     return (
                       <article
                         key={`${signalIdentity(row)}-${index}`}
-                        className="rounded-[18px] border border-slate-200 bg-slate-50 p-4 transition hover:border-sky-300 hover:bg-white"
+                        className="rounded-[18px] border border-slate-200 bg-slate-50 p-4 transition hover:border-[#BFE3FF] hover:bg-white"
                       >
                         <div className="flex flex-col gap-3 xl:flex-row xl:items-start xl:justify-between">
                           <div className="min-w-0 flex-1">
@@ -875,7 +884,7 @@ export default async function SignalsPage({
 
                             <Link
                               href={intakeHref}
-                              className="inline-flex h-9 items-center justify-center rounded-xl bg-slate-950 px-3 text-sm font-semibold text-white transition hover:bg-slate-800"
+                              className="inline-flex h-9 items-center justify-center rounded-xl bg-[#169BF4] px-3 text-sm font-semibold text-white transition hover:bg-[#0A84E0]"
                             >
                               모니터 인테이크
                             </Link>
@@ -912,7 +921,7 @@ export default async function SignalsPage({
 
             <aside className="space-y-4">
               <section className="rounded-[24px] border border-slate-200 bg-white p-4 shadow-sm">
-                <div className="text-[11px] font-black uppercase tracking-[0.18em] text-sky-700">
+                <div className="text-[11px] font-black uppercase tracking-[0.18em] text-[#0A6FD6]">
                   Intake Rules
                 </div>
                 <h2 className="mt-1 text-lg font-black tracking-[-0.03em] text-slate-950">
@@ -926,22 +935,22 @@ export default async function SignalsPage({
                   <div className="rounded-xl border border-amber-200 bg-amber-50 px-3 py-2.5">
                     주의: 오늘 안에 검토해야 할 항목
                   </div>
-                  <div className="rounded-xl border border-sky-200 bg-sky-50 px-3 py-2.5">
+                  <div className="rounded-xl border border-sky-200 bg-[#F2FAFF] px-3 py-2.5 text-[#0A6FD6]">
                     관찰: 추세 확인이 필요한 항목
                   </div>
                 </div>
               </section>
 
               <section className="rounded-[24px] border border-slate-200 bg-white p-4 shadow-sm">
-                <div className="text-[11px] font-black uppercase tracking-[0.18em] text-sky-700">
+                <div className="text-[11px] font-black uppercase tracking-[0.18em] text-[#0A6FD6]">
                   Data Status
                 </div>
                 <h2 className="mt-1 text-lg font-black tracking-[-0.03em] text-slate-950">
                   외부 압력 연결 상태
                 </h2>
 
-                <div className="mt-3 rounded-xl border border-slate-200 bg-slate-50 px-3 py-3">
-                  <div className="text-xs font-semibold text-slate-500">조인 누락</div>
+                <div className="mt-3 rounded-xl border border-sky-200 bg-[#F2FAFF] px-3 py-3">
+                  <div className="text-xs font-semibold text-[#0A6FD6]">조인 누락</div>
                   <div className="mt-1 text-2xl font-black tracking-[-0.04em] text-slate-950">
                     {formatNumber(gapRows.length)}
                   </div>
@@ -952,7 +961,7 @@ export default async function SignalsPage({
               </section>
 
               <section className="rounded-[24px] border border-slate-200 bg-white p-4 shadow-sm">
-                <div className="text-[11px] font-black uppercase tracking-[0.18em] text-sky-700">
+                <div className="text-[11px] font-black uppercase tracking-[0.18em] text-[#0A6FD6]">
                   Spotlight
                 </div>
                 <h2 className="mt-1 text-lg font-black tracking-[-0.03em] text-slate-950">
