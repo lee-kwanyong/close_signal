@@ -1,10 +1,13 @@
 import Link from "next/link";
 import { createClient } from "@/lib/supabase/server";
+import { mutateHqActionStatusAction } from "@/app/hq/actions";
 
 type SearchParams = Promise<{
   brandId?: string;
   status?: string;
   page?: string;
+  success?: string;
+  error?: string;
 }>;
 
 type BrandOption = {
@@ -95,6 +98,121 @@ function statusTone(value?: string | null) {
   return "border-slate-200 bg-slate-50 text-slate-700";
 }
 
+function getMessage(success?: string, error?: string) {
+  if (success === "accepted") return "액션이 수락되었습니다.";
+  if (success === "started") return "액션이 진행중으로 변경되었습니다.";
+  if (success === "done") return "액션이 완료 처리되었습니다.";
+  if (success === "dismissed") return "액션이 해제되었습니다.";
+  if (success === "reset") return "액션이 다시 recommended 상태로 돌아갔습니다.";
+
+  if (error === "invalid_request") return "요청 값이 올바르지 않습니다.";
+  if (error === "action_not_found") return "대상 액션을 찾지 못했습니다.";
+  if (error === "score_not_found") return "연결된 점수 정보를 찾지 못했습니다.";
+  if (error === "accept_failed") return "액션 수락 처리에 실패했습니다.";
+  if (error === "start_failed") return "액션 시작 처리에 실패했습니다.";
+  if (error === "done_failed") return "액션 완료 처리에 실패했습니다.";
+  if (error === "dismiss_failed") return "액션 해제 처리에 실패했습니다.";
+  if (error === "reset_failed") return "액션 초기화에 실패했습니다.";
+  if (error === "run_insert_failed") return "액션 실행 이력 저장에 실패했습니다.";
+  if (error === "run_update_failed") return "액션 실행 이력 갱신에 실패했습니다.";
+  if (error === "unknown_intent") return "알 수 없는 요청입니다.";
+
+  return "";
+}
+
+function ActionButtons({
+  actionId,
+  next,
+  status,
+}: {
+  actionId: number;
+  next: string;
+  status?: string | null;
+}) {
+  const normalized = String(status || "").toLowerCase();
+
+  return (
+    <form action={mutateHqActionStatusAction} className="flex flex-wrap gap-2">
+      <input type="hidden" name="action_id" value={actionId} />
+      <input type="hidden" name="next" value={next} />
+
+      {normalized === "recommended" ? (
+        <>
+          <button
+            type="submit"
+            name="intent"
+            value="accept"
+            className="inline-flex h-10 items-center justify-center rounded-xl bg-slate-950 px-4 text-sm font-semibold text-white transition hover:bg-slate-800"
+          >
+            수락
+          </button>
+          <button
+            type="submit"
+            name="intent"
+            value="dismiss"
+            className="inline-flex h-10 items-center justify-center rounded-xl border border-slate-300 bg-white px-4 text-sm font-semibold text-slate-700 transition hover:bg-slate-50"
+          >
+            해제
+          </button>
+        </>
+      ) : null}
+
+      {normalized === "accepted" ? (
+        <>
+          <button
+            type="submit"
+            name="intent"
+            value="start"
+            className="inline-flex h-10 items-center justify-center rounded-xl bg-slate-950 px-4 text-sm font-semibold text-white transition hover:bg-slate-800"
+          >
+            시작
+          </button>
+          <button
+            type="submit"
+            name="intent"
+            value="dismiss"
+            className="inline-flex h-10 items-center justify-center rounded-xl border border-slate-300 bg-white px-4 text-sm font-semibold text-slate-700 transition hover:bg-slate-50"
+          >
+            해제
+          </button>
+        </>
+      ) : null}
+
+      {normalized === "in_progress" ? (
+        <>
+          <button
+            type="submit"
+            name="intent"
+            value="done"
+            className="inline-flex h-10 items-center justify-center rounded-xl bg-emerald-600 px-4 text-sm font-semibold text-white transition hover:bg-emerald-700"
+          >
+            완료
+          </button>
+          <button
+            type="submit"
+            name="intent"
+            value="dismiss"
+            className="inline-flex h-10 items-center justify-center rounded-xl border border-slate-300 bg-white px-4 text-sm font-semibold text-slate-700 transition hover:bg-slate-50"
+          >
+            해제
+          </button>
+        </>
+      ) : null}
+
+      {(normalized === "done" || normalized === "dismissed") && (
+        <button
+          type="submit"
+          name="intent"
+          value="reset"
+          className="inline-flex h-10 items-center justify-center rounded-xl border border-slate-300 bg-white px-4 text-sm font-semibold text-slate-700 transition hover:bg-slate-50"
+        >
+          다시 추천
+        </button>
+      )}
+    </form>
+  );
+}
+
 export default async function HQActionsPage({
   searchParams,
 }: {
@@ -105,6 +223,11 @@ export default async function HQActionsPage({
   const selectedBrandId = toOptionalNumber(resolved.brandId);
   const selectedStatus = (resolved.status || "").trim();
   const offset = (page - 1) * PAGE_SIZE;
+  const currentHref = buildHref("/hq/actions", {
+    brandId: selectedBrandId ?? undefined,
+    status: selectedStatus || undefined,
+    page,
+  });
 
   const supabase = await createClient();
 
@@ -140,6 +263,8 @@ export default async function HQActionsPage({
     page: rows.length === PAGE_SIZE ? page + 1 : undefined,
   });
 
+  const message = getMessage(resolved.success, resolved.error);
+
   return (
     <main className="min-h-screen">
       <div className="mx-auto flex w-full max-w-7xl flex-col gap-6 px-4 py-8 sm:px-6 lg:px-8">
@@ -174,6 +299,18 @@ export default async function HQActionsPage({
             </div>
           </div>
         </section>
+
+        {message ? (
+          <section
+            className={`rounded-2xl border px-4 py-3 text-sm shadow-sm ${
+              resolved.error
+                ? "border-red-200 bg-red-50 text-red-700"
+                : "border-emerald-200 bg-emerald-50 text-emerald-700"
+            }`}
+          >
+            {message}
+          </section>
+        ) : null}
 
         <section className="grid grid-cols-1 gap-4 md:grid-cols-3">
           <div className="rounded-3xl border border-sky-200 bg-sky-50 p-5 shadow-sm">
@@ -323,6 +460,14 @@ export default async function HQActionsPage({
                         예상 효과: {row.expected_effect}
                       </div>
                     ) : null}
+
+                    <div className="mt-4">
+                      <ActionButtons
+                        actionId={row.action_id}
+                        status={row.status}
+                        next={currentHref}
+                      />
+                    </div>
                   </div>
 
                   <div className="grid min-w-full grid-cols-2 gap-3 sm:min-w-[340px] sm:grid-cols-3 xl:min-w-[420px]">

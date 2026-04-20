@@ -1,9 +1,15 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { createClient } from "@/lib/supabase/server";
+import { mutateHqActionStatusAction } from "@/app/hq/actions";
 
 type Params = Promise<{
   storeId: string;
+}>;
+
+type SearchParams = Promise<{
+  success?: string;
+  error?: string;
 }>;
 
 type StoreDetailRow = {
@@ -85,6 +91,28 @@ function safeString(value: unknown) {
   return typeof value === "string" ? value : "";
 }
 
+function getMessage(success?: string, error?: string) {
+  if (success === "accepted") return "액션이 수락되었습니다.";
+  if (success === "started") return "액션이 진행중으로 변경되었습니다.";
+  if (success === "done") return "액션이 완료 처리되었습니다.";
+  if (success === "dismissed") return "액션이 해제되었습니다.";
+  if (success === "reset") return "액션이 다시 recommended 상태로 돌아갔습니다.";
+
+  if (error === "invalid_request") return "요청 값이 올바르지 않습니다.";
+  if (error === "action_not_found") return "대상 액션을 찾지 못했습니다.";
+  if (error === "score_not_found") return "연결된 점수 정보를 찾지 못했습니다.";
+  if (error === "accept_failed") return "액션 수락 처리에 실패했습니다.";
+  if (error === "start_failed") return "액션 시작 처리에 실패했습니다.";
+  if (error === "done_failed") return "액션 완료 처리에 실패했습니다.";
+  if (error === "dismiss_failed") return "액션 해제 처리에 실패했습니다.";
+  if (error === "reset_failed") return "액션 초기화에 실패했습니다.";
+  if (error === "run_insert_failed") return "액션 실행 이력 저장에 실패했습니다.";
+  if (error === "run_update_failed") return "액션 실행 이력 갱신에 실패했습니다.";
+  if (error === "unknown_intent") return "알 수 없는 요청입니다.";
+
+  return "";
+}
+
 function MetricCard({
   label,
   value,
@@ -103,12 +131,108 @@ function MetricCard({
   );
 }
 
+function DetailActionButtons({
+  actionId,
+  status,
+  next,
+}: {
+  actionId: number;
+  status?: string | null;
+  next: string;
+}) {
+  const normalized = String(status || "").toLowerCase();
+
+  return (
+    <form action={mutateHqActionStatusAction} className="mt-4 flex flex-wrap gap-2">
+      <input type="hidden" name="action_id" value={actionId} />
+      <input type="hidden" name="next" value={next} />
+
+      {normalized === "recommended" ? (
+        <>
+          <button
+            type="submit"
+            name="intent"
+            value="accept"
+            className="inline-flex h-10 items-center justify-center rounded-xl bg-slate-950 px-4 text-sm font-semibold text-white transition hover:bg-slate-800"
+          >
+            수락
+          </button>
+          <button
+            type="submit"
+            name="intent"
+            value="dismiss"
+            className="inline-flex h-10 items-center justify-center rounded-xl border border-slate-300 bg-white px-4 text-sm font-semibold text-slate-700 transition hover:bg-slate-50"
+          >
+            해제
+          </button>
+        </>
+      ) : null}
+
+      {normalized === "accepted" ? (
+        <>
+          <button
+            type="submit"
+            name="intent"
+            value="start"
+            className="inline-flex h-10 items-center justify-center rounded-xl bg-slate-950 px-4 text-sm font-semibold text-white transition hover:bg-slate-800"
+          >
+            시작
+          </button>
+          <button
+            type="submit"
+            name="intent"
+            value="dismiss"
+            className="inline-flex h-10 items-center justify-center rounded-xl border border-slate-300 bg-white px-4 text-sm font-semibold text-slate-700 transition hover:bg-slate-50"
+          >
+            해제
+          </button>
+        </>
+      ) : null}
+
+      {normalized === "in_progress" ? (
+        <>
+          <button
+            type="submit"
+            name="intent"
+            value="done"
+            className="inline-flex h-10 items-center justify-center rounded-xl bg-emerald-600 px-4 text-sm font-semibold text-white transition hover:bg-emerald-700"
+          >
+            완료
+          </button>
+          <button
+            type="submit"
+            name="intent"
+            value="dismiss"
+            className="inline-flex h-10 items-center justify-center rounded-xl border border-slate-300 bg-white px-4 text-sm font-semibold text-slate-700 transition hover:bg-slate-50"
+          >
+            해제
+          </button>
+        </>
+      ) : null}
+
+      {(normalized === "done" || normalized === "dismissed") && (
+        <button
+          type="submit"
+          name="intent"
+          value="reset"
+          className="inline-flex h-10 items-center justify-center rounded-xl border border-slate-300 bg-white px-4 text-sm font-semibold text-slate-700 transition hover:bg-slate-50"
+        >
+          다시 추천
+        </button>
+      )}
+    </form>
+  );
+}
+
 export default async function HQStoreDetailPage({
   params,
+  searchParams,
 }: {
   params: Params;
+  searchParams?: SearchParams;
 }) {
   const resolved = await params;
+  const resolvedSearch = (await searchParams) || {};
   const storeId = Number(resolved.storeId);
 
   if (!Number.isFinite(storeId)) {
@@ -135,6 +259,8 @@ export default async function HQStoreDetailPage({
   const reasons = asArray(row.reasons);
   const actions = asArray(row.actions);
   const runs = asArray(row.action_runs);
+  const next = `/hq/stores/${row.store_id}`;
+  const message = getMessage(resolvedSearch.success, resolvedSearch.error);
 
   return (
     <main className="min-h-screen">
@@ -192,6 +318,18 @@ export default async function HQStoreDetailPage({
             </div>
           </div>
         </section>
+
+        {message ? (
+          <section
+            className={`rounded-2xl border px-4 py-3 text-sm shadow-sm ${
+              resolvedSearch.error
+                ? "border-red-200 bg-red-50 text-red-700"
+                : "border-emerald-200 bg-emerald-50 text-emerald-700"
+            }`}
+          >
+            {message}
+          </section>
+        ) : null}
 
         <section className="grid grid-cols-1 gap-4 md:grid-cols-2 xl:grid-cols-4">
           <MetricCard
@@ -309,6 +447,14 @@ export default async function HQStoreDetailPage({
                       <div className="mt-3 text-sm text-slate-500">
                         예상효과: {action.expected_effect}
                       </div>
+                    ) : null}
+
+                    {action?.action_id ? (
+                      <DetailActionButtons
+                        actionId={Number(action.action_id)}
+                        status={typeof action?.status === "string" ? action.status : null}
+                        next={next}
+                      />
                     ) : null}
                   </div>
                 ))
