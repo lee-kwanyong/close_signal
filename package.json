@@ -7,6 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
+
     "collect:source": "tsx workers/run-source.ts",
     "collect:all": "tsx workers/run-all-sources.ts",
     "collect:store": "tsx collector/close-signal-collector.ts",
@@ -25,7 +26,9 @@
     "collect:review": "tsx collector/review-region-category-collector.ts",
     "collect:accessibility": "tsx collector/accessibility-region-collector.ts",
     "collect:tourism": "tsx collector/tourism-region-collector.ts",
-    "collect:quality": "tsx collector/run-quality-snapshot-collectors.ts"
+    "collect:quality": "tsx collector/run-quality-snapshot-collectors.ts",
+
+    "collect:integrated-risk": "tsx collector/refresh-integrated-snapshot-risk.ts"
   },
   "dependencies": {
     "@supabase/ssr": "^0.5.2",
