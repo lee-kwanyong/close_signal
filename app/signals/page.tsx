@@ -1,11 +1,6 @@
 import Link from "next/link";
-import { createServerSupabaseClient } from "@/lib/supabase/server";
+import { createClient } from "@/lib/supabase/server";
 import { buildMonitorPrefillHref } from "@/lib/monitors/prefill-link";
-import {
-  buildCommunityWriteHref,
-  presentRiskSignal,
-  type RawRiskSignalRow,
-} from "@/lib/close-signal/intel/presenter";
 
 export const dynamic = "force-dynamic";
 
@@ -14,16 +9,51 @@ type ActionBand = "intake_now" | "review_today" | "watch" | "archive";
 type SearchParams = Promise<{
   q?: string | string[] | undefined;
   band?: string | string[] | undefined;
+  regionCode?: string | string[] | undefined;
+  pressureGrade?: string | string[] | undefined;
 }>;
 
-type SignalRow = RawRiskSignalRow & {
-  signal_id?: string | number | null;
-  score?: number | null;
-  grade?: string | null;
-  type?: string | null;
+type IntegratedDistributionRow = {
+  total_rows: number | null;
+  avg_integrated_signal_score: number | null;
+  critical_count: number | null;
+  high_count: number | null;
+  medium_count: number | null;
+  low_count: number | null;
 };
 
-type PresentedSignal = ReturnType<typeof presentRiskSignal>;
+type IntegratedTopRow = {
+  region_code: string | null;
+  region_name: string | null;
+  category_id: number | null;
+  category_name: string | null;
+  score_month: string | null;
+  adjusted_score: number | null;
+  risk_grade: string | null;
+  closure_region_code: string | null;
+  closure_region_name: string | null;
+  pressure_grade: string | null;
+  national_share_pct: number | null;
+  yoy_closed_delta_pct: number | null;
+  close_rate_pct: number | null;
+  operating_yoy_change_pct: number | null;
+  net_change: number | null;
+  integrated_signal_score: number | null;
+};
+
+type IntegratedGapRow = {
+  region_code: string | null;
+  region_name: string | null;
+  category_id: number | null;
+  category_name: string | null;
+  score_month: string | null;
+  adjusted_score: number | null;
+  risk_grade: string | null;
+  closure_region_code: string | null;
+  closure_region_name: string | null;
+  pressure_grade: string | null;
+  integrated_signal_score: number | null;
+};
 
 function asArray<T>(value: T[] | null | undefined): T[] {
   return Array.isArray(value) ? value : [];
@@ -33,38 +63,47 @@ function pickFirst(value: string | string[] | undefined, fallback = "") {
   return Array.isArray(value) ? value[0] ?? fallback : value ?? fallback;
 }
 
-function text(...values: unknown[]) {
-  for (const value of values) {
-    if (typeof value === "string") {
-      const trimmed = value.trim();
-      if (trimmed) return trimmed;
-    }
-    if (typeof value === "number" && Number.isFinite(value)) {
-      return String(value);
-    }
+function text(value: unknown) {
+  if (typeof value === "string") {
+    const trimmed = value.trim();
+    return trimmed.length > 0 ? trimmed : "";
+  }
+  if (typeof value === "number" && Number.isFinite(value)) {
+    return String(value);
   }
   return "";
 }
 
-function nullableText(...values: unknown[]) {
-  const value = text(...values);
-  return value || null;
+function nullableText(value: unknown) {
+  const normalized = text(value);
+  return normalized || null;
 }
 
-function formatNumber(value: number) {
+function num(value: number | null | undefined, fallback = 0) {
+  return value === null || value === undefined || Number.isNaN(value)
+    ? fallback
+    : Number(value);
+}
+
+function formatNumber(value: number | null | undefined) {
+  if (value == null || !Number.isFinite(value)) return "-";
   return new Intl.NumberFormat("ko-KR").format(value);
 }
 
-function formatScore(value: number | null | undefined) {
+function formatScore(value: number | null | undefined, digits = 1) {
   if (value == null || !Number.isFinite(value)) return "-";
-  return String(Math.round(value));
+  return Number(value).toFixed(digits);
 }
 
-function formatDate(value?: string | null) {
-  if (!value) return "날짜 없음";
+function formatPercent(value: number | null | undefined, digits = 2) {
+  if (value == null || !Number.isFinite(value)) return "-";
+  return `${Number(value).toFixed(digits)}%`;
+}
 
-  const raw = String(value);
-  const match = raw.match(/^(\d{4})-(\d{2})-(\d{2})/);
+function formatRelativeMonth(value?: string | null) {
+  if (!value) return "기준월 없음";
+
+  const match = String(value).match(/^(\d{4})-(\d{2})-(\d{2})$/);
   if (match) {
     return `${match[1]}.${match[2]}.${match[3]}`;
   }
@@ -78,18 +117,65 @@ function formatDate(value?: string | null) {
   return `${yyyy}.${mm}.${dd}`;
 }
 
-function formatRelativeDate(value?: string | null) {
-  if (!value) return "기록 없음";
+function normalizeRegionCode(code?: string | null) {
+  const raw = String(code || "").trim().toUpperCase();
+  if (!raw) return "";
 
-  const date = new Date(value);
-  if (Number.isNaN(date.getTime())) return value;
+  const aliasMap: Record<string, string> = {
+    KR: "KR",
+    "11": "KR-11",
+    "26": "KR-26",
+    "27": "KR-27",
+    "28": "KR-28",
+    "29": "KR-29",
+    "30": "KR-30",
+    "31": "KR-31",
+    "36": "KR-36",
+    "41": "KR-41",
+    "42": "KR-42",
+    "43": "KR-43",
+    "44": "KR-44",
+    "45": "KR-45",
+    "46": "KR-46",
+    "47": "KR-47",
+    "48": "KR-48",
+    "50": "KR-50",
+    A01: "KR-11",
+    A02: "KR-26",
+    A03: "KR-41",
+    A04: "KR-27",
+    A05: "KR-28",
+    A06: "KR-29",
+    A07: "KR-30",
+    A08: "KR-31",
+    A09: "KR-36",
+    A10: "KR-42",
+    A11: "KR-43",
+    A12: "KR-44",
+    A13: "KR-45",
+    A14: "KR-46",
+    A15: "KR-47",
+    A16: "KR-48",
+    A17: "KR-50",
+  };
 
-  const diff = Math.floor((Date.now() - date.getTime()) / (1000 * 60 * 60 * 24));
+  if (aliasMap[raw]) return aliasMap[raw];
+  if (/^KR-\d{2}$/.test(raw)) return raw;
+  return raw;
+}
 
-  if (diff <= 0) return "오늘";
-  if (diff === 1) return "1일 전";
-  if (diff < 7) return `${diff}일 전`;
-  return formatDate(value);
+function candidateRegionCodes(input?: string | null) {
+  const raw = String(input || "").trim();
+  if (!raw) return [];
+
+  const normalized = normalizeRegionCode(raw);
+  const set = new Set<string>([raw, raw.toUpperCase(), normalized]);
+
+  if (/^KR-\d{2}$/i.test(normalized)) {
+    set.add(normalized.slice(3));
+  }
+
+  return Array.from(set).filter(Boolean);
 }
 
 function scoreTone(score: number | null | undefined) {
@@ -97,9 +183,68 @@ function scoreTone(score: number | null | undefined) {
     return "border-sky-200 bg-white text-slate-600";
   }
   if (score >= 80) return "border-rose-200 bg-rose-50 text-rose-700";
-  if (score >= 60) return "border-amber-200 bg-amber-50 text-amber-700";
-  if (score >= 40) return "border-sky-200 bg-sky-50 text-sky-700";
+  if (score >= 65) return "border-orange-200 bg-orange-50 text-orange-700";
+  if (score >= 45) return "border-amber-200 bg-amber-50 text-amber-700";
   return "border-blue-200 bg-blue-50 text-blue-700";
+}
+
+function adjustedTone(score: number | null | undefined) {
+  if (score == null || !Number.isFinite(score)) {
+    return "border-sky-200 bg-white text-slate-600";
+  }
+  if (score >= 80) return "border-rose-200 bg-rose-50 text-rose-700";
+  if (score >= 60) return "border-orange-200 bg-orange-50 text-orange-700";
+  if (score >= 40) return "border-amber-200 bg-amber-50 text-amber-700";
+  return "border-blue-200 bg-blue-50 text-blue-700";
+}
+
+function pressureTone(grade: string | null | undefined) {
+  const value = String(grade || "").toLowerCase();
+
+  if (value === "critical") return "border-rose-200 bg-rose-50 text-rose-700";
+  if (value === "high") return "border-orange-200 bg-orange-50 text-orange-700";
+  if (value === "moderate") return "border-amber-200 bg-amber-50 text-amber-700";
+  if (value === "observe") return "border-sky-200 bg-sky-50 text-sky-700";
+  return "border-slate-200 bg-slate-50 text-slate-500";
+}
+
+function riskGradeTone(grade: string | null | undefined) {
+  const value = String(grade || "").toLowerCase();
+
+  if (value === "critical") return "border-rose-200 bg-rose-50 text-rose-700";
+  if (value === "high") return "border-orange-200 bg-orange-50 text-orange-700";
+  if (value === "medium") return "border-amber-200 bg-amber-50 text-amber-700";
+  return "border-sky-200 bg-sky-50 text-sky-700";
+}
+
+function integratedLabel(score: number | null | undefined) {
+  const n = num(score, 0);
+
+  if (score == null) return "미정";
+  if (n >= 80) return "치명";
+  if (n >= 65) return "높음";
+  if (n >= 45) return "주의";
+  return "관찰";
+}
+
+function pressureGradeLabel(grade: string | null | undefined) {
+  const value = String(grade || "").toLowerCase();
+
+  if (value === "critical") return "외부 치명";
+  if (value === "high") return "외부 높음";
+  if (value === "moderate") return "외부 주의";
+  if (value === "observe") return "외부 관찰";
+  return "외부 미연결";
+}
+
+function riskGradeLabel(grade: string | null | undefined) {
+  const value = String(grade || "").toLowerCase();
+
+  if (value === "critical") return "내부 치명";
+  if (value === "high") return "내부 높음";
+  if (value === "medium") return "내부 주의";
+  if (value === "low") return "내부 낮음";
+  return "내부 미정";
 }
 
 function normalizeBand(value?: string): ActionBand | "all" {
@@ -117,69 +262,33 @@ function normalizeBand(value?: string): ActionBand | "all" {
   return "all";
 }
 
-function suggestedStage(riskGrade?: string | null, signalType?: string | null) {
-  const grade = String(riskGrade || "").trim().toLowerCase();
-  const type = String(signalType || "").trim().toLowerCase();
-
-  if (grade === "critical") return "urgent";
-  if (grade === "high") return "urgent";
-  if (type.includes("closure") || type.includes("rapid_drop")) return "urgent";
-  if (grade === "moderate") return "caution";
-  return "observe";
-}
-
-function loginAwareHref(href: string, isLoggedIn: boolean) {
-  return isLoggedIn ? href : `/auth/login?next=${encodeURIComponent(href)}`;
-}
-
-function buildUrl(query: string, band: ActionBand | "all") {
-  const params = new URLSearchParams();
-
-  if (query.trim()) params.set("q", query.trim());
-  if (band !== "all") params.set("band", band);
-
-  const qs = params.toString();
-  return qs ? `/signals?${qs}` : "/signals";
-}
-
-function buildRegionHref(signal: PresentedSignal) {
-  if (!signal.regionCode || !signal.categoryId) return null;
-  return `/regions/${encodeURIComponent(signal.regionCode)}/${encodeURIComponent(
-    String(signal.categoryId),
-  )}`;
-}
-
-function inferActionBand(signal: PresentedSignal): ActionBand {
-  const score = signal.riskScore ?? 0;
-  const grade = String(signal.riskGrade || "").toLowerCase();
-  const type = String(signal.signalType || "").toLowerCase();
-  const closeRiskCount = signal.closeRiskCount ?? 0;
+function inferActionBand(row: IntegratedTopRow): ActionBand {
+  const integrated = num(row.integrated_signal_score, 0);
+  const adjusted = num(row.adjusted_score, 0);
+  const pressure = String(row.pressure_grade || "").toLowerCase();
 
   if (
-    score >= 80 ||
-    grade === "critical" ||
-    (grade === "high" && closeRiskCount > 0) ||
-    type.includes("closure") ||
-    type.includes("rapid_drop")
+    integrated >= 45 ||
+    (pressure === "critical" && adjusted >= 20) ||
+    (pressure === "critical" && integrated >= 30)
   ) {
     return "intake_now";
   }
 
   if (
-    score >= 60 ||
-    grade === "high" ||
-    type.includes("high") ||
-    type.includes("decline") ||
-    type.includes("shrink")
+    integrated >= 30 ||
+    adjusted >= 25 ||
+    pressure === "high" ||
+    (pressure === "critical" && adjusted >= 12)
   ) {
     return "review_today";
   }
 
   if (
-    score >= 40 ||
-    grade === "moderate" ||
-    type.includes("overheat") ||
-    type.includes("alert")
+    integrated >= 15 ||
+    adjusted >= 12 ||
+    pressure === "moderate" ||
+    pressure === "observe"
   ) {
     return "watch";
   }
@@ -226,18 +335,15 @@ function bandTone(band: ActionBand) {
   }
 }
 
-function includesQuery(signal: PresentedSignal, query: string) {
+function includesQuery(row: IntegratedTopRow, query: string) {
   if (!query.trim()) return true;
 
   const haystack = [
-    signal.title,
-    signal.summary,
-    signal.why,
-    signal.action,
-    signal.regionName,
-    signal.categoryName,
-    signal.signalTypeLabel,
-    signal.riskGradeLabel,
+    row.region_name,
+    row.category_name,
+    row.risk_grade,
+    row.pressure_grade,
+    row.closure_region_name,
   ]
     .filter(Boolean)
     .join(" ")
@@ -246,87 +352,113 @@ function includesQuery(signal: PresentedSignal, query: string) {
   return haystack.includes(query.trim().toLowerCase());
 }
 
-function compareSignals(a: PresentedSignal, b: PresentedSignal) {
+function compareRows(a: IntegratedTopRow, b: IntegratedTopRow) {
   const bandGap = bandRank(inferActionBand(a)) - bandRank(inferActionBand(b));
   if (bandGap !== 0) return bandGap;
 
-  const scoreGap = (b.riskScore ?? -1) - (a.riskScore ?? -1);
-  if (scoreGap !== 0) return scoreGap;
+  const integratedGap = num(b.integrated_signal_score, -1) - num(a.integrated_signal_score, -1);
+  if (integratedGap !== 0) return integratedGap;
 
-  const closeRiskGap = (b.closeRiskCount ?? -1) - (a.closeRiskCount ?? -1);
-  if (closeRiskGap !== 0) return closeRiskGap;
+  const adjustedGap = num(b.adjusted_score, -1) - num(a.adjusted_score, -1);
+  if (adjustedGap !== 0) return adjustedGap;
 
-  const aTime = new Date(a.createdAt ?? a.signalDate ?? a.scoreDate ?? 0).getTime();
-  const bTime = new Date(b.createdAt ?? b.signalDate ?? b.scoreDate ?? 0).getTime();
-
-  return bTime - aTime;
+  return String(a.region_code || "").localeCompare(String(b.region_code || ""));
 }
 
-function normalizeSignal(row: SignalRow): PresentedSignal {
+function loginAwareHref(href: string, isLoggedIn: boolean) {
+  return isLoggedIn ? href : `/auth/login?next=${encodeURIComponent(href)}`;
+}
+
+function buildUrl(query: string, band: ActionBand | "all", regionCode?: string, pressureGrade?: string) {
+  const params = new URLSearchParams();
+
+  if (query.trim()) params.set("q", query.trim());
+  if (band !== "all") params.set("band", band);
+  if (text(regionCode)) params.set("regionCode", text(regionCode)!);
+  if (text(pressureGrade)) params.set("pressureGrade", text(pressureGrade)!);
+
+  const qs = params.toString();
+  return qs ? `/signals?${qs}` : "/signals";
+}
+
+function buildRegionHref(row: IntegratedTopRow) {
+  const regionCode = normalizeRegionCode(row.region_code);
+  const categoryId = row.category_id;
+
+  if (!regionCode || categoryId == null) return null;
+  return `/regions/${encodeURIComponent(regionCode)}/${encodeURIComponent(String(categoryId))}#db-insight`;
+}
+
+function suggestedStage(row: IntegratedTopRow) {
+  const integrated = num(row.integrated_signal_score, 0);
+
+  if (integrated >= 45) return "urgent";
+  if (integrated >= 30) return "caution";
+  return "observe";
+}
+
+async function getDistribution(client: Awaited<ReturnType<typeof createClient>>) {
   try {
-    return presentRiskSignal(row);
+    const { data } = await client
+      .from("v_integrated_risk_distribution_current")
+      .select("*")
+      .limit(1)
+      .maybeSingle();
+
+    return (data ?? null) as IntegratedDistributionRow | null;
   } catch {
-    return presentRiskSignal({
-      id: nullableText(row.id, row.signal_id) ?? `${Math.random()}`,
-      signal_type: nullableText(row.signal_type, row.type),
-      type: nullableText(row.type, row.signal_type),
-      title: nullableText(row.title),
-      summary: nullableText(row.summary),
-      description: nullableText(row.description),
-      region_code: nullableText(row.region_code),
-      region_name: nullableText(row.region_name),
-      category_id: nullableText(row.category_id),
-      category_name: nullableText(row.category_name),
-      query: nullableText((row as Record<string, unknown>).query),
-      keyword: nullableText((row as Record<string, unknown>).keyword),
-      reason: nullableText((row as Record<string, unknown>).reason),
-      stage: nullableText((row as Record<string, unknown>).stage),
-      source: nullableText((row as Record<string, unknown>).source),
-      risk_score: row.risk_score ?? row.score ?? null,
-      risk_grade: nullableText(row.risk_grade, row.grade),
-      grade: nullableText(row.grade, row.risk_grade),
-      created_at: nullableText(row.created_at),
-      updated_at: nullableText(row.updated_at),
-      signal_date: nullableText(row.signal_date),
-      score_date: nullableText(row.score_date),
-      business_count: row.business_count ?? null,
-      close_risk_count: row.close_risk_count ?? null,
-    } as RawRiskSignalRow);
+    return null;
   }
 }
 
-async function getSignals(client: Awaited<ReturnType<typeof createServerSupabaseClient>>) {
-  const candidates = [
-    async () =>
-      client.from("risk_signals").select("*").order("created_at", { ascending: false }).limit(80),
+async function getTopRows(
+  client: Awaited<ReturnType<typeof createClient>>,
+  params: {
+    regionCode?: string;
+    pressureGrade?: string;
+  },
+) {
+  try {
+    let query = client
+      .from("v_integrated_risk_top_current")
+      .select("*")
+      .limit(80);
 
-    async () =>
-      client
-        .from("risk_signal_snapshots")
-        .select("*")
-        .order("created_at", { ascending: false })
-        .limit(80),
-
-    async () =>
-      client
-        .from("business_health_snapshots")
-        .select("*")
-        .order("created_at", { ascending: false })
-        .limit(80),
-  ];
-
-  for (const run of candidates) {
-    try {
-      const result = await run();
-      if (!result.error && Array.isArray(result.data)) {
-        return result.data as SignalRow[];
-      }
-    } catch {
-      continue;
+    if (params.regionCode) {
+      query = query.in("region_code", candidateRegionCodes(params.regionCode));
     }
-  }
 
-  return [];
+    if (params.pressureGrade) {
+      query = query.eq("pressure_grade", params.pressureGrade);
+    }
+
+    const { data } = await query;
+    return (data ?? []) as IntegratedTopRow[];
+  } catch {
+    return [] as IntegratedTopRow[];
+  }
+}
+
+async function getGapRows(
+  client: Awaited<ReturnType<typeof createClient>>,
+  regionCode?: string,
+) {
+  try {
+    let query = client
+      .from("v_integrated_risk_join_gaps_current")
+      .select("*")
+      .order("region_code", { ascending: true })
+      .order("category_id", { ascending: true });
+
+    if (regionCode) {
+      query = query.in("region_code", candidateRegionCodes(regionCode));
+    }
+
+    const { data } = await query;
+    return (data ?? []) as IntegratedGapRow[];
+  } catch {
+    return [] as IntegratedGapRow[];
+  }
 }
 
 function FilterLink({
@@ -388,49 +520,63 @@ export default async function SignalsPage({
 }) {
   const resolvedSearchParams = searchParams ? await searchParams : {};
   const query = pickFirst(resolvedSearchParams.q, "");
+  const regionCode = pickFirst(resolvedSearchParams.regionCode, "");
+  const pressureGrade = pickFirst(resolvedSearchParams.pressureGrade, "");
   const selectedBand = normalizeBand(pickFirst(resolvedSearchParams.band, "all"));
 
-  const supabase = await createServerSupabaseClient();
+  const supabase = await createClient();
   const {
     data: { user },
   } = await supabase.auth.getUser();
 
-  const rows = await getSignals(supabase);
+  const [summary, rows, gapRows] = await Promise.all([
+    getDistribution(supabase),
+    getTopRows(supabase, {
+      regionCode: regionCode || undefined,
+      pressureGrade: pressureGrade || undefined,
+    }),
+    getGapRows(supabase, regionCode || undefined),
+  ]);
 
-  const signals = asArray(rows).map(normalizeSignal).sort(compareSignals);
+  const normalizedRows = asArray(rows).sort(compareRows);
 
-  const filtered = signals.filter((signal) => {
-    const band = inferActionBand(signal);
+  const filtered = normalizedRows.filter((row) => {
+    const band = inferActionBand(row);
     const matchedBand = selectedBand === "all" ? true : band === selectedBand;
-    return matchedBand && includesQuery(signal, query);
+    return matchedBand && includesQuery(row, query);
   });
 
-  const intakeNowCount = signals.filter((signal) => inferActionBand(signal) === "intake_now").length;
-  const reviewTodayCount = signals.filter((signal) => inferActionBand(signal) === "review_today").length;
-  const highRiskCount = signals.filter((signal) => {
-    const grade = String(signal.riskGrade || "").toLowerCase();
-    return grade === "high" || grade === "critical" || (signal.riskScore ?? 0) >= 70;
-  }).length;
-  const regionCount = new Set(signals.map((signal) => signal.regionCode).filter(Boolean)).size;
-
+  const intakeNowCount = normalizedRows.filter((row) => inferActionBand(row) === "intake_now").length;
+  const reviewTodayCount = normalizedRows.filter((row) => inferActionBand(row) === "review_today").length;
+  const watchCount = normalizedRows.filter((row) => inferActionBand(row) === "watch").length;
+  const archiveCount = normalizedRows.filter((row) => inferActionBand(row) === "archive").length;
+  const regionCount = new Set(normalizedRows.map((row) => normalizeRegionCode(row.region_code)).filter(Boolean)).size;
   const spotlight = filtered.slice(0, 5);
   const isLoggedIn = Boolean(user);
 
+  const gapRegionNames = Array.from(
+    new Set(
+      gapRows
+        .map((row) => text(row.region_name) || normalizeRegionCode(row.region_code))
+        .filter(Boolean),
+    ),
+  );
+
   return (
- <main className="min-h-screen bg-sky-50 text-slate-900">
+    <main className="min-h-screen bg-sky-50 text-slate-900">
       <section className="mx-auto max-w-7xl px-4 py-6 sm:px-6">
         <div className="space-y-5">
           <section className="rounded-[28px] border border-sky-100 bg-sky-50 p-5 shadow-[0_12px_30px_rgba(14,165,233,0.08)] sm:p-6">
             <div className="flex flex-col gap-4 xl:flex-row xl:items-end xl:justify-between">
               <div className="min-w-0">
                 <div className="text-[11px] font-black uppercase tracking-[0.18em] text-sky-700">
-                  Close Signal · Discovery Inbox
+                  Integrated Risk · Discovery Inbox
                 </div>
                 <h1 className="mt-2 text-2xl font-black tracking-[-0.04em] text-slate-950 sm:text-3xl">
-                  바로 인테이크할 신호를 먼저 봅니다
+                  통합 위험시그널 인박스
                 </h1>
                 <p className="mt-2 text-sm leading-6 text-slate-600">
-                  설명보다 운영 우선순위가 먼저 보이도록 시그널 인박스를 다시 정리했습니다.
+                  내부 위험점수와 외부 폐업압력을 함께 보고, 바로 인테이크할 항목부터 정렬합니다.
                 </p>
               </div>
 
@@ -454,7 +600,7 @@ export default async function SignalsPage({
               <MetricCard
                 title="바로 인테이크"
                 value={formatNumber(intakeNowCount)}
-                description="즉시 모니터 등록 검토"
+                description="통합위험 상단 또는 외부 치명 결합"
                 tone={intakeNowCount > 0 ? "danger" : "default"}
               />
               <MetricCard
@@ -464,18 +610,37 @@ export default async function SignalsPage({
                 tone={reviewTodayCount > 0 ? "warning" : "default"}
               />
               <MetricCard
-                title="고위험"
-                value={formatNumber(highRiskCount)}
-                description="고위험 또는 70점 이상"
-                tone={highRiskCount > 0 ? "info" : "default"}
+                title="전체 행 수"
+                value={formatNumber(summary?.total_rows)}
+                description="현재 통합 랭킹 대상 수"
+                tone="info"
               />
               <MetricCard
-                title="연결 지역"
-                value={formatNumber(regionCount)}
-                description="현재 신호가 걸린 지역 수"
+                title="평균 통합위험"
+                value={formatScore(summary?.avg_integrated_signal_score, 2)}
+                description="현재 통합위험 평균"
               />
             </div>
           </section>
+
+          {gapRows.length > 0 ? (
+            <section className="rounded-[28px] border border-amber-200 bg-amber-50 p-4 shadow-[0_12px_30px_rgba(245,158,11,0.08)] sm:p-5">
+              <div className="flex flex-col gap-3 xl:flex-row xl:items-center xl:justify-between">
+                <div>
+                  <div className="text-sm font-semibold text-amber-800">
+                    외부 폐업압력 조인 미연결 항목이 남아 있습니다.
+                  </div>
+                  <div className="mt-1 text-sm text-amber-700">
+                    {gapRegionNames.join(", ")} · 총 {gapRows.length}건
+                  </div>
+                </div>
+
+                <div className="text-sm text-amber-700">
+                  현재 이 항목들은 내부 위험점수 중심으로만 계산됩니다.
+                </div>
+              </div>
+            </section>
+          ) : null}
 
           <section className="rounded-[28px] border border-sky-100 bg-sky-50 p-4 shadow-[0_12px_30px_rgba(14,165,233,0.08)] sm:p-5">
             <form method="get" className="flex flex-col gap-3">
@@ -484,11 +649,15 @@ export default async function SignalsPage({
                   type="text"
                   name="q"
                   defaultValue={query}
-                  placeholder="지역, 업종, 제목, 사유로 검색"
+                  placeholder="지역, 업종, 위험등급, 외부압력으로 검색"
                   className="h-11 min-w-0 flex-1 rounded-2xl border border-sky-200 bg-white px-4 text-sm outline-none placeholder:text-slate-400 focus:border-sky-400"
                 />
 
                 {selectedBand !== "all" ? <input type="hidden" name="band" value={selectedBand} /> : null}
+                {text(regionCode) ? <input type="hidden" name="regionCode" value={regionCode} /> : null}
+                {text(pressureGrade) ? (
+                  <input type="hidden" name="pressureGrade" value={pressureGrade} />
+                ) : null}
 
                 <button
                   type="submit"
@@ -499,26 +668,48 @@ export default async function SignalsPage({
               </div>
 
               <div className="flex flex-wrap gap-2">
-                <FilterLink active={selectedBand === "all"} href={buildUrl(query, "all")} label={`전체 ${signals.length}`} />
+                <FilterLink
+                  active={selectedBand === "all"}
+                  href={buildUrl(query, "all", regionCode, pressureGrade)}
+                  label={`전체 ${normalizedRows.length}`}
+                />
                 <FilterLink
                   active={selectedBand === "intake_now"}
-                  href={buildUrl(query, "intake_now")}
+                  href={buildUrl(query, "intake_now", regionCode, pressureGrade)}
                   label={`바로 인테이크 ${intakeNowCount}`}
                 />
                 <FilterLink
                   active={selectedBand === "review_today"}
-                  href={buildUrl(query, "review_today")}
+                  href={buildUrl(query, "review_today", regionCode, pressureGrade)}
                   label={`오늘 검토 ${reviewTodayCount}`}
                 />
                 <FilterLink
                   active={selectedBand === "watch"}
-                  href={buildUrl(query, "watch")}
-                  label={`관찰 ${signals.filter((item) => inferActionBand(item) === "watch").length}`}
+                  href={buildUrl(query, "watch", regionCode, pressureGrade)}
+                  label={`관찰 ${watchCount}`}
                 />
                 <FilterLink
                   active={selectedBand === "archive"}
-                  href={buildUrl(query, "archive")}
-                  label={`보관 ${signals.filter((item) => inferActionBand(item) === "archive").length}`}
+                  href={buildUrl(query, "archive", regionCode, pressureGrade)}
+                  label={`보관 ${archiveCount}`}
+                />
+              </div>
+
+              <div className="flex flex-wrap gap-2">
+                <FilterLink
+                  active={!pressureGrade}
+                  href={buildUrl(query, selectedBand, regionCode, "")}
+                  label="압력 전체"
+                />
+                <FilterLink
+                  active={pressureGrade === "critical"}
+                  href={buildUrl(query, selectedBand, regionCode, "critical")}
+                  label="외부 치명"
+                />
+                <FilterLink
+                  active={pressureGrade === "observe"}
+                  href={buildUrl(query, selectedBand, regionCode, "observe")}
+                  label="외부 관찰"
                 />
               </div>
             </form>
@@ -532,134 +723,153 @@ export default async function SignalsPage({
                     Action Queue
                   </div>
                   <div className="mt-1 text-xl font-black tracking-[-0.03em] text-slate-950">
-                    지금 처리할 신호
+                    지금 처리할 통합 신호
                   </div>
                 </div>
                 <div className="text-sm text-slate-500">
-                  필터 결과 {formatNumber(filtered.length)}개 / 전체 {formatNumber(signals.length)}개
+                  필터 결과 {formatNumber(filtered.length)}개 / 전체 {formatNumber(normalizedRows.length)}개 / 지역 {formatNumber(regionCount)}곳
                 </div>
               </div>
 
               <div className="space-y-3">
                 {filtered.length > 0 ? (
-                  filtered.map((signal) => {
-                    const band = inferActionBand(signal);
+                  filtered.map((row) => {
+                    const band = inferActionBand(row);
+                    const normalizedRegionCode = normalizeRegionCode(row.region_code);
+                    const categoryId = row.category_id != null ? Number(row.category_id) : null;
+                    const regionHref = buildRegionHref(row);
+
                     const intakeHref = loginAwareHref(
                       buildMonitorPrefillHref({
-                        from: "signals",
-                        businessName: signal.title,
-                        regionCode: signal.regionCode ?? undefined,
-                        regionName: signal.regionName ?? undefined,
-                        categoryId: signal.categoryId ?? undefined,
-                        categoryName: signal.categoryName ?? undefined,
-                        query: `${signal.regionName} ${signal.categoryName}`.trim(),
+                        from: "integrated_signals",
+                        businessName: `${row.region_name ?? normalizedRegionCode} ${row.category_name ?? row.category_id}`,
+                        regionCode: normalizedRegionCode || undefined,
+                        regionName: row.region_name ?? undefined,
+                        categoryId: categoryId ?? undefined,
+                        categoryName: row.category_name ?? undefined,
+                        query: `${row.region_name ?? ""} ${row.category_name ?? ""}`.trim(),
                         trendKeywords: [
-                          signal.regionName,
-                          signal.categoryName,
-                          signal.signalTypeLabel,
-                          signal.title,
+                          row.region_name,
+                          row.category_name,
+                          row.pressure_grade,
+                          row.risk_grade,
                         ].filter(Boolean) as string[],
-                        stage: suggestedStage(signal.riskGrade, signal.signalType),
-                        reason: signal.signalType || signal.riskGrade || undefined,
-                        score: signal.riskScore ?? undefined,
+                        stage: suggestedStage(row),
+                        reason: `${pressureGradeLabel(row.pressure_grade)} / ${riskGradeLabel(row.risk_grade)}`,
+                        score: row.integrated_signal_score ?? undefined,
+                        note: [
+                          `기준월: ${row.score_month ?? "-"}`,
+                          `통합위험: ${formatScore(row.integrated_signal_score, 1)}`,
+                          `내부위험: ${formatScore(row.adjusted_score, 1)}`,
+                          `외부압력: ${pressureGradeLabel(row.pressure_grade)}`,
+                          `전국비중: ${formatPercent(row.national_share_pct, 4)}`,
+                          `전년폐업증감: ${formatPercent(row.yoy_closed_delta_pct, 4)}`,
+                          `순증감: ${formatNumber(row.net_change)}`,
+                        ].join(" / "),
                       }),
                       isLoggedIn,
                     );
 
-                    const communityHref = loginAwareHref(buildCommunityWriteHref(signal), isLoggedIn);
-                    const regionHref = buildRegionHref(signal);
-
                     return (
                       <article
-                        key={String(signal.id)}
+                        key={`${normalizedRegionCode}-${String(row.category_id)}-${row.score_month}`}
                         className="rounded-[22px] border border-sky-100 bg-white p-4 transition hover:border-sky-300 hover:bg-sky-50/40"
                       >
                         <div className="flex flex-col gap-4 xl:flex-row xl:items-start xl:justify-between">
                           <div className="min-w-0 flex-1">
                             <div className="flex flex-wrap items-center gap-2">
                               <span
-                                className={`rounded-full border px-2.5 py-1 text-[11px] font-semibold ${bandTone(band)}`}
+                                className={`rounded-full border px-2.5 py-1 text-[11px] font-semibold ${bandTone(
+                                  band,
+                                )}`}
                               >
                                 {bandLabel(band)}
                               </span>
 
                               <span
-                                className={`rounded-full border px-2.5 py-1 text-[11px] font-semibold ${signal.signalTypeTone}`}
+                                className={`rounded-full border px-2.5 py-1 text-[11px] font-semibold ${scoreTone(
+                                  row.integrated_signal_score,
+                                )}`}
                               >
-                                {signal.signalTypeLabel}
+                                {integratedLabel(row.integrated_signal_score)} · {formatScore(row.integrated_signal_score, 1)}
                               </span>
 
                               <span
-                                className={`rounded-full border px-2.5 py-1 text-[11px] font-semibold ${signal.riskGradeTone}`}
+                                className={`rounded-full border px-2.5 py-1 text-[11px] font-semibold ${adjustedTone(
+                                  row.adjusted_score,
+                                )}`}
                               >
-                                {signal.riskGradeLabel}
+                                {riskGradeLabel(row.risk_grade)} · {formatScore(row.adjusted_score, 1)}
                               </span>
 
                               <span
-                                className={`rounded-full border px-2.5 py-1 text-[11px] font-semibold ${signal.revenueTone}`}
+                                className={`rounded-full border px-2.5 py-1 text-[11px] font-semibold ${pressureTone(
+                                  row.pressure_grade,
+                                )}`}
                               >
-                                {signal.revenueLabel}
+                                {pressureGradeLabel(row.pressure_grade)}
                               </span>
 
                               <span className="rounded-full border border-sky-200 bg-sky-50 px-2.5 py-1 text-[11px] font-medium text-slate-500">
-                                {formatRelativeDate(signal.createdAt || signal.signalDate || signal.scoreDate)}
+                                {formatRelativeMonth(row.score_month)}
                               </span>
                             </div>
 
                             <div className="mt-2 flex flex-wrap items-center gap-2">
                               <h2 className="text-lg font-black tracking-[-0.03em] text-slate-950 sm:text-xl">
-                                {signal.title}
+                                {row.region_name ?? normalizedRegionCode} · {row.category_name ?? row.category_id}
                               </h2>
 
                               <span
                                 className={`rounded-full border px-3 py-1 text-[11px] font-semibold ${scoreTone(
-                                  signal.riskScore,
+                                  row.integrated_signal_score,
                                 )}`}
                               >
-                                위험점수 {formatScore(signal.riskScore)}
+                                통합위험 {formatScore(row.integrated_signal_score, 1)}
                               </span>
                             </div>
 
                             <div className="mt-2 flex flex-wrap gap-2 text-xs text-slate-600">
                               <span className="rounded-full border border-sky-200 bg-sky-50 px-3 py-1">
-                                {signal.regionName}
+                                지역 {row.region_name ?? "-"}
                               </span>
                               <span className="rounded-full border border-sky-200 bg-sky-50 px-3 py-1">
-                                {signal.categoryName}
+                                업종 {row.category_name ?? row.category_id}
                               </span>
-                              {signal.businessCount != null ? (
-                                <span className="rounded-full border border-sky-200 bg-sky-50 px-3 py-1">
-                                  전체 {formatNumber(signal.businessCount)}개
-                                </span>
-                              ) : null}
-                              {signal.closeRiskCount != null ? (
-                                <span className="rounded-full border border-sky-200 bg-sky-50 px-3 py-1">
-                                  위험 {formatNumber(signal.closeRiskCount)}개
-                                </span>
-                              ) : null}
+                              <span className="rounded-full border border-sky-200 bg-sky-50 px-3 py-1">
+                                전국 비중 {formatPercent(row.national_share_pct, 4)}
+                              </span>
+                              <span className="rounded-full border border-sky-200 bg-sky-50 px-3 py-1">
+                                전년 폐업증감 {formatPercent(row.yoy_closed_delta_pct, 4)}
+                              </span>
+                              <span className="rounded-full border border-sky-200 bg-sky-50 px-3 py-1">
+                                순증감 {formatNumber(row.net_change)}
+                              </span>
                             </div>
-
-                            <p className="mt-3 text-sm leading-6 text-slate-700">{signal.why || signal.summary}</p>
 
                             <div className="mt-3 rounded-2xl border border-sky-200 bg-sky-50 px-3 py-2 text-sm text-slate-700">
-                              <span className="font-semibold text-sky-700">추천 액션</span>
-                              <span className="ml-2">{signal.action}</span>
+                              <span className="font-semibold text-sky-700">판단</span>
+                              <span className="ml-2">
+                                {row.pressure_grade
+                                  ? `${pressureGradeLabel(row.pressure_grade)}와 ${riskGradeLabel(
+                                      row.risk_grade,
+                                    )}가 결합된 항목입니다.`
+                                  : `${riskGradeLabel(row.risk_grade)} 중심의 항목입니다.`}
+                              </span>
                             </div>
-
-                            {signal.personalization ? (
-                              <p className="mt-2 text-sm leading-6 text-slate-500">
-                                {signal.personalization}
-                              </p>
-                            ) : null}
                           </div>
 
                           <div className="grid grid-cols-2 gap-2 xl:w-[248px] xl:grid-cols-1">
-                            <Link
-                              href={`/signals/${encodeURIComponent(String(signal.id))}`}
-                              className="inline-flex h-10 items-center justify-center rounded-2xl border border-sky-200 bg-white px-4 text-sm font-semibold text-slate-700 transition hover:bg-sky-50"
-                            >
-                              상세 보기
-                            </Link>
+                            {regionHref ? (
+                              <Link
+                                href={regionHref}
+                                className="inline-flex h-10 items-center justify-center rounded-2xl border border-sky-200 bg-white px-4 text-sm font-semibold text-slate-700 transition hover:bg-sky-50"
+                              >
+                                상세 보기
+                              </Link>
+                            ) : (
+                              <div className="hidden xl:block" />
+                            )}
 
                             <Link
                               href={intakeHref}
@@ -669,18 +879,18 @@ export default async function SignalsPage({
                             </Link>
 
                             <Link
-                              href={communityHref}
+                              href="/rankings"
                               className="inline-flex h-10 items-center justify-center rounded-2xl border border-sky-200 bg-white px-4 text-sm font-semibold text-sky-700 transition hover:border-sky-300 hover:bg-sky-50"
                             >
-                              커뮤니티 연결
+                              랭킹으로 이동
                             </Link>
 
                             {regionHref ? (
                               <Link
-                                href={regionHref}
+                                href={`/signals?regionCode=${encodeURIComponent(normalizedRegionCode)}`}
                                 className="inline-flex h-10 items-center justify-center rounded-2xl border border-sky-200 bg-white px-4 text-sm font-semibold text-slate-700 transition hover:bg-sky-50"
                               >
-                                지역 보기
+                                같은 지역만 보기
                               </Link>
                             ) : (
                               <div className="hidden xl:block" />
@@ -692,7 +902,7 @@ export default async function SignalsPage({
                   })
                 ) : (
                   <div className="rounded-[22px] border border-dashed border-sky-200 bg-white px-5 py-10 text-center text-sm text-slate-500">
-                    현재 조건에 맞는 시그널이 없습니다.
+                    현재 조건에 맞는 통합 신호가 없습니다.
                   </div>
                 )}
               </div>
@@ -709,13 +919,13 @@ export default async function SignalsPage({
 
                 <div className="mt-4 space-y-3 text-sm leading-6 text-slate-600">
                   <div className="rounded-2xl border border-rose-200 bg-rose-50 px-4 py-3">
-                    바로 인테이크: 고위험, 급감, 폐업 급증, 마지막 기회 성격의 신호
+                    바로 인테이크: 통합위험 45점 이상 또는 외부 치명 + 내부위험 결합
                   </div>
                   <div className="rounded-2xl border border-amber-200 bg-amber-50 px-4 py-3">
-                    오늘 검토: 60점 이상 또는 감소 계열 경고 신호
+                    오늘 검토: 통합위험 30점 이상 또는 외부 높음
                   </div>
                   <div className="rounded-2xl border border-sky-200 bg-sky-50 px-4 py-3">
-                    관찰: 설명은 남기되 당장 등록보다 추적 가치가 큰 신호
+                    관찰: 현재는 낮지만 외부압력 또는 내부 위험 흐름이 이어지는 항목
                   </div>
                 </div>
               </section>
@@ -730,33 +940,33 @@ export default async function SignalsPage({
 
                 <div className="mt-4 space-y-3">
                   {spotlight.length > 0 ? (
-                    spotlight.map((signal) => (
+                    spotlight.map((row) => (
                       <div
-                        key={`spotlight-${String(signal.id)}`}
+                        key={`spotlight-${normalizeRegionCode(row.region_code)}-${String(row.category_id)}`}
                         className="rounded-2xl border border-sky-100 bg-white px-4 py-3"
                       >
                         <div className="flex items-start justify-between gap-3">
                           <div className="min-w-0">
                             <div className="truncate text-sm font-black text-slate-950">
-                              {signal.title}
+                              {row.region_name ?? row.region_code} · {row.category_name ?? row.category_id}
                             </div>
                             <div className="mt-1 text-xs text-slate-500">
-                              {signal.regionName} · {signal.categoryName}
+                              {pressureGradeLabel(row.pressure_grade)} / {riskGradeLabel(row.risk_grade)}
                             </div>
                           </div>
                           <span
                             className={`shrink-0 rounded-full border px-2.5 py-1 text-[11px] font-semibold ${scoreTone(
-                              signal.riskScore,
+                              row.integrated_signal_score,
                             )}`}
                           >
-                            {formatScore(signal.riskScore)}
+                            {formatScore(row.integrated_signal_score, 1)}
                           </span>
                         </div>
                       </div>
                     ))
                   ) : (
                     <div className="rounded-2xl border border-dashed border-sky-200 bg-white px-4 py-8 text-sm text-slate-500">
-                      노출할 신호가 없습니다.
+                      노출할 통합 신호가 없습니다.
                     </div>
                   )}
                 </div>
