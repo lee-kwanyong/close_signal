@@ -1,6 +1,5 @@
 import Link from "next/link";
 import { createClient } from "@/lib/supabase/server";
-import HQStoreUploadClient from "./HQStoreUploadClient";
 
 type SearchParams = Promise<{
   brandId?: string;
@@ -237,14 +236,14 @@ export default async function HQUploadsPage({
           <div className="flex flex-col gap-6 lg:flex-row lg:items-end lg:justify-between">
             <div className="max-w-3xl">
               <div className="text-sm font-semibold uppercase tracking-[0.18em] text-sky-700">
-                HQ STORE INGEST
+                HQ STORE UPLOADS
               </div>
               <h1 className="mt-2 text-3xl font-semibold tracking-tight text-slate-950 sm:text-4xl">
-                본사 점포 업로드 / 오픈·폐점 스냅샷
+                본사 점포 업로드 배치
               </h1>
               <p className="mt-3 text-sm leading-7 text-slate-600 sm:text-base">
-                본사 점포 마스터를 업로드해서 `hq_stores`를 갱신하고, 같은 기준일로
-                open/close 상태 스냅샷까지 바로 생성합니다.
+                최근 업로드 배치, 성공/실패 행 수, 그리고 오픈·폐점 스냅샷 전환을
+                한 번에 확인합니다.
               </p>
 
               <div className="mt-5 flex flex-wrap gap-2">
@@ -330,81 +329,14 @@ export default async function HQUploadsPage({
           />
         </section>
 
-        <section className="grid grid-cols-1 gap-6 xl:grid-cols-[1.1fr_0.9fr]">
-          <div className="rounded-[28px] border border-slate-200 bg-white p-6 shadow-sm">
-            <div className="mb-5">
-              <h2 className="text-lg font-semibold tracking-tight text-slate-950">
-                점포 업로드 실행
-              </h2>
-              <p className="mt-1 text-sm text-slate-500">
-                CSV / TSV / XLSX 파일 업로드 또는 rawText 붙여넣기로 바로 ingest를 실행합니다.
-              </p>
-            </div>
-
-            <HQStoreUploadClient
-              brands={brands}
-              initialBrandId={selectedBrandId ? String(selectedBrandId) : ""}
-              today={new Date().toISOString().slice(0, 10)}
-            />
-          </div>
-
-          <div className="rounded-[28px] border border-slate-200 bg-white p-6 shadow-sm">
-            <div className="mb-5">
-              <h2 className="text-lg font-semibold tracking-tight text-slate-950">
-                업로드 가이드
-              </h2>
-              <p className="mt-1 text-sm text-slate-500">
-                아래 헤더 중 일부만 있어도 ingest가 동작하도록 alias를 넣어둔 상태다.
-              </p>
-            </div>
-
-            <div className="space-y-4 text-sm text-slate-600">
-              <div className="rounded-2xl border border-slate-200 bg-slate-50 p-4">
-                <div className="font-semibold text-slate-900">최소 권장 컬럼</div>
-                <div className="mt-2 leading-7">
-                  <code>storeName</code>, <code>address</code>,{" "}
-                  <code>storeCode</code> 또는 <code>businessNumber</code>
-                </div>
-              </div>
-
-              <div className="rounded-2xl border border-slate-200 bg-slate-50 p-4">
-                <div className="font-semibold text-slate-900">상태 컬럼 예시</div>
-                <div className="mt-2 leading-7">
-                  <code>active</code>, <code>warning</code>, <code>paused</code>,{" "}
-                  <code>closed</code>, <code>candidate</code>
-                </div>
-              </div>
-
-              <div className="rounded-2xl border border-slate-200 bg-slate-50 p-4">
-                <div className="font-semibold text-slate-900">스냅샷 규칙</div>
-                <div className="mt-2 leading-7">
-                  업로드 후 같은 <code>snapshotDate</code> 기준으로
-                  <code>hq_store_status_snapshots</code>가 생성되고, 이전 스냅샷과 비교해{" "}
-                  <code>new / reopened / paused / closed / unchanged</code> 이벤트가 계산된다.
-                </div>
-              </div>
-
-              <div className="rounded-2xl border border-slate-200 bg-slate-50 p-4">
-                <div className="font-semibold text-slate-900">추천 업로드 순서</div>
-                <div className="mt-2 leading-7">
-                  1) 본사 점포 마스터 업로드 → 2) 최근 배치 결과 확인 → 3) 위험 점포 보기에서
-                  새로 반영된 점포 상태 확인
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
         <section className="rounded-[28px] border border-slate-200 bg-white p-6 shadow-sm">
-          <div className="mb-5 flex flex-col gap-3 md:flex-row md:items-end md:justify-between">
-            <div>
-              <h2 className="text-lg font-semibold tracking-tight text-slate-950">
-                최근 업로드 배치
-              </h2>
-              <p className="mt-1 text-sm text-slate-500">
-                최근에 들어온 ingest 실행 결과와 생성/업데이트 건수를 같이 본다.
-              </p>
-            </div>
+          <div className="mb-5">
+            <h2 className="text-lg font-semibold tracking-tight text-slate-950">
+              최근 업로드 배치
+            </h2>
+            <p className="mt-1 text-sm text-slate-500">
+              최근에 들어온 ingest 실행 결과와 생성/업데이트 건수를 같이 봅니다.
+            </p>
           </div>
 
           {batches.length === 0 ? (
@@ -512,7 +444,7 @@ export default async function HQUploadsPage({
               최근 스냅샷 전환 요약
             </h2>
             <p className="mt-1 text-sm text-slate-500">
-              업로드 이후 기준일별로 신규 / 재오픈 / 휴점 / 폐점 전환 건수를 빠르게 본다.
+              업로드 이후 기준일별로 신규 / 재오픈 / 휴점 / 폐점 전환 건수를 빠르게 봅니다.
             </p>
           </div>
 
@@ -545,40 +477,26 @@ export default async function HQUploadsPage({
                     </div>
 
                     <div className="grid grid-cols-2 gap-3 sm:grid-cols-4">
-                      <div
-                        className={`rounded-2xl border px-4 py-3 ${eventTone("new")}`}
-                      >
+                      <div className={`rounded-2xl border px-4 py-3 ${eventTone("new")}`}>
                         <div className="text-[11px] uppercase tracking-wide">신규</div>
-                        <div className="mt-1 text-lg font-semibold">
-                          {formatNumber(group.newCount)}
-                        </div>
+                        <div className="mt-1 text-lg font-semibold">{formatNumber(group.newCount)}</div>
                       </div>
 
-                      <div
-                        className={`rounded-2xl border px-4 py-3 ${eventTone("reopened")}`}
-                      >
+                      <div className={`rounded-2xl border px-4 py-3 ${eventTone("reopened")}`}>
                         <div className="text-[11px] uppercase tracking-wide">재오픈</div>
                         <div className="mt-1 text-lg font-semibold">
                           {formatNumber(group.reopenedCount)}
                         </div>
                       </div>
 
-                      <div
-                        className={`rounded-2xl border px-4 py-3 ${eventTone("paused")}`}
-                      >
+                      <div className={`rounded-2xl border px-4 py-3 ${eventTone("paused")}`}>
                         <div className="text-[11px] uppercase tracking-wide">휴점</div>
-                        <div className="mt-1 text-lg font-semibold">
-                          {formatNumber(group.pausedCount)}
-                        </div>
+                        <div className="mt-1 text-lg font-semibold">{formatNumber(group.pausedCount)}</div>
                       </div>
 
-                      <div
-                        className={`rounded-2xl border px-4 py-3 ${eventTone("closed")}`}
-                      >
+                      <div className={`rounded-2xl border px-4 py-3 ${eventTone("closed")}`}>
                         <div className="text-[11px] uppercase tracking-wide">폐점</div>
-                        <div className="mt-1 text-lg font-semibold">
-                          {formatNumber(group.closedCount)}
-                        </div>
+                        <div className="mt-1 text-lg font-semibold">{formatNumber(group.closedCount)}</div>
                       </div>
                     </div>
                   </div>

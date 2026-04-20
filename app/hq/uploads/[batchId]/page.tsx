@@ -1,5 +1,4 @@
 import Link from "next/link";
-import { notFound } from "next/navigation";
 import { createClient } from "@/lib/supabase/server";
 
 type Params = Promise<{
@@ -189,6 +188,45 @@ function MetricCard({
   );
 }
 
+function EmptyBatchState({
+  batchId,
+}: {
+  batchId: number;
+}) {
+  return (
+    <main className="min-h-screen">
+      <div className="mx-auto flex w-full max-w-5xl flex-col gap-6 px-4 py-8 sm:px-6 lg:px-8">
+        <section className="rounded-[28px] border border-slate-200 bg-white p-6 shadow-sm">
+          <div className="text-sm font-semibold uppercase tracking-[0.18em] text-sky-700">
+            HQ UPLOAD BATCH DETAIL
+          </div>
+          <h1 className="mt-2 text-3xl font-semibold tracking-tight text-slate-950">
+            업로드 배치를 찾지 못했습니다
+          </h1>
+          <p className="mt-3 text-sm leading-7 text-slate-600">
+            batch #{batchId} 가 아직 없거나, 업로드 관련 테이블/데이터가 준비되지 않은 상태입니다.
+          </p>
+
+          <div className="mt-5 flex flex-wrap gap-2">
+            <Link
+              href="/hq/uploads"
+              className="inline-flex h-11 items-center justify-center rounded-xl bg-slate-950 px-4 text-sm font-semibold text-white transition hover:bg-slate-800"
+            >
+              업로드 목록으로
+            </Link>
+            <Link
+              href="/hq"
+              className="inline-flex h-11 items-center justify-center rounded-xl border border-slate-300 bg-white px-4 text-sm font-semibold text-slate-700 transition hover:bg-slate-50"
+            >
+              HQ 대시보드
+            </Link>
+          </div>
+        </section>
+      </div>
+    </main>
+  );
+}
+
 export default async function HQUploadBatchDetailPage({
   params,
   searchParams,
@@ -205,7 +243,7 @@ export default async function HQUploadBatchDetailPage({
   const offset = (page - 1) * PAGE_SIZE;
 
   if (!Number.isFinite(batchId) || batchId <= 0) {
-    notFound();
+    return <EmptyBatchState batchId={0} />;
   }
 
   const supabase = await createClient();
@@ -217,7 +255,7 @@ export default async function HQUploadBatchDetailPage({
     .single();
 
   if (batchResult.error || !batchResult.data) {
-    notFound();
+    return <EmptyBatchState batchId={batchId} />;
   }
 
   const batch = batchResult.data as BatchRow;
@@ -253,7 +291,10 @@ export default async function HQUploadBatchDetailPage({
     new Set(
       rows
         .map((row) => row.hq_store_id)
-        .filter((value): value is number => Number.isFinite(value as number) && Number(value) > 0),
+        .filter(
+          (value): value is number =>
+            typeof value === "number" && Number.isFinite(value) && value > 0,
+        ),
     ),
   );
 
@@ -285,6 +326,14 @@ export default async function HQUploadBatchDetailPage({
   const successHref = buildHref(`/hq/uploads/${batchId}`, { status: "success" });
   const failedHref = buildHref(`/hq/uploads/${batchId}`, { status: "failed" });
   const skippedHref = buildHref(`/hq/uploads/${batchId}`, { status: "skipped" });
+
+  const exportAllHref = buildHref(`/api/hq/uploads/${batchId}/export`, {});
+  const exportCurrentHref = buildHref(`/api/hq/uploads/${batchId}/export`, {
+    status: selectedStatus || undefined,
+  });
+  const exportFailedHref = buildHref(`/api/hq/uploads/${batchId}/export`, {
+    status: "failed",
+  });
 
   return (
     <main className="min-h-screen">
@@ -376,7 +425,7 @@ export default async function HQUploadBatchDetailPage({
                 행 상태 필터
               </h2>
               <p className="mt-1 text-sm text-slate-500">
-                성공 / 실패 / 스킵 행을 나눠서 바로 확인합니다.
+                성공 / 실패 / 스킵 행을 나눠서 확인하고, 같은 조건으로 CSV도 바로 받습니다.
               </p>
             </div>
 
@@ -398,6 +447,29 @@ export default async function HQUploadBatchDetailPage({
                 active={selectedStatus === "skipped"}
               />
             </div>
+          </div>
+
+          <div className="mb-5 flex flex-wrap gap-2">
+            <a
+              href={exportCurrentHref}
+              className="inline-flex h-11 items-center justify-center rounded-xl bg-slate-950 px-4 text-sm font-semibold text-white transition hover:bg-slate-800"
+            >
+              현재 필터 CSV
+            </a>
+
+            <a
+              href={exportFailedHref}
+              className="inline-flex h-11 items-center justify-center rounded-xl border border-red-300 bg-red-50 px-4 text-sm font-semibold text-red-700 transition hover:bg-red-100"
+            >
+              실패 행 CSV
+            </a>
+
+            <a
+              href={exportAllHref}
+              className="inline-flex h-11 items-center justify-center rounded-xl border border-slate-300 bg-white px-4 text-sm font-semibold text-slate-700 transition hover:bg-slate-50"
+            >
+              전체 CSV
+            </a>
           </div>
 
           {rows.length === 0 ? (
