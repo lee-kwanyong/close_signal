@@ -4,6 +4,10 @@ import { createSupabaseAdmin } from "@/lib/close-signal/supabase-admin";
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
 
+type RouteParams = Promise<{
+  batchId: string;
+}>;
+
 type BatchRow = {
   id: number;
   brand_id: number;
@@ -84,10 +88,11 @@ function resolveRequestedStatus(raw: string | null) {
 
 export async function GET(
   request: Request,
-  context: { params: { batchId: string } },
+  { params }: { params: RouteParams },
 ) {
   try {
-    const batchId = Number(context.params.batchId);
+    const { batchId: batchIdParam } = await params;
+    const batchId = Number(batchIdParam);
 
     if (!Number.isFinite(batchId) || batchId <= 0) {
       return NextResponse.json(
