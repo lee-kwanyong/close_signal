@@ -1,0 +1,112 @@
+name: market-snapshot-collectors
+
+on:
+  workflow_dispatch:
+    inputs:
+      collector_keys:
+        description: "competition,spending,rent,search-trend 중 선택. 비우면 전체 실행"
+        required: false
+        default: ""
+  schedule:
+    - cron: "40 3 * * *"
+
+jobs:
+  collect-market-snapshots:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run market collectors
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+
+          COLLECTOR_KEYS: ${{ github.event.inputs.collector_keys }}
+
+          COMPETITION_SOURCE_KEY: competition_region_category_daily
+          COMPETITION_SOURCE_DATA_URL: ${{ secrets.COMPETITION_SOURCE_DATA_URL }}
+          COMPETITION_REQUEST_TIMEOUT_MS: "60000"
+          COMPETITION_BATCH_SIZE: "500"
+          COMPETITION_PAGE_SIZE: "500"
+          COMPETITION_MAX_PAGES: "200"
+          COMPETITION_ENABLE_PAGINATION: "true"
+          COMPETITION_PAGE_PARAM: ${{ secrets.COMPETITION_PAGE_PARAM }}
+          COMPETITION_SIZE_PARAM: ${{ secrets.COMPETITION_SIZE_PARAM }}
+          COMPETITION_RESULT_PATH: ${{ secrets.COMPETITION_RESULT_PATH }}
+          COMPETITION_TOTAL_COUNT_PATH: ${{ secrets.COMPETITION_TOTAL_COUNT_PATH }}
+          COMPETITION_DATE_PARAM: ${{ secrets.COMPETITION_DATE_PARAM }}
+          COMPETITION_DATE_VALUE: ${{ secrets.COMPETITION_DATE_VALUE }}
+          COMPETITION_AUTH_HEADER: ${{ secrets.COMPETITION_AUTH_HEADER }}
+          COMPETITION_AUTH_SCHEME: ${{ secrets.COMPETITION_AUTH_SCHEME }}
+          COMPETITION_AUTH_TOKEN: ${{ secrets.COMPETITION_AUTH_TOKEN }}
+          COMPETITION_REGION_LEVEL: ${{ secrets.COMPETITION_REGION_LEVEL }}
+          COMPETITION_EXTRA_QUERY_JSON: ${{ secrets.COMPETITION_EXTRA_QUERY_JSON }}
+
+          SPENDING_SOURCE_KEY: spending_region_category_daily
+          SPENDING_SOURCE_DATA_URL: ${{ secrets.SPENDING_SOURCE_DATA_URL }}
+          SPENDING_REQUEST_TIMEOUT_MS: "60000"
+          SPENDING_BATCH_SIZE: "500"
+          SPENDING_PAGE_SIZE: "500"
+          SPENDING_MAX_PAGES: "200"
+          SPENDING_ENABLE_PAGINATION: "true"
+          SPENDING_PAGE_PARAM: ${{ secrets.SPENDING_PAGE_PARAM }}
+          SPENDING_SIZE_PARAM: ${{ secrets.SPENDING_SIZE_PARAM }}
+          SPENDING_RESULT_PATH: ${{ secrets.SPENDING_RESULT_PATH }}
+          SPENDING_TOTAL_COUNT_PATH: ${{ secrets.SPENDING_TOTAL_COUNT_PATH }}
+          SPENDING_DATE_PARAM: ${{ secrets.SPENDING_DATE_PARAM }}
+          SPENDING_DATE_VALUE: ${{ secrets.SPENDING_DATE_VALUE }}
+          SPENDING_AUTH_HEADER: ${{ secrets.SPENDING_AUTH_HEADER }}
+          SPENDING_AUTH_SCHEME: ${{ secrets.SPENDING_AUTH_SCHEME }}
+          SPENDING_AUTH_TOKEN: ${{ secrets.SPENDING_AUTH_TOKEN }}
+          SPENDING_REGION_LEVEL: ${{ secrets.SPENDING_REGION_LEVEL }}
+          SPENDING_EXTRA_QUERY_JSON: ${{ secrets.SPENDING_EXTRA_QUERY_JSON }}
+
+          RENT_SOURCE_KEY: rent_region_daily
+          RENT_SOURCE_DATA_URL: ${{ secrets.RENT_SOURCE_DATA_URL }}
+          RENT_REQUEST_TIMEOUT_MS: "60000"
+          RENT_BATCH_SIZE: "500"
+          RENT_PAGE_SIZE: "500"
+          RENT_MAX_PAGES: "200"
+          RENT_ENABLE_PAGINATION: "true"
+          RENT_PAGE_PARAM: ${{ secrets.RENT_PAGE_PARAM }}
+          RENT_SIZE_PARAM: ${{ secrets.RENT_SIZE_PARAM }}
+          RENT_RESULT_PATH: ${{ secrets.RENT_RESULT_PATH }}
+          RENT_TOTAL_COUNT_PATH: ${{ secrets.RENT_TOTAL_COUNT_PATH }}
+          RENT_DATE_PARAM: ${{ secrets.RENT_DATE_PARAM }}
+          RENT_DATE_VALUE: ${{ secrets.RENT_DATE_VALUE }}
+          RENT_AUTH_HEADER: ${{ secrets.RENT_AUTH_HEADER }}
+          RENT_AUTH_SCHEME: ${{ secrets.RENT_AUTH_SCHEME }}
+          RENT_AUTH_TOKEN: ${{ secrets.RENT_AUTH_TOKEN }}
+          RENT_REGION_LEVEL: ${{ secrets.RENT_REGION_LEVEL }}
+          RENT_EXTRA_QUERY_JSON: ${{ secrets.RENT_EXTRA_QUERY_JSON }}
+
+          SEARCH_TREND_SOURCE_KEY: search_trend_region_category_daily
+          SEARCH_TREND_SOURCE_DATA_URL: ${{ secrets.SEARCH_TREND_SOURCE_DATA_URL }}
+          SEARCH_TREND_REQUEST_TIMEOUT_MS: "60000"
+          SEARCH_TREND_BATCH_SIZE: "500"
+          SEARCH_TREND_PAGE_SIZE: "500"
+          SEARCH_TREND_MAX_PAGES: "200"
+          SEARCH_TREND_ENABLE_PAGINATION: "true"
+          SEARCH_TREND_PAGE_PARAM: ${{ secrets.SEARCH_TREND_PAGE_PARAM }}
+          SEARCH_TREND_SIZE_PARAM: ${{ secrets.SEARCH_TREND_SIZE_PARAM }}
+          SEARCH_TREND_RESULT_PATH: ${{ secrets.SEARCH_TREND_RESULT_PATH }}
+          SEARCH_TREND_TOTAL_COUNT_PATH: ${{ secrets.SEARCH_TREND_TOTAL_COUNT_PATH }}
+          SEARCH_TREND_DATE_PARAM: ${{ secrets.SEARCH_TREND_DATE_PARAM }}
+          SEARCH_TREND_DATE_VALUE: ${{ secrets.SEARCH_TREND_DATE_VALUE }}
+          SEARCH_TREND_AUTH_HEADER: ${{ secrets.SEARCH_TREND_AUTH_HEADER }}
+          SEARCH_TREND_AUTH_SCHEME: ${{ secrets.SEARCH_TREND_AUTH_SCHEME }}
+          SEARCH_TREND_AUTH_TOKEN: ${{ secrets.SEARCH_TREND_AUTH_TOKEN }}
+          SEARCH_TREND_REGION_LEVEL: ${{ secrets.SEARCH_TREND_REGION_LEVEL }}
+          SEARCH_TREND_EXTRA_QUERY_JSON: ${{ secrets.SEARCH_TREND_EXTRA_QUERY_JSON }}
+
+        run: npm run collect:market
