@@ -1,0 +1,92 @@
+name: demographic-snapshot-collectors
+
+on:
+  workflow_dispatch:
+    inputs:
+      collector_keys:
+        description: "population,household,living-population 중 선택. 비우면 전체 실행"
+        required: false
+        default: ""
+  schedule:
+    - cron: "20 2 * * *"
+
+jobs:
+  collect-demographic-snapshots:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run demographic collectors
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+
+          COLLECTOR_KEYS: ${{ github.event.inputs.collector_keys }}
+
+          POPULATION_SOURCE_KEY: population_region_daily
+          POPULATION_SOURCE_DATA_URL: ${{ secrets.POPULATION_SOURCE_DATA_URL }}
+          POPULATION_REQUEST_TIMEOUT_MS: "60000"
+          POPULATION_BATCH_SIZE: "500"
+          POPULATION_PAGE_SIZE: "500"
+          POPULATION_MAX_PAGES: "200"
+          POPULATION_ENABLE_PAGINATION: "true"
+          POPULATION_PAGE_PARAM: ${{ secrets.POPULATION_PAGE_PARAM }}
+          POPULATION_SIZE_PARAM: ${{ secrets.POPULATION_SIZE_PARAM }}
+          POPULATION_RESULT_PATH: ${{ secrets.POPULATION_RESULT_PATH }}
+          POPULATION_TOTAL_COUNT_PATH: ${{ secrets.POPULATION_TOTAL_COUNT_PATH }}
+          POPULATION_DATE_PARAM: ${{ secrets.POPULATION_DATE_PARAM }}
+          POPULATION_DATE_VALUE: ${{ secrets.POPULATION_DATE_VALUE }}
+          POPULATION_AUTH_HEADER: ${{ secrets.POPULATION_AUTH_HEADER }}
+          POPULATION_AUTH_SCHEME: ${{ secrets.POPULATION_AUTH_SCHEME }}
+          POPULATION_AUTH_TOKEN: ${{ secrets.POPULATION_AUTH_TOKEN }}
+          POPULATION_REGION_LEVEL: ${{ secrets.POPULATION_REGION_LEVEL }}
+          POPULATION_EXTRA_QUERY_JSON: ${{ secrets.POPULATION_EXTRA_QUERY_JSON }}
+
+          HOUSEHOLD_SOURCE_KEY: household_region_daily
+          HOUSEHOLD_SOURCE_DATA_URL: ${{ secrets.HOUSEHOLD_SOURCE_DATA_URL }}
+          HOUSEHOLD_REQUEST_TIMEOUT_MS: "60000"
+          HOUSEHOLD_BATCH_SIZE: "500"
+          HOUSEHOLD_PAGE_SIZE: "500"
+          HOUSEHOLD_MAX_PAGES: "200"
+          HOUSEHOLD_ENABLE_PAGINATION: "true"
+          HOUSEHOLD_PAGE_PARAM: ${{ secrets.HOUSEHOLD_PAGE_PARAM }}
+          HOUSEHOLD_SIZE_PARAM: ${{ secrets.HOUSEHOLD_SIZE_PARAM }}
+          HOUSEHOLD_RESULT_PATH: ${{ secrets.HOUSEHOLD_RESULT_PATH }}
+          HOUSEHOLD_TOTAL_COUNT_PATH: ${{ secrets.HOUSEHOLD_TOTAL_COUNT_PATH }}
+          HOUSEHOLD_DATE_PARAM: ${{ secrets.HOUSEHOLD_DATE_PARAM }}
+          HOUSEHOLD_DATE_VALUE: ${{ secrets.HOUSEHOLD_DATE_VALUE }}
+          HOUSEHOLD_AUTH_HEADER: ${{ secrets.HOUSEHOLD_AUTH_HEADER }}
+          HOUSEHOLD_AUTH_SCHEME: ${{ secrets.HOUSEHOLD_AUTH_SCHEME }}
+          HOUSEHOLD_AUTH_TOKEN: ${{ secrets.HOUSEHOLD_AUTH_TOKEN }}
+          HOUSEHOLD_REGION_LEVEL: ${{ secrets.HOUSEHOLD_REGION_LEVEL }}
+          HOUSEHOLD_EXTRA_QUERY_JSON: ${{ secrets.HOUSEHOLD_EXTRA_QUERY_JSON }}
+
+          LIVING_POPULATION_SOURCE_KEY: living_population_region_daily
+          LIVING_POPULATION_SOURCE_DATA_URL: ${{ secrets.LIVING_POPULATION_SOURCE_DATA_URL }}
+          LIVING_POPULATION_REQUEST_TIMEOUT_MS: "60000"
+          LIVING_POPULATION_BATCH_SIZE: "500"
+          LIVING_POPULATION_PAGE_SIZE: "500"
+          LIVING_POPULATION_MAX_PAGES: "200"
+          LIVING_POPULATION_ENABLE_PAGINATION: "true"
+          LIVING_POPULATION_PAGE_PARAM: ${{ secrets.LIVING_POPULATION_PAGE_PARAM }}
+          LIVING_POPULATION_SIZE_PARAM: ${{ secrets.LIVING_POPULATION_SIZE_PARAM }}
+          LIVING_POPULATION_RESULT_PATH: ${{ secrets.LIVING_POPULATION_RESULT_PATH }}
+          LIVING_POPULATION_TOTAL_COUNT_PATH: ${{ secrets.LIVING_POPULATION_TOTAL_COUNT_PATH }}
+          LIVING_POPULATION_DATE_PARAM: ${{ secrets.LIVING_POPULATION_DATE_PARAM }}
+          LIVING_POPULATION_DATE_VALUE: ${{ secrets.LIVING_POPULATION_DATE_VALUE }}
+          LIVING_POPULATION_AUTH_HEADER: ${{ secrets.LIVING_POPULATION_AUTH_HEADER }}
+          LIVING_POPULATION_AUTH_SCHEME: ${{ secrets.LIVING_POPULATION_AUTH_SCHEME }}
+          LIVING_POPULATION_AUTH_TOKEN: ${{ secrets.LIVING_POPULATION_AUTH_TOKEN }}
+          LIVING_POPULATION_REGION_LEVEL: ${{ secrets.LIVING_POPULATION_REGION_LEVEL }}
+          LIVING_POPULATION_EXTRA_QUERY_JSON: ${{ secrets.LIVING_POPULATION_EXTRA_QUERY_JSON }}
+        run: npm run collect:demographics
