@@ -452,6 +452,22 @@ export default async function HQUploadsPage({
                             실패 {formatNumber(batch.failed_rows)}
                           </span>
                         </div>
+
+                        <div className="mt-4 flex flex-wrap gap-2">
+                          <Link
+                            href={`/hq/uploads/${batch.id}`}
+                            className="inline-flex h-10 items-center justify-center rounded-xl bg-slate-950 px-4 text-sm font-semibold text-white transition hover:bg-slate-800"
+                          >
+                            배치 상세
+                          </Link>
+
+                          <Link
+                            href={buildHref("/hq/stores", { brandId: batch.brand_id })}
+                            className="inline-flex h-10 items-center justify-center rounded-xl border border-slate-300 bg-white px-4 text-sm font-semibold text-slate-700 transition hover:bg-slate-50"
+                          >
+                            점포 보기
+                          </Link>
+                        </div>
                       </div>
 
                       <div className="grid min-w-full grid-cols-2 gap-3 sm:min-w-[340px] sm:grid-cols-3">
