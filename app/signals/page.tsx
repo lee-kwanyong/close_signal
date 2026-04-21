@@ -189,8 +189,9 @@ function internalLabel(grade: string | null | undefined) {
   return "내부 미정";
 }
 
-function riskTone(score: number | null | undefined) {
+function statusTone(score: number | null | undefined) {
   const n = num(score, 0);
+
   if (score == null || !Number.isFinite(score)) {
     return "border-slate-200 bg-slate-50 text-slate-600";
   }
@@ -207,6 +208,17 @@ function pressureTone(grade: string | null | undefined) {
   if (value === "moderate") return "border-amber-200 bg-amber-50 text-amber-700";
   if (value === "observe") return "border-sky-200 bg-[#F2FAFF] text-[#0A6FD6]";
   return "border-slate-200 bg-slate-50 text-slate-600";
+}
+
+function internalTone(score: number | null | undefined) {
+  const n = num(score, 0);
+  if (score == null || !Number.isFinite(score)) {
+    return "border-slate-200 bg-slate-50 text-slate-600";
+  }
+  if (n >= 80) return "border-rose-200 bg-rose-50 text-rose-700";
+  if (n >= 60) return "border-orange-200 bg-orange-50 text-orange-700";
+  if (n >= 40) return "border-amber-200 bg-amber-50 text-amber-700";
+  return "border-sky-200 bg-[#F2FAFF] text-[#0A6FD6]";
 }
 
 function normalizeBand(value?: string): ActionBand | "all" {
@@ -881,7 +893,7 @@ export default async function SignalsPage({
                             <Link
                               href="/rankings"
                               className="inline-flex h-9 items-center justify-center rounded-xl border border-slate-300 bg-white px-3 text-sm font-semibold text-slate-700 transition hover:bg-slate-50"
-                            >
+                              >
                               랭킹으로 이동
                             </Link>
 
