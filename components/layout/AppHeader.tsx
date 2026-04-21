@@ -1,71 +1,179 @@
 import Link from "next/link";
-import { supabaseServer } from "@/lib/supabase/server";
-import TopNav from "./TopNav";
-import MobileNav from "./MobileNav";
 
-export const dynamic = "force-dynamic";
+const consumerNavItems = [
+  { href: "/", label: "대시보드" },
+  { href: "/rankings", label: "출점·위험 랭킹" },
+  { href: "/signals", label: "상권 변화 신호" },
+  { href: "/watchlist", label: "관심 후보지" },
+];
 
-export default async function AppHeader() {
-  const supabase = await supabaseServer();
-  const {
-    data: { user },
-  } = await supabase.auth.getUser();
+const hqNavItem = { href: "/hq", label: "본사운영" };
 
-  const isLoggedIn = !!user;
-  const isAdmin = user?.email === "koliie9039@gmail.com";
-
-  const serviceStatusText = isLoggedIn
-    ? "개입 워크스페이스 연결됨"
-    : "비회원 모드 · 공개 화면 이용 가능";
-
+export default function AppHeader() {
   return (
-    <header className="sticky top-0 z-50 border-b border-slate-200/90 bg-white/95 shadow-[0_8px_24px_rgba(15,23,42,0.06)] backdrop-blur-xl">
-      <div className="border-b border-slate-200 bg-[linear-gradient(90deg,#eef5ff_0%,#f8fbff_46%,#ffffff_100%)]">
-        <div className="mx-auto flex max-w-7xl items-center justify-between gap-3 px-4 py-2 sm:px-6">
-          <div className="flex min-w-0 items-center gap-2 text-[12px] font-semibold text-slate-600">
-            <span className="inline-flex h-7 shrink-0 items-center rounded-full border border-sky-200 bg-sky-50 px-3 text-[11px] font-extrabold tracking-[0.16em] text-[#0B5CAB]">
-              운영중
-            </span>
-            <span className="truncate">사업장 중심 위험 탐지 · 개입 · 추적 서비스</span>
+    <header
+      style={{
+        position: "sticky",
+        top: 0,
+        zIndex: 30,
+        backdropFilter: "blur(12px)",
+        background: "rgba(255,255,255,0.92)",
+        borderBottom: "1px solid #E5E7EB",
+      }}
+    >
+      <div
+        style={{
+          maxWidth: 1280,
+          margin: "0 auto",
+          padding: "14px 20px",
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "space-between",
+          gap: 16,
+          flexWrap: "wrap",
+        }}
+      >
+        <Link
+          href="/"
+          style={{
+            display: "inline-flex",
+            alignItems: "center",
+            gap: 10,
+            textDecoration: "none",
+            color: "#111827",
+            minWidth: 0,
+          }}
+        >
+          <div
+            style={{
+              width: 42,
+              height: 42,
+              borderRadius: 14,
+              background: "#169BF4",
+              color: "#ffffff",
+              display: "inline-flex",
+              alignItems: "center",
+              justifyContent: "center",
+              fontSize: 13,
+              fontWeight: 800,
+              flexShrink: 0,
+              boxShadow: "0 10px 24px rgba(22,155,244,0.22)",
+            }}
+          >
+            CS
           </div>
 
-          <div className="hidden min-w-0 items-center gap-2 text-[12px] text-slate-500 lg:flex">
-            <span className="h-1.5 w-1.5 shrink-0 rounded-full bg-emerald-500" />
-            <span className="truncate">{serviceStatusText}</span>
+          <div style={{ minWidth: 0 }}>
+            <div
+              style={{
+                fontSize: 22,
+                fontWeight: 900,
+                letterSpacing: "-0.03em",
+                color: "#0F172A",
+                lineHeight: 1.1,
+                whiteSpace: "nowrap",
+              }}
+            >
+              Close Signal
+            </div>
+            <div
+              style={{
+                marginTop: 2,
+                fontSize: 12,
+                color: "#64748B",
+                whiteSpace: "nowrap",
+              }}
+            >
+              대시보드는 소개, 데이터 확인은 랭킹·시그널
+            </div>
           </div>
+        </Link>
+
+        <div
+          style={{
+            display: "flex",
+            alignItems: "center",
+            gap: 18,
+            flexWrap: "wrap",
+            marginLeft: "auto",
+          }}
+        >
+          <nav
+            style={{
+              display: "flex",
+              alignItems: "center",
+              gap: 6,
+              flexWrap: "wrap",
+            }}
+          >
+            {consumerNavItems.map((item) => (
+              <Link
+                key={item.href}
+                href={item.href}
+                style={{
+                  textDecoration: "none",
+                  color: "#334155",
+                  fontSize: 14,
+                  fontWeight: 700,
+                  padding: "10px 12px",
+                  borderRadius: 12,
+                  border: "1px solid transparent",
+                  background: "transparent",
+                }}
+              >
+                {item.label}
+              </Link>
+            ))}
+          </nav>
+
+          <div
+            style={{
+              width: 1,
+              height: 28,
+              background: "#E5E7EB",
+            }}
+          />
+
+          <Link
+            href={hqNavItem.href}
+            style={{
+              textDecoration: "none",
+              height: 40,
+              padding: "0 14px",
+              borderRadius: 12,
+              border: "1px solid #BFDBFE",
+              background: "#EFF6FF",
+              color: "#0A6FD6",
+              display: "inline-flex",
+              alignItems: "center",
+              fontSize: 14,
+              fontWeight: 800,
+              whiteSpace: "nowrap",
+            }}
+          >
+            {hqNavItem.label}
+          </Link>
+
+          <Link
+            href="/auth/login"
+            style={{
+              textDecoration: "none",
+              height: 40,
+              padding: "0 14px",
+              borderRadius: 12,
+              border: "1px solid #169BF4",
+              background: "#169BF4",
+              color: "#ffffff",
+              display: "inline-flex",
+              alignItems: "center",
+              fontSize: 14,
+              fontWeight: 800,
+              whiteSpace: "nowrap",
+            }}
+          >
+            로그인
+          </Link>
         </div>
-      </div>
-
-      <div className="mx-auto max-w-7xl px-4 sm:px-6">
-        <div className="flex flex-col gap-4 py-4 xl:flex-row xl:items-center xl:justify-between xl:gap-6">
-          <div className="flex min-w-0 items-start gap-4">
-            <Link href="/" className="flex min-w-0 items-center gap-4">
-              <div className="flex h-14 w-14 shrink-0 items-center justify-center rounded-[20px] border border-sky-200 bg-[linear-gradient(180deg,#eff6ff_0%,#dbeafe_100%)] text-base font-black tracking-[0.08em] text-[#0B5CAB] shadow-[inset_0_1px_0_rgba(255,255,255,0.85),0_10px_22px_rgba(15,23,42,0.08)]">
-                CS
-              </div>
-
-              <div className="min-w-0">
-                <div className="truncate text-[11px] font-extrabold uppercase tracking-[0.24em] text-[#0B5CAB]">
-                  Closing Signal
-                </div>
-                <div className="mt-1 truncate text-[24px] font-black tracking-[-0.04em] text-slate-950">
-                  클로징시그날
-                </div>
-                <div className="mt-1 truncate text-sm text-slate-600">
-                  사업장 위험 조기경보 · 마지막 기회 개입 운영시스템
-                </div>
-              </div>
-            </Link>
-          </div>
-
-          <div className="hidden xl:block">
-            <TopNav isLoggedIn={isLoggedIn} isAdmin={isAdmin} />
-          </div>
-        </div>
-      </div>
-
-      <div className="xl:hidden">
-        <MobileNav isLoggedIn={isLoggedIn} isAdmin={isAdmin} />
       </div>
     </header>
   );
