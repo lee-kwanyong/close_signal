@@ -62,7 +62,7 @@ function formatNumber(value: number | null | undefined) {
   return new Intl.NumberFormat("ko-KR").format(value);
 }
 
-function formatScore(value: number | null | undefined, digits = 0) {
+function formatScore(value: number | null | undefined, digits = 1) {
   if (value === null || value === undefined) return "-";
   return Number(value).toFixed(digits);
 }
@@ -109,9 +109,9 @@ function MessageBanner({
 
   const tone = success
     ? "border-emerald-200 bg-emerald-50 text-emerald-700"
-    : "border-red-200 bg-red-50 text-red-700";
+    : "border-rose-200 bg-rose-50 text-rose-700";
 
-  return <div className={`rounded-2xl border px-4 py-3 text-sm ${tone}`}>{message}</div>;
+  return <div className={`rounded-xl border px-4 py-3 text-sm ${tone}`}>{message}</div>;
 }
 
 function FilterChip({
@@ -127,10 +127,10 @@ function FilterChip({
     <Link
       href={href}
       className={[
-        "inline-flex h-10 items-center justify-center rounded-full px-4 text-sm font-medium transition",
+        "inline-flex h-9 items-center justify-center rounded-full px-3 text-sm font-semibold transition",
         active
-          ? "border border-sky-600 bg-sky-600 text-white shadow-sm hover:bg-sky-700"
-          : "border border-sky-100 bg-sky-50 text-sky-700 hover:border-sky-200 hover:bg-sky-100",
+          ? "border border-[#169BF4] bg-[#169BF4] text-white shadow-sm hover:bg-[#0A84E0]"
+          : "border border-slate-300 bg-white text-slate-700 hover:bg-slate-50",
       ].join(" ")}
     >
       {children}
@@ -142,33 +142,33 @@ function scoreTone(score: number | null | undefined) {
   const n = num(score, 0);
 
   if (score === null || score === undefined) {
-    return "border-slate-200 bg-slate-100 text-slate-600";
+    return "border-slate-200 bg-slate-50 text-slate-600";
   }
-  if (n >= 80) return "border-red-200 bg-red-50 text-red-700";
-  if (n >= 65) return "border-amber-200 bg-amber-50 text-amber-700";
-  if (n >= 45) return "border-yellow-200 bg-yellow-50 text-yellow-700";
-  return "border-emerald-200 bg-emerald-50 text-emerald-700";
+  if (n >= 80) return "border-rose-200 bg-rose-50 text-rose-700";
+  if (n >= 65) return "border-orange-200 bg-orange-50 text-orange-700";
+  if (n >= 45) return "border-amber-200 bg-amber-50 text-amber-700";
+  return "border-sky-200 bg-[#F2FAFF] text-[#0A6FD6]";
 }
 
 function pressureTone(grade: string | null | undefined) {
   const value = String(grade || "").toLowerCase();
 
-  if (value === "critical") return "border-red-200 bg-red-50 text-red-700";
+  if (value === "critical") return "border-rose-200 bg-rose-50 text-rose-700";
   if (value === "high") return "border-orange-200 bg-orange-50 text-orange-700";
   if (value === "moderate") return "border-amber-200 bg-amber-50 text-amber-700";
-  return "border-sky-200 bg-sky-50 text-sky-700";
+  return "border-sky-200 bg-[#F2FAFF] text-[#0A6FD6]";
 }
 
 function ntsTone(score: number | null | undefined) {
   const n = num(score, 0);
 
   if (score === null || score === undefined) {
-    return "border-slate-200 bg-slate-100 text-slate-500";
+    return "border-slate-200 bg-slate-50 text-slate-500";
   }
-  if (n >= 70) return "border-red-200 bg-red-50 text-red-700";
+  if (n >= 70) return "border-rose-200 bg-rose-50 text-rose-700";
   if (n >= 50) return "border-orange-200 bg-orange-50 text-orange-700";
   if (n >= 35) return "border-amber-200 bg-amber-50 text-amber-700";
-  return "border-emerald-200 bg-emerald-50 text-emerald-700";
+  return "border-sky-200 bg-[#F2FAFF] text-[#0A6FD6]";
 }
 
 function severityLabel(severity: string | null | undefined) {
@@ -385,51 +385,34 @@ export default async function RankingsPage({
 
   return (
     <main className="min-h-screen bg-slate-50">
-      <div className="mx-auto flex w-full max-w-7xl flex-col gap-6 px-4 py-8 sm:px-6 lg:px-8">
-        <section className="rounded-3xl border border-slate-200 bg-white p-6 shadow-sm">
-          <div className="flex flex-col gap-4 xl:flex-row xl:items-end xl:justify-between">
+      <div className="mx-auto flex w-full max-w-7xl flex-col gap-4 px-3 py-5 sm:px-4 lg:px-6">
+        <section className="rounded-2xl border border-slate-200 bg-white p-4 shadow-sm">
+          <div className="flex flex-col gap-3 xl:flex-row xl:items-end xl:justify-between">
             <div>
-              <div className="mb-2 text-sm font-medium text-sky-700">INTEGRATED RISK</div>
-              <h1 className="text-2xl font-semibold tracking-tight text-slate-950 sm:text-3xl">
-                통합 위험관리 랭킹
+              <div className="mb-1 text-[11px] font-black tracking-[0.18em] text-[#0A6FD6]">
+                INTEGRATED RISK
+              </div>
+              <h1 className="text-xl font-black tracking-[-0.04em] text-slate-950 sm:text-2xl">
+                통합 위험 랭킹
               </h1>
-              <p className="mt-2 text-sm text-slate-500">
-                랭킹 페이지는 점수 중심으로 간결하게 보여주고, 핵심 사유 / DB 요약 / 기준일은
-                상세 페이지에서 확인합니다.
+              <p className="mt-1 text-sm text-slate-600">
+                위험 우선순위가 먼저 보이도록 정리했습니다.
               </p>
             </div>
 
-            <div className="grid grid-cols-2 gap-3 sm:grid-cols-4">
-              <div className="rounded-2xl border border-sky-100 bg-sky-50 p-4">
-                <div className="text-xs uppercase tracking-wide text-sky-700">현재 페이지</div>
-                <div className="mt-2 text-xl font-semibold text-slate-950">{page}</div>
-              </div>
-              <div className="rounded-2xl border border-sky-100 bg-sky-50 p-4">
-                <div className="text-xs uppercase tracking-wide text-sky-700">고위험 항목</div>
-                <div className="mt-2 text-xl font-semibold text-slate-950">
-                  {formatNumber(summaryHighRisk)}
-                </div>
-              </div>
-              <div className="rounded-2xl border border-sky-100 bg-sky-50 p-4">
-                <div className="text-xs uppercase tracking-wide text-sky-700">외부 치명</div>
-                <div className="mt-2 text-xl font-semibold text-slate-950">
-                  {formatNumber(externalCriticalCount)}
-                </div>
-              </div>
-              <div className="rounded-2xl border border-sky-100 bg-sky-50 p-4">
-                <div className="text-xs uppercase tracking-wide text-sky-700">NTS 경고</div>
-                <div className="mt-2 text-xl font-semibold text-slate-950">
-                  {formatNumber(ntsWarningCount)}
-                </div>
-              </div>
+            <div className="grid grid-cols-2 gap-2 lg:grid-cols-4">
+              <MetricCardSmall label="페이지" value={String(page)} />
+              <MetricCardSmall label="고위험" value={formatNumber(summaryHighRisk)} tone="danger" />
+              <MetricCardSmall label="외부 치명" value={formatNumber(externalCriticalCount)} tone="danger" />
+              <MetricCardSmall label="NTS 경고" value={formatNumber(ntsWarningCount)} tone="warning" />
             </div>
           </div>
         </section>
 
         <MessageBanner success={resolved.success} error={resolved.error} />
 
-        <section className="rounded-3xl border border-slate-200 bg-white p-5 shadow-sm">
-          <div className="flex flex-col gap-4 xl:flex-row xl:items-center xl:justify-between">
+        <section className="rounded-2xl border border-slate-200 bg-white p-4 shadow-sm">
+          <div className="flex flex-col gap-3 xl:flex-row xl:items-center xl:justify-between">
             <div className="flex flex-wrap gap-2">
               <FilterChip
                 href={`/rankings${buildQueryString({ regionCode, categoryId, sort: "final" })}`}
@@ -466,14 +449,14 @@ export default async function RankingsPage({
             <div className="text-sm text-slate-500">
               {regionCode ? (
                 <span>
-                  지역 필터 <span className="font-medium text-slate-900">{regionCode}</span>
+                  지역 <span className="font-medium text-slate-900">{regionCode}</span>
                 </span>
               ) : (
                 <span>지역 전체</span>
               )}
               {categoryId ? (
                 <span className="ml-3">
-                  업종 ID <span className="font-medium text-slate-900">{categoryId}</span>
+                  업종 <span className="font-medium text-slate-900">{categoryId}</span>
                 </span>
               ) : (
                 <span className="ml-3">업종 전체</span>
@@ -482,13 +465,13 @@ export default async function RankingsPage({
           </div>
         </section>
 
-        <section className="rounded-3xl border border-slate-200 bg-white p-4 shadow-sm sm:p-5">
+        <section className="rounded-2xl border border-slate-200 bg-white p-3 shadow-sm sm:p-4">
           {rows.length === 0 ? (
-            <div className="rounded-2xl border border-dashed border-slate-200 bg-slate-50 px-4 py-16 text-center text-sm text-slate-500">
+            <div className="rounded-xl border border-dashed border-slate-200 bg-slate-50 px-4 py-14 text-center text-sm text-slate-500">
               표시할 통합 랭킹 데이터가 없습니다.
             </div>
           ) : (
-            <div className="grid gap-4">
+            <div className="grid gap-3">
               {rows.map((row, index) => {
                 const rank = (page - 1) * PAGE_SIZE + index + 1;
                 const watchKey = `${row.region_code}:${row.category_id}`;
@@ -509,17 +492,17 @@ export default async function RankingsPage({
                 return (
                   <article
                     key={`${row.region_code}-${row.category_id}-${row.snapshot_date}-${rank}`}
-                    className="rounded-[24px] border border-slate-200 bg-white p-5 shadow-sm transition hover:border-sky-200 hover:bg-sky-50/30"
+                    className="rounded-[18px] border border-slate-200 bg-slate-50 p-4 shadow-sm transition hover:border-[#BFE3FF] hover:bg-white"
                   >
-                    <div className="flex flex-col gap-4 xl:flex-row xl:items-start xl:justify-between">
+                    <div className="flex flex-col gap-3 xl:flex-row xl:items-start xl:justify-between">
                       <div className="min-w-0 flex-1">
                         <div className="flex flex-wrap items-center gap-2">
-                          <span className="inline-flex h-8 items-center rounded-full border border-slate-200 bg-slate-50 px-3 text-sm font-semibold text-slate-700">
+                          <span className="inline-flex h-7 items-center rounded-full border border-slate-300 bg-white px-2.5 text-xs font-bold text-slate-700">
                             #{rank}
                           </span>
 
                           <span
-                            className={`inline-flex h-8 items-center rounded-full border px-3 text-xs font-semibold ${scoreTone(
+                            className={`inline-flex h-7 items-center rounded-full border px-2.5 text-[10px] font-bold ${scoreTone(
                               row.integrated_final_score,
                             )}`}
                           >
@@ -527,7 +510,7 @@ export default async function RankingsPage({
                           </span>
 
                           <span
-                            className={`inline-flex h-8 items-center rounded-full border px-3 text-xs font-semibold ${pressureTone(
+                            className={`inline-flex h-7 items-center rounded-full border px-2.5 text-[10px] font-bold ${pressureTone(
                               row.kosis_pressure_grade,
                             )}`}
                           >
@@ -535,7 +518,7 @@ export default async function RankingsPage({
                           </span>
 
                           <span
-                            className={`inline-flex h-8 items-center rounded-full border px-3 text-xs font-semibold ${ntsTone(
+                            className={`inline-flex h-7 items-center rounded-full border px-2.5 text-[10px] font-bold ${ntsTone(
                               row.nts_business_score,
                             )}`}
                           >
@@ -545,16 +528,16 @@ export default async function RankingsPage({
 
                         <Link
                           href={detailHref}
-                          className="mt-4 block text-lg font-semibold tracking-tight text-slate-950 transition hover:text-sky-700"
+                          className="mt-2 block text-lg font-black tracking-[-0.03em] text-slate-950 transition hover:text-[#0A6FD6]"
                         >
                           {row.region_name ?? row.region_code} · {row.category_name ?? row.category_id}
                         </Link>
 
-                        <div className="mt-2 flex flex-wrap gap-x-4 gap-y-2 text-sm text-slate-500">
+                        <div className="mt-1 flex flex-wrap gap-x-3 gap-y-1 text-xs text-slate-500">
                           <span>기준월 {row.snapshot_date || "-"}</span>
                           <Link
                             href={detailHref}
-                            className="font-medium text-sky-700 transition hover:text-sky-800"
+                            className="font-semibold text-[#0A6FD6] transition hover:text-[#085CB2]"
                           >
                             상세 보기
                           </Link>
@@ -562,70 +545,52 @@ export default async function RankingsPage({
                             href={`/signals?regionCode=${encodeURIComponent(
                               row.region_code,
                             )}&categoryId=${row.category_id}`}
-                            className="font-medium text-sky-700 transition hover:text-sky-800"
+                            className="font-semibold text-[#0A6FD6] transition hover:text-[#085CB2]"
                           >
                             관련 시그널
                           </Link>
                         </div>
 
-                        <div className="mt-4 grid grid-cols-2 gap-3 lg:grid-cols-3 2xl:grid-cols-6">
-                          <div className="rounded-2xl border border-slate-200 bg-slate-50 px-4 py-3">
-                            <div className="text-[11px] uppercase tracking-wide text-slate-500">
-                              통합위험
-                            </div>
-                            <div className="mt-1 text-base font-semibold text-slate-950">
-                              {severityLabel(row.integrated_severity)} ·{" "}
-                              {formatScore(row.integrated_final_score, 0)}
-                            </div>
-                          </div>
-
-                          <div className="rounded-2xl border border-slate-200 bg-slate-50 px-4 py-3">
-                            <div className="text-[11px] uppercase tracking-wide text-slate-500">
-                              시장위험
-                            </div>
-                            <div className="mt-1 text-base font-semibold text-slate-950">
-                              {formatScore(row.integrated_market_score, 0)}
-                            </div>
-                          </div>
-
-                          <div className="rounded-2xl border border-slate-200 bg-slate-50 px-4 py-3">
-                            <div className="text-[11px] uppercase tracking-wide text-slate-500">
-                              소상공인위험
-                            </div>
-                            <div className="mt-1 text-base font-semibold text-slate-950">
-                              {formatScore(row.smallbiz_risk_score, 1)}
-                            </div>
-                          </div>
-
-                          <div className="rounded-2xl border border-slate-200 bg-slate-50 px-4 py-3">
-                            <div className="text-[11px] uppercase tracking-wide text-slate-500">
-                              외부폐업압력
-                            </div>
-                            <div className="mt-1 text-base font-semibold text-slate-950">
-                              {row.kosis_pressure_label ||
-                                severityLabel(row.kosis_pressure_grade)}{" "}
-                              · {formatScore(row.kosis_pressure_score, 0)}
-                            </div>
-                          </div>
-
-                          <div className="rounded-2xl border border-slate-200 bg-slate-50 px-4 py-3">
-                            <div className="text-[11px] uppercase tracking-wide text-slate-500">
-                              NTS위험
-                            </div>
-                            <div className="mt-1 text-base font-semibold text-slate-950">
-                              {row.nts_label || "없음"} · {formatScore(row.nts_business_score, 0)}
-                            </div>
-                          </div>
-
-                          <div className="rounded-2xl border border-slate-200 bg-slate-50 px-4 py-3">
-                            <div className="text-[11px] uppercase tracking-wide text-slate-500">
-                              전국비중 / 전년증감
-                            </div>
-                            <div className="mt-1 text-base font-semibold text-slate-950">
-                              {formatScore(row.kosis_national_share_pct, 4)}% /{" "}
-                              {formatScore(row.kosis_yoy_closed_delta_pct, 4)}%
-                            </div>
-                          </div>
+                        <div className="mt-3 grid grid-cols-2 gap-2 xl:grid-cols-6">
+                          <MetricBox
+                            label="통합위험"
+                            value={`${severityLabel(row.integrated_severity)} · ${formatScore(
+                              row.integrated_final_score,
+                              0,
+                            )}`}
+                            tone={scoreTone(row.integrated_final_score)}
+                          />
+                          <MetricBox
+                            label="시장위험"
+                            value={formatScore(row.integrated_market_score, 0)}
+                          />
+                          <MetricBox
+                            label="소상공인위험"
+                            value={formatScore(row.smallbiz_risk_score, 1)}
+                          />
+                          <MetricBox
+                            label="외부폐업압력"
+                            value={`${row.kosis_pressure_label || severityLabel(row.kosis_pressure_grade)} · ${formatScore(
+                              row.kosis_pressure_score,
+                              0,
+                            )}`}
+                            tone={pressureTone(row.kosis_pressure_grade)}
+                          />
+                          <MetricBox
+                            label="NTS위험"
+                            value={`${row.nts_label || "없음"} · ${formatScore(
+                              row.nts_business_score,
+                              0,
+                            )}`}
+                            tone={ntsTone(row.nts_business_score)}
+                          />
+                          <MetricBox
+                            label="전국비중 / 전년증감"
+                            value={`${formatScore(row.kosis_national_share_pct, 2)} / ${formatScore(
+                              row.kosis_yoy_closed_delta_pct,
+                              2,
+                            )}`}
+                          />
                         </div>
                       </div>
 
@@ -657,10 +622,10 @@ export default async function RankingsPage({
                               <button
                                 type="submit"
                                 className={[
-                                  "inline-flex h-11 w-full min-w-[120px] items-center justify-center rounded-xl px-4 text-sm font-medium transition xl:w-auto",
+                                  "inline-flex h-10 w-full min-w-[116px] items-center justify-center rounded-xl px-3 text-sm font-semibold transition xl:w-auto",
                                   isWatching
-                                    ? "border border-sky-200 bg-sky-50 text-sky-700 hover:bg-sky-100"
-                                    : "bg-sky-600 text-white shadow-sm hover:bg-sky-700",
+                                    ? "border border-sky-200 bg-[#F2FAFF] text-[#0A6FD6] hover:bg-[#E7F4FF]"
+                                    : "bg-[#169BF4] text-white shadow-sm hover:bg-[#0A84E0]",
                                 ].join(" ")}
                               >
                                 {isWatching ? "저장됨" : "모니터링추가"}
@@ -669,7 +634,7 @@ export default async function RankingsPage({
                           ) : (
                             <Link
                               href={`/auth/login?next=${encodeURIComponent(`/rankings${next}`)}`}
-                              className="inline-flex h-11 w-full min-w-[120px] items-center justify-center rounded-xl bg-sky-600 px-4 text-sm font-medium text-white shadow-sm transition hover:bg-sky-700 xl:w-auto"
+                              className="inline-flex h-10 w-full min-w-[116px] items-center justify-center rounded-xl bg-[#169BF4] px-3 text-sm font-semibold text-white shadow-sm transition hover:bg-[#0A84E0] xl:w-auto"
                             >
                               모니터링추가
                             </Link>
@@ -688,9 +653,9 @@ export default async function RankingsPage({
           <Link
             href={page > 1 ? `/rankings${prevHref}` : "#"}
             className={[
-              "inline-flex h-11 items-center justify-center rounded-xl px-4 text-sm font-medium transition",
+              "inline-flex h-10 items-center justify-center rounded-xl px-4 text-sm font-semibold transition",
               page > 1
-                ? "border border-sky-200 bg-sky-50 text-sky-700 hover:bg-sky-100"
+                ? "border border-slate-300 bg-white text-slate-700 hover:bg-slate-50"
                 : "cursor-default border border-slate-100 bg-slate-100 text-slate-400",
             ].join(" ")}
           >
@@ -712,9 +677,9 @@ export default async function RankingsPage({
           <Link
             href={rows.length === PAGE_SIZE ? `/rankings${nextHref}` : "#"}
             className={[
-              "inline-flex h-11 items-center justify-center rounded-xl px-4 text-sm font-medium transition",
+              "inline-flex h-10 items-center justify-center rounded-xl px-4 text-sm font-semibold transition",
               rows.length === PAGE_SIZE
-                ? "border border-sky-200 bg-sky-50 text-sky-700 hover:bg-sky-100"
+                ? "border border-slate-300 bg-white text-slate-700 hover:bg-slate-50"
                 : "cursor-default border border-slate-100 bg-slate-100 text-slate-400",
             ].join(" ")}
           >
@@ -723,5 +688,46 @@ export default async function RankingsPage({
         </section>
       </div>
     </main>
+  );
+}
+
+function MetricCardSmall({
+  label,
+  value,
+  tone = "default",
+}: {
+  label: string;
+  value: string;
+  tone?: "default" | "danger" | "warning";
+}) {
+  const toneClass =
+    tone === "danger"
+      ? "border-rose-200 bg-rose-50"
+      : tone === "warning"
+        ? "border-amber-200 bg-amber-50"
+        : "border-slate-200 bg-white";
+
+  return (
+    <div className={`rounded-xl border px-3 py-2.5 ${toneClass}`}>
+      <div className="text-[10px] uppercase tracking-wide text-slate-500">{label}</div>
+      <div className="mt-1 text-lg font-black text-slate-950">{value}</div>
+    </div>
+  );
+}
+
+function MetricBox({
+  label,
+  value,
+  tone = "border-slate-200 bg-white text-slate-900",
+}: {
+  label: string;
+  value: string;
+  tone?: string;
+}) {
+  return (
+    <div className={`rounded-xl border px-3 py-2 ${tone}`}>
+      <div className="text-[10px] uppercase tracking-wide opacity-70">{label}</div>
+      <div className="mt-1 text-sm font-bold">{value}</div>
+    </div>
   );
 }
