@@ -1,608 +1,731 @@
 import Link from "next/link";
+import type { ReactNode } from "react";
 import { createClient } from "@/lib/supabase/server";
 
-type DistributionRow = {
-  total_rows: number | null;
-  avg_integrated_signal_score: number | null;
-  critical_count: number | null;
-  high_count: number | null;
-  medium_count: number | null;
-  low_count: number | null;
-};
+export const dynamic = "force-dynamic";
 
-type RegionAggregateRow = {
-  region_code: string | null;
-  region_name: string | null;
-  score_month: string | null;
-  avg_adjusted_score: number | null;
-  avg_integrated_signal_score: number | null;
-  max_integrated_signal_score: number | null;
-  row_count: number | null;
-  critical_count: number | null;
-  high_count: number | null;
-  national_share_pct_avg: number | null;
-  yoy_closed_delta_pct_avg: number | null;
-};
+async function getUserState() {
+  const supabase = await createClient();
+  const {
+    data: { user },
+  } = await supabase.auth.getUser();
 
-type TopRow = {
-  region_code: string | null;
-  region_name: string | null;
-  category_id: number | null;
-  category_name: string | null;
-  score_month: string | null;
-  adjusted_score: number | null;
-  risk_grade: string | null;
-  closure_region_code: string | null;
-  closure_region_name: string | null;
-  pressure_grade: string | null;
-  national_share_pct: number | null;
-  yoy_closed_delta_pct: number | null;
-  close_rate_pct: number | null;
-  operating_yoy_change_pct: number | null;
-  net_change: number | null;
-  integrated_signal_score: number | null;
-};
-
-type GapRow = {
-  region_code: string | null;
-  region_name: string | null;
-  category_id: number | null;
-  category_name: string | null;
-  score_month: string | null;
-  adjusted_score: number | null;
-  risk_grade: string | null;
-  closure_region_code: string | null;
-  closure_region_name: string | null;
-  pressure_grade: string | null;
-  integrated_signal_score: number | null;
-};
-
-function asArray<T>(value: T[] | null | undefined): T[] {
-  return Array.isArray(value) ? value : [];
-}
-
-function num(value: number | null | undefined, fallback = 0) {
-  return value === null || value === undefined || Number.isNaN(value)
-    ? fallback
-    : Number(value);
-}
-
-function formatNumber(value: number | null | undefined) {
-  if (value == null || !Number.isFinite(value)) return "-";
-  return new Intl.NumberFormat("ko-KR").format(value);
-}
-
-function formatScore(value: number | null | undefined, digits = 1) {
-  if (value == null || !Number.isFinite(value)) return "-";
-  return Number(value).toFixed(digits);
-}
-
-function formatPercent(value: number | null | undefined, digits = 2) {
-  if (value == null || !Number.isFinite(value)) return "-";
-  return `${Number(value).toFixed(digits)}%`;
-}
-
-function normalizeRegionCode(code?: string | null) {
-  const raw = String(code || "").trim().toUpperCase();
-  if (!raw) return "";
-
-  const aliasMap: Record<string, string> = {
-    KR: "KR",
-    "11": "KR-11",
-    "26": "KR-26",
-    "27": "KR-27",
-    "28": "KR-28",
-    "29": "KR-29",
-    "30": "KR-30",
-    "31": "KR-31",
-    "36": "KR-36",
-    "41": "KR-41",
-    "42": "KR-42",
-    "43": "KR-43",
-    "44": "KR-44",
-    "45": "KR-45",
-    "46": "KR-46",
-    "47": "KR-47",
-    "48": "KR-48",
-    "50": "KR-50",
-    A01: "KR-11",
-    A02: "KR-26",
-    A03: "KR-41",
-    A04: "KR-27",
-    A05: "KR-28",
-    A06: "KR-29",
-    A07: "KR-30",
-    A08: "KR-31",
-    A09: "KR-36",
-    A10: "KR-42",
-    A11: "KR-43",
-    A12: "KR-44",
-    A13: "KR-45",
-    A14: "KR-46",
-    A15: "KR-47",
-    A16: "KR-48",
-    A17: "KR-50",
+  return {
+    isLoggedIn: Boolean(user),
   };
-
-  if (aliasMap[raw]) return aliasMap[raw];
-  if (/^KR-\d{2}$/.test(raw)) return raw;
-  return raw;
 }
 
-function integratedLabel(score: number | null | undefined) {
-  const n = num(score, 0);
-  if (score == null) return "미정";
-  if (n >= 80) return "치명";
-  if (n >= 65) return "높음";
-  if (n >= 45) return "주의";
-  return "관찰";
+function MotionStyle() {
+  return (
+    <style>{`
+      @keyframes closeSignalSweep {
+        0% { transform: translateX(-130%); opacity: 0; }
+        12% { opacity: 1; }
+        88% { opacity: 1; }
+        100% { transform: translateX(360%); opacity: 0; }
+      }
+
+      @keyframes closeSignalPulseRing {
+        0% { transform: scale(0.65); opacity: 0.55; }
+        100% { transform: scale(1.9); opacity: 0; }
+      }
+
+      .cs-sweep { animation: closeSignalSweep 4.8s ease-in-out infinite; }
+      .cs-pulse-ring { animation: closeSignalPulseRing 1.8s ease-out infinite; }
+
+      @media (prefers-reduced-motion: reduce) {
+        .cs-sweep,
+        .cs-pulse-ring {
+          animation: none !important;
+        }
+      }
+    `}</style>
+  );
 }
 
-function pressureLabel(grade: string | null | undefined) {
-  const value = String(grade || "").toLowerCase();
-  if (value === "critical") return "외부 치명";
-  if (value === "high") return "외부 높음";
-  if (value === "moderate") return "외부 주의";
-  if (value === "observe") return "외부 관찰";
-  return "외부 미연결";
-}
-
-function statusTone(score: number | null | undefined) {
-  const n = num(score, 0);
-  if (score == null || !Number.isFinite(score)) {
-    return "border-slate-200 bg-slate-50 text-slate-600";
-  }
-  if (n >= 80) return "border-rose-200 bg-rose-50 text-rose-700";
-  if (n >= 65) return "border-orange-200 bg-orange-50 text-orange-700";
-  if (n >= 45) return "border-amber-200 bg-amber-50 text-amber-700";
-  return "border-sky-200 bg-[#F2FAFF] text-[#0A6FD6]";
-}
-
-function pressureTone(grade: string | null | undefined) {
-  const value = String(grade || "").toLowerCase();
-  if (value === "critical") return "border-rose-200 bg-rose-50 text-rose-700";
-  if (value === "high") return "border-orange-200 bg-orange-50 text-orange-700";
-  if (value === "moderate") return "border-amber-200 bg-amber-50 text-amber-700";
-  if (value === "observe") return "border-sky-200 bg-[#F2FAFF] text-[#0A6FD6]";
-  return "border-slate-200 bg-slate-50 text-slate-600";
-}
-
-function topIdentity(row: TopRow) {
-  return [
-    normalizeRegionCode(row.region_code),
-    String(row.category_id ?? ""),
-    row.score_month ?? "",
-    row.pressure_grade ?? "",
-    row.risk_grade ?? "",
-    row.integrated_signal_score ?? "",
-    row.adjusted_score ?? "",
-    row.net_change ?? "",
-  ].join("|");
-}
-
-function dedupeTopRows(rows: TopRow[]) {
-  const seen = new Set<string>();
-  return rows.filter((row) => {
-    const key = topIdentity(row);
-    if (seen.has(key)) return false;
-    seen.add(key);
-    return true;
-  });
-}
-
-async function getDistribution(client: Awaited<ReturnType<typeof createClient>>) {
-  try {
-    const { data } = await client
-      .from("v_integrated_risk_distribution_current")
-      .select("*")
-      .limit(1)
-      .maybeSingle();
-
-    return (data ?? null) as DistributionRow | null;
-  } catch {
-    return null;
-  }
-}
-
-async function getRegionAggregates(client: Awaited<ReturnType<typeof createClient>>) {
-  try {
-    const { data } = await client
-      .from("v_integrated_risk_region_aggregates_current")
-      .select("*")
-      .order("avg_integrated_signal_score", { ascending: false })
-      .limit(8);
-
-    return (data ?? []) as RegionAggregateRow[];
-  } catch {
-    return [] as RegionAggregateRow[];
-  }
-}
-
-async function getTopRows(client: Awaited<ReturnType<typeof createClient>>) {
-  try {
-    const { data } = await client
-      .from("v_integrated_risk_top_current")
-      .select("*")
-      .order("integrated_signal_score", { ascending: false })
-      .limit(10);
-
-    return (data ?? []) as TopRow[];
-  } catch {
-    return [] as TopRow[];
-  }
-}
-
-async function getGapRows(client: Awaited<ReturnType<typeof createClient>>) {
-  try {
-    const { data } = await client
-      .from("v_integrated_risk_join_gaps_current")
-      .select("*")
-      .limit(12);
-
-    return (data ?? []) as GapRow[];
-  } catch {
-    return [] as GapRow[];
-  }
-}
-
-function MetricCard({
-  title,
-  value,
-  description,
-  tone = "default",
+function CTAButton({
+  href,
+  label,
+  tone = "primary",
 }: {
-  title: string;
-  value: string;
-  description: string;
-  tone?: "default" | "danger" | "warning" | "observe";
+  href: string;
+  label: string;
+  tone?: "primary" | "secondary" | "dark" | "ghost";
 }) {
-  const toneClass =
-    tone === "danger"
-      ? "border-rose-200 bg-rose-50"
-      : tone === "warning"
-        ? "border-amber-200 bg-amber-50"
-        : tone === "observe"
-          ? "border-sky-200 bg-[#F2FAFF]"
-          : "border-slate-200 bg-white";
+  const className =
+    tone === "primary"
+      ? "inline-flex h-12 items-center justify-center rounded-full bg-[#169BF4] px-6 text-sm font-black text-white shadow-[0_16px_36px_rgba(22,155,244,0.32)] transition duration-200 hover:-translate-y-0.5 hover:bg-[#0A84E0]"
+      : tone === "dark"
+        ? "inline-flex h-12 items-center justify-center rounded-full bg-slate-950 px-6 text-sm font-black text-white shadow-[0_16px_36px_rgba(15,23,42,0.18)] transition duration-200 hover:-translate-y-0.5 hover:bg-slate-800"
+        : tone === "secondary"
+          ? "inline-flex h-12 items-center justify-center rounded-full border border-slate-300 bg-white px-6 text-sm font-black text-slate-800 transition duration-200 hover:-translate-y-0.5 hover:border-slate-400 hover:bg-slate-50"
+          : "inline-flex h-12 items-center justify-center rounded-full border border-[#BFE3FF] bg-[#F2FAFF] px-6 text-sm font-black text-[#0A6FD6] transition duration-200 hover:-translate-y-0.5 hover:bg-[#E8F4FF]";
 
   return (
-    <div className={`rounded-2xl border p-4 shadow-sm ${toneClass}`}>
-      <div className="text-xs font-semibold text-slate-600">{title}</div>
-      <div className="mt-2 text-3xl font-black tracking-[-0.05em] text-slate-950">{value}</div>
-      <div className="mt-1 text-xs leading-5 text-slate-500">{description}</div>
+    <Link href={href} className={className}>
+      {label}
+    </Link>
+  );
+}
+
+function GlowOrb({
+  className,
+  tone = "sky",
+}: {
+  className: string;
+  tone?: "sky" | "rose" | "cyan";
+}) {
+  const toneClass =
+    tone === "rose"
+      ? "bg-rose-300/30"
+      : tone === "cyan"
+        ? "bg-cyan-300/30"
+        : "bg-sky-300/30";
+
+  return (
+    <div
+      className={`pointer-events-none absolute rounded-full blur-3xl ${toneClass} ${className}`}
+    />
+  );
+}
+
+function RoleBadge({
+  label,
+  text,
+  tone,
+}: {
+  label: string;
+  text: string;
+  tone: "sky" | "rose";
+}) {
+  const toneClass =
+    tone === "rose"
+      ? "border-rose-200 bg-rose-50/90 text-rose-700"
+      : "border-sky-200 bg-sky-50/90 text-[#0A6FD6]";
+
+  return (
+    <div className={`rounded-[22px] border px-4 py-3 ${toneClass}`}>
+      <div className="text-[10px] font-black uppercase tracking-[0.18em] opacity-70">
+        {label}
+      </div>
+      <div className="mt-1 text-sm font-black leading-6">{text}</div>
     </div>
   );
 }
 
-function SectionCard({
-  title,
-  subtitle,
-  href,
-  children,
-}: {
-  title: string;
-  subtitle?: string;
-  href?: string;
-  children: React.ReactNode;
-}) {
+function DecisionFlowBadge() {
   return (
-    <section className="rounded-[24px] border border-slate-200 bg-white p-5 shadow-sm">
-      <div className="mb-4 flex flex-col gap-2 sm:flex-row sm:items-start sm:justify-between">
-        <div>
-          <div className="text-lg font-black tracking-[-0.03em] text-slate-950">{title}</div>
-          {subtitle ? <div className="mt-1 text-sm text-slate-600">{subtitle}</div> : null}
+    <div className="mt-6 inline-flex max-w-full flex-wrap items-center gap-2 rounded-[22px] border border-slate-200 bg-white/90 px-4 py-3 shadow-[0_16px_44px_rgba(15,23,42,0.08)] backdrop-blur">
+      <span className="text-[10px] font-black uppercase tracking-[0.18em] text-slate-400">
+        오늘의 판단
+      </span>
+
+      <span className="hidden h-4 w-px bg-slate-200 sm:block" />
+
+      <span className="text-sm font-black text-slate-950">위험</span>
+      <span className="text-sm font-black text-[#169BF4]">→</span>
+      <span className="text-sm font-black text-slate-950">우선순위</span>
+      <span className="text-sm font-black text-[#169BF4]">→</span>
+      <span className="text-sm font-black text-slate-950">실행</span>
+    </div>
+  );
+}
+
+function MetricChip({
+  label,
+  value,
+  tone = "sky",
+}: {
+  label: string;
+  value: string;
+  tone?: "sky" | "rose" | "slate";
+}) {
+  const toneClass =
+    tone === "rose"
+      ? "border-rose-200 bg-rose-50 text-rose-700"
+      : tone === "slate"
+        ? "border-slate-700 bg-slate-950 text-white"
+        : "border-sky-200 bg-sky-50 text-[#0A6FD6]";
+
+  return (
+    <div
+      className={`flex min-h-[104px] flex-col justify-between rounded-[24px] border px-4 py-4 shadow-sm ${toneClass}`}
+    >
+      <div className="text-[10px] font-black uppercase tracking-[0.18em] opacity-70">
+        {label}
+      </div>
+      <div className="min-h-[46px] whitespace-pre-line text-[20px] font-black leading-[1.15] tracking-[-0.045em] sm:text-[22px]">
+        {value}
+      </div>
+    </div>
+  );
+}
+
+function SignalFlow() {
+  const points = ["8%", "33%", "58%", "83%"];
+
+  return (
+    <div className="relative mt-5 h-20 overflow-hidden rounded-[28px] border border-slate-200 bg-white/75 shadow-sm backdrop-blur">
+      <div className="absolute left-6 right-6 top-1/2 h-px bg-slate-200" />
+      <div className="cs-sweep absolute left-8 top-1/2 h-1 w-32 -translate-y-1/2 rounded-full bg-[#169BF4] shadow-[0_0_24px_rgba(22,155,244,0.7)]" />
+
+      {points.map((left, index) => (
+        <div
+          key={left}
+          className="absolute top-1/2 -translate-y-1/2"
+          style={{ left }}
+        >
+          <div className="absolute inset-0 h-4 w-4 rounded-full bg-[#169BF4]/25 cs-pulse-ring" />
+          <div className="relative h-4 w-4 rounded-full border-4 border-white bg-[#169BF4] shadow-[0_8px_18px_rgba(22,155,244,0.28)]" />
+          <div className="mt-3 -translate-x-1/2 whitespace-nowrap text-[10px] font-black uppercase tracking-[0.18em] text-slate-400">
+            0{index + 1}
+          </div>
+        </div>
+      ))}
+    </div>
+  );
+}
+
+function SignalCard({
+  tag,
+  title,
+  description,
+  level,
+  tone = "sky",
+}: {
+  tag: string;
+  title: string;
+  description: string;
+  level: number;
+  tone?: "sky" | "rose" | "slate";
+}) {
+  const toneClass =
+    tone === "rose"
+      ? "border-rose-200 bg-rose-50 text-rose-700"
+      : tone === "slate"
+        ? "border-slate-700 bg-slate-950 text-white"
+        : "border-sky-200 bg-sky-50 text-[#0A6FD6]";
+
+  const meterClass =
+    tone === "rose"
+      ? "bg-rose-500"
+      : tone === "slate"
+        ? "bg-slate-950"
+        : "bg-[#169BF4]";
+
+  return (
+    <div className="rounded-[24px] border border-slate-200 bg-white p-4 shadow-[0_16px_44px_rgba(15,23,42,0.06)] transition duration-200 hover:-translate-y-1 hover:shadow-[0_24px_60px_rgba(15,23,42,0.1)]">
+      <div className="flex items-center justify-between gap-3">
+        <div
+          className={`rounded-full border px-2.5 py-1 text-[10px] font-black uppercase tracking-[0.14em] ${toneClass}`}
+        >
+          {tag}
         </div>
 
-        {href ? (
-          <Link
-            href={href}
-            className="inline-flex h-9 items-center rounded-xl border border-slate-300 bg-white px-3 text-sm font-semibold text-slate-700 transition hover:bg-slate-50"
-          >
-            전체 보기
-          </Link>
-        ) : null}
+        <div className="flex items-center gap-1.5 text-[11px] font-bold text-slate-400">
+          <span className="relative flex h-2.5 w-2.5">
+            <span className="absolute inline-flex h-full w-full rounded-full bg-[#169BF4] opacity-40 cs-pulse-ring" />
+            <span className="relative inline-flex h-2.5 w-2.5 rounded-full bg-[#169BF4]" />
+          </span>
+          LIVE SIGNAL
+        </div>
       </div>
 
-      {children}
+      <div className="mt-3 text-lg font-black leading-snug tracking-[-0.04em] text-slate-950">
+        {title}
+      </div>
+
+      <div className="mt-2 text-sm leading-6 text-slate-600">
+        {description}
+      </div>
+
+      <div className="mt-4 h-2 overflow-hidden rounded-full bg-slate-100">
+        <div
+          className={`h-full rounded-full ${meterClass}`}
+          style={{ width: `${level}%` }}
+        />
+      </div>
+    </div>
+  );
+}
+
+function LiveSignalBoard() {
+  return (
+    <div className="relative">
+      <div className="relative overflow-hidden rounded-[34px] border border-slate-200 bg-white/80 p-4 shadow-[0_24px_80px_rgba(15,23,42,0.1)] backdrop-blur">
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_20%_10%,rgba(22,155,244,0.13),transparent_32%),radial-gradient(circle_at_90%_30%,rgba(244,63,94,0.12),transparent_30%)]" />
+
+        <div className="relative">
+          <div className="flex items-start justify-between gap-4 border-b border-slate-100 pb-4">
+            <div>
+              <div className="text-[11px] font-black uppercase tracking-[0.18em] text-[#0A6FD6]">
+                Close Signal Dashboard
+              </div>
+              <div className="mt-2 text-2xl font-black tracking-[-0.05em] text-slate-950">
+                위험 신호를 한 화면에서
+              </div>
+            </div>
+
+            <div className="rounded-full border border-emerald-200 bg-emerald-50 px-3 py-1 text-[11px] font-black text-emerald-700">
+              예시 화면
+            </div>
+          </div>
+
+          <SignalFlow />
+
+          <div className="mt-4 grid gap-3">
+            <SignalCard
+              tag="소상공인"
+              title="우리 동네 업종 위험도가 올라가는 중"
+              description="지금 내 지역·업종이 버틸 만한지 먼저 확인하도록 안내합니다."
+              level={78}
+              tone="sky"
+            />
+
+            <SignalCard
+              tag="프랜차이즈"
+              title="신규 출점 후보지, 외부 압력 재점검 필요"
+              description="출점 전 위험도와 주변 업종 변화를 같이 보며 의사결정을 돕습니다."
+              level={86}
+              tone="rose"
+            />
+
+            <SignalCard
+              tag="운영팀"
+              title="먼저 봐야 할 점포와 지역을 우선순위화"
+              description="전체 점포를 같은 방식으로 보지 않고, 개입 순서를 빠르게 정리합니다."
+              level={69}
+              tone="slate"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function CheckItem({ children }: { children: ReactNode }) {
+  return (
+    <div className="flex gap-3 rounded-2xl border border-slate-200 bg-white px-4 py-3 shadow-sm">
+      <div className="mt-1 flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-[#169BF4] text-[11px] font-black text-white">
+        ✓
+      </div>
+      <div className="text-sm leading-7 text-slate-700">{children}</div>
+    </div>
+  );
+}
+
+function AudiencePanel({
+  eyebrow,
+  title,
+  summary,
+  bullets,
+  primaryHref,
+  primaryLabel,
+  secondaryHref,
+  secondaryLabel,
+  accent,
+}: {
+  eyebrow: string;
+  title: string;
+  summary: string;
+  bullets: string[];
+  primaryHref: string;
+  primaryLabel: string;
+  secondaryHref: string;
+  secondaryLabel: string;
+  accent: "sky" | "rose";
+}) {
+  const isRose = accent === "rose";
+  const accentText = isRose ? "text-rose-600" : "text-[#0A6FD6]";
+  const accentBorder = isRose ? "border-rose-200" : "border-sky-200";
+  const chipClass = isRose ? "bg-rose-500" : "bg-[#169BF4]";
+
+  return (
+    <section
+      className={`group relative overflow-hidden rounded-[34px] border ${accentBorder} bg-white p-6 shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-[0_28px_80px_rgba(15,23,42,0.09)] sm:p-8`}
+    >
+      <div
+        className="pointer-events-none absolute inset-0 opacity-80"
+        style={{
+          background: isRose
+            ? "radial-gradient(circle at 18% 8%, rgba(251,113,133,0.18), transparent 34%), linear-gradient(180deg, #FFFFFF 0%, #FFF7F8 100%)"
+            : "radial-gradient(circle at 18% 8%, rgba(22,155,244,0.18), transparent 34%), linear-gradient(180deg, #FFFFFF 0%, #F5FBFF 100%)",
+        }}
+      />
+
+      <div className="relative">
+        <div className="flex items-center gap-2">
+          <span
+            className={`h-2.5 w-2.5 rounded-full ${chipClass} shadow-[0_0_18px_rgba(22,155,244,0.45)]`}
+          />
+          <div
+            className={`text-[11px] font-black uppercase tracking-[0.18em] ${accentText}`}
+          >
+            {eyebrow}
+          </div>
+        </div>
+
+        <h2 className="mt-4 text-3xl font-black leading-tight tracking-[-0.055em] text-slate-950 sm:text-4xl">
+          {title}
+        </h2>
+
+        <p className="mt-4 text-sm leading-7 text-slate-600 sm:text-base">
+          {summary}
+        </p>
+
+        <div className="mt-6 grid gap-3">
+          {bullets.map((item, index) => (
+            <CheckItem key={`${eyebrow}-${index}`}>{item}</CheckItem>
+          ))}
+        </div>
+
+        <div className="mt-6 flex flex-wrap gap-2">
+          <CTAButton
+            href={primaryHref}
+            label={primaryLabel}
+            tone={isRose ? "dark" : "primary"}
+          />
+          <CTAButton
+            href={secondaryHref}
+            label={secondaryLabel}
+            tone="secondary"
+          />
+        </div>
+      </div>
     </section>
   );
 }
 
+function StepCard({
+  number,
+  title,
+  description,
+}: {
+  number: string;
+  title: string;
+  description: string;
+}) {
+  return (
+    <div className="rounded-[26px] border border-slate-200 bg-white p-5 shadow-sm transition duration-200 hover:-translate-y-1 hover:shadow-[0_20px_50px_rgba(15,23,42,0.08)]">
+      <div className="flex h-11 w-11 items-center justify-center rounded-2xl bg-slate-950 text-sm font-black text-white">
+        {number}
+      </div>
+
+      <div className="mt-4 text-xl font-black tracking-[-0.04em] text-slate-950">
+        {title}
+      </div>
+
+      <div className="mt-3 text-sm leading-7 text-slate-600">
+        {description}
+      </div>
+    </div>
+  );
+}
+
+function ExploreCard({
+  href,
+  title,
+  description,
+  label,
+}: {
+  href: string;
+  title: string;
+  description: string;
+  label: string;
+}) {
+  return (
+    <Link
+      href={href}
+      className="group rounded-[24px] border border-slate-200 bg-white p-5 shadow-sm transition duration-200 hover:-translate-y-1 hover:border-[#BFE3FF] hover:shadow-[0_20px_52px_rgba(15,23,42,0.08)]"
+    >
+      <div className="flex items-start justify-between gap-4">
+        <div>
+          <div className="text-lg font-black tracking-[-0.04em] text-slate-950">
+            {title}
+          </div>
+          <div className="mt-2 text-sm leading-7 text-slate-600">
+            {description}
+          </div>
+        </div>
+
+        <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-[#F2FAFF] text-lg font-black text-[#0A6FD6] transition group-hover:translate-x-0.5">
+          →
+        </div>
+      </div>
+
+      <div className="mt-4 text-sm font-black text-[#0A6FD6]">{label}</div>
+    </Link>
+  );
+}
+
 export default async function HomePage() {
-  const supabase = await createClient();
+  const { isLoggedIn } = await getUserState();
 
-  const [distribution, regionAggregates, rawTopRows, gapRows] = await Promise.all([
-    getDistribution(supabase),
-    getRegionAggregates(supabase),
-    getTopRows(supabase),
-    getGapRows(supabase),
-  ]);
-
-  const topRows = dedupeTopRows(asArray(rawTopRows)).slice(0, 5);
-  const regionCount = new Set(
-    regionAggregates.map((row) => normalizeRegionCode(row.region_code)).filter(Boolean),
-  ).size;
+  const rankingsHref = isLoggedIn
+    ? "/rankings"
+    : "/auth/login?next=%2Frankings";
+  const signalsHref = isLoggedIn ? "/signals" : "/auth/login?next=%2Fsignals";
+  const hqHref = "/hq";
 
   return (
-    <main className="min-h-screen bg-slate-50 text-slate-900">
+    <main className="min-h-screen overflow-hidden bg-[#F6F9FC] text-slate-950">
+      <MotionStyle />
+
       <section className="mx-auto max-w-7xl px-3 py-4 sm:px-4 sm:py-6">
-        <div className="space-y-4">
-          <section className="rounded-[24px] border border-slate-200 bg-white p-5 shadow-sm">
-            <div className="flex flex-col gap-3 xl:flex-row xl:items-end xl:justify-between">
+        <div className="space-y-5">
+          <section className="relative overflow-hidden rounded-[42px] border border-slate-200 bg-white px-5 py-8 shadow-[0_28px_90px_rgba(15,23,42,0.08)] sm:px-8 sm:py-12 lg:px-10 lg:py-14">
+            <div
+              className="pointer-events-none absolute inset-0"
+              style={{
+                background:
+                  "radial-gradient(circle at 12% 8%, rgba(22,155,244,0.22), transparent 28%), radial-gradient(circle at 92% 12%, rgba(244,63,94,0.13), transparent 27%), linear-gradient(180deg, #FFFFFF 0%, #F7FBFF 100%)",
+              }}
+            />
+
+            <GlowOrb className="-left-20 top-[-90px] h-72 w-72" tone="sky" />
+            <GlowOrb
+              className="right-[-80px] top-10 h-72 w-72"
+              tone="rose"
+            />
+            <GlowOrb
+              className="bottom-[-100px] left-1/3 h-80 w-80"
+              tone="cyan"
+            />
+
+            <div className="relative grid gap-10 xl:grid-cols-[minmax(0,1.04fr)_minmax(420px,0.96fr)] xl:items-center">
               <div className="min-w-0">
-                <div className="text-[11px] font-black uppercase tracking-[0.18em] text-[#0A6FD6]">
-                  Close Signal Dashboard
+                <div className="inline-flex items-center gap-2 rounded-full border border-sky-200 bg-white/90 px-3 py-1.5 text-[11px] font-black uppercase tracking-[0.18em] text-[#0A6FD6] shadow-sm backdrop-blur">
+                  <span className="relative flex h-2.5 w-2.5">
+                    <span className="absolute inline-flex h-full w-full rounded-full bg-[#169BF4] opacity-40 cs-pulse-ring" />
+                    <span className="relative inline-flex h-2.5 w-2.5 rounded-full bg-[#169BF4]" />
+                  </span>
+                  Close Signal Home
                 </div>
-                <h1 className="mt-1 text-2xl font-black tracking-[-0.05em] text-slate-950 sm:text-3xl">
-                  통합 위험 대시보드
+
+                <h1 className="mt-5 max-w-4xl text-4xl font-black leading-[1.02] tracking-[-0.075em] text-slate-950 sm:text-5xl lg:text-7xl">
+                  상권의 위험 신호를
+                  <br />
+                  먼저 발견하고,
+                  <br />
+                  <span className="bg-gradient-to-r from-[#0A6FD6] via-[#169BF4] to-rose-500 bg-clip-text text-transparent">
+                    다음 행동까지
+                  </span>{" "}
+                  정리합니다.
                 </h1>
-                <p className="mt-2 text-sm leading-6 text-slate-600">
-                  지금 위험한 지역·업종이 먼저 보이도록 정리했습니다.
+
+                <p className="mt-6 max-w-3xl text-base leading-8 text-slate-600 sm:text-lg">
+                  Close Signal은 지역·업종·점포 데이터를 복잡한 표가 아니라{" "}
+                  <strong className="font-black text-slate-950">
+                    위험 신호, 우선순위, 실행 방향
+                  </strong>
+                  으로 바꿔 보여주는 사업 리스크 레이더입니다. 일반
+                  소상공인은 내 사업장의 위험 흐름을 빠르게 이해하고,
+                  프랜차이즈 본사는 출점과 점포 운영 판단을 더 빠르게 내릴 수
+                  있습니다.
+                </p>
+
+                <DecisionFlowBadge />
+
+                <div className="mt-6 grid gap-3 sm:grid-cols-2">
+                  <RoleBadge
+                    label="For Local Owners"
+                    text="내 지역·내 업종이 지금 위험해지는지 한눈에 확인"
+                    tone="sky"
+                  />
+                  <RoleBadge
+                    label="For Franchise HQ"
+                    text="어디를 열고, 어떤 점포를 먼저 관리할지 판단"
+                    tone="rose"
+                  />
+                </div>
+
+                <div className="mt-7 flex flex-wrap gap-2">
+                  <CTAButton href={signalsHref} label="위험 시그날 보기" />
+                  <CTAButton
+                    href={rankingsHref}
+                    label="지역·업종 랭킹 보기"
+                    tone="secondary"
+                  />
+                  <CTAButton href={hqHref} label="본사운영 보기" tone="ghost" />
+                </div>
+              </div>
+
+              <LiveSignalBoard />
+            </div>
+
+            <div className="relative mt-8 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
+              <MetricChip label="Owner" value={"위험 이해"} />
+              <MetricChip label="HQ" value={"출점 판단"} tone="rose" />
+              <MetricChip label="Ops" value={"우선 관리"} tone="slate" />
+              <MetricChip
+                label="HQ Mode"
+                value={"출점·점포관리\n레이더"}
+                tone="slate"
+              />
+            </div>
+          </section>
+
+          <div className="grid gap-4 xl:grid-cols-2">
+            <AudiencePanel
+              eyebrow="For Local Business Owners"
+              title="일반 소상공인에게는 ‘지금 위험한지’를 먼저 보여줍니다."
+              summary="사장님이 궁금한 것은 긴 보고서가 아닙니다. 우리 동네와 내 업종이 지금 버틸 만한지, 위험이 커지는지, 무엇부터 확인해야 하는지를 바로 알아야 합니다."
+              bullets={[
+                "내 지역·업종의 위험 흐름을 랭킹과 시그날로 빠르게 확인합니다.",
+                "폐업 압력, 업종 악화 흐름, 지역 변화처럼 놓치기 쉬운 신호를 먼저 보여줍니다.",
+                "복잡한 데이터 해석 없이도 지금 상황을 이해하고 다음 확인 화면으로 이동하게 만듭니다.",
+              ]}
+              primaryHref={signalsHref}
+              primaryLabel="내 위험 시그날 확인"
+              secondaryHref={rankingsHref}
+              secondaryLabel="위험 랭킹 보기"
+              accent="sky"
+            />
+
+            <AudiencePanel
+              eyebrow="For Franchise CEOs & HQ"
+              title="프랜차이즈 대표와 본사에는 ‘출점·운영 판단 도구’를 제공합니다."
+              summary="본사에게 필요한 것은 예쁜 리포트보다 빠른 판단입니다. Close Signal은 어디에 새로 열지, 어떤 점포를 먼저 볼지, 어떤 지역을 방어해야 할지를 한 화면에서 정리합니다."
+              bullets={[
+                "출점 후보지를 볼 때 지역·업종 위험도와 외부 압력을 함께 검토합니다.",
+                "기존 점포를 모두 같은 기준으로 보지 않고, 먼저 개입해야 할 점포와 지역을 우선순위화합니다.",
+                "대표·운영팀·개발팀이 같은 위험 기준을 보고 빠르게 움직일 수 있게 만듭니다.",
+              ]}
+              primaryHref={hqHref}
+              primaryLabel="본사운영 화면 보기"
+              secondaryHref="/auth/login?next=%2Fhq"
+              secondaryLabel="본사용으로 접속"
+              accent="rose"
+            />
+          </div>
+
+          <section className="relative overflow-hidden rounded-[36px] border border-slate-200 bg-slate-950 p-6 text-white shadow-[0_28px_90px_rgba(15,23,42,0.18)] sm:p-8 lg:p-10">
+            <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_18%_18%,rgba(22,155,244,0.24),transparent_30%),radial-gradient(circle_at_85%_20%,rgba(244,63,94,0.18),transparent_28%)]" />
+
+            <div className="relative grid gap-8 lg:grid-cols-[minmax(0,0.95fr)_minmax(0,1.05fr)] lg:items-center">
+              <div>
+                <div className="text-[11px] font-black uppercase tracking-[0.18em] text-sky-300">
+                  What Close Signal Does
+                </div>
+
+                <h2 className="mt-3 text-3xl font-black leading-tight tracking-[-0.055em] sm:text-5xl">
+                  숫자를 보여주는 서비스가 아니라,
+                  <br />
+                  움직일 순서를 알려주는 서비스입니다.
+                </h2>
+
+                <p className="mt-5 text-sm leading-8 text-slate-300 sm:text-base">
+                  홈에서는 서비스의 정체성을 즉시 이해시키고, 실제 판단은
+                  랭킹·시그날·본사운영 화면으로 자연스럽게 이어지도록
+                  설계했습니다.
                 </p>
               </div>
 
-              <div className="flex flex-wrap gap-2">
-                <Link
-                  href="/rankings"
-                  className="inline-flex h-9 items-center rounded-xl bg-[#169BF4] px-3 text-sm font-semibold text-white transition hover:bg-[#0A84E0]"
-                >
-                  위험 랭킹
-                </Link>
-                <Link
-                  href="/signals"
-                  className="inline-flex h-9 items-center rounded-xl border border-slate-300 bg-white px-3 text-sm font-semibold text-slate-700 transition hover:bg-slate-50"
-                >
-                  신호 인박스
-                </Link>
-                <Link
-                  href="/watchlist"
-                  className="inline-flex h-9 items-center rounded-xl border border-slate-300 bg-white px-3 text-sm font-semibold text-slate-700 transition hover:bg-slate-50"
-                >
-                  관심목록
-                </Link>
+              <div className="grid gap-3 sm:grid-cols-3">
+                <div className="rounded-[24px] border border-white/10 bg-white/10 p-5 backdrop-blur">
+                  <div className="text-[11px] font-black uppercase tracking-[0.18em] text-sky-300">
+                    01 Detect
+                  </div>
+                  <div className="mt-3 text-xl font-black tracking-[-0.04em]">
+                    위험 감지
+                  </div>
+                  <div className="mt-2 text-sm leading-7 text-slate-300">
+                    지역과 업종의 악화 신호를 먼저 포착합니다.
+                  </div>
+                </div>
+
+                <div className="rounded-[24px] border border-white/10 bg-white/10 p-5 backdrop-blur">
+                  <div className="text-[11px] font-black uppercase tracking-[0.18em] text-sky-300">
+                    02 Rank
+                  </div>
+                  <div className="mt-3 text-xl font-black tracking-[-0.04em]">
+                    우선순위화
+                  </div>
+                  <div className="mt-2 text-sm leading-7 text-slate-300">
+                    무엇을 먼저 볼지 랭킹과 시그날로 정리합니다.
+                  </div>
+                </div>
+
+                <div className="rounded-[24px] border border-white/10 bg-white/10 p-5 backdrop-blur">
+                  <div className="text-[11px] font-black uppercase tracking-[0.18em] text-sky-300">
+                    03 Act
+                  </div>
+                  <div className="mt-3 text-xl font-black tracking-[-0.04em]">
+                    실행 연결
+                  </div>
+                  <div className="mt-2 text-sm leading-7 text-slate-300">
+                    사업자 확인, 출점 판단, 점포 관리로 이어집니다.
+                  </div>
+                </div>
               </div>
             </div>
           </section>
 
-          <section className="grid gap-3 sm:grid-cols-2 xl:grid-cols-4">
-            <MetricCard
-              title="전체 위험 행"
-              value={formatNumber(distribution?.total_rows)}
-              description="현재 통합 위험 대상"
-            />
-            <MetricCard
-              title="치명"
-              value={formatNumber(distribution?.critical_count)}
-              description="가장 먼저 개입해야 할 구간"
-              tone="danger"
-            />
-            <MetricCard
-              title="주의"
-              value={formatNumber(distribution?.medium_count)}
-              description="추가 악화 전 점검 대상"
-              tone="warning"
-            />
-            <MetricCard
-              title="조인 누락"
-              value={formatNumber(gapRows.length)}
-              description="외부 압력 연결 상태"
-              tone="observe"
-            />
+          <section className="rounded-[36px] border border-slate-200 bg-white p-6 shadow-sm sm:p-8 lg:p-10">
+            <div className="grid gap-8 lg:grid-cols-[minmax(0,0.82fr)_minmax(0,1.18fr)] lg:items-end">
+              <div>
+                <div className="text-[11px] font-black uppercase tracking-[0.18em] text-[#0A6FD6]">
+                  How To Use
+                </div>
+
+                <h2 className="mt-3 text-3xl font-black leading-tight tracking-[-0.055em] text-slate-950 sm:text-5xl">
+                  들어오자마자
+                  <br />
+                  무엇을 해야 할지 보이게.
+                </h2>
+
+                <p className="mt-4 text-sm leading-8 text-slate-600 sm:text-base">
+                  사용자가 누구인지에 따라 입구를 분리했습니다. 소상공인은
+                  위험 확인으로, 프랜차이즈 본사는 출점·운영 판단으로 바로
+                  이동합니다.
+                </p>
+              </div>
+
+              <div className="grid gap-3 sm:grid-cols-3">
+                <StepCard
+                  number="1"
+                  title="지역·업종을 본다"
+                  description="내 사업장 또는 출점 후보지와 관련된 지역·업종부터 확인합니다."
+                />
+
+                <StepCard
+                  number="2"
+                  title="위험 신호를 고른다"
+                  description="지금 악화되는 신호, 위험 랭킹, 우선 확인 대상을 빠르게 파악합니다."
+                />
+
+                <StepCard
+                  number="3"
+                  title="판단으로 연결한다"
+                  description="소상공인은 대응 포인트를, 본사는 출점·관리 우선순위를 결정합니다."
+                />
+              </div>
+            </div>
           </section>
 
-          <div className="grid gap-4 xl:grid-cols-[minmax(0,1fr)_320px]">
-            <div className="space-y-4">
-              <SectionCard
-                title="상위 위험 순위"
-                subtitle="가장 먼저 봐야 할 상위 위험 조합"
-                href="/rankings"
-              >
-                {topRows.length === 0 ? (
-                  <div className="rounded-xl border border-dashed border-slate-200 bg-slate-50 px-4 py-8 text-sm text-slate-500">
-                    표시할 위험 순위가 없습니다.
-                  </div>
-                ) : (
-                  <div className="space-y-3">
-                    {topRows.map((row, index) => {
-                      const regionCode = normalizeRegionCode(row.region_code);
-                      const detailHref =
-                        regionCode && row.category_id != null
-                          ? `/regions/${encodeURIComponent(regionCode)}/${encodeURIComponent(
-                              String(row.category_id),
-                            )}#db-insight`
-                          : "/rankings";
+          <section className="grid gap-4 lg:grid-cols-3">
+            <ExploreCard
+              href={rankingsHref}
+              title="랭킹"
+              description="지역·업종별 위험 우선순위를 먼저 확인하는 공간입니다."
+              label="랭킹 보기"
+            />
 
-                      return (
-                        <article
-                          key={`${topIdentity(row)}-${index}`}
-                          className="rounded-[18px] border border-slate-200 bg-slate-50 p-4 transition hover:border-[#BFE3FF] hover:bg-white"
-                        >
-                          <div className="flex flex-col gap-3 xl:flex-row xl:items-start xl:justify-between">
-                            <div className="min-w-0 flex-1">
-                              <div className="flex flex-wrap items-center gap-2">
-                                <span className="inline-flex h-7 items-center rounded-full border border-slate-300 bg-white px-2.5 text-xs font-bold text-slate-700">
-                                  #{index + 1}
-                                </span>
-                                <span
-                                  className={`inline-flex h-7 items-center rounded-full border px-2.5 text-xs font-bold ${statusTone(
-                                    row.integrated_signal_score,
-                                  )}`}
-                                >
-                                  {integratedLabel(row.integrated_signal_score)}
-                                </span>
-                                <span
-                                  className={`inline-flex h-7 items-center rounded-full border px-2.5 text-xs font-bold ${pressureTone(
-                                    row.pressure_grade,
-                                  )}`}
-                                >
-                                  {pressureLabel(row.pressure_grade)}
-                                </span>
-                              </div>
+            <ExploreCard
+              href={signalsHref}
+              title="시그날"
+              description="오늘 먼저 확인해야 할 위험 신호를 인박스처럼 보는 공간입니다."
+              label="시그날 보기"
+            />
 
-                              <div className="mt-2">
-                                <Link
-                                  href={detailHref}
-                                  className="text-lg font-black tracking-[-0.03em] text-slate-950 transition hover:text-[#0A6FD6]"
-                                >
-                                  {row.region_name ?? regionCode} · {row.category_name ?? row.category_id}
-                                </Link>
-                              </div>
-
-                              <div className="mt-3 grid gap-2 sm:grid-cols-2 xl:grid-cols-4">
-                                <div className="rounded-xl border border-rose-200 bg-rose-50 px-3 py-2">
-                                  <div className="text-[10px] font-semibold text-rose-700">통합 위험</div>
-                                  <div className="mt-1 font-bold text-rose-700">
-                                    {formatScore(row.integrated_signal_score, 1)}
-                                  </div>
-                                </div>
-                                <div className="rounded-xl border border-amber-200 bg-amber-50 px-3 py-2">
-                                  <div className="text-[10px] font-semibold text-amber-700">내부 위험</div>
-                                  <div className="mt-1 font-bold text-amber-700">
-                                    {formatScore(row.adjusted_score, 1)}
-                                  </div>
-                                </div>
-                                <div className="rounded-xl border border-slate-200 bg-white px-3 py-2">
-                                  <div className="text-[10px] font-semibold text-slate-500">전국 비중</div>
-                                  <div className="mt-1 font-bold text-slate-800">
-                                    {formatPercent(row.national_share_pct, 4)}
-                                  </div>
-                                </div>
-                                <div className="rounded-xl border border-slate-200 bg-white px-3 py-2">
-                                  <div className="text-[10px] font-semibold text-slate-500">전년 폐업증감</div>
-                                  <div className="mt-1 font-bold text-slate-800">
-                                    {formatPercent(row.yoy_closed_delta_pct, 4)}
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-
-                            <div className="grid grid-cols-2 gap-2 xl:w-[180px] xl:grid-cols-1">
-                              <Link
-                                href={detailHref}
-                                className="inline-flex h-9 items-center justify-center rounded-xl border border-slate-300 bg-white px-3 text-sm font-semibold text-slate-700 transition hover:bg-slate-50"
-                              >
-                                상세 보기
-                              </Link>
-                              <Link
-                                href="/signals"
-                                className="inline-flex h-9 items-center justify-center rounded-xl bg-[#169BF4] px-3 text-sm font-semibold text-white transition hover:bg-[#0A84E0]"
-                              >
-                                신호 보기
-                              </Link>
-                            </div>
-                          </div>
-                        </article>
-                      );
-                    })}
-                  </div>
-                )}
-              </SectionCard>
-
-              <SectionCard
-                title="지역별 위험 요약"
-                subtitle={`현재 집계 지역 ${formatNumber(regionCount)}곳`}
-                href="/rankings"
-              >
-                {regionAggregates.length === 0 ? (
-                  <div className="rounded-xl border border-dashed border-slate-200 bg-slate-50 px-4 py-8 text-sm text-slate-500">
-                    표시할 지역 집계가 없습니다.
-                  </div>
-                ) : (
-                  <div className="grid gap-3 sm:grid-cols-2 xl:grid-cols-4">
-                    {regionAggregates.map((row, index) => (
-                      <div
-                        key={`${normalizeRegionCode(row.region_code)}-${index}`}
-                        className="rounded-xl border border-slate-200 bg-slate-50 p-3"
-                      >
-                        <div className="flex items-center justify-between gap-2">
-                          <div className="truncate text-sm font-black text-slate-950">
-                            {row.region_name ?? row.region_code}
-                          </div>
-                          <span
-                            className={`inline-flex h-6 items-center rounded-full border px-2 text-[10px] font-bold ${statusTone(
-                              row.avg_integrated_signal_score,
-                            )}`}
-                          >
-                            {integratedLabel(row.avg_integrated_signal_score)}
-                          </span>
-                        </div>
-
-                        <div className="mt-3 grid grid-cols-2 gap-2 text-[11px]">
-                          <div className="rounded-lg border border-slate-200 bg-white px-2.5 py-2">
-                            <div className="text-[10px] font-semibold text-slate-500">평균 위험</div>
-                            <div className="mt-1 font-bold text-slate-800">
-                              {formatScore(row.avg_integrated_signal_score, 1)}
-                            </div>
-                          </div>
-                          <div className="rounded-lg border border-slate-200 bg-white px-2.5 py-2">
-                            <div className="text-[10px] font-semibold text-slate-500">최대 위험</div>
-                            <div className="mt-1 font-bold text-slate-800">
-                              {formatScore(row.max_integrated_signal_score, 1)}
-                            </div>
-                          </div>
-                          <div className="rounded-lg border border-slate-200 bg-white px-2.5 py-2">
-                            <div className="text-[10px] font-semibold text-slate-500">행 수</div>
-                            <div className="mt-1 font-bold text-slate-800">
-                              {formatNumber(row.row_count)}
-                            </div>
-                          </div>
-                          <div className="rounded-lg border border-slate-200 bg-white px-2.5 py-2">
-                            <div className="text-[10px] font-semibold text-slate-500">전년 증감</div>
-                            <div className="mt-1 font-bold text-slate-800">
-                              {formatPercent(row.yoy_closed_delta_pct_avg, 2)}
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    ))}
-                  </div>
-                )}
-              </SectionCard>
-            </div>
-
-            <aside className="space-y-4">
-              <SectionCard title="위험 분포" subtitle="시그니처 블루는 정보성 강조에만 사용합니다.">
-                <div className="grid gap-2">
-                  <div className="rounded-xl border border-rose-200 bg-rose-50 px-3 py-2.5">
-                    <div className="text-[11px] font-semibold text-rose-700">치명</div>
-                    <div className="mt-1 text-xl font-black text-rose-700">
-                      {formatNumber(distribution?.critical_count)}
-                    </div>
-                  </div>
-                  <div className="rounded-xl border border-orange-200 bg-orange-50 px-3 py-2.5">
-                    <div className="text-[11px] font-semibold text-orange-700">높음</div>
-                    <div className="mt-1 text-xl font-black text-orange-700">
-                      {formatNumber(distribution?.high_count)}
-                    </div>
-                  </div>
-                  <div className="rounded-xl border border-amber-200 bg-amber-50 px-3 py-2.5">
-                    <div className="text-[11px] font-semibold text-amber-700">주의</div>
-                    <div className="mt-1 text-xl font-black text-amber-700">
-                      {formatNumber(distribution?.medium_count)}
-                    </div>
-                  </div>
-                  <div className="rounded-xl border border-sky-200 bg-[#F2FAFF] px-3 py-2.5">
-                    <div className="text-[11px] font-semibold text-[#0A6FD6]">관찰</div>
-                    <div className="mt-1 text-xl font-black text-[#0A6FD6]">
-                      {formatNumber(distribution?.low_count)}
-                    </div>
-                  </div>
-                </div>
-              </SectionCard>
-
-              <SectionCard title="데이터 상태" subtitle="헤더 시그니처 블루와 맞춘 정보 카드입니다.">
-                <div className="rounded-xl border border-sky-200 bg-[#F2FAFF] px-3 py-3">
-                  <div className="text-xs font-semibold text-[#0A6FD6]">조인 누락</div>
-                  <div className="mt-1 text-2xl font-black tracking-[-0.04em] text-slate-950">
-                    {formatNumber(gapRows.length)}
-                  </div>
-                  <div className="mt-1 text-xs text-slate-600">
-                    외부 폐업압력 연결 누락 행 수
-                  </div>
-                </div>
-              </SectionCard>
-            </aside>
-          </div>
+            <ExploreCard
+              href={hqHref}
+              title="본사운영"
+              description="프랜차이즈 본사가 출점·점포관리·지역 방어를 판단하는 공간입니다."
+              label="본사운영 보기"
+            />
+          </section>
         </div>
       </section>
     </main>
