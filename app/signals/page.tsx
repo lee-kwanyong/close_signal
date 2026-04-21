@@ -189,7 +189,7 @@ function internalLabel(grade: string | null | undefined) {
   return "내부 미정";
 }
 
-function statusTone(score: number | null | undefined) {
+function riskTone(score: number | null | undefined) {
   const n = num(score, 0);
   if (score == null || !Number.isFinite(score)) {
     return "border-slate-200 bg-slate-50 text-slate-600";
@@ -207,17 +207,6 @@ function pressureTone(grade: string | null | undefined) {
   if (value === "moderate") return "border-amber-200 bg-amber-50 text-amber-700";
   if (value === "observe") return "border-sky-200 bg-[#F2FAFF] text-[#0A6FD6]";
   return "border-slate-200 bg-slate-50 text-slate-600";
-}
-
-function internalTone(score: number | null | undefined) {
-  const n = num(score, 0);
-  if (score == null || !Number.isFinite(score)) {
-    return "border-slate-200 bg-slate-50 text-slate-600";
-  }
-  if (n >= 80) return "border-rose-200 bg-rose-50 text-rose-700";
-  if (n >= 60) return "border-orange-200 bg-orange-50 text-orange-700";
-  if (n >= 40) return "border-amber-200 bg-amber-50 text-amber-700";
-  return "border-sky-200 bg-[#F2FAFF] text-[#0A6FD6]";
 }
 
 function normalizeBand(value?: string): ActionBand | "all" {
@@ -272,9 +261,9 @@ function inferActionBand(row: IntegratedTopRow): ActionBand {
 function bandLabel(band: ActionBand) {
   switch (band) {
     case "intake_now":
-      return "바로 인테이크";
+      return "즉시";
     case "review_today":
-      return "오늘 검토";
+      return "검토";
     case "watch":
       return "관찰";
     case "archive":
@@ -509,7 +498,7 @@ function MetricCard({
   );
 }
 
-function SmallStateCard({
+function StateCard({
   title,
   value,
   tone = "default",
@@ -599,7 +588,7 @@ export default async function SignalsPage({
                   위험 신호 인박스
                 </h1>
                 <p className="mt-2 text-sm leading-6 text-slate-600">
-                  실행할 신호만 남기고, 통합 위험/내부 위험/외부 압력만 보이게 단순화했습니다.
+                  먼저 볼 것만 남기고, 통합 위험·내부 위험·외부 압력만 빠르게 확인하도록 정리했습니다.
                 </p>
               </div>
 
@@ -621,15 +610,15 @@ export default async function SignalsPage({
 
             <div className="mt-4 grid gap-3 sm:grid-cols-2 xl:grid-cols-4">
               <MetricCard
-                title="치명/즉시"
+                title="즉시 확인"
                 value={formatNumber(intakeNowCount)}
-                description="즉시 개입 우선"
+                description="가장 먼저 봐야 할 항목"
                 tone="danger"
               />
               <MetricCard
-                title="주의/검토"
+                title="오늘 검토"
                 value={formatNumber(reviewTodayCount)}
-                description="오늘 안에 검토"
+                description="오늘 안에 확인"
                 tone="warning"
               />
               <MetricCard
@@ -827,22 +816,22 @@ export default async function SignalsPage({
                             </div>
 
                             <div className="mt-3 grid gap-2 sm:grid-cols-2 xl:grid-cols-4">
-                              <SmallStateCard
+                              <StateCard
                                 title="통합 위험"
                                 value={formatScore(row.integrated_signal_score, 1)}
                                 tone={num(row.integrated_signal_score, 0) >= 65 ? "danger" : num(row.integrated_signal_score, 0) >= 45 ? "warning" : "observe"}
                               />
-                              <SmallStateCard
+                              <StateCard
                                 title="내부 위험"
                                 value={formatScore(row.adjusted_score, 1)}
                                 tone={num(row.adjusted_score, 0) >= 60 ? "danger" : num(row.adjusted_score, 0) >= 40 ? "warning" : "observe"}
                               />
-                              <SmallStateCard
+                              <StateCard
                                 title="외부 압력"
                                 value={pressureLabel(row.pressure_grade)}
                                 tone={String(row.pressure_grade || "").toLowerCase() === "critical" ? "danger" : String(row.pressure_grade || "").toLowerCase() === "high" || String(row.pressure_grade || "").toLowerCase() === "moderate" ? "warning" : "observe"}
                               />
-                              <SmallStateCard
+                              <StateCard
                                 title="기준월"
                                 value={formatRelativeMonth(row.score_month)}
                               />
