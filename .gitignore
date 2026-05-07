@@ -1,10 +1,12 @@
-﻿node_modules
+node_modules
 .next
 .env
 .env.local
 .env*.local
 .e2e_state.json
 .vercel
+archive
+archive/**
 data
 data/**
 .DS_Store
