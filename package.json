@@ -1,0 +1,36 @@
+{
+  "name": "growth-signal-300-final-supabase-vercel",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "typecheck": "tsc --noEmit",
+    "seed:demo": "tsx scripts/seed-demo-customer.ts",
+    "smoke": "tsx scripts/smoke.ts",
+    "import:sample": "tsx scripts/import-sample-data.ts",
+    "import:semas": "tsx scripts/import-semas-store.ts",
+    "import:market": "tsx scripts/import-seoul-market.ts",
+    "import:living": "tsx scripts/import-living-population.ts",
+    "inspect:collected": "tsx scripts/inspect-collected-raw.ts",
+    "import:collected-semas": "tsx scripts/import-collected-semas-store.ts",
+    "smoke:growth-care": "tsx scripts/smoke-growth-care-flow.ts"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.45.4",
+    "csv-parse": "^5.5.6",
+    "dotenv": "^16.4.5",
+    "next": "^14.2.5",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.10",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "tsx": "^4.19.1",
+    "typescript": "^5.5.3"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "crons": [
+    {
+      "path": "/api/cron/action-effectiveness",
+      "schedule": "0 18 * * *"
+    },
+    {
+      "path": "/api/cron/customer-success-queue",
+      "schedule": "30 18 * * *"
+    }
+  ],
+  "functions": {
+    "app/api/**/*.ts": {
+      "maxDuration": 300
+    }
+  }
+}
