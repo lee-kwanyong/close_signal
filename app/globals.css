@@ -1798,3 +1798,251 @@ code {
   outline: none;
   background: #ffffff;
 }
+/* Growth Signal UX Pack 1~5 */
+.hero-home {
+  padding: 34px;
+  display: grid;
+  grid-template-columns: minmax(0, 1.25fr) minmax(320px, 0.75fr);
+  gap: 28px;
+  align-items: center;
+}
+
+.form-label {
+  display: grid;
+  gap: 7px;
+  font-weight: 850;
+}
+
+.form-label span {
+  font-size: 13px;
+  color: var(--muted);
+}
+
+.input {
+  width: 100%;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  padding: 13px 14px;
+  background: white;
+  color: var(--text);
+  outline: none;
+}
+
+.input:focus {
+  border-color: var(--brand);
+  box-shadow: 0 0 0 4px rgba(51,92,255,0.10);
+}
+
+.reason-list {
+  display: grid;
+  gap: 13px;
+  margin-top: 14px;
+}
+
+.reason-item {
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  background: white;
+  padding: 14px;
+}
+
+.reason-item strong {
+  display: block;
+}
+
+.reason-item p {
+  margin: 7px 0;
+}
+
+.mini-impact {
+  display: inline-flex;
+  font-size: 12px;
+  font-weight: 900;
+  color: var(--muted);
+}
+
+.mini-impact.green {
+  color: var(--green);
+}
+
+.mini-impact.red {
+  color: var(--red);
+}
+
+.data-source-strip {
+  margin-top: 16px;
+  padding: 14px;
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  background: #fff;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.data-source-strip span {
+  border-radius: 999px;
+  background: var(--brand-soft);
+  color: var(--brand);
+  font-size: 12px;
+  font-weight: 850;
+  padding: 6px 10px;
+}
+
+.history-list {
+  display: grid;
+  gap: 12px;
+}
+
+.history-item {
+  display: grid;
+  grid-template-columns: 95px 1fr 70px;
+  gap: 12px;
+  align-items: center;
+  padding: 12px;
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  background: #fff;
+}
+
+.history-item strong {
+  display: block;
+  font-size: 20px;
+  letter-spacing: -0.04em;
+}
+
+.history-item span {
+  color: var(--muted);
+  font-size: 12px;
+}
+
+.history-line {
+  height: 8px;
+  border-radius: 999px;
+  background: linear-gradient(90deg, var(--brand), #74a1ff);
+}
+
+.history-diff {
+  text-align: right;
+  font-weight: 900;
+  color: var(--muted);
+}
+
+.history-diff.up {
+  color: var(--green);
+}
+
+.check-row {
+  cursor: pointer;
+  grid-template-columns: 20px 1fr;
+}
+
+.check-row input {
+  width: 16px;
+  height: 16px;
+}
+
+.completion-feedback {
+  margin-top: 18px;
+  border: 1px solid rgba(13,159,110,.25);
+  border-radius: 20px;
+  background: var(--green-soft);
+  padding: 18px;
+}
+
+.completion-feedback h3 {
+  margin: 10px 0 12px;
+}
+
+.score-change-row {
+  display: grid;
+  grid-template-columns: 1fr 36px 1fr;
+  gap: 12px;
+  align-items: center;
+  margin: 12px 0;
+}
+
+.score-change-row > div:not(.score-arrow) {
+  background: white;
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  padding: 14px;
+}
+
+.score-change-row span {
+  display: block;
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.score-change-row strong {
+  display: block;
+  font-size: 26px;
+  letter-spacing: -0.05em;
+}
+
+.score-arrow {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 900;
+  color: var(--green);
+}
+
+.share-page {
+  min-height: 100vh;
+  padding: 44px 24px;
+  background: #f6f7fb;
+}
+
+.share-card {
+  width: min(980px, 100%);
+  margin: 0 auto;
+  background: white;
+  border: 1px solid var(--line);
+  border-radius: 28px;
+  padding: 34px;
+  box-shadow: var(--shadow);
+}
+
+.share-score-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 12px;
+  margin-top: 22px;
+}
+
+.share-score-grid > div {
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  padding: 16px;
+  background: #fbfcff;
+}
+
+.share-score-grid span {
+  display: block;
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 850;
+}
+
+.share-score-grid strong {
+  display: block;
+  font-size: 30px;
+  letter-spacing: -0.05em;
+  margin-top: 5px;
+}
+
+.share-score-main {
+  background: var(--brand-soft) !important;
+}
+
+@media (max-width: 900px) {
+  .hero-home,
+  .grid.two,
+  .grid.three,
+  .share-score-grid {
+    grid-template-columns: 1fr;
+  }
+}
